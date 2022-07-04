@@ -1,0 +1,27 @@
+# :url_sdk: master@lisk-sdk:ROOT:
+# :url_protocol: master@lisk-sdk:protocol:
+# :url_core: master@lisk-core:ROOT:
+# :url_service: master@lisk-service:ROOT:
+
+
+////
+* Best Practices
+** xref:best-practices/if-things.adoc[]
+** xref:best-practices/index.adoc[]
+** xref:best-practices/view-bindings.adoc[]
+////
+
+
+* Basics
+** xref:basics/index.adoc[Nativescript Basics]
+** xref:basics/environment-setup.adoc[]
+** xref:basics/development-workflow.adoc[]
+** xref:basics/understanding-packages.adoc[]
+** xref:basics/tutorial/index.adoc[Tutorials]
+*** xref:basics/tutorial/angular.adoc[]
+*** xref:basics/tutorial/react.adoc[]
+*** xref:basics/tutorial/vue.adoc[]
+*** xref:basics/tutorial/svelte.adoc[]
+*** xref:basics/tutorial/plain.adoc[]  
+
+* xref:glossary.adoc[]
