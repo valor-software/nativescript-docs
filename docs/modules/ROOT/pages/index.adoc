@@ -1,4 +1,4 @@
-= Overview - Lisk Documentation
+= Overview - NativeScript Documentation
 :toclevels: 4
 :page-no-previous: true
 :url_protocol: master@lisk-sdk:protocol:
@@ -58,7 +58,7 @@
 :url_core: lisk-core::index.adoc
 :url_service: lisk-service::index.adoc
 
-Welcome to the official Lisk documentation!
+Welcome to the official NativeScript documentation!
 
 [.overview-banner]
 .Getting started image:bannerwhite.svg[]
@@ -74,9 +74,9 @@ Welcome to the official Lisk documentation!
 .xref:{url_understand}[image:index/icon-introduction.svg[]]
 ****
 [.overview-title]
-.xref:{url_understand}[Understand Blockchain]
+.xref:{url_understand}[Understand NativeScript]
 *****
-Explanations & descriptions about the main concepts and components of the Lisk blockchain.
+Explanations & descriptions about the main concepts and components of the NativeScript.
 *****
 ****
 |
@@ -84,10 +84,10 @@ Explanations & descriptions about the main concepts and components of the Lisk b
 .xref:{url_build}[image:index/icon-app.svg[]]
 ****
 [.overview-title]
-.xref:{url_build}[Build Blockchain]
+.xref:{url_build}[Build with NativeScript]
 *****
-Guides for blockchain developers.
-How to develop a blockchain application with the Lisk SDK, explained in different dedicated guides.
+Guides for NativeScript developers.
+How to develop a NativeScript application, explained in different dedicated guides.
 *****
 ****
 |
@@ -95,9 +95,9 @@ How to develop a blockchain application with the Lisk SDK, explained in differen
 .xref:{url_run}[image:index/icon-blockchain.svg[]]
 ****
 [.overview-title]
-.xref:{url_run}[Run Blockchain]
+.xref:{url_run}[Troubleshoot your app]
 *****
-Guides for node operators and delegates.
+Guides for troubleshooting your application.
 *****
 ****
 |
@@ -105,9 +105,9 @@ Guides for node operators and delegates.
 .xref:{url_integrate}[image:index/icon-node.svg[]]
 ****
 [.overview-title]
-.xref:{url_integrate}[Integrate Blockchain]
+.xref:{url_integrate}[Distribute your app]
 *****
-Guides how to integrate blockchain data in external applications & services.
+Guides how to distribute your application to the platform of choice.
 *****
 ****
 |
