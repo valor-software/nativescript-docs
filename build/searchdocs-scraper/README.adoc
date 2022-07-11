@@ -4,7 +4,7 @@
 :idprefix:
 :idseparator: -
 // Project URLs:
-:url-repo: https://gitlab.com/liskhq/lisk-docs
+:url-repo: https://gitlab.com/omfgnuts/nativescript-docs
 // External URLs:
 :url-algolia: https://www.algolia.com/doc/guides/getting-started/what-is-algolia/
 :url-docsearch-scraper-repo: https://github.com/algolia/docsearch-scraper
