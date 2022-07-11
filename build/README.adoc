@@ -1,26 +1,24 @@
-= Lisk Docs
+= NativeScript Docs
 :imagesdir: assets
 :toc: preamble
 
-Lisk uses https://antora.org/[Antora] as documentation generator.
+NativeScript uses https://antora.org/[Antora] as documentation generator.
 
-Click here to see the live version of the https://lisk.io/documentation/lisk-sdk/index.html[Lisk Documentation].
+Click here to see the live version of the https://xxx.org/index.html[CHANGE:NativeScript Documentation].
 
-xref:CONTRIBUTING.adoc[How to contribute to the Lisk Documentation]
+xref:CONTRIBUTING.adoc[How to contribute to the NativeScript Documentation]
 
 == Overview
 
 Content::
-The Content of the whole Lisk documentation is stored in branches:
+The Content of the whole NativeScript documentation is stored in branches:
 +
 ----
-docs-core
-docs-sdk
+main
 ----
-Documentation for previous versions of the SDK and Core is stored in branches following the naming convention:
+Documentation for previous versions of the NativeScript is stored in branches following the naming convention:
 +
 ----
-docs-core-VERSION
 docs-sdk-VERSION
 ----
 where `VERSION` is always referring to the corresponding software version.
@@ -30,11 +28,11 @@ The presentation of the documentation is stored completely seperate form the act
 It's stored on the `antora` branch.
 
 Building::
-The `build` branch stores the `site.yml` file, which is used to generate the Lisk Documentation using Antora.
+The `build` branch stores the `local-preview-site.yml` file, which is used to generate the NativeScript Documentation using Antora.
 
 == Building the documentation
 
-General workflow to follow, to update the Lisk documentation.
+General workflow to follow, to update the NativeScript documentation.
 
 === Prerequisites
 
@@ -89,7 +87,7 @@ And then, from the root directory, running `antora site.yml`.
 +
 [source,bash]
 ----
-cd lisk-sdk/framework/src/modules/http_api/schema
+cd path/to/schema
 swagger2markup convert -i ./swagger.yml -d ~/swagger-spec
 ----
 . Merge generated files and remove outdated links from description.

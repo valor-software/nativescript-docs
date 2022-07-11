@@ -1,7 +1,7 @@
 = NativeScript Docs
 :imagesdir: assets
 
-Lisk uses https://antora.org/[Antora] as documentation generator.
+NativeScript Docs uses https://antora.org/[Antora] as documentation generator.
 
 Click here to see the live version of the https://xxx.org/index.html[CHANGE:NativeScript Documentation].
 
@@ -27,11 +27,13 @@ The presentation of the documentation is stored near the actual content in ui/ d
 It will be stored on the `antora` branch.
 
 Building::
-The `build` branch stores the `local-preview-site.yml` file, which is used to generate the NativeScript Documentation using Antora for local preview.
+The `build` branch stores the `local-preview-site.yml` file, which is used to generate the NativeScript Documentation using Antora for local preview. 
+
+Please, change the `local-preview-site.yml` file to set up paths to the content and the UI.
 
 To build and preview the documentation, run `npx antora local-preview-site.yml` in the `build` directory.
 
-Although the site is viewable without a web server, you may still need to view your site through a web server to test certain features, such as indexified URLs, caching, or scripts that don't work over the file: protocol. You can use the http-server package for this purpose. http-server is a simple, static web server for Node.js.
+Although the site is viewable without a web server, you may still need to view your site through a web server to test certain features, such as indexed URLs, caching, or scripts that don't work over the file: protocol. You can use the http-server package for this purpose. http-server is a simple, static web server for Node.js.
 
 Install the http-server package globally using npm:
 
