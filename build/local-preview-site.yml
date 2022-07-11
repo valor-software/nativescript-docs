@@ -18,12 +18,12 @@ asciidoc:
   - ./lib/tabs-block/extension.js
 content:
   sources:
-  - url: /Users/ohmynuts/Documents/Work/lisk-docs/
+  - url: /Users/ohmynuts/Documents/GitHub/nativescript-docs/
     start_path: docs
 ui:
   bundle:
 #    url: https://github.com/LiskHQ/lisk-docs/raw/main/ui/build/ui-bundle.zip
-    url: /Users/ohmynuts/Documents/Work/lisk-docs/ui/build/ui-bundle
+    url: /Users/ohmynuts/Documents/GitHub/nativescript-docs/ui/build/ui-bundle
 #   url: ../ui/build/ui-bundle.zip
 
     snapshot: true

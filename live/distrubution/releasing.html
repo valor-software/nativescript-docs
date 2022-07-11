@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Releasing :: NativeScript Documentation</title>
+    <link rel="canonical" href="http://localhost:3000/distrubution/releasing.html">
+    <meta name="generator" content="Antora 3.0.2">
+
+  <link id="theme" rel="stylesheet" title="Default" href="../_/css/site.css">
+  <link rel="stylesheet" title="Dark" href="../_/css/dark-site.css">
+
+    <script>var uiRootPath = '../_'</script>
+    <script src="../_/js/vendor/medium-zoom.js"></script>
+    <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4db29b5-cd94-4bcf-87e4-04f4ca564240" data-blockingmode="manual"></script>
+
+<link rel="icon" href="../_/img/favicon.png" type="image/x-icon">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="top-logo">
+        <a href=".." class="lisk-logo"></a>
+        <a href=".." class="docs-logo"></a>
+      </div>
+      <!--<a class="navbar-item" href="http://localhost:3000">NativeScript Documentation</a>-->
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">APIs</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../xxx/api-ref.html">NativeScript API</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Plugins</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://nativescript.com" target="_blank">NativeScript Plugins</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../index.html">NativeScript Documentation</a>
+<!--
+  add more items here if needed
+-->
+          </div>
+        </div>
+        <button onclick="switch_style('toggle')" id="theme-toggle" class="theme-toggle navbar-item"></button>
+      </div>
+    </div>
+  </nav>
+</header><div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <div class="components-versions">
+      <div class="page-components">
+    <button class="component-menu-toggle" title="Show other documentations">NativeScript Documentation</button>
+    <div class="component-menu">
+        <a class="component is-current" href="../index.html">NativeScript Documentation</a>
+    </div>
+  </div>
+    <span></span>
+      </div>
+  <span></span>
+  <span></span>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">NativeScript Documentation</a></li>
+    <li><a href="releasing.html">Releasing</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/ohmynuts/Documents/GitHub/nativescript-docs//docs/modules/ROOT/pages/distrubution/releasing.adoc"><img class="pencil">Edit this Page</a></div>
+</div>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">NativeScript Documentation</a></h3>
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Basics</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/index.html">Nativescript Basics</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/environment-setup.html">Environment Setup</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/development-workflow.html">Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/understanding-packages.html">Understanding @nativescript</a>
+  </li>
+  <li class="nav-item parent" data-depth="2">
+    <button class="nav-item-toggle"></button>
+        <span>
+    <a class="nav-link" href="../basics/tutorial/index.html">Tutorials</a>
+        </span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/angular.html">Angular Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/react.html">React Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/vue.html">Vue Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/svelte.html">Svelte Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/plain.html">Plain Tutorial</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Running and building</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../running-and-building/webpack.html">Webpack</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">UI and Styling</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/app-resources.html">Understanding App_Resources</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/ui-and-styling.html">UI &amp; Styling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/interaction.html">Interaction</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Networking</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/http.html">Http</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/connectivity.html">Connectivity</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scalability</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../scalability/code-sharing.html">Code Sharing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Native API Access</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../native-api-access/access-and-use.html">Accessing Native Platform APIs</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Advanced Concepts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../advanced-concepts/advanced-concepts.html">Advanced Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Distribution</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#distribution/releasing.adoc">distribution/releasing.adoc</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../troubleshooting/troubleshooting.html">Troubleshooting Common Issues</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">NativeScript Documentation</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">NativeScript Documentation</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Releasing</h1>
+<div class="sect1">
+<h2 id="android"><a class="anchor" href="#android"></a>Android</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="overview"><a class="anchor" href="#overview"></a>Overview</h3>
+<div class="paragraph">
+<p>You can publish a NativeScript app in <em>Google Play</em> the same way <a href="http://developer.android.com/tools/publishing/publishing_overview.html">you would release a purely native Android app</a>.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make sure that you have a <code>.keystore</code> file to sign your app with. For more information, see <a href="http://developer.android.com/tools/publishing/app-signing.html#signing-manually">How to create a .keystore file</a>?</p>
+</li>
+<li>
+<p>Build your project in release mode by running the following command:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release \
+  --key-store-path &lt;path-to-your-keystore&gt; \
+  --key-store-password &lt;your-key-store-password&gt; \
+  --key-store-alias &lt;your-alias-name&gt; \
+  --key-store-alias-password &lt;your-alias-password&gt;</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>At the end of <code>&lt;path-to-your-keystore&gt;</code> you should also add the exact name of your keystore.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>Example</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release --key-store-path C:\keystore\NativeScriptApp.keystore --key-store-password sample_password --key-store-alias NativeScriptApp --key-store-alias-password sample_password</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release --key-store-path ~/Desktop/keystore/NativeScriptApp.keystore --key-store-password sample_password --key-store-alias NativeScriptApp --key-store-alias-password sample_password</code></pre>
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Obtain the release <code>.apk</code> located at <code>&lt;app_name&gt;/platforms/android/app/build/outputs/apk/&lt;app_name&gt;-release.apk</code>. 5. Publish your Android app by uploading the <code>.apk</code> file to the Google Developer Console. For more information, see <a href="http://developer.android.com/distribute/googleplay/start.html">How to publish an Android app?</a></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="application-id-and-package-name"><a class="anchor" href="#application-id-and-package-name"></a>Application Id and Package Name</h3>
+<div class="paragraph">
+<p>Both <em>Package Name</em>, and <em>Application Id</em>, are unique identifiers, provided by you for your app.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Package Name</em> is used to identify resources such as the <code>R</code>.</p>
+</li>
+<li>
+<p><em>Application Id</em> is used to identify your app on devices and at the <em>Google Play</em>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In the NativeScript framework, both are set to the <code>applicationId</code> in <code>app.gradle</code>.
+The NativeScript CLI build system will set them as the <code>package</code> attribute in the generated project in <code>platforms/android/src/main/AndroidManifest.xml</code>.
+In the <code>app/App_Resources/Android/AndroidManifest.xml</code> it will use a placeholder: <code>package="<em>PACKAGE</em>"</code>. Do <strong>not</strong> modify the <code>package</code> attribute there.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>To edit the <em>Package Name</em> and the <em>Application Id</em>, modify the <code>package.json</code> of your app and set the <code>nativescript.id</code> key.
+You may need to delete <code>platforms/android</code> and rebuild using the CLI command <code>ns prepare android</code>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p><a href="http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename">Read more about "ApplicationId versus PackageName"</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="app-name"><a class="anchor" href="#app-name"></a>App name</h3>
+<div class="paragraph">
+<p>This is the display name for your app. It is purely cosmetic but highly important. For example, it appears under the app icon.
+The value can be set via the <code>App_Resources/Android/src/main/res/values/strings.xml</code> file. Creating your own <code>strings.xml</code> will require population of the <code>app_name</code> and <code>title_activity_kimera</code> attributes explicitly, like so:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-XML hljs" data-lang="XML">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;string name="app_name"&gt;MyAppName&lt;/string&gt;
+    &lt;string name="title_activity_kimera"&gt;MyAppName&lt;/string&gt;
+&lt;/resources&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>By default (or if the project lacks the values above) your application name is generated with the <code>create</code> command (e.g. <code>ns create testApp</code> will have app name <strong>testApp</strong>)</p>
+</div>
+<div class="paragraph">
+<p>You can check out more information about <a href="http://developer.android.com/guide/topics/manifest/application-element.html">the elements you can define in the <code>AndroidManifest.xml</code> here</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="app-icons"><a class="anchor" href="#app-icons"></a>App icons</h3>
+<div class="paragraph">
+<p>App icons are defined similar to the app name.
+The icon name is defined in the <code>app/App_Resources/Android/AndroidManifest.xml</code> file, as an <code>android:icon="@drawable/icon"</code> attribute, on the <code>&lt;application&gt;</code> element.</p>
+</div>
+<div class="paragraph">
+<p>The actual .PNG icons stay at the Android resources in <code>app/App_Resource/Android/&lt;DPI&gt;/icon.png</code>, DPIs:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">directory</th>
+<th class="tableblock halign-left valign-top">DPI</th>
+<th class="tableblock halign-left valign-top">screen</th>
+<th class="tableblock halign-left valign-top">size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-ldpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">120</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Low density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">36px x 36px</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-mdpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">160</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Medium density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">48px x 48px</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-hdpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">240</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">High density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">72px x 72px</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-xhdpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">320</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Extra-high density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">96px x 96px</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-xxhdpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">480</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Extra-extra-high density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">144px x 144px</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>drawable-xxxhdpi</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">640</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Extra-extra-extra-high density screen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">192px x 192px</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>NativeScript supports adaptive icons on Android 8 and above (API 26+). No code changes are required - follow the <a href="https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive">Android guidelines for creating adaptive icons</a> for your application.
+:::</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="launch-screen"><a class="anchor" href="#launch-screen"></a>Launch screen</h3>
+<div class="sect3">
+<h4 id="creating-launch-screens-for-android"><a class="anchor" href="#creating-launch-screens-for-android"></a>Creating Launch Screens for Android</h4>
+<div class="paragraph">
+<p>Launch screens are essential as they provide a user&#8217;s first experience with your mobile application.
+Based on <a href="https://material.io/design/communication/launch-screen.html">Google&#8217;s Material Design launch screens guidelines</a>, there are two
+main types of launch screens:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Placeholder UI: A simple seamless transaction type screen</p>
+</li>
+<li>
+<p>Branded Launch Screens: A screen providing the user with momentary brand exposure and focus on the content</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Instead of displaying a blank white canvas while your app is loading,
+creating a launch screen will not only "fill the gap" but also provide the basic introduction
+for your users. These basic rules for creating both types of launch screens
+are good to follow to create a good first impression:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>avoid using text (except for your logo and tagline)</p>
+</li>
+<li>
+<p>avoid using animations (your launch should be as light as possible)</p>
+</li>
+<li>
+<p>avoid reusing your launch screen inside your application</p>
+</li>
+<li>
+<p>follow Google&#8217;s <a href="https://material.io/">Material design</a> rules</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="setting-launch-screen-and-app-icons"><a class="anchor" href="#setting-launch-screen-and-app-icons"></a>Setting launch screen and app icons</h4>
+<div class="paragraph">
+<p>In NativeScript, your application template (created with <code>ns create myApp</code>) ships with a basic launch screen template.
+In this article, we are going to introduce the workflow to create/modify your own launch screen.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="application-resources-used-for-launch-screen-creation"><a class="anchor" href="#application-resources-used-for-launch-screen-creation"></a>Application resources used for launch screen creation</h4>
+<div class="paragraph">
+<p>The default template in NativeScript (created with <code>ns create myApp</code>) provides you with a predefined
+<strong>splash_screen.xml</strong> file with the NativeScript logo on a blue background and with sample app icons.
+To modify that template and create your own launch screen using your own assets and design, you will need to access
+the files located under the <strong>app/App_Resources/Android</strong> folder.
+Let&#8217;s look at the various files and folders in App_Resources/Android
+and then look at the specific steps you&#8217;ll need to take to change them and configure your launch screen.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>drawable</strong> folders: In your <strong>app/App_Resources/Android</strong> folder you will find a number of subfolders named drawable-X (where x is the different DPI for the different devices)
+These folders will store your properly scaled images for your app icons, launch screens and in app images (optional).
+Here is the full list of your drawable resources folders.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>drawable-ldpi</strong>: Resources for low-density (ldpi) screens (~120dpi).</p>
+</li>
+<li>
+<p><strong>drawable-mdpi</strong>: Resources for medium-density (mdpi) screens (~160dpi). (This is the baseline density.)</p>
+</li>
+<li>
+<p><strong>drawable-hdpi</strong>: Resources for high-density (hdpi) screens (~240dpi).</p>
+</li>
+<li>
+<p><strong>drawable-nodpi</strong>: Resources for all densities. These are density-independent resources. The system does not scale resources tagged with this qualifier, regardless of the current screen&#8217;s density.</p>
+<div class="paragraph">
+<p>:::tip Important</p>
+</div>
+<div class="paragraph">
+<p>In NativeScript this is the folder that holds <strong>splash_screen.xml</strong> &ndash; the file that creates your launch screen.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+</dl>
+</div>
+</li>
+<li>
+<p><strong>drawable-xdpi</strong>: Resources for extra-high-density (xhdpi) screens (~320dpi).</p>
+</li>
+<li>
+<p><strong>drawable-xxdpi</strong>: Resources for extra-extra-high-density (xxhdpi) screens (~480dpi).</p>
+</li>
+<li>
+<p><strong>drawable-xxxdpi</strong>: Resources for extra-extra-extra-high-density (xxxhdpi) uses (~640dpi). Use this for the launcher icon only.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>values</strong> folder: XML files that contain simple values such as strings, integers, and colors.
+Here is the full list of the files that ship with the basic NativeScript template.</p>
+<div class="literalblock">
+<div class="content">
+<pre>* **colors.xml**: XML file in which the app colors are declared.
+* **strings.xml**: XML file in which the app string are declared.
+* **styles.xml**: XML file in which the app styles are declared.
+This file holds your `LaunchScreenTheme` style,
+which you can customize to change the `splash_screen.xml` mentioned above.
+Once your application is loaded, the `LaunchScreenTheme` is changed with the `AppTheme` style.</pre>
+</div>
+</div>
+</li>
+<li>
+<p><strong>values-v21</strong> folder: XML files that contain simple values, such as strings, integers, and colors.
+Used when you need to provide themes supported only on API Level 21+ (e.g., Theme.Material)</p>
+</li>
+<li>
+<p><strong>AndroidManifest.xml</strong> file: Every application must have an <code>AndroidManifest.xml</code> file (with precisely that name)
+in its root directory. The manifest file presents essential information about your app to the Android system &ndash;
+information the system must have before it can run any of the app&#8217;s code.
+In order to change your application icon file, you must modify the <code>android:icon</code> key in the <code>applcation</code> tag. &lt;Comment: Please review to enure I did not create a technical error. The original text was sort of hard to understand.&gt;
+The default app icon set up:</p>
+<div class="paragraph">
+<p><code>android:icon="@drawable/icon"</code></p>
+</div>
+<div class="paragraph">
+<p>The code above will look for the file named <strong>icon.png</strong> in the drawable folder and will load the properly scaled image for the current device. &lt;Comment: Please review my rewrite of the sentence above to ensure I did not create an error. You had "drawables folders" but the command referred to a single folder (not plural).&gt;</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>:::tip Note
+In <code>AndroidManifest</code> you will find the following key:</p>
+</div>
+<div class="paragraph">
+<p><code>&lt;meta-data android:name="SET_THEME_ON_LAUNCH" android:resource="@style/AppTheme" /&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>This key is used by NativeScript to change your <code>LaunchScreenTheme</code> with <code>AppTheme</code> when your application is loading.
+:::</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="how-to-setup-a-custom-launch-screen"><a class="anchor" href="#how-to-setup-a-custom-launch-screen"></a>How to setup a custom launch screen</h4>
+<div class="paragraph">
+<p>In order to change the default NativeScript launch screen (defined in <code>drawable-nodpi/splash_screen.xml</code>) and create your own, follow these steps:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Put your properly scaled images into the corresponding <strong>drawable</strong> folders.
+This folder can be used not only for your launch screen images, but also for your app icons and for your
+in-app images (you can refer to this resource from your application logic with <code>"res://image-name"</code>).
+The default template app ships with three images: <strong>icon.png</strong> (used for app icon), <strong>logo.png</strong> (centered sample image)
+and <strong>background.png</strong> (image used to fill the background).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The default <strong>splash_screen.xml</strong> with centered <code>logo.png</code> and filled <code>background.png</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="fill"
+&gt;
+  &lt;item&gt;
+    &lt;bitmap android:gravity="fill" android:src="@drawable/background" /&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;bitmap android:gravity="center" android:src="@drawable/logo" /&gt;
+  &lt;/item&gt;
+&lt;/layer-list&gt;</code></pre>
+</div>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-android-005.png" alt="Setting images in drawable resource folders">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Define the colors you want to use in <strong>values/colors.xml</strong> and in <strong>values-v21/colors.xml</strong>.
+You can set your own colors and reuse them in the splash_screen.xml file for your launch screen (or reuse them in your app).</p>
+</li>
+</ol>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-android-002.png" alt="Setting colors in values folders">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Define the strings you want to use in <strong>values/strings.xml</strong> and in <strong>values-v21/strings.xml</strong>.
+You can set your own string here and reuse them in the <strong>splash_screen.xml</strong> file for your launch screen (or reuse them in your app).</p>
+</li>
+</ol>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-android-003.png" alt="Setting strings in values folders">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Define the styles and themes you want to use in <strong>values/styles.xml</strong> and in <strong>values-v21/styles.xml</strong>.
+Note that styles applied in the values-v21 folder will be applied only to devices with API 21+. &lt;Comment: Did you mean DPI 21+&gt;</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The default NativeScript template ships with two themes: <code>LaunchScreenTheme</code> (used for your initial launch)
+and <code>AppTheme</code> (used for your main application).</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-android-004.png" alt="Setting styles in values folders">
+</div>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>If your project comes with no folders <strong>values</strong>, <strong>values-v21</strong> and/or <strong>drawable-xxx</strong>, you can create them manually and add the files needed accordingly. Or you can use <a href="https://github.com/NativeScript/nativescript-marketplace-demo/tree/master/app/App_Resources/Android">the default set of styles and themes used in NativeScript</a>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>Notice that you can <strong>NOT</strong> have custom folders inside your App_Resources.
+Only folders that are required by the Android convention &lt;Comment: convention seems like the wrong word. Do you mean operating system?&gt; are allowed and they must be created with the exact names
+provided (e.g., <strong>values</strong>, <strong>values-v21</strong>, <strong>drawable</strong>). When adding new folders in your App_Resources you should reset your
+platform folder.</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns platform remove android
+ns platform add android</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once your launch screen is fully set, rebuild your application and your launch screen is ready.
+On some occasions, you might need to reset your platform folder as mentioned above.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="certificates"><a class="anchor" href="#certificates"></a>Certificates</h3>
+<div class="sect3">
+<h4 id="debug-certificate"><a class="anchor" href="#debug-certificate"></a>Debug certificate</h4>
+<div class="paragraph">
+<p>These are automatically generated by the Android SDK tools for you.</p>
+</div>
+<div class="paragraph">
+<p>In debug mode, you sign your app with a debug certificate.
+This certificate has a private key with a known password.
+The process is handled by the Android tooling.</p>
+</div>
+<div class="paragraph">
+<p>You can read more at <a href="http://developer.android.com/tools/publishing/app-signing.html">"Signing in Debug Mode"</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="release-certificate"><a class="anchor" href="#release-certificate"></a>Release certificate</h4>
+<div class="paragraph">
+<p>The release certificate for Android is created by you; it does not have to be signed by a certificate authority.
+It is easier to create a release certificate for Android than it is for iOS. You should, however, be more careful with your certificate.</p>
+</div>
+<div class="paragraph">
+<p>A few pitfalls are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You create the certificate only once. If you lose it, you will not be able to publish any updates to your app, because you must always sign all versions of your app with the same key.</p>
+</li>
+<li>
+<p>If your certificate expires, you will not be able to renew it. Ensure long validity when creating a new certificate (for 20+ years).</p>
+</li>
+<li>
+<p>If a third party obtains your private key, that party could sign and distribute apps that maliciously replace your authentic apps or corrupt them.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>You can generate a private key for a release certificate using the <a href="http://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html">keytool</a>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">keytool -genkey -v \
+  -keystore &lt;my-release-key&gt;.keystore \
+  -alias &lt;alias_name&gt; \
+  -keyalg RSA \
+  -keysize 2048 \
+  -validity 10000</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This will run an interactive session collecting information about your name, organization and most importantly &mdash; keystore and alias passwords.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="google-play-developer-console"><a class="anchor" href="#google-play-developer-console"></a>Google Play Developer Console</h3>
+<div class="paragraph">
+<p>You will need a developer account and you will need to log into the <a href="https://play.google.com/apps/publish/">Google Play Developer Console</a>.</p>
+</div>
+<div class="paragraph">
+<p>Go to the <strong>All applications</strong> section and click the <strong>+ Add new application</strong> button.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>You will get prompted to provide the app title</p>
+</li>
+<li>
+<p>You can then proceed with the store listings.</p>
+</li>
+<li>
+<p>You can fill in app description, screenshots and so on.</p>
+</li>
+<li>
+<p>You can also submit an APK. Read about how to obtain an APK from a NativeScript app.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="builds"><a class="anchor" href="#builds"></a>Builds</h3>
+<div class="sect3">
+<h4 id="build-versioning"><a class="anchor" href="#build-versioning"></a>Build versioning</h4>
+<div class="paragraph">
+<p>We have already explained how the <em>Application Id</em> is set in your project, how icons are added to your app and how you can set the display name.</p>
+</div>
+<div class="paragraph">
+<p>Before the build, you need to set two important things: the <em>versionCode</em> and the <em>android:versionName</em>.</p>
+</div>
+<div class="paragraph">
+<p>When a build is uploaded, its <em>versionCode</em> should be larger than previous builds.
+A new build with a higher <em>versionCode</em> is considered an upgrade to builds that have a lower <em>versionCode</em>.
+The <em>versionCode</em> is an integer so you should carefully consider a strategy for versioning.</p>
+</div>
+<div class="paragraph">
+<p>Both values are stored in <code>app/App_Resources/Android/AndroidManifest.xml</code>.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p><code>android:versionName</code> is a string value, which is used to represent the application version to the user whereas <code>android:versionCode</code>, which is integer value showing version of the application code relative to the other versions.
+You can read more about <a href="http://developer.android.com/tools/publishing/versioning.html">"Versioning Your Applications"</a>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>In the <code>app/App_Resources/Android/AndroidManifest.xml</code>, the <em>versionCode</em> and <em>versionName</em> appear as:</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.nativescript.name"
+      android:versionCode="2"
+      android:versionName="1.1"&gt;
+      ...</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="build-signed-release-apk"><a class="anchor" href="#build-signed-release-apk"></a>Build signed release APK</h4>
+<div class="paragraph">
+<p>You can perform a full build and produce a signed APK using the NativeScript CLI:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release \
+  --key-store-path &lt;path-to-your-keystore&gt; \
+  --key-store-password &lt;your-key-store-password&gt; \
+  --key-store-alias &lt;your-alias-name&gt; \
+  --key-store-alias-password &lt;your-alias-password&gt; \
+  --copy-to &lt;apk-location&gt;.apk</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can then use the produced <code>&lt;apk-location&gt;.apk</code> for upload to <em>Google Play</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="apks-with-abi-splits"><a class="anchor" href="#apks-with-abi-splits"></a>APKs with ABI splits</h3>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>The recommended approach for reducing the app size by splitting it per architecture is the <a href="#android-app-bundle">Android App Bundle</a> which is supported out of the box through the <code>--aab</code> NativeScript CLI flag.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>==== Android ABI split</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>If the recommended Android App Bundle approach is not applicable for you, an ABI split could be manually configured as an alternative. The ABI split approach will produce different apk files for the different architectures.
+To achieve this you need to enable ABI splits at <strong>app/App_Resources/Android/app.gradle</strong></p>
+</div>
+<div class="sect3">
+<h4 id="enable-abi-split"><a class="anchor" href="#enable-abi-split"></a>Enable ABI split</h4>
+<div class="listingblock">
+<div class="content">
+<pre>android {
+....
+  defaultConfig {
+    ....
+    ndk {
+      abiFilters.clear()
+    }
+  }
+  splits {
+    abi {
+      enable true //enables the ABIs split mechanism
+      reset() //reset the list of ABIs to be included to an empty string
+      include 'arm64-v8a', 'armeabi-v7a', 'x86'
+      universalApk true
+    }
+  }
+....</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="publishing-abi-split-apk"><a class="anchor" href="#publishing-abi-split-apk"></a>Publishing ABI split apk</h4>
+<div class="paragraph">
+<p>Now you will need to upload all built apk files in Google Play Developer Console. To achieve this the different apks need to have different Version Codes otherwise Google Play won&#8217;t allow adding them in the same version.
+To use different Version Codes you can add the following code in your <code>App_Resources/Android/app.gradle</code> which will prefix the different architecture apk Version Codes with different prefixes:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>project.ext.abiCodes = ['armeabi-v7a': 1, 'arm64-v8a': 2, 'x86': 3]
+
+android.applicationVariants.all { variant -&gt;
+    variant.outputs.each { output -&gt;
+        def baseAbiVersionCode = project.ext.abiCodes.get(output.getFilter("ABI"), 0)
+        if (baseAbiVersionCode != null) {
+            output.versionCodeOverride = baseAbiVersionCode * 10000000 + variant.versionCode
+        }
+    }
+}</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="submit-with-the-google-play-developer-console"><a class="anchor" href="#submit-with-the-google-play-developer-console"></a>Submit with the Google Play Developer Console</h4>
+<div class="paragraph">
+<p>To submit your app to the <em>Google Play Developer Console</em>:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log into the <a href="https://play.google.com/apps/publish">Google Play Developer Console</a>.</p>
+</li>
+<li>
+<p>Select your application and go to the <strong>APK</strong> section.</p>
+</li>
+<li>
+<p>Choose <em>Production</em>, <em>Beta</em> or <em>Alpha</em> stage and click the <strong>Upload new APK</strong>.</p>
+</li>
+<li>
+<p>Select the APK produced by the CLI.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can read more about these stages at <a href="https://support.google.com/googleplay/android-developer/answer/3131213?hl=en">"Set up alpha/beta tests"</a>.</p>
+</div>
+<div class="paragraph">
+<p>Once you upload your APK, it will go through a review. When approved, you can move it to production to make it available on <em>Google Play</em>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="android-app-bundle"><a class="anchor" href="#android-app-bundle"></a>Android App Bundle</h3>
+<div class="paragraph">
+<p>Android App Bundle is a new publishing format that contains all the compiled code and resources of your app, but leaves the actual APK generation and signing to Google Play. The store then uses the app bundle to generate and serve optimized APKs based on the device configuration of the specific user. In general, the benefit of using Android App Bundles is that you no longer have to build, sign, and manage multiple APKs to support different devices, and users get smaller, more optimized downloads. For more information about the Android App Bundle, see the About Android App Bundles article in the official <a href="https://developer.android.com/guide/app-bundle/">Android Developer documentation</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="produce-android-app-bundle"><a class="anchor" href="#produce-android-app-bundle"></a>Produce Android App Bundle</h4>
+<div class="paragraph">
+<p>You can perform a full build and produce a signed AAB using the NativeScript CLI:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release \
+  --key-store-path &lt;path-to-your-keystore&gt; \
+  --key-store-password &lt;your-key-store-password&gt; \
+  --key-store-alias &lt;your-alias-name&gt; \
+  --key-store-alias-password &lt;your-alias-password&gt; \
+  --aab \
+  --copy-to &lt;aab-location&gt;.aab</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="changing-the-default-target-architectures"><a class="anchor" href="#changing-the-default-target-architectures"></a>Changing the default target architectures</h4>
+<div class="paragraph">
+<p>:::warning Warning</p>
+</div>
+<div class="paragraph">
+<p>Filtering the target architectures does not reduce the app size, it just drops the support for the devices and emulators using the missing architecture.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>By default, the generated <code>aab</code> file supports all of the available device architectures - <code>armeabi-v7a</code>, <code>arm64-v8a</code>, <code>x86</code> and <code>x86_64</code>. This behavior can be overridden from your <code>App_Resources/Android/app.gradle</code>'s <code>apiFilters</code> property:</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>android {
+....
+  defaultConfig {
+    ....
+    ndk {
+      abiFilters.clear()
+      abiFilters "x86_64", "x86", "arm64-v8a", "armeabi-v7a"
+    }
+  }
+....</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="testing-the-produced-aab-file"><a class="anchor" href="#testing-the-produced-aab-file"></a>Testing the produced <code>.aab</code> file</h4>
+<div class="paragraph">
+<p>Starting from NativeScript CLI 6.2.0, the Android App Bundle is supported out of the box by the <code>ns run</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns run android \
+  --key-store-path &lt;path-to-your-keystore&gt; \
+  --key-store-password &lt;your-key-store-password&gt; \
+  --key-store-alias &lt;your-alias-name&gt; \
+  --key-store-alias-password &lt;your-alias-password&gt; \
+  --aab</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="testing-the-produced-aab-file-before-nativescript-6-2"><a class="anchor" href="#testing-the-produced-aab-file-before-nativescript-6-2"></a>Testing the produced <code>.aab</code> file before NativeScript 6.2</h4>
+<div class="paragraph">
+<p>For older NativeScript version, in order to test the <code>apk</code> files that Google Play will produce from the <code>.aab</code> for a specific device you will need to use the Android <code>bundletool</code> or upload to Google Play and use a test track.</p>
+</div>
+<div class="paragraph">
+<p>If you use the <code>bundletool</code> you should first generate an <code>.apks</code> file that will later be used to deploy on a device.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">java -jar &lt;toolPath&gt;/bundletool.jar build-apks \
+  --bundle=&lt;somePath&gt;/app.aab  \
+  --output="&lt;somePath&gt;/my_app.apks" \
+  --ks=&lt;path-to-keystore-file&gt; \
+  --ks-pass=pass:&lt;keystore-pass&gt; \
+  --ks-key-alias=&lt;key-alias&gt; \
+  --key-pass=pass:&lt;key-pass&gt; \</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then you can install the application on a connected device by executing:
+:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>Devices running Android 4.4 (API level 19) and lower don&#8217;t support downloading and installing split APKs. On such devices <code>bundletool</code> will not be able to deploy the application. When the bundle is released Google Play will serve a single multi-APK to such devices.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">java -jar &lt;toolPath&gt;/bundletool.jar install-apks \
+  --apks="somePath/my_app.apks" \
+  --device-id=&lt;deviceId&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can find more information about using Android <code>bundletool</code> <a href="https://developer.android.com/studio/command-line/bundletool">here</a>.</p>
+</div>
+<div class="paragraph">
+<p>You can perform a full build and produce a signed AAB using the NativeScript CLI:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns build android --release \
+  --key-store-path &lt;path-to-your-keystore&gt; \
+  --key-store-password &lt;your-key-store-password&gt; \
+  --key-store-alias &lt;your-alias-name&gt; \
+  --key-store-alias-password &lt;your-alias-password&gt; \
+  --aab \
+  --copy-to &lt;aab-location&gt;.aab</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then you can use the produced file to upload it to Google Play Developer Console following the steps described in <a href="https://developer.android.com/studio/publish/upload-bundle">Google Android Developer Documentation</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="submission-automation"><a class="anchor" href="#submission-automation"></a>Submission automation</h4>
+<div class="paragraph">
+<p>Some tools allow the submission process to be automated - <a href="https://github.com/fastlane/fastlane">MIT Licensed one: fastlane</a>.
+You can also hack your own scripts around the <a href="https://developers.google.com/android-publisher/api-ref/edits/apks/upload">Google Play Developer API</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="publish"><a class="anchor" href="#publish"></a>Publish</h3>
+<div class="paragraph">
+<p>Once you successfully upload your APK, and it passes Google review, you will be able to move your APK to production, and it will go live on <em>Google Play</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ios"><a class="anchor" href="#ios"></a>iOS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can publish a NativeScript app in the <em>App Store</em> the same way you would <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html">release a purely native iOS app</a>.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Verify that the iOS native project inside your app contains your latest changes and resources by running the following command.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns prepare ios --release</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Open the iOS native project in Xcode. Your native project is located at: <code>{app-name}/platforms/ios/{app-name}.xcworkspace</code> (or in <code>{app-name}/platforms/ios/{app-name}.xcodeproj</code> if the project does not contain any native iOS libraries).</p>
+</li>
+<li>
+<p><a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html">Configure the project for distribution</a>.</p>
+</li>
+<li>
+<p><a href="https://help.apple.com/xcode/mac/current/#/dev442d7f2ca">Upload the app to App Store Connect</a>.</p>
+</li>
+<li>
+<p><a href="https://help.apple.com/app-store-connect/#/dev301cb2b3e">Submit it to the <em>App Store</em></a>.</p>
+</li>
+</ol>
+</div>
+<div class="sect2">
+<h3 id="creating-ios-nativescript-app"><a class="anchor" href="#creating-ios-nativescript-app"></a>Creating iOS NativeScript app</h3>
+<div class="sect3">
+<h4 id="bundle-id"><a class="anchor" href="#bundle-id"></a>Bundle ID</h4>
+<div class="paragraph">
+<p>The <em>Bundle ID</em> is a unique identifier, provided by you for your app. It uses reverse domain name notation. For example, the NativeScript CLI will use <code>org.nativescript.&lt;AppName&gt;</code> as default. During <code>ns create</code> you can provide the <em>Bundle ID</em> using the <code>--appid &lt;id&gt;</code> option.</p>
+</div>
+<div class="paragraph">
+<p>In iOS apps, the <em>Bundle ID</em> is stored in the <code>CFBundleIdentifier</code> in the <code>Info.plist</code>, but the NativeScript CLI will explicitly set this to the value of the <code>nativescript.id</code> key stored in the <code>package.json</code> file in the root of your application.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>To edit the <em>Bundle ID</em>, edit the <code>package.json</code> of your app and set the <code>nativescript.id</code> key.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>The <em>Bundle ID</em> is used to precisely identify your app at various situations and plays an important role, when it is built and launched by the CLI, as well as when <em>Provisioning Profiles</em> and certificates are created in the <em>Apple Member Center</em>.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>For more information consider <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html">the 'About Bundle IDs' section in the following article</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="app-name-2"><a class="anchor" href="#app-name-2"></a>App name</h3>
+<div class="paragraph">
+<p>This is the display name for your app. It is purely cosmetic but highly important. For example, it will appear under the app icon.
+The value is stored in the <code>app/App_Resources/iOS/Info.plist</code> file as the <code>CFBundleDisplayName</code> key.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="app-icons-2"><a class="anchor" href="#app-icons-2"></a>App icons</h3>
+<div class="paragraph">
+<p>The NativeScript framework will use icons from <code>app/App_Resources/iOS/</code>. All files from that folder are added as resources in the generated Xcode project in <code>platforms/ios</code>.</p>
+</div>
+<div class="paragraph">
+<p><em>App Store</em> submissions will be rejected if certain icon files are not present. To ensure you have the required icons, you can consider the following Apple article: <a href="https://developer.apple.com/library/ios/qa/qa1686/_index.html">'App Icons on iPad and iPhone'</a>.</p>
+</div>
+<div class="paragraph">
+<p>If you want to extend the default icon set, and you don&#8217;t want to use the default naming, or you need finer control, you can use the <code>app/App_Resources/iOS/Info.plist</code>.
+List the icons using <a href="https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/TP40009249-SW10"><code>CFBundleIconFiles</code></a> or <a href="https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/TP40009249-SW13"><code>CFBundleIcon</code></a>.</p>
+</div>
+<div class="paragraph">
+<p>For example, listing icons using <code>CFBundleIconFiles</code>:</p>
+</div>
+<div class="sect3">
+<h4 id="example-1-how-to-customise-info-plist-__"><a class="anchor" href="#example-1-how-to-customise-info-plist-__"></a>Example 1: How to customise Info.plist.__&gt;</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+  &lt;dict&gt;
+    &lt;!-- The full content of the Info.plist still should be here. --&gt;
+    &lt;key&gt;CFBundleIconFiles&lt;/key&gt;
+    &lt;array&gt;
+      &lt;string&gt;Icon@2x.png&lt;/string&gt;
+      &lt;string&gt;Icon.png&lt;/string&gt;
+      &lt;string&gt;Icon-Small@3x.png&lt;/string&gt;
+      &lt;string&gt;Icon-Small@2x.png&lt;/string&gt;
+      &lt;string&gt;Icon-Small.png&lt;/string&gt;
+      &lt;string&gt;Icon-Small-50@2x.png&lt;/string&gt;
+      &lt;!-- etc --&gt;
+    &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/plist&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="launch-files"><a class="anchor" href="#launch-files"></a>Launch files</h3>
+<div class="paragraph">
+<p>Launch screens are an essential part of your iOS app. This is the first thing your users see when they start your app.</p>
+</div>
+<div class="paragraph">
+<p>The Springboard will play a subtle animation transitioning from the home screen to your app. In order to provide a pleasing experience, it&#8217;s best to avoid a default that&#8217;s entirely black or white.</p>
+</div>
+<div class="paragraph">
+<p>The launch files are not a splash screen; instead, they are a way for the OS to quickly grab a preview image of your app and use it during the first ~300ms while your app is booting.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html">For design guidelines you can consider the following article provided by Apple</a>.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>If you think that following these guidelines will result in a plain, boring launch image, you&#8217;re right. Remember, the launch image doesn&#8217;t provide you with an opportunity for artistic expression. It&#8217;s solely intended to enhance the user&#8217;s perception of your app as quick to launch and immediately ready for use.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p><em>App Store</em> submissions will be rejected if certain launch files are not present. Make sure that when new iOS versions and devices are released that you update your <em>launch files</em> and accommodate the upcoming form factors.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>If a customer runs your app on a device with a high resolution screen and your app is missing the launch screen file for that device, then iOS will render your app using a smaller resolution, degrading its quality:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Your app may be upscaled, and blurred</p>
+</li>
+<li>
+<p>Your app may have black areas</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Earlier iOS versions had to support a small range of form factors. Providing a different launch image per screen size was trivial. With the new devices released by Apple, the number of images that had to be provided increased. That&#8217;s where Apple introduced the <em>launch screen storyboard</em>.
+The storyboard allows basic primitives such as images to be presented on the screen, and you can have dynamic layout using layout constraints. This makes it possible to design a single <em>launch screen</em> that fits well for all form factors.</p>
+</div>
+<div class="paragraph">
+<p>The NativeScript framework default project has a <em>Launch Screen Storyboard</em> and <em>Launch Images</em>. In iOS8 and later, your app may use storyboards; your app can use launch images for devices that run earlier versions of iOS.</p>
+</div>
+<div class="sect3">
+<h4 id="launch-screen-images"><a class="anchor" href="#launch-screen-images"></a>Launch screen images</h4>
+<div class="paragraph">
+<p>The images are placed, similar to the icons already mentioned, in <code>app/App_Resources/iOS</code>. The default project template ships several <code>Default-*.PNG</code> files there; you may consider changing them.</p>
+</div>
+<div class="paragraph">
+<p>In iOS8 and later versions, your app will display its storyboard. If you want to use images on all devices, you can consider disabling the <em>Launch Screen Storyboard</em>. Instructions for how to do this are explained later in the next section.</p>
+</div>
+<div class="paragraph">
+<p>Similar to the icons, you can use the <a href="https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW24"><code>UILaunchImageFile</code></a> and <a href="https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW28"><code>UILaunchImages</code></a> key in the <code>app/App_Resources/iOS</code>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="launch-screen-storyboard"><a class="anchor" href="#launch-screen-storyboard"></a>Launch screen Storyboard</h4>
+<div class="paragraph">
+<p>The NativeScript framework will provide a <em>Launch Screen Storyboard</em> in <code>platforms/ios/&lt;YourAppName&gt;/en.lproj/LaunchScreen.xib</code>, but does <strong>not</strong> yet provide a means to store it at <code>app/App_Resources/iOS</code>.
+If you want to edit it you can use the <code>.xcodeproj</code> generated in <code>platforms/ios</code>. You will have to add it in source control.
+CLI rebuilds may overwrite it, so you will have to watch out for automatic changes in it when you commit.</p>
+</div>
+<div class="paragraph">
+<p>To disable the default <em>Launch Screen Storyboard</em>, remove the <code>UILaunchStoryboardName</code> from the <code>app/App_Resources/iOS/Info.plist</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+&lt;string&gt;LaunchScreen&lt;/string&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This will force all supported launch screens to use the <em>launch image</em>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="creating-app-icons-and-launch-screens-for-ios"><a class="anchor" href="#creating-app-icons-and-launch-screens-for-ios"></a>Creating App Icons and Launch Screens for iOS</h4>
+<div class="paragraph">
+<p>Publishing your iOS app is an essential step in the development process and in order for your iOS application
+to be published successfully in the App Store, there are some requirements that need to be fulfilled.
+As described in <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html">iOS Human Interface Guidelines</a> setting the following is mandatory:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>App name</p>
+</li>
+<li>
+<p>App icon</p>
+</li>
+<li>
+<p>Launch image or files</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In NativeScript, your application comes with predefined template settings and images for these steps.
+In this article, we are going to introduce the workflow to create your own launch screens.</p>
+</div>
+<div class="paragraph">
+<p>:::warning Warning</p>
+</div>
+<div class="paragraph">
+<p>Occasionally, the iOS operating system caches your application&#8217;s icons and launch screens. If you&#8217;re updating icons or launch screens and not seeing your changes, delete the application from your device or emulator and redeploy. If on a real device: remove <code>platforms</code> folder from your project, delete app, restart device, redeploy.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>==== Setting launch screen and App Icons</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Setting up launch screens depends on the version of iOS you are targeting.
+In iOS 7 and lower, the approach for creating the launch screen is to use static image resources.
+The drawback of this method is that the app developer will have to provide many different
+images, each with different resolution for each iOS device. In iOS 8 and above, the approach is to create
+a LaunchScreen.storyboard, which is much more powerful in terms of customization and is easier to maintain.</p>
+</div>
+<div class="paragraph">
+<p>The default Hello-World project in NativeScript is provided with default settings that supports both
+approaches. When you build your app for devices with iOS lower then version 8, NativeScript will use the static images and when you use NativeScript to build your app for devices with iOS 8 and above, it will use the provided LaunchScreen.storyboard.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="how-to-set-your-launch-screen"><a class="anchor" href="#how-to-set-your-launch-screen"></a>How to set your launch screen</h4>
+<div class="paragraph">
+<p>The default template in NativeScript (created with <code>ns create myApp</code>) provides you with predefined
+AppIcons, launch images and a LaunchScreen.storyboard all with the NativeScript logo.
+To modify that template and create your own launch screen using your own assets and design, you will need the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>app/App_Resources/iOS/Assets.xcassets</strong>: The resource that holds your image asset catalogs (for AppIcons, LaunchImages and LaunchScreen).</p>
+</li>
+<li>
+<p><strong>app/App_Resources/iOS/LaunchScreen.storyboard</strong>: Your default storyboard used for your launch screen (used in iOS versions 8+).</p>
+</li>
+<li>
+<p><strong>app/App_Resources/iOS/build.xcconfig</strong>: The resource that holds the references to the assets catalogs which will be used
+(optional: modify only if you change the name convention or introduce a new image asset catalog).</p>
+</li>
+<li>
+<p>Xcode 7.1 or newer version (optional: needed only if you prefer WYSIWYG workflow for changing your images).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The workflow for creating your own launch screen can be handled from Xcode or manually in the NativeScript environment.
+In this article we are going to cover both the manual and the Xcode WYSIWYG approach.</p>
+</div>
+<div class="paragraph">
+<p>In your <strong>app/App_Resources/iOS/Assets.xcassets</strong> you will find the following sub-folders:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>AppIcon.appiconset</strong>: The resource that holds the images for your AppIcons (all iOS versions).</p>
+</li>
+<li>
+<p><strong>LaunchScreen.AspectFill.imageset</strong>: The resource that holds the background image for your LaunchScreen.storyboard.</p>
+</li>
+<li>
+<p><strong>LaunchScreen.Center.imageset</strong>: The resource that holds the centered image for your LaunchScreen.storyboard.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="customizing-app-icons"><a class="anchor" href="#customizing-app-icons"></a>Customizing App Icons</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Changing AppIcons: manual approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open <strong>AppIcon.appiconset</strong> and change the default icons images with your own using the proper resolution for each image (e.g., icon-29.png should be 29px x 29px; icon-29@2x should be 58px x 58px; icon-29@3x should be 87px x 87px).
+If your images have different file names then open Contents.json and change the key <code>filename</code> for each image.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-screen-howto-002.png" alt="App icons config.json">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Changing AppIcons: Xcode WYSIWYG approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Drag and drop your <strong>Assets.xcassets</strong> into Xcode (7.1 or newer version).
+In the opened window choose <strong>AppIcon</strong> and add a proper image for each iOS version and device.
+Close Xcode and rebuild your NativeScript app to use the new AppIcons.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-screen-howto-003.png" alt="AppIcon setup in Xcode">
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="customizing-launch-images"><a class="anchor" href="#customizing-launch-images"></a>Customizing launch images</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Manual approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open <strong>LaunchImage.launchimage</strong> and change the default launch images with your own using the proper resolution for each image (e.g., <a href="mailto:Default-568h@2x.png">Default-568h@2x.png</a> should be 640px x 1136px).
+If your images have different file names then open Contents.json and change the key <code>filename</code> for each image.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Device</th>
+<th class="tableblock halign-left valign-top">Image Resolution</th>
+<th class="tableblock halign-left valign-top">Image name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone 1g-3Gs</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">320x480</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone 4, 4s</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">640x960</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default@2x.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone 5, 5c, 5s</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">640x1136</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-568h@2x.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone 6s - 8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">750x1334</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-667h@2x.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone 6s Plus - 8 Plus</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1242x2208</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-736h@3x.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1125px × 2436px</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-1125h.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPhone X Landscape</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2436px × 1125px</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-Landscape-X.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPad, iPad 2, Mini</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">768x1024</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-Portrait.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPad Landscape</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1024x768</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-Landscape.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">iPad Retina</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1536x2048</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-Portrait@2x.png</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12.9" iPad Pro</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2048x1536</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Default-Landscape@2x.png</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>For a better understanding of the supported image resolutions for the different iOS devices, refer to <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html#//apple_ref/doc/uid/TP40006556-CH27-SW1">iOS Human Interface Guidelines</a> or check our reference table.
+:::</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Xcode WYSIWYG approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Drag and drop your <strong>Assets.xcassets</strong> into Xcode (7.1 or newer version).
+In the opened window add the proper image for each iOS version and device.
+Close Xcode and rebuild your NativeScript app to use the new launch images.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Important</p>
+</div>
+<div class="paragraph">
+<p>Make sure you have provided all required images or your app will be rejected from publishing in the App Store.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>==== Customizing LaunchScreen.storyboard</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>The default template app in NativeScript comes with <strong>LaunchScreen.storyboard</strong>, which contains two image views.
+The first one, named <strong>LaunchScreen.AspectFill.imageset</strong>, is used to visualize your background.
+The second one, named <strong>LaunchScreen.Center.imageset</strong>, is used to visualize your centered logo.
+Your own storyboard can be customized to use your own logic with different images and styles.
+However, keep in mind that according to iOS Human Interface Guidelines, the LaunchScreen should be as light as possible
+with minimal or no moving elements and text labels. It is meant to provide immediate UX rather than artistic presentation.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-screen-howto-010.png" alt="LaunchScreen setup in Xcode">
+</div>
+</div>
+<div class="sect4">
+<h5 id="customizing-launchscreen-aspectfill"><a class="anchor" href="#customizing-launchscreen-aspectfill"></a>Customizing LaunchScreen.AspectFill</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Manual approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open <strong>LaunchScreen.AspectFill.imageset</strong> and change the default LaunchScreen.AspectFill images with your own using the proper scale for each image (1x, 2x and 3x).
+As this is an image that will be used in your LaunchScreen.storyboard, your actual resolution may vary depending on your design.
+The default NativeScript template ships a LaunchScreen-AspectFill.png and <a href="mailto:LaunchScreen-AspectFill@2x.png">LaunchScreen-AspectFill@2x.png</a> used as a sample background.
+If your images have different file names then open Contents.json and change the key <code>filename</code> for each image.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Important</p>
+</div>
+<div class="paragraph">
+<p>After each file change in the <strong>Assets.xcassets</strong> folder you should rebuild your project and restart your emulator to avoid visualizing cached images.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<div class="ulist">
+<ul>
+<li>
+<p>Xcode WYSIWYG approach</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Drag and drop your <strong>Assets.xcassets</strong> into Xcode (7.1 or newer version).
+In the opened window choose <strong>LaunchScreen.AspectFill</strong> and add the properly scaled image for each entry (1x, 2x and 3x).
+Close Xcode and rebuild your NativeScript app to use the new LaunchScreen.AspectFill.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-screen-howto-008.png" alt="LaunchScreen.AspectFill setup in Xcode">
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="customizing-launchscreen-center"><a class="anchor" href="#customizing-launchscreen-center"></a>Customizing LaunchScreen.Center</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Manual approach</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Open <strong>LaunchScreen.Center.imageset</strong> and change the default LaunchScreen.Center images with your own using the proper scale for each image (1x, 2x and 3x).
+As this is an image that will be used in your LaunchScreen.storyboard, your actual resolution may vary depending on your design.
+The default NativeScript template ships a LaunchScreen-Center.png and <a href="mailto:LaunchScreen-Center@2x.png">LaunchScreen-Center@2x.png</a> used as a sample center logo image.
+If your images have different file names then open Contents.json and change the key <code>filename</code> for each image.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Important</p>
+</div>
+<div class="paragraph">
+<p>After each file change in the <strong>Assets.xcassets</strong> folder you should rebuild your project and restart your emulator to avoid visualizing cached images.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<div class="ulist">
+<ul>
+<li>
+<p>Xcode WYSIWYG approach</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Drag and drop your <strong>Assets.xcassets</strong> into Xcode (7.1 or newer version).
+In the opened window choose <strong>LaunchScreen.Center</strong> and add the properly scaled image for each entry (1x, 2x and 3x).
+Close Xcode and rebuild your NativeScript app to use the new LaunchScreen.Center.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/releasing/launch-screen-howto-009.png" alt="LaunchScreen.Center setup in Xcode">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="certificates-identifiers-profiles"><a class="anchor" href="#certificates-identifiers-profiles"></a>Certificates, identifiers &amp; profiles</h3>
+<div class="paragraph">
+<p>Certificates, identifiers and profiles are managed at <a href="https://developer.apple.com/membercenter" class="bare">https://developer.apple.com/membercenter</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html">You should really explore the information Apple provides on certificates and identities</a>.
+This article will cover only the basics.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="account-with-apple-id"><a class="anchor" href="#account-with-apple-id"></a>Account with Apple ID</h3>
+<div class="paragraph">
+<p>You will need a developer account with an <em>Apple ID</em> so you can access the <a href="https://developer.apple.com/membercenter">Apple Developer Member Center</a>.</p>
+</div>
+<div class="paragraph">
+<p>You will need to be added as an iOS developer in your organization.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="development-certificates"><a class="anchor" href="#development-certificates"></a>Development certificates</h3>
+<div class="paragraph">
+<p>Development certificates are used to sign iOS apps proving the origin of the app. If you plan to use the Xcode tooling it would be best to create a <em>development certificate</em>.</p>
+</div>
+<div class="paragraph">
+<p>A few pitfalls are:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A developer is allowed to have one certificate at any time. You must 'revoke' an existing certificate before you can create a new one.</p>
+</li>
+<li>
+<p>Certificates consist of public and private keys. The private key is never sent to Apple, so you cannot 'download' your certificate from the <em>Member Center</em>. If you lose the private key of your certificate, you have to revoke it and create a new one.</p>
+</li>
+<li>
+<p>When revoked or expired, the certificates may further invalidate <em>provisioning profiles</em>. Once the certificate is recreated, the <em>provisioning profiles</em> need to be updated as well.</p>
+</li>
+<li>
+<p>Making a certificate requires a Mac. You use the Keychain Access tool to create a certificate request, generating a public and private keys at your side, then send the public key to Apple while storing the private key in your keychain.</p>
+</li>
+<li>
+<p>If you follow the steps at the <em>Member Center</em> to create a new <em>development certificate</em>, the certificate must be stored in your keychain. You can consider exporting it and backing it up.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>Go to <a href="https://developer.apple.com/account/ios/certificate/certificateList.action?type=development" class="bare">https://developer.apple.com/account/ios/certificate/certificateList.action?type=development</a> click the '+' (add) button and follow the instructions for making a new 'iOS App Development' certificate.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>=== Production certificates</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><em>Production certificates</em> work similarly to development certificates. They consist of public and private keys. The private key stays at your side and is never sent to Apple. Your app is signed with the distribution certificate using your private key,
+so Apple can verify the origin of submissions in <em>iTunes Connect</em> using the public key you sent them.</p>
+</div>
+<div class="paragraph">
+<p>This <em>production certificates</em> is used to sign the application binary when it is prepared for submission.
+Usually when an app is built for a device, its IPA file is signed with the development certificate.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>You can read more about IPA (file extension) <a href="https://en.wikipedia.org/wiki/.ipa_(file_extension)">here</a>
+Later, the tooling resigns the IPA with the <em>production certificate</em> and appends the distribution provisioning profile when submitting to <em>iTunes Connect</em>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>A few pitfalls are:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Creating <em>production certificates</em> are more restricted than creating development certificates. Apple limit the number of <em>production certificates</em> per team.</p>
+</li>
+<li>
+<p>Because production certificates are limited in quantity per team, and frequently shared between multiple team members, you must be extremely careful when you revoke an existing distribution certificate. If you ultimately lost your private key of a distribution certificate and revoke it, consult with anyone that may have backed it up or is in need of the new certificate. Hopefully this will avoid your new copy being revoked in the future or losing your admin rights.</p>
+</li>
+<li>
+<p><em>Production certificates</em> can be shared between team members. If you follow the steps at the <em>Member Center</em> to create a new one (link below) the certificate will be stored in your keychain. You can export it as a .p12 file, easily backing it up and sharing it with senior team peers.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>If you need a new distribution certificate, go to <a href="https://developer.apple.com/account/ios/certificate/certificateList.action?type=distribution" class="bare">https://developer.apple.com/account/ios/certificate/certificateList.action?type=distribution</a> click the '+' (add) button and follow the instructions for making a new 'App Store Distribution' certificate. Chances are you are part of a larger organization and your role does not have sufficient rights to create a new distribution certificate. Admins or other team member may provide you the certificates in that case. In such cases, you will probably be given a .p12 file and a password. You should import the file in your keychain using the <code>Keychain Access</code> application.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="identifiers-app-ids"><a class="anchor" href="#identifiers-app-ids"></a>Identifiers - App IDs</h3>
+<div class="paragraph">
+<p>To test your app on a device or submit in the <em>App Store</em>, you will need to create an <em>App ID</em>.
+App IDs consist of a <em>Prefix</em> or a <em>Team ID</em> that is generated by Apple, followed by an ID provided by you that must match your <em>Bundle ID</em>.
+For example, you can create an <em>App ID</em> with the <code>org.nativescript.*</code> ID that will match all your NativeScript apps.
+The wildcard pattern imposes some restrictions on the services you can use, so you may also consider using a non-wildcard pattern such as <code>org.nativescript.&lt;my-app&gt;</code>.</p>
+</div>
+<div class="paragraph">
+<p>These identifiers are later used to bind apps with <em>provisioning profiles</em>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="devices"><a class="anchor" href="#devices"></a>Devices</h3>
+<div class="paragraph">
+<p>At the <em>Member Center</em> you can register the devices you and your team use for testing.
+Go to <a href="https://developer.apple.com/account/ios/device/deviceList.action" class="bare">https://developer.apple.com/account/ios/device/deviceList.action</a>.</p>
+</div>
+<div class="paragraph">
+<p>To register a phone you will need its UDID. Connect it to the Mac and run in a terminal:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">instruments -s devices</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It will output all known devices and their UDIDs.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="development-provisioning-profiles"><a class="anchor" href="#development-provisioning-profiles"></a>Development provisioning profiles</h3>
+<div class="paragraph">
+<p>Development provisioning profiles bind together one or multiple developer signing identities (developer certificates), <em>App ID</em> and device IDs.
+These are created at <a href="https://developer.apple.com/account/ios/profile/profileList.action?type=limited" class="bare">https://developer.apple.com/account/ios/profile/profileList.action?type=limited</a>.
+If you are making a new one, or adding a new app to an existing one, make sure to select these three:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Your <em>development certificate</em></p>
+</li>
+<li>
+<p><em>App ID identifier</em>, that matches your App ID</p>
+</li>
+<li>
+<p>The <em>device</em> you will test on</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Unlike the certificates, <em>provisioning profiles</em> are files that can be easily updated and downloaded from the Member Center (in .mobileprovision files) and installed in Xcode by double-clicking that file.</p>
+</div>
+<div class="paragraph">
+<p>Xcode is also capable of obtaining these automatically. Open Xcode and from the menu go to <code>Xcode &gt; Preferences... &gt; Accounts &gt; (select your apple ID) &gt; (double-click on your Team Name)</code>.
+There you can check all signing identities (developer and <em>production certificates</em>) available to Xcode as well as <code>Download All</code> <em>provisioning profiles</em>.</p>
+</div>
+<div class="paragraph">
+<p>When you run an app on a device, Xcode will sign the app with your development certificate and add a provisioning profile that has your certificate, device ID and App ID.</p>
+</div>
+<div class="paragraph">
+<p>While the <em>development provisioning profiles</em> are easily created and updated, they frequently invalidate, especially when multiple <em>developer certificates</em> are involved. Every time one of them is revoked or expires, you need to update the provisioning certificate.</p>
+</div>
+<div class="paragraph">
+<p>These are not of a particular interest for <em>App Store</em> submissions but you may need one to test on a real device.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="distribution-provisioning-profiles"><a class="anchor" href="#distribution-provisioning-profiles"></a>Distribution provisioning profiles</h3>
+<div class="paragraph">
+<p>There are several <em>distribution provisioning profile</em> types. The one you will need for <em>App Store</em> submission is 'App Store Distribution Provisioning Profile'.
+These are similar to the <em>development provisioning profiles</em> because they bind:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Your <em>distribution certificate</em></p>
+</li>
+<li>
+<p>Your <em>device</em>-es</p>
+</li>
+<li>
+<p>An <em>App ID</em></p>
+</li>
+<li>
+<p>Various settings, enabled services, etc.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><em>Distribution provisioning profiles</em> are created at <a href="https://developer.apple.com/account/ios/profile/profileList.action?type=production" class="bare">https://developer.apple.com/account/ios/profile/profileList.action?type=production</a>.</p>
+</div>
+<div class="paragraph">
+<p>For <em>App Store</em> submissions, you must create an <em>App Store Distribution Provisioning Profile</em>. Once you create it, download it and double-click it on your Mac so it gets registered with Xcode.</p>
+</div>
+<div class="paragraph">
+<p><em>Distribution provisioning profiles</em> invalidate rarely since they refer a single <em>Distribution Certificate</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="app-store-connect"><a class="anchor" href="#app-store-connect"></a>App Store Connect</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>While you manage your <em>provisioning profiles</em> and certificates at the <em>Apple Developer Member Center</em>, apps are registered and submitted at <a href="https://appstoreconnect.apple.com">App Store Connect</a> (former iTunes Connect).
+This is where you will be able to create new apps, prepare app screens, descriptions, manage app versions, etc.</p>
+</div>
+<div class="sect2">
+<h3 id="account"><a class="anchor" href="#account"></a>Account</h3>
+<div class="paragraph">
+<p>You will need your <em>Apple ID</em> added to your organization with sufficient rights at <a href="https://appstoreconnect.apple.com" class="bare">https://appstoreconnect.apple.com</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="creating-an-app"><a class="anchor" href="#creating-an-app"></a>Creating an app</h3>
+<div class="paragraph">
+<p>To publish your app in the iOS <em>App Store</em> you will have to register your app. Log into <a href="https://appstoreconnect.apple.com" class="bare">https://appstoreconnect.apple.com</a> and go to 'My Apps'.
+There you can check the status and edit existing apps or create a new app.</p>
+</div>
+<div class="paragraph">
+<p>Click the '+' button at the top left corner. The 'New App' dialog should appear. There you have to fill the public <em>App Store</em> name of your app and primary language.</p>
+</div>
+<div class="paragraph">
+<p>Also, you have to set <em>Bundle ID</em>, which must match the <em>Bundle ID</em> referred in <a href="#bundle-id">'1.1. Bundle ID'</a>.
+If the drop-down does not contain a suitable match, you are probably missing an <em>App ID</em> referred at <a href="#identifiers-app-ids">'2.4. Identifiers - App IDs'</a>.
+If there is a wildcard <em>App ID</em>, that is a potential match so select it. You will be able to type the suffix, replacing the wildcard in a text box.</p>
+</div>
+<div class="paragraph">
+<p>At that point you have to fill in the App Information.
+There are various assets that you must provide such as screenshots, icons, description, etc.
+Failing to provide all necessary assets may prevent you from submitting your app, or result in app rejection.</p>
+</div>
+<div class="paragraph">
+<p>:::tip Note</p>
+</div>
+<div class="paragraph">
+<p>Screenshots not matching the actual app may result in rejection of a new version sent for approval.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>=== Builds</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Once you have your app information registered at <a href="https://appstoreconnect.apple.com" class="bare">https://appstoreconnect.apple.com</a> it is time to build your NativeScript app for iOS and submit it to <em>iTunes Connect</em>&#8201;&#8212;&#8201;using Xcode.</p>
+</div>
+<div class="sect3">
+<h4 id="build-versioning-2"><a class="anchor" href="#build-versioning-2"></a>Build versioning</h4>
+<div class="paragraph">
+<p>We have already explained how the <em>Bundle ID</em> is set in your project, how the launch screen (or storyboard) and images are added to your app, and how you can set the display name.</p>
+</div>
+<div class="paragraph">
+<p>Before the build, you need to set two important things: the <em>Bundle Short Version String</em> and the <em>Bundle Version String</em>.</p>
+</div>
+<div class="paragraph">
+<p><em>Bundle Short Version String</em> is the public version of your app. It is incremented between releases. For example: <code>2.1</code>.
+<em>Bundle Version String</em> is the internal build number. One public release usually has multiple release candidates. For example <code>2.1.1</code>, <code>2.1.2</code>, etc.</p>
+</div>
+<div class="paragraph">
+<p>iTunes Connect has a restriction that a bundle cannot be uploaded with the same version twice, so you must increment the <em>Bundle Version String</em> with each upload.</p>
+</div>
+<div class="paragraph">
+<p>The <em>Bundle Short Version String</em> should be incremented once your app version is uploaded, sent for approval, approved and published.</p>
+</div>
+<div class="paragraph">
+<p>Both values are stored in <code>app/App_Resources/iOS/Info.plist</code>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The <code>CFBundleShortVersionString</code> key stores the <em>Bundle Short Version String</em>.</p>
+</li>
+<li>
+<p>The <code>CFBundleVersion</code> key stores the <em>Bundle Version String</em>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>In the <code>app/App_Resources/iOS/Info.plist</code> they appear as:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+&lt;string&gt;2.1&lt;/string&gt;
+&lt;key&gt;CFBundleVersion&lt;/key&gt;
+&lt;string&gt;2.1.2&lt;/string&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you need to edit these from the command line, there is a handy tool called <code>PlistBuddy</code> that can read and write Plist files.
+For example, the following shell script appends the Jenkins <code>$BUILD_NUMBER</code> to the <code>CFBundleVersion</code> in the Info.plist:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">### Set CFBundleVersion ###
+export CFBundleVersion=`/usr/libexec/PlistBuddy app/App_Resources/iOS/Info.plist -c "Print :CFBundleVersion"`
+/usr/libexec/PlistBuddy app/App_Resources/iOS/Info.plist -c "Set :CFBundleVersion $CFBundleVersion.$BUILD_NUMBER"</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="submit-from-the-nativescript-cli"><a class="anchor" href="#submit-from-the-nativescript-cli"></a>Submit from the NativeScript CLI</h3>
+<div class="paragraph">
+<p>You can execute the following command inside a NativeScript project using the CLI:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns publish ios</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The command will prompt for your <code>Apple ID</code> and <code>Password</code> for authentication with <a href="https://itunesconnect.apple.com">iTunes Connect</a> and then produce a <code>release</code> build and proceed to upload it to iTunes Connect.</p>
+</div>
+<div class="paragraph">
+<p>Alternatively, you can use an existing build by running the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns publish ios --ipa &lt;path-to-ipa&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For more information, run the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns help publish ios</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="submit-from-xcode"><a class="anchor" href="#submit-from-xcode"></a>Submit from Xcode</h3>
+<div class="paragraph">
+<p>You can execute the following command using the CLI:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns prepare ios</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This will create an Xcode project in <code>platforms/ios/</code>. Then you may consider the following Apple article about how to <a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html">configure the project for distribution</a>.</p>
+</div>
+<div class="paragraph">
+<p>The <code>platform</code> folder is not meant to stay in source control and you should be careful when you do modifications there.
+Rebuilds may erase your changes and you should add changed files to source control.</p>
+</div>
+<div class="paragraph">
+<p>A common pitfall, if you are using CocoaPods, is to open the Xcode project instead of the workspace, so be sure to open the workspace.</p>
+</div>
+<div class="paragraph">
+<p>Once you have it open in Xcode, you have to go to your target&#8217;s <code>Signing &amp; Capabilities</code> and pick a team.
+In <code>Build Settings</code> there should be a suitable 'iOS Developer' and 'Code Signing Identity'.</p>
+</div>
+<div class="paragraph">
+<p>From the top drop-down, select your target, and from the devices and emulators, pick 'Generic iOS Device'.</p>
+</div>
+<div class="paragraph">
+<p>Then you should be able to select from the top menu <code>Product &gt; Archive</code>.</p>
+</div>
+<div class="paragraph">
+<p>This makes an xcodearchive and opens it in the Xcode Organizer.
+The Xcode Organizer displays a list with builds of your app. Pick the last build and click <code>Upload to App Store...</code>.
+You should select a team again and whether to include app symbols for your app. Next, you can see a list with the binary information, entitlements, etc.
+Click <code>Upload</code>.</p>
+</div>
+<div class="paragraph">
+<p>If you upload successfully, you should be able to log in at <a href="https://appstoreconnect.apple.com" class="bare">https://appstoreconnect.apple.com</a> and see your build in 'Activities'. From there you can enable Test Flight beta testing or send it for approval.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="submission-automation-2"><a class="anchor" href="#submission-automation-2"></a>Submission automation</h3>
+<div class="paragraph">
+<p>Automation can be achieved using the NativeScript CLI only. All of the parameters needed for publishing can be passed to the <code>publish</code> command directly:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns publish ios [&lt;Apple ID&gt; [&lt;Password&gt; [&lt;Mobile Provisioning Profile Identifier&gt; [&lt;Code Sign Identity&gt;]]]]]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example, assuming that you want to issue a build using a mobile provision with an identifier <em>d5d40f61-b303-4fc8-aea3-fbb229a8171c</em>, you could run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns publish ios my-apple-id my-password d5d40f61-b303-4fc8-aea3-fbb229a8171c "iPhone Distribution"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note that the <code>Code Sign Identity</code> can be set to something generic like <em>iPhone Distribution</em> in order to let the build automatically detect a code sign identity.</p>
+</div>
+<div class="paragraph">
+<p>You can also automate the uploads of already built packages:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns publish ios my-apple-id my-password --ipa /tmp/build/myIpa.ipa</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Some tools that allow the submission process to be automated - <a href="https://github.com/fastlane/fastlane">MIT Licensed one: fastlane</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="send-for-approval-and-publish"><a class="anchor" href="#send-for-approval-and-publish"></a>Send for approval and publish</h3>
+<div class="paragraph">
+<p>Once you successfully submit a build at <em>App Store Connect</em>, you can enable testing through <em>Test Flight</em>.
+When you are ready, go to the 'Build' section of your iOS app, pick the build, and click 'Submit for Review' for that version.
+The app will pass through several <a href="https://help.apple.com/app-store-connect/#/dev18557d60e">App Statuses</a>. If your app passes Apple review, it can go live at the <em>App Store</em>.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footerdiv">
+    <p>© 2022 OpenJS Foundation</p>
+    <div class="community_icons">
+        <a href="https://nativescript.org/discord" title="Discord" target="_blank" class="footer_icon icon-discord"><p>Discord</p></a>
+        <a href="https://twitter.com/NativeScript" title="Twitter" target="_blank" class="footer_icon icon-discourse"><p>Twitter</p></a>
+        <a href="https://github.com/NativeScript/NativeScript" title="GitHub" target="_blank" class="footer_icon icon-github"><p>GitHub</p></a>
+  <!--    </div> -->
+    </div>
+  </div>
+</footer>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+<script async src="../_/js/vendor/tabs-block-behaviour.js"></script>
+<script async src="../_/js/vendor/swagger-ui.js"></script>
+<script async src="../_/js/vendor/component-versions.js"></script>
+<script src="../_/js/vendor/custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React Tutorial :: NativeScript Documentation</title>
+    <link rel="canonical" href="http://localhost:3000/basics/tutorial/react.html">
+    <link rel="prev" href="angular.html">
+    <link rel="next" href="vue.html">
+    <meta name="generator" content="Antora 3.0.2">
+
+  <link id="theme" rel="stylesheet" title="Default" href="../../_/css/site.css">
+  <link rel="stylesheet" title="Dark" href="../../_/css/dark-site.css">
+
+    <script>var uiRootPath = '../../_'</script>
+    <script src="../../_/js/vendor/medium-zoom.js"></script>
+    <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4db29b5-cd94-4bcf-87e4-04f4ca564240" data-blockingmode="manual"></script>
+
+<link rel="icon" href="../../_/img/favicon.png" type="image/x-icon">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="top-logo">
+        <a href="../.." class="lisk-logo"></a>
+        <a href="../.." class="docs-logo"></a>
+      </div>
+      <!--<a class="navbar-item" href="http://localhost:3000">NativeScript Documentation</a>-->
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">APIs</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../../xxx/api-ref.html">NativeScript API</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Plugins</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://nativescript.com" target="_blank">NativeScript Plugins</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../../index.html">NativeScript Documentation</a>
+<!--
+  add more items here if needed
+-->
+          </div>
+        </div>
+        <button onclick="switch_style('toggle')" id="theme-toggle" class="theme-toggle navbar-item"></button>
+      </div>
+    </div>
+  </nav>
+</header><div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <div class="components-versions">
+      <div class="page-components">
+    <button class="component-menu-toggle" title="Show other documentations">NativeScript Documentation</button>
+    <div class="component-menu">
+        <a class="component is-current" href="../../index.html">NativeScript Documentation</a>
+    </div>
+  </div>
+    <span></span>
+      </div>
+  <span></span>
+  <span></span>
+  <a href="../../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../index.html">NativeScript Documentation</a></li>
+    <li>Basics</li>
+    <li><a href="index.html">Tutorials</a></li>
+    <li><a href="react.html">React Tutorial</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/ohmynuts/Documents/GitHub/nativescript-docs//docs/modules/ROOT/pages/basics/tutorial/react.adoc"><img class="pencil">Edit this Page</a></div>
+</div>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../../index.html">NativeScript Documentation</a></h3>
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Basics</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../index.html">Nativescript Basics</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../environment-setup.html">Environment Setup</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../development-workflow.html">Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../understanding-packages.html">Understanding @nativescript</a>
+  </li>
+  <li class="nav-item parent" data-depth="2">
+    <button class="nav-item-toggle"></button>
+        <span>
+    <a class="nav-link" href="index.html">Tutorials</a>
+        </span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="angular.html">Angular Tutorial</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="react.html">React Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="vue.html">Vue Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="svelte.html">Svelte Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="plain.html">Plain Tutorial</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Running and building</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../running-and-building/webpack.html">Webpack</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">UI and Styling</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../ui-and-styling/app-resources.html">Understanding App_Resources</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../ui-and-styling/ui-and-styling.html">UI &amp; Styling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../ui-and-styling/interaction.html">Interaction</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Networking</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../networking/http.html">Http</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../networking/connectivity.html">Connectivity</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scalability</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../scalability/code-sharing.html">Code Sharing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Native API Access</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../native-api-access/access-and-use.html">Accessing Native Platform APIs</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Advanced Concepts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../advanced-concepts/advanced-concepts.html">Advanced Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Distribution</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#distribution/releasing.adoc">distribution/releasing.adoc</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../troubleshooting/troubleshooting.html">Troubleshooting Common Issues</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">NativeScript Documentation</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../../index.html">NativeScript Documentation</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">React Tutorial</h1>
+<div class="sect1">
+<h2 id="getting-started-with-react-nativescript"><a class="anchor" href="#getting-started-with-react-nativescript"></a>Getting Started with React NativeScript</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This tutorial introduces you to the fundamentals of using NativeScript with React by walking you through building an example app with some basic functionalities.</p>
+</div>
+<div class="paragraph">
+<p>This tutorial will teach you the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Build layouts using NativeScript components</p>
+</li>
+<li>
+<p>Add interactivity to your app using gestures</p>
+</li>
+<li>
+<p>Use routing to navigate between different views</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="prerequisites"><a class="anchor" href="#prerequisites"></a>Prerequisites</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To get the most out of this tutorial you should already have a basic understanding of React. If you&#8217;re completely new to React, you might want to try the official <a href="https://reactjs.org/tutorial/tutorial.html">React tutorial</a> first.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="overview-of-the-example-application"><a class="anchor" href="#overview-of-the-example-application"></a>Overview of the example application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You&#8217;ll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-preview.png" alt="Example app preview">
+</div>
+</div>
+<div class="paragraph">
+<p>You can find the complete source code of the application on <a href="https://github.com/NativeScript/tutorials/tree/main/react-tutorial">GitHub</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="set-up-your-environment"><a class="anchor" href="#set-up-your-environment"></a>Set up your environment</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To set up your development environment, follow the instructions in the <a href="https://docs.nativescript.org/environment-setup.html#windows-android">Environment Setup</a> section of the docs.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-a-new-nativescript-application"><a class="anchor" href="#create-a-new-nativescript-application"></a>Create a new NativeScript application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We will be using Typescript for this tutorial. To create a new NativeScript Typescript application, run the CLI command <code>ns create</code> with the name of the application followed by <code>--react</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create example-app --react</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The NativeScript CLI creates a new directory with the root folder named <code>example-app</code> with an initial skeleton app project and installs the necessary packages and dependencies. This can take a few minutes and should be ready to run once it&#8217;s done installing.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="run-the-application"><a class="anchor" href="#run-the-application"></a>Run the application</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Go to the project&#8217;s directory and run the following command to run it on the respective platforms.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">cd example-app
+
+// run on iOS
+ns run ios
+
+// run on Android
+ns run android</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>ns run</code> command builds the app and launches the app on a connected Android device or Android emulator for Android and a connected iOS device or iOS simulator for iOS. By default, it listens for changes in your code, synchronizes those changes, and refreshes all selected devices.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="folder-structure"><a class="anchor" href="#folder-structure"></a>Folder structure</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Based on the Typescript starter app, we will be creating the following file/folder structure for our application.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>src
+  |- assets
+      |- anastasia.png
+      |- beetlejuicemusical.png
+      |- bookofmormon.png
+  |- components
+      |- HomeScreen.tsx
+      |- DetailsScreen.tsx
+      |- NavigationParamList.tsx
+      |- Navigator.tsx
+  |- models
+      |- flick.model.ts
+  |- services
+      |- flick.service.ts
+  |- app.css
+  |- app.ts</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="navigation-setup"><a class="anchor" href="#navigation-setup"></a>Navigation setup</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Let&#8217;s start with the app&#8217;s navigation. We will define a type for the navigation params to be used in our app&#8217;s navigation. Create <code>NavigationParamList.ts</code> in the <code>components</code> directory and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">// src/components/NavigationParamList.ts
+
+export type MainStackParamList = {
+  Home: {}
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-the-home-screen"><a class="anchor" href="#create-the-home-screen"></a>Create the home screen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Let&#8217;s start with creating the file for our home screen with the following contents:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx hljs" data-lang="tsx">// src/components/HomeScreen.tsx
+
+import { RouteProp } from '@react-navigation/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  return &lt;stackLayout&gt;&lt;/stackLayout&gt;
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="navigation-container-setup"><a class="anchor" href="#navigation-container-setup"></a>Navigation Container Setup</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Next, set up the main navigation container to display the home component when navigated to <code>Home</code>. We&#8217;ll also set <code>Home</code> as the initial route when the app starts. We can set the default route by passing the route name to the <code>initialRouteProperty</code> of the <code>Navigator</code> component. Open <code>Navigator.tsx</code> and add the following code:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx hljs" data-lang="tsx">// src/components/Navigator.tsx
+
+import * as React from 'react'
+import { BaseNavigationContainer } from '@react-navigation/core'
+import { stackNavigatorFactory } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { HomeScreen } from './HomeScreen'
+
+const StackNavigator = stackNavigatorFactory()
+
+export const mainStackNavigator = () =&gt; {
+  return (
+    &lt;BaseNavigationContainer&gt;
+      &lt;StackNavigator.Navigator initialRouteName="Home"&gt;
+        &lt;StackNavigator.Screen name="Home" component={HomeScreen} /&gt;
+      &lt;/StackNavigator.Navigator&gt;
+    &lt;/BaseNavigationContainer&gt;
+  )
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="home-ui"><a class="anchor" href="#home-ui"></a>Home UI</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Before we create the UI of our home page, let&#8217;s create our <code>FlickModel</code> and <code>FlickService</code> first. This will allow us to use the data directly in our template.</p>
+</div>
+<div class="paragraph">
+<p><code>FlickModel</code> will contain the shape of each flick object. Create a <code>models</code> directory inside <code>src</code> and create a new file called <code>flick.model.ts</code>. Open the new <code>flick.model.ts</code> and add the following <code>interface</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">// src/models/flick.model.ts
+
+export interface FlickModel {
+  id: number
+  genre: string
+  title: string
+  image: string
+  url: string
+  description: string
+  details: {
+    title: string
+    body: string
+  }[]
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We will then use the <code>FlickModel</code> in our <code>FlickService</code> to return our flick data. Create a <code>services</code> directory inside <code>app</code> and create a new file called <code>flick.service.ts</code>. Open the new <code>flick.service.ts</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">// src/services/flick.service.ts
+
+import { FlickModel } from '../models'
+
+class _FlickService {
+  private flicks: FlickModel[] = [
+    {
+      id: 1,
+      genre: 'Musical',
+      title: 'Book of Mormon',
+      image: '~/assets/bookofmormon.png',
+      url: 'https://nativescript.org/images/ngconf/book-of-mormon.mov',
+      description: `A satirical examination of the beliefs and practices of The Church of Jesus Christ of Latter-day Saints.`,
+      details: [
+        {
+          title: 'Music, Lyrics and Book by',
+          body: 'Trey Parker, Robert Lopez, and Matt Stone'
+        },
+        {
+          title: 'First showing on Broadway',
+          body: 'March 2011 after nearly seven years of development.'
+        },
+        {
+          title: 'Revenue',
+          body:
+            'Grossed over $500 million, making it one of the most successful musicals of all time.'
+        },
+        {
+          title: 'History',
+          body:
+            'The Book of Mormon was conceived by Trey Parker, Matt Stone and Robert Lopez. Parker and Stone grew up in Colorado, and were familiar with The Church of Jesus Christ of Latter-day Saints and its members. They became friends at the University of Colorado Boulder and collaborated on a musical film, Cannibal! The Musical (1993), their first experience with movie musicals. In 1997, they created the TV series South Park for Comedy Central and in 1999, the musical film South Park: Bigger, Longer &amp; Uncut. The two had first thought of a fictionalized Joseph Smith, religious leader and founder of the Latter Day Saint movement, while working on an aborted Fox series about historical characters. Their 1997 film, Orgazmo, and a 2003 episode of South Park, "All About Mormons", both gave comic treatment to Mormonism. Smith was also included as one of South Park\'s "Super Best Friends", a Justice League parody team of religious figures like Jesus and Buddha.'
+        },
+        {
+          title: 'Development',
+          body: `During the summer of 2003, Parker and Stone flew to New York City to discuss the script of their new film, Team America: World Police, with friend and producer Scott Rudin (who also produced South Park: Bigger, Longer &amp; Uncut). Rudin advised the duo to see the musical Avenue Q on Broadway, finding the cast of marionettes in Team America similar to the puppets of Avenue Q. Parker and Stone went to see the production during that summer and the writer-composers of Avenue Q, Lopez and Jeff Marx, noticed them in the audience and introduced themselves. Lopez revealed that South Park: Bigger, Longer &amp; Uncut was highly influential in the creation of Avenue Q. The quartet went for drinks afterwards, and soon found that each camp wanted to write something involving Joseph Smith. The four began working out details nearly immediately, with the idea to create a modern story formulated early on. For research purposes, the quartet took a road trip to Salt Lake City where they "interviewed a bunch of missionaries—or ex-missionaries." They had to work around Parker and Stone\'s South Park schedule. In 2006, Parker and Stone flew to London where they spent three weeks with Lopez, who was working on the West End production of Avenue Q. There, the three wrote "four or five songs" and came up with the basic idea of the story. After an argument between Parker and Marx, who felt he was not getting enough creative control, Marx was separated from the project.[10] For the next few years, the remaining trio met frequently to develop what they initially called The Book of Mormon: The Musical of the Church of Jesus Christ of Latter-day Saints. "There was a lot of hopping back and forth between L.A. and New York," Parker recalled.`
+        }
+      ]
+    },
+    {
+      id: 2,
+      genre: 'Musical',
+      title: 'Beetlejuice',
+      image: '~/assets/beetlejuicemusical.png',
+      url: 'https://nativescript.org/images/ngconf/beetlejuice.mov',
+      description: `A deceased couple looks for help from a devious bio-exorcist to handle their haunted house.`,
+      details: [
+        {
+          title: 'Music and Lyrics',
+          body: 'Eddie Perfect'
+        },
+        {
+          title: 'Book by',
+          body: 'Scott Brown and Anthony King'
+        },
+        {
+          title: 'Based on',
+          body: 'A 1988 film of the same name.'
+        },
+        {
+          title: 'First showing on Broadway',
+          body: 'April 25, 2019'
+        },
+        {
+          title: 'Background',
+          body: `In 2016, a musical adaptation of the 1988 film Beetlejuice (directed by Tim Burton and starring Geena Davis as Barbara Maitland, Alec Baldwin as Adam Maitland, Winona Ryder as Lydia Deetz and Michael Keaton as Betelgeuse) was reported to be in the works, directed by Alex Timbers and produced by Warner Bros., following a reading with Christopher Fitzgerald in the title role. In March 2017, it was reported that Australian musical comedian Eddie Perfect would be writing the music and lyrics and Scott Brown and Anthony King would be writing the book of the musical, and that another reading would take place in May, featuring Kris Kukul as musical director. The musical has had three readings and two laboratory workshops with Alex Brightman in the title role, Sophia Anne Caruso as Lydia Deetz, Kerry Butler and Rob McClure as Barbara and Adam Maitland.`
+        }
+      ]
+    },
+    {
+      id: 3,
+      genre: 'Musical',
+      title: 'Anastasia',
+      image: '~/assets/anastasia.png',
+      url: 'https://nativescript.org/images/ngconf/anastasia.mov',
+      description: `The legend of Grand Duchess Anastasia Nikolaevna of Russia.`,
+      details: [
+        { title: 'Music and Lyrics', body: 'Lynn Ahrens and Stephen Flaherty' },
+        {
+          title: 'Book by',
+          body: 'Terrence McNally'
+        },
+        {
+          title: 'Based on',
+          body: 'A 1997 film of the same name.'
+        },
+        {
+          title: 'Background',
+          body: `A reading was held in 2012, featuring Kelli Barret as Anya (Anastasia), Aaron Tveit as Dmitry, Patrick Page as Vladimir, and Angela Lansbury as the Empress Maria. A workshop was held on June 12, 2015, in New York City, and included Elena Shaddow as Anya, Ramin Karimloo as Gleb Vaganov, a new role, and Douglas Sills as Vlad.
+        The original stage production of Anastasia premiered at the Hartford Stage in Hartford, Connecticut on May 13, 2016 (previews). The show was directed by Darko Tresnjak and choreography by Peggy Hickey, with Christy Altomare and Derek Klena starring as Anya and Dmitry, respectively.
+        Director Tresnjak explained: "We've kept, I think, six songs from the movie, but there are 16 new numbers. We've kept the best parts of the animated movie, but it really is a new musical." The musical also adds characters not in the film. Additionally, Act 1 is set in Russia and Act 2 in Paris, "which was everything modern Soviet Russia was not: free, expressive, creative, no barriers," according to McNally.
+        The musical also omits the supernatural elements from the original film, including the character of Rasputin and his musical number "In the Dark of the Night", (although that song’s melody is repurposed in the new number "Stay, I Pray You"), and introduces instead a new villain called Gleb, a general for the Bolsheviks who receives orders to kill Anya.`
+        }
+      ]
+    }
+  ]
+
+  getFlicks(): FlickModel[] {
+    return this.flicks
+  }
+
+  getFlickById(id: number): FlickModel | undefined {
+    return this.flicks.find(flick =&gt; flick.id === id) || undefined
+  }
+}
+
+export const FlickService = new _FlickService()</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Add a <code>/src/assets/</code> directory to your project, and copy the 3 static images over from the sample project <a href="https://github.com/NativeScript/tutorials/tree/main/react-tutorial/src/assets">here</a>.</p>
+</div>
+<div class="paragraph">
+<p>Next, let&#8217;s break down the layout and UI elements of the home page.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-master-breakdown.png" alt="Home page layout breakdown">
+</div>
+</div>
+<div class="paragraph">
+<p>The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let&#8217;s start with creating the action bar with the title. Open <code>Navigator.tsx</code> and add the following code:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{17-19 hljs" data-lang="tsx{17-19">// src/components/Navigator.tsx
+
+import * as React from 'react'
+import { BaseNavigationContainer } from '@react-navigation/core'
+import { stackNavigatorFactory } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { HomeScreen } from './HomeScreen'
+
+const StackNavigator = stackNavigatorFactory()
+
+export const mainStackNavigator = () =&gt; {
+  return (
+    &lt;BaseNavigationContainer&gt;
+      &lt;StackNavigator.Navigator
+        initialRouteName="Home"
+        // Add this 👇
+        screenOptions={{
+          headerShown: true
+        }}
+      &gt;
+        &lt;StackNavigator.Screen
+          name="Home"
+          // Add this 👇
+          options={{
+            title: 'NativeFlix'
+          }}
+          component={HomeScreen}
+        /&gt;
+      &lt;/StackNavigator.Navigator&gt;
+    &lt;/BaseNavigationContainer&gt;
+  )
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Since we have an array of flicks to display we can use NativeScript&#8217;s <a href="https://docs.nativescript.org/ui-and-styling.html#listview"><code>ListView</code></a> component. <code>ListView</code> is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list. Let&#8217;s first create a variable called flick to our home component that we are going to use as our <code>ListView</code>'s data source. Open <code>HomeScreen.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{11 hljs" data-lang="tsx{11">// src/components/HomeScreen.tsx
+
+import * as React from 'react'
+import { ListView } from 'react-nativescript'
+import { RouteProp } from '@react-navigation/core'
+import { ItemEventData } from '@nativescript/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+
+// Add this 👇
+import { FlickService } from '../services/flick.service'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  // Add this 👇
+  const flicks = FlickService.getFlicks()
+
+  return &lt;stackLayout height="100%"&gt;&lt;/stackLayout&gt;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Next, add the <code>ListView</code> component:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{12 hljs" data-lang="tsx{12">// src/components/HomeScreen.tsx
+
+import * as React from 'react'
+import { ListView } from 'react-nativescript'
+import { RouteProp } from '@react-navigation/core'
+import { ItemEventData } from '@nativescript/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { FlickService } from '../services/flick.service'
+
+// Add this 👇
+import { FlickModel } from '../models'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  const flicks = FlickService.getFlicks()
+  // Add this 👇
+  const cellFactory = (flick: FlickModel) =&gt; {
+    return &lt;label text={flick.title} /&gt;
+  }
+  return (
+    &lt;stackLayout height="100%"&gt;
+      // Add this 👇
+      &lt;ListView
+        items={flicks}
+        cellFactory={cellFactory}
+        separatorColor="transparent"
+        height="100%"
+      /&gt;
+    &lt;/stackLayout&gt;
+  )
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>ListView</code> in NativeScript uses the <code>items</code> property as its data source. In the snippet above, we set the <code>items</code> property to <code>flicks</code>. The <code>ListView</code> then loops through the <code>flicks</code> array and uses the template in the <code>cellFactory</code> to render the contents for each entry. If you run the app now, you should see a list of flick titles.</p>
+</div>
+<div class="sect2">
+<h3 id="create-flick-cards"><a class="anchor" href="#create-flick-cards"></a>Create flick cards</h3>
+<div class="paragraph">
+<p>Before we dive into creating the card below, let&#8217;s create some classes for our background and text colors that we will be using in the application. As this will be shared throughout the application, let&#8217;s add this to the <code>app.css</code>. Open <code>app.css</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-css hljs" data-lang="css">/* src/app.scss */
+
+/* applied when device is in light mode */
+.ns-light .bg-primary {
+  background-color: #fdfdfd;
+}
+.ns-light .bg-secondary {
+  background-color: #ffffff;
+}
+.ns-light.text-primary {
+  color: #444;
+}
+.ns-light.text-secondary {
+  color: #777;
+}
+
+/* applied when device is in dark mode */
+.ns-dark .bg-primary {
+  background-color: #212121;
+}
+.ns-dark .bg-secondary {
+  background-color: #383838;
+}
+.ns-dark .text-primary {
+  color: #eee;
+}
+.ns-dark .text-secondary {
+  color: #ccc;
+}</code></pre>
+</div>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-master-card-breakdown.png" alt="Home page cards breakdown">
+</div>
+</div>
+<div class="paragraph">
+<p>As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a <code>GridLayout</code> as our container and use the <code>Image</code> and <code>Label</code> components for the preview image and texts. Open your <code>HomeScreen.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{21-50} hljs" data-lang="tsx{21-50}">// src/components/HomeScreen.tsx
+
+import * as React from 'react'
+import { ListView } from 'react-nativescript'
+import { RouteProp } from '@react-navigation/core'
+import { ItemEventData } from '@nativescript/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { FlickService } from '../services/flick.service'
+import { FlickModel } from '../models'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  const flicks = FlickService.getFlicks()
+
+  // Add this 👇
+  const cellFactory = (flick: FlickModel) =&gt; {
+    return (
+      &lt;gridLayout
+        height="280"
+        borderRadius="10"
+        className="bg-secondary"
+        rows="*, auto, auto"
+        columns="*"
+        margin="5 10"
+        padding="0"
+      &gt;
+        &lt;image row="0" margin="0" stretch="aspectFill" src={flick.image} /&gt;
+        &lt;label
+          row="1"
+          margin="10 10 0 10"
+          fontWeight="700"
+          className="text-primary"
+          fontSize="18"
+          text={flick.title}
+        /&gt;
+        &lt;label
+          row="2"
+          margin="0 10 10 10"
+          className="text-secondary"
+          fontSize="14"
+          textWrap="true"
+          text={flick.description}
+        /&gt;
+      &lt;/gridLayout&gt;
+    )
+  }
+
+  return (
+    &lt;stackLayout height="100%"&gt;
+      &lt;ListView
+        items={flicks}
+        cellFactory={cellFactory}
+        separatorColor="transparent"
+        height="100%"
+      /&gt;
+    &lt;/stackLayout&gt;
+  )
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="checkpoint"><a class="anchor" href="#checkpoint"></a>Checkpoint</h3>
+<div class="paragraph">
+<p>If you&#8217;ve followed along this far, running the app on either platform should result in an app that resembles the one in this screenshot, with the list being scrollable vertically.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-master.png" alt="Home page">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="create-the-details-screen"><a class="anchor" href="#create-the-details-screen"></a>Create the details screen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Let&#8217;s start with adding an entry for the Details screen to your <code>MainStackParamList</code>. Open <code>NavigationParamList.ts</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript{6-8} hljs" data-lang="typescript{6-8}">// src/components/NavigationParamList.ts
+
+export type MainStackParamList = {
+  Home: {}
+  // Add this 👇
+  Details: {
+    flickId: number
+  }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Next, create the file for our details screen with the following contents:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx hljs" data-lang="tsx">// src/components/DetailsScreen.tsx
+
+import { RouteProp } from '@react-navigation/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+
+type DetailsScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Details'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Details'&gt;
+}
+
+export function DetailsScreen({ navigation }: DetailsScreenProps) {
+  return &lt;stackLayout&gt;&lt;/stackLayout&gt;
+}</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="setup-navigation-from-home-to-details-component"><a class="anchor" href="#setup-navigation-from-home-to-details-component"></a>Setup navigation from home to details component</h3>
+<div class="paragraph">
+<p>To be able to navigate to the details screen, we will need to add a <code>StackNavigator.Screen</code> component for the <code>Details</code> component in our <code>BaseNavigationContainer</code>. Open <code>Navigator.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{8 hljs" data-lang="tsx{8">import * as React from 'react'
+import { BaseNavigationContainer } from '@react-navigation/core'
+import { stackNavigatorFactory } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { HomeScreen } from './HomeScreen'
+
+// Add this 👇
+import { DetailsScreen } from './DetailsScreen'
+
+const StackNavigator = stackNavigatorFactory()
+
+export const mainStackNavigator = () =&gt; {
+  return (
+    &lt;BaseNavigationContainer&gt;
+      &lt;StackNavigator.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+          headerShown: true
+        }}
+      &gt;
+        &lt;StackNavigator.Screen
+          name="Home"
+          options={{
+            title: 'NativeFlix'
+          }}
+          component={HomeScreen}
+        /&gt;
+        // Add this 👇
+        &lt;StackNavigator.Screen name="Details" component={DetailsScreen} /&gt;
+      &lt;/StackNavigator.Navigator&gt;
+    &lt;/BaseNavigationContainer&gt;
+  )
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We will be using the <code>navigate</code> function from the <code>navigation</code> prop to navigate from our home component to the details component. In addition to the route name, we will also pass in the flick&#8217;s <code>id</code> to the <code>navigate</code> function. We will use this <code>id</code> in our details component to access more information about the flick. Open <code>HomeScreen.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{8 hljs" data-lang="tsx{8">// src/components/HomeScreen.tsx
+
+import * as React from 'react'
+import { ListView } from 'react-nativescript'
+import { RouteProp } from '@react-navigation/core'
+
+// Add this 👇
+import { ItemEventData } from '@nativescript/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { FlickService } from '../services/flick.service'
+import { FlickModel } from '../models'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  const flicks = FlickService.getFlicks()
+
+  const cellFactory = (flick: FlickModel) =&gt; {
+    return (
+      &lt;gridLayout
+        height="280"
+        borderRadius="10"
+        className="bg-secondary"
+        rows="*, auto, auto"
+        columns="*"
+        margin="5 10"
+        padding="0"
+      &gt;
+        &lt;image row="0" margin="0" stretch="aspectFill" src={flick.image} /&gt;
+        &lt;label
+          row="1"
+          margin="10 10 0 10"
+          fontWeight="700"
+          className="text-primary"
+          fontSize="18"
+          text={flick.title}
+        /&gt;
+        &lt;label
+          row="2"
+          margin="0 10 10 10"
+          className="text-secondary"
+          fontSize="14"
+          textWrap="true"
+          text={flick.description}
+        /&gt;
+      &lt;/gridLayout&gt;
+    )
+  }
+
+  // Add this 👇
+  const onItemTap = (args: ItemEventDaa) =&gt; {
+    const index = args.index
+    const flick = flicks[index]
+    navigation.navigate('Details', {
+      flickId: flick.id
+    })
+  }
+
+  return (
+    &lt;stackLayout height="100%"&gt;
+      &lt;ListView
+        items={flicks}
+        cellFactory={cellFactory}
+        separatorColor="transparent"
+        height="100%"
+      /&gt;
+    &lt;/stackLayout&gt;
+  )
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Next, let&#8217;s add the tap event to the listview items. Open <code>HomeScreen.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{66} hljs" data-lang="tsx{66}">// src/components/HomeScreen.tsx
+
+import * as React from 'react'
+import { ListView } from 'react-nativescript'
+import { RouteProp } from '@react-navigation/core'
+import { ItemEventData } from '@nativescript/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { FlickService } from '../services/flick.service'
+import { FlickModel } from '../models'
+
+type HomeScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Home'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Home'&gt;
+}
+
+export function HomeScreen({ navigation }: HomeScreenProps) {
+  const flicks = FlickService.getFlicks()
+
+  const cellFactory = (flick: FlickModel) =&gt; {
+    return (
+      &lt;gridLayout
+        height="280"
+        borderRadius="10"
+        className="bg-secondary"
+        rows="*, auto, auto"
+        columns="*"
+        margin="5 10"
+        padding="0"
+      &gt;
+        &lt;image row="0" margin="0" stretch="aspectFill" src={flick.image} /&gt;
+        &lt;label
+          row="1"
+          margin="10 10 0 10"
+          fontWeight="700"
+          className="text-primary"
+          fontSize="18"
+          text={flick.title}
+        /&gt;
+        &lt;label
+          row="2"
+          margin="0 10 10 10"
+          className="text-secondary"
+          fontSize="14"
+          textWrap="true"
+          text={flick.description}
+        /&gt;
+      &lt;/gridLayout&gt;
+    )
+  }
+
+  const onItemTap = (args: ItemEventDaa) =&gt; {
+    const index = args.index
+    const flick = flicks[index]
+    navigation.navigate('Details', {
+      flickId: flick.id
+    })
+  }
+
+  return (
+    &lt;stackLayout height="100%"&gt;
+      &lt;ListView
+        items={flicks}
+        cellFactory={cellFactory}
+        // Add this 👇
+        onItemTap={onItemTap}
+        separatorColor="transparent"
+        height="100%"
+      /&gt;
+    &lt;/stackLayout&gt;
+  )
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="access-navigation-props"><a class="anchor" href="#access-navigation-props"></a>Access navigation props</h3>
+<div class="paragraph">
+<p>We passed in the <code>id</code> of the flick card the user tapped on in the previous section as we navigate to the details page. We can access the passed in <code>id</code> via the <code>route.params</code> property. We can then use the <code>id</code> to get the selected flick information to be displayed in our details component&#8217;s template. Open <code>DetailsScreen.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{9 hljs" data-lang="tsx{9">// src/components/DetailsScreen.tsx
+
+import * as React from 'react'
+import { RouteProp } from '@react-navigation/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+
+// Add this 👇
+import { FlickService } from '../services'
+
+type DetailsScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Details'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Details'&gt;
+}
+
+// Update the input of this function 👇
+export function DetailsScreen({ route }: DetailsScreenProps) {
+  // Add this 👇
+  const flickId = route.params.flickId
+  const flick = FlickService.getFlickById(flickId)
+
+  return &lt;stackLayout&gt;&lt;/stackLayout&gt;
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="details-ui"><a class="anchor" href="#details-ui"></a>Details UI</h3>
+<div class="paragraph">
+<p>Let&#8217;s break down the layout and UI elements of the details page.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-details-breakdown.png" alt="Details page layout breakdown">
+</div>
+</div>
+<div class="paragraph">
+<p>The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the <code>details</code> array from our <code>flicks</code> object to populate the flick details section. The <code>details</code> array contains objects with a <code>title</code> and <code>body</code> which are rendered uniformly, each with their style. We can use Javascript&#8217;s array <code>map</code> operator to loop through the <code>details</code> array and create a UI element or set of elements for each entry in the array. Open <code>DetailsScreen.tsx</code> and add the following code:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{20-44} hljs" data-lang="tsx{20-44}">// src/components/DetailsScreen.tsx
+
+import * as React from 'react'
+import { RouteProp } from '@react-navigation/core'
+import { FrameNavigationProp } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { FlickService } from '../services'
+
+type DetailsScreenProps = {
+  route: RouteProp&lt;MainStackParamList, 'Details'&gt;
+  navigation: FrameNavigationProp&lt;MainStackParamList, 'Details'&gt;
+}
+
+export function DetailsScreen({ route }: DetailsScreenProps) {
+  const flickId = route.params.flickId
+  const flick = FlickService.getFlickById(flickId)
+
+  return (
+    // Add this 👇
+    &lt;scrollView height="100%"&gt;
+      &lt;stackLayout&gt;
+        &lt;image margin="0" stretch="aspectFill" src={flick?.image} /&gt;
+        &lt;stackLayout padding="10 20"&gt;
+          {flick.details.map((flickDetails, index) =&gt; (
+            &lt;stackLayout key={index}&gt;
+              &lt;label
+                marginTop="15"
+                fontSize="16"
+                fontWeight="700"
+                class="text-primary"
+                textWrap="true"
+                text={flickDetails.title}
+              /&gt;
+              &lt;label
+                fontSize="14"
+                class="text-secondary"
+                textWrap="true"
+                text={flickDetails.body}
+              /&gt;
+            &lt;/stackLayout&gt;
+          ))}
+        &lt;/stackLayout&gt;
+      &lt;/stackLayout&gt;
+    &lt;/scrollView&gt;
+  )
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Next, set the title of the <code>ActionBar</code> to the title of the selected flick. We will use the <code>title</code> property from the <code>options</code> object of the details' <code>StackNavigator.Screen</code> component. Open <code>Navigator.tsx</code> and add the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-tsx{11 hljs" data-lang="tsx{11">// src/Navigator.tsx
+
+import * as React from 'react'
+import { BaseNavigationContainer } from '@react-navigation/core'
+import { stackNavigatorFactory } from 'react-nativescript-navigation'
+import { MainStackParamList } from './NavigationParamList'
+import { HomeScreen } from './HomeScreen'
+import { DetailsScreen } from './DetailsScreen'
+
+// Add this 👇
+import { FlickService } from '../services'
+
+const StackNavigator = stackNavigatorFactory()
+
+export const mainStackNavigator = () =&gt; {
+  // Add this 👇
+  const flickTitle = flickId =&gt; FlickService.getFlickById(flickId).title
+  return (
+    &lt;BaseNavigationContainer&gt;
+      &lt;StackNavigator.Navigator
+        initialRouteName="Home"
+        screenOptions={{
+          headerShown: true
+        }}
+      &gt;
+        &lt;StackNavigator.Screen
+          name="Home"
+          options={{
+            title: 'NativeFlix'
+          }}
+          component={HomeScreen}
+        /&gt;
+        &lt;StackNavigator.Screen
+          name="Details"
+          // Add this 👇
+          options={({ route }) =&gt; ({
+            title: flickTitle((route.params as MainStackParamList['Details']).flickId)
+          })}
+          component={DetailsScreen}
+        /&gt;
+      &lt;/StackNavigator.Navigator&gt;
+    &lt;/BaseNavigationContainer&gt;
+  )
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="checkpoint-2"><a class="anchor" href="#checkpoint-2"></a>Checkpoint</h3>
+<div class="paragraph">
+<p>Running the app on either platform should now result in an app that resembles the one in this screenshot with the ability to navigate between the home and details pages.</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="/assets/images/tutorial/tutorial-example-app-details.png" alt="Details page">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="whats-next"><a class="anchor" href="#whats-next"></a>What&#8217;s next</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Congratulations! You built your first NativeScript app that runs on both iOS and Android. You can continue adding more <a href="https://docs.nativescript.org/ui-and-styling.html">NativeScript UI components</a> (or build your custom UI components), or you could add some <a href="https://docs.nativescript.org/native-api-access.html">native functionalities</a>. The possibilities are endless!</p>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="angular.html">Angular Tutorial</a></span>
+  <span class="next"><a href="vue.html">Vue Tutorial</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footerdiv">
+    <p>© 2022 OpenJS Foundation</p>
+    <div class="community_icons">
+        <a href="https://nativescript.org/discord" title="Discord" target="_blank" class="footer_icon icon-discord"><p>Discord</p></a>
+        <a href="https://twitter.com/NativeScript" title="Twitter" target="_blank" class="footer_icon icon-discourse"><p>Twitter</p></a>
+        <a href="https://github.com/NativeScript/NativeScript" title="GitHub" target="_blank" class="footer_icon icon-github"><p>GitHub</p></a>
+  <!--    </div> -->
+    </div>
+  </div>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+<script async src="../../_/js/vendor/tabs-block-behaviour.js"></script>
+<script async src="../../_/js/vendor/swagger-ui.js"></script>
+<script async src="../../_/js/vendor/component-versions.js"></script>
+<script src="../../_/js/vendor/custom.js"></script>
+  </body>
+</html>

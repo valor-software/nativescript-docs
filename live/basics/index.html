@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Introduction :: NativeScript Documentation</title>
+    <link rel="canonical" href="http://localhost:3000/basics/index.html">
+    <link rel="prev" href="../index.html">
+    <link rel="next" href="environment-setup.html">
+    <meta name="generator" content="Antora 3.0.2">
+
+  <link id="theme" rel="stylesheet" title="Default" href="../_/css/site.css">
+  <link rel="stylesheet" title="Dark" href="../_/css/dark-site.css">
+
+    <script>var uiRootPath = '../_'</script>
+    <script src="../_/js/vendor/medium-zoom.js"></script>
+    <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4db29b5-cd94-4bcf-87e4-04f4ca564240" data-blockingmode="manual"></script>
+
+<link rel="icon" href="../_/img/favicon.png" type="image/x-icon">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="top-logo">
+        <a href=".." class="lisk-logo"></a>
+        <a href=".." class="docs-logo"></a>
+      </div>
+      <!--<a class="navbar-item" href="http://localhost:3000">NativeScript Documentation</a>-->
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">APIs</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../xxx/api-ref.html">NativeScript API</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Plugins</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://nativescript.com" target="_blank">NativeScript Plugins</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../index.html">NativeScript Documentation</a>
+<!--
+  add more items here if needed
+-->
+          </div>
+        </div>
+        <button onclick="switch_style('toggle')" id="theme-toggle" class="theme-toggle navbar-item"></button>
+      </div>
+    </div>
+  </nav>
+</header><div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <div class="components-versions">
+      <div class="page-components">
+    <button class="component-menu-toggle" title="Show other documentations">NativeScript Documentation</button>
+    <div class="component-menu">
+        <a class="component is-current" href="../index.html">NativeScript Documentation</a>
+    </div>
+  </div>
+    <span></span>
+      </div>
+  <span></span>
+  <span></span>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">NativeScript Documentation</a></li>
+    <li>Basics</li>
+    <li><a href="index.html">Nativescript Basics</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/ohmynuts/Documents/GitHub/nativescript-docs//docs/modules/ROOT/pages/basics/index.adoc"><img class="pencil">Edit this Page</a></div>
+</div>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">NativeScript Documentation</a></h3>
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Basics</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="index.html">Nativescript Basics</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="environment-setup.html">Environment Setup</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="development-workflow.html">Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="understanding-packages.html">Understanding @nativescript</a>
+  </li>
+  <li class="nav-item parent" data-depth="2">
+    <button class="nav-item-toggle"></button>
+        <span>
+    <a class="nav-link" href="tutorial/index.html">Tutorials</a>
+        </span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tutorial/angular.html">Angular Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tutorial/react.html">React Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tutorial/vue.html">Vue Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tutorial/svelte.html">Svelte Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tutorial/plain.html">Plain Tutorial</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Running and building</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../running-and-building/webpack.html">Webpack</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">UI and Styling</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/app-resources.html">Understanding App_Resources</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/ui-and-styling.html">UI &amp; Styling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/interaction.html">Interaction</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Networking</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/http.html">Http</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/connectivity.html">Connectivity</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scalability</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../scalability/code-sharing.html">Code Sharing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Native API Access</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../native-api-access/access-and-use.html">Accessing Native Platform APIs</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Advanced Concepts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../advanced-concepts/advanced-concepts.html">Advanced Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Distribution</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#distribution/releasing.adoc">distribution/releasing.adoc</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../troubleshooting/troubleshooting.html">Troubleshooting Common Issues</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">NativeScript Documentation</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">NativeScript Documentation</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Introduction</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If you are looking for NS7 &amp; NS6 docs, you can still find them here:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://v7.docs.nativescript.org/" class="bare">https://v7.docs.nativescript.org/</a></p>
+</li>
+<li>
+<p><a href="https://v6.docs.nativescript.org/" class="bare">https://v6.docs.nativescript.org/</a></p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tabset is-loading">
+<div class="ulist tabs">
+<ul>
+<li>
+<p><a id="tabset1_tab-a"></a>Tab A</p>
+</li>
+<li>
+<p><a id="tabset1_tab-b"></a>Tab B</p>
+</li>
+</ul>
+</div>
+<div class="content">
+<div class="tab-pane" aria-labelledby="tabset1_tab-a">
+<div class="paragraph">
+<p>Contents of tab A.</p>
+</div>
+</div>
+<div class="tab-pane" aria-labelledby="tabset1_tab-b">
+<div class="paragraph">
+<p>Contents of tab B.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="prerequisites"><a class="anchor" href="#prerequisites"></a>Prerequisites</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The docs have been written with no assumptions of the readers experience, however it does assume knowledge of JavaScript fundamentals. If you are new to JavaScript, we recommend these resources from <abbr title="Mozilla Developer Network">MDN</abbr>:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Introduction to JavaScript</a></p>
+</li>
+<li>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">Re-Introduction to JavaScript to refresh your knowledge</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="environment-setup-warning"><a class="anchor" href="#environment-setup-warning"></a>Environment Setup :warning:</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You will want to setup your development machine using the <a href="environment-setup">Environment Setup guide here</a> which involves preparing your machine for iOS and Android development as well as installing the <a href="https://www.npmjs.com/package/nativescript">NativeScript CLI</a> via <code>npm install -g nativescript</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="overview-of-nativescript-development"><a class="anchor" href="#overview-of-nativescript-development"></a>Overview of NativeScript development</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>:::warning Note
+The following is a general overview of NativeScript development. To try any of the commands mentioned be sure you have a proper environment setup first.
+:::</p>
+</div>
+<div class="paragraph">
+<p>NativeScript allows scaffolding projects with various templates to kickstart your app development. Official templates can be found in the <a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages">Templates GitHub repository</a> and on <a href="https://www.npmjs.com/search?q=%40nativescript%20template">NPM</a>.</p>
+</div>
+<div class="paragraph">
+<p>Some of the templates are listed in the NativeScript CLI when creating a new project with <code>ns create</code>, others may be used by passing the <code>--template</code> flag with the template name (NPM package name).</p>
+</div>
+<div class="paragraph">
+<p>To create a new project, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you&#8217;d like to try one of the other templates not listed by <code>ns create</code> run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --template &lt;template-package-name&gt;</code></pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If you want to skip the interactive prompts, you can pass:</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --angular // or --ng for short
+ns create myCoolApp --vue
+ns create myCoolApp --vue --ts // for vue with typescript
+ns create myCoolApp --react
+ns create myCoolApp --js
+ns create myCoolApp --svelte</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;to create the app with the default template for the specified flavor.
+:::</p>
+</div>
+<div class="paragraph">
+<p>Here are some of the default templates you may want to try:</p>
+</div>
+<div class="sect2">
+<h3 id="blank"><a class="anchor" href="#blank"></a>Blank</h3>
+<div class="paragraph">
+<p>A basic template with a single page and no custom styles.</p>
+</div>
+<div class="paragraph">
+<p>/// frame ios
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png" alt="appTemplate ios"></span>
+///
+/// frame android
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png" alt="appTemplate android"></span>
+///</p>
+</div>
+<div class="paragraph">
+<p>To use, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --template @nativescript/template-blank</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="drawer"><a class="anchor" href="#drawer"></a>Drawer</h3>
+<div class="paragraph">
+<p>A simple template with a side drawer.</p>
+</div>
+<div class="paragraph">
+<p>/// frame ios
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-ios.png" alt="appTemplate ios"></span>
+///
+/// frame android
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-android.png" alt="appTemplate android"></span>
+///</p>
+</div>
+<div class="paragraph">
+<p>To use, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --template @nativescript/template-drawer-navigation</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tabs"><a class="anchor" href="#tabs"></a>Tabs</h3>
+<div class="paragraph">
+<p>A simple template with multiple tabs.</p>
+</div>
+<div class="paragraph">
+<p>/// frame ios
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png" alt="appTemplate ios"></span>
+///
+/// frame android
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png" alt="appTemplate android"></span>
+///</p>
+</div>
+<div class="paragraph">
+<p>To use, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --template @nativescript/template-tab-navigation</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="list-and-details"><a class="anchor" href="#list-and-details"></a>List and Details</h3>
+<div class="paragraph">
+<p>A simple template with a ListView and a details screen.
+/// frame ios
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png" alt="appTemplate ios"></span>
+///
+/// frame android
+<span class="image"><img src="https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-android.png" alt="appTemplate android"></span>
+///</p>
+</div>
+<div class="paragraph">
+<p>To use, run:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">ns create myCoolApp --template @nativescript/template-master-detail</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="bring-your-own"><a class="anchor" href="#bring-your-own"></a>Bring your own</h3>
+<div class="paragraph">
+<p>You may create a custom template for your projects. The best place to start is to use one of the Official templates as a base and applying your changes on top.</p>
+</div>
+<div class="paragraph">
+<p>The easiest and straight-forward way to create your customized template is to clone one of the blank templates. NativeScript templates come in different flavors (Plain JavaScript, TypeScript, Angular and Vue.js) so you could select the blank template for the desired application flavor.</p>
+</div>
+<div class="paragraph">
+<p>Here is the list of the six main blank templates depending on the coding language preferences.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank">Blank Plain JavaScript template</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank-ts">Blank TypeScript template</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank-ng">Blank Angular template</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank-vue">Blank Vue.js template</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank-react">Blank React template</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-blank-svelte">Blank Svelte template</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Creating your template is as simple as cloning the wanted template repository and modifying the source code to satisfy your business logic.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">git clone https://github.com/NativeScript/template-blank-ts.git</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As of NativeScript 4.x.x the application templates have a mobile application structure so you could develop your template by following the standard developer workflow.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cli hljs" data-lang="cli">cd template-blank-ts
+npm i
+ns run android
+# start making code changes</code></pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="guidelines"><a class="anchor" href="#guidelines"></a>Guidelines</h4>
+<div class="sect4">
+<h5 id="template-structure-guidelines"><a class="anchor" href="#template-structure-guidelines"></a>Template Structure Guidelines</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Create folders named for the feature area they represent. Each featured area should be placed in a separate folder in the template&#8217;s folder structure.</p>
+</li>
+<li>
+<p>Place each page, view model, and service in its file. Apply the single responsibility principle (SRP) to all pages, view models, services, and other symbols. This helps make the app cleaner, easier to read and maintain, and more testable.</p>
+</li>
+<li>
+<p>Consider creating a folder for a page when it has multiple accompanying files (.ts, .xml, .scss/css, etc.).</p>
+</li>
+<li>
+<p>Avoid putting all of your app template&#8217;s code in a root folder named <em>app</em>. When the actual app is created from the template, all of the template&#8217;s code will indeed go inside a root <strong>app</strong> folder, but you MUST NOT define this folder in the hierarchy of your template; otherwise, the <code>ns create</code> CLI command will not function properly.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="package-json-guidelines"><a class="anchor" href="#package-json-guidelines"></a>Package.json Guidelines</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Place a <code>package.json</code> file in the root folder of your app template.<br>
+Note this is not the actual root package.json of the generated mobile app&#8201;&#8212;&#8201;it is only used by the <code>ns create</code> CLI command upon app creation. Do not expect that everything you place in your package.json will be transferred to the actual package.json file. Notably <code>scripts</code> property content is removed. However, if you provide preinstall / postinstall scripts, they will be executed before getting removed. You can use this mechanism to generate/move settings files to the root folder of the generated app and generate actual "scripts" content for the resulting app package.json&#8201;&#8212;&#8201;see <a href="https://github.com/NativeScript/nativescript-app-templates/blob/master/shared/hooks/after-createProject/after-createProject.js">generating <code>scripts</code> commands on-the-fly</a> for concrete examples.</p>
+</li>
+<li>
+<p>Provide a value for the <code>name</code> property using the format: <strong>ns-template-[custom-template-name-goes-here]-ts</strong>.<br>
+Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command but can be found in the app/package.json file of the generated app.</p>
+</li>
+<li>
+<p>Provide a value for the <code>version</code> property following semver rules (e.g., 1.0.0).<br>
+Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command but can be found in the app/package.json file of the generated app.</p>
+</li>
+<li>
+<p>Provide a value for the <code>main</code> property specifying the primary entry point to your app (usually <strong>app.js</strong>).<br>
+Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command but can be found in the app/package.json file of the generated app.</p>
+</li>
+<li>
+<p>Provide a value for the <code>android</code> property specifying V8 flags (at a minimum it should be set to <code>"android": { "v8Flags": "--expose_gc" }</code>).<br>
+Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command but can be found in the app/package.json file of the generated app.</p>
+</li>
+<li>
+<p>Provide a value for the <code>displayName</code> property (user-friendly template name).<br>
+Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command.</p>
+</li>
+<li>
+<p>Provide a value for the <code>repository</code> property specifying the place where your code lives.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Note this property value is NOT transferred to the root package.json file generated by the <code>ns create</code> CLI command.</p>
+</li>
+<li>
+<p>Note correct <code>repository</code> property value is essential for the future integration with NativeScript Marketplace. Check the following section &#8220;Marketplace guidelines&#8221; for other integration requirements as well.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Provide a value for the following additional set of package.json properties: <code>description</code>, <code>license</code>, <code>readme</code>, <code>dependencies</code>, <code>devDependencies</code>.<br>
+Note these property values are transferred to the root package.json file generated by the <code>ns create</code> CLI command.
+For example, <a href="https://github.com/NativeScript/nativescript-app-templates/blob/master/packages/template-master-detail-ts/package.json">package.json</a> has the following minimal structure:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+  "name": "@nativescript/template-master-detail-ts",
+  "displayName": "Master-Detail",
+  "main": "app/app.ts",
+  "version": "8.0.0",
+  "description": "Master-detail interface to display collection of items from json collection and inspect and edit selected item properties. ",
+  "license": "Apache-2.0",
+  "readme": "NativeScript Application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NativeScript/nativescript-app-templates"
+  },
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "dependencies": {
+	...
+  },
+  "devDependencies": {
+	...
+  }
+}</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Provide a value for the <code>keywords</code>. Keywords can be very helpful for the discoverability of the template. Also, there are special keywords that could be used to make the template appear in the <a href="https://market.nativescript.org/">NativeScript marketplace</a> especially and under certain conditions. The following keywords are supported:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>ux-preview</code> - will add an &#8220;Preview &amp; Vote&#8221; label on the "preview box" in the search list. It will also enable email registration and voting. This keyword should be used when adding a "preview" of a template that is not implemented but is rather an idea.</p>
+</li>
+<li>
+<p><code>category-general</code> - will show the template under the "General" tab in the <a href="https://market.nativescript.org/?tab=templates">"Templates" page</a>. This is the general or basic category, used to describe "generic" functionality.</p>
+</li>
+<li>
+<p><code>category-healthcare</code> - will show the template under the "Healthcare" tab in the <a href="https://market.nativescript.org/?tab=templates">"Templates" page</a>. This is a special category, used to describe a template with functionality related to the healthcare industry.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="marketplace-guidelines"><a class="anchor" href="#marketplace-guidelines"></a>Marketplace Guidelines</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Publish your app template to npm (<a href="https://www.npmjs.com/" class="bare">https://www.npmjs.com/</a>) using <strong>ns-template-[custom-template-name-goes-here]-ts</strong> format for the npm package name.</p>
+</li>
+<li>
+<p>Provide a screenshot preview to be used in a future NativeScript Marketplace integration under <strong>tools/assets/marketplace.png</strong> in your app template folder structure.<br>
+Check <a href="https://github.com/NativeScript/template-master-detail-ts/blob/master/tools/postinstall.js">tools/postinstall.js</a> that implements a mechanism for removing the "tools" infrastructure folder from the generated app.</p>
+</li>
+<li>
+<p>Provide correct <code>repository</code> property value in the root package.json file of your app template (see the "Package.json guidelines" section above for additional package.json requirements).</p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/marketplace-feedback/blob/master/docs/template-submission.md">Read more</a> how to submit your app template to <a href="https://market.nativescript.org">NativeScript Marketplace</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="styling-guidelines"><a class="anchor" href="#styling-guidelines"></a>Styling Guidelines</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Consider using the <a href="https://github.com/NativeScript/theme">NativeScript core theme</a> for styling your app template.</p>
+</li>
+<li>
+<p>Consider using the following infrastructure to enable cross-platform SASS styling for your app template:<br>
+<strong>_app-variables.css</strong> file in the app template&#8217;s root folder should import the NativeScript core theme variables, and any custom colors or theme variable overrides you might use:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">/*
+    Import the theme's variables. If you're using a color scheme
+    other than "light", switch the path to the alternative scheme,
+    for example 'nativescript-theme-core/scss/dark'.
+*/
+@import 'nativescript-theme-core/scss/light';
+
+/* Custom colors */
+$blue-dark: #022734 !default;
+$blue-light: #02556E !default;
+$blue-50: rgba($blue-dark, 0.5) !default;
+
+/**
+* Theme variables overrides
+**/
+
+/*  Colors */
+$background: #fff;
+$primary: lighten(#000, 13%);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>_app-common.scss</strong> file in the app template&#8217;s root folder should contain any styling rules to be applied both on iOS and Android:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">/*
+    Place any CSS rules you want to apply on both iOS and Android here.
+    This is where the vast majority of your CSS code goes.
+*/
+
+/* Font icon */
+.fa {
+   font-family: "FontAwesome";
+}
+
+/* Action bar */
+.action-item,
+NavigationButton {
+    color: $ab-color;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>app.android.scss</strong> file in the app template&#8217;s root folder should import the app variables, the NativeScript core theme main ruleset, and the common styles; also place any styling rules to be applied only on Android here:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">/* Import app variables */
+@import 'app-variables';
+
+/* Import the theme's main ruleset - both index and platform specific. */
+@import 'nativescript-theme-core/scss/index';
+@import 'nativescript-theme-core/scss/platforms/index.android';
+
+/* Import common styles */
+@import 'app-common';
+
+/* Place any CSS rules you want to apply only on Android here */
+.action-item {
+    padding-right: 10;
+    height: 100%;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>app.ios.scss</strong> file in the app template&#8217;s root folder should import the app variables, the NativeScript core theme main ruleset, and the common styles; also place any styling rules to be applied only on iOS here:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">/* Import app variables */
+@import 'app-variables';
+
+/* Import the theme’s main ruleset - both index and platform specific. */
+@import 'nativescript-theme-core/scss/index';
+@import 'nativescript-theme-core/scss/platforms/index.ios';
+
+/* Import common styles */
+@import 'app-common';
+
+/* Place any CSS rules you want to apply only on iOS here */</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Consider using the following infrastructure to enable cross-platform SASS styling on page level:
+<strong>_[page-name]-page.scss</strong> in the respective feature folder should contain the style rules to be applied both on iOS and Android for <strong>[page-name]-page.ts</strong> (e.g. if styling <strong>cars/car-list-page.ts</strong>, the file should be <strong>cars/_car-list-page.scss</strong>):</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">/* Start custom common variables */
+@import '../app-variables';
+/* End custom common variables */
+
+/* Custom styles */
+.list-group {
+    .list-group-item {
+        padding: 0 0 8 0;
+        background-color: $blue-10;
+
+        .list-group-item-content {
+            padding: 8 15 4 15;
+            background-color: $background-light;
+        }
+
+        .fa {
+            color: $accent-dark;
+        }
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>[page-name]-page.android.scss</strong> in the respective feature folder should contain the style rules to be applied only on Android for <strong>[page-name]-page.ts</strong> (e.g. if styling <strong>cars/car-list-page.ts</strong>, the file should be <strong>cars/car-list-page.android.scss</strong>):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">@import 'cars-list-page';
+
+/* Place any CSS rules you want to apply only on Android here */</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>[page-name]-page.ios.scss</strong> in the respective feature folder should contain the style rules to be applied only on iOS for <strong>[page-name]-page.ts</strong> (e.g. if styling <strong>cars/car-list-page.ts</strong>, the file should be <strong>cars/car-list-page.ios.scss</strong>):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-CSS hljs" data-lang="CSS">@import 'cars-list-page';
+
+/* Place any CSS rules you want to apply only on iOS here */</code></pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="more-guidelines"><a class="anchor" href="#more-guidelines"></a>More Guidelines</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-starter-kits-utils/blob/master/docs/style-guide-app-template.md">Read JavaScript App Template Style Guide</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NativeScript/nativescript-starter-kits-utils/blob/master/docs/style-guide-app-template-ng.md">Read Angular App Template Style Guide</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../index.html">NativeScript Documentation</a></span>
+  <span class="next"><a href="environment-setup.html">Environment Setup</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footerdiv">
+    <p>© 2022 OpenJS Foundation</p>
+    <div class="community_icons">
+        <a href="https://nativescript.org/discord" title="Discord" target="_blank" class="footer_icon icon-discord"><p>Discord</p></a>
+        <a href="https://twitter.com/NativeScript" title="Twitter" target="_blank" class="footer_icon icon-discourse"><p>Twitter</p></a>
+        <a href="https://github.com/NativeScript/NativeScript" title="GitHub" target="_blank" class="footer_icon icon-github"><p>GitHub</p></a>
+  <!--    </div> -->
+    </div>
+  </div>
+</footer>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+<script async src="../_/js/vendor/tabs-block-behaviour.js"></script>
+<script async src="../_/js/vendor/swagger-ui.js"></script>
+<script async src="../_/js/vendor/component-versions.js"></script>
+<script src="../_/js/vendor/custom.js"></script>
+  </body>
+</html>

@@ -1,32 +1,47 @@
-= Lisk Docs
+= NativeScript Docs
 :imagesdir: assets
 
 Lisk uses https://antora.org/[Antora] as documentation generator.
 
-Click here to see the live version of the https://lisk.io/documentation/lisk-sdk/index.html[Lisk Documentation].
+Click here to see the live version of the https://xxx.org/index.html[CHANGE:NativeScript Documentation].
 
-xref:CONTRIBUTING.adoc[How to contribute to the Lisk Documentation]
+xref:CONTRIBUTING.adoc[How to contribute to the NativeScript Documentation]
 
 == Overview
 
 Content::
-The Content of the whole Lisk documentation is stored in branches:
+The Content of the whole NativeScript documentation is stored in main branch for now:
 +
 ----
-docs-sdk
-docs-core
+main
 ----
-Documentation for previous versions of the SDK and Core is stored in branches following the naming convention:
+Documentation for previous versions of the NativeScript is stored in branches following the naming convention:
 +
 ----
-docs-core-VERSION
 docs-sdk-VERSION
 ----
 where `VERSION` is always referring to the corresponding software version.
 
 UI::
-The presentation of the documentation is stored completely seperate form the actual content.
-It's stored on the `antora` branch.
+The presentation of the documentation is stored near the actual content in ui/ directory. But will later move to a separate location form the actual content.
+It will be stored on the `antora` branch.
 
 Building::
-The `build` branch stores the `site.yml` file, which is used to generate the Lisk Documentation using Antora.
+The `build` branch stores the `local-preview-site.yml` file, which is used to generate the NativeScript Documentation using Antora for local preview.
+
+To build and preview the documentation, run `npx antora local-preview-site.yml` in the `build` directory.
+
+Although the site is viewable without a web server, you may still need to view your site through a web server to test certain features, such as indexified URLs, caching, or scripts that don't work over the file: protocol. You can use the http-server package for this purpose. http-server is a simple, static web server for Node.js.
+
+Install the http-server package globally using npm:
+
+`demo-site $ npm i -g http-server``
+or Yarn:
+
+`demo-site $ yarn global add http-server`
+
+Now launch the web server by pointing it at the location of the generated site. In the terminal, type the command name, http-server, followed by the location of the generated site (i.e., the output dir). We also recommend adding the -c-1 flag to disable caching.
+
+`demo-site $ http-server build/site -c-1`
+
+Upon launching the command, the local address of the web server will be displayed in your terminal.

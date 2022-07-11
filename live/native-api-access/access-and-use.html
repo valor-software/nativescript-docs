@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Accessing Native Platform APIs :: NativeScript Documentation</title>
+    <link rel="canonical" href="http://localhost:3000/native-api-access/access-and-use.html">
+    <link rel="prev" href="../scalability/code-sharing.html">
+    <link rel="next" href="../advanced-concepts/advanced-concepts.html">
+    <meta name="generator" content="Antora 3.0.2">
+
+  <link id="theme" rel="stylesheet" title="Default" href="../_/css/site.css">
+  <link rel="stylesheet" title="Dark" href="../_/css/dark-site.css">
+
+    <script>var uiRootPath = '../_'</script>
+    <script src="../_/js/vendor/medium-zoom.js"></script>
+    <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4db29b5-cd94-4bcf-87e4-04f4ca564240" data-blockingmode="manual"></script>
+
+<link rel="icon" href="../_/img/favicon.png" type="image/x-icon">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="top-logo">
+        <a href=".." class="lisk-logo"></a>
+        <a href=".." class="docs-logo"></a>
+      </div>
+      <!--<a class="navbar-item" href="http://localhost:3000">NativeScript Documentation</a>-->
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">APIs</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../xxx/api-ref.html">NativeScript API</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Plugins</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://nativescript.com" target="_blank">NativeScript Plugins</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../index.html">NativeScript Documentation</a>
+<!--
+  add more items here if needed
+-->
+          </div>
+        </div>
+        <button onclick="switch_style('toggle')" id="theme-toggle" class="theme-toggle navbar-item"></button>
+      </div>
+    </div>
+  </nav>
+</header><div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <div class="components-versions">
+      <div class="page-components">
+    <button class="component-menu-toggle" title="Show other documentations">NativeScript Documentation</button>
+    <div class="component-menu">
+        <a class="component is-current" href="../index.html">NativeScript Documentation</a>
+    </div>
+  </div>
+    <span></span>
+      </div>
+  <span></span>
+  <span></span>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">NativeScript Documentation</a></li>
+    <li>Native API Access</li>
+    <li><a href="access-and-use.html">Accessing Native Platform APIs</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/ohmynuts/Documents/GitHub/nativescript-docs//docs/modules/ROOT/pages/native-api-access/access-and-use.adoc"><img class="pencil">Edit this Page</a></div>
+</div>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">NativeScript Documentation</a></h3>
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Basics</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/index.html">Nativescript Basics</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/environment-setup.html">Environment Setup</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/development-workflow.html">Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/understanding-packages.html">Understanding @nativescript</a>
+  </li>
+  <li class="nav-item parent" data-depth="2">
+    <button class="nav-item-toggle"></button>
+        <span>
+    <a class="nav-link" href="../basics/tutorial/index.html">Tutorials</a>
+        </span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/angular.html">Angular Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/react.html">React Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/vue.html">Vue Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/svelte.html">Svelte Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/plain.html">Plain Tutorial</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Running and building</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../running-and-building/webpack.html">Webpack</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">UI and Styling</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/app-resources.html">Understanding App_Resources</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/ui-and-styling.html">UI &amp; Styling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/interaction.html">Interaction</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Networking</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/http.html">Http</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../networking/connectivity.html">Connectivity</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scalability</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../scalability/code-sharing.html">Code Sharing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Native API Access</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="access-and-use.html">Accessing Native Platform APIs</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Advanced Concepts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../advanced-concepts/advanced-concepts.html">Advanced Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Distribution</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#distribution/releasing.adoc">distribution/releasing.adoc</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../troubleshooting/troubleshooting.html">Troubleshooting Common Issues</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">NativeScript Documentation</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">NativeScript Documentation</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Accessing Native Platform APIs</h1>
+<div class="sect1">
+<h2 id="native-api-access"><a class="anchor" href="#native-api-access"></a>Native API Access</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>What exactly does it mean for NativeScript to "Empower JavaScript
+with native APIs"?</p>
+</div>
+<div class="paragraph">
+<p>This means you can go directly to platform source documentation like <a href="https://developer.apple.com/documentation/">Apple API Docs</a> and <a href="https://developer.android.com/reference">Android API Docs</a> and work with it right away without leaving your JavaScript codebase.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s explore this more by looking at some concrete use cases.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>tip Note
+The @nativescript/core package is written in TypeScript and you can view it&#8217;s <a href="https://github.com/NativeScript/NativeScript/tree/master/packages/core">source on Github</a> for many examples of calling native platform APIs.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>== Android Walkthrough</p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>The Java code below will get the Android device battery level. This example is only for Android API 21+. To get the battery level prior to Android 21 a different approach was necessary. The purpose of this example is to explain the approach of converting Java to JavaScript.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">BatteryManager bm = (BatteryManager) context.getSystemService(BATTERY_SERVICE);
+int batLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Below is the working JavaScript to achieve the same end result that Java code would provide.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-ts hljs" data-lang="ts">import { Utils, Device } from '@nativescript/core'
+
+if (global.isAndroid &amp;&amp; Device.sdkVersion &gt;= '21') {
+  const bm = Utils.android
+    .getApplicationContext()
+    .getSystemService(android.content.Context.BATTERY_SERVICE)
+  const batLevel = bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY)
+}</code></pre>
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>warning Note
+The code block is wrapped with <code>global.isAndroid</code> so it&#8217;s only executed on Android. Otherwise the app would crash on iOS when it tries to access APIs that are not part of the iOS platform.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Since this code is only for Android API 21+ we have also included a sdk version check.
+:::</p>
+</div>
+<div class="paragraph">
+<p>Now for a short walkthrough of one way to go about translating Java to JavaScript.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>JavaScript uses <code>const, let, var</code> to declare variables. Further with TypeScript we can assign any variable a platform native type using the <code>@nativescript/types</code> package.</p>
+</li>
+<li>
+<p>Next we see the method <code>getSystemService(BATTERY_SERVICE)</code> is being executed. We can find the <a href="https://developer.android.com/reference/android/content/Context#getSystemService">getSystemService method is documented here</a> on Android docs.</p>
+<div class="paragraph">
+<p>The method is a public abstract of the <code>android.content.Context</code>. In the Java code you typically see <code>context</code> which would be an instance of the Application Context. In NativeScript we can use <code>Utils</code> from <code>@nativescript/core</code> which provides a method to get the Android context: <code>Utils.android.getApplicationContext()</code>.</p>
+</div>
+</li>
+<li>
+<p>The <code>getSystemService(java.lang.String)</code> method accepts a String. When programming in Android you can use <code>BATTERY_SERVICE</code> if the <code>import android.content.Context</code> is declared in the .java file. The compiler will know that <code>BATTERY_SERVICE</code> is the <a href="https://developer.android.com/reference/android/content/Context#BATTERY_SERVICE">static final string declared here</a>.</p>
+<div class="paragraph">
+<p>You could also write the <code>getSystemService("batterymanager")</code> using the static constant value: "batterymanager". In your NativeScript code, you could do the same, but if you prefer to use the full namespace path to the static value, you can write it like the example does with <code>android.content.Context.BATTERY_SERVICE</code>.</p>
+</div>
+</li>
+<li>
+<p>Now we have an instance of the <a href="https://developer.android.com/reference/android/os/BatteryManager">Android BatteryManager</a> which is what the <a href="https://developer.android.com/reference/android/content/Context#BATTERY_SERVICE">docs state as the return value</a> for this system service.</p>
+</li>
+<li>
+<p>The next line we see <a href="https://developer.android.com/reference/android/os/BatteryManager#getIntProperty"><code>getIntProperty() method</code></a> called on the BatteryManager instance we have from the first line.</p>
+<div class="paragraph">
+<p>We see that the method expects an <code>int id</code> as the argument and returns an <code>int</code>. Now we need to determine what the <code>BatteryManager.BATTERY_PROPERTY_CAPACITY</code> value is. You can see that <code>BatteryManager</code> is the class and what looks like a static value. Searching the Android BatteryManager docs for <code>BATTERY_PROPERTY_CAPACITY</code> you will find the constant value of the static final: <code>Constant Value: 4 (0x00000004)</code>.</p>
+</div>
+<div class="paragraph">
+<p>You could execute the <code>getIntProperty(int id)</code> method passing in <code>4</code> as the argument in Java and it would work, same as you could in NativeScript. In order to use the full namespace in NativeScript you would use the fully qualified namespace path to the static int <code>android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY</code>. Again, you typically do not use the full namespace path to values in Java because you can import the class. So <code>import android.os.BatteryManager</code> would be in the example java file allowing you to use the static value and the compiler know what you are trying to do and compile correctly at build time.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ios-walkthrough"><a class="anchor" href="#ios-walkthrough"></a>iOS Walkthrough</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here is the Objective-C code to get the current battery level from an iOS device:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-objc hljs" data-lang="objc">float batteryLevel = [[UIDevice currentDevice] batteryLevel];</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s the same thing in JavaScript using our abilities with NativeScript:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-ts hljs" data-lang="ts">if (global.isIOS) {
+  const batteryLevel = UIDevice.currentDevice.batteryLevel
+}</code></pre>
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>warning Note
+We can conditionally wrap any platform specific code with <code>global.isIOS</code> or <code>global.isAndroid</code> so that it is only executed on the platform we want. This global is also configured at the webpack level so when you use these conditionals, production code is bundled with only the target platform code excluding any conditionals which are not indicated for the platform. Otherwise the app would crash on Android when it tries to access APIs that are not part of the Android platform itself (just as the platform would in this case).</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>Now for a short walkthrough of one way to go about translating Objective-C to JavaScript.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In Objective-C we see <code>UIDevice</code>, so you can search for <code>UIDevice</code> on the <a href="https://developer.apple.com/documentation/uikit/uidevice">iOS Documentation</a>.</p>
+</li>
+<li>
+<p>Next we see <code>currentDevice</code> property being accessed. In the iOS documentation for <code>UIDevice</code> you will find the <a href="https://developer.apple.com/documentation/uikit/uidevice/1620014-currentdevice?language=objc"><code>currentDevice property</code></a> of the <code>UIDevice</code> class.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>tip Note
+Translating Objective-C to JavaScript is made easy using intellisense and the <code>@nativescript/types</code> package during development which will help you autocomplete the native API calls where they may slightly differ.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+</li>
+<li>
+<p>Lastly, Objective-C is accessing <a href="https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel?language=objc"><code>batteryLevel</code></a> synchronously to get the value. So we can access the exact same value synchronously in our JavaScript code to read the battery level just as the iOS platform API is designed to do.</p>
+</li>
+</ol>
+</div>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../scalability/code-sharing.html">Code Sharing</a></span>
+  <span class="next"><a href="../advanced-concepts/advanced-concepts.html">Advanced Concepts</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footerdiv">
+    <p>© 2022 OpenJS Foundation</p>
+    <div class="community_icons">
+        <a href="https://nativescript.org/discord" title="Discord" target="_blank" class="footer_icon icon-discord"><p>Discord</p></a>
+        <a href="https://twitter.com/NativeScript" title="Twitter" target="_blank" class="footer_icon icon-discourse"><p>Twitter</p></a>
+        <a href="https://github.com/NativeScript/NativeScript" title="GitHub" target="_blank" class="footer_icon icon-github"><p>GitHub</p></a>
+  <!--    </div> -->
+    </div>
+  </div>
+</footer>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+<script async src="../_/js/vendor/tabs-block-behaviour.js"></script>
+<script async src="../_/js/vendor/swagger-ui.js"></script>
+<script async src="../_/js/vendor/component-versions.js"></script>
+<script src="../_/js/vendor/custom.js"></script>
+  </body>
+</html>

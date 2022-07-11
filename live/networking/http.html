@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Http :: NativeScript Documentation</title>
+    <link rel="canonical" href="http://localhost:3000/networking/http.html">
+    <link rel="prev" href="../ui-and-styling/interaction.html">
+    <link rel="next" href="connectivity.html">
+    <meta name="generator" content="Antora 3.0.2">
+
+  <link id="theme" rel="stylesheet" title="Default" href="../_/css/site.css">
+  <link rel="stylesheet" title="Dark" href="../_/css/dark-site.css">
+
+    <script>var uiRootPath = '../_'</script>
+    <script src="../_/js/vendor/medium-zoom.js"></script>
+    <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e4db29b5-cd94-4bcf-87e4-04f4ca564240" data-blockingmode="manual"></script>
+
+<link rel="icon" href="../_/img/favicon.png" type="image/x-icon">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="top-logo">
+        <a href=".." class="lisk-logo"></a>
+        <a href=".." class="docs-logo"></a>
+      </div>
+      <!--<a class="navbar-item" href="http://localhost:3000">NativeScript Documentation</a>-->
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">APIs</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../xxx/api-ref.html">NativeScript API</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Plugins</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://nativescript.com" target="_blank">NativeScript Plugins</a>
+<!--
+add more items here if needed
+-->
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Documentation</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../index.html">NativeScript Documentation</a>
+<!--
+  add more items here if needed
+-->
+          </div>
+        </div>
+        <button onclick="switch_style('toggle')" id="theme-toggle" class="theme-toggle navbar-item"></button>
+      </div>
+    </div>
+  </nav>
+</header><div class="toolbar" role="navigation">
+  <button class="nav-toggle"></button>
+  <div class="components-versions">
+      <div class="page-components">
+    <button class="component-menu-toggle" title="Show other documentations">NativeScript Documentation</button>
+    <div class="component-menu">
+        <a class="component is-current" href="../index.html">NativeScript Documentation</a>
+    </div>
+  </div>
+    <span></span>
+      </div>
+  <span></span>
+  <span></span>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">NativeScript Documentation</a></li>
+    <li>Networking</li>
+    <li><a href="http.html">Http</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="file:///Users/ohmynuts/Documents/GitHub/nativescript-docs//docs/modules/ROOT/pages/networking/http.adoc"><img class="pencil">Edit this Page</a></div>
+</div>
+<div class="body">
+<div class="nav-container" data-component="ROOT" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">NativeScript Documentation</a></h3>
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Basics</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/index.html">Nativescript Basics</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/environment-setup.html">Environment Setup</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/development-workflow.html">Development Workflow</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../basics/understanding-packages.html">Understanding @nativescript</a>
+  </li>
+  <li class="nav-item parent" data-depth="2">
+    <button class="nav-item-toggle"></button>
+        <span>
+    <a class="nav-link" href="../basics/tutorial/index.html">Tutorials</a>
+        </span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/angular.html">Angular Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/react.html">React Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/vue.html">Vue Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/svelte.html">Svelte Tutorial</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../basics/tutorial/plain.html">Plain Tutorial</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Running and building</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../running-and-building/webpack.html">Webpack</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">UI and Styling</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/app-resources.html">Understanding App_Resources</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/ui-and-styling.html">UI &amp; Styling</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ui-and-styling/interaction.html">Interaction</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Networking</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="http.html">Http</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="connectivity.html">Connectivity</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Scalability</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../scalability/code-sharing.html">Code Sharing</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Native API Access</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../native-api-access/access-and-use.html">Accessing Native Platform APIs</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Advanced Concepts</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../advanced-concepts/advanced-concepts.html">Advanced Concepts</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Distribution</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#distribution/releasing.adoc">distribution/releasing.adoc</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item parent" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Troubleshooting</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../troubleshooting/troubleshooting.html">Troubleshooting Common Issues</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">NativeScript Documentation</span>
+    <span class="version">default</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">NativeScript Documentation</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">default</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Http</h1>
+<div class="sect1">
+<h2 id="http"><a class="anchor" href="#http"></a>Http</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The import for the Http module.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http } from '@nativescript/core'</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getstring"><a class="anchor" href="#getstring"></a>getString</h3>
+<div class="paragraph">
+<p>The <code>getString</code> method allows us to make a request and get the response body as a string value.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http } from '@nativescript/core'
+
+Http.getString('https://httpbin.org/get').then(
+  (result: string) =&gt; {
+    viewModel.set('getStringResult', r)
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getjson"><a class="anchor" href="#getjson"></a>getJSON</h3>
+<div class="paragraph">
+<p>The <code>getJSON</code> method gives us a simple way to get the response body as a JSON object.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http } from '@nativescript/core'
+
+Http.getJSON('https://httpbin.org/get').then(
+  (result: any) =&gt; {
+    console.log(result)
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getfile"><a class="anchor" href="#getfile"></a>getFile</h3>
+<div class="paragraph">
+<p>The <code>getFile</code> method allows us to download a file.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http } from '@nativescript/core'
+
+Http.getFile('https://d1lfyz5kwt8vu9.cloudfront.net/nativescript-logo-2021.png').then(
+  resultFile =&gt; {
+    // The returned result will be File object
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>warning Note
+By default the file will be saved in Documents folder.</p>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">:</dt>
+<dd>
+<p>In the <code>getFile</code> method we could also specify the path, where the file to be saved. This scenario is demonstrated in the example below, where the image file will be kept in the current application folder.</p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { File, Http, knownFolders, path } from '@nativescript/core'
+
+const filePath: string = path.join(knownFolders.currentApp().path, 'test.png')
+
+Http.getFile(
+  'https://httpbin.org/image/png?testQuery=query&amp;anotherParam=param',
+  filePath
+).then(
+  (resultFile: File) =&gt; {
+    // The returned result will be File object
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getimage"><a class="anchor" href="#getimage"></a>getImage</h3>
+<div class="paragraph">
+<p>The <code>getImage</code> method allows us to get an image from a specific URL. The returned object will be ImageSource and it could be used for direct displaying the source into Image view in your UI.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http, ImageSource } from '@nativescript/core'
+
+Http.getImage('https://httpbin.org/image/jpeg').then(
+  (r: ImageSource) =&gt; {
+    // getImage method returns ImageSource object
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="request"><a class="anchor" href="#request"></a>request</h3>
+<div class="paragraph">
+<p>This example <code>request</code> method demonstrates how we can access the response headers, content, and statusCode.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http, HttpResponse } from '@nativescript/core'
+
+Http.request({
+  url: 'https://httpbin.org/get',
+  method: 'GET'
+}).then(
+  (response: HttpResponse) =&gt; {
+    // Argument (response) is HttpResponse
+    console.log(`Response Status Code: ${response.statusCode}`)
+    console.log(`Response Headers: ${response.statusCode}`)
+    console.log(`Response Content: ${response.content}`)
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This example demonstrates, how to get the request-response content and how to represent the received data as a <code>String</code> value or <code>JSON</code> object. We could also use <code>toImage</code> method when we download an image.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http, HttpResponse } from '@nativescript/core'
+
+Http.request({
+  url: 'https://httpbin.org/get',
+  method: 'GET'
+}).then(
+  (response: HttpResponse) =&gt; {
+    // Content property of the response is HttpContent
+    const content = response.content
+
+    // The toString method allows you to get the response body as string.
+    const str = content.toString()
+
+    // The toJSON method allows you to parse the received content to JSON object
+    // var obj = content.toJSON();
+
+    // The toImage method allows you to get the response body as ImageSource.
+    // var img = response.content.toImage();
+  },
+  e =&gt; {}
+)</code></pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="post"><a class="anchor" href="#post"></a>Post</h4>
+<div class="paragraph">
+<p>The example demonstrates, how to make Http POST request and how to get request response.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-typescript hljs" data-lang="typescript">import { Http, HttpResponse } from "@nativescript/core";
+
+Http.request({
+  url: "https://httpbin.org/post",
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  content: JSON.stringify({
+    username: "testuser@sometestemail.com,
+    password: "someEncryptedPasswordValue",
+  }),
+}).then(
+  (response: HttpResponse) =&gt; {
+    const result = response.content.toJSON();
+    console.log(`Http POST Result: ${result}`)
+  },
+  (e) =&gt; {}
+);</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="methods"><a class="anchor" href="#methods"></a>Methods</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getFile(url: string, destinationFilePath?: string): Promise&lt;File&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Promise&lt;File&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloads the content from the specified URL and attempts to save it as file.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getImage(url: string): Promise&lt;ImageSource&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Promise&lt;ImageSource&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloads the content from the specified URL and attempts to decode it as an image.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getJSON&lt;T&gt;(url: string): Promise&lt;T&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Promise&lt;T&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloads the content from the specified URL as a string and returns its JSON.parse representation.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getString(url: string): Promise&lt;string&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Promise&lt;string&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Downloads the content from the specified URL as a string.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>request(options: HttpRequestOptions): Promise&lt;HttpResponse&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Promise&lt;HttpResponse&gt;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Makes a generic http request using the provided options and returns a HttpResponse Object.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="api-references"><a class="anchor" href="#api-references"></a>API References</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://docs.nativescript.org/api-reference/modules.html#http">@nativescript/core/http</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Module</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../ui-and-styling/interaction.html">Interaction</a></span>
+  <span class="next"><a href="connectivity.html">Connectivity</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footerdiv">
+    <p>© 2022 OpenJS Foundation</p>
+    <div class="community_icons">
+        <a href="https://nativescript.org/discord" title="Discord" target="_blank" class="footer_icon icon-discord"><p>Discord</p></a>
+        <a href="https://twitter.com/NativeScript" title="Twitter" target="_blank" class="footer_icon icon-discourse"><p>Twitter</p></a>
+        <a href="https://github.com/NativeScript/NativeScript" title="GitHub" target="_blank" class="footer_icon icon-github"><p>GitHub</p></a>
+  <!--    </div> -->
+    </div>
+  </div>
+</footer>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+<script async src="../_/js/vendor/tabs-block-behaviour.js"></script>
+<script async src="../_/js/vendor/swagger-ui.js"></script>
+<script async src="../_/js/vendor/component-versions.js"></script>
+<script src="../_/js/vendor/custom.js"></script>
+  </body>
+</html>
