@@ -18,11 +18,11 @@ asciidoc:
   - ./lib/tabs-block/extension.js
 content:
   sources:
-  - url: /Users/ohmynuts/Documents/GitHub/nativescript-docs/
+  - url: ../
     start_path: docs
 ui:
   bundle:
-    url: /Users/ohmynuts/Documents/GitHub/nativescript-docs/ui/build/ui-bundle
+    url: ../ui/build/ui-bundle
 
     snapshot: true
 output:
