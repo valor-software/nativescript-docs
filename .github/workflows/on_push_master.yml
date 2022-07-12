@@ -1,6 +1,9 @@
-name: on_pull_request
+name: on push master
 on:
-  pull_request
+  push:
+    branches:
+      - main
+
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
@@ -14,7 +17,5 @@ jobs:
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}"
-          expires: 2d
           projectId: nativescript-docs-26174
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+          channelId: live
