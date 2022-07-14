@@ -4,7 +4,7 @@
 
 NativeScript uses https://antora.org/[Antora] as documentation generator.
 
-Click here to see the live version of the https://xxx.org/index.html[CHANGE:NativeScript Documentation].
+Click here to see the live version of the https://nativescript-docs-26174.firebaseapp.com/[NativeScript Documentation].
 
 xref:CONTRIBUTING.adoc[How to contribute to the NativeScript Documentation]
 
