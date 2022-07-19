@@ -25,33 +25,35 @@ Explanations & descriptions about the main concepts and components of the Native
 ****
 |
 [.overview-box]
-.xref:{url_build}[image:index/icon-app.svg[]]
+.xref:{url_flutter}[image:index/icon-app.svg[]]
 ****
 [.overview-title]
-.xref:{url_build}[Build with NativeScript]
+.xref:{url_flutter}[Using Flutter with NativeScript]
 *****
-Guides for NativeScript developers.
-How to develop a NativeScript application, explained in different dedicated guides.
+Guides for Flutter NativeScript developers.
+How to develop a NativeScript application using Flutter UI SDK, explained in different dedicated guides.
 *****
 ****
 |
 [.overview-box]
-.xref:{url_run}[image:index/icon-blockchain.svg[]]
+.xref:{url_react}[image:index/icon-blockchain.svg[]]
 ****
 [.overview-title]
-.xref:{url_run}[Troubleshoot your app]
+.xref:{url_react}[Using React Native with NativeScript]
 *****
-Guides for troubleshooting your application.
+Guides for React Native NativeScript developers.
+Develop stunning NativeScript application using React Native framework using this how-tos, guides and documentation.
 *****
 ****
 |
 [.overview-box]
-.xref:{url_integrate}[image:index/icon-node.svg[]]
+.xref:{url_ionic}[image:index/icon-node.svg[]]
 ****
 [.overview-title]
-.xref:{url_integrate}[Distribute your app]
+.xref:{url_ionic}[Using Ionic and Capacitor with NativeScript]
 *****
-Guides how to distribute your application to the platform of choice.
+Guides for Ionic and Capacitor developers.
+How to develop NativeScript application using Ionic and Capacitor framework.
 *****
 ****
 |

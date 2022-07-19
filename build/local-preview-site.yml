@@ -7,6 +7,7 @@ asciidoc:
   attributes:
     plantuml-server-url: http://www.plantuml.com/plantuml
     imagesdir: ~
+    page-toclevels: 4@
 #    description: ~
     idprefix: ''
     idseparator: '-'
