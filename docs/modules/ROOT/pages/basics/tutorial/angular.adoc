@@ -88,15 +88,19 @@ src/app
 
 Let's start with creating the files for our home feature with the following contents:
 
-// tab:home.component.html
-
+[tabs]
+====
+home.component.html::
++
+--
 [,html]
 ----
 <!-- src/app/features/home/home.component.html -->
 ----
-
-// tab:home.component.ts
-
+--
+home.component.html::
++
+--
 [,typescript]
 ----
 // src/app/features/home/home.component.ts
@@ -110,6 +114,8 @@ import { Component } from '@angular/core'
 })
 export class HomeComponent {}
 ----
+--
+====
 
 // tab:home-routing.module.ts
 
