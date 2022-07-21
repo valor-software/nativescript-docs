@@ -12771,6 +12771,7 @@ code.hljs {
 }
 .lisk-logo {
   height: 2rem;
+  background-image: url(../img/lisk-symbol.svg);
   background-repeat: no-repeat;
   width: 2rem;
 }
