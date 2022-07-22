@@ -24,6 +24,31 @@ Contents of tab B.
 --
 ====
 
+[tabs]
+====
+Tab A::
++
+--
+
+
+Tab A:::
++
+--
+1
+--
+Tab B:::
++
+--
+2
+--
+--
+Tab B::
++
+--
+2
+--
+====
+
 
 == Prerequisites
 
@@ -32,15 +57,16 @@ The docs have been written with no assumptions of the readers experience, howeve
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript[Introduction to JavaScript]
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript[Re-Introduction to JavaScript to refresh your knowledge]
 
-== Environment Setup :warning:
+== Environment Setup ⚠️
 
 You will want to setup your development machine using the link:environment-setup[Environment Setup guide here] which involves preparing your machine for iOS and Android development as well as installing the https://www.npmjs.com/package/nativescript[NativeScript CLI] via `npm install -g nativescript`
 
 == Overview of NativeScript development
 
-:::warning Note
+[NOTE]
+=====
 The following is a general overview of NativeScript development. To try any of the commands mentioned be sure you have a proper environment setup first.
-:::
+=====
 
 NativeScript allows scaffolding projects with various templates to kickstart your app development. Official templates can be found in the https://github.com/NativeScript/nativescript-app-templates/tree/master/packages[Templates GitHub repository] and on https://www.npmjs.com/search?q=%40nativescript%20template[NPM].
 
@@ -48,14 +74,14 @@ Some of the templates are listed in the NativeScript CLI when creating a new pro
 
 To create a new project, run:
 
-[,cli]
+[source,cli]
 ----
 ns create myCoolApp
 ----
 
 If you'd like to try one of the other templates not listed by `ns create` run:
 
-[,cli]
+[source,cli]
 ----
 ns create myCoolApp --template <template-package-name>
 ----
@@ -63,7 +89,6 @@ ns create myCoolApp --template <template-package-name>
 [TIP]
 ====
 If you want to skip the interactive prompts, you can pass:
-====
 
 [,cli]
 ----
@@ -76,7 +101,7 @@ ns create myCoolApp --svelte
 ----
 
 ...to create the app with the default template for the specified flavor.
-:::
+====
 
 Here are some of the default templates you may want to try:
 
@@ -86,16 +111,12 @@ A basic template with a single page and no custom styles.
 
 // TODO: make nicer images
 
-/// frame ios
-image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png[]
-///
-/// frame android
-image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png[]
-///
+image::appTemplate-ios.png[Frame iOS, 200,200,float="left",align="left"]
+image::appTemplate-android.png[Frame Android, 200,200,float="right",align="right"]
 
 To use, run:
 
-[,cli]
+[source,cli]
 ----
 ns create myCoolApp --template @nativescript/template-blank
 ----
@@ -106,12 +127,9 @@ A simple template with a side drawer.
 
 // TODO: make nicer images
 
-/// frame ios
-image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-ios.png[]
-///
-/// frame android
-image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-android.png[]
-///
+
+image::appTemplate-ios-2.png[Frame iOS, 200,200,float="left",align="left"]
+image::appTemplate-android-2.png[Frame Android, 200,200,float="right",align="right"]
 
 To use, run:
 

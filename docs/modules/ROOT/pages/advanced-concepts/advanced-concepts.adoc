@@ -58,14 +58,14 @@ NativeScript provides a way to create custom `android.app.Application` and `andr
 === Extending the Android Application
 
 1. Create a new TypeScript file in the root of your project folder - name it `application.android.ts` or `application.android.js` if you are using plain JS.
-
++
 [NOTE]
 ====
 Note the *.android suffix - we want this file packaged for Android only.
 ====
-
++
 2. Copy the following code for TypeScript file:
-
++
 [source,ts]
 ----
 // the `JavaProxy` decorator specifies the package and the name for the native *.JAVA file generated.
@@ -88,10 +88,10 @@ class Application extends android.app.Application {
   }
 }
 ----
-
++
 Next, copy the following code for the JavaScript file:
-
-[source,js]
++
+[source,javascript]
 ----
 const superProto = android.app.Application.prototype
 
@@ -113,7 +113,7 @@ android.app.Application.extend('org.myApp.Application', {
 ----
 
 3. Modify the application entry within the AndroidManifest.xml file found in the `<application-name>/App_Resources/Android/` folder:
-
++
 [source,xml]
 ----
 <application
@@ -123,15 +123,15 @@ android.app.Application.extend('org.myApp.Application', {
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 ----
-
++
 [NOTE]
 ====
 This modification is required by the native platform; it tells Android that your custom Application class will be used as the main entry point of the application.
 ====
-
++
 4. In order to build the app, the extended Android application should be added to the webpack.config.js file.
-
-[source,js]
++
+[source,javascript]
 ----
 const webpack = require('@nativescript/webpack')
 
@@ -268,7 +268,7 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
 JavaScript::
 +
 --
-[source,js]
+[source,javascript]
 ----
 import { Frame, Application, setActivityCallbacks } from '@nativescript/core'
 
@@ -346,7 +346,7 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
 
 [NOTE]
 ====
-The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method. It implements the https://docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events[AndroidActivityCallbacks interface] and allows the core modules to get notified for important Activity events. It is *important* to use these callbacks, as many parts of NativeScript rely on them!
+The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method. It implements the xref:application-lifecycle#android-activity-events[AndroidActivityCallbacks interface] and allows the core modules to get notified for important Activity events. It is *important* to use these callbacks, as many parts of NativeScript rely on them!
 ====
 
 // TODO: fix links
@@ -363,7 +363,7 @@ Next, modify the activity in `App_Resources/Android/src/main/AndroidManifest.xml
 
 To include the new Activity in the build, it has to be added to the webpack compilation by editing the `webpack.config.js`:
 
-[source,js]
+[source,javascript]
 ----
 const webpack = require('@nativescript/webpack')
 
@@ -520,7 +520,7 @@ Objective C::
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var NSArray = {
   __proto__: NSObject,
@@ -551,7 +551,7 @@ Instances of Objective-C classes exist in JavaScript as special "wrapper" exotic
 
 In essence:
 
-[source, js]
+[source, javascript]
 ----
 const tableViewController = new UITableViewController() // returns a wrapper around a UITableViewController instance
 Object.getPrototypeOf(tableViewController) === UITableViewController.prototype // returns true
@@ -559,7 +559,7 @@ Object.getPrototypeOf(tableViewController) === UITableViewController.prototype /
 
 There is only one JavaScript wrapper around an Objective-C object, always. This means that Objective-C wrappers maintain JavaScript identity equality:
 
-[source, js]
+[source, javascript]
 ----
 tableViewController.tableView === tableViewController.tableView
 ----
@@ -581,7 +581,7 @@ NSString *className = NSStringFromClass([NSArray class]);
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const className = NSStringFromClass(NSArray)
 ----
@@ -605,7 +605,7 @@ NSString *formattedDate = [formatter stringFromDate:date];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const formatter = new NSDateFormatter()
 const date = NSDate.date()
@@ -633,7 +633,7 @@ UIButton *button = [[buttonClass alloc] init];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const array = new NSMutableArray()
 const buttonClass = UIButton
@@ -654,7 +654,7 @@ In the tabs, you will find the Objective-C code for a function accepting a `CGFl
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const CGFloatArray = interop.sizeof(interop.types.id) == 4 ? Float32Array : Float64Array
 const jsArray = [4.5, 0, 1e-5, -1242e10, -4.5, 34, -34, -1e-6]
@@ -715,7 +715,7 @@ BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const isCopying = NSArray.conformsToProtocol(NSCopying)
 ----
@@ -740,7 +740,7 @@ BOOL hasAppend = [aString respondsToSelector:@selector(appendString:)];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const aString = NSMutableString.alloc().init()
 const hasAppend = aString.respondsToSelector('appendString:')
@@ -769,7 +769,7 @@ NSURLRequest *request = [NSURLRequest requestWithURL:url];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const url = NSURL.URLWithString('http://example.com')
 const request = NSURLRequest.requestWithURL(url)
@@ -832,7 +832,7 @@ UIView *view = [[UIView alloc] initWithFrame:rect];
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 const rect = {
   origin: {
@@ -867,7 +867,7 @@ More information on how NativeScript deals with structures is available <<C-Stru
 
 We can use this method from JavaScript in the following way:
 
-[source, js]
+[source, javascript]
 ----
 const fileManager = NSFileManager.defaultManager
 const bundlePath = NSBundle.mainBundle.bundlePath
@@ -877,7 +877,7 @@ console.log(fileManager.contentsOfDirectoryAtPathError(bundlePath, null))
 
 If we want to check the error using out parameters:
 
-[source, js]
+[source, javascript]
 ----
 const errorRef = new interop.Reference()
 fileManager.contentsOfDirectoryAtPathError('/not-existing-path', errorRef)
@@ -886,7 +886,7 @@ console.log(errorRef.value) // NSError: "The folder '/not-existing-path' doesn't
 
 Or we can skip passing the *last NSError *** out parameter and a JavaScript error will be thrown if the `+NSError **+` is set from native:
 
-[source, js]
+[source, javascript]
 ----
 try {
   fileManager.contentsOfDirectoryAtPathError('/not-existing-path')
@@ -915,7 +915,7 @@ if (isDirectory) {
 
 This snippet calls the `fileExistsAtPath:isDirectory` method of the `NSFileManager` class. This method accepts a `NSString` as its first argument and a pointer to a boolean value as its second argument. During its execution the method will use the pointer to update the boolean value. This means it will directly change the value of `isDirectory`. The same code can be written as follows:
 
-[source, js]
+[source, javascript]
 ----
 const fileManager = NSFileManager.defaultManager
 const isDirectory = new interop.Reference()
@@ -939,7 +939,7 @@ The article lists the available types in JavaScript and how they are projected t
 
 JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String] maps to http://developer.android.com/reference/java/lang/String.html[java.lang.String]:
 
-[source, js]
+[source, javascript]
 ----
 var context = ...;
 var button = new android.widget.Button(context);
@@ -951,7 +951,7 @@ button.setText(text); // text is converted to java.lang.String
 
 JavaScript http://www.w3schools.com/js/js_booleans.asp[Boolean] maps to Java primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[boolean].
 
-[source, js]
+[source, javascript]
 ----
 var context = ...;
 var button = new android.widget.Button(context);
@@ -963,7 +963,7 @@ button.setEnabled(enabled); // enabled is converted to Java primitive boolean
 
 JavaScript http://www.w3schools.com/jsref/jsref_undefined.asp[Undefined] & https://www.w3schools.com/js/js_type_conversion.asp[Null] maps to Java http://docs.oracle.com/javase/specs/jls/se7/html/jls-3.html#jls-3.10.7[null literal] (or null pointer).
 
-[source, js]
+[source, javascript]
 ----
 var context = ...;
 var button = new android.widget.Button(context);
@@ -999,14 +999,14 @@ class MyObject extends java.lang.Object {
 
 The following logic applies when calling `myMethod` on a `myObject` instance from JavaScript:
 
-[source, js]
+[source, javascript]
 ----
 var myObject = new MyObject()
 ----
 
 * Implicit *integer* conversion:
 
-[source, js]
+[source, javascript]
 ----
 myObject.myMethod(10) // myMethod(int) will be called.
 ----
@@ -1052,7 +1052,7 @@ To enable developers call a specific method overload, the Runtime exposes the fo
    * long("number") → Java primitive long (in case the number literal doesn't fit JavaScript 2^53 limit)
 ----
 
-[source, js]
+[source, javascript]
 ----
 myObject.myMethod(byte(10)) // will call myMethod(byte)
 myObject.myMethod(short(10)) // will call myMethod(short)
@@ -1088,7 +1088,7 @@ class MyObject extends java.lang.Object {
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var items = ['One', 'Two', 'Three']
 var myObject = new MyObject()
@@ -1106,7 +1106,7 @@ The article lists the available types in JavaScript and how they are projected t
 
 JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String] maps to https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html[kotlin.String]:
 
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithStringProperty()
 var text = 'My Button' // JavaScript string
@@ -1117,7 +1117,7 @@ kotlinClass.setStringProperty(text) // text is converted to kotlin.String
 
 JavaScript http://www.w3schools.com/js/js_booleans.asp[Boolean] maps to Kotlin class https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html[Boolean].
 
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithBooleanProperty()
 var enabled = false // JavaScript Boolean
@@ -1128,7 +1128,7 @@ kotlinClass.setBooleanProperty(enabled) // enabled is converted to Kotlin Boolea
 
 JavaScript http://www.w3schools.com/jsref/jsref_undefined.asp[Undefined] & https://www.w3schools.com/js/js_type_conversion.asp[Null] maps to Kotlin null literal (or null pointer).
 
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithNullableParameter(undefined) // the Kotlin call will be made using the null keyword
 ----
@@ -1156,14 +1156,14 @@ class MyObject : Any() {
 
 The following logic applies when calling `myMethod` on a `myObject` instance from JavaScript:
 
-[source, js]
+[source, javascript]
 ----
 var myObject = new MyObject()
 ----
 
 * Implicit *integer* conversion:
 
-[source, js]
+[source, javascript]
 ----
 myObject.myMethod(10) // myMethod(Int) will be called.
 ----
@@ -1175,7 +1175,7 @@ If there is no myMethod(Int) implementation, the Runtime will try to choose the 
 
 * Implicit *floating-point* conversion:
 
-[source, js]
+[source, javascript]
 ----
 myObject.myMethod(10.5) // myMethod(Double) will be called.
 ----
@@ -1209,7 +1209,7 @@ To enable developers call a specific method overload, the Runtime exposes the fo
    * long("number") → Kotlin Long (in case the number literal doesn't fit JavaScript 2^53 limit)
 ----
 
-[source, js]
+[source, javascript]
 ----
 myObject.myMethod(byte(10)) // will call myMethod(Byte)
 myObject.myMethod(short(10)) // will call myMethod(Short)
@@ -1244,7 +1244,7 @@ class MyObject : Any() {
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var items = ['One', 'Two', 'Three']
 var myObject = new MyObject()
@@ -1262,7 +1262,7 @@ The article lists the available types in Java and how they are projected to Java
 
 Both http://developer.android.com/reference/java/lang/String.html[java.lang.String] and http://docs.oracle.com/javase/7/docs/api/java/lang/Character.html[java.lang.Character] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String]:
 
-[source, js]
+[source, javascript]
 ----
 var file = new java.io.File('/path/to/file')
 var path = file.getPath() // returns java.lang.String, converted to JS String
@@ -1272,7 +1272,7 @@ var path = file.getPath() // returns java.lang.String, converted to JS String
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[boolean] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html[java.lang.Boolean] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_boolean.asp[Boolean]:
 
-[source, js]
+[source, javascript]
 ----
 var context = ...
 var button = new android.widget.Button(context);
@@ -1283,7 +1283,7 @@ var enabled = button.isEnabled(); // returns primitive boolean, converted to JS 
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[byte] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Byte.html[java.lang.Byte] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
-[source, js]
+[source, javascript]
 ----
 var byte = new java.lang.Byte('1')
 var jsByteValue = byte.byteValue() // returns primitive byte, converted to Number
@@ -1293,7 +1293,7 @@ var jsByteValue = byte.byteValue() // returns primitive byte, converted to Numbe
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[short] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Short.html[java.lang.Short] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
-[source, js]
+[source, javascript]
 ----
 var short = new java.lang.Short('1')
 var jsShortValue = short.shortValue() // returns primitive short, converted to Number
@@ -1303,7 +1303,7 @@ var jsShortValue = short.shortValue() // returns primitive short, converted to N
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[int] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html[java.lang.Integer] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
-[source, js]
+[source, javascript]
 ----
 var int = new java.lang.Integer('1')
 var jsIntValue = int.intValue() // returns primitive int, converted to Number
@@ -1313,7 +1313,7 @@ var jsIntValue = int.intValue() // returns primitive int, converted to Number
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[float] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Float.html[java.lang.Float] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
-[source, js]
+[source, javascript]
 ----
 var float = new java.lang.Float('1.5')
 var jsFloatValue = float.floatValue() // returns primitive float, converted to Number
@@ -1323,7 +1323,7 @@ var jsFloatValue = float.floatValue() // returns primitive float, converted to N
 
 Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[double] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html[java.lang.Double] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
-[source, js]
+[source, javascript]
 ----
 var double = new java.lang.Double('1.5')
 var jsDoubleValue = double.doubleValue() // returns primitive double, converted to Number
@@ -1360,7 +1360,7 @@ public class TestClass {
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var testClass = new TestClass()
 var jsNumber = testClass.getLongNumber53Bits() // result is JavaScript Number
@@ -1378,7 +1378,7 @@ Array in Java is a special http://docs.oracle.com/javase/7/docs/api/java/lang/Ob
  ** If the array contains elements of type convertible to a JavaScript type, then accessing the i-th element will return a converted type
  ** If the array contains elements of type non-convertible to JavaScript, then accessing the i-th element will return a proxy object over the Java/Android type (see <<accessing-apis,Accessing APIs>>)
 
-[source, js]
+[source, javascript]
 ----
 var directory = new java.io.File('path/to/myDir')
 var files = directory.listFiles() // files is a special object as described above
@@ -1394,7 +1394,7 @@ A Java Array is intentionally not converted to a JavaScript http://www.w3schools
 
 Occasionally you have to create Java arrays from JavaScript. For this scenario we added method `create` to built-in JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array[`Array` object]. Here are some examples how to use `Array.create` method:
 
-[source, js]
+[source, javascript]
 ----
 // the following statement is equivalent to byte[] byteArr = new byte[10];
 var byteArr = Array.create('byte', 10)
@@ -1410,7 +1410,7 @@ Here is the full specification for `Array.create` method:
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 Array.create(elementClassName, length)
 ----
@@ -1418,7 +1418,7 @@ Array.create(elementClassName, length)
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 Array.create(javaClassCtorFunction, length)
 ----
@@ -1427,7 +1427,7 @@ Array.create(javaClassCtorFunction, length)
 
 The first signature accepts `string` for `elementClassName`. This option is useful when you have to create Java array of primitive types (e.g. `char`, `boolean`, `byte`, `short`, `int`, `long`, `float` and `double`). It is also useful when you have to create Java jagged arrays. For this scenario `elementClassName` must be the standard JNI class notation. Here are some examples:
 
-[source, js]
+[source, javascript]
 ----
 // equivalent to int[][] jaggedIntArray2 = new int[10][];
 var jaggedIntArray2 = Array.create('[I', 10)
@@ -1441,7 +1441,7 @@ var jaggedObjectArray4 = Array.create('[[[Ljava.lang.Object;', 10)
 
 The second signature uses `javaClassCtorFunction` which must the JavaScript constructor function for a given Java type. Here are some examples:
 
-[source, js]
+[source, javascript]
 ----
 // equivalent to String[] stringArr = new String[10];
 var stringArr = Array.create(java.lang.String, 10)
@@ -1461,7 +1461,7 @@ public static void myMethod(int[] someParam)
 
 Then yoy need to invoke it as follows:
 
-[source, js]
+[source, javascript]
 ----
 let arr = Array.create('int', 3)
 arr[0] = 1
@@ -1473,7 +1473,7 @@ SomeObject.myMethod(arr) // assuming the method is accepting an array of primiti
 
 However there are some other helpful classes we can use to create a few other arrays of primitive types
 
-[source, js]
+[source, javascript]
 ----
 const byteArray = java.nio.ByteBuffer.wrap([1]).array()
 const shortArray = java.nio.ShortBuffer.wrap([1]).array()
@@ -1494,7 +1494,7 @@ public static void myMethod(java.lang.Integer[][] someParam)
 
 The marshalled JavaScript code will look like this:
 
-[source, js]
+[source, javascript]
 ----
 let arr = Array.create('[Ljava.lang.Integer;', 2)
 let elements = Array.create('java.lang.Integer', 3)
@@ -1510,7 +1510,7 @@ SomeObject.myMethod(arr) // assuming the method is accepting a two-dimensional a
 
 The Java http://docs.oracle.com/javase/specs/jls/se7/html/jls-3.html#jls-3.10.7[null literal] (or null pointer) is projected to JavaScript https://www.w3schools.com/js/js_type_conversion.asp[Null]:
 
-[source, js]
+[source, javascript]
 ----
 var context = ...
 var button = new android.widget.Button(context);
@@ -1587,7 +1587,7 @@ Both https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html[kotl
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithStringAndCharProperty()
 var str1 = kotlinClass.getStringProperty() // returns kotlin.String, converted to JS String
@@ -1618,7 +1618,7 @@ Kotlin's boolean type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boole
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithBooleanProperty()
 var enabled = kotlinClass.getBooleanProperty() // returns Kotlin Boolean, converted to JS Boolean
@@ -1647,7 +1647,7 @@ Kotlin's byte type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/ind
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithByteProperty()
 var jsByteValue = kotlinClass.getByteProperty() // returns Kotlin Byte, converted to Number
@@ -1676,7 +1676,7 @@ Kotlin's short type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/i
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithShortProperty()
 var jsShortValue = kotlinClass.getShortProperty() // returns Kotlin Short, converted to Number
@@ -1705,7 +1705,7 @@ Kotlin's integer type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/i
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithIntProperty()
 var jsIntValue = kotlinClass.getIntProperty() // returns Kotlin Int, converted to Number
@@ -1734,7 +1734,7 @@ Kotlin's float type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/i
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithFloatProperty()
 var jsFloatValue = kotlinClass.getFloatProperty() // returns Kotlin Float, converted to Number
@@ -1763,7 +1763,7 @@ Kotlin's double type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithDoubleProperty()
 var jsDoubleValue = kotlinClass.getDoubleProperty() // returns Kotlin double, converted to Number
@@ -1815,7 +1815,7 @@ class KotlinClassWithLongProperties {
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithLongProperties()
 var jsNumber = kotlinClass.getLongNumber53Bits() // result is JavaScript Number
@@ -1838,7 +1838,7 @@ Array in Kotlin is a special object that has an implicit Class associated. A Kot
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithStringArrayProperty()
 var kotlinArray = kotlinClass.getStringArrayProperty() // kotlinArray is a special object as described above
@@ -1877,7 +1877,7 @@ The Kotlin null literal (or null pointer) is projected to JavaScript https://www
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithNullableProperty()
 var nullableValue = kotlinClass.getNullableProperty() // if there is no value, the method will return JS null
@@ -1910,7 +1910,7 @@ Kotlin's https://kotlinlang.org/docs/tutorials/kotlin-for-py/objects-and-compani
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var companion = com.example.KotlinClassWithCompanion.Companion
 var data = companion.getDataFromCompanion()
@@ -1941,7 +1941,7 @@ Kotlin's https://kotlinlang.org/docs/tutorials/kotlin-for-py/objects-and-compani
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var objectInstance = com.example.KotlinObject.INSTANCE
 var data = objectInstance.getDataFromObject()
@@ -1971,7 +1971,7 @@ Kotlin's https://kotlinlang.org/docs/reference/properties.html#properties-and-fi
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var kotlinClass = new com.example.KotlinClassWithStringProperty()
 
@@ -2004,7 +2004,7 @@ Currently using Kotlin https://kotlinlang.org/docs/reference/java-to-kotlin-inte
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var randomNumber = com.example.FunctionsKt.getRandomNumber()
 ----
@@ -2028,7 +2028,7 @@ In the example above, the class `FunctionsKt` is autogenerated by the Kotlin com
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var randomNumber = com.example.UtilityFunctions.getRandomNumber()
 ----
@@ -2057,7 +2057,7 @@ Currently using Kotlin extension functions could not be achieved easily. In orde
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var arrayList = new java.util.ArrayList()
 arrayList.add('firstElement')
@@ -2090,7 +2090,7 @@ In the example above, the class `ExtensionsKt` is autogenerated by the Kotlin co
 JavaScript::
 +
 --
-[source, js]
+[source, javascript]
 ----
 var arrayList = new java.util.ArrayList()
 arrayList.add('firstElement')
@@ -2171,7 +2171,7 @@ In order to use ``console``'s methods, setTimeout/setInterval, or other function
 main-view-model.js::
 +
 --
-[source, js]
+[source, javascript]
 ----
 ...
 
@@ -2203,7 +2203,7 @@ worker.onerror = function(err) {
 workers/image-processor.js::
 +
 --
-[source, js]
+[source, javascript]
 ----
 require('@nativescript/core/globals') // necessary to bootstrap ns modules on the new thread
 
@@ -2338,7 +2338,7 @@ In order to access a particular class in JavaScript/TypeScript the full package 
 
 The above is accessed in JavaScript like:
 
-[source, js]
+[source, javascript]
 ----
 const javaLangPkg = java.lang
 const androidPkg = android
@@ -2395,7 +2395,7 @@ public class ... {
 
 Accessing Android classes, in the JavaScript/TypeScript of a NativeScript application, is kept as close to the original Java syntax as the JavaScript language allows:
 
-[source, js]
+[source, javascript]
 ----
 function arbitraryFunction(context) {
   // 'context' is a JavaScript wrapper (Proxy - see below) for the underlying android.content.Context Java instance
@@ -2427,7 +2427,7 @@ The result of the constructor calls (`+new ...()+`) will create native `android.
 
 Thanks to the 'proxying' system, Java/Kotlin methods and fields can be accessed through the JavaScript wrappers of the native instances. For example, you may retrieve the result of a method call to the Java instance:
 
-[source, js]
+[source, javascript]
 ----
 const javaObj = new java.lang.Object()
 
@@ -2440,7 +2440,7 @@ console.log(javaObjHashCode)
 
 Public and private members, as well as static fields of an instance, or Java/Kotlin classes can also be accessed. The https://developer.android.com/reference/android/view/View.html[android.view.View] class will be used below:
 
-[source, js]
+[source, javascript]
 ----
 // retrieve context
 const context = ...;
@@ -2585,7 +2585,7 @@ class MainKotlinActivity: Activity() {
 }
 ----
 
-[source, js]
+[source, javascript]
 ----
 const MainActivity = android.app.Activity.extend('my.application.name.MainActivity', {
   onCreate: function (savedInstanceState) {
@@ -2706,7 +2706,7 @@ class MainActivity extends android.app.Activity {
 
 The NativeScript code can further be shortened, and it starts to look a lot like Java:
 
-[source, js]
+[source, javascript]
 ----
 const LinearLayout = android.widget.LinearLayout
 const LayoutParams = android.widget.LinearLayout.LayoutParams
