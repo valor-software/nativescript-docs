@@ -422,7 +422,6 @@ To enable and write unit tests for TypeScript or Angular project install the Typ
 [tabs]
 ====
 Jasmine::
-+
 --
 [source, cli]
 ----
@@ -437,8 +436,8 @@ Mocha::
 npm i @types/mocha --save-dev
 ----
 --
-+
 QUnit::
++
 --
 [source, cli]
 ----
