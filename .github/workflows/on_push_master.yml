@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      - run: cd build && npx --yes antora local-preview-site.yml
+      - run: cd build && npx --yes antora --stacktrace local-preview-site.yml
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
