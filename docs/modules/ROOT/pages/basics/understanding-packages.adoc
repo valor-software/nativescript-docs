@@ -2,35 +2,49 @@
 
 There are a few npm packages that are fundamental to NativeScript development and good to understand.
 
-=== https://www.npmjs.com/package/@nativescript/core[@nativescript/core]
+=== @nativescript/core
 
 A JavaScript library providing an easy to use api for interacting with iOS and Android platform APIs.
 
-=== https://www.npmjs.com/package/@nativescript/android[@nativescript/android]
+Package URL: https://www.npmjs.com/package/@nativescript/core[@nativescript/core]
+
+=== @nativescript/android
 
 The v8 JavaScript engine runtime enabled for Android NativeScript development.
 
-=== https://www.npmjs.com/package/@nativescript/ios[@nativescript/ios]
+Package URL: https://www.npmjs.com/package/@nativescript/android[@nativescript/android]
+
+=== @nativescript/ios
 
 The v8 JavaScript engine runtime enabled for iOS NativeScript development.
 
 You can also use a https://developer.apple.com/documentation/javascriptcore[JavaScriptCore] version of this runtime using the npm tag `JSC`. This can be useful for projects that may experience any issue with the v8 engine.
 
-=== https://www.npmjs.com/package/@nativescript/types[@nativescript/types]
+Package URL: https://www.npmjs.com/package/@nativescript/ios[@nativescript/ios]
+
+=== @nativescript/types
 
 This provides TypeScript definitions for all iOS and Android APIs available to do NativeScript development with.
 
-=== https://www.npmjs.com/package/@nativescript/webpack[@nativescript/webpack]
+Package URL: https://www.npmjs.com/package/@nativescript/types[@nativescript/types]
+
+=== @nativescript/webpack
 
 This provides loaders, helpers and base configs for all fundamental NativeScript development to debug, run, build and release your apps.
 
-=== https://www.npmjs.com/package/nativescript[nativescript]
+Package URL: https://www.npmjs.com/package/@nativescript/webpack[@nativescript/webpack]
+
+=== nativescript
 
 CLI (Command Line Interface) used for creating/running/building/deploying NativeScript apps. Often installed globally along with a proper link:environment-setup[Environment Setup] via `npm install -g nativescript`.
+
+Package URL: https://www.npmjs.com/package/nativescript[nativescript]
 
 == Plugins
 
 There are also quite a number of plugins maintained and developed by the NativeScript TSC which you can find link:plugins/index[documented here]
+
+//TODO: Fix links
 
 == NPM Versioning
 
@@ -60,7 +74,7 @@ This will ensure bug fix patch updates are automatically installed when cleaning
 
 If you are comfortable with the particular npm package and are Ok handling any potential breaking changes from dependencies in your projects on your own then using a caret in front of your versions is absolutely fine.
 
-https://github.com/npm/node-semver#tilde-ranges-123-12-1[Learn more about version specifiers here]
+Learn more about version ranges in official https://github.com/npm/node-semver#ranges[semantic versioner for npm documentation]
 
 === When to use `next`?
 

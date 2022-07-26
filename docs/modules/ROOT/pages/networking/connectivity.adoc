@@ -1,13 +1,10 @@
 = Connectivity
 
-== Connectivity
-
 The connectivity module provides a common abstraction of the functionality responsible for receiving information about the connection type and availability of the network.
 
-[discrete]
-==== Usage
+== Usage
 
-[,typescript]
+[source,typescript]
 ----
 import { Connectivity } from '@nativescript/core'
 
@@ -71,8 +68,7 @@ export function onNavigatedTo(args) {
 }
 ----
 
-[discrete]
-==== Methods
+== Methods
 
 |===
 | Name | Type | Description
@@ -90,8 +86,7 @@ export function onNavigatedTo(args) {
 | Stops monitoring the connection type.
 |===
 
-[discrete]
-==== API References
+== API References
 
 |===
 | Name | Type
@@ -103,8 +98,7 @@ export function onNavigatedTo(args) {
 | `Enum`
 |===
 
-[discrete]
-==== Native Component
+== Native Component
 
 |===
 | Android | iOS

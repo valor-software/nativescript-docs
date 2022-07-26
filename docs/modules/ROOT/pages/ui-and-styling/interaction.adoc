@@ -8,7 +8,7 @@ The `TouchManager` provides several conveniences for your apps interaction.
 
 For example, you can easily and quickly enable consistent touch down/up animations on every view which has a `tap` event binding throughout your entire app by enabling `TouchManager.enableGlobalTapAnimations` before your app bootstraps (typically in `app.ts` or `main.ts`):
 
-[,ts]
+[source,ts]
 ----
 import { TouchManager } from '@nativescript/core'
 
@@ -33,14 +33,14 @@ This would auto animate any view with a `tap` binding with those specific animat
 
 If you have a few "tappable" views that need to be ignored:
 
-[,xml]
+[source,xml]
 ----
 <Button text="Global tap animations simply ignored" ignoreTouchAnimation="true" />
 ----
 
 In addition to expressing NativeScript https://docs.nativescript.org/interaction.html#animations[Animation APIs] which are convenient, simple and easy you can also define purely native animations like https://developer.apple.com/documentation/uikit/uiview/1622418-animate[iOS UIView Animations] or even https://developer.android.com/guide/topics/graphics/spring-animation[Android Dynamic Spring Physics Animations], for example:
 
-[,ts]
+[source,ts]
 ----
 touchAnimation = {
   down(view: View) {
@@ -102,14 +102,14 @@ touchAnimation = {
 
 You can also declaratively define custom touch animations on any specific view (_which overrides any global TouchManager settings_) by specifying it's own `touchAnimation` property:
 
-[,xml]
+[source,xml]
 ----
 <Button touchAnimation="{{ touchAnimation }}" />
 ----
 
 This would animate touch down and up with the following view binding settings:
 
-[,ts]
+[source,ts]
 ----
 touchAnimation = {
   down: {
@@ -129,7 +129,7 @@ touchAnimation = {
 
 When using `TouchManager.enableGlobalTapAnimations` you can declare any views to be ignored in cases where a couple may need to be excluded from your global animation settings:
 
-[,xml]
+[source,xml]
 ----
 <Button text="Global tap animations simply ignored" ignoreTouchAnimation="true" />
 ----
@@ -144,7 +144,7 @@ The easiest way to animate a *single* link:/api-reference/classes/view.html[`Vie
 
 *Example 20: How to execute animation on single view.*
 
-[,js]
+[source,js]
 ----
 view.animate({
   translate: { x: 0, y: 100 },
@@ -153,7 +153,7 @@ view.animate({
 })
 ----
 
-[,typescript]
+[source,typescript]
 ----
 view.animate({
   translate: { x: 0, y: 100 },
@@ -162,11 +162,10 @@ view.animate({
 })
 ----
 
-:::tip Note
-
+[NOTE]
+====
 You should create an link:/api-reference/classes/animation.html[`Animation`] class in order to be able to *cancel* the animation. This is demonstrated below.
-
-:::
+====
 
 === The AnimationDefinition interface
 
@@ -214,7 +213,12 @@ It is easy to animate multiple properties at once; just pass the desired animata
 
 *Example 21: How to animate multiple properties.*
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.animate({
   backgroundColor: new color.Color('#3D5AFE'),
@@ -224,8 +228,11 @@ view.animate({
   duration: 3000
 })
 ----
-
-[,typescript]
+--
+TypeScript::
++
+--
+[source,typescript]
 ----
 view.animate({
   backgroundColor: new color.Color('#3D5AFE'),
@@ -235,16 +242,23 @@ view.animate({
   duration: 3000
 })
 ----
+--
+====
 
-image::/assets/images/modules/animation/multiple-properties.gif[multiple-properties]
+image::multiple-properties.gif[multiple-properties]
 
 === Chaining animations with promises
 
 The animate method returns a promise that you can use to chain animations, as shown in *Example 21*.
 
-*Example 22: How to create chain animations.*
+*Example 22: How to create chain animations:*
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view
   .animate({ opacity: 0 })
@@ -276,8 +290,11 @@ view
     console.log(e.message)
   })
 ----
-
-[,typescript]
+--
+TypeScript::
++
+--
+[source,typescript]
 ----
 view
   .animate({ opacity: 0 })
@@ -295,8 +312,10 @@ view
     console.log(e.message)
   })
 ----
+--
+====
 
-image::/assets/images/modules/animation/chaining-with-promises.gif[chaining-with-promises]
+image::chaining-with-promises.gif[chaining-with-promises]
 
 === CSS Animations
 
@@ -308,7 +327,7 @@ CSS animations consist of two components: a style describing the CSS animation a
 
 *Example 1: How to create simple animation using CSS.*
 
-[,css]
+[source,css]
 ----
 @keyframes example {
   from {
@@ -328,26 +347,40 @@ CSS animations consist of two components: a style describing the CSS animation a
 
 To get an animation to work, you must bind the animation to an element:
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view1.className = 'example'
 ----
-
-[,typescript]
+--
+TypeScript::
++
+--
+[source,typescript]
 ----
 view1.className = 'example'
 ----
-
-[,xml]
+--
+XML::
++
+--
+[source,xml]
 ----
 <Button id="myButton" text="{N}" class="example" />
 ----
+--
+====
 
-:::tip Note
+[NOTE]
+====
 
 If the *animation-duration* property is not specified, the animation will use a default value - 0.3 seconds.
 
-:::
+====
 
 === Animatable properties
 
@@ -359,11 +392,10 @@ CSS animations support the same animatable properties used in code-based animati
 * *transform: scale*: Corresponds with scaleX and scaleY properties.
 * *transform: rotate*: Corresponds with the rotate property.
 
-:::tip Note
-
+[NOTE]
+====
 You cannot set a single x or y field in scale and translate. If you set only x in translate, y will be assumed 0; If you set only y in scale, x will be assumed 1.
-
-:::
+====
 
 === Animation properties
 
@@ -386,7 +418,7 @@ To set multiple points at which an element should undergo a transition, use the 
 
 *Example 2: How to use **@keyframes* rule.**
 
-[,css]
+[source,css]
 ----
 @keyframes example {
   from {
@@ -404,7 +436,7 @@ To set multiple points at which an element should undergo a transition, use the 
 
 *Example 3: Changing background color in different animation stages.*
 
-[,css]
+[source,css]
 ----
 @keyframes example {
   0% {
@@ -426,7 +458,7 @@ You can set multiple properties in a keyframe, as shown in *Example 4*.
 
 *Example 4: Changing multiple properties in different animation stages.*
 
-[,css]
+[source,css]
 ----
 @keyframes example {
   0% {
@@ -456,7 +488,7 @@ You can combine keyframes, as shown in *Example 5*.
 
 *Example 5: Set up properties for several keyframes*
 
-[,css]
+[source,css]
 ----
 @keyframes example {
   0%,
@@ -482,7 +514,7 @@ The *animation-delay* property specifies a delay (in seconds) before the animati
 
 *Example 6: Set up a delay before the animation starts*
 
-[,css]
+[source,css]
 ----
 .view {
   background-color: red;
@@ -498,7 +530,7 @@ The *animation-iteration-count* property defines the number of times an animatio
 
 *Example 7: How to use `animation-iteration-count` property*
 
-[,css]
+[source,css]
 ----
 .view {
   background-color: red;
@@ -510,7 +542,7 @@ The *animation-iteration-count* property defines the number of times an animatio
 
 If you want to play an animation forever, set this property to "infinite".
 
-[,css]
+[source,css]
 ----
 animation-iteration-count: infinite;
 ----
@@ -529,7 +561,7 @@ The *animation-timing-function* property specifies the speed curve of the animat
 
 *Example 8: How to specify the speed curve using cubic-bezier function.*
 
-[,css]
+[source,css]
 ----
 .view {
   animation-name: example;
@@ -543,7 +575,7 @@ The *animation-fill-mode* property determines the element style when the animati
 
 *Example 9: How to use **animation-fill-mode* property**
 
-[,css]
+[source,css]
 ----
 .view {
   background-color: red;
@@ -559,7 +591,7 @@ You can use the *animation-direction* property to play a CSS animation in revers
 
 *Example 10: How to reverse animation direction.*
 
-[,css]
+[source,css]
 ----
 .view {
   background-color: red;
@@ -575,7 +607,7 @@ The *animation* property allows setting all seven animation properties with a si
 
 *Example 11: How to use animation shorthand property*
 
-[,css]
+[source,css]
 ----
 .view {
   animation: example 4s ease-in-out 2s infinite reverse forwards;
@@ -590,7 +622,7 @@ You can combine two animations in the *animation* property by using commas:
 
 *Example 12: How to combine several animations in the **animation* property**
 
-[,css]
+[source,css]
 ----
 .view {
   animation: example 4s ease-in-out 2s infinite reverse, second-animation-example 5s
@@ -604,7 +636,7 @@ A pseudo selector is used to define a special state of an element. For example, 
 
 *Example 13: How to trigger animation on element special state*
 
-[,css]
+[source,css]
 ----
 .button {
   background-color: green;
@@ -626,17 +658,23 @@ A pseudo selector is used to define a special state of an element. For example, 
 }
 ----
 
-____
+[NOTE]
+====
 As of version 2.0, only the *Button* component has a built-in special state "highlighted" to indicate that it is touched by the user.
-____
+====
 
 === Animations - width and height
 
 *Example 14: How to animate view's width and height.*
 
-/// flavor plain
+Angular flavour:
 
-[,xml]
+[tabs]
+====
+HTML::
++
+--
+[source,xml]
 ----
 <GridLayout rows="* *" columns="*" class="home-panel">
   <StackLayout row="0">
@@ -647,8 +685,11 @@ ____
   </StackLayout>
 </GridLayout>
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .first-view {
   animation-name: example-width;
@@ -680,14 +721,19 @@ ____
   }
 }
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-js&id=xe3lMf[Demo]
 
-///
+Plain flavour:
 
-/// flavor angular
-
-[,html]
+[tabs]
+====
+HTML::
++
+--
+[source,html]
 ----
 <GridLayout rows="* *" columns="*" class="home-panel">
   <StackLayout row="0">
@@ -698,8 +744,11 @@ https://play.nativescript.org/?template=play-js&id=xe3lMf[Demo]
   </StackLayout>
 </GridLayout>
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .first-view {
   animation-name: example-width;
@@ -731,34 +780,49 @@ https://play.nativescript.org/?template=play-js&id=xe3lMf[Demo]
   }
 }
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-ng&id=NMM4I5[Demo]
-
-///
 
 === Access CSS animations from code
 
 The simplest way to trigger a CSS animation is by changing the element *className* property:
 
-*Example 15: How to trigger CSS animation*
+*Example 15: How to trigger CSS animation:*
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const view = page.getViewById('view')
 view.className = 'transparent'
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 const view = page.getViewById('view')
 view.className = 'transparent'
 ----
+--
+====
 
 All keyframes defined in CSS can be accessed with code by using the *getKeyframeAnimationWithName* method. This allows further customization of animation properties:
 
 *Example 16: Accessing CSS defined keyframe in the code via **getKeyframeAnimationWithName* method**
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { KeyframeAnimation } from '@nativescript/core'
 
@@ -771,8 +835,11 @@ animation.play(view).then(() => {
   console.log('Played with code!')
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { KeyframeAnimation, View } from '@nativescript/core'
 
@@ -785,6 +852,8 @@ animation.play(view).then(() => {
   console.log('Played with code!')
 })
 ----
+--
+====
 
 === Animations
 
@@ -805,9 +874,14 @@ In *Example 1* we will change the background color of a button from "red" to "gr
 
 *Example 1: Changing background color animation with code.*
 
-image::/assets/images/modules/animation/hello-world.gif[hello-world]
+image::hello-world.gif[hello-world]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 // Import color module
 import { Color } from '@nativescript/core'
@@ -815,8 +889,11 @@ import { Color } from '@nativescript/core'
 view.backgroundColor = new Color('red')
 view.animate({ backgroundColor: new Color('green'), duration: 2000 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 // Import color module
 import { Color } from '@nativescript/core'
@@ -824,6 +901,8 @@ import { Color } from '@nativescript/core'
 view.backgroundColor = new Color('red')
 view.animate({ backgroundColor: new Color('green'), duration: 2000 })
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-tsc&id=h6g8J8[Try this animation in the NativeScript Playground]
 
@@ -831,7 +910,12 @@ As _Example 2_ shows, you can express the same animation in CSS with the followi
 
 *Example 2: Changing background color animation with CSS.*
 
-[,css]
+[tabs]
+====
+CSS::
++
+--
+[source,css]
 ----
 @keyframes example {
   from {
@@ -847,18 +931,22 @@ As _Example 2_ shows, you can express the same animation in CSS with the followi
   animation-fill-mode: forwards;
 }
 ----
-
-[,xml]
+--
+XML::
++
+--
+[source,xml]
 ----
 <!-- Apply CSS class to element to trigger CSS animation -->
 <Label class="view" text="{N}" />
 ----
+--
+====
 
-:::tip Note
-
+[NOTE]
+====
 CSS animations apply with lower precedence, like any other CSS settings, so any local values set in your element will cancel the animation.
-
-:::
+====
 
 https://play.nativescript.org/?template=play-tsc&id=tQRe9Q[Try this animation in the NativeScript Playground]
 
@@ -870,11 +958,10 @@ NativeScript lets you animate the following properties:
 * *scale*
 * *rotate*
 
-:::tip Note
-
+[NOTE]
+====
 To use `translate` or `scale` you must proceed with an object declaring both x and y values, for example `translate: { x: 100, y: 250 }` or `scale: { x: 1.5, y: 0 }`.
-
-:::
+====
 
 In every animation, you can control the following properties:
 
@@ -890,29 +977,34 @@ By default, an animation moves with a linear speed without acceleration or decel
 
 * *linear*: The simplest animation curve is linear. It maintains a constant speed while the animation is running:
 
-image::/assets/images/modules/animation/linear.gif[linear]
+image::linear.gif[linear]
 
 * *Ease-in*: The ease-in curve causes the animation to begin slowly, and then speed up as it progresses.
 
-image::/assets/images/modules/animation/easein.gif[easein]
+image::easein.gif[easein]
 
 * *Ease-out*: An ease-out curve causes the animation to begin quickly, and then slow down as it completes.
 
-image::/assets/images/modules/animation/easeout.gif[easeout]
+image::easeout.gif[easeout]
 
 * *Ease-in-out*: An ease-in ease-out curve causes the animation to begin slowly, accelerate through the middle of its duration, and then slow again before completing.
 
-image::/assets/images/modules/animation/easeinout.gif[easeinout]
+image::easeinout.gif[easeinout]
 
 * *Spring*: A spring animation curve causes an animation to produce a spring (bounce) effect.
 
-image::/assets/images/modules/animation/spring.gif[spring]
+image::spring.gif[spring]
 
 In NativeScript, the animation curve is represented by the AnimationCurve enumeration and can be specified with the curve property of the animation. In CSS, the animation curve is defined by using the animation-timing-function property (see *Example 3*):
 
 *Example 3: How to customize the animation timing function*
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { CoreTypes } from '@nativescript/core'
 
@@ -923,7 +1015,11 @@ view.animate({
 })
 ----
 
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { CoreTypes } from '@nativescript/core'
 
@@ -933,8 +1029,11 @@ view.animate({
   curve: CoreTypes.AnimationCurve.easeIn
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: example;
@@ -951,6 +1050,8 @@ view.animate({
   }
 }
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-tsc&id=zt5sXZ[Experiment with the different animation timing functions in the NativeScript Playground]
 
@@ -960,9 +1061,14 @@ For help finding the `cubicBezier` values you need for your custom animation tim
 
 *Example 4: How to create own animation curve via cubic Bezier*
 
-image::/assets/images/modules/animation/bezier-graph.png[beziergraph]
+image::bezier-graph.png[beziergraph]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { Enums } from '@nativescript/core'
 
@@ -973,7 +1079,11 @@ view.animate({
 })
 ----
 
-[,typescript]
+--
+TypeScript::
++
+--
+[source,typescript]
 ----
 import { Enums } from '@nativescript/core'
 
@@ -983,8 +1093,11 @@ view.animate({
   curve: Enums.AnimationCurve.cubicBezier(0.1, 0.1, 0.1, 1)
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: example;
@@ -993,18 +1106,29 @@ view.animate({
   animation-fill-mode: forwards;
 }
 ----
+--
+====
 
-image::/assets/images/modules/animation/bezier.gif[bezier]
+image::bezier.gif[bezier]
 
 More detailed examples are available on the <<animation-examples,Animation Examples>> page.
+
+// TODO: Fix Links
 
 === Rotation using originX and originY
 
 To create more complex animations, we might need to change the origin point around which the selected view will be transformed. This can be achieved using link:/api-reference/classes/view.html#originx[`originX`] and link:/api-reference/classes/view.html#originy[`originY`] properties of `View`.
 
+// TODO: Fix Links
+
 *Example 5: Rotating a view around its center. Center of view is changed via `originX` and `originY` properties.*
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.originX = 1 // default 0.5 (center), 0 is most left, 1 is most right
 view.originY = 0.5 // default 0.5 (middle), 0 is top, 1 is bottom
@@ -1013,8 +1137,11 @@ view.animate({
   duration: 1000
 })
 ----
-
-[,typescript]
+--
+TypeScript::
++
+--
+[source,typescript]
 ----
 view.originX = 1 // default 0.5 (center), 0 is most left, 1 is most right
 view.originY = 0.5 // default 0.5 (middle), 0 is top, 1 is bottom
@@ -1023,10 +1150,13 @@ view.animate({
   duration: 1000
 })
 ----
+--
+====
 
-::: warning Note
+[WARNING]
+====
 The properties `originX` and `originY` are JavaScript properties and can be assigned via code-behind only via a given `View` reference. We can still use them along with CSS animations, but the values for `originX` and `originY` must be set in the code-behind logic.
-:::
+====
 
 === Limitations
 
@@ -1040,25 +1170,36 @@ The full source code for all samples is located https://github.com/NativeScript/
 
 === Animated opacity
 
-image::/assets/images/modules/animation/opacity.gif[opacity]
+image::opacity.gif[opacity]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.animate({
   opacity: 0,
   duration: 3000
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 view.animate({
   opacity: 0,
   duration: 3000
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: opacity;
@@ -1073,14 +1214,22 @@ view.animate({
   }
 }
 ----
+--
+====
+
 
 https://play.nativescript.org/?template=play-tsc&id=q9nY9l[Try this in the NativeScript Playground]
 
 === Animate background color
 
-image::/assets/images/modules/animation/background-color.gif[background-color]
+image::background-color.gif[background-color]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { Color } from '@nativescript/core'
 
@@ -1089,8 +1238,11 @@ view.animate({
   duration: 3000
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { Color } from '@nativescript/core'
 
@@ -1099,8 +1251,11 @@ view.animate({
   duration: 3000
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: backgroundColor;
@@ -1115,30 +1270,44 @@ view.animate({
   }
 }
 ----
+--
+====
+
 
 https://play.nativescript.org/?template=play-tsc&id=aLjBQg[Try this in the NativeScript Playground]
 
 === Animate position
 
-image::/assets/images/modules/animation/translate.gif[translate]
+image::translate.gif[translate]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.animate({
   translate: { x: 100, y: 100 },
   duration: 3000
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 view.animate({
   translate: { x: 100, y: 100 },
   duration: 3000
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: translate;
@@ -1153,30 +1322,43 @@ view.animate({
   }
 }
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-tsc&id=egSanf[Try this in the NativeScript Playground]
 
 === Animate scale
 
-image::/assets/images/modules/animation/scale.gif[scale]
+image::scale.gif[scale]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.animate({
   scale: { x: 2, y: 2 },
   duration: 3000
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 view.animate({
   scale: { x: 2, y: 2 },
   duration: 3000
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: scale;
@@ -1191,30 +1373,44 @@ view.animate({
   }
 }
 ----
+--
+====
+
 
 https://play.nativescript.org/?template=play-tsc&id=4Ni5sU[Try this in the NativeScript Playground]
 
 === Animate rotate
 
-image::/assets/images/modules/animation/rotate.gif[rotate]
+image::rotate.gif[rotate]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 view.animate({
   rotate: 360,
   duration: 3000
 })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 view.animate({
   rotate: 360,
   duration: 3000
 })
 ----
-
-[,css]
+--
+CSS::
++
+--
+[source,css]
 ----
 .view {
   animation-name: rotate;
@@ -1230,14 +1426,22 @@ view.animate({
   }
 }
 ----
+--
+====
+
 
 https://play.nativescript.org/?template=play-tsc&id=2vpfgV[Try this in the NativeScript Playground]
 
 === Chaining animations with AnimationSet
 
-image::/assets/images/modules/animation/chaining-with-animation-set.gif[chaining-with-animation-set]
+image::chaining-with-animation-set.gif[chaining-with-animation-set]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { Animation } from '@nativescript/core'
 
@@ -1258,8 +1462,11 @@ animationSet
     console.log(e.message)
   })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { Animation, AnimationDefinition } from '@nativescript/core'
 
@@ -1279,12 +1486,19 @@ animationSet
     console.log(e.message)
   })
 ----
+--
+====
 
 === Animating multiple views
 
-image::/assets/images/modules/animation/multiple-views.gif[multiple-views]
+image::multiple-views.gif[multiple-views]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 import { Animation } from '@nativescript/core'
 
@@ -1327,8 +1541,11 @@ animationSet
     console.log(e.message)
   })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { AnimationDefinition } from '@nativescript/core'
 
@@ -1372,14 +1589,22 @@ animationSet
     console.log(e.message)
   })
 ----
+--
+====
+
 
 https://play.nativescript.org/?template=play-tsc&id=rgm744[Try this in the NativeScript Playground]
 
 === Reusing animations
 
-image::/assets/images/modules/animation/reusing.gif[reusing]
+image::reusing.gif[reusing]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const animation1 = view.createAnimation({ opacity: 0 })
 const animation2 = view.createAnimation({ opacity: 1 })
@@ -1407,8 +1632,11 @@ animation1
     console.log(e.message)
   })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 const animation1 = view.createAnimation({ opacity: 0 })
 const animation2 = view.createAnimation({ opacity: 1 })
@@ -1427,12 +1655,19 @@ animation1
     console.log(e.message)
   })
 ----
+--
+====
 
 === Slide-in effect
 
-image::/assets/images/modules/animation/slide-in-effect.gif[slide-in-effect]
+image::slide-in-effect.gif[slide-in-effect]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const item = new imageModule.Image()
 item.src = '~/res/icon_100x100.png'
@@ -1449,8 +1684,11 @@ item.on('loaded', args => {
 })
 wrapLayout.addChild(item)
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 import { EventData, View } from '@nativescript/core'
 const item = new imageModule.Image()
@@ -1468,12 +1706,19 @@ item.on('loaded', (args: EventData) => {
 })
 wrapLayout.addChild(item)
 ----
+--
+====
 
 === Infinite animations
 
-image::/assets/images/modules/animation/infinite.gif[infinite]
+image::infinite.gif[infinite]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 animationSet = new animationModule.Animation([
   {
@@ -1491,8 +1736,11 @@ animationSet.play().catch(function (e) {
 })
 // Call animationSet.cancel() to stop it;
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 animationSet = new animationModule.Animation([
   {
@@ -1510,14 +1758,21 @@ animationSet.play().catch(e => {
 })
 // Call animationSet.cancel() to stop it;
 ----
+--
+====
 
 === Rotation using originX and originY
 
 *Example 5: Rotating a view around its center. Center of view is changed via `originX` and `originY` properties.*
 
-image::/assets/images/modules/animation/rotation_origin_x_y.gif[rotation_origin_x_y]
+image::rotation_origin_x_y.gif[rotation_origin_x_y]
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const view = page.getViewById('myView')
 
@@ -1539,8 +1794,11 @@ view
     })
   })
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 const view = page.getViewById('myView')
 
@@ -1562,12 +1820,20 @@ view
     })
   })
 ----
+--
+====
+
 
 === Animation - View's Width and Height
 
 === Width
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const label = page.getViewById('lblNS')
 const animation = new Animation([
@@ -1580,8 +1846,11 @@ const animation = new Animation([
 ])
 animation.play()
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 const label: Label = page.getViewById('lblNS')
 const animation = new Animation([
@@ -1594,10 +1863,17 @@ const animation = new Animation([
 ])
 animation.play()
 ----
+--
+====
 
 === Height
 
-[,js]
+[tabs]
+====
+JavaScript::
++
+--
+[source,js]
 ----
 const label = page.getViewById('lblNS')
 const animation = new Animation([
@@ -1610,8 +1886,11 @@ const animation = new Animation([
 ])
 animation.play()
 ----
-
-[,ts]
+--
+TypeScript::
++
+--
+[source,ts]
 ----
 const label: Label = page.getViewById('lblNS')
 const animation = new Animation([
@@ -1624,10 +1903,12 @@ const animation = new Animation([
 ])
 animation.play()
 ----
+--
+====
 
 https://play.nativescript.org/?template=play-js&id=mOZv68[Demo JavaScript] https://play.nativescript.org/?template=play-tsc&id=ckdYDS[Demo TypeScript]
 
-[,typescript]
+[source,typescript]
 ----
 @ViewChild("lblNS", { read: ElementRef, static: false }) labelRef: ElementRef;
 private label: Label;
@@ -1650,7 +1931,7 @@ animation.play();
 
 === Height
 
-[,typescript]
+[source,typescript]
 ----
 @ViewChild("lblNS", { read: ElementRef, static: false }) labelRef: ElementRef;
 private label: Label;
@@ -1677,13 +1958,11 @@ https://play.nativescript.org/?template=play-ng&id=cWAc2j[Demo]
 
 NativeScript lets you create dialogs in a similar manner to the web browser. You can create alerts, confirmations, prompts, logins and dialogs that require action.
 
-'''
-
 === Alert Dialog
 
 An Alert Dialog to notify the user of some event or action.
 
-[,ts]
+[source,ts]
 ----
 import { Dialogs } from '@nativescript/core'
 
@@ -1727,7 +2006,7 @@ export function showAlertDialog() {
 
 An Action Dialog will require a particular activity from the user. The action method accepts multiple parameters or an ActionOptions object with keys title, message, cancelButtonText, actions, and cancelable(Android only property).
 
-[,ts]
+[source,ts]
 ----
 import { Dialogs } from '@nativescript/core'
 
@@ -1781,7 +2060,7 @@ export function showActionDialog() {
 
 A Confirm Dialog will expect the user to accept or reject the action that is about the happen.
 
-[,ts]
+[source,ts]
 ----
 import { Dialogs } from '@nativescript/core'
 
@@ -1834,7 +2113,7 @@ export function showConfirmDialog() {
 
 A Login Dialog will wait for the user to input their credentials.
 
-[,ts]
+[source,ts]
 ----
 import { Dialogs } from '@nativescript/core'
 
@@ -1927,7 +2206,7 @@ The result are received in the dialog resolved promise after the user closes or 
 
 A Prompt Dialog will request for an input. A basic definition might be:
 
-[,ts]
+[source,ts]
 ----
 import { Dialogs, Enums, inputType } from '@nativescript/core'
 
@@ -2111,9 +2390,35 @@ As the first parameter, you pass an `on` or `off` method and the type of gesture
 
 *Action: Briefly touch the screen.*
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
+----
+import { GestureEventData } from '@nativescript/core'
+
+onTap(args: GestureEventData) {
+  console.log("Tap!");
+}
+----
+--
+HTML::
++
+--
+[source,html]
+----
+<label text="Tap here" (tap)="onTap($event)"></label>
+----
+--
+====
+
+Plain Flavour:
+
+[source,ts]
 ----
 import { GestureTypes, GestureEventData, Label } from '@nativescript/core'
 var label = new Label()
@@ -2122,46 +2427,18 @@ label.on(GestureTypes.tap, (args: GestureEventData) => {
 })
 ----
 
-///
-
-/// flavor angular
-
-[,ts]
-----
-import { GestureEventData } from '@nativescript/core'
-
-onTap(args: GestureEventData) {
-  console.log("Tap!");
-}
-----
-
-[,html]
-----
-<label text="Tap here" (tap)="onTap($event)"></label>
-----
-
-///
-
 === Double Tap
 
 *Action: Two taps in a quick succession.*
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
-----
-import { GestureTypes, GestureEventData, Label } from '@nativescript/core'
-var label = new Label()
-label.on(GestureTypes.doubleTap, (args: GestureEventData) => {
-  console.log('Double Tap')
-})
-----
-
-///
-
-/// flavor angular
-
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
 ----
 import { GestureEventData } from '@nativescript/core'
 
@@ -2169,13 +2446,26 @@ onDoubleTap(args: GestureEventData) {
   console.log("DoubleTap!");
 }
 ----
-
-[,html]
+--
+HTML::
++
+--
+[source,html]
 ----
 <label text="Double tap here" (doubleTap)="onDoubleTap($event)"></label>
 ----
+--
+====
 
-///
+Plain Flavour:
+[source,ts]
+----
+import { GestureTypes, GestureEventData, Label } from '@nativescript/core'
+var label = new Label()
+label.on(GestureTypes.doubleTap, (args: GestureEventData) => {
+  console.log('Double Tap')
+})
+----
 
 Possible implementation:
 
@@ -2187,9 +2477,9 @@ Possible implementation:
 
 *Action: Press your finger against the screen for a few moments.*
 
-/// flavor plain
+Plain Flavour:
 
-[,ts]
+[source,ts]
 ----
 import { GestureTypes, GestureEventData, Label } from '@nativescript/core'
 
@@ -2199,11 +2489,14 @@ label.on(GestureTypes.longPress, (args: GestureEventData) => {
 })
 ----
 
-///
+Angular Flavour:
 
-/// flavor angular
-
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
 ----
 import { GestureEventData } from '@nativescript/core'
 
@@ -2211,13 +2504,16 @@ onLongPress(args: GestureEventData) {
   console.log("LongPress!");
 }
 ----
-
-[,html]
+--
+HTML::
++
+--
+[source,html]
 ----
 <label text="Long press here" (longPress)="onLongPress($event)"></label>
 ----
-
-///
+--
+====
 
 Possible implementation: Select one or more items in a view and act upon the data using a contextual action bar. Enter data selection mode. Avoid using long press for displaying contextual menus.
 
@@ -2225,9 +2521,35 @@ Possible implementation: Select one or more items in a view and act upon the dat
 
 *Action: Swiftly slide your finger across the screen. Swipes are quick and affect the screen even after the finger is lifted off the screen.*
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
+----
+import { SwipeGestureEventData } from '@nativescript/core'
+
+onSwipe(args: SwipeGestureEventData) {
+  console.log("Swipe Direction: " + args.direction);
+}
+----
+--
+HTML::
++
+--
+[source,html]
+----
+<label text="Swipe here" (swipe)="onSwipe($event)"></label>
+----
+--
+====
+
+Plain Flavour:
+
+[source,ts]
 ----
 import { GestureTypes, SwipeGestureEventData, Label } from '@nativescript/core'
 
@@ -2237,35 +2559,41 @@ label.on(GestureTypes.swipe, (args: SwipeGestureEventData) => {
 })
 ----
 
-///
-
-/// flavor angular
-
-[,ts]
-----
-import { SwipeGestureEventData } from '@nativescript/core'
-
-onSwipe(args: SwipeGestureEventData) {
-  console.log("Swipe Direction: " + args.direction);
-}
-----
-
-[,html]
-----
-<label text="Swipe here" (swipe)="onSwipe($event)"></label>
-----
-
-///
-
 Possible implementation: Navigate between views in the same hierarchy.
 
 === Pan
 
 *Action: Press your finger down and immediately start moving it around. Pans are executed more slowly and allow for more precision and the screen stops responding as soon as the finger is lifted off it.*
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
+----
+import { PanGestureEventData } from '@nativescript/core'
+
+onPan(args: PanGestureEventData) {
+  console.log("Pan delta: [" + args.deltaX + ", " + args.deltaY + "] state: " + args.state);
+}
+----
+--
+HTML::
++
+--
+[source,html]
+----
+<label text="Pan here" (pan)="onPan($event)"></label>
+----
+--
+====
+
+Plain Flavour:
+
+[source,ts]
 ----
 import { GestureTypes, PanGestureEventData, Label } from '@nativescript/core'
 
@@ -2275,33 +2603,13 @@ label.on(GestureTypes.pan, (args: PanGestureEventData) => {
 })
 ----
 
-///
-
-/// flavor angular
-
-[,ts]
-----
-import { PanGestureEventData } from '@nativescript/core'
-
-onPan(args: PanGestureEventData) {
-  console.log("Pan delta: [" + args.deltaX + ", " + args.deltaY + "] state: " + args.state);
-}
-----
-
-[,html]
-----
-<label text="Pan here" (pan)="onPan($event)"></label>
-----
-
-///
-
 === Pinch
 
 *Action: Touch the screen using two of your fingers, then move them towards each other or away from each other.*
 
-/// flavor plain
+Plain Flavour:
 
-[,ts]
+[source,ts]
 ----
 import { GestureTypes, PinchGestureEventData, Label } from '@nativescript/core'
 
@@ -2311,11 +2619,14 @@ label.on(GestureTypes.pinch, (args: PinchGestureEventData) => {
 })
 ----
 
-///
+Angular Flavour:
 
-/// flavor angular
-
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
 ----
 import { PinchGestureEventData } from '@nativescript/core'
 
@@ -2323,13 +2634,16 @@ onPinch(args: PinchGestureEventData) {
   console.log("Pinch scale: " + args.scale + " state: " + args.state);
 }
 ----
-
-[,html]
+--
+HTML::
++
+--
+[source,html]
 ----
 <label text="Pinch here" (pinch)="onPinch($event)"></label>
 ----
-
-///
+--
+====
 
 Possible implementation: Zoom into content or out of content.
 
@@ -2337,9 +2651,35 @@ Possible implementation: Zoom into content or out of content.
 
 *Action: Touch the screen using two of your fingers, then rotate them simultaneously left or right.*
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
+----
+import { RotationGestureEventData } from '@nativescript/core'
+
+onRotate(args: RotationGestureEventData) {
+  console.log("Rotate angle: " + args.rotation + " state: " + args.state);
+}
+----
+--
+HTML::
++
+--
+[source,html]
+----
+<label text="Rotate here" (rotation)="onRotate($event)"></label>
+----
+--
+====
+
+Plain Flavour:
+
+[source,ts]
 ----
 import { GestureTypes, RotationGestureEventData, Label } from '@nativescript/core'
 
@@ -2349,49 +2689,20 @@ label.on(GestureTypes.rotation, (args: RotationGestureEventData) => {
 })
 ----
 
-///
-
-/// flavor angular
-
-[,ts]
-----
-import { RotationGestureEventData } from '@nativescript/core'
-
-onRotate(args: RotationGestureEventData) {
-  console.log("Rotate angle: " + args.rotation + " state: " + args.state);
-}
-----
-
-[,html]
-----
-<label text="Rotate here" (rotation)="onRotate($event)"></label>
-----
-
-///
-
 === Touch
 
 *Action: A finger action was performed.*
 
 This is a general purpose gesture that is triggered whenever a pointer (usually a finger) has performed a touch action (up, down, move or cancel). `TouchGestureEventData` provides information about all the pointers currently on the screen and their position inside the view that triggered the event.
 
-/// flavor plain
+Angular Flavour:
 
-[,ts]
-----
-import { GestureTypes, TouchGestureEventData, Label } from '@nativescript/core'
-
-var label = new Label()
-label.on(GestureTypes.touch, (args: TouchGestureEventData) => {
-  console.log('Touch: x: ' + args.getX() + ' y: ' + args.getY())
-})
-----
-
-///
-
-/// flavor angular
-
-[,ts]
+[tabs]
+====
+TypeScript::
++
+--
+[source,ts]
 ----
 import { TouchGestureEventData } from '@nativescript/core'
 
@@ -2401,21 +2712,37 @@ onTouch(args: TouchGestureEventData) {
     "] activePointers: " + args.getActivePointers().length);
 }
 ----
-
-[,html]
+--
+HTML::
++
+--
+[source,html]
 ----
 <label text="Touch here" (touch)="onTouch($event)"></label>
 ----
+--
+====
 
-///
+Plain Flavour:
+
+[source,ts]
+----
+import { GestureTypes, TouchGestureEventData, Label } from '@nativescript/core'
+
+var label = new Label()
+label.on(GestureTypes.touch, (args: TouchGestureEventData) => {
+  console.log('Touch: x: ' + args.getX() + ' y: ' + args.getY())
+})
+----
+
 
 === Subscribing to Multiple Gestures and Events
 
 Since the release of NativeScript 1.3, when subscribing you can use gestures names, comma separated gestures names and/or even mix with events.
 
-/// flavor plain
+Plain Flavour:
 
-[,ts]
+[source,ts]
 ----
 import { GestureEventData, Label } from '@nativescript/core'
 
@@ -2425,8 +2752,6 @@ label.on('loaded, tap, doubleTap, longPress', (args: GestureEventData) => {
 })
 ----
 
-///
-
 === Gesture Manipulations
 
 In some scenarios, you would want to disable the user interaction or to create more complex UI where some gestures are passing through the parents of the actual interactive zone. NativeScript provides some specific properties for handling similar cases as follows:
@@ -2435,9 +2760,10 @@ In some scenarios, you would want to disable the user interaction or to create m
 * `isEnabled` - Gets or sets a boolean value indicating whether the view is enabled. Affects the appearance of the view. The default value is `true`.
 * `isPassThroughParentEnabled` - Gets or sets a value indicating whether touch events should pass through to a parent view of the layout container in case an interactive child view did not handle the event. Does not affect the appearance of the view. The default value is `false`.
 
-::: warning Note
+[NOTE]
+====
 There is a conceptual difference in how `isEnabled` is acting on Android and iOS. On Android, the `isEnabled` set to `false` (e.g., on Button) won't allow any events to pass through even when `isPassThroughParentEnabled` is set to `true` for its parent. On the contrary on iOS, the same setup will pass through the event to the parent.
-:::
+====
 
 Playground application demonstrating the usage of the three properties can be found https://play.nativescript.org/?template=play-tsc&id=6c9GA0[here].
 
@@ -2448,8 +2774,8 @@ Playground application demonstrating the usage of the three properties can be fo
 There are two primary ways to enable first class a11y support in your apps:
 
 . View attribute: `accessible="true"`
-
-[,html]
++
+[source,html]
 ----
 <label text="{N}" accessible="true"></label>
 ----
@@ -2457,24 +2783,34 @@ There are two primary ways to enable first class a11y support in your apps:
 . CSS property: `a11y-enabled: true`
 
 This option allows you to reuse CSS classes to enable a11y features.
-
-[,css]
+[tabs]
+====
+CSS::
++
+--
+[source,css]
 ----
 .a11y {
   a11y-enabled: true;
 }
 ----
-
-[,html]
+--
+HTML::
++
+--
+[source,html]
 ----
 <label text="{N}" class="a11y"></label>
 ----
+--
+====
 
 Both options provide the flexibility desired when needing to enable a11y properly for your app.
 
-::: warning Note
+[NOTE]
+====
 By default, all touchable elements are accessible as expected. (ie, `Button`, `Slider` etc.)
-:::
+====
 
 === Properties
 
@@ -2484,7 +2820,7 @@ Various properties exist to further control a11y.
 
 It's recommended to always use an `accessibilityLabel` when marking a view as `accessible`. VoiceOver usage on the device will speak this value so the user knows what element has been selected.
 
-[,html]
+[source,html]
 ----
 <label
   text="{N}"
@@ -2497,7 +2833,7 @@ It's recommended to always use an `accessibilityLabel` when marking a view as `a
 
 Provide additional help so users understand what will happen when they perform an action on the accessible element.
 
-[,html]
+[source,html]
 ----
 <button
   text="Submit"
@@ -2519,7 +2855,7 @@ When components dynamically change, we want TalkBack to alert the end user.
 * `AccessibilityLiveRegion.Polite`: Should announce changes to this view.
 * `AccessibilityLiveRegion.Assertive`: Should interrupt ongoing speech to immediately announce changes to this view.
 
-[,html]
+[source,html]
 ----
 <Switch checked="true" class="a11y" checkedChange="{{checkedChange}}" />
 <TextView

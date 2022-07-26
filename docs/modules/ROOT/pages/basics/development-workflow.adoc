@@ -419,6 +419,33 @@ This operation applies the following changes to your project.
 To enable and write unit tests for TypeScript or Angular project install the TypeScript typings for the selected testing framework.
 =====
 
+[tabs]
+====
+Jasmine::
++
+--
+[source, cli]
+----
+npm i @types/jasmine --save-dev
+----
+--
+Mocha::
++
+--
+[source, cli]
+----
+npm i @types/mocha --save-dev
+----
+--
+QUnit::
++
+--
+[source, cli]
+----
+npm i @types/qunit --save-dev
+----
+--
+====
 
 === Write Your Tests
 

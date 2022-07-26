@@ -24,32 +24,6 @@ Contents of tab B.
 --
 ====
 
-[tabs]
-====
-Tab A::
-+
---
-
-
-Tab A:::
-+
---
-1
---
-Tab B:::
-+
---
-2
---
---
-Tab B::
-+
---
-2
---
-====
-
-
 == Prerequisites
 
 The docs have been written with no assumptions of the readers experience, however it does assume knowledge of JavaScript fundamentals. If you are new to JavaScript, we recommend these resources from +++<abbr title="Mozilla Developer Network">+++MDN+++</abbr>+++:

@@ -4,20 +4,15 @@ The App_Resources folder contains platform-specific resources of the application
 
 This page serves as a quick reference to understand how most settings in App_Resources affect behavior and the the look of a NativeScript app.
 
-*Quick Links:*
-[[toc]]
-
-'''
-
 == Android
 
 On Android, many aspects of the default styling is controlled through various settings within the `App_Resources` folder.
 
 Here we are showing the default look of a few elements (no custom styling applied) using the default values provided in `App_Resources`:
 
-image::/assets/app-resources/default_app_resources_android.png[Default App_Resources on Android]
+image::default_app_resources_android.png[Default App_Resources on Android]
 
-[,bash]
+[source,bash]
 ----
 App_Resources/
 ├─ Android/
@@ -34,7 +29,7 @@ Values can be overriden on specific API levels by making the changes in the corr
 
 There are different ways to add native code to an Android application. You can add Java JAR files or Java and/or Kotlin source files in `App_Resources/Android/libs` and `App_Resources/Android/src` respectively, e.g.:
 
-[,bash]
+[source,bash]
 ----
 App_Resources/
 ├─ Android/
@@ -51,9 +46,12 @@ App_Resources/
 └─ ... more
 ----
 
-// tab: Kotlin
-
-[,kt]
+[tabs]
+====
+Kotlin::
++
+--
+[source,kotlin]
 ----
 // HelloKotlin.kt
 package com.example
@@ -62,10 +60,11 @@ class HelloKotlin {
   val hello = "Hello from Kotlin!"
 }
 ----
-
-// tab: Java
-
-[,java]
+--
+Java::
++
+--
+[source,java]
 ----
 // HelloJava.java
 package com.example
@@ -76,10 +75,12 @@ class HelloJava {
   }
 }
 ----
+--
+====
 
 Given the example above, your JavaScript or TypeScript code can reference the Kotlin or Java code by using the full class names, e.g.
 
-[,typescript]
+[source,typescript]
 ----
 const helloKotlin = new com.example.HelloKotlin()
 console.log('Kotlin says: ' + helloKotlin.hello)
@@ -90,16 +91,15 @@ console.log('Java says: ' + helloJava.getString())
 // prints: Java says: Hello from Java!
 ----
 
-:::tip Note
-
+[NOTE]
+====
 If using TypeScript, you may need to generate typings, or alternatively declare the top level package name as `any`, e.g.
 
-[,typescript]
+[source,typescript]
 ----
 declare const com: any
 ----
-
-:::
+====
 
 If using Kotlin source files, `useKotlin` should be enabled in `before-plugins.gradle` or `app.gradle`
 
@@ -107,61 +107,58 @@ If using Kotlin source files, `useKotlin` should be enabled in `before-plugins.g
 
 To change the default color fo the ActionBar, edit the `ns_primary` color inside `App_Resources/Android/src/main/res/values/colors.xml`:
 
-[,xml]
+[source,xml]
 ----
 <!-- The default color of the ActionBar -->
 <color name="ns_primary">#65adf1</color>
 ----
 
-image::/assets/app-resources/custom_action_bar_color.png[]
+image::custom_action_bar_color.png[]
 
 === Setting the default color of the status bar
 
 To change the default color of the status bar, edit the `ns_primaryDark` color inside `App_Resources/Android/src/main/res/values/colors.xml`:
 
-:::tip Note
-
+[NOTE]
+====
 The color will be applied on API21+ since lower API leves do not support custom status bar colors*.
+====
 
-:::
-
-[,xml]
+[source,xml]
 ----
 <!-- (API21+) The color of the status bar and contextual app bars; this is normally a dark version of colorPrimary. -->
 <color name="ns_primaryDark">#65adf1</color>
 ----
 
-image::/assets/app-resources/custom_status_bar_color.png[]
+image::custom_status_bar_color.png[]
 
 === Setting the accent color
 
 Various native elements have an accent color, which can be changed by setting the `ns_accent` color inside `App_Resources/Android/src/main/res/values/colors.xml`:
 
-:::tip Note
-
+[NOTE]
+====
 The color will be applied on API21+ since lower API leves do not support custom accent colors.
+====
 
-:::
-
-[,xml]
+[source,xml]
 ----
 <!-- The color of UI controls such as check boxes, radio buttons, and edit text boxes. -->
 <color name="ns_accent">#059669</color>
 ----
 
-image::/assets/app-resources/custom_accent_color.png[]
+image::custom_accent_color.png[]
 
 === Showing the app under the status bar
 
 The status bar can be made translucent and let the app flow underneath by uncommenting `android:windowTranslucentStatus` in AppThemeBase21 and `android:paddingTop` in NativeScriptToolBarStyle in `App_Resources/Android/src/main/res/values-v21/styles.xml`:
 
-:::tip Note
-
+[NOTE]
+====
 We have added `<color name="ns_primary">#65ADF1</color>` to `App_Resources/Android/src/main/res/values-v21/colors.xml` to color the ActionBar.
+====
 
-:::
-
-[,xml]
+[source,xml]
 ----
 <!-- Application theme -->
 <style name="AppThemeBase21" parent="AppThemeBase">
@@ -180,13 +177,13 @@ We have added `<color name="ns_primary">#65ADF1</color>` to `App_Resources/Andro
 </style>
 ----
 
-image::/assets/app-resources/action_bar_under_status_bar.png[]
+image::action_bar_under_status_bar.png[]
 
 === Changing the DatePicker to calendar mode
 
 To change the mode of the DatePicker from the default `spinner` style, change `android:datePickerMode` in `App_Resources/Android/src/main/res/values-v21/styles.xml`:
 
-[,xml]
+[source,xml]
 ----
 <!-- Default style for DatePicker - in spinner mode -->
 <style name="SpinnerDatePicker" parent="android:Widget.Material.Light.DatePicker">
@@ -195,13 +192,13 @@ To change the mode of the DatePicker from the default `spinner` style, change `a
 </style>
 ----
 
-image::/assets/app-resources/date_picker_calendar_mode.png[]
+image::date_picker_calendar_mode.png[]
 
 === Changing the TimePicker to clock mode
 
 To change the mode of the TimePicker from the default `spinner` style, change `android:datePickerMode` in `App_Resources/Android/src/main/res/values-v21/styles.xml`:
 
-[,xml]
+[source,xml]
 ----
 <!-- Default style for TimePicker - in spinner mode -->
 <style name="SpinnerTimePicker" parent="android:Widget.Material.Light.TimePicker">
@@ -210,7 +207,7 @@ To change the mode of the TimePicker from the default `spinner` style, change `a
 </style>
 ----
 
-image::/assets/app-resources/time_picker_clock_mode.png[]
+image::time_picker_clock_mode.png[]
 
 === Enabling force Dark Mode
 
@@ -218,7 +215,7 @@ On API29+ apps can opt-in to a default Dark Mode when the system is set to use D
 
 To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
 
-[,xml]
+[source,xml]
 ----
 <!--
   Disable forced dark mode on newer devices.
@@ -228,13 +225,12 @@ To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resourc
 <item name="android:forceDarkAllowed">true</item>
 ----
 
-:::tip Note
-
+[NOTE]
+====
 If you enable `android:forceDarkAllowed` make sure you check if all the screens of you app look correct in the forced Dark Mode.
+====
 
-:::
-
-image::/assets/app-resources/android_force_dark_mode.png[]
+image::android_force_dark_mode.png[]
 
 == iOS
 

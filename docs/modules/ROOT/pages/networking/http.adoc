@@ -1,19 +1,17 @@
-= Http
-
 == Http
 
 The import for the Http module.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http } from '@nativescript/core'
 ----
 
-=== getString
+== getString
 
 The `getString` method allows us to make a request and get the response body as a string value.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http } from '@nativescript/core'
 
@@ -25,11 +23,11 @@ Http.getString('https://httpbin.org/get').then(
 )
 ----
 
-=== getJSON
+== getJSON
 
 The `getJSON` method gives us a simple way to get the response body as a JSON object.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http } from '@nativescript/core'
 
@@ -41,11 +39,11 @@ Http.getJSON('https://httpbin.org/get').then(
 )
 ----
 
-=== getFile
+== getFile
 
 The `getFile` method allows us to download a file.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http } from '@nativescript/core'
 
@@ -57,13 +55,14 @@ Http.getFile('https://d1lfyz5kwt8vu9.cloudfront.net/nativescript-logo-2021.png')
 )
 ----
 
-::: warning Note
+[WARNING]
+====
 By default the file will be saved in Documents folder.
-:::
+====
 
 In the `getFile` method we could also specify the path, where the file to be saved. This scenario is demonstrated in the example below, where the image file will be kept in the current application folder.
 
-[,typescript]
+[source,typescript]
 ----
 import { File, Http, knownFolders, path } from '@nativescript/core'
 
@@ -80,11 +79,11 @@ Http.getFile(
 )
 ----
 
-=== getImage
+== getImage
 
 The `getImage` method allows us to get an image from a specific URL. The returned object will be ImageSource and it could be used for direct displaying the source into Image view in your UI.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http, ImageSource } from '@nativescript/core'
 
@@ -96,11 +95,11 @@ Http.getImage('https://httpbin.org/image/jpeg').then(
 )
 ----
 
-=== request
+== request
 
 This example `request` method demonstrates how we can access the response headers, content, and statusCode.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http, HttpResponse } from '@nativescript/core'
 
@@ -120,7 +119,7 @@ Http.request({
 
 This example demonstrates, how to get the request-response content and how to represent the received data as a `String` value or `JSON` object. We could also use `toImage` method when we download an image.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http, HttpResponse } from '@nativescript/core'
 
@@ -145,11 +144,11 @@ Http.request({
 )
 ----
 
-==== Post
+== Post
 
 The example demonstrates, how to make Http POST request and how to get request response.
 
-[,typescript]
+[source,typescript]
 ----
 import { Http, HttpResponse } from "@nativescript/core";
 
@@ -170,7 +169,7 @@ Http.request({
 );
 ----
 
-==== Methods
+== Methods
 
 |===
 | Name | Type | Description
@@ -196,7 +195,7 @@ Http.request({
 | Makes a generic http request using the provided options and returns a HttpResponse Object.
 |===
 
-==== API References
+== API References
 
 |===
 | Name | Type

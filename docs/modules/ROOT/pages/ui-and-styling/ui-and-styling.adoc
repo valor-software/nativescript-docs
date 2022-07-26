@@ -1,8 +1,8 @@
 = UI & Styling
 
-=== Layout Properties
+== Layout Properties
 
-==== Margins
+=== Margins
 
 The four margin properties (`marginTop`, `marginRight`, `marginBottom` and `marginLeft`) describe the distance between a view and its parent.
 
@@ -12,7 +12,7 @@ When you set margins through XML, you can choose between the following approache
 * *Set two values*: Provide two values. The first value is applied to the top side, the second value is applied to the right side. Next, the first value is applied to the bottom and the second value to the left side (in that order).
 * *Set four values*: Provide four values for each margin. The first value is applied to the top, the second value is applied to the right, the third value is applied to the bottom and the fourth value is applied to the left side (in that order).
 
-==== Paddings
+=== Paddings
 
 The four padding properties (`paddingTop`, `paddingRight`, `paddingBottom` and `paddingLeft`) describe the distance between the layout container and its children.
 
@@ -22,7 +22,7 @@ When you set paddings through XML, you can choose between the following approach
 * *Set two values*: Provide two values. The first value is applied to the top side, the second value is applied to the right side. Next, the first value is applied to the bottom and the second value to the left side (in that order).
 * *Set four values*: Provide four values for each padding. The first value is applied to the top, the second value is applied to the right, the third value is applied to the bottom and the fourth value is applied to the left side (in that order).
 
-==== Alignments
+=== Alignments
 
 Layout applies horizontal and vertical alignment only when an element is allocated more size than it needs.
 
@@ -62,11 +62,11 @@ The following table shows the valid values of `verticalAlignment`.
 | The view is stretched to fill the layout slot of the parent element; `height` takes precedence, if set.
 |===
 
-=== Percentage Support
+== Percentage Support
 
 NativeScript supports percentage values for `width`, `height` and `margin`. When a layout pass begins, first the percent values are calculated based on parent available size. This means that on vertical `StackLayout` if you place two `Buttons` with `height='50%'` they will get all the available height (e.g., they will fill the `StackLayout` vertically.). The same applies for margin properties. For example, if you set `marginLeft='5%'`, the element will have a margin that corresponds to 5% of the parent's available width.
 
-=== iOS Safe Area Support
+== iOS Safe Area Support
 
 The iOS `Safe Area` is a term that Apple introduced in iOS 11. It is the area of the screen that is free to use and won't be obstructed by hardware and software parts of the system. The safe area is not a constant. It is affected by the notch, the rounded corners of the screen, the status bar and the home indicator, but also from parts of your application like the action bar and the tab bar. To get a better understanding refer to the https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/[Apple docs].
 
@@ -84,11 +84,12 @@ Internally, the workflow is as follows:
 . Layout pass - all components are laid out in full screen, but are inset to the safe area boundaries.
 . Layout pass - if the component borders the safe area, it is adjusted and expanded to the edges of the screen.
 
-::: tip
+[TIP]
+====
 The above workflow can lead to containers being laid out with a bigger size than initially declared in the markup. You can prevent this behavior by setting the `iosOverflowSafeArea` property below to `false`.
-:::
+====
 
-==== iosOverflowSafeArea Property
+=== iosOverflowSafeArea Property
 
 The above default behavior should provide good UX out of the box. Additionally, NativeScript 5.0 exposes a property `iosOverflowSafeArea` that can control how components handle the iOS `Safe Area`. Set this property value to `true` if you want the component to expand to the edges of the screen when it borders the safe area. Set it to `false` to explicitly prevent this behavior. The default value for container components is `true`. All other components are considered content that should be constrained to the safe area and default to `false`.
 
@@ -106,9 +107,12 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 
 ==== Example: a grid-like layout
 
+image::https://art.nativescript.org/layouts/absolute_layout_grid.svg[]
+
+
 The following example creates a simple grid. For more information about creating grid layouts, see link:/ui-and-styling.html#gridlayout[GridLayout].
 
-[,html]
+[source,html]
 ----
 <AbsoluteLayout backgroundColor="#3c495e">
   <label
@@ -146,14 +150,14 @@ The following example creates a simple grid. For more information about creating
 </AbsoluteLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/absolute_layout_grid.svg[]
-
 ==== Example: Overlapping elements
+
+image::https://art.nativescript.org/layouts/absolute_layout_overlap.svg[]
+
 
 The following example creates a group of overlapping items.
 
-[,html]
+[source,html]
 ----
 <AbsoluteLayout backgroundColor="#3c495e">
   <label
@@ -174,9 +178,6 @@ The following example creates a group of overlapping items.
   />
 </AbsoluteLayout>
 ----
-
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/absolute_layout_overlap.svg[]
 
 ==== Props
 
@@ -221,9 +222,11 @@ To dock a child element to the center, it must be the *last child* of the contai
 
 ==== Example: Dock to every side without stretching the last child
 
+image::https://art.nativescript.org/layouts/dock_layout_no_stretch.svg[]
+
 The following example creates a frame-like layout consisting of 4 elements, position at the 4 edges of the screen.
 
-[,html]
+[source,html]
 ----
 <DockLayout stretchLastChild="false" backgroundColor="#3c495e">
   <label text="left" dock="left" width="40" backgroundColor="#43b883" />
@@ -233,14 +236,13 @@ The following example creates a frame-like layout consisting of 4 elements, posi
 </DockLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/dock_layout_no_stretch.svg[]
-
 ==== Example: Dock to every side and stretch the last child
+
+image::https://art.nativescript.org/layouts/dock_layout_stretch.svg[]
 
 The following example shows how `stretchLastChild` affects the positioning of child elements in a `DockLayout` container. The last child (`bottom`) is stretched to take up all the remaining space after positioning the first three elements.
 
-[,html]
+[source,html]
 ----
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
   <label text="left" dock="left" width="40" backgroundColor="#43b883" />
@@ -250,14 +252,13 @@ The following example shows how `stretchLastChild` affects the positioning of ch
 </DockLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/dock_layout_stretch.svg[]
-
 ==== Example: Dock to every side and the center
+
+image::https://art.nativescript.org/layouts/dock_layout_all_sides_and_stretch.svg[]
 
 The following example creates a `<DockLayout>` of 5 elements. The first four wrap the center element in a frame.
 
-[,html]
+[source,html]
 ----
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
   <label text="left" dock="left" width="40" backgroundColor="#43b883" />
@@ -268,14 +269,13 @@ The following example creates a `<DockLayout>` of 5 elements. The first four wra
 </DockLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/dock_layout_all_sides_and_stretch.svg[]
-
 ==== Example: Dock multiple children to the same side
+
+image::https://art.nativescript.org/layouts/dock_layout_multiple_on_same_side.svg[]
 
 The following example creates a single line of 4 elements that stretch across the entire height and width of the screen.
 
-[,html]
+[source,html]
 ----
 <DockLayout stretchLastChild="true" backgroundColor="#3c495e">
   <label text="left 1" dock="left" width="40" backgroundColor="#43b883" />
@@ -284,9 +284,6 @@ The following example creates a single line of 4 elements that stretch across th
   <label text="last child" backgroundColor="#43b883" />
 </DockLayout>
 ----
-
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/dock_layout_multiple_on_same_side.svg[]
 
 ==== Props
 
@@ -335,9 +332,11 @@ See *Props* for more information.
 
 ==== Example: Grid layout with fixed sizing
 
+image::https://art.nativescript.org/layouts/grid_layout.svg[]
+
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
-[,html]
+[source,html]
 ----
 <GridLayout columns="115, 115" rows="115, 115">
   <label text="0,0" row="0" col="0" backgroundColor="#43b883" />
@@ -347,14 +346,13 @@ The following example creates a simple 2-by-2 grid with fixed column widths and 
 </GridLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/grid_layout.svg[]
-
 ==== Example: Grid layout with star sizing
+
+image::https://art.nativescript.org/layouts/grid_layout_star_sizing.svg[]
 
 The following example creates a grid with responsive design, where space is allotted proportionally to child elements.
 
-[,html]
+[source,html]
 ----
 <GridLayout columns="*, 2*" rows="2*, 3*" backgroundColor="#3c495e">
   <label text="0,0" row="0" col="0" backgroundColor="#43b883" />
@@ -364,14 +362,13 @@ The following example creates a grid with responsive design, where space is allo
 </GridLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/grid_layout_star_sizing.svg[]
-
 ==== Example: Grid layout with fixed and auto sizing
+
+image::https://art.nativescript.org/layouts/grid_layout_fixed_auto.svg[]
 
 The following example create a grid with one auto-sized column and one column with fixed size. Rows have a fixed height.
 
-[,html]
+[source,html]
 ----
 <GridLayout columns="80, auto" rows="80, 80" backgroundColor="#3c495e">
   <label text="0,0" row="0" col="0" backgroundColor="#43b883" />
@@ -381,14 +378,13 @@ The following example create a grid with one auto-sized column and one column wi
 </GridLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/grid_layout_fixed_auto.svg[]
-
 ==== Example: Grid layout with mixed sizing and merged cells
+
+image::https://art.nativescript.org/layouts/grid_layout_complex.svg[]
 
 The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
 
-[,html]
+[source,html]
 ----
 <GridLayout columns="40, auto, *" rows="40, auto, *" backgroundColor="#3c495e">
   <label text="0,0" row="0" col="0" backgroundColor="#43b883" />
@@ -400,9 +396,6 @@ The following example creates a complex grid with responsive design, mixed width
   <label text="2,2" row="2" col="2" backgroundColor="#43b883" />
 </GridLayout>
 ----
-
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/grid_layout_complex.svg[]
 
 ==== Props
 
@@ -456,17 +449,20 @@ The first column is indicated by `0`.
 
 `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
 
-::: danger Important
+[IMPORTANT]
+====
 Try not to nest too many `<StackLayout/>` in your markup. If you find yourself nesting a lot of `<StackLayout>`
 you will likely get better performance by switching to a `<GridLayout>` or `<FlexboxLayout>`.
 See link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more information.
-:::
+====
 
 ==== Example: Default stacking
 
+image::https://art.nativescript.org/layouts/stack_layout_vertical.svg[]
+
 The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
-[,html]
+[source,html]
 ----
 <StackLayout backgroundColor="#3c495e">
   <label text="first" height="70" backgroundColor="#43b883" />
@@ -475,14 +471,14 @@ The following example creates a vertical stack of 3 equally-sized elements. Item
 </StackLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/stack_layout_vertical.svg[]
-
 ==== Example: Horizontal stacking
+
+image::https://art.nativescript.org/layouts/stack_layout_horizontal.svg[]
+
 
 The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
 
-[,html]
+[source,html]
 ----
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
   <label text="first" width="70" backgroundColor="#43b883" />
@@ -491,14 +487,13 @@ The following example creates a horizontal stack of 3 equally-sized elements. It
 </StackLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/stack_layout_horizontal.svg[]
-
 ==== Example: Stack layout with horizontally aligned children
+
+image::https://art.nativescript.org/layouts/stack_layout_vertical_align_children.svg[]
 
 The following example creates a diagonal stack of items with responsive sizes. Items are vertically stacked.
 
-[,html]
+[source,html]
 ----
 <StackLayout backgroundColor="#3c495e">
   <label
@@ -531,14 +526,14 @@ The following example creates a diagonal stack of items with responsive sizes. I
 </StackLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/stack_layout_vertical_align_children.svg[]
-
 ==== Example: Horizontal stack layout with vertically aligned children
+
+image::https://art.nativescript.org/layouts/stack_layout_horizontal_align_children.svg[]
+
 
 The following example creates a diagonal stack of items with responsive sizes. Items are horizontally stacked.
 
-[,html]
+[source,html]
 ----
 <StackLayout orientation="horizontal" backgroundColor="#3c495e">
   <label
@@ -571,9 +566,6 @@ The following example creates a diagonal stack of items with responsive sizes. I
 </StackLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
-image::https://art.nativescript.org/layouts/stack_layout_horizontal_align_children.svg[]
-
 ==== Props
 
 |===
@@ -600,7 +592,7 @@ None.
 
 It's api can be observed here:
 
-[,ts]
+[source,ts]
 ----
 export class RootLayout extends GridLayout {
   open(view: View, options?: RootLayoutOptions): Promise<void>
@@ -649,7 +641,7 @@ You can use `getRootLayout()` to get a reference to the root layout in your app 
 
 Sample layout:
 
-[,html]
+[source,html]
 ----
 <RootLayout height="100%" width="100%">
   <GridLayout height="100%">
@@ -664,7 +656,7 @@ Sample layout:
 
 Sample api usage:
 
-[,ts]
+[source,ts]
 ----
 // Open a dynamic popup
 const view = this.getPopup('#EA5936', 110, -30)
@@ -721,7 +713,7 @@ You can also find a more https://github.com/williamjuan027/nativescript-rootlayo
 
 The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item to a new row.
 
-[,html]
+[source,html]
 ----
 <WrapLayout backgroundColor="#3c495e">
   <label text="first" width="30%" height="30%" backgroundColor="#43b883" />
@@ -731,14 +723,14 @@ The following example creates a row of equally-sized items. When the row runs ou
 </WrapLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/wrap_layout_horizontal.svg[]
 
 ==== Example: Vertical wrap layout
 
 The following example creates a column of equally-sized items. When the row runs out of space, the container wraps the last item to a new column.
 
-[,html]
+[source,html]
 ----
 <WrapLayout orientation="vertical" backgroundColor="#3c495e">
   <label text="first" width="30%" height="30%" backgroundColor="#43b883" />
@@ -748,7 +740,7 @@ The following example creates a column of equally-sized items. When the row runs
 </WrapLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/wrap_layout_vertical.svg[]
 
 ==== Props
@@ -789,7 +781,7 @@ None.
 
 The following example creates a row of three equally-sized elements that span across the entire height of the screen.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout backgroundColor="#3c495e">
   <label text="first" width="70" backgroundColor="#43b883" />
@@ -798,14 +790,14 @@ The following example creates a row of three equally-sized elements that span ac
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_row_stretch.svg[]
 
 ==== Example: Column flex layout
 
 The following example creates a column of three equally-sized elements that span across the entire width of the screen.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout flexDirection="column" backgroundColor="#3c495e">
   <label text="first" height="70" backgroundColor="#43b883" />
@@ -814,14 +806,14 @@ The following example creates a column of three equally-sized elements that span
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_column_stretch.svg[]
 
 ==== Example: Row flex layout with items aligned to `flex-start`
 
 The following example creates a row of three items placed at the top of the screen. Items are placed in the order they were declared in.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
   <label text="first" width="70" height="70" backgroundColor="#43b883" />
@@ -830,14 +822,14 @@ The following example creates a row of three items placed at the top of the scre
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_row_flex-start.svg[]
 
 ==== Example: Row flex layout with custom order
 
 The following example creates a row of three items placed at the top of the screen. Items are placed in a customized order.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
   <label text="first" order="2" width="70" height="70" backgroundColor="#43b883" />
@@ -846,14 +838,14 @@ The following example creates a row of three items placed at the top of the scre
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_row_custom_order.svg[]
 
 ==== Example: Row flex layout with wrapping
 
 The following example creates four items with enabled line wrapping. When the row runs out of space, the container wraps the last item on a new line.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout flexWrap="wrap" backgroundColor="#3c495e">
   <label text="first" width="30%" backgroundColor="#43b883" />
@@ -863,7 +855,7 @@ The following example creates four items with enabled line wrapping. When the ro
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_wrap.svg[]
 
 ==== Example: Column flex layout with reverse order and items with a different `alignSelf`
@@ -874,7 +866,7 @@ The following example shows how to use:
 * `justifyContent` to create equal spacing between the vertically placed items.
 * `alignSelf` to modify the position of items across the main axis.
 
-[,html]
+[source,html]
 ----
 <FlexboxLayout
   flexDirection="column-reverse"
@@ -900,7 +892,7 @@ The following example shows how to use:
 </FlexboxLayout>
 ----
 
-[.md:w-1/2.lg:w-1/3]
+
 image::https://art.nativescript.org/layouts/flexbox_layout_column_reverse_space_around_align_self.svg[]
 
 ==== Props
@@ -1015,7 +1007,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title" />
 ----
@@ -1024,7 +1016,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar title="ActionBar Title" />
 ----
@@ -1033,7 +1025,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title" />
 ----
@@ -1042,7 +1034,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title"> </ActionBar>
 ----
@@ -1051,7 +1043,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor react
 
-[,html]
+[source,html]
 ----
 <actionBar title="ActionBar Title" />
 ----
@@ -1062,7 +1054,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <actionBar>
   <stackLayout nodeRole="titleView" orientation="horizontal">
@@ -1076,7 +1068,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar>
   <StackLayout orientation="horizontal">
@@ -1090,7 +1082,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <ActionBar>
   <StackLayout orientation="horizontal">
@@ -1104,7 +1096,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar>
   <StackLayout orientation="horizontal">
@@ -1118,7 +1110,7 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar>
   <stackLayout orientation="horizontal">
@@ -1144,7 +1136,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar title="ActionBar Title">
   <actionItem
@@ -1168,7 +1160,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <ActionItem
@@ -1192,7 +1184,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <actionBar title="ActionBar Title">
   <actionItem
@@ -1226,7 +1218,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <ActionItem
@@ -1252,7 +1244,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <ActionItem
@@ -1282,7 +1274,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <NavigationButton text="Go back" android.systemIcon="ic_menu_back" @tap="goBack" />
@@ -1293,7 +1285,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <actionBar title="ActionBar Title">
   <navigationButton
@@ -1312,7 +1304,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar title="ActionBar Title">
   <navigationButton text="Go back" android.systemIcon="ic_menu_back" on:tap="{goBack}" />
@@ -1323,7 +1315,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <NavigationButton text="Go back" android.systemIcon="ic_menu_back" tap="goBack" />
@@ -1334,7 +1326,7 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title">
   <NavigationButton
@@ -1367,7 +1359,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar
   title="ActionBar Title"
@@ -1380,7 +1372,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar
   title="ActionBar Title"
@@ -1393,7 +1385,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <actionBar
   title="ActionBar Title"
@@ -1405,7 +1397,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <ActionBar
   title="ActionBar Title"
@@ -1418,7 +1410,7 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar
   title="ActionBar Title"
@@ -1438,7 +1430,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true" />
 ----
@@ -1447,7 +1439,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <actionBar title="ActionBar Title" flat="true" />
 ----
@@ -1456,7 +1448,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <actionBar title="ActionBar Title" flat={true} />
 ----
@@ -1465,7 +1457,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true" />
 ----
@@ -1474,7 +1466,7 @@ To remove this styling from your app, you can set the `flat` property to `true`.
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true"> </ActionBar>
 ----
@@ -1487,7 +1479,7 @@ To style the `<ActionBar>`, you can use only `background-color` and `color` prop
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
 <ActionBar title="ActionBar Title">
@@ -1515,7 +1507,7 @@ To style the `<ActionBar>`, you can use only `background-color` and `color` prop
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
 <ActionBar title="ActionBar Title">
@@ -1654,7 +1646,7 @@ In iOS, the color property affects the color of the title and the action items. 
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <ActivityIndicator
   busy="{{ isBusy }}"
@@ -1663,7 +1655,7 @@ In iOS, the color property affects the color of the title and the action items. 
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { ActivityIndicator } from '@nativescript/core'
 
@@ -1677,13 +1669,13 @@ onBusyChanged(args: EventData) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ActivityIndicator [busy]="isBusy" (busyChange)="onBusyChanged($event)">
 </ActivityIndicator>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { ActivityIndicator } from '@nativescript/core'
 
@@ -1697,12 +1689,12 @@ onBusyChanged(args: EventData) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
 ----
 
-[,js]
+[source,js]
 ----
 export default {
   methods: {
@@ -1718,7 +1710,7 @@ export default {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <activityIndicator busy={true} />
 ----
@@ -1727,12 +1719,12 @@ export default {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <activityIndicator busy="{true}" on:busyChange="{onBusyChanged}" />
 ----
 
-[,js]
+[source,js]
 ----
 export default {
   methods: {
@@ -1788,12 +1780,12 @@ For more information about the available gestures, see link:/interaction.html#ge
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Button text="Tap me!" tap="onTap" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Button } from '@nativescript/core'
 
@@ -1807,12 +1799,12 @@ export function onTap(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <button text="Tap me!" (tap)="onTap($event)"></button>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Button, EventData } from '@nativescript/core'
 
@@ -1826,7 +1818,7 @@ onTap(args: EventData) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <button text="Button" @tap="onButtonTap" />
 ----
@@ -1835,7 +1827,7 @@ onTap(args: EventData) {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <button text="Button" on:tap="{onButtonTap}" />
 ----
@@ -1844,7 +1836,7 @@ onTap(args: EventData) {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { EventData } from '@nativescript/core'
 ;<button
@@ -1894,7 +1886,7 @@ import { EventData } from '@nativescript/core'
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
-[,html]
+[source,html]
 ----
 <button>
   <FormattedString>
@@ -1926,7 +1918,7 @@ See also: link:/ui-and-styling.html#timepicker[TimePicker].
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <DatePicker
   year="1980"
@@ -1939,7 +1931,7 @@ See also: link:/ui-and-styling.html#timepicker[TimePicker].
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { DatePicker, EventData, Observable, Page } from '@nativescript/core'
 
@@ -1975,7 +1967,7 @@ export function onDatePickerLoaded(data: EventData) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <DatePicker
   year="1980"
@@ -1993,7 +1985,7 @@ export function onDatePickerLoaded(data: EventData) {
 </DatePicker>
 ----
 
-[,typescript]
+[source,typescript]
 ----
 import { Component } from '@angular/core'
 import { DatePicker } from '@nativescript/core'
@@ -2036,14 +2028,14 @@ export class DatePickerUsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <DatePicker :date="someDate" />
 ----
 
 `<DatePicker>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <DatePicker v-model="selectedDate" />
 ----
@@ -2052,7 +2044,7 @@ export class DatePickerUsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { EventData } from '@nativescript/core'
 ;<datePicker
@@ -2067,14 +2059,14 @@ import { EventData } from '@nativescript/core'
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <datePicker date="{someDate}" />
 ----
 
 `<datePicker>` provides two-way data binding using `bind`.
 
-[,html]
+[source,html]
 ----
 <datePicker bind:date="{selectedDate}" />
 ----
@@ -2143,7 +2135,7 @@ import { EventData } from '@nativescript/core'
 
 /// flavor
 
-[,js]
+[source,js]
 ----
 new Vue({
   render: h => h('Frame', [h(HomePageComponent)])
@@ -2158,7 +2150,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <GridLayout columns="*, *">
   <frame col="0" />
@@ -2170,7 +2162,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <gridLayout columns={'* *'} rows={[]}>
   <frame col={0} />
@@ -2182,7 +2174,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <gridLayout columns="*, *">
   <frame col="0" />
@@ -2196,7 +2188,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <frame>
   <Page>
@@ -2212,7 +2204,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <frame>
   <page>
@@ -2228,7 +2220,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <frame>
   <page>
@@ -2246,7 +2238,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <frame>
   <Page>
@@ -2255,7 +2247,7 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
 </frame>
 ----
 
-[,js]
+[source,js]
 ----
 import Home from './Home'
 
@@ -2270,14 +2262,14 @@ export default {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <frame>
   <Home />
 </frame>
 ----
 
-[,js]
+[source,js]
 ----
 import Home from './Home.svelte'
 ----
@@ -2286,7 +2278,7 @@ import Home from './Home.svelte'
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import HomePage from './HomePage'
 
@@ -2320,12 +2312,12 @@ See also: <<webview,WebView>>.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <HtmlView loaded="onHtmlLoaded" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { HtmlView } from '@nativescript/core'
 
@@ -2341,12 +2333,12 @@ export function onHtmlLoaded(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <HtmlView [html]="htmlString"></HtmlView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 
@@ -2369,7 +2361,7 @@ export class HtmlViewUsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <HtmlView html="<div><h1>HtmlView</h1></div>" />
 ----
@@ -2378,7 +2370,7 @@ export class HtmlViewUsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <htmlView html="<div><h1>HtmlView</h1></div>" />
 ----
@@ -2387,7 +2379,7 @@ export class HtmlViewUsageComponent {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <htmlView html="<div><h1>HtmlView</h1></div>" />
 ----
@@ -2433,7 +2425,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Image src="res://icon" stretch="aspectFill" />
 ----
@@ -2442,7 +2434,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <image src="res://icon" stretch="aspectFill"> </image>
 ----
@@ -2451,7 +2443,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
@@ -2460,7 +2452,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
@@ -2469,7 +2461,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
@@ -2480,7 +2472,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Image src="~/logo.png" stretch="aspectFill" />
 ----
@@ -2489,7 +2481,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill"></image>
 ----
@@ -2498,7 +2490,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
@@ -2507,7 +2499,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
@@ -2516,7 +2508,7 @@ When working with images following link:/performance.html#image-optimizations[th
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
@@ -2533,7 +2525,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
@@ -2545,7 +2537,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
@@ -2558,7 +2550,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
@@ -2570,7 +2562,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
@@ -2582,7 +2574,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <image
   src="https://art.nativescript.org/logo/export/NativeScript_Logo_Blue_White.png"
@@ -2596,7 +2588,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
@@ -2605,7 +2597,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill"></image>
 ----
@@ -2614,7 +2606,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
@@ -2623,7 +2615,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
@@ -2632,7 +2624,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
@@ -2643,7 +2635,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Image src="font://&#xf004;" class="fas" />
 ----
@@ -2652,7 +2644,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <image src="font://&#xf004;" class="fas"></image>
 ----
@@ -2661,7 +2653,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <image src="font://&#xf004;" class="fas" />
 ----
@@ -2670,7 +2662,7 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <image src.decode="font://&#xf004;" class="fas" />
 ----
@@ -2685,7 +2677,7 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <image src="font://&#xf004;" class="fas" />
 ----
@@ -2752,7 +2744,7 @@ This `<Label>` is *not* the same as the HTML `<label>`.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Label text="Label" />
 ----
@@ -2761,7 +2753,7 @@ This `<Label>` is *not* the same as the HTML `<label>`.
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <label text="Label"></label>
 ----
@@ -2770,7 +2762,7 @@ This `<Label>` is *not* the same as the HTML `<label>`.
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <label>Label</label>
 ----
@@ -2779,7 +2771,7 @@ This `<Label>` is *not* the same as the HTML `<label>`.
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <label text="Label" />
 ----
@@ -2788,7 +2780,7 @@ This `<Label>` is *not* the same as the HTML `<label>`.
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <label text="Label" />
 ----
@@ -2801,7 +2793,7 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Label textWrap="true">
   <FormattedString>
@@ -2818,7 +2810,7 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <label textWrap="true">
   <FormattedString>
@@ -2835,7 +2827,7 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { Color } from '@nativescript/core'
 ;<label textWrap={true}>
@@ -2853,7 +2845,7 @@ import { Color } from '@nativescript/core'
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <label textWrap="true">
   <FormattedString>
@@ -2870,7 +2862,7 @@ import { Color } from '@nativescript/core'
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <label textWrap="{true}">
   <formattedString>
@@ -2959,12 +2951,12 @@ import { Color } from '@nativescript/core'
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <ListPicker items="{{ years }}" selectedIndex="0" loaded="onListPickerLoaded" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { EventData, fromObject, ListPicker, Page } from '@nativescript/core'
 
@@ -2991,7 +2983,7 @@ export function onListPickerLoaded(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ListPicker [items]="items" class="picker"> </ListPicker>
 ----
@@ -3000,7 +2992,7 @@ export function onListPickerLoaded(args) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ListPicker
   :items="listOfItems"
@@ -3011,7 +3003,7 @@ export function onListPickerLoaded(args) {
 
 `<ListPicker>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <ListPicker :items="listOfItems" v-model="selectedItem" />
 ----
@@ -3020,7 +3012,7 @@ export function onListPickerLoaded(args) {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <listPicker
   items="{listOfItems}"
@@ -3029,7 +3021,7 @@ export function onListPickerLoaded(args) {
 />
 ----
 
-[,js]
+[source,js]
 ----
 let listOfItems = ['one', 'two', 'three']
 const selectedIndexChanged = e => console.log(e.index)
@@ -3037,7 +3029,7 @@ const selectedIndexChanged = e => console.log(e.index)
 
 `<ListPicker>` provides two-way data binding for `selectedIndex`.
 
-[,tsx]
+[source,tsx]
 ----
 <listPicker items="{listOfItems}" bind:selectedIndex="{selectedItem}" />
 ----
@@ -3046,7 +3038,7 @@ const selectedIndexChanged = e => console.log(e.index)
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { EventData, ListPicker } from '@nativescript/core'
 ;<listPicker
@@ -3114,7 +3106,7 @@ The ListView's item template can contain only a single root view container.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <ListView
   items="{{ titlesArray }}"
@@ -3135,7 +3127,7 @@ The ListView's item template can contain only a single root view container.
 </ListView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import {
   EventData,
@@ -3234,7 +3226,7 @@ export function onLoadMoreItems(args: ItemEventData) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ListView [items]="items" (itemTap)="onItemTap($event)" class="list-group">
   <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
@@ -3246,7 +3238,7 @@ export function onLoadMoreItems(args: ItemEventData) {
 </ListView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component, Injectable, OnInit } from '@angular/core'
 import { ItemEventData } from '@nativescript/core'
@@ -3316,7 +3308,7 @@ export class Item {
 
 ==== Item Templates
 
-[,html]
+[source,html]
 ----
 <ListView
   [items]="items"
@@ -3338,7 +3330,7 @@ export class Item {
 </ListView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component, Input, OnChanges, SimpleChanges, OnInit } from '@angular/core'
 import { ItemService, Item } from '../usage/usage.service'
@@ -3403,7 +3395,7 @@ export class ListViewTipsComponent implements OnInit {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ListView for="item in listOfItems" @itemTap="onItemTap">
   <v-template>
@@ -3419,7 +3411,7 @@ The https://nativescript-vue.org/en/docs/utilities/v-template/[`v-template` comp
 
 If you need to visualize one or more list items differently than the rest, you can enclose them in additional `<v-template>` blocks and use conditions. You can have as many `<v-template>` blocks as needed within one `<ListView>`.
 
-[,html]
+[source,html]
 ----
 <ListView for="item in listOfItems" @itemTap="onItemTap">
   <v-template>
@@ -3457,7 +3449,7 @@ https://play.nativescript.org/?template=play-vue&id=ZEgWFu&v=1[Check out this pl
 
 If you only need to handle taps on the whole cell, you can use the `itemTap` event which contains the index of the tapped item and the actual item from the list.
 
-[,js]
+[source,js]
 ----
 onItemTap(event) {
   console.log(event.index)
@@ -3520,7 +3512,7 @@ Instead of manually triggering the UI update with the help of ListView's refresh
 ::: danger Important
 Using the ListView component inside a ScrollView or ScrollView inside the ListView's items can lead to poor performance and can reflect the user experience. To avoid this issue, we should specify the height explicitly for the ListView in the scenario when the ListView is nested in ScrollView and the ScrollView's height - when the component is used inside the ListView.
 
-[,html]
+[source,html]
 ----
 <ScrollView>
   <StackLayout>
@@ -3577,7 +3569,7 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <page>
   <actionBar title="My App" />
@@ -3591,7 +3583,7 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <Page>
   <ActionBar title="My App" />
@@ -3605,7 +3597,7 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <page>
   <actionBar title="My App" />
@@ -3633,7 +3625,7 @@ You'd expect to be able to set ActionBar as the content view by specifying `<act
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <Page>
   <ActionBar title="My App" />
@@ -3651,7 +3643,7 @@ A typical scenario is performing UI changes after the page is loaded. The recomm
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Page
   loaded="onPageLoaded"
@@ -3673,7 +3665,7 @@ A typical scenario is performing UI changes after the page is loaded. The recomm
 </Page>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { EventData, Page } from '@nativescript/core'
 
@@ -3717,7 +3709,7 @@ export function onNavigatedFrom(args: NavigatedData) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <Page @loaded="greet">
   <ActionBar title="My App" />
@@ -3727,7 +3719,7 @@ export function onNavigatedFrom(args: NavigatedData) {
 </Page>
 ----
 
-[,js]
+[source,js]
 ----
 export default {
   methods: {
@@ -3828,12 +3820,12 @@ The events loaded, unloaded and layoutChanged are UI component lifecycles events
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Placeholder creatingView="creatingView" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Utils } from '@nativescript/core'
 
@@ -3857,7 +3849,7 @@ export function creatingView(args) {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { isIOS, isAndroid } from '@nativescript/core'
 ;<placeholder
@@ -3887,12 +3879,12 @@ import { isIOS, isAndroid } from '@nativescript/core'
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <Placeholder (creatingView)="creatingView($event)" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Utils, Placeholder } from '@nativescript/core'
 
@@ -3918,12 +3910,12 @@ function creatingView(args) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <Placeholder @creatingView="creatingView" />
 ----
 
-[,js]
+[source,js]
 ----
 // Example with TextView in Android
 methods: {
@@ -3973,7 +3965,7 @@ See also: <<activity-indicator,ActivityIndicator>>.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Progress
   width="100%"
@@ -3983,7 +3975,7 @@ See also: <<activity-indicator,ActivityIndicator>>.
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Observable, Page, Progress, PropertyChangeData } from '@nativescript/core'
 
@@ -4013,12 +4005,12 @@ export function onProgressLoaded(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <progress value="25" maxValue="100" (valueChanged)="onValueChanged($event)"></progress>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component, OnInit } from '@angular/core'
 
@@ -4040,7 +4032,7 @@ export class StylingComponent implements OnInit {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 function getTaskCompletionPercent() {
   // Just a stub method to illustrate the concept.
@@ -4054,7 +4046,7 @@ function getTaskCompletionPercent() {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <progress :value="currentProgress" />
 ----
@@ -4063,7 +4055,7 @@ function getTaskCompletionPercent() {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <progress value="{currentProgress}" />
 ----
@@ -4078,14 +4070,14 @@ Using `backgroundColor` (*CSS*: `background-color`) & color to change the Progre
 `backgroundColor` will work only on `iOS`; on `Android` the background will be the color with applied opacity.
 :::
 
-[,html]
+[source,html]
 ----
 <progress value="50" maxValue="100" backgroundColor="red" color="green"></progress>
 <!-- Using the @nativescript/theme CSS class to change the Progress style -->
 <progress value="25" maxValue="100" class="progress"></progress>
 ----
 
-[,css]
+[source,css]
 ----
 Progress {
   color: cyan;
@@ -4142,7 +4134,7 @@ The Repeater widget allows you to display a collection of data, which is present
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Label row="0" text="Binding the Repeater items property to collection" textWrap="true" />
 <Button row="1" text="Add new item" tap="onTap" />
@@ -4163,7 +4155,7 @@ The Repeater widget allows you to display a collection of data, which is present
 </ScrollView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Observable, ObservableArray, Page } from '@nativescript/core'
 
@@ -4207,7 +4199,7 @@ It's important to note that `<ScrollView>` extends link:/api-reference/classes/c
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <!--
     The default value of the orientation property is 'vertical'.
@@ -4229,7 +4221,7 @@ It's important to note that `<ScrollView>` extends link:/api-reference/classes/c
 </ScrollView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Page, ScrollEventData, ScrollView } from '@nativescript/core'
 
@@ -4245,7 +4237,7 @@ export function onScroll(args: ScrollEventData) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <ScrollView (scroll)="onScroll($event)">
   <GridLayout rows="200 200 200 200 200 200 200 200 200 200">
@@ -4263,7 +4255,7 @@ export function onScroll(args: ScrollEventData) {
 </ScrollView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { ScrollView, ScrollEventData } from '@nativescript/core'
@@ -4286,7 +4278,7 @@ export class TipsAndTricksComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <ScrollView orientation="horizontal">
   <StackLayout orientation="horizontal">
@@ -4303,7 +4295,7 @@ export class TipsAndTricksComponent {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <scrollView orientation="horizontal">
   <stackLayout orientation="horizontal">
@@ -4320,7 +4312,7 @@ export class TipsAndTricksComponent {
 
 /// flavor react
 
-[,html]
+[source,html]
 ----
 <scrollView orientation="horizontal">
   <stackLayout orientation="horizontal">
@@ -4381,7 +4373,7 @@ Default value: `true`.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <SearchBar
   id="searchBar"
@@ -4392,7 +4384,7 @@ Default value: `true`.
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Observable, Page, PropertyChangeData, SearchBar } from '@nativescript/core'
 
@@ -4424,7 +4416,7 @@ export function onClear(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <SearchBar
   hint="Enter search term here ..."
@@ -4436,7 +4428,7 @@ export function onClear(args) {
 </SearchBar>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { SearchBar } from '@nativescript/core'
@@ -4469,7 +4461,7 @@ export class UsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <SearchBar
   hint="Search hint"
@@ -4481,7 +4473,7 @@ export class UsageComponent {
 
 `<SearchBar>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <SearchBar v-model="searchQuery" />
 ----
@@ -4490,7 +4482,7 @@ export class UsageComponent {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <searchBar
   hint="Search hint"
@@ -4502,7 +4494,7 @@ export class UsageComponent {
 
 `<SearchBar>` provides two-way data binding for `text`.
 
-[,html]
+[source,html]
 ----
 <searchBar bind:text="{searchQuery}" />
 ----
@@ -4511,7 +4503,7 @@ export class UsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <searchBar
   hint="Search hint"
@@ -4592,7 +4584,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <SegmentedBar>
   <SegmentedBarItem title="First" />
@@ -4605,7 +4597,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <SegmentedBar>
   <SegmentedBarItem title="First"></SegmentedBarItem>
@@ -4618,7 +4610,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <segmentedBar>
   <segmentedBarItem title="First" />
@@ -4631,7 +4623,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <segmentedBar>
   <segmentedBarItem title="First" />
@@ -4644,7 +4636,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <SegmentedBar>
   <SegmentedBarItem title="First" />
@@ -4659,7 +4651,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <SegmentedBar row="0" class="m-5" selectedIndex="{{ sbSelectedIndex }}">
   <SegmentedBar.items>
@@ -4670,7 +4662,7 @@ As opposed to <<tabview,`<TabView>`>>:
 </SegmentedBar>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Observable, Page, PropertyChangeData } from '@nativescript/core'
 
@@ -4694,7 +4686,7 @@ export function onNavigatingTo(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <SegmentedBar
   [items]="mySegmentedBarItems"
@@ -4704,7 +4696,7 @@ export function onNavigatingTo(args) {
 </SegmentedBar>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component, ChangeDetectionStrategy } from '@angular/core'
 import {
@@ -4741,7 +4733,7 @@ export class BasicSegmentedBarComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <SegmentedBar
   :items="listOfItems"
@@ -4752,7 +4744,7 @@ export class BasicSegmentedBarComponent {
 
 `<SegmentedBar>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <SegmentedBar :items="listOfItems" v-model="selectedItem" />
 ----
@@ -4761,14 +4753,14 @@ export class BasicSegmentedBarComponent {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <segmentedBar selectedIndex="0" on:selectedIndexChanged="{onSelectedIndexChange}" />
 ----
 
 `<segmentedBar>` can be populated with `+{each}+` block.
 
-[,html]
+[source,html]
 ----
 <segmentedBar>
   {#each listOfItems as item}
@@ -4777,14 +4769,14 @@ export class BasicSegmentedBarComponent {
 </segmentedBar>
 ----
 
-[,js]
+[source,js]
 ----
 let listOfItems = ['First', 'Second', 'Third']
 ----
 
 `<segmentedBar>` provides two-way data binding of `selectedIndex`.
 
-[,tsx]
+[source,tsx]
 ----
 <segmentedBar bind:selectedIndex="{selectedItem}" >
 ----
@@ -4793,7 +4785,7 @@ let listOfItems = ['First', 'Second', 'Third']
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <segmentedBar
   items={listOfItems}
@@ -4855,12 +4847,12 @@ The array must be created in advance.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Slider } from '@nativescript/core'
 
@@ -4876,7 +4868,7 @@ export function onSliderLoaded(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <Slider
   value="10"
@@ -4887,7 +4879,7 @@ export function onSliderLoaded(args) {
 </Slider>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { Slider } from '@nativescript/core'
@@ -4908,14 +4900,14 @@ export class UsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <Slider value="80" @valueChange="onValueChanged" />
 ----
 
 `<Slider>` provides two-way data binding using `v-model`:
 
-[,html]
+[source,html]
 ----
 <Slider v-model="value" />
 ----
@@ -4924,14 +4916,14 @@ export class UsageComponent {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <slider value="80" on:valueChange="{onValueChanged}" />
 ----
 
 `<slider>` provides two-way data binding of `value`:
 
-[,html]
+[source,html]
 ----
 <slider bind:value="{value}" />
 ----
@@ -4940,7 +4932,7 @@ export class UsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <slider value={0} onValueChange={onValueChange} />
 ----
@@ -5004,12 +4996,12 @@ The default state is `false` or OFF.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <Switch checked="true" loaded="onSwitchLoaded" />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Switch } from '@nativescript/core'
 
@@ -5027,12 +5019,12 @@ export function onSwitchLoaded(argsloaded) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <Switch checked="true" (checkedChange)="onCheckedChange($event)"> </Switch>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { EventData, Switch } from '@nativescript/core'
@@ -5053,14 +5045,14 @@ export class BasicSwitchComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <Switch checked="true" />
 ----
 
 ``<Switch>``provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <Switch v-model="itemEnabled" />
 ----
@@ -5069,14 +5061,14 @@ export class BasicSwitchComponent {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <switch checked="{true}" on:checkedChange="{onCheckedChange}" />
 ----
 
 ``<switch>``provides two-way data binding for `checked`.
 
-[,tsx]
+[source,tsx]
 ----
 <switch bind:checked="{switchEnabled}" />
 ----
@@ -5085,7 +5077,7 @@ export class BasicSwitchComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <switch checked={true} />
 ----
@@ -5137,7 +5129,7 @@ Default value: `false`.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <TabView
   loaded="onLoaded"
@@ -5179,7 +5171,7 @@ Default value: `false`.
 </TabView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import {
   Dialogs,
@@ -5235,7 +5227,7 @@ export function onSelectedIndexChanged(args: SelectedIndexChangedEventData) {
 
 Using a `<TabView>` inside an `Angular` app requires some special attention about how to provide title, iconSource and content (view) of the `TabViewItem`. In a pure NativeScript application TabView has an items property which could be set via XML to an array of ``<TabViewItem>``s (basically, an array of objects with title, view and iconSource properties). However, NativeScript-Angular does not support nested properties in its HTML template, so adding `<TabViewItem>` to `<TabView`> is a little bit different. NativeScript-Angular provides a custom Angular directive that simplifies the way native `<TabView>` should be used. The following example shows how to add a `<TabView>` to your page (with some clarifications later):
 
-[,html]
+[source,html]
 ----
 <TabView selectedIndex="0" (selectedIndexChanged)="onSelectedIndexchanged($event)">
   <StackLayout *tabItem="{title: 'First Tab', iconSource: 'res://icon'}">
@@ -5269,7 +5261,7 @@ If you have set the iconSource property on a `<TabViewItem>`, but are not seeing
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <tabView selectedIndex="{selectedIndex}" on:selectedIndexChange="{indexChange}">
   <tabViewItem title="Tab 1">
@@ -5282,7 +5274,7 @@ If you have set the iconSource property on a `<TabViewItem>`, but are not seeing
 </tabView>
 ----
 
-[,js]
+[source,js]
 ----
 function indexChange(event) {
   let newIndex = event.value
@@ -5294,7 +5286,7 @@ function indexChange(event) {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TabView :selectedIndex="selectedIndex" @selectedIndexChange="indexChange">
   <TabViewItem title="Tab 1">
@@ -5306,7 +5298,7 @@ function indexChange(event) {
 </TabView>
 ----
 
-[,js]
+[source,js]
 ----
 methods: {
   indexChange: function(args) {
@@ -5320,7 +5312,7 @@ methods: {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 import { SelectedIndexChangedEventData } from '@nativescript/core'
 ;<tabView
@@ -5349,7 +5341,7 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TabView :selectedIndex="selectedIndex" iosIconRenderingMode="alwaysOriginal">
   <TabViewItem title="Tab 1" iconSource="~/images/icon.png">
@@ -5365,7 +5357,7 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <tabView selectedIndex="{selectedIndex}" iosIconRenderingMode="alwaysOriginal">
   <tabViewItem title="Tab 1" iconSource="~/images/icon.png">
@@ -5381,7 +5373,7 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <tabView selectedIndex={selectedIndex} iosIconRenderingMode="alwaysOriginal">
   <tabViewItem nodeRole="items" title="Tab 1" iconSource="~/images/icon.png">
@@ -5507,7 +5499,7 @@ Valid values: `top` or `bottom`.
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <TextField hint="Enter text" color="orangered" backgroundColor="lightyellow" />
 ----
@@ -5516,7 +5508,7 @@ Valid values: `top` or `bottom`.
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <TextField
   hint="Enter Date"
@@ -5533,7 +5525,7 @@ Valid values: `top` or `bottom`.
 </TextField>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { TextField, Utils } from '@nativescript/core'
@@ -5593,14 +5585,14 @@ export class UsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TextField :text="textFieldValue" hint="Enter text..." />
 ----
 
 `<TextField>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <TextField v-model="textFieldValue" />
 ----
@@ -5609,14 +5601,14 @@ export class UsageComponent {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <textField text="{textFieldValue}" hint="Enter text..." />
 ----
 
 `<textField>` provides two-way data binding using `bind`.
 
-[,html]
+[source,html]
 ----
 <textField bind:text="{textFieldValue}" />
 ----
@@ -5625,7 +5617,7 @@ export class UsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <textField text={textFieldValue} hint="Enter text..." />
 ----
@@ -5752,7 +5744,7 @@ Valid values: `done`, `next`, `go`, `search`, or `send`.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <TextView
   loaded="onTextViewLoaded"
@@ -5766,7 +5758,7 @@ Valid values: `done`, `next`, `go`, `search`, or `send`.
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Observable, Page, TextView } from '@nativescript/core'
 
@@ -5793,13 +5785,13 @@ export function onTextViewLoaded(argsloaded) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <TextView hint="Enter some text..." [text]="tvtext" (textChange)="onTextChange($event)">
 </TextView>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { EventData, TextView } from '@nativescript/core'
@@ -5822,14 +5814,14 @@ export class UsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TextView text="Multi\nLine\nText" />
 ----
 
 `<TextView>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <TextView v-model="textViewValue" />
 ----
@@ -5838,14 +5830,14 @@ export class UsageComponent {
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <textView text="Multi\nLine\nText" />
 ----
 
 `<textView>` provides two-way data binding using `bind`.
 
-[,html]
+[source,html]
 ----
 <textView bind:text="{textViewValue}" />
 ----
@@ -5854,7 +5846,7 @@ export class UsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <textView text={'Multi\nLine\nText'} />
 ----
@@ -5867,7 +5859,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TextView editable="false">
   <FormattedString>
@@ -5884,7 +5876,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <textView editable="{false}">
   <formattedString>
@@ -5901,7 +5893,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor plain
 
-[,html]
+[source,html]
 ----
 <TextView editable="false">
   <FormattedString>
@@ -5918,7 +5910,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <TextView editable="false">
   <FormattedString>
@@ -5935,7 +5927,7 @@ To apply multiple styles to the text in your `<TextView>`, you can use `<Formatt
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <textView editable={false}>
   <formattedString>
@@ -6028,7 +6020,7 @@ See also: link:ui-and-styling.html#date-picker[DatePicker].
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <TimePicker
   hour="10"
@@ -6042,7 +6034,7 @@ See also: link:ui-and-styling.html#date-picker[DatePicker].
 />
 ----
 
-[,ts]
+[source,ts]
 ----
 import { TimePicker } from '@nativescript/core'
 
@@ -6072,7 +6064,7 @@ export function onPickerLoaded(args) {
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <TimePicker
   hour="9"
@@ -6085,7 +6077,7 @@ export function onPickerLoaded(args) {
 </TimePicker>
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Component } from '@angular/core'
 import { TimePicker } from '@nativescript/core'
@@ -6110,14 +6102,14 @@ export class UsageComponent {
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <TimePicker :hour="selectedHour" :minute="selectedMinute" />
 ----
 
 `<TimePicker>` provides two-way data binding using `v-model`.
 
-[,html]
+[source,html]
 ----
 <TimePicker v-model="selectedTime" />
 ----
@@ -6126,14 +6118,14 @@ export class UsageComponent {
 
 /// flavor svelte
 
-[,tsx]
+[source,tsx]
 ----
 <timePicker hour="{selectedHour}" minute="{selectedMinute}" />
 ----
 
 `<timePicker>` provides two-way data binding using `bind`.
 
-[,html]
+[source,html]
 ----
 <timePicker bind:time="{selectedTime}" />
 ----
@@ -6142,7 +6134,7 @@ export class UsageComponent {
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <timePicker hour={selectedHour} minute={selectedMinute} />
 ----
@@ -6220,7 +6212,7 @@ See also: <<htmlview,HtmlView>>.
 
 /// flavor plain
 
-[,xml]
+[source,xml]
 ----
 <WebView row="1" loaded="onWebViewLoaded" id="myWebView" src="{{ webViewSrc }}" />
 ----
@@ -6229,7 +6221,7 @@ See also: <<htmlview,HtmlView>>.
 
 /// flavor angular
 
-[,html]
+[source,html]
 ----
 <WebView
   [src]="webViewSrc"
@@ -6243,7 +6235,7 @@ See also: <<htmlview,HtmlView>>.
 
 /// flavor vue
 
-[,html]
+[source,html]
 ----
 <WebView src="http://nativescript-vue.org/" />
 
@@ -6256,7 +6248,7 @@ See also: <<htmlview,HtmlView>>.
 
 /// flavor svelte
 
-[,html]
+[source,html]
 ----
 <webView src="http://nativescript.org/" />
 
@@ -6269,7 +6261,7 @@ See also: <<htmlview,HtmlView>>.
 
 /// flavor react
 
-[,tsx]
+[source,tsx]
 ----
 <webView src="http://nativescript.org/" />
 
@@ -6622,7 +6614,7 @@ On iOS, the TabStripItems can not be stylied individually.
 
 Since \{N} 5.4, a new Android-specific property, called androidElevation, is introduced. View's elevation is represented by Zproperty and determines the visual appearance of its shadow. With higher elevation value larger, softer shadows will be set to the View and smaller shadow while using lower elevation.
 
-[,html]
+[source,html]
 ----
 <StackLayout class="home-panel">
   <TextView
@@ -6636,7 +6628,7 @@ Since \{N} 5.4, a new Android-specific property, called androidElevation, is int
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 .tvElevation {
   android-elevation: 5;
@@ -6646,7 +6638,7 @@ Since \{N} 5.4, a new Android-specific property, called androidElevation, is int
 ::: warning Note
 Since NativeScript 5.4, the buttons on Android have default elevation (shadow) of 2, to provide Material Design elevation support. Removing the shadow will allow you to create a transparent button. To explicitly remove the elevation, set the android-elevation property to `0` as shown below:
 
-[,css]
+[source,css]
 ----
 .btn-no-elevation {
   android-elevation: 0;
@@ -6661,7 +6653,7 @@ Another property introduced with \{N} 5.4 is androidDynamicElevationOffset. This
 
 Example:
 
-[,html]
+[source,html]
 ----
 <StackLayout class="home-panel">
   <button
@@ -6674,7 +6666,7 @@ Example:
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 .sampleButton2 {
   background-color: lightcyan;
@@ -6702,7 +6694,7 @@ NativeScript supports a subset of the http://www.w3schools.com/cssref/css_select
 
 Like http://www.w3schools.com/cssref/sel_element.asp[CSS element selectors], type selectors in NativeScript select all views of a given type. Type selectors are case insensitive, so you can use both `button` and `Button`.
 
-[,CSS]
+[source,CSS]
 ----
 button { background-color: gray }
 ----
@@ -6716,19 +6708,19 @@ The class is set using the `className` property of the view.
 To use `className` in JS/TS to add a class to an element, the class rule must be in a CSS file that is higher up the component tree than the element, such as `app.css`.
 :::
 
-[,html]
+[source,html]
 ----
 <label className="title"></label>
 ----
 
-[,css]
+[source,css]
 ----
 .title {
   font-size: 32;
 }
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Label } from '@nativescript/core'
 const label = new Label()
@@ -6739,19 +6731,19 @@ label.className = 'title'
 
 http://www.w3schools.com/cssref/sel_id.asp[Id selectors] select all views with a given id. The `id` is set using the `id` property of the view.
 
-[,html]
+[source,html]
 ----
 <button id="login-button"></button>
 ----
 
-[,css]
+[source,css]
 ----
 #login-button {
   background-color: blue;
 }
 ----
 
-[,ts]
+[source,ts]
 ----
 import { Button } from '@nativescript/core'
 const btn = new Button()
@@ -6760,12 +6752,12 @@ btn.id = 'login-button'
 
 ==== Attribute Selector
 
-[,html]
+[source,html]
 ----
 <button testAttr="flower"></button>
 ----
 
-[,css]
+[source,css]
 ----
 button[testAttr] {
   background-color: blue;
@@ -6792,13 +6784,13 @@ Also, some more advanced scenarios are supported:
 
 Attribute selectors could be used alone or could be combined with all type of CSS selectors.
 
-[,html]
+[source,html]
 ----
 <button id="login-button" testAttr="flower"></button>
 <label testAttr="some value"></label>
 ----
 
-[,css]
+[source,css]
 ----
 #login-button[testAttr='flower'] {
   background-color: blue;
@@ -6812,12 +6804,12 @@ Attribute selectors could be used alone or could be combined with all type of CS
 
 A pseudo-selector or also pseudo-class is used to define a special state of an element. Currently, NativeScript supports only :highlighted pseudo-selector.
 
-[,html]
+[source,html]
 ----
 <button testAttr="flower"></button>
 ----
 
-[,css]
+[source,css]
 ----
 button:highlighted {
   background-color: red;
@@ -6831,7 +6823,7 @@ A CSS selector could contain more than one simple selector, and between selector
 
 * (space) - Descendant selector. For example, the following code will select all buttons inside StackLayouts (no matter) at which level.
 
-[,css]
+[source,css]
 ----
 StackLayout Button {
   background-color: blue;
@@ -6840,7 +6832,7 @@ StackLayout Button {
 
 * (>) - A direct child selector. Using the previous example, if the CSS is changed to:
 
-[,css]
+[source,css]
 ----
 StackLayout > Button {
   background-color: blue;
@@ -6853,7 +6845,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ===== Direct Sibling Test by Class
 
-[,html]
+[source,html]
 ----
 <StackLayout class="layout-class">
   <label text="Direct sibling test by id"></label>
@@ -6862,7 +6854,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 .layout-class .test-child + .test-child-2 {
   background-color: green;
@@ -6871,7 +6863,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ===== Direct Sibling Test by ID
 
-[,html]
+[source,html]
 ----
 <StackLayout class="layout-class">
   <label text="Direct sibling test by id"></label>
@@ -6880,7 +6872,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 .layout-class #test-child + #test-child-2 {
   background-color: green;
@@ -6889,7 +6881,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 
 ===== Direct Sibling by Type
 
-[,html]
+[source,html]
 ----
 <StackLayout class="direct-sibling--type">
   <label text="Direct sibling by type"></label>
@@ -6902,7 +6894,7 @@ The background-color rule will not be applied. In order to apply the selector, t
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 StackLayout Button + Label {
   background-color: green;
@@ -6935,7 +6927,7 @@ You can change the name of the file from which the application-wide CSS is loade
 
 /// flavor plain
 
-[,ts]
+[source,ts]
 ----
 import { Application } from '@nativescript/core'
 Application.setCssFileName('style.css')
@@ -6947,7 +6939,7 @@ Application.run({ moduleName: 'main-page' })
 
 /// flavor angular
 
-[,ts]
+[source,ts]
 ----
 platformNativeScriptDynamic({ bootInExistingPage: false, cssFile: 'style.css' })
 ----
@@ -6960,7 +6952,7 @@ The path to the CSS file is relative to the application root folder.
 
 You could also check the name of the application-wide CSS file by using getCssFileName() method as shown below:
 
-[,ts]
+[source,ts]
 ----
 import { Application } from '@nativescript/core'
 const fileName = Application.getCssFileName()
@@ -6975,14 +6967,14 @@ When the page's XML declaration file is loaded, NativeScript looks for a CSS fil
 
 If you import any custom components on your page, the CSS from those components will be applied to the page, too. As a best practice, scope the CSS of custom components so that component styles do not "leak" on to pages.
 
-[,xml]
+[source,xml]
 ----
 <StackLayout class="mywidget">
   <Label text="Custom component layout" class="label" />
 </StackLayout>
 ----
 
-[,css]
+[source,css]
 ----
 /* GOOD: This will ONLY apply to the custom component */
 .mywidget .label {
@@ -6997,7 +6989,7 @@ If you import any custom components on your page, the CSS from those components 
 
 You can also override CSS styles specified in the file by using the page's css property:
 
-[,ts]
+[source,ts]
 ----
 page.css = 'button { color: red }'
 ----
@@ -7010,7 +7002,7 @@ page.css = 'button { color: red }'
 
 In an Angular application everything is a component, therefore, it is a very common task to add some CSS code that should only apply to one component. Adding component-specific CSS in a NativeScript-Angular app involves using a component's styles or styleUrls property.
 
-[,ts]
+[source,ts]
 ----
 @Component({
     selector: 'list-test',
@@ -7031,7 +7023,7 @@ In an Angular application everything is a component, therefore, it is a very com
 
 This snippet adds a new style to the current set of styles. This is quite useful when you need to add a small CSS chunk to an element (for example, for testing purposes):
 
-[,ts]
+[source,ts]
 ----
 page.addCss('button {background-color: blue}')
 ----
@@ -7040,7 +7032,7 @@ page.addCss('button {background-color: blue}')
 
 This snippet adds new CSS styles to the current set. However, this method reads them from a file. It is useful for organizing styles in files and reusing them across multiple pages.
 
-[,ts]
+[source,ts]
 ----
 page.addCssFile(cssFileName)
 ----
@@ -7049,7 +7041,7 @@ page.addCssFile(cssFileName)
 
 Similarly to HTML, CSS can be defined inline for a UI view in the XML markup:
 
-[,html]
+[source,html]
 ----
 <button text="inline style" style="background-color: green;"></button>
 ----
@@ -7089,7 +7081,7 @@ With this pattern, a page has 3 separate stylesheets: common, iOS and Android. F
 
 In both `myPage.ios.css` and `myPage.android.css` you then import the shared common styles from `myPage-common.css`:
 
-[,CSS]
+[source,CSS]
 ----
 /* Import shared style rules */
 @import './myPage-common.css';
@@ -7109,7 +7101,7 @@ With this pattern, a page (or component) has 3 separate stylesheets: common, iOS
 
 In both `home.component.ios.css` and `home.component.android.css` you then import the shared common styles from `home-common.css`:
 
-[,CSS]
+[source,CSS]
 ----
 /* Import shared style rules */
 @import './home-common.css';
@@ -7152,7 +7144,7 @@ NativeScript supports DIPs (Device Independent Pixels), pixels (via postfix px) 
 
 NativeScript's recommended measurement unit is DIP. All measurable properties like width, height, margin, paddings, border-width, etc.) support device independent pixels. The font sizes are always measured in DIPs.
 
-[,css]
+[source,css]
 ----
 .myLabel {
   font-size: 28;
@@ -7163,7 +7155,7 @@ NativeScript's recommended measurement unit is DIP. All measurable properties li
 
 The device independent pixels (DIPs) are equal to the device screen's pixels divided by the device screen scale (density).
 
-[,ts]
+[source,ts]
 ----
 import { Screen } from '@nativescript/core'
 
@@ -7185,7 +7177,7 @@ CSS variables cascades from parent to child views.
 
 Declaring variables:
 
-[,css]
+[source,css]
 ----
 /* Define --my-custom-color as a global value */
 .ns-root {
@@ -7200,7 +7192,7 @@ Declaring variables:
 
 Overriding a variable from a child-element:
 
-[,css]
+[source,css]
 ----
 /* Change --my-custom-color to green for elements below */
 .ns-root .override-color {
@@ -7210,7 +7202,7 @@ Overriding a variable from a child-element:
 
 Using a variable:
 
-[,css]
+[source,css]
 ----
 .using-variable {
   color: var(--my-custom-color);
@@ -7221,7 +7213,7 @@ The default value of --my-undefined-value will be black. In landscape mode it wi
 
 Using a fallback value:
 
-[,css]
+[source,css]
 ----
 .using-variable {
   color: var(--my-undefined-value, yellow);
@@ -7232,7 +7224,7 @@ The color of --my-undefined-value will fallback to yellow, because --my-undefine
 
 Using a nested fallback value:
 
-[,css]
+[source,css]
 ----
 .using-variable {
   color: var(--my-undefined-value, var(--my-custom-color, yellow));
@@ -7245,7 +7237,7 @@ NativeScript supports CSS calc() functions for performing simple calculations on
 
 Syntax:
 
-[,css]
+[source,css]
 ----
 element {
   width: calc(100% * 1.25); /* width: 125% */
@@ -7254,7 +7246,7 @@ element {
 
 Used with CSS variables:
 
-[,css]
+[source,css]
 ----
 element {
     --my-variable: 10:
@@ -7266,7 +7258,7 @@ element {
 
 You can set NativeScript component properties value that are not part of the CSS specification. For example:
 
-[,CSS]
+[source,CSS]
 ----
 StackLayout {
    orientation: horizontal;
@@ -7323,7 +7315,7 @@ While this documentation article is focused on icon fonts, the above workflow is
 
 There is a conceptual difference in how *.ttf* fonts are recognized on iOS and Android. On Android, the font is recognized by its *file name* while on iOS it is recognized by its *font name*. This means that fonts that are created with a font name which is different from the file name has to be registered with both names in your CSS rule.
 
-[,CSS]
+[source,CSS]
 ----
 .fa-brands {
     font-family: "Font Awesome 5 Brands", "fa-brands-400";
@@ -7350,7 +7342,7 @@ There are specific scenarios where the creators of the fonts might have released
 
 Notice that in the above example the *file* names are different, but the registered *font* name is the same (use the *Font Book* application on Mac or the *Control Panel Fonts* section on Windows to see the actual font name). While this is no issue on Android, it renders the second font unusable on iOS. To handle similar cases additional CSS font properties, such as for example `font-weight`, must be added.
 
-[,CSS]
+[source,CSS]
 ----
 /*
     File name: fa-regular-400.ttf
@@ -7375,7 +7367,7 @@ Notice that in the above example the *file* names are different, but the registe
 
 The @import CSS rule allows you to import CSS from a local file. This rule must precede all other types of rules.
 
-[,CSS]
+[source,CSS]
 ----
 @import url('~/your-style.css');
 ----
@@ -7388,21 +7380,21 @@ To use SASS with NativeScript, a SASS compiler like https://www.npmjs.com/packag
 
 You can use SASS with either enabling it manually:
 
-[,cli]
+[source,cli]
 ----
 npm i sass --save-dev
 ----
 
 Or by using a template that has SASS already enabled. For example:
 
-[,cli]
+[source,cli]
 ----
 ns create  mySassApp --template @nativescript/template-drawer-navigation-ts
 ----
 
 For projects created with NativeScript 5.x and below (which are using the legacy `nativescript-dev-webpack`), you can run the `migrate` command to update the SASS compiler (and remove the legacy plugin). Note that the `migrate` command is available in NativeScript CLI 6 and above.
 
-[,cli]
+[source,cli]
 ----
 ns migrate
 ----
