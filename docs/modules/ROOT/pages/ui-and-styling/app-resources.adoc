@@ -1,4 +1,5 @@
 = Understanding App_Resources
+:imagesdir: ../../images
 
 The App_Resources folder contains platform-specific resources of the application (icons, configuration files, native code, etc.). An application that supports both Android and iOS would therefore contain a subfolder for each platform.
 
@@ -10,7 +11,7 @@ On Android, many aspects of the default styling is controlled through various se
 
 Here we are showing the default look of a few elements (no custom styling applied) using the default values provided in `App_Resources`:
 
-image::default_app_resources_android.png[Default App_Resources on Android]
+image:ui-and-styling/default_app_resources_android.png[Default App_Resources on Android]
 
 [source,bash]
 ----
@@ -113,7 +114,7 @@ To change the default color fo the ActionBar, edit the `ns_primary` color inside
 <color name="ns_primary">#65adf1</color>
 ----
 
-image::custom_action_bar_color.png[]
+image:ui-and-styling/custom_action_bar_color.png[]
 
 === Setting the default color of the status bar
 
@@ -130,7 +131,7 @@ The color will be applied on API21+ since lower API leves do not support custom 
 <color name="ns_primaryDark">#65adf1</color>
 ----
 
-image::custom_status_bar_color.png[]
+image:ui-and-styling/custom_status_bar_color.png[]
 
 === Setting the accent color
 
@@ -147,7 +148,7 @@ The color will be applied on API21+ since lower API leves do not support custom 
 <color name="ns_accent">#059669</color>
 ----
 
-image::custom_accent_color.png[]
+image:ui-and-styling/custom_accent_color.png[]
 
 === Showing the app under the status bar
 
@@ -177,7 +178,7 @@ We have added `<color name="ns_primary">#65ADF1</color>` to `App_Resources/Andro
 </style>
 ----
 
-image::action_bar_under_status_bar.png[]
+image:ui-and-styling/action_bar_under_status_bar.png[]
 
 === Changing the DatePicker to calendar mode
 
@@ -192,7 +193,7 @@ To change the mode of the DatePicker from the default `spinner` style, change `a
 </style>
 ----
 
-image::date_picker_calendar_mode.png[]
+image:ui-and-styling/date_picker_calendar_mode.png[]
 
 === Changing the TimePicker to clock mode
 
@@ -207,7 +208,7 @@ To change the mode of the TimePicker from the default `spinner` style, change `a
 </style>
 ----
 
-image::time_picker_clock_mode.png[]
+image:ui-and-styling/time_picker_clock_mode.png[]
 
 === Enabling force Dark Mode
 
@@ -230,7 +231,7 @@ To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resourc
 If you enable `android:forceDarkAllowed` make sure you check if all the screens of you app look correct in the forced Dark Mode.
 ====
 
-image::android_force_dark_mode.png[]
+image:ui-and-styling/android_force_dark_mode.png[]
 
 == iOS
 

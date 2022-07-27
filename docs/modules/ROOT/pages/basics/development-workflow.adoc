@@ -1,5 +1,8 @@
-= Development Workflow
 :experimental:
+:imagesdir: ../../images
+
+= Development Workflow
+
 The development workflow starts with the https://www.npmjs.com/package/nativescript[NativeScript CLI].
 
 == CLI Basics

@@ -1,5 +1,7 @@
-= Environment Setup
 :experimental:
+:imagesdir: ../../images
+
+= Environment Setup
 
 == Setting up your system
 
@@ -39,7 +41,7 @@ Configure the `ANDROID_HOME` environment variable for NativeScript to be able to
 . Click on "*Environment variables...*" in the bottom corner
 . Under the "*User variables for...*" click on *New...* to create the `ANDROID_HOME` user variable that points to the path of the Android SDK:
 
-image::new_user_variable_dialog.png[New User Variable (ANDROID_HOME)]
+image:basics/new_user_variable_dialog.png[New User Variable (ANDROID_HOME)]
 
 The SDK is by default located at
 
@@ -208,7 +210,7 @@ Once the installation is complete (this may take a while &mdash; brew a coffee a
 
 Open `XCode › Preferences › Locations` and make sure *Command Line Tools* is set
 
-image::xcode_command_line_tools.png[XCode Preferences, Locations]
+image:basics/xcode_command_line_tools.png[XCode Preferences, Locations]
 
 Install *ruby 2.7* and link it so it's available in your shell environment:
 

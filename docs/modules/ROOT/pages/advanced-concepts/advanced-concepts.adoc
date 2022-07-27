@@ -1,5 +1,6 @@
+:imagesdir: ../../images
+
 = Advanced Concepts
-:doctype: article
 
 == The Layout process
 
@@ -2159,7 +2160,7 @@ Workers API in NativeScript is loosely based on the https://developer.mozilla.or
 
 === Sample Usage
 
-image::Workers.png[NativeScript Workers API]
+image:advanced-concepts/Workers.png[NativeScript Workers API]
 
 [NOTE]
 =====
@@ -2276,7 +2277,7 @@ To allow JavaScript code to call into native iOS or Android code both NativeScri
 
 The NativeScript Metadata is the mapping between the JavaScript and the Android world. Besides a full list with all the available classes and methods, the metadata contains the http://developer.android.com/training/articles/perf-jni.html[JNI] signature for each accessible Android method/field. It is pre-generated, in a binary format, and embedded in the application package (apk), storing the minimal required information thus providing small size and highly efficient read access. The generation process uses bytecode reading to parse all publicly available types in the Android libraries supplied to the NativeScript project. The generator works as part of the Android build process, meaning that no user interaction is required for it to work.
 
-image::metadata_diagram.png[Metadata]
+image:advanced-concepts/metadata_diagram.png[Metadata]
 
 === Metadata API Level
 

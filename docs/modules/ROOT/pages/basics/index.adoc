@@ -1,3 +1,6 @@
+:imagesdir: ../../images
+:experimental:
+
 = Introduction
 
 [NOTE]
@@ -85,8 +88,8 @@ A basic template with a single page and no custom styles.
 
 // TODO: make nicer images
 
-image::appTemplate-ios.png[Frame iOS, 200,200,float="left",align="left"]
-image::appTemplate-android.png[Frame Android, 200,200,float="right",align="right"]
+image:basics/appTemplate-ios.png[Frame iOS, 200,200,float="left",align="left"]
+image:basics/appTemplate-android.png[Frame Android, 200,200,float="right",align="right"]
 
 To use, run:
 
@@ -102,8 +105,8 @@ A simple template with a side drawer.
 // TODO: make nicer images
 
 
-image::appTemplate-ios-2.png[Frame iOS, 200,200,float="left",align="left"]
-image::appTemplate-android-2.png[Frame Android, 200,200,float="right",align="right"]
+image:basics/appTemplate-ios-2.png[Frame iOS, 200,200,float="left",align="left"]
+image:basics/appTemplate-android-2.png[Frame Android, 200,200,float="right",align="right"]
 
 To use, run:
 

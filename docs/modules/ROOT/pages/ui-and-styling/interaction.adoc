@@ -1,4 +1,5 @@
 = Interaction
+:imagesdir: ../../images
 
 == TouchManager 8.2+
 
@@ -245,7 +246,7 @@ view.animate({
 --
 ====
 
-image::multiple-properties.gif[multiple-properties]
+image:ui-and-styling/multiple-properties.gif[multiple-properties]
 
 === Chaining animations with promises
 
@@ -315,7 +316,7 @@ view
 --
 ====
 
-image::chaining-with-promises.gif[chaining-with-promises]
+image:ui-and-styling/chaining-with-promises.gif[chaining-with-promises]
 
 === CSS Animations
 
@@ -874,7 +875,7 @@ In *Example 1* we will change the background color of a button from "red" to "gr
 
 *Example 1: Changing background color animation with code.*
 
-image::hello-world.gif[hello-world]
+image:ui-and-styling/hello-world.gif[hello-world]
 
 [tabs]
 ====
@@ -977,23 +978,23 @@ By default, an animation moves with a linear speed without acceleration or decel
 
 * *linear*: The simplest animation curve is linear. It maintains a constant speed while the animation is running:
 
-image::linear.gif[linear]
+image:ui-and-styling/linear.gif[linear]
 
 * *Ease-in*: The ease-in curve causes the animation to begin slowly, and then speed up as it progresses.
 
-image::easein.gif[easein]
+image:ui-and-styling/easein.gif[easein]
 
 * *Ease-out*: An ease-out curve causes the animation to begin quickly, and then slow down as it completes.
 
-image::easeout.gif[easeout]
+image:ui-and-styling/easeout.gif[easeout]
 
 * *Ease-in-out*: An ease-in ease-out curve causes the animation to begin slowly, accelerate through the middle of its duration, and then slow again before completing.
 
-image::easeinout.gif[easeinout]
+image:ui-and-styling/easeinout.gif[easeinout]
 
 * *Spring*: A spring animation curve causes an animation to produce a spring (bounce) effect.
 
-image::spring.gif[spring]
+image:ui-and-styling/spring.gif[spring]
 
 In NativeScript, the animation curve is represented by the AnimationCurve enumeration and can be specified with the curve property of the animation. In CSS, the animation curve is defined by using the animation-timing-function property (see *Example 3*):
 
@@ -1061,7 +1062,7 @@ For help finding the `cubicBezier` values you need for your custom animation tim
 
 *Example 4: How to create own animation curve via cubic Bezier*
 
-image::bezier-graph.png[beziergraph]
+image:ui-and-styling/bezier-graph.png[beziergraph]
 
 [tabs]
 ====
@@ -1109,7 +1110,7 @@ CSS::
 --
 ====
 
-image::bezier.gif[bezier]
+image:ui-and-styling/bezier.gif[bezier]
 
 More detailed examples are available on the <<animation-examples,Animation Examples>> page.
 
@@ -1170,7 +1171,7 @@ The full source code for all samples is located https://github.com/NativeScript/
 
 === Animated opacity
 
-image::opacity.gif[opacity]
+image:ui-and-styling/opacity.gif[opacity]
 
 [tabs]
 ====
@@ -1222,7 +1223,7 @@ https://play.nativescript.org/?template=play-tsc&id=q9nY9l[Try this in the Nativ
 
 === Animate background color
 
-image::background-color.gif[background-color]
+image:ui-and-styling/background-color.gif[background-color]
 
 [tabs]
 ====
@@ -1278,7 +1279,7 @@ https://play.nativescript.org/?template=play-tsc&id=aLjBQg[Try this in the Nativ
 
 === Animate position
 
-image::translate.gif[translate]
+image:ui-and-styling/translate.gif[translate]
 
 [tabs]
 ====
@@ -1329,7 +1330,7 @@ https://play.nativescript.org/?template=play-tsc&id=egSanf[Try this in the Nativ
 
 === Animate scale
 
-image::scale.gif[scale]
+image:ui-and-styling/scale.gif[scale]
 
 [tabs]
 ====
@@ -1381,7 +1382,7 @@ https://play.nativescript.org/?template=play-tsc&id=4Ni5sU[Try this in the Nativ
 
 === Animate rotate
 
-image::rotate.gif[rotate]
+image:ui-and-styling/rotate.gif[rotate]
 
 [tabs]
 ====
@@ -1434,7 +1435,7 @@ https://play.nativescript.org/?template=play-tsc&id=2vpfgV[Try this in the Nativ
 
 === Chaining animations with AnimationSet
 
-image::chaining-with-animation-set.gif[chaining-with-animation-set]
+image:ui-and-styling/chaining-with-animation-set.gif[chaining-with-animation-set]
 
 [tabs]
 ====
@@ -1491,7 +1492,7 @@ animationSet
 
 === Animating multiple views
 
-image::multiple-views.gif[multiple-views]
+image:ui-and-styling/multiple-views.gif[multiple-views]
 
 [tabs]
 ====
@@ -1597,7 +1598,7 @@ https://play.nativescript.org/?template=play-tsc&id=rgm744[Try this in the Nativ
 
 === Reusing animations
 
-image::reusing.gif[reusing]
+image:ui-and-styling/reusing.gif[reusing]
 
 [tabs]
 ====
@@ -1660,7 +1661,7 @@ animation1
 
 === Slide-in effect
 
-image::slide-in-effect.gif[slide-in-effect]
+image:ui-and-styling/slide-in-effect.gif[slide-in-effect]
 
 [tabs]
 ====
@@ -1711,7 +1712,7 @@ wrapLayout.addChild(item)
 
 === Infinite animations
 
-image::infinite.gif[infinite]
+image:ui-and-styling/infinite.gif[infinite]
 
 [tabs]
 ====
@@ -1765,7 +1766,7 @@ animationSet.play().catch(e => {
 
 *Example 5: Rotating a view around its center. Center of view is changed via `originX` and `originY` properties.*
 
-image::rotation_origin_x_y.gif[rotation_origin_x_y]
+image:ui-and-styling/rotation_origin_x_y.gif[rotation_origin_x_y]
 
 [tabs]
 ====
