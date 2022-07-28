@@ -1,3 +1,5 @@
+:imagesdir: ../../images
+
 = UI & Styling
 
 == Layout Properties
@@ -107,7 +109,7 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 
 ==== Example: a grid-like layout
 
-image::https://art.nativescript.org/layouts/absolute_layout_grid.svg[]
+image:ui-and-styling/absolute_layout_grid.svg[]
 
 
 The following example creates a simple grid. For more information about creating grid layouts, see link:/ui-and-styling.html#gridlayout[GridLayout].
@@ -152,7 +154,7 @@ The following example creates a simple grid. For more information about creating
 
 ==== Example: Overlapping elements
 
-image::https://art.nativescript.org/layouts/absolute_layout_overlap.svg[]
+image:ui-and-styling/absolute_layout_overlap.svg[]
 
 
 The following example creates a group of overlapping items.
@@ -222,7 +224,7 @@ To dock a child element to the center, it must be the *last child* of the contai
 
 ==== Example: Dock to every side without stretching the last child
 
-image::https://art.nativescript.org/layouts/dock_layout_no_stretch.svg[]
+image:ui-and-styling/dock_layout_no_stretch.svg[]
 
 The following example creates a frame-like layout consisting of 4 elements, position at the 4 edges of the screen.
 
@@ -238,7 +240,7 @@ The following example creates a frame-like layout consisting of 4 elements, posi
 
 ==== Example: Dock to every side and stretch the last child
 
-image::https://art.nativescript.org/layouts/dock_layout_stretch.svg[]
+image:ui-and-styling/dock_layout_stretch.svg[]
 
 The following example shows how `stretchLastChild` affects the positioning of child elements in a `DockLayout` container. The last child (`bottom`) is stretched to take up all the remaining space after positioning the first three elements.
 
@@ -254,7 +256,7 @@ The following example shows how `stretchLastChild` affects the positioning of ch
 
 ==== Example: Dock to every side and the center
 
-image::https://art.nativescript.org/layouts/dock_layout_all_sides_and_stretch.svg[]
+image:ui-and-styling/dock_layout_all_sides_and_stretch.svg[]
 
 The following example creates a `<DockLayout>` of 5 elements. The first four wrap the center element in a frame.
 
@@ -271,7 +273,7 @@ The following example creates a `<DockLayout>` of 5 elements. The first four wra
 
 ==== Example: Dock multiple children to the same side
 
-image::https://art.nativescript.org/layouts/dock_layout_multiple_on_same_side.svg[]
+image:ui-and-styling/dock_layout_multiple_on_same_side.svg[]
 
 The following example creates a single line of 4 elements that stretch across the entire height and width of the screen.
 
@@ -332,7 +334,7 @@ See *Props* for more information.
 
 ==== Example: Grid layout with fixed sizing
 
-image::https://art.nativescript.org/layouts/grid_layout.svg[]
+image:ui-and-styling/grid_layout.svg[]
 
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
@@ -348,7 +350,7 @@ The following example creates a simple 2-by-2 grid with fixed column widths and 
 
 ==== Example: Grid layout with star sizing
 
-image::https://art.nativescript.org/layouts/grid_layout_star_sizing.svg[]
+image:ui-and-styling/grid_layout_star_sizing.svg[]
 
 The following example creates a grid with responsive design, where space is allotted proportionally to child elements.
 
@@ -364,7 +366,7 @@ The following example creates a grid with responsive design, where space is allo
 
 ==== Example: Grid layout with fixed and auto sizing
 
-image::https://art.nativescript.org/layouts/grid_layout_fixed_auto.svg[]
+image:ui-and-styling/grid_layout_fixed_auto.svg[]
 
 The following example create a grid with one auto-sized column and one column with fixed size. Rows have a fixed height.
 
@@ -380,7 +382,7 @@ The following example create a grid with one auto-sized column and one column wi
 
 ==== Example: Grid layout with mixed sizing and merged cells
 
-image::https://art.nativescript.org/layouts/grid_layout_complex.svg[]
+image:ui-and-styling/grid_layout_complex.svg[]
 
 The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
 
@@ -418,6 +420,8 @@ A number indicates an absolute row height. `auto` makes the row as tall as its t
 | `Inherited`
 | Additional inherited properties not shown. Refer to the link:/api-reference/classes/gridlayout.html[API Reference]
 |===
+
+//TODO: fix links
 
 ==== Additional children props
 
@@ -458,7 +462,7 @@ See link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more informati
 
 ==== Example: Default stacking
 
-image::https://art.nativescript.org/layouts/stack_layout_vertical.svg[]
+image:ui-and-styling/stack_layout_vertical.svg[]
 
 The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
@@ -473,7 +477,7 @@ The following example creates a vertical stack of 3 equally-sized elements. Item
 
 ==== Example: Horizontal stacking
 
-image::https://art.nativescript.org/layouts/stack_layout_horizontal.svg[]
+image:ui-and-styling/stack_layout_horizontal.svg[]
 
 
 The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
@@ -489,7 +493,7 @@ The following example creates a horizontal stack of 3 equally-sized elements. It
 
 ==== Example: Stack layout with horizontally aligned children
 
-image::https://art.nativescript.org/layouts/stack_layout_vertical_align_children.svg[]
+image:ui-and-styling/stack_layout_vertical_align_children.svg[]
 
 The following example creates a diagonal stack of items with responsive sizes. Items are vertically stacked.
 
@@ -528,7 +532,7 @@ The following example creates a diagonal stack of items with responsive sizes. I
 
 ==== Example: Horizontal stack layout with vertically aligned children
 
-image::https://art.nativescript.org/layouts/stack_layout_horizontal_align_children.svg[]
+image:ui-and-styling/stack_layout_horizontal_align_children.svg[]
 
 
 The following example creates a diagonal stack of items with responsive sizes. Items are horizontally stacked.
@@ -724,7 +728,7 @@ The following example creates a row of equally-sized items. When the row runs ou
 ----
 
 
-image::https://art.nativescript.org/layouts/wrap_layout_horizontal.svg[]
+image:ui-and-styling/wrap_layout_horizontal.svg[]
 
 ==== Example: Vertical wrap layout
 
@@ -741,7 +745,7 @@ The following example creates a column of equally-sized items. When the row runs
 ----
 
 
-image::https://art.nativescript.org/layouts/wrap_layout_vertical.svg[]
+image:ui-and-styling/wrap_layout_vertical.svg[]
 
 ==== Props
 
@@ -791,7 +795,7 @@ The following example creates a row of three equally-sized elements that span ac
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_row_stretch.svg[]
+image:ui-and-styling/flexbox_layout_row_stretch.svg[]
 
 ==== Example: Column flex layout
 
@@ -807,7 +811,7 @@ The following example creates a column of three equally-sized elements that span
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_column_stretch.svg[]
+image:ui-and-styling/flexbox_layout_column_stretch.svg[]
 
 ==== Example: Row flex layout with items aligned to `flex-start`
 
@@ -823,7 +827,7 @@ The following example creates a row of three items placed at the top of the scre
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_row_flex-start.svg[]
+image:ui-and-styling/flexbox_layout_row_flex-start.svg[]
 
 ==== Example: Row flex layout with custom order
 
@@ -839,7 +843,7 @@ The following example creates a row of three items placed at the top of the scre
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_row_custom_order.svg[]
+image:ui-and-styling/flexbox_layout_row_custom_order.svg[]
 
 ==== Example: Row flex layout with wrapping
 
@@ -856,7 +860,7 @@ The following example creates four items with enabled line wrapping. When the ro
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_wrap.svg[]
+image:ui-and-styling/flexbox_layout_wrap.svg[]
 
 ==== Example: Column flex layout with reverse order and items with a different `alignSelf`
 
@@ -893,7 +897,7 @@ The following example shows how to use:
 ----
 
 
-image::https://art.nativescript.org/layouts/flexbox_layout_column_reverse_space_around_align_self.svg[]
+image:ui-and-styling/flexbox_layout_column_reverse_space_around_align_self.svg[]
 
 ==== Props
 
@@ -2415,116 +2419,110 @@ export class HtmlViewUsageComponent {
 
 // TODO: fix links
 
-::: tip Tip
+[TIP]
+====
 When working with images following link:/performance.html#image-optimizations[the best practices] is a must.
-:::
-
-'''
+====
 
 ==== Example: Displaying an image from `App_Resources`
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Image src="res://icon" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <image src="res://icon" stretch="aspectFill"> </image>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <image src="res://icon" stretch="aspectFill" />
 ----
-
-///
+--
+====
 
 ==== Example: Displaying an image relative to the `app` directory
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Image src="~/logo.png" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill"></image>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <image src="~/logo.png" stretch="aspectFill" />
 ----
+--
+====
 
-///
 
 ==== Example: Displaying an image from a URL
 
-:::tip Note
-
+[NOTE]
+====
 Setting `loadMode` to `async` will prevent freezing the UI on Android when loading photos async (e.g. from online API)
+====
 
-:::
-
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Image
@@ -2532,11 +2530,10 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
   stretch="aspectFill"
 />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <image
@@ -2545,11 +2542,9 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
 >
 </image>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <image
@@ -2557,11 +2552,9 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
   stretch="aspectFill"
 />
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <image
@@ -2569,11 +2562,9 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
   stretch="aspectFill"
 />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <image
@@ -2581,108 +2572,98 @@ Setting `loadMode` to `async` will prevent freezing the UI on Android when loadi
   stretch="aspectFill"
 />
 ----
-
-///
+--
+====
 
 ==== Example: Displaying a `base64`-encoded image
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill"></image>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
 ----
-
-///
+--
+====
 
 ==== Example: Image with CSS and an icon fonts
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Image src="font://&#xf004;" class="fas" />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <image src="font://&#xf004;" class="fas"></image>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <image src="font://&#xf004;" class="fas" />
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <image src.decode="font://&#xf004;" class="fas" />
 ----
-
-:::warning Note
-
+[NOTE]
+====
 In NativeScript-Vue, `.decode` is required for parsing properties that have HTML entities in them.
-
-:::
-
-///
-
-/// flavor svelte
-
+====
+--
+Svelte::
++
 [source,html]
 ----
 <image src="font://&#xf004;" class="fas" />
 ----
-
-///
+--
+====
 
 ==== Props
 
@@ -2734,65 +2715,63 @@ For more information, see link:/api-reference/classes/image.html#loadmode[loadMo
 
 `<Label>` is a UI component that displays read-only text.
 
-::: warning Note
+[NOTE]
+====
 This `<Label>` is *not* the same as the HTML `<label>`.
-:::
-
-'''
+====
 
 ==== Example: Simple label
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Label text="Label" />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <label text="Label"></label>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 <label>Label</label>
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <label text="Label" />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <label text="Label" />
 ----
-
-///
+--
+====
 
 ==== Example: Styling the label
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <Label textWrap="true">
@@ -2805,11 +2784,10 @@ If you need to style parts of the text, you can use a combination of a `Formatte
   </FormattedString>
 </Label>
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <label textWrap="true">
@@ -2822,11 +2800,9 @@ If you need to style parts of the text, you can use a combination of a `Formatte
   </FormattedString>
 </label>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
 [source,tsx]
 ----
 import { Color } from '@nativescript/core'
@@ -2840,11 +2816,9 @@ import { Color } from '@nativescript/core'
   </formattedString>
 </label>
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
 [source,html]
 ----
 <label textWrap="true">
@@ -2857,11 +2831,9 @@ import { Color } from '@nativescript/core'
   </FormattedString>
 </label>
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
 [source,html]
 ----
 <label textWrap="{true}">
@@ -2874,8 +2846,8 @@ import { Color } from '@nativescript/core'
   </formattedString>
 </label>
 ----
-
-///
+--
+====
 
 ==== Props
 

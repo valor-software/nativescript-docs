@@ -13,20 +13,6 @@ If you are looking for NS7 & NS6 docs, you can still find them here:
 
 ====
 
-[tabs]
-====
-main-view-model.js::
-+
---
-Contents of tab A.
---
-workers/image-processor.js::
-+
---
-Contents of tab B.
---
-====
-
 == Prerequisites
 
 The docs have been written with no assumptions of the readers experience, however it does assume knowledge of JavaScript fundamentals. If you are new to JavaScript, we recommend these resources from +++<abbr title="Mozilla Developer Network">+++MDN+++</abbr>+++:
