@@ -38,5 +38,5 @@
 ** xref:troubleshooting/troubleshooting.adoc[]
 
 *API
-** xref:docs/modules.md.adoc[]
-*** xref:docs/modules/capitalizationType.md.adoc[]
+** xref:docs/modules.adoc[Modules API]
+*** xref:docs/modules/capitalizationType.adoc[CapitalizationType API]
