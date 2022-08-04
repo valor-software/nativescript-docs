@@ -811,7 +811,7 @@ The following example creates a column of three equally-sized elements that span
 ----
 
 
-image:ui-and-styling/flexbox_layout_column_stretch.svg[]
+image::ui-and-styling/flexbox_layout_column_stretch.svg[]
 
 ==== Example: Row flex layout with items aligned to `flex-start`
 
@@ -860,7 +860,7 @@ The following example creates four items with enabled line wrapping. When the ro
 ----
 
 
-image:ui-and-styling/flexbox_layout_wrap.svg[]
+image::ui-and-styling/flexbox_layout_wrap.svg[]
 
 ==== Example: Column flex layout with reverse order and items with a different `alignSelf`
 
@@ -1009,83 +1009,57 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 
 ==== Example: Simple ActionBar with title
 
-/// flavor vue
-
+[tabs]
+====
+Plain::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title" />
 ----
-
-///
-
-/// flavor svelte
-
-[source,html]
-----
-<actionBar title="ActionBar Title" />
-----
-
-///
-
-/// flavor plain
-
-[source,html]
-----
-<ActionBar title="ActionBar Title" />
-----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title"> </ActionBar>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,html]
 ----
 <actionBar title="ActionBar Title" />
 ----
-
-///
+--
+Svelte::
++
+--
+[source,html]
+----
+<actionBar title="ActionBar Title" />
+----
+--
+Vue::
++
+--
+[source,html]
+----
+<ActionBar title="ActionBar Title" />
+----
+--
+====
 
 ==== Example: ActionBar with custom title view
 
-/// flavor react
-
-[source,tsx]
-----
-<actionBar>
-  <stackLayout nodeRole="titleView" orientation="horizontal">
-    <image src="res://icon" width={40} height={40} verticalAlignment="center" />
-    <label text="NativeScript" fontSize={24} verticalAlignment="center" />
-  </stackLayout>
-</actionBar>
-----
-
-///
-
-/// flavor vue
-
-[source,html]
-----
-<ActionBar>
-  <StackLayout orientation="horizontal">
-    <image src="res://icon" width="40" height="40" verticalAlignment="center" />
-    <label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
-  </StackLayout>
-</ActionBar>
-----
-
-///
-
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <ActionBar>
@@ -1095,11 +1069,36 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
   </StackLayout>
 </ActionBar>
 ----
-
-///
-
-/// flavor angular
-
+--
+React::
++
+--
+[source,tsx]
+----
+<actionBar>
+  <stackLayout nodeRole="titleView" orientation="horizontal">
+    <image src="res://icon" width={40} height={40} verticalAlignment="center" />
+    <label text="NativeScript" fontSize={24} verticalAlignment="center" />
+  </stackLayout>
+</actionBar>
+----
+--
+Vue::
++
+--
+[source,html]
+----
+<ActionBar>
+  <StackLayout orientation="horizontal">
+    <image src="res://icon" width="40" height="40" verticalAlignment="center" />
+    <label text="ActionBar Title" fontSize="24" verticalAlignment="center" />
+  </StackLayout>
+</ActionBar>
+----
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar>
@@ -1110,10 +1109,10 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
 </ActionBar>
 ----
 
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <actionBar>
@@ -1123,8 +1122,8 @@ The ActionBar is NativeScript's abstraction over the Android https://developer.a
   </stackLayout>
 </actionBar>
 ----
-
-///
+--
+====
 
 ==== Example: ActionBar with ActionItem
 
@@ -1138,8 +1137,36 @@ The `<ActionItem>` components are supporting the platform-specific position and 
  ** `left`: Puts the item on the left side of the ActionBar.
  ** `right`: Puts the item on the right side of the ActionBar.
 
-/// flavor svelte
-
+[tabs]
+====
+Plain::
++
+--
+[source,html]
+----
+<ActionBar title="ActionBar Title">
+  <ActionItem
+    tap="onShare()"
+    ios.systemIcon="9"
+    ios.position="left"
+    android.systemIcon="ic_menu_share"
+    android.position="actionBar"
+  >
+  </ActionItem>
+  <ActionItem
+    text="delete"
+    tap="onDelete()"
+    ios.systemIcon="16"
+    ios.position="right"
+    android.position="popup"
+  >
+  </ActionItem>
+</ActionBar>
+----
+--
+Svelte::
++
+--
 [source,html]
 ----
 <actionBar title="ActionBar Title">
@@ -1159,11 +1186,10 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   />
 </actionBar>
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title">
@@ -1183,11 +1209,10 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   />
 </ActionBar>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <actionBar title="ActionBar Title">
@@ -1217,37 +1242,10 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   />
 </actionBar>
 ----
-
-///
-
-/// flavor plain
-
-[source,html]
-----
-<ActionBar title="ActionBar Title">
-  <ActionItem
-    tap="onShare()"
-    ios.systemIcon="9"
-    ios.position="left"
-    android.systemIcon="ic_menu_share"
-    android.position="actionBar"
-  >
-  </ActionItem>
-  <ActionItem
-    text="delete"
-    tap="onDelete()"
-    ios.systemIcon="16"
-    ios.position="right"
-    android.position="popup"
-  >
-  </ActionItem>
-</ActionBar>
-----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title">
@@ -1269,26 +1267,38 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   </ActionItem>
 </ActionBar>
 ----
-
-///
+--
+====
 
 ==== Example: ActionBar with NavigationButton
 
 `<NavigationButton>` is a UI component that provides an abstraction for the Android navigation button and the iOS back button.
 
-/// flavor vue
-
+[tabs]
+====
+Plain::
++
+--
+[source,html]
+----
+<ActionBar title="ActionBar Title">
+  <NavigationButton text="Go back" android.systemIcon="ic_menu_back" tap="goBack" />
+</ActionBar>
+----
+--
+Vue::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title">
   <NavigationButton text="Go back" android.systemIcon="ic_menu_back" @tap="goBack" />
 </ActionBar>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <actionBar title="ActionBar Title">
@@ -1303,33 +1313,20 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   />
 </actionBar>
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <actionBar title="ActionBar Title">
   <navigationButton text="Go back" android.systemIcon="ic_menu_back" on:tap="{goBack}" />
 </actionBar>
 ----
-
-///
-
-/// flavor plain
-
-[source,html]
-----
-<ActionBar title="ActionBar Title">
-  <NavigationButton text="Go back" android.systemIcon="ic_menu_back" tap="goBack" />
-</ActionBar>
-----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title">
@@ -1340,10 +1337,11 @@ The `<ActionItem>` components are supporting the platform-specific position and 
   ></NavigationButton>
 </ActionBar>
 ----
+--
+====
 
-///
-
-:::tip Platform specific behavior
+[TIP]
+====
 
 *iOS Specific*
 
@@ -1357,12 +1355,16 @@ On Android, you can't add text inside the navigation button.
 You can use the icon property to set an image (e.g., `~/images/nav-image.png` or `res:\\ic_nav`).
 You can use `android.systemIcon` to set one of the system icons available in Android.
 In this case, there is no default behaviour for NavigationButton tap event, and we should set the callback function, which will be executed.
-:::
+
+====
 
 ==== Example: Setting an app icon for Android in ActionBar
 
-/// flavor vue
-
+[tabs]
+====
+Vue::
++
+--
 [source,html]
 ----
 <ActionBar
@@ -1371,11 +1373,10 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
   android.iconVisibility="always"
 />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <actionBar
@@ -1384,11 +1385,10 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
   android.iconVisibility="always"
 />
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <actionBar
@@ -1396,11 +1396,10 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
   android={{ icon: 'res://icon', iconVisibility: 'always' }}
 />
 ----
-
-///
-
-/// flavor plain
-
+--
+Plain::
++
+--
 [source,html]
 ----
 <ActionBar
@@ -1409,11 +1408,10 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
   android.iconVisibility="always"
 />
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar
@@ -1423,8 +1421,8 @@ In this case, there is no default behaviour for NavigationButton tap event, and 
 >
 </ActionBar>
 ----
-
-///
+--
+====
 
 ==== Example: Removing the border from ActionBar
 
@@ -1432,57 +1430,83 @@ By default, a border is drawn at the bottom of the `<ActionBar>`. In addition to
 
 To remove this styling from your app, you can set the `flat` property to `true`.
 
-/// flavor vue
-
+[tabs]
+====
+Vue::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true" />
 ----
 
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <actionBar title="ActionBar Title" flat="true" />
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <actionBar title="ActionBar Title" flat={true} />
 ----
-
-///
-
-/// flavor plain
-
+--
+Plain::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true" />
 ----
 
-///
-
-/// flavor angular
-
+--
+Angular::
++
+--
 [source,html]
 ----
 <ActionBar title="ActionBar Title" flat="true"> </ActionBar>
 ----
-
-///
+--
+====
 
 ==== Example: Styling ActionBar
 
 To style the `<ActionBar>`, you can use only `background-color` and `color` properties. Alternatively, you can use `@nativescript/theme` and use the default styles for each different theme. The icon property of `ActionItem` can use Icon Fonts with the `font://` prefix. By setting up this prefix, a new image will be generated, which will be set as an ``<ActionItem>``'s icon resource. While using this functionality, we need to specify the font-size, which will calculate the size of the generated image base on the device's dpi.
 
-/// flavor angular
+[tabs]
+====
+Plain::
++
+--
+[source,html]
+----
+<!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
+<ActionBar title="ActionBar Title">
+  <!-- Explicitly hiding the NavigationBar to prevent the default one on iOS-->
+  <NavigationButton visibility="collapsed" />
 
+  <!-- Using the icon property and Icon Fonts -->
+  <ActionItem position="left" icon="font://&#xf0a8;" class="fas" tap="goBack" />
+
+  <!-- Creating custom views for ActionItem-->
+  <ActionItem ios.position="right">
+    <GridLayout width="100">
+      <button text="Theme" class="-primary -rounded-lg" />
+    </GridLayout>
+  </ActionItem>
+</ActionBar>
+----
+--
+Angular::
++
+--
 [source,html]
 ----
 <!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
@@ -1506,35 +1530,13 @@ To style the `<ActionBar>`, you can use only `background-color` and `color` prop
   </ActionItem>
 </ActionBar>
 ----
+--
+====
 
-///
-
-/// flavor plain
-
-[source,html]
-----
-<!-- The default background-color and color of ActionBar & ActionItem are set through nativescript-theme (if used)-->
-<ActionBar title="ActionBar Title">
-  <!-- Explicitly hiding the NavigationBar to prevent the default one on iOS-->
-  <NavigationButton visibility="collapsed" />
-
-  <!-- Using the icon property and Icon Fonts -->
-  <ActionItem position="left" icon="font://&#xf0a8;" class="fas" tap="goBack" />
-
-  <!-- Creating custom views for ActionItem-->
-  <ActionItem ios.position="right">
-    <GridLayout width="100">
-      <button text="Theme" class="-primary -rounded-lg" />
-    </GridLayout>
-  </ActionItem>
-</ActionBar>
-----
-
-///
-
-:::warning Note
+[WARNING]
+====
 In iOS, the color property affects the color of the title and the action items. In Android, the color property affects only the title text. However, you can set the default color of the text in the action items by adding an `actionMenuTextColor` item in the Android theme (inside `App_Resources\Android\values\styles.xml`).
-:::
+====
 
 ==== Properties
 
@@ -1633,6 +1635,8 @@ In iOS, the color property affects the color of the title and the action items. 
 | `Class`
 |===
 
+//TODO: fix links
+
 ==== Native Component
 
 |===
@@ -1648,8 +1652,13 @@ In iOS, the color property affects the color of the title and the action items. 
 
 '''
 
-/// flavor plain
+//TODO: Fix nested tabs
 
+[tabs]
+====
+Plain::
++
+--
 [source,xml]
 ----
 <ActivityIndicator
@@ -1668,6 +1677,32 @@ onBusyChanged(args: EventData) {
   console.log(`indicator.busy changed to: ${indicator.busy}`)
 }
 ----
+--
+Tab B::
++
+--
+Contents of tab B.
+--
+Tab C::
++
+--
+Contents of tab C.
+--
+Tab D::
++
+--
+Contents of tab D.
+--
+Tab E::
++
+--
+Contents of tab E.
+--
+====
+
+/// flavor plain
+
+
 
 ///
 
@@ -1689,15 +1724,20 @@ onBusyChanged(args: EventData) {
 }
 ----
 
-///
+//TODO: Nested tabs
 
-/// flavor vue
-
+[tabs]
+====
+Vue::
++
+--
+HTML:
 [source,html]
 ----
 <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
 ----
 
+JS:
 [source,js]
 ----
 export default {
@@ -1709,25 +1749,23 @@ export default {
   }
 }
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <activityIndicator busy={true} />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
+HTML:
 [source,html]
 ----
 <activityIndicator busy="{true}" on:busyChange="{onBusyChanged}" />
 ----
 
+JS:
 [source,js]
 ----
 export default {
@@ -1739,8 +1777,7 @@ export default {
   }
 }
 ----
-
-///
+====
 
 ==== Props
 
@@ -1780,15 +1817,18 @@ export default {
 
 For more information about the available gestures, see link:/interaction.html#gestures[Gestures in the documentation].
 
-'''
-
-/// flavor plain
-
+[tabs]
+====
+Plain::
++
+--
+XML:
 [source,xml]
 ----
 <Button text="Tap me!" tap="onTap" />
 ----
 
+TypeScript:
 [source,ts]
 ----
 import { Button } from '@nativescript/core'
@@ -1798,16 +1838,15 @@ export function onTap(args) {
   // execute your custom logic here...
 }
 ----
-
-///
-
-/// flavor angular
-
+--
+Angular::
+HTML:
 [source,html]
 ----
 <button text="Tap me!" (tap)="onTap($event)"></button>
 ----
 
+TypeScript:
 [source,ts]
 ----
 import { Button, EventData } from '@nativescript/core'
@@ -1817,29 +1856,26 @@ onTap(args: EventData) {
     // execute your custom logic here...
 }
 ----
-
-///
-
-/// flavor vue
-
+--
+Vue::
++
+--
 [source,html]
 ----
 <button text="Button" @tap="onButtonTap" />
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <button text="Button" on:tap="{onButtonTap}" />
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 import { EventData } from '@nativescript/core'
@@ -1850,8 +1886,10 @@ import { EventData } from '@nativescript/core'
   }}
 />
 ----
+--
+====
 
-///
+/// flavor plain
 
 ==== Props
 
@@ -2137,8 +2175,6 @@ import { EventData } from '@nativescript/core'
 
 ==== A single root Frame
 
-/// flavor
-
 [source,js]
 ----
 new Vue({
@@ -2146,14 +2182,15 @@ new Vue({
 })
 ----
 
-///
-
 ==== Multiple Frames
 
 If you need to create multiple frames, you can do so by wrapping them in a Layout, for example if you want to have 2 frames side-by-side
 
-/// flavor vue
-
+[tabs]
+====
+Vue::
++
+--
 [source,html]
 ----
 <GridLayout columns="*, *">
@@ -2161,11 +2198,10 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   <frame col="1" />
 </GridLayout>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <gridLayout columns={'* *'} rows={[]}>
@@ -2173,11 +2209,10 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   <frame col={1} />
 </gridLayout>
 ----
-
-///
-
-/// flavor svelte
-
+--
+Tab C::
++
+--
 [source,html]
 ----
 <gridLayout columns="*, *">
@@ -2185,13 +2220,16 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   <frame col="1" />
 </gridLayout>
 ----
-
-///
+--
+====
 
 ==== Example: A frame with a default page
 
-/// flavor vue
-
+[tabs]
+====
+Vue::
++
+--
 [source,html]
 ----
 <frame>
@@ -2203,11 +2241,10 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   </Page>
 </frame>
 ----
-
-///
-
-/// flavor react
-
+--
+React::
++
+--
 [source,tsx]
 ----
 <frame>
@@ -2219,11 +2256,10 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   </page>
 </frame>
 ----
-
-///
-
-/// flavor svelte
-
+--
+Svelte::
++
+--
 [source,html]
 ----
 <frame>
@@ -2235,8 +2271,8 @@ If you need to create multiple frames, you can do so by wrapping them in a Layou
   </page>
 </frame>
 ----
-
-///
+--
+====
 
 ==== Example: A frame with a default page from an external component
 
@@ -2545,6 +2581,7 @@ Angular::
 --
 React::
 +
+--
 [source,tsx]
 ----
 <image
@@ -2555,6 +2592,7 @@ React::
 --
 Vue::
 +
+--
 [source,html]
 ----
 <image
@@ -2565,6 +2603,7 @@ Vue::
 --
 Svelte::
 +
+--
 [source,html]
 ----
 <image
@@ -2597,6 +2636,7 @@ Angular::
 --
 React::
 +
+--
 [source,tsx]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
@@ -2604,6 +2644,7 @@ React::
 --
 Vue::
 +
+--
 [source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
@@ -2611,6 +2652,7 @@ Vue::
 --
 Svelte::
 +
+--
 [source,html]
 ----
 <image src="data:Image/png;base64,iVBORw..." stretch="aspectFill" />
@@ -2640,6 +2682,7 @@ Angular::
 --
 React::
 +
+--
 [source,tsx]
 ----
 <image src="font://&#xf004;" class="fas" />
@@ -2647,6 +2690,7 @@ React::
 --
 Vue::
 +
+--
 [source,html]
 ----
 <image src.decode="font://&#xf004;" class="fas" />
@@ -2658,6 +2702,7 @@ In NativeScript-Vue, `.decode` is required for parsing properties that have HTML
 --
 Svelte::
 +
+--
 [source,html]
 ----
 <image src="font://&#xf004;" class="fas" />
@@ -2667,13 +2712,15 @@ Svelte::
 
 ==== Props
 
+//TODO: FIX IT pls. Here is what you're looking for
+
 |===
 | Name | Type | Description
 
 | `src`
 | `String` or link:/api-reference/classes/imagesource.html[`ImageSource`]
 | Gets or sets the source of the image as a URL or an image source. If you use the new font:// icon protocol in \{N} 6.2, make sure you add .decode to the name of the property - e.g. `+src.decode="font://&#xf004;"+`
-
+//TODO: Fix URL
 | `imageSource`
 | link:/api-reference/classes/imagesource.html[`ImageSource`]
 | Gets or sets the image source of the image.
@@ -2917,9 +2964,38 @@ Svelte::
 
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
-'''
-
 ==== Example: Simple List Picker
+
+[tabs]
+====
+Tab A::
++
+--
+Contents of tab A.
+--
+Tab B::
++
+--
+Contents of tab B.
+--
+Tab C::
++
+--
+Contents of tab C.
+--
+Tab D::
++
+--
+Contents of tab D.
+--
+Tab E::
++
+--
+Contents of tab E.
+--
+====
+
+<<<
 
 /// flavor plain
 
@@ -3023,8 +3099,6 @@ import { EventData, ListPicker } from '@nativescript/core'
   }}
 />
 ----
-
-///
 
 ==== Props
 

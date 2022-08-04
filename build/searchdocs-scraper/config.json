@@ -43,7 +43,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://lisk.com/documentation/sitemap.xml"
+    "https://nativescript-docs-26174.firebaseapp.com/sitemap.xml"
   ],
   "scrape_start_urls": false,
   "stop_urls": [],

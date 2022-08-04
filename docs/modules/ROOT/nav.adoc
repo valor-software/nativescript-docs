@@ -36,3 +36,7 @@
 
 * Troubleshooting
 ** xref:troubleshooting/troubleshooting.adoc[]
+
+*API
+** xref:docs/modules.md.adoc[]
+*** xref:docs/modules/capitalizationType.md.adoc[]

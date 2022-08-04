@@ -171,16 +171,16 @@ ns run android
 # start making code changes
 ----
 
-==== Guidelines
+== Guidelines
 
-===== Template Structure Guidelines
+=== Template Structure Guidelines
 
 * Create folders named for the feature area they represent. Each featured area should be placed in a separate folder in the template's folder structure.
 * Place each page, view model, and service in its file. Apply the single responsibility principle (SRP) to all pages, view models, services, and other symbols. This helps make the app cleaner, easier to read and maintain, and more testable.
 * Consider creating a folder for a page when it has multiple accompanying files (.ts, .xml, .scss/css, etc.).
 * Avoid putting all of your app template's code in a root folder named _app_. When the actual app is created from the template, all of the template's code will indeed go inside a root *app* folder, but you MUST NOT define this folder in the hierarchy of your template; otherwise, the `ns create` CLI command will not function properly.
 
-===== Package.json Guidelines
+=== Package.json Guidelines
 
 * Place a `package.json` file in the root folder of your app template. +
 Note this is not the actual root package.json of the generated mobile app -- it is only used by the `ns create` CLI command upon app creation. Do not expect that everything you place in your package.json will be transferred to the actual package.json file. Notably `scripts` property content is removed. However, if you provide preinstall / postinstall scripts, they will be executed before getting removed. You can use this mechanism to generate/move settings files to the root folder of the generated app and generate actual "scripts" content for the resulting app package.json -- see https://github.com/NativeScript/nativescript-app-templates/blob/master/shared/hooks/after-createProject/after-createProject.js[generating `scripts` commands on-the-fly] for concrete examples.
@@ -232,7 +232,7 @@ For example, https://github.com/NativeScript/nativescript-app-templates/blob/mas
  ** `category-general` - will show the template under the "General" tab in the https://market.nativescript.org/?tab=templates["Templates" page]. This is the general or basic category, used to describe "generic" functionality.
  ** `category-healthcare` - will show the template under the "Healthcare" tab in the https://market.nativescript.org/?tab=templates["Templates" page]. This is a special category, used to describe a template with functionality related to the healthcare industry.
 
-===== Marketplace Guidelines
+=== Marketplace Guidelines
 
 * Publish your app template to npm (https://www.npmjs.com/) using *ns-template-[custom-template-name-goes-here]-ts* format for the npm package name.
 * Provide a screenshot preview to be used in a future NativeScript Marketplace integration under *tools/assets/marketplace.png* in your app template folder structure. +
@@ -240,7 +240,7 @@ Check https://github.com/NativeScript/template-master-detail-ts/blob/master/tool
 * Provide correct `repository` property value in the root package.json file of your app template (see the "Package.json guidelines" section above for additional package.json requirements).
 * https://github.com/NativeScript/marketplace-feedback/blob/master/docs/template-submission.md[Read more] how to submit your app template to https://market.nativescript.org[NativeScript Marketplace].
 
-===== Styling Guidelines
+=== Styling Guidelines
 
 * Consider using the https://github.com/NativeScript/theme[NativeScript core theme] for styling your app template.
 * Consider using the following infrastructure to enable cross-platform SASS styling for your app template: +
@@ -318,7 +318,7 @@ NavigationButton {
 /* Import app variables */
 @import 'app-variables';
 
-/* Import the theme’s main ruleset - both index and platform specific. */
+/* Import the theme's main ruleset - both index and platform specific. */
 @import 'nativescript-theme-core/scss/index';
 @import 'nativescript-theme-core/scss/platforms/index.ios';
 
@@ -373,7 +373,7 @@ NavigationButton {
 /* Place any CSS rules you want to apply only on iOS here */
 ----
 
-===== More Guidelines
+=== More Guidelines
 
 * https://github.com/NativeScript/nativescript-starter-kits-utils/blob/master/docs/style-guide-app-template.md[Read JavaScript App Template Style Guide]
 * https://github.com/NativeScript/nativescript-starter-kits-utils/blob/master/docs/style-guide-app-template-ng.md[Read Angular App Template Style Guide]

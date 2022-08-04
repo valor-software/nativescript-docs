@@ -1,0 +1,54 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / capitalizationType
+
+= Namespace: capitalizationType
+
+== Table of contents
+
+=== Variables
+
+* link:capitalizationType.md#all[all]
+* link:capitalizationType.md#none[none]
+* link:capitalizationType.md#sentences[sentences]
+* link:capitalizationType.md#words[words]
+
+== Variables
+
+=== all
+
+• `Const` *all*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L49[ui/dialogs/index.d.ts:49]
+
+'''
+
+=== none
+
+• `Const` *none*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L44[ui/dialogs/index.d.ts:44]
+
+'''
+
+=== sentences
+
+• `Const` *sentences*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L54[ui/dialogs/index.d.ts:54]
+
+'''
+
+=== words
+
+• `Const` *words*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L59[ui/dialogs/index.d.ts:59]
