@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TapGestureEventData
 
@@ -44,9 +44,7 @@ Gets the underlying native android specific http://developer.android.com/referen
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#android[android]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
 
 '''
 
@@ -59,9 +57,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -76,9 +72,7 @@ Gets the underlying native iOS specific https://developer.apple.com/library/ios/
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#ios[ios]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
 
 '''
 
@@ -91,9 +85,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
 '''
 
@@ -108,9 +100,7 @@ Gets the type of the gesture.
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#type[type]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
 
 '''
 
@@ -125,9 +115,7 @@ Gets the view which originates the gesture.
 
 xref:GestureEventData.adoc[GestureEventData].link:GestureEventData.md#view[view]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]
 
 == Methods
 
@@ -142,9 +130,7 @@ Gets the number of pointers in the event.
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L161[ui/gestures/index.d.ts:161]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L161[ui/gestures/index.d.ts:161]
 
 '''
 
@@ -159,9 +145,7 @@ Gets the X coordinate of this event inside the view that triggered the event
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L165[ui/gestures/index.d.ts:165]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L165[ui/gestures/index.d.ts:165]
 
 '''
 
@@ -176,6 +160,4 @@ Gets the Y coordinate of the event inside the view that triggered the event.
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L169[ui/gestures/index.d.ts:169]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L169[ui/gestures/index.d.ts:169]

@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / EventData
 
@@ -52,9 +52,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / EventData
 
 • *eventName*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -63,6 +61,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 • *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

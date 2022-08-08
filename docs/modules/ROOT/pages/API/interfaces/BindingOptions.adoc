@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / BindingOptions
 
@@ -24,9 +24,7 @@ The options object used in the Bindable.bind method.
 
 An expression used for calculations (convertions) based on the value of the property.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L70[ui/core/bindable/index.ts:70]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L70[ui/core/bindable/index.ts:70]
 
 '''
 
@@ -37,9 +35,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 The property name of the source object (typically the ViewModel) to bind to.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L58[ui/core/bindable/index.ts:58]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L58[ui/core/bindable/index.ts:58]
 
 '''
 
@@ -50,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 The property name of the target object (that is the Bindable instance) to bind the source property to.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L62[ui/core/bindable/index.ts:62]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L62[ui/core/bindable/index.ts:62]
 
 '''
 
@@ -64,6 +58,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 True to establish a two-way binding, false otherwise.
 A two-way binding will synchronize both the source and the target property values regardless of which one initiated the change.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L66[ui/core/bindable/index.ts:66]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L66[ui/core/bindable/index.ts:66]

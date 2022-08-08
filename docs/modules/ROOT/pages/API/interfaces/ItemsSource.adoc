@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemsSource
 
@@ -21,9 +21,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemsSource
 
 • *length*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L158[ui/list-view/index.d.ts:158]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L158[ui/list-view/index.d.ts:158]
 
 == Methods
 
@@ -45,6 +43,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L159[ui/list-view/index.d.ts:159]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L159[ui/list-view/index.d.ts:159]

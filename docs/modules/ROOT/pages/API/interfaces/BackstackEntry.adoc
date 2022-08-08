@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / BackstackEntry
 
@@ -26,9 +26,7 @@ Represents an entry in the back stack of a Frame object.
 
 • *entry*: xref:NavigationEntry.adoc[`NavigationEntry`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L385[ui/frame/index.d.ts:385]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L385[ui/frame/index.d.ts:385]
 
 '''
 
@@ -37,9 +35,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Optional` `Private` *fragment*: `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L400[ui/frame/index.d.ts:400]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L400[ui/frame/index.d.ts:400]
 
 '''
 
@@ -48,9 +44,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Private` *fragmentTag*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L396[ui/frame/index.d.ts:396]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L396[ui/frame/index.d.ts:396]
 
 '''
 
@@ -59,9 +53,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Optional` `Private` *frameId*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L408[ui/frame/index.d.ts:408]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L408[ui/frame/index.d.ts:408]
 
 '''
 
@@ -70,9 +62,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Private` *navDepth*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L392[ui/frame/index.d.ts:392]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L392[ui/frame/index.d.ts:392]
 
 '''
 
@@ -81,9 +71,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Optional` `Private` *recreated*: `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L412[ui/frame/index.d.ts:412]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L412[ui/frame/index.d.ts:412]
 
 '''
 
@@ -92,9 +80,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • *resolvedPage*: xref:../classes/Page.adoc[`Page`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L386[ui/frame/index.d.ts:386]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L386[ui/frame/index.d.ts:386]
 
 '''
 
@@ -103,6 +89,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • `Optional` `Private` *viewSavedState*: `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L404[ui/frame/index.d.ts:404]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L404[ui/frame/index.d.ts:404]

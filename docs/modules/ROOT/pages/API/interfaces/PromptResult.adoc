@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PromptResult
 
@@ -22,9 +22,7 @@ Provides result data from the prompt dialog.
 
 Gets or sets the prompt dialog boolean result.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L274[ui/dialogs/index.d.ts:274]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L274[ui/dialogs/index.d.ts:274]
 
 '''
 
@@ -35,6 +33,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the text entered in the prompt dialog.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L279[ui/dialogs/index.d.ts:279]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L279[ui/dialogs/index.d.ts:279]

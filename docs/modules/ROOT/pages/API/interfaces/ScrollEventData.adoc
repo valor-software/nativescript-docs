@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ScrollEventData
 
@@ -30,9 +30,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ScrollEventD
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
 '''
 
@@ -56,9 +52,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 • *scrollX*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L81[ui/scroll-view/index.d.ts:81]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L81[ui/scroll-view/index.d.ts:81]
 
 '''
 
@@ -67,6 +61,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scr
 
 • *scrollY*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L82[ui/scroll-view/index.d.ts:82]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L82[ui/scroll-view/index.d.ts:82]

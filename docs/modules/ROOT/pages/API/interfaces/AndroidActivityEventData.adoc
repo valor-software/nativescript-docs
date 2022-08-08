@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AndroidActivityEventData
 
@@ -37,9 +37,7 @@ Data for the Android activity events.
 
 The activity.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
 
 '''
 
@@ -50,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/applic
 
 The name of the event.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
 
 '''
 
@@ -63,6 +59,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/applic
 
 The instance that has raised the event.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]

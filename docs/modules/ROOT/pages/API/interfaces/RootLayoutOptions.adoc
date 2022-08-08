@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / RootLayoutOptions
 
@@ -30,9 +30,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / RootLayoutOp
 | `TransitionAnimation`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L19[ui/layouts/root-layout/index.d.ts:19]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L19[ui/layouts/root-layout/index.d.ts:19]
 
 '''
 
@@ -41,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 • `Optional` *shadeCover*: xref:ShadeCoverOptions.adoc[`ShadeCoverOptions`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L18[ui/layouts/root-layout/index.d.ts:18]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L18[ui/layouts/root-layout/index.d.ts:18]

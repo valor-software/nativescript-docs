@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PinchGestureEventData
 
@@ -43,9 +43,7 @@ Gets the underlying native android specific http://developer.android.com/referen
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#android[android]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
 
 '''
 
@@ -58,9 +56,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -75,9 +71,7 @@ Gets the underlying native iOS specific https://developer.apple.com/library/ios/
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#ios[ios]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
 
 '''
 
@@ -90,9 +84,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
 '''
 
@@ -101,9 +93,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 • *scale*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L252[ui/gestures/index.d.ts:252]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L252[ui/gestures/index.d.ts:252]
 
 '''
 
@@ -116,9 +106,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#state[state]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L245[ui/gestures/index.d.ts:245]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L245[ui/gestures/index.d.ts:245]
 
 '''
 
@@ -133,9 +121,7 @@ Gets the type of the gesture.
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#type[type]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
 
 '''
 
@@ -150,9 +136,7 @@ Gets the view which originates the gesture.
 
 xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#view[view]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]
 
 == Methods
 
@@ -165,9 +149,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L254[ui/gestures/index.d.ts:254]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L254[ui/gestures/index.d.ts:254]
 
 '''
 
@@ -180,6 +162,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L255[ui/gestures/index.d.ts:255]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L255[ui/gestures/index.d.ts:255]

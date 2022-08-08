@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemEventData
 
@@ -33,9 +33,7 @@ Event data containing information for the index and the view associated to a lis
 Gets the native http://developer.android.com/reference/android/view/ViewGroup.html[android widget] that represents the user interface where the view is hosted.
 Valid only when running on Android OS.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L154[ui/list-view/index.d.ts:154]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L154[ui/list-view/index.d.ts:154]
 
 '''
 
@@ -48,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -61,9 +57,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 The index of the item, for which the event is raised.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L139[ui/list-view/index.d.ts:139]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L139[ui/list-view/index.d.ts:139]
 
 '''
 
@@ -75,9 +69,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 Gets the native https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/[iOS view] that represents the user interface where the view is hosted.
 Valid only when running on iOS.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L149[ui/list-view/index.d.ts:149]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L149[ui/list-view/index.d.ts:149]
 
 '''
 
@@ -90,9 +82,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
 '''
 
@@ -103,6 +93,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 The view that is associated to the item, for which the event is raised.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L144[ui/list-view/index.d.ts:144]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L144[ui/list-view/index.d.ts:144]

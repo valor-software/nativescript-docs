@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TemplatedItemsView
 
@@ -25,9 +25,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TemplatedIte
 
 • *itemTemplate*: `string` | xref:Template.adoc[`Template`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L164[ui/list-view/index.d.ts:164]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L164[ui/list-view/index.d.ts:164]
 
 '''
 
@@ -36,9 +34,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 • `Optional` *itemTemplates*: `string` | xref:KeyedTemplate.adoc[`KeyedTemplate`][]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L165[ui/list-view/index.d.ts:165]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L165[ui/list-view/index.d.ts:165]
 
 '''
 
@@ -47,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 • *items*: `any`[] | xref:ItemsSource.adoc[`ItemsSource`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L163[ui/list-view/index.d.ts:163]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L163[ui/list-view/index.d.ts:163]
 
 == Methods
 
@@ -77,9 +71,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L168[ui/list-view/index.d.ts:168]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L168[ui/list-view/index.d.ts:168]
 
 '''
 
@@ -107,9 +99,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L167[ui/list-view/index.d.ts:167]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L167[ui/list-view/index.d.ts:167]
 
 '''
 
@@ -122,6 +112,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lis
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L166[ui/list-view/index.d.ts:166]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/list-view/index.d.ts#L166[ui/list-view/index.d.ts:166]

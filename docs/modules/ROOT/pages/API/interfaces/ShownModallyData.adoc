@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShownModallyData
 
@@ -31,9 +31,7 @@ Defines the data for the shownModally event.
 A callback to call when you want to close the modally shown view.
 Pass in any kind of arguments and you will receive when the callback parameter of View.showModal is executed.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L97[ui/core/view/index.d.ts:97]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L97[ui/core/view/index.d.ts:97]
 
 '''
 
@@ -44,9 +42,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 The context (optional, may be undefined) passed to the view when shown modally.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L90[ui/core/view/index.d.ts:90]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L90[ui/core/view/index.d.ts:90]
 
 '''
 
@@ -59,9 +55,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -74,6 +68,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

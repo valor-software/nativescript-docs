@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NativeScriptConfig
 
@@ -33,9 +33,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NativeScript
 
 Android specific configurations Various Android specific configurations including Android runtime flags.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L190[config/config.interface.ts:190]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L190[config/config.interface.ts:190]
 
 '''
 
@@ -46,9 +44,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 Path to the app source directory This is often the `src` or `app` directory however can be changed.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L167[config/config.interface.ts:167]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L167[config/config.interface.ts:167]
 
 '''
 
@@ -59,9 +55,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 App_Resources path This is often at the root or inside `src` or `app` directory however can be anywhere.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L172[config/config.interface.ts:172]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L172[config/config.interface.ts:172]
 
 '''
 
@@ -72,9 +66,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 Set cli options
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L210[config/config.interface.ts:210]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L210[config/config.interface.ts:210]
 
 '''
 
@@ -86,9 +78,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 Set the default CSS parser that NativeScript will use.
 Default: css-tree
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L200[config/config.interface.ts:200]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L200[config/config.interface.ts:200]
 
 '''
 
@@ -99,9 +89,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 Set project persistent hooks to run
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L215[config/config.interface.ts:215]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L215[config/config.interface.ts:215]
 
 '''
 
@@ -113,9 +101,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 App's bundle id Used for both iOS and Android if they use the same bundle id.
 You can override per platform in the respective platform specific configurations.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L158[config/config.interface.ts:158]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L158[config/config.interface.ts:158]
 
 '''
 
@@ -126,9 +112,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 Optionally specify a list of npm package names for which you would like the NativeScript CLI to ignore when attaching native dependencies to the build
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L205[config/config.interface.ts:205]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L205[config/config.interface.ts:205]
 
 '''
 
@@ -139,9 +123,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 iOS specific configurations Various iOS specific configurations including iOS runtime flags.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L185[config/config.interface.ts:185]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L185[config/config.interface.ts:185]
 
 '''
 
@@ -152,9 +134,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 App's main entry file - this setting overrides the value set in package.json
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L162[config/config.interface.ts:162]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L162[config/config.interface.ts:162]
 
 '''
 
@@ -163,9 +143,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 • `Optional` *overridePods*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L175[config/config.interface.ts:175]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L175[config/config.interface.ts:175]
 
 '''
 
@@ -174,9 +152,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 • `Optional` *previewAppSchema*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L174[config/config.interface.ts:174]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L174[config/config.interface.ts:174]
 
 '''
 
@@ -188,9 +164,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 Enable profiling for the application.
 Default: no profiling In most cases when profiling, you will want to use "timeline"
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L195[config/config.interface.ts:195]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L195[config/config.interface.ts:195]
 
 '''
 
@@ -199,9 +173,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 • `Optional` *shared*: `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L173[config/config.interface.ts:173]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L173[config/config.interface.ts:173]
 
 '''
 
@@ -212,6 +184,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config
 
 Custom webpack config path The default is `webpack.config.js` in the root however you can use a custom name and place elsewhere.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L180[config/config.interface.ts:180]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L180[config/config.interface.ts:180]

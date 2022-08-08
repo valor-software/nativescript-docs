@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CommonLayoutParams
 
@@ -30,9 +30,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CommonLayout
 
 • *bottomMargin*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L25[ui/styling/style/index.ts:25]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L25[ui/styling/style/index.ts:25]
 
 '''
 
@@ -41,9 +39,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *bottomMarginPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L30[ui/styling/style/index.ts:30]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L30[ui/styling/style/index.ts:30]
 
 '''
 
@@ -52,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *height*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L17[ui/styling/style/index.ts:17]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L17[ui/styling/style/index.ts:17]
 
 '''
 
@@ -63,9 +57,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *heightPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L20[ui/styling/style/index.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L20[ui/styling/style/index.ts:20]
 
 '''
 
@@ -74,9 +66,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L32[ui/styling/style/index.ts:32]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L32[ui/styling/style/index.ts:32]
 
 '''
 
@@ -85,9 +75,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *leftMargin*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L22[ui/styling/style/index.ts:22]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L22[ui/styling/style/index.ts:22]
 
 '''
 
@@ -96,9 +84,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *leftMarginPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L27[ui/styling/style/index.ts:27]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L27[ui/styling/style/index.ts:27]
 
 '''
 
@@ -107,9 +93,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *rightMargin*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L24[ui/styling/style/index.ts:24]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L24[ui/styling/style/index.ts:24]
 
 '''
 
@@ -118,9 +102,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *rightMarginPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L29[ui/styling/style/index.ts:29]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L29[ui/styling/style/index.ts:29]
 
 '''
 
@@ -129,9 +111,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *topMargin*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L23[ui/styling/style/index.ts:23]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L23[ui/styling/style/index.ts:23]
 
 '''
 
@@ -140,9 +120,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *topMarginPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L28[ui/styling/style/index.ts:28]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L28[ui/styling/style/index.ts:28]
 
 '''
 
@@ -151,9 +129,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L33[ui/styling/style/index.ts:33]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L33[ui/styling/style/index.ts:33]
 
 '''
 
@@ -162,9 +138,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *width*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L16[ui/styling/style/index.ts:16]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L16[ui/styling/style/index.ts:16]
 
 '''
 
@@ -173,6 +147,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *widthPercent*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L19[ui/styling/style/index.ts:19]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L19[ui/styling/style/index.ts:19]

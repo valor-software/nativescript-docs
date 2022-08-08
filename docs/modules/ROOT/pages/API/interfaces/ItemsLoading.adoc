@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemsLoading
 
@@ -30,9 +30,7 @@ Event args for "itemsLoading" event.
 
 Number of items to load.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L16[data/virtual-array/index.ts:16]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L16[data/virtual-array/index.ts:16]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/v
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 Start index.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L11[data/virtual-array/index.ts:11]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L11[data/virtual-array/index.ts:11]
 
 '''
 
@@ -73,6 +67,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/v
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

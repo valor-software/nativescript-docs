@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AddChildFromBuilder
 
@@ -47,6 +47,4 @@ This method will add a child element (value) to current element.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L967[ui/core/view/index.d.ts:967]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L967[ui/core/view/index.d.ts:967]

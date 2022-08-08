@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TraceErrorHandler
 
@@ -36,6 +36,4 @@ An interface used to for handling trace error
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L20[trace/index.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L20[trace/index.ts:20]

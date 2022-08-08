@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ViewEntry
 
@@ -37,9 +37,7 @@ Optional.
 
 xref:../classes/View.adoc[`View`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L285[ui/frame/index.d.ts:285]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L285[ui/frame/index.d.ts:285]
 
 '''
 
@@ -51,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 The name of the module containing the View instance to load.
 Optional.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L280[ui/frame/index.d.ts:280]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L280[ui/frame/index.d.ts:280]

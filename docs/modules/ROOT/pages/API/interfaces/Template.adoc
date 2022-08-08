@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Template
 
@@ -17,6 +17,4 @@ Returns a new View instance.
 
 xref:../classes/View.adoc[`View`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L927[ui/core/view/index.d.ts:927]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L927[ui/core/view/index.d.ts:927]

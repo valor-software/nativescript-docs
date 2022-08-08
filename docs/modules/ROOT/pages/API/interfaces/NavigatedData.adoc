@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NavigatedData
 
@@ -30,9 +30,7 @@ Defines the data for the page navigation events.
 
 The navigation context (optional, may be undefined) passed to the page navigation events method.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L19[ui/page/index.d.ts:19]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L19[ui/page/index.d.ts:19]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/pag
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 Represents if a navigation is forward or backward.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L24[ui/page/index.d.ts:24]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L24[ui/page/index.d.ts:24]
 
 '''
 
@@ -73,6 +67,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/pag
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

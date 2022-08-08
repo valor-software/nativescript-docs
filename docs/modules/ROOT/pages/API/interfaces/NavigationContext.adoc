@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NavigationContext
 
@@ -21,9 +21,7 @@ Represents a context passed to navigation methods.
 
 • *entry*: xref:BackstackEntry.adoc[`BackstackEntry`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L337[ui/frame/index.d.ts:337]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L337[ui/frame/index.d.ts:337]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • *isBackNavigation*: `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L338[ui/frame/index.d.ts:338]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L338[ui/frame/index.d.ts:338]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 • *navigationType*: `NavigationType`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L339[ui/frame/index.d.ts:339]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L339[ui/frame/index.d.ts:339]

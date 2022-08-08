@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoginOptions
 
@@ -41,9 +41,7 @@ Gets or sets the Cancel button text.
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelbuttontext[cancelButtonText]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L214[ui/dialogs/index.d.ts:214]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L214[ui/dialogs/index.d.ts:214]
 
 '''
 
@@ -58,9 +56,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelable[cancelable]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
 '''
 
@@ -75,9 +71,7 @@ Gets or sets the dialog message.
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#message[message]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
 
 '''
 
@@ -92,9 +86,7 @@ Gets or sets the neutral button text.
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#neutralbuttontext[neutralButtonText]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L219[ui/dialogs/index.d.ts:219]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L219[ui/dialogs/index.d.ts:219]
 
 '''
 
@@ -109,9 +101,7 @@ Gets or sets the OK button text.
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#okbuttontext[okButtonText]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
 
 '''
 
@@ -122,9 +112,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the default text to display in the password input box.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L264[ui/dialogs/index.d.ts:264]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L264[ui/dialogs/index.d.ts:264]
 
 '''
 
@@ -135,9 +123,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the default text to display as hint in the password input box.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L254[ui/dialogs/index.d.ts:254]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L254[ui/dialogs/index.d.ts:254]
 
 '''
 
@@ -153,9 +139,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#theme[theme]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 
 '''
 
@@ -170,9 +154,7 @@ Gets or sets the dialog title.
 
 xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#title[title]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]
 
 '''
 
@@ -183,9 +165,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the default text to display in the user name input box.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L259[ui/dialogs/index.d.ts:259]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L259[ui/dialogs/index.d.ts:259]
 
 '''
 
@@ -196,6 +176,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the default text to display as hint in the user name input box.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L249[ui/dialogs/index.d.ts:249]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L249[ui/dialogs/index.d.ts:249]

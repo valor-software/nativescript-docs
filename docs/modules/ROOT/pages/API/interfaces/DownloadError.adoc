@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DownloadError
 
@@ -30,9 +30,7 @@ Provides data for download error.
 
 Gets the error.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L142[ui/image-cache/index.d.ts:142]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L142[ui/image-cache/index.d.ts:142]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ima
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 A string indentifier of the cached image.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L138[ui/image-cache/index.d.ts:138]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L138[ui/image-cache/index.d.ts:138]
 
 '''
 
@@ -73,6 +67,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ima
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TraceEventListener
 
@@ -23,9 +23,7 @@ An interface used to trace information about specific event.
 
 • *filter*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L12[trace/index.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L12[trace/index.ts:12]
 
 == Methods
 
@@ -53,6 +51,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L13[trace/index.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L13[trace/index.ts:13]

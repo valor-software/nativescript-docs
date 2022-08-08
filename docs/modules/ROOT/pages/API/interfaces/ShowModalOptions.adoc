@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShowModalOptions
 
@@ -40,9 +40,7 @@ An optional parameter specifying whether the modal view can be dismissed when no
 For possible values see https://developer.android.com/reference/android/view/WindowManager.LayoutParams#softInputMode
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L85[ui/core/view-base/index.ts:85]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L85[ui/core/view-base/index.ts:85]
 
 '''
 
@@ -53,9 +51,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 An optional parameter specifying whether to show the modal view with animation.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L61[ui/core/view-base/index.ts:61]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L61[ui/core/view-base/index.ts:61]
 
 '''
 
@@ -66,9 +62,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L101[ui/core/view-base/index.ts:101]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L101[ui/core/view-base/index.ts:101]
 
 '''
 
@@ -97,9 +91,7 @@ Any arguments provided when calling ShownModallyData.closeCallback will be avail
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L51[ui/core/view-base/index.ts:51]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L51[ui/core/view-base/index.ts:51]
 
 '''
 
@@ -111,9 +103,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 Any context you want to pass to the modally shown view.
 This same context will be available in the arguments of the shownModally event handler.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L46[ui/core/view-base/index.ts:46]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L46[ui/core/view-base/index.ts:46]
 
 '''
 
@@ -124,9 +114,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 An optional parameter specifying whether to show the modal view in full-screen mode.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L56[ui/core/view-base/index.ts:56]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L56[ui/core/view-base/index.ts:56]
 
 '''
 
@@ -155,9 +143,7 @@ An optional parameter that specify options specific to iOS as an object.
 | width of the popup dialog
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L71[ui/core/view-base/index.ts:71]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L71[ui/core/view-base/index.ts:71]
 
 '''
 
@@ -168,6 +154,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 An optional parameter specifying whether to stretch the modal view when not in full-screen mode.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L66[ui/core/view-base/index.ts:66]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L66[ui/core/view-base/index.ts:66]

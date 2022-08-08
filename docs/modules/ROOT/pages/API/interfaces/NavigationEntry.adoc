@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NavigationEntry
 
@@ -36,9 +36,7 @@ Represents an entry in passed to navigate method.
 
 True to navigate to the new Page using animated transitions, false otherwise.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L304[ui/frame/index.d.ts:304]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L304[ui/frame/index.d.ts:304]
 
 '''
 
@@ -50,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 True to record the navigation in the backstack, false otherwise.
 If the parameter is set to false then the Page will be displayed but once navigated from it will not be able to be navigated back to.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L325[ui/frame/index.d.ts:325]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L325[ui/frame/index.d.ts:325]
 
 '''
 
@@ -64,9 +60,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 An object to become the binding context of the page navigating to.
 Optional.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L299[ui/frame/index.d.ts:299]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L299[ui/frame/index.d.ts:299]
 
 '''
 
@@ -78,9 +72,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 True to clear the navigation history, false otherwise.
 Very useful when navigating away from login pages.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L330[ui/frame/index.d.ts:330]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L330[ui/frame/index.d.ts:330]
 
 '''
 
@@ -93,9 +85,7 @@ An object passed to the onNavigatedTo callback of the Page.
 Typically this is used to pass some data among pages.
 Optional.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L294[ui/frame/index.d.ts:294]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L294[ui/frame/index.d.ts:294]
 
 '''
 
@@ -119,9 +109,7 @@ xref:../classes/View.adoc[`View`]
 
 xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.md#create[create]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L285[ui/frame/index.d.ts:285]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L285[ui/frame/index.d.ts:285]
 
 '''
 
@@ -137,9 +125,7 @@ Optional.
 
 xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.md#modulename[moduleName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L280[ui/frame/index.d.ts:280]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L280[ui/frame/index.d.ts:280]
 
 '''
 
@@ -151,9 +137,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 Specifies an optional navigation transition for all platforms.
 If not specified, the default platform transition will be used.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L309[ui/frame/index.d.ts:309]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L309[ui/frame/index.d.ts:309]
 
 '''
 
@@ -165,9 +149,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 Specifies an optional navigation transition for Android.
 If not specified, the default platform transition will be used.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L319[ui/frame/index.d.ts:319]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L319[ui/frame/index.d.ts:319]
 
 '''
 
@@ -179,6 +161,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 Specifies an optional navigation transition for iOS.
 If not specified, the default platform transition will be used.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L314[ui/frame/index.d.ts:314]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L314[ui/frame/index.d.ts:314]

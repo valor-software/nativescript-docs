@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ImageAssetOptions
 
@@ -20,9 +20,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ImageAssetOp
 
 • `Optional` *autoScaleFactor*: `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L16[image-asset/index.d.ts:16]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L16[image-asset/index.d.ts:16]
 
 '''
 
@@ -31,9 +29,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-
 
 • `Optional` *height*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L14[image-asset/index.d.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L14[image-asset/index.d.ts:14]
 
 '''
 
@@ -42,9 +38,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-
 
 • `Optional` *keepAspectRatio*: `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L15[image-asset/index.d.ts:15]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L15[image-asset/index.d.ts:15]
 
 '''
 
@@ -53,6 +47,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-
 
 • `Optional` *width*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L13[image-asset/index.d.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L13[image-asset/index.d.ts:13]

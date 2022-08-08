@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpRequestOptions
 
@@ -26,9 +26,7 @@ Provides options for the http requests.
 
 Gets or sets the request body.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L28[http/index.ts:28]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L28[http/index.ts:28]
 
 '''
 
@@ -39,9 +37,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets or sets whether to _not_ follow server's redirection responses.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L38[http/index.ts:38]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L38[http/index.ts:38]
 
 '''
 
@@ -52,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets or sets the request headers in JSON format.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L23[http/index.ts:23]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L23[http/index.ts:23]
 
 '''
 
@@ -65,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets or sets the request method.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L18[http/index.ts:18]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L18[http/index.ts:18]
 
 '''
 
@@ -78,9 +70,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets or sets the request timeout in milliseconds.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L33[http/index.ts:33]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L33[http/index.ts:33]
 
 '''
 
@@ -91,6 +81,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets or sets the request url.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L13[http/index.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L13[http/index.ts:13]

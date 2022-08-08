@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpResponse
 
@@ -23,9 +23,7 @@ Encapsulates HTTP-response information from an HTTP-request.
 
 Gets the response content.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L58[http/index.ts:58]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L58[http/index.ts:58]
 
 '''
 
@@ -36,9 +34,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets the response headers.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L53[http/index.ts:53]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L53[http/index.ts:53]
 
 '''
 
@@ -49,6 +45,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 Gets the response status code.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L48[http/index.ts:48]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L48[http/index.ts:48]

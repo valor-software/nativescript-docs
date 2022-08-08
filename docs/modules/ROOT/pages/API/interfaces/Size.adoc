@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Size
 
@@ -23,9 +23,7 @@ It has two properties width and height, representing the width and height values
 
 Represents the height of the size.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L80[ui/core/view/index.d.ts:80]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L80[ui/core/view/index.d.ts:80]
 
 '''
 
@@ -36,6 +34,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 Represents the width of the size.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L75[ui/core/view/index.d.ts:75]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L75[ui/core/view/index.d.ts:75]

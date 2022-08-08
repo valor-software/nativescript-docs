@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TraceWriter
 
@@ -38,6 +38,4 @@ An interface used to define a writer used by trace to print (log).
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L5[trace/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L5[trace/index.ts:5]

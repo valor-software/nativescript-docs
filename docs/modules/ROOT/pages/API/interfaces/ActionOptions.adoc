@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ActionOptions
 
@@ -33,9 +33,7 @@ Provides options for the dialog.
 
 Gets or sets the list of available actions.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L174[ui/dialogs/index.d.ts:174]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L174[ui/dialogs/index.d.ts:174]
 
 '''
 
@@ -46,9 +44,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the Cancel button text.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L169[ui/dialogs/index.d.ts:169]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L169[ui/dialogs/index.d.ts:169]
 
 '''
 
@@ -63,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#cancelable[cancelable]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
 '''
 
@@ -76,9 +70,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 [iOS only] Gets or sets the indexes of destructive actions.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L179[ui/dialogs/index.d.ts:179]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L179[ui/dialogs/index.d.ts:179]
 
 '''
 
@@ -89,9 +81,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the dialog message.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L164[ui/dialogs/index.d.ts:164]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L164[ui/dialogs/index.d.ts:164]
 
 '''
 
@@ -107,9 +97,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#theme[theme]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 
 '''
 
@@ -120,6 +108,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the dialog title.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L159[ui/dialogs/index.d.ts:159]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L159[ui/dialogs/index.d.ts:159]

@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CssChangedEventData
 
@@ -28,9 +28,7 @@ Event data containing information about application css change.
 
 • `Optional` *cssFile*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L191[application/index.d.ts:191]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L191[application/index.d.ts:191]
 
 '''
 
@@ -39,9 +37,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/applic
 
 • `Optional` *cssText*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L192[application/index.d.ts:192]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L192[application/index.d.ts:192]
 
 '''
 
@@ -54,9 +50,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/applic
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -69,6 +63,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

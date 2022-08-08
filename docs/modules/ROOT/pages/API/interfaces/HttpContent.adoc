@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpContent
 
@@ -26,9 +26,7 @@ Encapsulates the content of an HttpResponse.
 
 Gets the response body as raw data.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L74[http/index.ts:74]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L74[http/index.ts:74]
 
 '''
 
@@ -47,9 +45,7 @@ Gets the response body as ArrayBuffer
 
 `ArrayBuffer`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L79[http/index.ts:79]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L79[http/index.ts:79]
 
 '''
 
@@ -77,9 +73,7 @@ Gets the response body as file.
 
 xref:../classes/File.adoc[`File`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L99[http/index.ts:99]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L99[http/index.ts:99]
 
 '''
 
@@ -98,9 +92,7 @@ Gets the response body as ImageSource.
 
 `Promise`<xref:../classes/ImageSource.adoc[`ImageSource`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L94[http/index.ts:94]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L94[http/index.ts:94]
 
 '''
 
@@ -128,9 +120,7 @@ Gets the response body as JSON object.
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L89[http/index.ts:89]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L89[http/index.ts:89]
 
 '''
 
@@ -158,6 +148,4 @@ Gets the response body as string.
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L84[http/index.ts:84]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L84[http/index.ts:84]

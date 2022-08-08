@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyedTemplate
 
@@ -22,9 +22,7 @@ Defines an interface for Template with a key.
 
 The function that creates the view.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L942[ui/core/view/index.d.ts:942]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L942[ui/core/view/index.d.ts:942]
 
 '''
 
@@ -35,6 +33,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 The unique key of the template.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L937[ui/core/view/index.d.ts:937]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L937[ui/core/view/index.d.ts:937]

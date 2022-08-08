@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AlertOptions
 
@@ -37,9 +37,7 @@ Provides options for the alert.
 
 xref:DialogOptions.adoc[DialogOptions].link:DialogOptions.md#cancelable[cancelable]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
 '''
 
@@ -54,9 +52,7 @@ Gets or sets the dialog message.
 
 xref:DialogOptions.adoc[DialogOptions].link:DialogOptions.md#message[message]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
 
 '''
 
@@ -67,9 +63,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Gets or sets the OK button text.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
 
 '''
 
@@ -85,9 +79,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 xref:DialogOptions.adoc[DialogOptions].link:DialogOptions.md#theme[theme]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 
 '''
 
@@ -102,6 +94,4 @@ Gets or sets the dialog title.
 
 xref:DialogOptions.adoc[DialogOptions].link:DialogOptions.md#title[title]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]

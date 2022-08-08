@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CreateViewEventData
 
@@ -28,9 +28,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CreateViewEv
 
 An optional context for creating the view.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/placeholder/placeholder-common.ts#L12[ui/placeholder/placeholder-common.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/placeholder/placeholder-common.ts#L12[ui/placeholder/placeholder-common.ts:12]
 
 '''
 
@@ -43,9 +41,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/pla
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
 '''
 
@@ -71,6 +65,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 The native view that should be added to the visual tree.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/placeholder/placeholder-common.ts#L7[ui/placeholder/placeholder-common.ts:7]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/placeholder/placeholder-common.ts#L7[ui/placeholder/placeholder-common.ts:7]

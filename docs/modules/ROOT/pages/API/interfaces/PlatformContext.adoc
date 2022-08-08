@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PlatformContext
 
@@ -22,9 +22,7 @@ Used with qualifier matchers and module resolution
 
 • *deviceType*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L13[module-name-resolver/qualifier-matcher/index.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L13[module-name-resolver/qualifier-matcher/index.ts:13]
 
 '''
 
@@ -33,9 +31,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module
 
 • *height*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L11[module-name-resolver/qualifier-matcher/index.ts:11]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L11[module-name-resolver/qualifier-matcher/index.ts:11]
 
 '''
 
@@ -44,9 +40,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module
 
 • *os*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L12[module-name-resolver/qualifier-matcher/index.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L12[module-name-resolver/qualifier-matcher/index.ts:12]
 
 '''
 
@@ -55,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module
 
 • *width*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L10[module-name-resolver/qualifier-matcher/index.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L10[module-name-resolver/qualifier-matcher/index.ts:10]

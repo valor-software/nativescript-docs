@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / UnhandledErrorEventData
 
@@ -36,9 +36,7 @@ Valid only when running on Android.
 
 xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#android[android]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L176[application/index.d.ts:176]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L176[application/index.d.ts:176]
 
 '''
 
@@ -47,9 +45,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/applic
 
 • *error*: `NativeScriptError`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L177[application/index.d.ts:177]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L177[application/index.d.ts:177]
 
 '''
 
@@ -64,9 +60,7 @@ The name of the event.
 
 xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L119[application/index.d.ts:119]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L119[application/index.d.ts:119]
 
 '''
 
@@ -82,9 +76,7 @@ Valid only when running on iOS.
 
 xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#ios[ios]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L175[application/index.d.ts:175]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L175[application/index.d.ts:175]
 
 '''
 
@@ -99,6 +91,4 @@ The instance that has raised the event.
 
 xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L124[application/index.d.ts:124]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L124[application/index.d.ts:124]

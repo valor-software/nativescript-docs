@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AddArrayFromBuilder
 
@@ -44,6 +44,4 @@ A function that is called when an array declaration is found in xml.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L954[ui/core/view/index.d.ts:954]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L954[ui/core/view/index.d.ts:954]

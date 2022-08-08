@@ -1,4 +1,4 @@
-:doctype: book
+
 
 xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DownloadedData
 
@@ -32,9 +32,7 @@ Provides data for downloaded event.
 
 xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 Gets the cached image.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L128[ui/image-cache/index.d.ts:128]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L128[ui/image-cache/index.d.ts:128]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ima
 
 A string indentifier of the cached image.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L124[ui/image-cache/index.d.ts:124]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L124[ui/image-cache/index.d.ts:124]
 
 '''
 
@@ -73,6 +67,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ima
 
 xref:EventData.adoc[EventData].link:EventData.md#object[object]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
