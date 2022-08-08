@@ -1,0 +1,56 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:../modules/Trace.adoc[Trace] / DefaultErrorHandler
+
+= Class: DefaultErrorHandler
+
+xref:../modules/Trace.adoc[Trace].DefaultErrorHandler
+
+An interface used to for handling trace error
+
+== Implements
+
+* xref:../interfaces/TraceErrorHandler.adoc[`TraceErrorHandler`]
+
+== Table of contents
+
+=== Constructors
+
+* link:Trace.DefaultErrorHandler.md#constructor[constructor]
+
+=== Methods
+
+* link:Trace.DefaultErrorHandler.md#handlererror[handlerError]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new DefaultErrorHandler*()
+
+== Methods
+
+[#handlererror]
+=== handlerError
+
+▸ *handlerError*(`error`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `error`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+xref:../interfaces/TraceErrorHandler.adoc[TraceErrorHandler].link:../interfaces/TraceErrorHandler.md#handlererror[handlerError]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L256[trace/index.ts:256]

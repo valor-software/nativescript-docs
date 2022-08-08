@@ -1,0 +1,296 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeAnimation
+
+= Class: KeyframeAnimation
+
+== Table of contents
+
+=== Constructors
+
+* link:KeyframeAnimation.md#constructor[constructor]
+
+=== Properties
+
+* link:KeyframeAnimation.md#_isforwards[_isForwards]
+* link:KeyframeAnimation.md#_isplaying[_isPlaying]
+* link:KeyframeAnimation.md#_nativeanimations[_nativeAnimations]
+* link:KeyframeAnimation.md#_resolve[_resolve]
+* link:KeyframeAnimation.md#_target[_target]
+* link:KeyframeAnimation.md#animations[animations]
+* link:KeyframeAnimation.md#delay[delay]
+* link:KeyframeAnimation.md#iterations[iterations]
+
+=== Accessors
+
+* link:KeyframeAnimation.md#isplaying[isPlaying]
+
+=== Methods
+
+* link:KeyframeAnimation.md#_resetanimationvalues[_resetAnimationValues]
+* link:KeyframeAnimation.md#_resetanimations[_resetAnimations]
+* link:KeyframeAnimation.md#_resolveanimationfinishedpromise[_resolveAnimationFinishedPromise]
+* link:KeyframeAnimation.md#animate[animate]
+* link:KeyframeAnimation.md#cancel[cancel]
+* link:KeyframeAnimation.md#play[play]
+* link:KeyframeAnimation.md#keyframeanimationfrominfo[keyframeAnimationFromInfo]
+* link:KeyframeAnimation.md#parsekeyframe[parseKeyframe]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new KeyframeAnimation*()
+
+== Properties
+
+[#_isforwards]
+=== _isForwards
+
+• `Private` *_isForwards*: `boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L66[ui/animation/keyframe-animation.ts:66]
+
+'''
+
+[#_isplaying]
+=== _isPlaying
+
+• `Private` *_isPlaying*: `boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L65[ui/animation/keyframe-animation.ts:65]
+
+'''
+
+[#_nativeanimations]
+=== _nativeAnimations
+
+• `Private` *_nativeAnimations*: xref:Animation.adoc[`Animation`][]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L67[ui/animation/keyframe-animation.ts:67]
+
+'''
+
+[#_resolve]
+=== _resolve
+
+• `Private` *_resolve*: `any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L64[ui/animation/keyframe-animation.ts:64]
+
+'''
+
+[#_target]
+=== _target
+
+• `Private` *_target*: xref:View.adoc[`View`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L68[ui/animation/keyframe-animation.ts:68]
+
+'''
+
+[#animations]
+=== animations
+
+• *animations*: `Keyframe`[]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L60[ui/animation/keyframe-animation.ts:60]
+
+'''
+
+[#delay]
+=== delay
+
+• *delay*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L61[ui/animation/keyframe-animation.ts:61]
+
+'''
+
+[#iterations]
+=== iterations
+
+• *iterations*: `number` = `1`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L62[ui/animation/keyframe-animation.ts:62]
+
+== Accessors
+
+[#isplaying]
+=== isPlaying
+
+• `get` *isPlaying*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L128[ui/animation/keyframe-animation.ts:128]
+
+== Methods
+
+[#_resetanimationvalues]
+=== _resetAnimationValues
+
+▸ `Private` *_resetAnimationValues*(`view`, `animation`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:View.adoc[`View`]
+
+| `animation`
+| `Object`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L268[ui/animation/keyframe-animation.ts:268]
+
+'''
+
+[#_resetanimations]
+=== _resetAnimations
+
+▸ *_resetAnimations*(): `void`
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L262[ui/animation/keyframe-animation.ts:262]
+
+'''
+
+[#_resolveanimationfinishedpromise]
+=== _resolveAnimationFinishedPromise
+
+▸ *_resolveAnimationFinishedPromise*(): `void`
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L255[ui/animation/keyframe-animation.ts:255]
+
+'''
+
+[#animate]
+=== animate
+
+▸ `Private` *animate*(`view`, `index`, `iterations`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:View.adoc[`View`]
+
+| `index`
+| `number`
+
+| `iterations`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L179[ui/animation/keyframe-animation.ts:179]
+
+'''
+
+[#cancel]
+=== cancel
+
+▸ *cancel*(): `void`
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L132[ui/animation/keyframe-animation.ts:132]
+
+'''
+
+[#play]
+=== play
+
+▸ *play*(`view`): `Promise`<``void``>
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`Promise`<``void``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L153[ui/animation/keyframe-animation.ts:153]
+
+'''
+
+[#keyframeanimationfrominfo]
+=== keyframeAnimationFromInfo
+
+▸ `Static` *keyframeAnimationFromInfo*(`info`): xref:KeyframeAnimation.adoc[`KeyframeAnimation`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `info`
+| xref:KeyframeAnimationInfo.adoc[`KeyframeAnimationInfo`]
+|===
+
+==== Returns
+
+xref:KeyframeAnimation.adoc[`KeyframeAnimation`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L70[ui/animation/keyframe-animation.ts:70]
+
+'''
+
+[#parsekeyframe]
+=== parseKeyframe
+
+▸ `Static` `Private` *parseKeyframe*(`info`, `keyframe`, `animations`, `startDuration`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `info`
+| xref:KeyframeAnimationInfo.adoc[`KeyframeAnimationInfo`]
+
+| `keyframe`
+| xref:KeyframeInfo.adoc[`KeyframeInfo`]
+
+| `animations`
+| `Object`[]
+
+| `startDuration`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L106[ui/animation/keyframe-animation.ts:106]

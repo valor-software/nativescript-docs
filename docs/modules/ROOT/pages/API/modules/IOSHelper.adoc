@@ -1,0 +1,296 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / IOSHelper
+
+= Namespace: IOSHelper
+
+Various iOS view helper methods
+
+== Table of contents
+
+=== Classes
+
+* xref:../classes/IOSHelper.UIAdaptivePresentationControllerDelegateImp.adoc[UIAdaptivePresentationControllerDelegateImp]
+* xref:../classes/IOSHelper.UILayoutViewController.adoc[UILayoutViewController]
+* xref:../classes/IOSHelper.UIPopoverPresentationControllerDelegateImp.adoc[UIPopoverPresentationControllerDelegateImp]
+
+=== Variables
+
+* link:IOSHelper.md#traitcollectioncolorappearancechangedevent[traitCollectionColorAppearanceChangedEvent]
+
+=== Functions
+
+* link:IOSHelper.md#expandbeyondsafearea[expandBeyondSafeArea]
+* link:IOSHelper.md#getframefromposition[getFrameFromPosition]
+* link:IOSHelper.md#getparentwithviewcontroller[getParentWithViewController]
+* link:IOSHelper.md#getpositionfromframe[getPositionFromFrame]
+* link:IOSHelper.md#layoutview[layoutView]
+* link:IOSHelper.md#shrinktosafearea[shrinkToSafeArea]
+* link:IOSHelper.md#updateautoadjustscrollinsets[updateAutoAdjustScrollInsets]
+* link:IOSHelper.md#updateconstraints[updateConstraints]
+
+== Variables
+
+[#traitcollectioncolorappearancechangedevent]
+=== traitCollectionColorAppearanceChangedEvent
+
+• `Const` *traitCollectionColorAppearanceChangedEvent*: `string`
+
+String value used when hooking to traitCollectionColorAppearanceChangedEvent event.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L43[ui/core/view/view-helper/index.d.ts:43]
+
+== Functions
+
+[#expandbeyondsafearea]
+=== expandBeyondSafeArea
+
+▸ *expandBeyondSafeArea*(`view`, `frame`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+
+| `frame`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L56[ui/core/view/view-helper/index.d.ts:56]
+
+'''
+
+[#getframefromposition]
+=== getFrameFromPosition
+
+▸ *getFrameFromPosition*(`position`, `insets?`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `position`
+| `Object`
+
+| `position.bottom`
+| `any`
+
+| `position.left`
+| `any`
+
+| `position.right`
+| `any`
+
+| `position.top`
+| `any`
+
+| `insets?`
+| `Object`
+
+| `insets.bottom`
+| `any`
+
+| `insets.left`
+| `any`
+
+| `insets.right`
+| `any`
+
+| `insets.top`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L54[ui/core/view/view-helper/index.d.ts:54]
+
+'''
+
+[#getparentwithviewcontroller]
+=== getParentWithViewController
+
+▸ *getParentWithViewController*(`view`): xref:../classes/View.adoc[`View`]
+
+Returns a view with viewController or undefined if no such found along the view's parent chain.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `view`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+| The view form which to start the search.
+|===
+
+==== Returns
+
+xref:../classes/View.adoc[`View`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L49[ui/core/view/view-helper/index.d.ts:49]
+
+'''
+
+[#getpositionfromframe]
+=== getPositionFromFrame
+
+▸ *getPositionFromFrame*(`frame`): `Object`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `frame`
+| `any`
+|===
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `bottom`
+| `any`
+
+| `left`
+| `any`
+
+| `right`
+| `any`
+
+| `top`
+| `any`
+|===
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L53[ui/core/view/view-helper/index.d.ts:53]
+
+'''
+
+[#layoutview]
+=== layoutView
+
+▸ *layoutView*(`controller`, `owner`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `controller`
+| `any`
+
+| `owner`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L52[ui/core/view/view-helper/index.d.ts:52]
+
+'''
+
+[#shrinktosafearea]
+=== shrinkToSafeArea
+
+▸ *shrinkToSafeArea*(`view`, `frame`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+
+| `frame`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L55[ui/core/view/view-helper/index.d.ts:55]
+
+'''
+
+[#updateautoadjustscrollinsets]
+=== updateAutoAdjustScrollInsets
+
+▸ *updateAutoAdjustScrollInsets*(`controller`, `owner`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `controller`
+| `any`
+
+| `owner`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L50[ui/core/view/view-helper/index.d.ts:50]
+
+'''
+
+[#updateconstraints]
+=== updateConstraints
+
+▸ *updateConstraints*(`controller`, `owner`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `controller`
+| `any`
+
+| `owner`
+| `Partial`<xref:../classes/View.adoc[`View`]>
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L51[ui/core/view/view-helper/index.d.ts:51]

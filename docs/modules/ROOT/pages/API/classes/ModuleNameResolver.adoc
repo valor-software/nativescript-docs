@@ -1,0 +1,142 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ModuleNameResolver
+
+= Class: ModuleNameResolver
+
+== Table of contents
+
+=== Constructors
+
+* link:ModuleNameResolver.md#constructor[constructor]
+
+=== Properties
+
+* link:ModuleNameResolver.md#_cache[_cache]
+
+=== Methods
+
+* link:ModuleNameResolver.md#clearcache[clearCache]
+* link:ModuleNameResolver.md#getcandidates[getCandidates]
+* link:ModuleNameResolver.md#resolvemodulename[resolveModuleName]
+* link:ModuleNameResolver.md#resolvemodulenameimpl[resolveModuleNameImpl]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new ModuleNameResolver*(`context`, `moduleListProvider?`)
+
+==== Parameters
+
+|===
+| Name | Type | Default value
+
+| `context`
+| xref:../interfaces/PlatformContext.adoc[`PlatformContext`]
+| `undefined`
+
+| `moduleListProvider`
+| link:../modules.md#modulelistprovider[`ModuleListProvider`]
+| `global.getRegisteredModules`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L14[module-name-resolver/index.ts:14]
+
+== Properties
+
+[#_cache]
+=== _cache
+
+• `Private` *_cache*: `Object` = `{}`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L12[module-name-resolver/index.ts:12]
+
+== Methods
+
+[#clearcache]
+=== clearCache
+
+▸ *clearCache*(): `void`
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L31[module-name-resolver/index.ts:31]
+
+'''
+
+[#getcandidates]
+=== getCandidates
+
+▸ `Private` *getCandidates*(`path`, `ext`): `string`[]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+
+| `ext`
+| `string`
+|===
+
+==== Returns
+
+`string`[]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L48[module-name-resolver/index.ts:48]
+
+'''
+
+[#resolvemodulename]
+=== resolveModuleName
+
+▸ *resolveModuleName*(`path`, `ext`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+
+| `ext`
+| `string`
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L16[module-name-resolver/index.ts:16]
+
+'''
+
+[#resolvemodulenameimpl]
+=== resolveModuleNameImpl
+
+▸ `Private` *resolveModuleNameImpl*(`path`, `ext`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+
+| `ext`
+| `string`
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L35[module-name-resolver/index.ts:35]

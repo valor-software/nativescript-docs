@@ -1,0 +1,140 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:knownFolders.adoc[knownFolders] / ios
+
+= Namespace: ios
+
+xref:knownFolders.adoc[knownFolders].ios
+
+== Table of contents
+
+=== Functions
+
+* link:knownFolders.ios.md#desktop[desktop]
+* link:knownFolders.ios.md#developer[developer]
+* link:knownFolders.ios.md#downloads[downloads]
+* link:knownFolders.ios.md#library[library]
+* link:knownFolders.ios.md#movies[movies]
+* link:knownFolders.ios.md#music[music]
+* link:knownFolders.ios.md#pictures[pictures]
+* link:knownFolders.ios.md#sharedpublic[sharedPublic]
+
+== Functions
+
+[#desktop]
+=== desktop
+
+▸ *desktop*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L639[file-system/index.ts:639]
+
+'''
+
+[#developer]
+=== developer
+
+▸ *developer*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L623[file-system/index.ts:623]
+
+'''
+
+[#downloads]
+=== downloads
+
+▸ *downloads*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L655[file-system/index.ts:655]
+
+'''
+
+[#library]
+=== library
+
+▸ *library*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L607[file-system/index.ts:607]
+
+'''
+
+[#movies]
+=== movies
+
+▸ *movies*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L671[file-system/index.ts:671]
+
+'''
+
+[#music]
+=== music
+
+▸ *music*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L687[file-system/index.ts:687]
+
+'''
+
+[#pictures]
+=== pictures
+
+▸ *pictures*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L703[file-system/index.ts:703]
+
+'''
+
+[#sharedpublic]
+=== sharedPublic
+
+▸ *sharedPublic*(): xref:../classes/Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:../classes/Folder.adoc[`Folder`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L719[file-system/index.ts:719]

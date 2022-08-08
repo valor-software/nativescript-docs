@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / AutofillType
+
+= Namespace: AutofillType
+
+xref:CoreTypes.adoc[CoreTypes].AutofillType
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.AutofillType.md#none[none]
+* link:CoreTypes.AutofillType.md#password[password]
+* link:CoreTypes.AutofillType.md#username[username]
+
+== Variables
+
+[#none]
+=== none
+
+• `Const` *none*: `"none"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L48[core-types/index.ts:48]
+
+'''
+
+[#password]
+=== password
+
+• `Const` *password*: `"password"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L47[core-types/index.ts:47]
+
+'''
+
+[#username]
+=== username
+
+• `Const` *username*: `"username"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L46[core-types/index.ts:46]

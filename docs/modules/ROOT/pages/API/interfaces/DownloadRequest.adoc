@@ -1,0 +1,105 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DownloadRequest
+
+= Interface: DownloadRequest
+
+Represents a single download request.
+
+== Table of contents
+
+=== Properties
+
+* link:DownloadRequest.md#completed[completed]
+* link:DownloadRequest.md#error[error]
+* link:DownloadRequest.md#key[key]
+* link:DownloadRequest.md#url[url]
+
+== Properties
+
+[#completed]
+=== completed
+
+• `Optional` *completed*: (`image`: `any`, `key`: `string`) \=> `void`
+
+==== Type declaration
+
+▸ (`image`, `key`): `void`
+
+An optional function to be called when the download is complete.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `image`
+| `any`
+
+| `key`
+| `string`
+|===
+
+===== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L19[ui/image-cache/index.d.ts:19]
+
+'''
+
+[#error]
+=== error
+
+• `Optional` *error*: (`key`: `string`) \=> `void`
+
+==== Type declaration
+
+▸ (`key`): `void`
+
+An optional function to be called if the download errors.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `key`
+| `string`
+|===
+
+===== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L23[ui/image-cache/index.d.ts:23]
+
+'''
+
+[#key]
+=== key
+
+• *key*: `string`
+
+The key used to cache the image.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L15[ui/image-cache/index.d.ts:15]
+
+'''
+
+[#url]
+=== url
+
+• *url*: `string`
+
+The url of the image.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L11[ui/image-cache/index.d.ts:11]

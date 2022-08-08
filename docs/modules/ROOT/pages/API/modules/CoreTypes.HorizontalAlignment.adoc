@@ -1,0 +1,113 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / HorizontalAlignment
+
+= Namespace: HorizontalAlignment
+
+xref:CoreTypes.adoc[CoreTypes].HorizontalAlignment
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.HorizontalAlignment.md#center[center]
+* link:CoreTypes.HorizontalAlignment.md#left[left]
+* link:CoreTypes.HorizontalAlignment.md#right[right]
+* link:CoreTypes.HorizontalAlignment.md#stretch[stretch]
+
+=== Functions
+
+* link:CoreTypes.HorizontalAlignment.md#isvalid[isValid]
+* link:CoreTypes.HorizontalAlignment.md#parse[parse]
+
+== Variables
+
+[#center]
+=== center
+
+• `Const` *center*: `"center"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L107[core-types/index.ts:107]
+
+'''
+
+[#left]
+=== left
+
+• `Const` *left*: `"left"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L106[core-types/index.ts:106]
+
+'''
+
+[#right]
+=== right
+
+• `Const` *right*: `"right"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L108[core-types/index.ts:108]
+
+'''
+
+[#stretch]
+=== stretch
+
+• `Const` *stretch*: `"stretch"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L109[core-types/index.ts:109]
+
+== Functions
+
+[#isvalid]
+=== isValid
+
+▸ *isValid*(`value`): value is HorizontalAlignmentType
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+value is HorizontalAlignmentType
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+
+'''
+
+[#parse]
+=== parse
+
+▸ *parse*(`value`): link:CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+link:CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]

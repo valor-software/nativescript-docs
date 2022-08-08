@@ -1,0 +1,103 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / WrappedValue
+
+= Class: WrappedValue
+
+== Implements
+
+* xref:WrappedValue.adoc[`WrappedValue`]
+
+== Implemented by
+
+* xref:WrappedValue.adoc[`WrappedValue`]
+
+== Table of contents
+
+=== Constructors
+
+* link:WrappedValue.md#constructor[constructor]
+
+=== Properties
+
+* link:WrappedValue.md#wrapped[wrapped]
+
+=== Methods
+
+* link:WrappedValue.md#unwrap[unwrap]
+* link:WrappedValue.md#wrap[wrap]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new WrappedValue*(`wrapped`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `wrapped`
+| `any`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L32[data/observable/index.ts:32]
+
+== Properties
+
+[#wrapped]
+=== wrapped
+
+• *wrapped*: `any`
+
+==== Implementation of
+
+WrappedValueDefinition.wrapped
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L32[data/observable/index.ts:32]
+
+== Methods
+
+[#unwrap]
+=== unwrap
+
+▸ `Static` *unwrap*(`value`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L34[data/observable/index.ts:34]
+
+'''
+
+[#wrap]
+=== wrap
+
+▸ `Static` *wrap*(`value`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L38[data/observable/index.ts:38]

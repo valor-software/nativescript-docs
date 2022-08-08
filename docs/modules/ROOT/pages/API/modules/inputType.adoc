@@ -1,0 +1,96 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / inputType
+
+= Namespace: inputType
+
+Defines the input type for prompt dialog.
+
+== Table of contents
+
+=== Variables
+
+* link:inputType.md#decimal[decimal]
+* link:inputType.md#email[email]
+* link:inputType.md#number[number]
+* link:inputType.md#password[password]
+* link:inputType.md#phone[phone]
+* link:inputType.md#text[text]
+
+== Variables
+
+[#decimal]
+=== decimal
+
+• `Const` *decimal*: `string`
+
+Decimal input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L29[ui/dialogs/index.d.ts:29]
+
+'''
+
+[#email]
+=== email
+
+• `Const` *email*: `string`
+
+Email input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L19[ui/dialogs/index.d.ts:19]
+
+'''
+
+[#number]
+=== number
+
+• `Const` *number*: `string`
+
+Number input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L24[ui/dialogs/index.d.ts:24]
+
+'''
+
+[#password]
+=== password
+
+• `Const` *password*: `string`
+
+Password input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L14[ui/dialogs/index.d.ts:14]
+
+'''
+
+[#phone]
+=== phone
+
+• `Const` *phone*: `string`
+
+Phone input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L34[ui/dialogs/index.d.ts:34]
+
+'''
+
+[#text]
+=== text
+
+• `Const` *text*: `string`
+
+Plain text input type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L9[ui/dialogs/index.d.ts:9]

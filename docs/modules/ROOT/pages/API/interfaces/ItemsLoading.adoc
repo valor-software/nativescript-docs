@@ -1,0 +1,78 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemsLoading
+
+= Interface: ItemsLoading
+
+Event args for "itemsLoading" event.
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`ItemsLoading`*
+
+== Table of contents
+
+=== Properties
+
+* link:ItemsLoading.md#count[count]
+* link:ItemsLoading.md#eventname[eventName]
+* link:ItemsLoading.md#index[index]
+* link:ItemsLoading.md#object[object]
+
+== Properties
+
+[#count]
+=== count
+
+• *count*: `number`
+
+Number of items to load.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L16[data/virtual-array/index.ts:16]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#index]
+=== index
+
+• *index*: `number`
+
+Start index.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/virtual-array/index.ts#L11[data/virtual-array/index.ts:11]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

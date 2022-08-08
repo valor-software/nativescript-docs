@@ -1,0 +1,72 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TimerInfo
+
+= Interface: TimerInfo
+
+== Table of contents
+
+=== Properties
+
+* link:TimerInfo.md#count[count]
+* link:TimerInfo.md#currentstart[currentStart]
+* link:TimerInfo.md#lasttime[lastTime]
+* link:TimerInfo.md#runcount[runCount]
+* link:TimerInfo.md#totaltime[totalTime]
+
+== Properties
+
+[#count]
+=== count
+
+• *count*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L21[profiling/index.ts:21]
+
+'''
+
+[#currentstart]
+=== currentStart
+
+• *currentStart*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L22[profiling/index.ts:22]
+
+'''
+
+[#lasttime]
+=== lastTime
+
+• `Optional` *lastTime*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L20[profiling/index.ts:20]
+
+'''
+
+[#runcount]
+=== runCount
+
+• *runCount*: `number`
+
+Counts the number of entry and exits a function had.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L26[profiling/index.ts:26]
+
+'''
+
+[#totaltime]
+=== totalTime
+
+• *totalTime*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L19[profiling/index.ts:19]

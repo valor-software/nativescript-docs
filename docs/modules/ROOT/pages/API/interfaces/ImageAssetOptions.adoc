@@ -1,0 +1,58 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ImageAssetOptions
+
+= Interface: ImageAssetOptions
+
+== Table of contents
+
+=== Properties
+
+* link:ImageAssetOptions.md#autoscalefactor[autoScaleFactor]
+* link:ImageAssetOptions.md#height[height]
+* link:ImageAssetOptions.md#keepaspectratio[keepAspectRatio]
+* link:ImageAssetOptions.md#width[width]
+
+== Properties
+
+[#autoscalefactor]
+=== autoScaleFactor
+
+• `Optional` *autoScaleFactor*: `boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L16[image-asset/index.d.ts:16]
+
+'''
+
+[#height]
+=== height
+
+• `Optional` *height*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L14[image-asset/index.d.ts:14]
+
+'''
+
+[#keepaspectratio]
+=== keepAspectRatio
+
+• `Optional` *keepAspectRatio*: `boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L15[image-asset/index.d.ts:15]
+
+'''
+
+[#width]
+=== width
+
+• `Optional` *width*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-asset/index.d.ts#L13[image-asset/index.d.ts:13]

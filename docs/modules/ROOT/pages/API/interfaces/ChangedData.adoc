@@ -1,0 +1,114 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ChangedData
+
+= Interface: ChangedData<T>
+
+Event args for "changed" event.
+
+== Type parameters
+
+|===
+| Name
+
+| `T`
+|===
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`ChangedData`*
+
+== Table of contents
+
+=== Properties
+
+* link:ChangedData.md#action[action]
+* link:ChangedData.md#addedcount[addedCount]
+* link:ChangedData.md#eventname[eventName]
+* link:ChangedData.md#index[index]
+* link:ChangedData.md#object[object]
+* link:ChangedData.md#removed[removed]
+
+== Properties
+
+[#action]
+=== action
+
+• *action*: `string`
+
+Change type.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable-array/index.ts#L20[data/observable-array/index.ts:20]
+
+'''
+
+[#addedcount]
+=== addedCount
+
+• *addedCount*: `number`
+
+Number of added items.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable-array/index.ts#L35[data/observable-array/index.ts:35]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#index]
+=== index
+
+• *index*: `number`
+
+Start index.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable-array/index.ts#L25[data/observable-array/index.ts:25]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#removed]
+=== removed
+
+• *removed*: `T`[]
+
+Removed items.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable-array/index.ts#L30[data/observable-array/index.ts:30]

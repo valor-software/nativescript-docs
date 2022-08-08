@@ -1,0 +1,68 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / SwipeDirection
+
+= Enumeration: SwipeDirection
+
+Defines an enum for swipe gesture direction.
+
+== Table of contents
+
+=== Enumeration Members
+
+* link:SwipeDirection.md#down[down]
+* link:SwipeDirection.md#left[left]
+* link:SwipeDirection.md#right[right]
+* link:SwipeDirection.md#up[up]
+
+== Enumeration Members
+
+[#down]
+=== down
+
+• *down* = `number`
+
+Denotes down direction for swipe gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L104[ui/gestures/index.d.ts:104]
+
+'''
+
+[#left]
+=== left
+
+• *left* = `number`
+
+Denotes left direction for swipe gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L96[ui/gestures/index.d.ts:96]
+
+'''
+
+[#right]
+=== right
+
+• *right* = `number`
+
+Denotes right direction for swipe gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L92[ui/gestures/index.d.ts:92]
+
+'''
+
+[#up]
+=== up
+
+• *up* = `number`
+
+Denotes up direction for swipe gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L100[ui/gestures/index.d.ts:100]

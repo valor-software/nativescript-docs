@@ -1,0 +1,113 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / BackgroundRepeat
+
+= Namespace: BackgroundRepeat
+
+xref:CoreTypes.adoc[CoreTypes].BackgroundRepeat
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.BackgroundRepeat.md#norepeat[noRepeat]
+* link:CoreTypes.BackgroundRepeat.md#repeat[repeat]
+* link:CoreTypes.BackgroundRepeat.md#repeatx[repeatX]
+* link:CoreTypes.BackgroundRepeat.md#repeaty[repeatY]
+
+=== Functions
+
+* link:CoreTypes.BackgroundRepeat.md#isvalid[isValid]
+* link:CoreTypes.BackgroundRepeat.md#parse[parse]
+
+== Variables
+
+[#norepeat]
+=== noRepeat
+
+• `Const` *noRepeat*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'no-repeat'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L245[core-types/index.ts:245]
+
+'''
+
+[#repeat]
+=== repeat
+
+• `Const` *repeat*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L242[core-types/index.ts:242]
+
+'''
+
+[#repeatx]
+=== repeatX
+
+• `Const` *repeatX*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-x'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L243[core-types/index.ts:243]
+
+'''
+
+[#repeaty]
+=== repeatY
+
+• `Const` *repeatY*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-y'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L244[core-types/index.ts:244]
+
+== Functions
+
+[#isvalid]
+=== isValid
+
+▸ *isValid*(`value`): value is BackgroundRepeatType
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+value is BackgroundRepeatType
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+
+'''
+
+[#parse]
+=== parse
+
+▸ *parse*(`value`): link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]

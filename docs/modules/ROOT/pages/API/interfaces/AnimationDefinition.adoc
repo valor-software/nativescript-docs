@@ -1,0 +1,189 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AnimationDefinition
+
+= Interface: AnimationDefinition
+
+Defines animation options for the View.animate method.
+
+== Table of contents
+
+=== Properties
+
+* link:AnimationDefinition.md#backgroundcolor[backgroundColor]
+* link:AnimationDefinition.md#curve[curve]
+* link:AnimationDefinition.md#delay[delay]
+* link:AnimationDefinition.md#duration[duration]
+* link:AnimationDefinition.md#height[height]
+* link:AnimationDefinition.md#iterations[iterations]
+* link:AnimationDefinition.md#opacity[opacity]
+* link:AnimationDefinition.md#rotate[rotate]
+* link:AnimationDefinition.md#scale[scale]
+* link:AnimationDefinition.md#target[target]
+* link:AnimationDefinition.md#translate[translate]
+* link:AnimationDefinition.md#width[width]
+
+== Properties
+
+[#backgroundcolor]
+=== backgroundColor
+
+• `Optional` *backgroundColor*: xref:../classes/Color.adoc[`Color`]
+
+Animates the backgroundColor of the view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L24[ui/animation/index.d.ts:24]
+
+'''
+
+[#curve]
+=== curve
+
+• `Optional` *curve*: `any`
+
+An optional animation curve.
+Possible values are contained in the link:../modules/_ui_enums_.animationcurve.html[AnimationCurve enumeration].
+Alternatively, you can pass an instance of type UIViewAnimationCurve for iOS or android.animation.TimeInterpolator for Android.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L72[ui/animation/index.d.ts:72]
+
+'''
+
+[#delay]
+=== delay
+
+• `Optional` *delay*: `number`
+
+The amount of time, in milliseconds, to delay starting the animation.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L59[ui/animation/index.d.ts:59]
+
+'''
+
+[#duration]
+=== duration
+
+• `Optional` *duration*: `number`
+
+The length of the animation in milliseconds.
+The default duration is 300 milliseconds.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L54[ui/animation/index.d.ts:54]
+
+'''
+
+[#height]
+=== height
+
+• `Optional` *height*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+
+Animates the height of a view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L39[ui/animation/index.d.ts:39]
+
+'''
+
+[#iterations]
+=== iterations
+
+• `Optional` *iterations*: `number`
+
+Specifies how many times the animation should be played.
+Default is 1.
+iOS animations support fractional iterations, i.e.
+1.5.
+To repeat an animation infinitely, use Number.POSITIVE_INFINITY
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L66[ui/animation/index.d.ts:66]
+
+'''
+
+[#opacity]
+=== opacity
+
+• `Optional` *opacity*: `number`
+
+Animates the opacity of the view.
+Value should be a number between 0.0 and 1.0
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L19[ui/animation/index.d.ts:19]
+
+'''
+
+[#rotate]
+=== rotate
+
+• `Optional` *rotate*: `number` | `Point3D`
+
+Animates the rotate affine transform of the view.
+Value should be a number specifying the rotation amount in degrees.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L49[ui/animation/index.d.ts:49]
+
+'''
+
+[#scale]
+=== scale
+
+• `Optional` *scale*: `Pair`
+
+Animates the scale affine transform of the view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L34[ui/animation/index.d.ts:34]
+
+'''
+
+[#target]
+=== target
+
+• `Optional` *target*: xref:../classes/View.adoc[`View`]
+
+The view whose property is to be animated.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L14[ui/animation/index.d.ts:14]
+
+'''
+
+[#translate]
+=== translate
+
+• `Optional` *translate*: `Pair`
+
+Animates the translate affine transform of the view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L29[ui/animation/index.d.ts:29]
+
+'''
+
+[#width]
+=== width
+
+• `Optional` *width*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+
+Animates the width of a view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/index.d.ts#L44[ui/animation/index.d.ts:44]

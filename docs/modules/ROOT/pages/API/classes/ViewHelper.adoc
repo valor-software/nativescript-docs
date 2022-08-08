@@ -1,0 +1,179 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ViewHelper
+
+= Class: ViewHelper
+
+== Table of contents
+
+=== Constructors
+
+* link:ViewHelper.md#constructor[constructor]
+
+=== Methods
+
+* link:ViewHelper.md#combinemeasuredstates[combineMeasuredStates]
+* link:ViewHelper.md#layoutchild[layoutChild]
+* link:ViewHelper.md#measurechild[measureChild]
+* link:ViewHelper.md#resolvesizeandstate[resolveSizeAndState]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new ViewHelper*()
+
+== Methods
+
+[#combinemeasuredstates]
+=== combineMeasuredStates
+
+▸ `Static` *combineMeasuredStates*(`curState`, `newState`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `curState`
+| `number`
+
+| `newState`
+| `any`
+|===
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L33[ui/core/view/view-helper/index.d.ts:33]
+
+'''
+
+[#layoutchild]
+=== layoutChild
+
+▸ `Static` *layoutChild*(`parent`, `child`, `left`, `top`, `right`, `bottom`): `void`
+
+Layout a child by taking into account its margins, horizontal and vertical alignments and a given bounds.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `parent`
+| xref:View.adoc[`View`]
+| This parameter is not used.
+You can pass null.
+
+| `child`
+| xref:View.adoc[`View`]
+| -
+
+| `left`
+| `number`
+| Left position, relative to parent
+
+| `top`
+| `number`
+| Top position, relative to parent
+
+| `right`
+| `number`
+| Right position, relative to parent
+
+| `bottom`
+| `number`
+| Bottom position, relative to parent
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L21[ui/core/view/view-helper/index.d.ts:21]
+
+'''
+
+[#measurechild]
+=== measureChild
+
+▸ `Static` *measureChild*(`parent`, `child`, `widthMeasureSpec`, `heightMeasureSpec`): `Object`
+
+Measure a child by taking into account its margins and a given measureSpecs.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `parent`
+| xref:View.adoc[`View`]
+| This parameter is not used.
+You can pass null.
+
+| `child`
+| xref:View.adoc[`View`]
+| The view to be measured.
+
+| `widthMeasureSpec`
+| `number`
+| -
+
+| `heightMeasureSpec`
+| `number`
+| -
+|===
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `measuredHeight`
+| `number`
+
+| `measuredWidth`
+| `number`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L11[ui/core/view/view-helper/index.d.ts:11]
+
+'''
+
+[#resolvesizeandstate]
+=== resolveSizeAndState
+
+▸ `Static` *resolveSizeAndState*(`size`, `specSize`, `specMode`, `childMeasuredState`): `number`
+
+Utility to reconcile a desired size and state, with constraints imposed by a MeasureSpec.
+Will take the desired size, unless a different size is imposed by the constraints.
+The returned value is a compound integer, with the resolved size in the MEASURED_SIZE_MASK bits and optionally the bit MEASURED_STATE_TOO_SMALL set if the resulting size is smaller than the size the view wants to be.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `size`
+| `number`
+
+| `specSize`
+| `number`
+
+| `specMode`
+| `number`
+
+| `childMeasuredState`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L31[ui/core/view/view-helper/index.d.ts:31]

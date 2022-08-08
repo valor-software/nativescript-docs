@@ -1,0 +1,68 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / GestureStateTypes
+
+= Enumeration: GestureStateTypes
+
+Defines an enum with supported gesture states.
+
+== Table of contents
+
+=== Enumeration Members
+
+* link:GestureStateTypes.md#began[began]
+* link:GestureStateTypes.md#cancelled[cancelled]
+* link:GestureStateTypes.md#changed[changed]
+* link:GestureStateTypes.md#ended[ended]
+
+== Enumeration Members
+
+[#began]
+=== began
+
+• *began* = `number`
+
+Gesture began.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L74[ui/gestures/index.d.ts:74]
+
+'''
+
+[#cancelled]
+=== cancelled
+
+• *cancelled* = `number`
+
+Gesture canceled.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L70[ui/gestures/index.d.ts:70]
+
+'''
+
+[#changed]
+=== changed
+
+• *changed* = `number`
+
+Gesture changed.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L78[ui/gestures/index.d.ts:78]
+
+'''
+
+[#ended]
+=== ended
+
+• *ended* = `number`
+
+Gesture ended.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L82[ui/gestures/index.d.ts:82]

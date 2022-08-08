@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PlatformContext
+
+= Interface: PlatformContext
+
+Used with qualifier matchers and module resolution
+
+== Table of contents
+
+=== Properties
+
+* link:PlatformContext.md#devicetype[deviceType]
+* link:PlatformContext.md#height[height]
+* link:PlatformContext.md#os[os]
+* link:PlatformContext.md#width[width]
+
+== Properties
+
+[#devicetype]
+=== deviceType
+
+• *deviceType*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L13[module-name-resolver/qualifier-matcher/index.ts:13]
+
+'''
+
+[#height]
+=== height
+
+• *height*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L11[module-name-resolver/qualifier-matcher/index.ts:11]
+
+'''
+
+[#os]
+=== os
+
+• *os*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L12[module-name-resolver/qualifier-matcher/index.ts:12]
+
+'''
+
+[#width]
+=== width
+
+• *width*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/qualifier-matcher/index.ts#L10[module-name-resolver/qualifier-matcher/index.ts:10]

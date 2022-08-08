@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / ImageFormat
+
+= Namespace: ImageFormat
+
+xref:CoreTypes.adoc[CoreTypes].ImageFormat
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.ImageFormat.md#jpeg[jpeg]
+* link:CoreTypes.ImageFormat.md#jpg[jpg]
+* link:CoreTypes.ImageFormat.md#png[png]
+
+== Variables
+
+[#jpeg]
+=== jpeg
+
+• `Const` *jpeg*: `string` = `'jpeg'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L219[core-types/index.ts:219]
+
+'''
+
+[#jpg]
+=== jpg
+
+• `Const` *jpg*: `string` = `'jpg'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L220[core-types/index.ts:220]
+
+'''
+
+[#png]
+=== png
+
+• `Const` *png*: `string` = `'png'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L218[core-types/index.ts:218]

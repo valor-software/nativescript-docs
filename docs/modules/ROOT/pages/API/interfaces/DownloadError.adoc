@@ -1,0 +1,78 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DownloadError
+
+= Interface: DownloadError
+
+Provides data for download error.
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`DownloadError`*
+
+== Table of contents
+
+=== Properties
+
+* link:DownloadError.md#error[error]
+* link:DownloadError.md#eventname[eventName]
+* link:DownloadError.md#key[key]
+* link:DownloadError.md#object[object]
+
+== Properties
+
+[#error]
+=== error
+
+• *error*: `Error`
+
+Gets the error.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L142[ui/image-cache/index.d.ts:142]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#key]
+=== key
+
+• *key*: `string`
+
+A string indentifier of the cached image.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/image-cache/index.d.ts#L138[ui/image-cache/index.d.ts:138]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

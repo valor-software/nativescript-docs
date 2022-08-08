@@ -1,0 +1,81 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AccessibilityTrait
+
+= Enumeration: AccessibilityTrait
+
+== Table of contents
+
+=== Enumeration Members
+
+* link:AccessibilityTrait.md#allowsdirectinteraction[AllowsDirectInteraction]
+* link:AccessibilityTrait.md#causespageturn[CausesPageTurn]
+* link:AccessibilityTrait.md#notenabled[NotEnabled]
+* link:AccessibilityTrait.md#selected[Selected]
+* link:AccessibilityTrait.md#updatesfrequently[UpdatesFrequently]
+
+== Enumeration Members
+
+[#allowsdirectinteraction]
+=== AllowsDirectInteraction
+
+• *AllowsDirectInteraction* = `"allowsDirectInteraction"`
+
+The element allows direct touch interaction for VoiceOver users.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L7[accessibility/accessibility-types.ts:7]
+
+'''
+
+[#causespageturn]
+=== CausesPageTurn
+
+• *CausesPageTurn* = `"pageTurn"`
+
+The element should cause an automatic page turn when VoiceOver finishes reading the text within it.
+Note: Requires custom view with accessibilityScroll(...)
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L13[accessibility/accessibility-types.ts:13]
+
+'''
+
+[#notenabled]
+=== NotEnabled
+
+• *NotEnabled* = `"disabled"`
+
+The element is not enabled and does not respond to user interaction.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L18[accessibility/accessibility-types.ts:18]
+
+'''
+
+[#selected]
+=== Selected
+
+• *Selected* = `"selected"`
+
+The element is currently selected.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L23[accessibility/accessibility-types.ts:23]
+
+'''
+
+[#updatesfrequently]
+=== UpdatesFrequently
+
+• *UpdatesFrequently* = `"frequentUpdates"`
+
+The element frequently updates its label or value.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L28[accessibility/accessibility-types.ts:28]

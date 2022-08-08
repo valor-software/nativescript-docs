@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / FontAttributes
+
+= Namespace: FontAttributes
+
+xref:CoreTypes.adoc[CoreTypes].FontAttributes
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.FontAttributes.md#bold[Bold]
+* link:CoreTypes.FontAttributes.md#italic[Italic]
+* link:CoreTypes.FontAttributes.md#normal[Normal]
+
+== Variables
+
+[#bold]
+=== Bold
+
+• `Const` *Bold*: `1`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L158[core-types/index.ts:158]
+
+'''
+
+[#italic]
+=== Italic
+
+• `Const` *Italic*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L159[core-types/index.ts:159]
+
+'''
+
+[#normal]
+=== Normal
+
+• `Const` *Normal*: `0`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L157[core-types/index.ts:157]

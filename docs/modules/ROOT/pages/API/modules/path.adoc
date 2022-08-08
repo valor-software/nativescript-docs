@@ -1,0 +1,75 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / path
+
+= Namespace: path
+
+== Table of contents
+
+=== Variables
+
+* link:path.md#separator[separator]
+
+=== Functions
+
+* link:path.md#join[join]
+* link:path.md#normalize[normalize]
+
+== Variables
+
+[#separator]
+=== separator
+
+• `Const` *separator*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L762[file-system/index.ts:762]
+
+== Functions
+
+[#join]
+=== join
+
+▸ *join*(...`paths`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `+...paths+`
+| `string`[]
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L756[file-system/index.ts:756]
+
+'''
+
+[#normalize]
+=== normalize
+
+▸ *normalize*(`path`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L752[file-system/index.ts:752]

@@ -1,0 +1,86 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AndroidActivityNewIntentEventData
+
+= Interface: AndroidActivityNewIntentEventData
+
+Data for the Android activity newIntent event.
+
+== Hierarchy
+
+* xref:AndroidActivityEventData.adoc[`AndroidActivityEventData`]
++
+↳ *`AndroidActivityNewIntentEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:AndroidActivityNewIntentEventData.md#activity[activity]
+* link:AndroidActivityNewIntentEventData.md#eventname[eventName]
+* link:AndroidActivityNewIntentEventData.md#intent[intent]
+* link:AndroidActivityNewIntentEventData.md#object[object]
+
+== Properties
+
+[#activity]
+=== activity
+
+• *activity*: `any`
+
+The activity.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#activity[activity]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+The name of the event.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
+
+'''
+
+[#intent]
+=== intent
+
+• *intent*: `any`
+
+The intent.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L477[application/index.d.ts:477]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `any`
+
+The instance that has raised the event.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]

@@ -1,0 +1,92 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadEventData
+
+= Interface: LoadEventData
+
+Event data containing information for the loading events of a WebView.
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`LoadEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:LoadEventData.md#error[error]
+* link:LoadEventData.md#eventname[eventName]
+* link:LoadEventData.md#navigationtype[navigationType]
+* link:LoadEventData.md#object[object]
+* link:LoadEventData.md#url[url]
+
+== Properties
+
+[#error]
+=== error
+
+• *error*: `string`
+
+Gets the error (if any).
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web-view/index.d.ts#L119[ui/web-view/index.d.ts:119]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#navigationtype]
+=== navigationType
+
+• *navigationType*: `NavigationType`
+
+Gets the navigation type of the web-view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web-view/index.d.ts#L114[ui/web-view/index.d.ts:114]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#url]
+=== url
+
+• *url*: `string`
+
+Gets the url of the web-view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web-view/index.d.ts#L109[ui/web-view/index.d.ts:109]

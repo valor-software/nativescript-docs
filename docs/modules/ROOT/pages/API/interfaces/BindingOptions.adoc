@@ -1,0 +1,69 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / BindingOptions
+
+= Interface: BindingOptions
+
+The options object used in the Bindable.bind method.
+
+== Table of contents
+
+=== Properties
+
+* link:BindingOptions.md#expression[expression]
+* link:BindingOptions.md#sourceproperty[sourceProperty]
+* link:BindingOptions.md#targetproperty[targetProperty]
+* link:BindingOptions.md#twoway[twoWay]
+
+== Properties
+
+[#expression]
+=== expression
+
+• `Optional` *expression*: `string`
+
+An expression used for calculations (convertions) based on the value of the property.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L70[ui/core/bindable/index.ts:70]
+
+'''
+
+[#sourceproperty]
+=== sourceProperty
+
+• *sourceProperty*: `string`
+
+The property name of the source object (typically the ViewModel) to bind to.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L58[ui/core/bindable/index.ts:58]
+
+'''
+
+[#targetproperty]
+=== targetProperty
+
+• *targetProperty*: `string`
+
+The property name of the target object (that is the Bindable instance) to bind the source property to.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L62[ui/core/bindable/index.ts:62]
+
+'''
+
+[#twoway]
+=== twoWay
+
+• `Optional` *twoWay*: `boolean`
+
+True to establish a two-way binding, false otherwise.
+A two-way binding will synchronize both the source and the target property values regardless of which one initiated the change.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/bindable/index.ts#L66[ui/core/bindable/index.ts:66]

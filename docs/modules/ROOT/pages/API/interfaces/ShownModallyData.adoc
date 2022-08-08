@@ -1,0 +1,79 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShownModallyData
+
+= Interface: ShownModallyData
+
+Defines the data for the shownModally event.
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`ShownModallyData`*
+
+== Table of contents
+
+=== Properties
+
+* link:ShownModallyData.md#closecallback[closeCallback]
+* link:ShownModallyData.md#context[context]
+* link:ShownModallyData.md#eventname[eventName]
+* link:ShownModallyData.md#object[object]
+
+== Properties
+
+[#closecallback]
+=== closeCallback
+
+• `Optional` *closeCallback*: `Function`
+
+A callback to call when you want to close the modally shown view.
+Pass in any kind of arguments and you will receive when the callback parameter of View.showModal is executed.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L97[ui/core/view/index.d.ts:97]
+
+'''
+
+[#context]
+=== context
+
+• `Optional` *context*: `any`
+
+The context (optional, may be undefined) passed to the view when shown modally.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L90[ui/core/view/index.d.ts:90]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

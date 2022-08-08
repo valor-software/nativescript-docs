@@ -1,0 +1,155 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Builder
+
+= Class: Builder
+
+== Table of contents
+
+=== Constructors
+
+* link:Builder.md#constructor[constructor]
+
+=== Properties
+
+* link:Builder.md#knowncollections[knownCollections]
+* link:Builder.md#knownmultitemplates[knownMultiTemplates]
+* link:Builder.md#knowntemplates[knownTemplates]
+
+=== Methods
+
+* link:Builder.md#createviewfromentry[createViewFromEntry]
+* link:Builder.md#load[load]
+* link:Builder.md#parse[parse]
+* link:Builder.md#parsemultipletemplates[parseMultipleTemplates]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Builder*()
+
+== Properties
+
+[#knowncollections]
+=== knownCollections
+
+▪ `Static` *knownCollections*: `Set`<``string``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L33[ui/builder/index.ts:33]
+
+'''
+
+[#knownmultitemplates]
+=== knownMultiTemplates
+
+▪ `Static` *knownMultiTemplates*: `Set`<``string``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L32[ui/builder/index.ts:32]
+
+'''
+
+[#knowntemplates]
+=== knownTemplates
+
+▪ `Static` *knownTemplates*: `Set`<``string``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L31[ui/builder/index.ts:31]
+
+== Methods
+
+[#createviewfromentry]
+=== createViewFromEntry
+
+▸ `Static` *createViewFromEntry*(`entry`): xref:View.adoc[`View`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| xref:../interfaces/ViewEntry.adoc[`ViewEntry`]
+|===
+
+==== Returns
+
+xref:View.adoc[`View`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L35[ui/builder/index.ts:35]
+
+'''
+
+[#load]
+=== load
+
+▸ `Static` *load*(`pathOrOptions`, `context?`): xref:View.adoc[`View`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `pathOrOptions`
+| `string` \| xref:../interfaces/LoadOptions.adoc[`LoadOptions`]
+
+| `context?`
+| `any`
+|===
+
+==== Returns
+
+xref:View.adoc[`View`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L79[ui/builder/index.ts:79]
+
+'''
+
+[#parse]
+=== parse
+
+▸ `Static` *parse*(`value`, `context?`): xref:View.adoc[`View`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string` \| xref:../interfaces/Template.adoc[`Template`]
+
+| `context?`
+| `any`
+|===
+
+==== Returns
+
+xref:View.adoc[`View`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L68[ui/builder/index.ts:68]
+
+'''
+
+[#parsemultipletemplates]
+=== parseMultipleTemplates
+
+▸ `Static` *parseMultipleTemplates*(`value`, `context`): xref:../interfaces/KeyedTemplate.adoc[`KeyedTemplate`][]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+
+| `context`
+| `any`
+|===
+
+==== Returns
+
+xref:../interfaces/KeyedTemplate.adoc[`KeyedTemplate`][]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L92[ui/builder/index.ts:92]

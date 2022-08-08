@@ -1,0 +1,49 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:../modules/IOSHelper.adoc[IOSHelper] / UIPopoverPresentationControllerDelegateImp
+
+= Class: UIPopoverPresentationControllerDelegateImp
+
+xref:../modules/IOSHelper.adoc[IOSHelper].UIPopoverPresentationControllerDelegateImp
+
+== Table of contents
+
+=== Constructors
+
+* link:IOSHelper.UIPopoverPresentationControllerDelegateImp.md#constructor[constructor]
+
+=== Methods
+
+* link:IOSHelper.UIPopoverPresentationControllerDelegateImp.md#initwithownerandcallback[initWithOwnerAndCallback]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new UIPopoverPresentationControllerDelegateImp*()
+
+== Methods
+
+[#initwithownerandcallback]
+=== initWithOwnerAndCallback
+
+▸ `Static` *initWithOwnerAndCallback*(`owner`, `whenClosedCallback`): xref:IOSHelper.UIPopoverPresentationControllerDelegateImp.adoc[`UIPopoverPresentationControllerDelegateImp`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `owner`
+| `WeakRef`<``Partial``<xref:View.adoc[`View`]>>
+
+| `whenClosedCallback`
+| `Function`
+|===
+
+==== Returns
+
+xref:IOSHelper.UIPopoverPresentationControllerDelegateImp.adoc[`UIPopoverPresentationControllerDelegateImp`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L64[ui/core/view/view-helper/index.d.ts:64]

@@ -1,0 +1,116 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Length
+
+= Namespace: Length
+
+== Table of contents
+
+=== Functions
+
+* link:Length.md#converttostring[convertToString]
+* link:Length.md#equals[equals]
+* link:Length.md#parse[parse]
+* link:Length.md#todevicepixels[toDevicePixels]
+
+== Functions
+
+[#converttostring]
+=== convertToString
+
+▸ *convertToString*(`length`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L183[ui/styling/style-properties.ts:183]
+
+'''
+
+[#equals]
+=== equals
+
+▸ *equals*(`a`, `b`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| link:CoreTypes.md#lengthtype[`LengthType`]
+
+| `b`
+| link:CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L178[ui/styling/style-properties.ts:178]
+
+'''
+
+[#parse]
+=== parse
+
+▸ *parse*(`fromValue`): link:CoreTypes.md#lengthtype[`LengthType`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `fromValue`
+| `string` \| `number` \| link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+|===
+
+==== Returns
+
+link:CoreTypes.md#lengthtype[`LengthType`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L151[ui/styling/style-properties.ts:151]
+
+'''
+
+[#todevicepixels]
+=== toDevicePixels
+
+▸ *toDevicePixels*(`length`, `auto?`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.md#lengthtype[`LengthType`]
+
+| `auto?`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L180[ui/styling/style-properties.ts:180]

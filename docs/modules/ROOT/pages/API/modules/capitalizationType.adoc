@@ -4,6 +4,8 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / capitalizati
 
 = Namespace: capitalizationType
 
+Defines the capitalization type for prompt dialog.
+
 == Table of contents
 
 === Variables
@@ -15,9 +17,12 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / capitalizati
 
 == Variables
 
+[#all]
 === all
 
 • `Const` *all*: `string`
+
+Capitalizes every character.
 
 ==== Defined in
 
@@ -25,19 +30,23 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 '''
 
+[#none]
 === none
 
 • `Const` *none*: `string`
 
-==== Defined in
+No automatic capitalization.
 
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L44[ui/dialogs/index.d.ts:44]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L44[ui/dialogs/index.d.ts:44]
 
 '''
 
+[#sentences]
 === sentences
 
 • `Const` *sentences*: `string`
+
+Capitalize the first word of each sentence.
 
 ==== Defined in
 
@@ -45,9 +54,12 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 '''
 
+[#words]
 === words
 
 • `Const` *words*: `string`
+
+Capitalize the first letter of every word.
 
 ==== Defined in
 

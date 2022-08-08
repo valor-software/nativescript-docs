@@ -1,0 +1,809 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Color
+
+= Class: Color
+
+Represents a color object.
+Stores all color components (alpha (opacity), red, green, blue) in a [0..255] range.
+
+== Table of contents
+
+=== Constructors
+
+* link:Color.md#constructor[constructor]
+
+=== Properties
+
+* link:Color.md#a[a]
+* link:Color.md#android[android]
+* link:Color.md#argb[argb]
+* link:Color.md#b[b]
+* link:Color.md#g[g]
+* link:Color.md#hex[hex]
+* link:Color.md#ios[ios]
+* link:Color.md#name[name]
+* link:Color.md#r[r]
+
+=== Methods
+
+* link:Color.md#brighten[brighten]
+* link:Color.md#complement[complement]
+* link:Color.md#darken[darken]
+* link:Color.md#desaturate[desaturate]
+* link:Color.md#equals[equals]
+* link:Color.md#getbrightness[getBrightness]
+* link:Color.md#getluminance[getLuminance]
+* link:Color.md#greyscale[greyscale]
+* link:Color.md#isdark[isDark]
+* link:Color.md#islight[isLight]
+* link:Color.md#lighten[lighten]
+* link:Color.md#saturate[saturate]
+* link:Color.md#setalpha[setAlpha]
+* link:Color.md#spin[spin]
+* link:Color.md#tohsl[toHsl]
+* link:Color.md#tohslstring[toHslString]
+* link:Color.md#tohsv[toHsv]
+* link:Color.md#tohsvstring[toHsvString]
+* link:Color.md#torgbstring[toRgbString]
+* link:Color.md#equals-1[equals]
+* link:Color.md#fromhsl[fromHSL]
+* link:Color.md#fromhsv[fromHSV]
+* link:Color.md#fromioscolor[fromIosColor]
+* link:Color.md#isvalid[isValid]
+* link:Color.md#mix[mix]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Color*(`knownColor`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `knownColor`
+| `string`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L5[color/index.d.ts:5]
+
+• *new Color*(`hex`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `hex`
+| `string`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L6[color/index.d.ts:6]
+
+• *new Color*(`argb`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `argb`
+| `number`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L7[color/index.d.ts:7]
+
+• *new Color*(`alpha`, `red`, `green`, `blue`, `type?`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `alpha`
+| `number`
+
+| `red`
+| `number`
+
+| `green`
+| `number`
+
+| `blue`
+| `number`
+
+| `type?`
+| `"rgb"` \| `"hsl"` \| `"hsv"`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L8[color/index.d.ts:8]
+
+== Properties
+
+[#a]
+=== a
+
+• *a*: `number`
+
+Gets the Alpha component (in the [0, 255] range) of this color.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L13[color/index.d.ts:13]
+
+'''
+
+[#android]
+=== android
+
+• *android*: `number`
+
+Gets the android-specific integer value representation.
+Same as the Argb one.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L48[color/index.d.ts:48]
+
+'''
+
+[#argb]
+=== argb
+
+• *argb*: `number`
+
+Gets the Argb Number representation of this color where each 8 bits represent a single color component.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L38[color/index.d.ts:38]
+
+'''
+
+[#b]
+=== b
+
+• *b*: `number`
+
+Gets the Blue component (in the [0, 255] range) of this color.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L28[color/index.d.ts:28]
+
+'''
+
+[#g]
+=== g
+
+• *g*: `number`
+
+Gets the Green component (in the [0, 255] range) of this color.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L23[color/index.d.ts:23]
+
+'''
+
+[#hex]
+=== hex
+
+• *hex*: `string`
+
+Gets the Hexadecimal string representation of this color.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L33[color/index.d.ts:33]
+
+'''
+
+[#ios]
+=== ios
+
+• *ios*: `any`
+
+Gets the iOS-specific UIColor value representation.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L53[color/index.d.ts:53]
+
+'''
+
+[#name]
+=== name
+
+• *name*: `string`
+
+Gets the known name of this instance.
+Defined only if it has been constructed from a known color name - e.g.
+"red".
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L43[color/index.d.ts:43]
+
+'''
+
+[#r]
+=== r
+
+• *r*: `number`
+
+Gets the Red component (in the [0, 255] range) of this color.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L18[color/index.d.ts:18]
+
+== Methods
+
+[#brighten]
+=== brighten
+
+▸ *brighten*(`amount`): xref:Color.adoc[`Color`]
+
+Brighten the color a given amount, from 0 to 100.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L172[color/index.d.ts:172]
+
+'''
+
+[#complement]
+=== complement
+
+▸ *complement*(): xref:Color.adoc[`Color`]
+
+returns the color complement
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L192[color/index.d.ts:192]
+
+'''
+
+[#darken]
+=== darken
+
+▸ *darken*(`amount`): xref:Color.adoc[`Color`]
+
+Darken the color a given amount, from 0 to 100.
+Providing 100 will always return black.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L179[color/index.d.ts:179]
+
+'''
+
+[#desaturate]
+=== desaturate
+
+▸ *desaturate*(`amount`): xref:Color.adoc[`Color`]
+
+Desaturate the color a given amount, from 0 to 100.
+Providing 100 will is the same as calling greyscale.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L143[color/index.d.ts:143]
+
+'''
+
+[#equals]
+=== equals
+
+▸ *equals*(`value`): `boolean`
+
+Specifies whether this Color is equal to the Color parameter.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `value`
+| xref:Color.adoc[`Color`]
+| The Color to test.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L59[color/index.d.ts:59]
+
+'''
+
+[#getbrightness]
+=== getBrightness
+
+▸ *getBrightness*(): `number`
+
+return the http://www.w3.org/TR/AERT#color-contrast[brightness]
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L95[color/index.d.ts:95]
+
+'''
+
+[#getluminance]
+=== getLuminance
+
+▸ *getLuminance*(): `number`
+
+return the http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef[luminance]
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L100[color/index.d.ts:100]
+
+'''
+
+[#greyscale]
+=== greyscale
+
+▸ *greyscale*(): xref:Color.adoc[`Color`]
+
+Completely desaturates a color into greyscale.
+Same as calling desaturate(100).
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L157[color/index.d.ts:157]
+
+'''
+
+[#isdark]
+=== isDark
+
+▸ *isDark*(): `boolean`
+
+return true if brightenss < 128
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L83[color/index.d.ts:83]
+
+'''
+
+[#islight]
+=== isLight
+
+▸ *isLight*(): `boolean`
+
+return true if brightenss >= 128
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L89[color/index.d.ts:89]
+
+'''
+
+[#lighten]
+=== lighten
+
+▸ *lighten*(`amount`): xref:Color.adoc[`Color`]
+
+Lighten the color a given amount, from 0 to 100.
+Providing 100 will always return white.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+olor : Color
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L165[color/index.d.ts:165]
+
+'''
+
+[#saturate]
+=== saturate
+
+▸ *saturate*(`amount`): xref:Color.adoc[`Color`]
+
+Saturate the color a given amount, from 0 to 100.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L150[color/index.d.ts:150]
+
+'''
+
+[#setalpha]
+=== setAlpha
+
+▸ *setAlpha*(`a`): xref:Color.adoc[`Color`]
+
+Return this color (as a new Color instance) with the provided alpha
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| `number`
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L107[color/index.d.ts:107]
+
+'''
+
+[#spin]
+=== spin
+
+▸ *spin*(`amount`): xref:Color.adoc[`Color`]
+
+Spin the hue a given amount, from -360 to 360.
+Calling with 0, 360, or -360 will do nothing (since it sets the hue back to what it was before).
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `amount`
+| `number`
+| (between 0 and 100)
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L186[color/index.d.ts:186]
+
+'''
+
+[#tohsl]
+=== toHsl
+
+▸ *toHsl*(): `Object`
+
+return the hsl representation of the color
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `a`
+| `number`
+
+| `h`
+| `number`
+
+| `l`
+| `number`
+
+| `s`
+| `number`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L112[color/index.d.ts:112]
+
+'''
+
+[#tohslstring]
+=== toHslString
+
+▸ *toHslString*(): `string`
+
+return the https://www.w3schools.com/Css/css_colors_hsl.asp[CSS hsv] representation of the color
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L118[color/index.d.ts:118]
+
+'''
+
+[#tohsv]
+=== toHsv
+
+▸ *toHsv*(): `Object`
+
+return the hsv representation of the color
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `a`
+| `number`
+
+| `h`
+| `number`
+
+| `s`
+| `number`
+
+| `v`
+| `number`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L124[color/index.d.ts:124]
+
+'''
+
+[#tohsvstring]
+=== toHsvString
+
+▸ *toHsvString*(): `string`
+
+return the https://www.w3schools.com/Css/css_colors_rgb.asp[CSS hsv] representation of the color
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L130[color/index.d.ts:130]
+
+'''
+
+[#torgbstring]
+=== toRgbString
+
+▸ *toRgbString*(): `string`
+
+return the https://www.w3schools.com/Css/css_colors_rgb.asp[CSS rgb] representation of the color
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L136[color/index.d.ts:136]
+
+'''
+
+[#equals-1]
+=== equals
+
+▸ `Static` *equals*(`value1`, `value2`): `boolean`
+
+Compares two Color instances.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `value1`
+| xref:Color.adoc[`Color`]
+| A Color to compare.
+
+| `value2`
+| xref:Color.adoc[`Color`]
+| A Color to compare.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L66[color/index.d.ts:66]
+
+'''
+
+[#fromhsl]
+=== fromHSL
+
+▸ `Static` *fromHSL*(`a`, `h`, `s`, `l`): xref:Color.adoc[`Color`]
+
+returns a new Color from HSL
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| `any`
+
+| `h`
+| `any`
+
+| `s`
+| `any`
+
+| `l`
+| `any`
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L204[color/index.d.ts:204]
+
+'''
+
+[#fromhsv]
+=== fromHSV
+
+▸ `Static` *fromHSV*(`a`, `h`, `s`, `l`): xref:Color.adoc[`Color`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| `any`
+
+| `h`
+| `any`
+
+| `s`
+| `any`
+
+| `l`
+| `any`
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L205[color/index.d.ts:205]
+
+'''
+
+[#fromioscolor]
+=== fromIosColor
+
+▸ `Static` *fromIosColor*(`value`): xref:Color.adoc[`Color`]
+
+Creates color from iOS-specific UIColor value representation.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L77[color/index.d.ts:77]
+
+'''
+
+[#isvalid]
+=== isValid
+
+▸ `Static` *isValid*(`value`): `boolean`
+
+Validates if a value can be converted to color.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `value`
+| `any`
+| Input string.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L72[color/index.d.ts:72]
+
+'''
+
+[#mix]
+=== mix
+
+▸ `Static` *mix*(`color1`, `color2`, `amount`): xref:Color.adoc[`Color`]
+
+returns the color complement
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `color1`
+| xref:Color.adoc[`Color`]
+
+| `color2`
+| xref:Color.adoc[`Color`]
+
+| `amount`
+| `number`
+|===
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/color/index.d.ts#L198[color/index.d.ts:198]

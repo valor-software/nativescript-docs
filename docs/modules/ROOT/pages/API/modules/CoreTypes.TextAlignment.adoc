@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / TextAlignment
+
+= Namespace: TextAlignment
+
+xref:CoreTypes.adoc[CoreTypes].TextAlignment
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.TextAlignment.md#center[center]
+* link:CoreTypes.TextAlignment.md#justify[justify]
+* link:CoreTypes.TextAlignment.md#left[left]
+* link:CoreTypes.TextAlignment.md#right[right]
+
+== Variables
+
+[#center]
+=== center
+
+• `Const` *center*: `"center"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L63[core-types/index.ts:63]
+
+'''
+
+[#justify]
+=== justify
+
+• `Const` *justify*: `"justify"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L65[core-types/index.ts:65]
+
+'''
+
+[#left]
+=== left
+
+• `Const` *left*: `"left"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L62[core-types/index.ts:62]
+
+'''
+
+[#right]
+=== right
+
+• `Const` *right*: `"right"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L64[core-types/index.ts:64]

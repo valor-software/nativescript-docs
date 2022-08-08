@@ -1,0 +1,499 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Folder
+
+= Class: Folder
+
+== Hierarchy
+
+* xref:FileSystemEntity.adoc[`FileSystemEntity`]
++
+↳ *`Folder`*
+
+== Table of contents
+
+=== Constructors
+
+* link:Folder.md#constructor[constructor]
+
+=== Properties
+
+* link:Folder.md#_extension[_extension]
+* link:Folder.md#_isknown[_isKnown]
+* link:Folder.md#_lastmodified[_lastModified]
+* link:Folder.md#_locked[_locked]
+* link:Folder.md#_name[_name]
+* link:Folder.md#_path[_path]
+
+=== Accessors
+
+* link:Folder.md#isknown[isKnown]
+* link:Folder.md#lastmodified[lastModified]
+* link:Folder.md#name[name]
+* link:Folder.md#parent[parent]
+* link:Folder.md#path[path]
+
+=== Methods
+
+* link:Folder.md#clear[clear]
+* link:Folder.md#clearsync[clearSync]
+* link:Folder.md#contains[contains]
+* link:Folder.md#eachentity[eachEntity]
+* link:Folder.md#getentities[getEntities]
+* link:Folder.md#getentitiessync[getEntitiesSync]
+* link:Folder.md#getfile[getFile]
+* link:Folder.md#getfolder[getFolder]
+* link:Folder.md#remove[remove]
+* link:Folder.md#removesync[removeSync]
+* link:Folder.md#rename[rename]
+* link:Folder.md#renamesync[renameSync]
+* link:Folder.md#exists[exists]
+* link:Folder.md#frompath[fromPath]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Folder*()
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#constructor[constructor]
+
+== Properties
+
+[#_extension]
+=== _extension
+
+• *_extension*: `string`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_extension[_extension]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L53[file-system/index.ts:53]
+
+'''
+
+[#_isknown]
+=== _isKnown
+
+• *_isKnown*: `boolean`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_isknown[_isKnown]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L56[file-system/index.ts:56]
+
+'''
+
+[#_lastmodified]
+=== _lastModified
+
+• *_lastModified*: `Date`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_lastmodified[_lastModified]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L55[file-system/index.ts:55]
+
+'''
+
+[#_locked]
+=== _locked
+
+• *_locked*: `boolean`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_locked[_locked]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L54[file-system/index.ts:54]
+
+'''
+
+[#_name]
+=== _name
+
+• *_name*: `string`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_name[_name]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L52[file-system/index.ts:52]
+
+'''
+
+[#_path]
+=== _path
+
+• *_path*: `string`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_path[_path]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L51[file-system/index.ts:51]
+
+== Accessors
+
+[#isknown]
+=== isKnown
+
+• `get` *isKnown*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L456[file-system/index.ts:456]
+
+'''
+
+[#lastmodified]
+=== lastModified
+
+• `get` *lastModified*(): `Date`
+
+==== Returns
+
+`Date`
+
+==== Inherited from
+
+FileSystemEntity.lastModified
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L178[file-system/index.ts:178]
+
+'''
+
+[#name]
+=== name
+
+• `get` *name*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FileSystemEntity.name
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L170[file-system/index.ts:170]
+
+'''
+
+[#parent]
+=== parent
+
+• `get` *parent*(): xref:Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:Folder.adoc[`Folder`]
+
+==== Inherited from
+
+FileSystemEntity.parent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L58[file-system/index.ts:58]
+
+'''
+
+[#path]
+=== path
+
+• `get` *path*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FileSystemEntity.path
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L174[file-system/index.ts:174]
+
+== Methods
+
+[#clear]
+=== clear
+
+▸ *clear*(): `Promise`<``any``>
+
+==== Returns
+
+`Promise`<``any``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L437[file-system/index.ts:437]
+
+'''
+
+[#clearsync]
+=== clearSync
+
+▸ *clearSync*(`onError?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onError?`
+| (`error`: `any`) \=> `void`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L452[file-system/index.ts:452]
+
+'''
+
+[#contains]
+=== contains
+
+▸ *contains*(`name`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L426[file-system/index.ts:426]
+
+'''
+
+[#eachentity]
+=== eachEntity
+
+▸ *eachEntity*(`onEntity`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onEntity`
+| (`entity`: xref:FileSystemEntity.adoc[`FileSystemEntity`]) \=> `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L525[file-system/index.ts:525]
+
+'''
+
+[#getentities]
+=== getEntities
+
+▸ *getEntities*(): `Promise`<xref:FileSystemEntity.adoc[`FileSystemEntity`][]>
+
+==== Returns
+
+`Promise`<xref:FileSystemEntity.adoc[`FileSystemEntity`][]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L492[file-system/index.ts:492]
+
+'''
+
+[#getentitiessync]
+=== getEntitiesSync
+
+▸ *getEntitiesSync*(`onError?`): xref:FileSystemEntity.adoc[`FileSystemEntity`][]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onError?`
+| (`error`: `any`) \=> `any`
+|===
+
+==== Returns
+
+xref:FileSystemEntity.adoc[`FileSystemEntity`][]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L507[file-system/index.ts:507]
+
+'''
+
+[#getfile]
+=== getFile
+
+▸ *getFile*(`name`): xref:File.adoc[`File`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+xref:File.adoc[`File`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L460[file-system/index.ts:460]
+
+'''
+
+[#getfolder]
+=== getFolder
+
+▸ *getFolder*(`name`): xref:Folder.adoc[`Folder`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+xref:Folder.adoc[`Folder`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L476[file-system/index.ts:476]
+
+'''
+
+[#remove]
+=== remove
+
+▸ *remove*(): `Promise`<``any``>
+
+==== Returns
+
+`Promise`<``any``>
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#remove[remove]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L71[file-system/index.ts:71]
+
+'''
+
+[#removesync]
+=== removeSync
+
+▸ *removeSync*(`onError?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onError?`
+| (`error`: `any`) \=> `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#removesync[removeSync]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L86[file-system/index.ts:86]
+
+'''
+
+[#rename]
+=== rename
+
+▸ *rename*(`newName`): `Promise`<``any``>
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `newName`
+| `string`
+|===
+
+==== Returns
+
+`Promise`<``any``>
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#rename[rename]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L104[file-system/index.ts:104]
+
+'''
+
+[#renamesync]
+=== renameSync
+
+▸ *renameSync*(`newName`, `onError?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `newName`
+| `string`
+
+| `onError?`
+| (`error`: `any`) \=> `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#renamesync[renameSync]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L120[file-system/index.ts:120]
+
+'''
+
+[#exists]
+=== exists
+
+▸ `Static` *exists*(`path`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L422[file-system/index.ts:422]
+
+'''
+
+[#frompath]
+=== fromPath
+
+▸ `Static` *fromPath*(`path`): xref:Folder.adoc[`Folder`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `path`
+| `string`
+|===
+
+==== Returns
+
+xref:Folder.adoc[`Folder`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L409[file-system/index.ts:409]

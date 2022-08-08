@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / AndroidActionBarIconVisibility
+
+= Namespace: AndroidActionBarIconVisibility
+
+xref:CoreTypes.adoc[CoreTypes].AndroidActionBarIconVisibility
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.AndroidActionBarIconVisibility.md#always[always]
+* link:CoreTypes.AndroidActionBarIconVisibility.md#auto[auto]
+* link:CoreTypes.AndroidActionBarIconVisibility.md#never[never]
+
+== Variables
+
+[#always]
+=== always
+
+• `Const` *always*: `string` = `'always'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L203[core-types/index.ts:203]
+
+'''
+
+[#auto]
+=== auto
+
+• `Const` *auto*: `string` = `'auto'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L201[core-types/index.ts:201]
+
+'''
+
+[#never]
+=== never
+
+• `Const` *never*: `string` = `'never'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L202[core-types/index.ts:202]

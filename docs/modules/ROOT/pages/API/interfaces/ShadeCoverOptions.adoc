@@ -1,0 +1,82 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShadeCoverOptions
+
+= Interface: ShadeCoverOptions
+
+== Table of contents
+
+=== Properties
+
+* link:ShadeCoverOptions.md#animation[animation]
+* link:ShadeCoverOptions.md#color[color]
+* link:ShadeCoverOptions.md#ignoreshaderestore[ignoreShadeRestore]
+* link:ShadeCoverOptions.md#opacity[opacity]
+* link:ShadeCoverOptions.md#taptoclose[tapToClose]
+
+== Properties
+
+[#animation]
+=== animation
+
+• `Optional` *animation*: `Object`
+
+==== Type declaration
+
+|===
+| Name | Type
+
+| `enterFrom?`
+| `TransitionAnimation`
+
+| `exitTo?`
+| `TransitionAnimation`
+|===
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L29[ui/layouts/root-layout/index.d.ts:29]
+
+'''
+
+[#color]
+=== color
+
+• `Optional` *color*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L27[ui/layouts/root-layout/index.d.ts:27]
+
+'''
+
+[#ignoreshaderestore]
+=== ignoreShadeRestore
+
+• `Optional` *ignoreShadeRestore*: `boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L33[ui/layouts/root-layout/index.d.ts:33]
+
+'''
+
+[#opacity]
+=== opacity
+
+• `Optional` *opacity*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L26[ui/layouts/root-layout/index.d.ts:26]
+
+'''
+
+[#taptoclose]
+=== tapToClose
+
+• `Optional` *tapToClose*: `boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L28[ui/layouts/root-layout/index.d.ts:28]

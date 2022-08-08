@@ -1,0 +1,246 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / XmlParser
+
+= Class: XmlParser
+
+== Implements
+
+* xref:XmlParser.adoc[`XmlParser`]
+
+== Implemented by
+
+* xref:XmlParser.adoc[`XmlParser`]
+
+== Table of contents
+
+=== Constructors
+
+* link:XmlParser.md#constructor[constructor]
+
+=== Properties
+
+* link:XmlParser.md#_namespacestack[_namespaceStack]
+* link:XmlParser.md#_parser[_parser]
+* link:XmlParser.md#_processnamespaces[_processNamespaces]
+
+=== Accessors
+
+* link:XmlParser.md#angularsyntax[angularSyntax]
+
+=== Methods
+
+* link:XmlParser.md#_resolvenamespace[_resolveNamespace]
+* link:XmlParser.md#parse[parse]
+* link:XmlParser.md#_dereferenceentities[_dereferenceEntities]
+* link:XmlParser.md#_getnamespacesstackentry[_getNamespacesStackEntry]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new XmlParser*(`onEvent`, `onError?`, `processNamespaces?`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onEvent`
+| (`event`: xref:ParserEvent.adoc[`ParserEvent`]) \=> `void`
+
+| `onError?`
+| (`error`: `Error`, `position`: `Position`) \=> `void`
+
+| `processNamespaces?`
+| `boolean`
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L431[xml/index.ts:431]
+
+== Properties
+
+[#_namespacestack]
+=== _namespaceStack
+
+• `Private` *_namespaceStack*: `any`[]
+
+==== Implementation of
+
+definition.XmlParser._namespaceStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L429[xml/index.ts:429]
+
+'''
+
+[#_parser]
+=== _parser
+
+• `Private` *_parser*: `EasySAXParser`
+
+==== Implementation of
+
+definition.XmlParser._parser
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L426[xml/index.ts:426]
+
+'''
+
+[#_processnamespaces]
+=== _processNamespaces
+
+• `Private` *_processNamespaces*: `boolean`
+
+==== Implementation of
+
+definition.XmlParser._processNamespaces
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L428[xml/index.ts:428]
+
+== Accessors
+
+[#angularsyntax]
+=== angularSyntax
+
+• `get` *angularSyntax*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+definition.XmlParser.angularSyntax
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L509[xml/index.ts:509]
+
+• `set` *angularSyntax*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+definition.XmlParser.angularSyntax
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L513[xml/index.ts:513]
+
+== Methods
+
+[#_resolvenamespace]
+=== _resolveNamespace
+
+▸ `Private` *_resolveNamespace*(`fullName`): `Object`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `fullName`
+| `string`
+|===
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `namespace`
+| `string`
+
+| `prefix`
+| `string`
+|===
+
+==== Implementation of
+
+definition.XmlParser._resolveNamespace
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L556[xml/index.ts:556]
+
+'''
+
+[#parse]
+=== parse
+
+▸ *parse*(`xmlString`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `xmlString`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+definition.XmlParser.parse
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L517[xml/index.ts:517]
+
+'''
+
+[#_dereferenceentities]
+=== _dereferenceEntities
+
+▸ `Static` `Private` *_dereferenceEntities*(`s`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `s`
+| `string`
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L591[xml/index.ts:591]
+
+'''
+
+[#_getnamespacesstackentry]
+=== _getNamespacesStackEntry
+
+▸ `Static` `Private` *_getNamespacesStackEntry*(`attributes`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `attributes`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/xml/index.ts#L525[xml/index.ts:525]

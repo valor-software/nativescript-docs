@@ -1,0 +1,70 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadOptions
+
+= Interface: LoadOptions
+
+== Table of contents
+
+=== Properties
+
+* link:LoadOptions.md#attributes[attributes]
+* link:LoadOptions.md#exports[exports]
+* link:LoadOptions.md#name[name]
+* link:LoadOptions.md#page[page]
+* link:LoadOptions.md#path[path]
+
+== Properties
+
+[#attributes]
+=== attributes
+
+• `Optional` *attributes*: `any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L24[ui/builder/index.ts:24]
+
+'''
+
+[#exports]
+=== exports
+
+• `Optional` *exports*: `any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L25[ui/builder/index.ts:25]
+
+'''
+
+[#name]
+=== name
+
+• *name*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L23[ui/builder/index.ts:23]
+
+'''
+
+[#page]
+=== page
+
+• `Optional` *page*: xref:../classes/Page.adoc[`Page`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L26[ui/builder/index.ts:26]
+
+'''
+
+[#path]
+=== path
+
+• *path*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/index.ts#L22[ui/builder/index.ts:22]

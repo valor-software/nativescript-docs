@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / DeviceOrientation
+
+= Namespace: DeviceOrientation
+
+xref:CoreTypes.adoc[CoreTypes].DeviceOrientation
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.DeviceOrientation.md#landscape[landscape]
+* link:CoreTypes.DeviceOrientation.md#portrait[portrait]
+* link:CoreTypes.DeviceOrientation.md#unknown[unknown]
+
+== Variables
+
+[#landscape]
+=== landscape
+
+• `Const` *landscape*: `"landscape"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L100[core-types/index.ts:100]
+
+'''
+
+[#portrait]
+=== portrait
+
+• `Const` *portrait*: `"portrait"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L99[core-types/index.ts:99]
+
+'''
+
+[#unknown]
+=== unknown
+
+• `Const` *unknown*: `"unknown"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L101[core-types/index.ts:101]

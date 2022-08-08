@@ -1,0 +1,40 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyedTemplate
+
+= Interface: KeyedTemplate
+
+Defines an interface for Template with a key.
+
+== Table of contents
+
+=== Properties
+
+* link:KeyedTemplate.md#createview[createView]
+* link:KeyedTemplate.md#key[key]
+
+== Properties
+
+[#createview]
+=== createView
+
+• *createView*: xref:Template.adoc[`Template`]
+
+The function that creates the view.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L942[ui/core/view/index.d.ts:942]
+
+'''
+
+[#key]
+=== key
+
+• *key*: `string`
+
+The unique key of the template.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L937[ui/core/view/index.d.ts:937]

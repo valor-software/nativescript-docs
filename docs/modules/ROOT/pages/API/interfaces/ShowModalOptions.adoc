@@ -1,0 +1,173 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShowModalOptions
+
+= Interface: ShowModalOptions
+
+== Table of contents
+
+=== Properties
+
+* link:ShowModalOptions.md#android[android]
+* link:ShowModalOptions.md#animated[animated]
+* link:ShowModalOptions.md#cancelable[cancelable]
+* link:ShowModalOptions.md#closecallback[closeCallback]
+* link:ShowModalOptions.md#context[context]
+* link:ShowModalOptions.md#fullscreen[fullscreen]
+* link:ShowModalOptions.md#ios[ios]
+* link:ShowModalOptions.md#stretched[stretched]
+
+== Properties
+
+[#android]
+=== android
+
+• `Optional` *android*: `Object`
+
+==== Type declaration
+
+|===
+| Name | Type | Description
+
+| `cancelable?`
+| `boolean`
+| *`Deprecated`*  Use ShowModalOptions.cancelable instead.
+An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode.
+
+| `windowSoftInputMode?`
+| `number`
+| An optional parameter specifying the windowSoftInputMode of the dialog window.
+For possible values see https://developer.android.com/reference/android/view/WindowManager.LayoutParams#softInputMode
+|===
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L85[ui/core/view-base/index.ts:85]
+
+'''
+
+[#animated]
+=== animated
+
+• `Optional` *animated*: `boolean`
+
+An optional parameter specifying whether to show the modal view with animation.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L61[ui/core/view-base/index.ts:61]
+
+'''
+
+[#cancelable]
+=== cancelable
+
+• `Optional` *cancelable*: `boolean`
+
+An optional parameter specifying whether the modal view can be dismissed when not in full-screen mode.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L101[ui/core/view-base/index.ts:101]
+
+'''
+
+[#closecallback]
+=== closeCallback
+
+• *closeCallback*: (...`args`: `any`[]) \=> `void`
+
+==== Type declaration
+
+▸ (...`args`): `void`
+
+A function that will be called when the view is closed.
+Any arguments provided when calling ShownModallyData.closeCallback will be available here.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `+...args+`
+| `any`[]
+|===
+
+===== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L51[ui/core/view-base/index.ts:51]
+
+'''
+
+[#context]
+=== context
+
+• *context*: `any`
+
+Any context you want to pass to the modally shown view.
+This same context will be available in the arguments of the shownModally event handler.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L46[ui/core/view-base/index.ts:46]
+
+'''
+
+[#fullscreen]
+=== fullscreen
+
+• `Optional` *fullscreen*: `boolean`
+
+An optional parameter specifying whether to show the modal view in full-screen mode.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L56[ui/core/view-base/index.ts:56]
+
+'''
+
+[#ios]
+=== ios
+
+• `Optional` *ios*: `Object`
+
+An optional parameter that specify options specific to iOS as an object.
+
+==== Type declaration
+
+|===
+| Name | Type | Description
+
+| `height?`
+| `number`
+| height of the popup dialog
+
+| `presentationStyle?`
+| `any`
+| The UIModalPresentationStyle to be used when showing the dialog in iOS .
+
+| `width?`
+| `number`
+| width of the popup dialog
+|===
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L71[ui/core/view-base/index.ts:71]
+
+'''
+
+[#stretched]
+=== stretched
+
+• `Optional` *stretched*: `boolean`
+
+An optional parameter specifying whether to stretch the modal view when not in full-screen mode.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L66[ui/core/view-base/index.ts:66]

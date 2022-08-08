@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / Accuracy
+
+= Namespace: Accuracy
+
+xref:CoreTypes.adoc[CoreTypes].Accuracy
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.Accuracy.md#any[any]
+* link:CoreTypes.Accuracy.md#high[high]
+
+== Variables
+
+[#any]
+=== any
+
+• `Const` *any*: `number` = `300`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L174[core-types/index.ts:174]
+
+'''
+
+[#high]
+=== high
+
+• `Const` *high*: `number` = `3`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L175[core-types/index.ts:175]

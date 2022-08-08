@@ -1,0 +1,94 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DialogStrings
+
+= Namespace: DialogStrings
+
+== Table of contents
+
+=== Variables
+
+* link:DialogStrings.md#alert[ALERT]
+* link:DialogStrings.md#cancel[CANCEL]
+* link:DialogStrings.md#confirm[CONFIRM]
+* link:DialogStrings.md#login[LOGIN]
+* link:DialogStrings.md#ok[OK]
+* link:DialogStrings.md#prompt[PROMPT]
+* link:DialogStrings.md#string[STRING]
+
+== Variables
+
+[#alert]
+=== ALERT
+
+• `Const` *ALERT*: `"Alert"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L12[ui/dialogs/dialogs-common.ts:12]
+
+'''
+
+[#cancel]
+=== CANCEL
+
+• `Const` *CANCEL*: `"Cancel"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L15[ui/dialogs/dialogs-common.ts:15]
+
+'''
+
+[#confirm]
+=== CONFIRM
+
+• `Const` *CONFIRM*: `"Confirm"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L11[ui/dialogs/dialogs-common.ts:11]
+
+'''
+
+[#login]
+=== LOGIN
+
+• `Const` *LOGIN*: `"Login"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L13[ui/dialogs/dialogs-common.ts:13]
+
+'''
+
+[#ok]
+=== OK
+
+• `Const` *OK*: `"OK"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L14[ui/dialogs/dialogs-common.ts:14]
+
+'''
+
+[#prompt]
+=== PROMPT
+
+• `Const` *PROMPT*: `"Prompt"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L10[ui/dialogs/dialogs-common.ts:10]
+
+'''
+
+[#string]
+=== STRING
+
+• `Const` *STRING*: `"string"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L9[ui/dialogs/dialogs-common.ts:9]

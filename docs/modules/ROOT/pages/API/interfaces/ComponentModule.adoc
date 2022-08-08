@@ -1,0 +1,34 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ComponentModule
+
+= Interface: ComponentModule
+
+== Table of contents
+
+=== Properties
+
+* link:ComponentModule.md#component[component]
+* link:ComponentModule.md#exports[exports]
+
+== Properties
+
+[#component]
+=== component
+
+• *component*: xref:../classes/View.adoc[`View`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/component-builder/index.ts#L14[ui/builder/component-builder/index.ts:14]
+
+'''
+
+[#exports]
+=== exports
+
+• *exports*: `any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/component-builder/index.ts#L15[ui/builder/component-builder/index.ts:15]

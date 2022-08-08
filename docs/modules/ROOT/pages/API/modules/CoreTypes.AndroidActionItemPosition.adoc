@@ -1,0 +1,48 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / AndroidActionItemPosition
+
+= Namespace: AndroidActionItemPosition
+
+xref:CoreTypes.adoc[CoreTypes].AndroidActionItemPosition
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.AndroidActionItemPosition.md#actionbar[actionBar]
+* link:CoreTypes.AndroidActionItemPosition.md#actionbarifroom[actionBarIfRoom]
+* link:CoreTypes.AndroidActionItemPosition.md#popup[popup]
+
+== Variables
+
+[#actionbar]
+=== actionBar
+
+• `Const` *actionBar*: `string` = `'actionBar'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L207[core-types/index.ts:207]
+
+'''
+
+[#actionbarifroom]
+=== actionBarIfRoom
+
+• `Const` *actionBarIfRoom*: `string` = `'actionBarIfRoom'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L208[core-types/index.ts:208]
+
+'''
+
+[#popup]
+=== popup
+
+• `Const` *popup*: `string` = `'popup'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L209[core-types/index.ts:209]

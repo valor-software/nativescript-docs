@@ -1,0 +1,217 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NativeScriptConfig
+
+= Interface: NativeScriptConfig
+
+== Table of contents
+
+=== Properties
+
+* link:NativeScriptConfig.md#android[android]
+* link:NativeScriptConfig.md#apppath[appPath]
+* link:NativeScriptConfig.md#appresourcespath[appResourcesPath]
+* link:NativeScriptConfig.md#cli[cli]
+* link:NativeScriptConfig.md#cssparser[cssParser]
+* link:NativeScriptConfig.md#hooks[hooks]
+* link:NativeScriptConfig.md#id[id]
+* link:NativeScriptConfig.md#ignorednativedependencies[ignoredNativeDependencies]
+* link:NativeScriptConfig.md#ios[ios]
+* link:NativeScriptConfig.md#main[main]
+* link:NativeScriptConfig.md#overridepods[overridePods]
+* link:NativeScriptConfig.md#previewappschema[previewAppSchema]
+* link:NativeScriptConfig.md#profiling[profiling]
+* link:NativeScriptConfig.md#shared[shared]
+* link:NativeScriptConfig.md#webpackconfigpath[webpackConfigPath]
+
+== Properties
+
+[#android]
+=== android
+
+• `Optional` *android*: `IConfigAndroid`
+
+Android specific configurations Various Android specific configurations including Android runtime flags.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L190[config/config.interface.ts:190]
+
+'''
+
+[#apppath]
+=== appPath
+
+• `Optional` *appPath*: `string`
+
+Path to the app source directory This is often the `src` or `app` directory however can be changed.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L167[config/config.interface.ts:167]
+
+'''
+
+[#appresourcespath]
+=== appResourcesPath
+
+• `Optional` *appResourcesPath*: `string`
+
+App_Resources path This is often at the root or inside `src` or `app` directory however can be anywhere.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L172[config/config.interface.ts:172]
+
+'''
+
+[#cli]
+=== cli
+
+• `Optional` *cli*: `IConfigCLI`
+
+Set cli options
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L210[config/config.interface.ts:210]
+
+'''
+
+[#cssparser]
+=== cssParser
+
+• `Optional` *cssParser*: `"rework"` | `"nativescript"` | `"css-tree"`
+
+Set the default CSS parser that NativeScript will use.
+Default: css-tree
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L200[config/config.interface.ts:200]
+
+'''
+
+[#hooks]
+=== hooks
+
+• `Optional` *hooks*: `IConfigHook`[]
+
+Set project persistent hooks to run
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L215[config/config.interface.ts:215]
+
+'''
+
+[#id]
+=== id
+
+• `Optional` *id*: `string`
+
+App's bundle id Used for both iOS and Android if they use the same bundle id.
+You can override per platform in the respective platform specific configurations.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L158[config/config.interface.ts:158]
+
+'''
+
+[#ignorednativedependencies]
+=== ignoredNativeDependencies
+
+• `Optional` *ignoredNativeDependencies*: `string`[]
+
+Optionally specify a list of npm package names for which you would like the NativeScript CLI to ignore when attaching native dependencies to the build
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L205[config/config.interface.ts:205]
+
+'''
+
+[#ios]
+=== ios
+
+• `Optional` *ios*: `IConfigIOS`
+
+iOS specific configurations Various iOS specific configurations including iOS runtime flags.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L185[config/config.interface.ts:185]
+
+'''
+
+[#main]
+=== main
+
+• `Optional` *main*: `string`
+
+App's main entry file - this setting overrides the value set in package.json
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L162[config/config.interface.ts:162]
+
+'''
+
+[#overridepods]
+=== overridePods
+
+• `Optional` *overridePods*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L175[config/config.interface.ts:175]
+
+'''
+
+[#previewappschema]
+=== previewAppSchema
+
+• `Optional` *previewAppSchema*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L174[config/config.interface.ts:174]
+
+'''
+
+[#profiling]
+=== profiling
+
+• `Optional` *profiling*: link:../modules.md#instrumentationmode[`InstrumentationMode`]
+
+Enable profiling for the application.
+Default: no profiling In most cases when profiling, you will want to use "timeline"
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L195[config/config.interface.ts:195]
+
+'''
+
+[#shared]
+=== shared
+
+• `Optional` *shared*: `boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L173[config/config.interface.ts:173]
+
+'''
+
+[#webpackconfigpath]
+=== webpackConfigPath
+
+• `Optional` *webpackConfigPath*: `string`
+
+Custom webpack config path The default is `webpack.config.js` in the root however you can use a custom name and place elsewhere.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/config/config.interface.ts#L180[config/config.interface.ts:180]

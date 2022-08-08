@@ -1,0 +1,43 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TraceWriter
+
+= Interface: TraceWriter
+
+An interface used to define a writer used by trace to print (log).
+
+== Table of contents
+
+=== Methods
+
+* link:TraceWriter.md#write[write]
+
+== Methods
+
+[#write]
+=== write
+
+▸ *write*(`message`, `category`, `type?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `message`
+| `any`
+
+| `category`
+| `string`
+
+| `type?`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L5[trace/index.ts:5]

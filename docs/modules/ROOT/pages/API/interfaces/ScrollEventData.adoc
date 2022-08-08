@@ -1,0 +1,72 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ScrollEventData
+
+= Interface: ScrollEventData
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`ScrollEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:ScrollEventData.md#eventname[eventName]
+* link:ScrollEventData.md#object[object]
+* link:ScrollEventData.md#scrollx[scrollX]
+* link:ScrollEventData.md#scrolly[scrollY]
+
+== Properties
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#scrollx]
+=== scrollX
+
+• *scrollX*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L81[ui/scroll-view/index.d.ts:81]
+
+'''
+
+[#scrolly]
+=== scrollY
+
+• *scrollY*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/scroll-view/index.d.ts#L82[ui/scroll-view/index.d.ts:82]

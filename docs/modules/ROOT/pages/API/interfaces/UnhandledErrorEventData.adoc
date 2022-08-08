@@ -1,0 +1,104 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / UnhandledErrorEventData
+
+= Interface: UnhandledErrorEventData
+
+Event data containing information about unhandled application errors.
+
+== Hierarchy
+
+* xref:ApplicationEventData.adoc[`ApplicationEventData`]
++
+↳ *`UnhandledErrorEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:UnhandledErrorEventData.md#android[android]
+* link:UnhandledErrorEventData.md#error[error]
+* link:UnhandledErrorEventData.md#eventname[eventName]
+* link:UnhandledErrorEventData.md#ios[ios]
+* link:UnhandledErrorEventData.md#object[object]
+
+== Properties
+
+[#android]
+=== android
+
+• `Optional` *android*: `NativeScriptError`
+
+Gets the native Android event arguments.
+Valid only when running on Android.
+
+==== Overrides
+
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#android[android]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L176[application/index.d.ts:176]
+
+'''
+
+[#error]
+=== error
+
+• *error*: `NativeScriptError`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L177[application/index.d.ts:177]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+The name of the event.
+
+==== Inherited from
+
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L119[application/index.d.ts:119]
+
+'''
+
+[#ios]
+=== ios
+
+• `Optional` *ios*: `NativeScriptError`
+
+Gets the native iOS event arguments.
+Valid only when running on iOS.
+
+==== Overrides
+
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#ios[ios]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L175[application/index.d.ts:175]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `any`
+
+The instance that has raised the event.
+
+==== Inherited from
+
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L124[application/index.d.ts:124]

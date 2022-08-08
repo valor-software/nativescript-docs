@@ -1,0 +1,112 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / GestureEventData
+
+= Interface: GestureEventData
+
+Provides gesture event data.
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`GestureEventData`*
++
+↳↳ xref:GestureEventDataWithState.adoc[`GestureEventDataWithState`]
++
+↳↳ xref:TapGestureEventData.adoc[`TapGestureEventData`]
++
+↳↳ xref:SwipeGestureEventData.adoc[`SwipeGestureEventData`]
+
+== Table of contents
+
+=== Properties
+
+* link:GestureEventData.md#android[android]
+* link:GestureEventData.md#eventname[eventName]
+* link:GestureEventData.md#ios[ios]
+* link:GestureEventData.md#object[object]
+* link:GestureEventData.md#type[type]
+* link:GestureEventData.md#view[view]
+
+== Properties
+
+[#android]
+=== android
+
+• *android*: `any`
+
+Gets the underlying native android specific http://developer.android.com/reference/android/view/GestureDetector.html[gesture detector].
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#ios]
+=== ios
+
+• *ios*: `any`
+
+Gets the underlying native iOS specific https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/[UIGestureRecognizer].
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#type]
+=== type
+
+• *type*: xref:../enums/GestureTypes.adoc[`GestureTypes`]
+
+Gets the type of the gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
+
+'''
+
+[#view]
+=== view
+
+• *view*: `Partial`<xref:../classes/View.adoc[`View`]>
+
+Gets the view which originates the gesture.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]

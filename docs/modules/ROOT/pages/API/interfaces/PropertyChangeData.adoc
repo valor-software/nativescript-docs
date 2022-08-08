@@ -1,0 +1,84 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PropertyChangeData
+
+= Interface: PropertyChangeData
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`PropertyChangeData`*
+
+== Table of contents
+
+=== Properties
+
+* link:PropertyChangeData.md#eventname[eventName]
+* link:PropertyChangeData.md#object[object]
+* link:PropertyChangeData.md#oldvalue[oldValue]
+* link:PropertyChangeData.md#propertyname[propertyName]
+* link:PropertyChangeData.md#value[value]
+
+== Properties
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#oldvalue]
+=== oldValue
+
+• `Optional` *oldValue*: `any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L20[data/observable/index.ts:20]
+
+'''
+
+[#propertyname]
+=== propertyName
+
+• *propertyName*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L18[data/observable/index.ts:18]
+
+'''
+
+[#value]
+=== value
+
+• *value*: `any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L19[data/observable/index.ts:19]

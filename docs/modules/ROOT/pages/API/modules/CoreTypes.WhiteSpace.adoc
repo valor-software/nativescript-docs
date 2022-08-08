@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / WhiteSpace
+
+= Namespace: WhiteSpace
+
+xref:CoreTypes.adoc[CoreTypes].WhiteSpace
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.WhiteSpace.md#normal[normal]
+* link:CoreTypes.WhiteSpace.md#nowrap[nowrap]
+
+== Variables
+
+[#normal]
+=== normal
+
+• `Const` *normal*: `"normal"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L85[core-types/index.ts:85]
+
+'''
+
+[#nowrap]
+=== nowrap
+
+• `Const` *nowrap*: `"nowrap"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L86[core-types/index.ts:86]

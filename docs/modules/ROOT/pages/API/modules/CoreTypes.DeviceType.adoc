@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / DeviceType
+
+= Namespace: DeviceType
+
+xref:CoreTypes.adoc[CoreTypes].DeviceType
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.DeviceType.md#phone[Phone]
+* link:CoreTypes.DeviceType.md#tablet[Tablet]
+
+== Variables
+
+[#phone]
+=== Phone
+
+• `Const` *Phone*: `string` = `'Phone'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L163[core-types/index.ts:163]
+
+'''
+
+[#tablet]
+=== Tablet
+
+• `Const` *Tablet*: `string` = `'Tablet'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L164[core-types/index.ts:164]

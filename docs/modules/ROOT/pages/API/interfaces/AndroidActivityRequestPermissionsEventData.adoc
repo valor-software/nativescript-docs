@@ -1,0 +1,114 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AndroidActivityRequestPermissionsEventData
+
+= Interface: AndroidActivityRequestPermissionsEventData
+
+Data for the Android activity onRequestPermissions callback
+
+== Hierarchy
+
+* xref:AndroidActivityEventData.adoc[`AndroidActivityEventData`]
++
+↳ *`AndroidActivityRequestPermissionsEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:AndroidActivityRequestPermissionsEventData.md#activity[activity]
+* link:AndroidActivityRequestPermissionsEventData.md#eventname[eventName]
+* link:AndroidActivityRequestPermissionsEventData.md#grantresults[grantResults]
+* link:AndroidActivityRequestPermissionsEventData.md#object[object]
+* link:AndroidActivityRequestPermissionsEventData.md#permissions[permissions]
+* link:AndroidActivityRequestPermissionsEventData.md#requestcode[requestCode]
+
+== Properties
+
+[#activity]
+=== activity
+
+• *activity*: `any`
+
+The activity.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#activity[activity]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+The name of the event.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
+
+'''
+
+[#grantresults]
+=== grantResults
+
+• *grantResults*: `number`[]
+
+The Granted.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L447[application/index.d.ts:447]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `any`
+
+The instance that has raised the event.
+
+==== Inherited from
+
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]
+
+'''
+
+[#permissions]
+=== permissions
+
+• *permissions*: `string`[]
+
+The Permissions.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L442[application/index.d.ts:442]
+
+'''
+
+[#requestcode]
+=== requestCode
+
+• *requestCode*: `number`
+
+The request code.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L437[application/index.d.ts:437]

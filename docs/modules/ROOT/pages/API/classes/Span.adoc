@@ -1,0 +1,4035 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Span
+
+= Class: Span
+
+== Hierarchy
+
+* xref:ViewBase.adoc[`ViewBase`]
++
+↳ *`Span`*
+
+== Implements
+
+* xref:Span.adoc[`Span`]
+
+== Implemented by
+
+* xref:Span.adoc[`Span`]
+
+== Table of contents
+
+=== Constructors
+
+* link:Span.md#constructor[constructor]
+
+=== Properties
+
+* link:Span.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:Span.md#_context[_context]
+* link:Span.md#_cssstate[_cssState]
+* link:Span.md#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:Span.md#_defaultpaddingleft[_defaultPaddingLeft]
+* link:Span.md#_defaultpaddingright[_defaultPaddingRight]
+* link:Span.md#_defaultpaddingtop[_defaultPaddingTop]
+* link:Span.md#_domid[_domId]
+* link:Span.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:Span.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:Span.md#_ispaddingrelative[_isPaddingRelative]
+* link:Span.md#_isstylescopehost[_isStyleScopeHost]
+* link:Span.md#_isviewbase[_isViewBase]
+* link:Span.md#_modulename[_moduleName]
+* link:Span.md#_oldbottom[_oldBottom]
+* link:Span.md#_oldleft[_oldLeft]
+* link:Span.md#_oldright[_oldRight]
+* link:Span.md#_oldtop[_oldTop]
+* link:Span.md#_stylescope[_styleScope]
+* link:Span.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:Span.md#_suspendedupdates[_suspendedUpdates]
+* link:Span.md#_tappable[_tappable]
+* link:Span.md#_text[_text]
+* link:Span.md#alignself[alignSelf]
+* link:Span.md#bindingcontext[bindingContext]
+* link:Span.md#classname[className]
+* link:Span.md#col[col]
+* link:Span.md#colspan[colSpan]
+* link:Span.md#column[column]
+* link:Span.md#columnspan[columnSpan]
+* link:Span.md#cssclasses[cssClasses]
+* link:Span.md#csspseudoclasses[cssPseudoClasses]
+* link:Span.md#dock[dock]
+* link:Span.md#domnode[domNode]
+* link:Span.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:Span.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:Span.md#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:Span.md#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:Span.md#effectiveheight[effectiveHeight]
+* link:Span.md#effectiveleft[effectiveLeft]
+* link:Span.md#effectivemarginbottom[effectiveMarginBottom]
+* link:Span.md#effectivemarginleft[effectiveMarginLeft]
+* link:Span.md#effectivemarginright[effectiveMarginRight]
+* link:Span.md#effectivemargintop[effectiveMarginTop]
+* link:Span.md#effectiveminheight[effectiveMinHeight]
+* link:Span.md#effectiveminwidth[effectiveMinWidth]
+* link:Span.md#effectivepaddingbottom[effectivePaddingBottom]
+* link:Span.md#effectivepaddingleft[effectivePaddingLeft]
+* link:Span.md#effectivepaddingright[effectivePaddingRight]
+* link:Span.md#effectivepaddingtop[effectivePaddingTop]
+* link:Span.md#effectivetop[effectiveTop]
+* link:Span.md#effectivewidth[effectiveWidth]
+* link:Span.md#flexgrow[flexGrow]
+* link:Span.md#flexshrink[flexShrink]
+* link:Span.md#flexwrapbefore[flexWrapBefore]
+* link:Span.md#id[id]
+* link:Span.md#iscollapsed[isCollapsed]
+* link:Span.md#left[left]
+* link:Span.md#nativeviewprotected[nativeViewProtected]
+* link:Span.md#order[order]
+* link:Span.md#parent[parent]
+* link:Span.md#recyclenativeview[recycleNativeView]
+* link:Span.md#reusable[reusable]
+* link:Span.md#row[row]
+* link:Span.md#rowspan[rowSpan]
+* link:Span.md#top[top]
+* link:Span.md#viewcontroller[viewController]
+* link:Span.md#createdevent[createdEvent]
+* link:Span.md#disposenativeviewevent[disposeNativeViewEvent]
+* link:Span.md#linktapevent[linkTapEvent]
+* link:Span.md#loadedevent[loadedEvent]
+* link:Span.md#propertychangeevent[propertyChangeEvent]
+* link:Span.md#unloadedevent[unloadedEvent]
+
+=== Accessors
+
+* link:Span.md#android[android]
+* link:Span.md#backgroundcolor[backgroundColor]
+* link:Span.md#class[class]
+* link:Span.md#color[color]
+* link:Span.md#fontfamily[fontFamily]
+* link:Span.md#fontsize[fontSize]
+* link:Span.md#fontstyle[fontStyle]
+* link:Span.md#fontweight[fontWeight]
+* link:Span.md#ios[ios]
+* link:Span.md#isloaded[isLoaded]
+* link:Span.md#nativeview[nativeView]
+* link:Span.md#page[page]
+* link:Span.md#parentnode[parentNode]
+* link:Span.md#style[style]
+* link:Span.md#tappable[tappable]
+* link:Span.md#text[text]
+* link:Span.md#textdecoration[textDecoration]
+* link:Span.md#typename[typeName]
+
+=== Methods
+
+* link:Span.md#_addview[_addView]
+* link:Span.md#_addviewcore[_addViewCore]
+* link:Span.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:Span.md#_applyxmlattribute[_applyXmlAttribute]
+* link:Span.md#_batchupdate[_batchUpdate]
+* link:Span.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:Span.md#_createpropertychangedata[_createPropertyChangeData]
+* link:Span.md#_dialogclosed[_dialogClosed]
+* link:Span.md#_emit[_emit]
+* link:Span.md#_gotovisualstate[_goToVisualState]
+* link:Span.md#_inheritstylescope[_inheritStyleScope]
+* link:Span.md#_layoutparent[_layoutParent]
+* link:Span.md#_oncssstatechange[_onCssStateChange]
+* link:Span.md#_onrootviewreset[_onRootViewReset]
+* link:Span.md#_parentchanged[_parentChanged]
+* link:Span.md#_removeview[_removeView]
+* link:Span.md#_removeviewcore[_removeViewCore]
+* link:Span.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:Span.md#_resumenativeupdates[_resumeNativeUpdates]
+* link:Span.md#_settappable[_setTappable]
+* link:Span.md#_settextinternal[_setTextInternal]
+* link:Span.md#_setupasrootview[_setupAsRootView]
+* link:Span.md#_setupui[_setupUI]
+* link:Span.md#_shoulddelaylayout[_shouldDelayLayout]
+* link:Span.md#_suspendnativeupdates[_suspendNativeUpdates]
+* link:Span.md#_teardownui[_tearDownUI]
+* link:Span.md#addeventlistener[addEventListener]
+* link:Span.md#addpseudoclass[addPseudoClass]
+* link:Span.md#bind[bind]
+* link:Span.md#callloaded[callLoaded]
+* link:Span.md#callunloaded[callUnloaded]
+* link:Span.md#closemodal[closeModal]
+* link:Span.md#createnativeview[createNativeView]
+* link:Span.md#deletepseudoclass[deletePseudoClass]
+* link:Span.md#destroynode[destroyNode]
+* link:Span.md#disposenativeview[disposeNativeView]
+* link:Span.md#eachchild[eachChild]
+* link:Span.md#ensuredomnode[ensureDomNode]
+* link:Span.md#get[get]
+* link:Span.md#getviewbydomid[getViewByDomId]
+* link:Span.md#getviewbyid[getViewById]
+* link:Span.md#haslisteners[hasListeners]
+* link:Span.md#initnativeview[initNativeView]
+* link:Span.md#loadview[loadView]
+* link:Span.md#notify[notify]
+* link:Span.md#notifypropertychange[notifyPropertyChange]
+* link:Span.md#off[off]
+* link:Span.md#on[on]
+* link:Span.md#onloaded[onLoaded]
+* link:Span.md#onresumenativeupdates[onResumeNativeUpdates]
+* link:Span.md#onunloaded[onUnloaded]
+* link:Span.md#once[once]
+* link:Span.md#removeeventlistener[removeEventListener]
+* link:Span.md#requestlayout[requestLayout]
+* link:Span.md#resetnativeview[resetNativeView]
+* link:Span.md#set[set]
+* link:Span.md#setinlinestyle[setInlineStyle]
+* link:Span.md#setnativeview[setNativeView]
+* link:Span.md#setproperty[setProperty]
+* link:Span.md#showmodal[showModal]
+* link:Span.md#tostring[toString]
+* link:Span.md#unbind[unbind]
+* link:Span.md#unloadview[unloadView]
+* link:Span.md#addeventlistener-1[addEventListener]
+* link:Span.md#off-1[off]
+* link:Span.md#on-1[on]
+* link:Span.md#once-1[once]
+* link:Span.md#removeeventlistener-1[removeEventListener]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Span*()
+
+==== Inherited from
+
+ViewBase.constructor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L340[ui/core/view-base/index.ts:340]
+
+== Properties
+
+[#_automaticallyadjustsscrollviewinsets]
+=== _automaticallyAdjustsScrollViewInsets
+
+• *_automaticallyAdjustsScrollViewInsets*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._automaticallyAdjustsScrollViewInsets
+
+==== Inherited from
+
+ViewBase._automaticallyAdjustsScrollViewInsets
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L286[ui/core/view-base/index.ts:286]
+
+'''
+
+[#_context]
+=== _context
+
+• *_context*: `any`
+
+==== Implementation of
+
+SpanDefinition._context
+
+==== Inherited from
+
+ViewBase._context
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L277[ui/core/view-base/index.ts:277]
+
+'''
+
+[#_cssstate]
+=== _cssState
+
+• *_cssState*: `CssState`
+
+==== Implementation of
+
+SpanDefinition._cssState
+
+==== Inherited from
+
+ViewBase._cssState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L279[ui/core/view-base/index.ts:279]
+
+'''
+
+[#_defaultpaddingbottom]
+=== _defaultPaddingBottom
+
+• *_defaultPaddingBottom*: `number`
+
+==== Implementation of
+
+SpanDefinition._defaultPaddingBottom
+
+==== Inherited from
+
+ViewBase._defaultPaddingBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L332[ui/core/view-base/index.ts:332]
+
+'''
+
+[#_defaultpaddingleft]
+=== _defaultPaddingLeft
+
+• *_defaultPaddingLeft*: `number`
+
+==== Implementation of
+
+SpanDefinition._defaultPaddingLeft
+
+==== Inherited from
+
+ViewBase._defaultPaddingLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L333[ui/core/view-base/index.ts:333]
+
+'''
+
+[#_defaultpaddingright]
+=== _defaultPaddingRight
+
+• *_defaultPaddingRight*: `number`
+
+==== Implementation of
+
+SpanDefinition._defaultPaddingRight
+
+==== Inherited from
+
+ViewBase._defaultPaddingRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L331[ui/core/view-base/index.ts:331]
+
+'''
+
+[#_defaultpaddingtop]
+=== _defaultPaddingTop
+
+• *_defaultPaddingTop*: `number`
+
+==== Implementation of
+
+SpanDefinition._defaultPaddingTop
+
+==== Inherited from
+
+ViewBase._defaultPaddingTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L330[ui/core/view-base/index.ts:330]
+
+'''
+
+[#_domid]
+=== _domId
+
+• *_domId*: `number`
+
+==== Implementation of
+
+SpanDefinition._domId
+
+==== Inherited from
+
+ViewBase._domId
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L276[ui/core/view-base/index.ts:276]
+
+'''
+
+[#_ignoreflexminwidthheightreset]
+=== _ignoreFlexMinWidthHeightReset
+
+• *_ignoreFlexMinWidthHeightReset*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._ignoreFlexMinWidthHeightReset
+
+==== Inherited from
+
+ViewBase._ignoreFlexMinWidthHeightReset
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L311[ui/core/view-base/index.ts:311]
+
+'''
+
+[#_isaddedtonativevisualtree]
+=== _isAddedToNativeVisualTree
+
+• *_isAddedToNativeVisualTree*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._isAddedToNativeVisualTree
+
+==== Inherited from
+
+ViewBase._isAddedToNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L278[ui/core/view-base/index.ts:278]
+
+'''
+
+[#_ispaddingrelative]
+=== _isPaddingRelative
+
+• *_isPaddingRelative*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._isPaddingRelative
+
+==== Inherited from
+
+ViewBase._isPaddingRelative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L334[ui/core/view-base/index.ts:334]
+
+'''
+
+[#_isstylescopehost]
+=== _isStyleScopeHost
+
+• *_isStyleScopeHost*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._isStyleScopeHost
+
+==== Inherited from
+
+ViewBase._isStyleScopeHost
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L285[ui/core/view-base/index.ts:285]
+
+'''
+
+[#_isviewbase]
+=== _isViewBase
+
+• *_isViewBase*: `boolean`
+
+==== Implementation of
+
+SpanDefinition._isViewBase
+
+==== Inherited from
+
+ViewBase._isViewBase
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L52[data/observable/index.ts:52]
+
+'''
+
+[#_modulename]
+=== _moduleName
+
+• *_moduleName*: `string`
+
+==== Implementation of
+
+SpanDefinition._moduleName
+
+==== Inherited from
+
+ViewBase._moduleName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L336[ui/core/view-base/index.ts:336]
+
+'''
+
+[#_oldbottom]
+=== _oldBottom
+
+• *_oldBottom*: `number`
+
+==== Implementation of
+
+SpanDefinition._oldBottom
+
+==== Inherited from
+
+ViewBase._oldBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L310[ui/core/view-base/index.ts:310]
+
+'''
+
+[#_oldleft]
+=== _oldLeft
+
+• *_oldLeft*: `number`
+
+==== Implementation of
+
+SpanDefinition._oldLeft
+
+==== Inherited from
+
+ViewBase._oldLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L307[ui/core/view-base/index.ts:307]
+
+'''
+
+[#_oldright]
+=== _oldRight
+
+• *_oldRight*: `number`
+
+==== Implementation of
+
+SpanDefinition._oldRight
+
+==== Inherited from
+
+ViewBase._oldRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L309[ui/core/view-base/index.ts:309]
+
+'''
+
+[#_oldtop]
+=== _oldTop
+
+• *_oldTop*: `number`
+
+==== Implementation of
+
+SpanDefinition._oldTop
+
+==== Inherited from
+
+ViewBase._oldTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L308[ui/core/view-base/index.ts:308]
+
+'''
+
+[#_stylescope]
+=== _styleScope
+
+• *_styleScope*: `StyleScope`
+
+==== Implementation of
+
+SpanDefinition._styleScope
+
+==== Inherited from
+
+ViewBase._styleScope
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L280[ui/core/view-base/index.ts:280]
+
+'''
+
+[#_suspendnativeupdatescount]
+=== _suspendNativeUpdatesCount
+
+• *_suspendNativeUpdatesCount*: `number`
+
+==== Implementation of
+
+SpanDefinition._suspendNativeUpdatesCount
+
+==== Inherited from
+
+ViewBase._suspendNativeUpdatesCount
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L284[ui/core/view-base/index.ts:284]
+
+'''
+
+[#_suspendedupdates]
+=== _suspendedUpdates
+
+• *_suspendedUpdates*: `Object`
+
+==== Index signature
+
+▪ [propertyName: `string`]: xref:Property.adoc[`Property`]<xref:ViewBase.adoc[`ViewBase`], `any`> | xref:CssProperty.adoc[`CssProperty`]<xref:Style.adoc[`Style`], `any`> | xref:CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:Style.adoc[`Style`], `any`>
+
+==== Implementation of
+
+SpanDefinition._suspendedUpdates
+
+==== Inherited from
+
+ViewBase._suspendedUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L281[ui/core/view-base/index.ts:281]
+
+'''
+
+[#_tappable]
+=== _tappable
+
+• `Private` *_tappable*: `boolean` = `false`
+
+==== Implementation of
+
+SpanDefinition._tappable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L12[ui/text-base/span.ts:12]
+
+'''
+
+[#_text]
+=== _text
+
+• `Private` *_text*: `string`
+
+==== Implementation of
+
+SpanDefinition._text
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L11[ui/text-base/span.ts:11]
+
+'''
+
+[#alignself]
+=== alignSelf
+
+• *alignSelf*: `AlignSelf`
+
+==== Implementation of
+
+SpanDefinition.alignSelf
+
+==== Inherited from
+
+ViewBase.alignSelf
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L305[ui/core/view-base/index.ts:305]
+
+'''
+
+[#bindingcontext]
+=== bindingContext
+
+• *bindingContext*: `any`
+
+==== Implementation of
+
+SpanDefinition.bindingContext
+
+==== Inherited from
+
+ViewBase.bindingContext
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L268[ui/core/view-base/index.ts:268]
+
+'''
+
+[#classname]
+=== className
+
+• *className*: `string`
+
+==== Implementation of
+
+SpanDefinition.className
+
+==== Inherited from
+
+ViewBase.className
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L274[ui/core/view-base/index.ts:274]
+
+'''
+
+[#col]
+=== col
+
+• *col*: `number`
+
+==== Implementation of
+
+SpanDefinition.col
+
+==== Inherited from
+
+ViewBase.col
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L295[ui/core/view-base/index.ts:295]
+
+'''
+
+[#colspan]
+=== colSpan
+
+• *colSpan*: `number`
+
+==== Implementation of
+
+SpanDefinition.colSpan
+
+==== Inherited from
+
+ViewBase.colSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L298[ui/core/view-base/index.ts:298]
+
+'''
+
+[#column]
+=== column
+
+• *column*: `number`
+
+==== Implementation of
+
+SpanDefinition.column
+
+==== Inherited from
+
+ViewBase.column
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L296[ui/core/view-base/index.ts:296]
+
+'''
+
+[#columnspan]
+=== columnSpan
+
+• *columnSpan*: `number`
+
+==== Implementation of
+
+SpanDefinition.columnSpan
+
+==== Inherited from
+
+ViewBase.columnSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L299[ui/core/view-base/index.ts:299]
+
+'''
+
+[#cssclasses]
+=== cssClasses
+
+• *cssClasses*: `Set`<``string``>
+
+==== Implementation of
+
+SpanDefinition.cssClasses
+
+==== Inherited from
+
+ViewBase.cssClasses
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L553[ui/core/view-base/index.ts:553]
+
+'''
+
+[#csspseudoclasses]
+=== cssPseudoClasses
+
+• *cssPseudoClasses*: `Set`<``string``>
+
+==== Implementation of
+
+SpanDefinition.cssPseudoClasses
+
+==== Inherited from
+
+ViewBase.cssPseudoClasses
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L554[ui/core/view-base/index.ts:554]
+
+'''
+
+[#dock]
+=== dock
+
+• *dock*: `"left"` | `"right"` | `"top"` | `"bottom"`
+
+==== Implementation of
+
+SpanDefinition.dock
+
+==== Inherited from
+
+ViewBase.dock
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L293[ui/core/view-base/index.ts:293]
+
+'''
+
+[#domnode]
+=== domNode
+
+• *domNode*: `DOMNode`
+
+==== Implementation of
+
+SpanDefinition.domNode
+
+==== Inherited from
+
+ViewBase.domNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L264[ui/core/view-base/index.ts:264]
+
+'''
+
+[#effectiveborderbottomwidth]
+=== effectiveBorderBottomWidth
+
+• *effectiveBorderBottomWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveBorderBottomWidth
+
+==== Inherited from
+
+ViewBase.effectiveBorderBottomWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L327[ui/core/view-base/index.ts:327]
+
+'''
+
+[#effectiveborderleftwidth]
+=== effectiveBorderLeftWidth
+
+• *effectiveBorderLeftWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveBorderLeftWidth
+
+==== Inherited from
+
+ViewBase.effectiveBorderLeftWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L328[ui/core/view-base/index.ts:328]
+
+'''
+
+[#effectiveborderrightwidth]
+=== effectiveBorderRightWidth
+
+• *effectiveBorderRightWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveBorderRightWidth
+
+==== Inherited from
+
+ViewBase.effectiveBorderRightWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L326[ui/core/view-base/index.ts:326]
+
+'''
+
+[#effectivebordertopwidth]
+=== effectiveBorderTopWidth
+
+• *effectiveBorderTopWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveBorderTopWidth
+
+==== Inherited from
+
+ViewBase.effectiveBorderTopWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L325[ui/core/view-base/index.ts:325]
+
+'''
+
+[#effectiveheight]
+=== effectiveHeight
+
+• *effectiveHeight*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveHeight
+
+==== Inherited from
+
+ViewBase.effectiveHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L316[ui/core/view-base/index.ts:316]
+
+'''
+
+[#effectiveleft]
+=== effectiveLeft
+
+• *effectiveLeft*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveLeft
+
+==== Inherited from
+
+ViewBase.effectiveLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L291[ui/core/view-base/index.ts:291]
+
+'''
+
+[#effectivemarginbottom]
+=== effectiveMarginBottom
+
+• *effectiveMarginBottom*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMarginBottom
+
+==== Inherited from
+
+ViewBase.effectiveMarginBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L319[ui/core/view-base/index.ts:319]
+
+'''
+
+[#effectivemarginleft]
+=== effectiveMarginLeft
+
+• *effectiveMarginLeft*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMarginLeft
+
+==== Inherited from
+
+ViewBase.effectiveMarginLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L320[ui/core/view-base/index.ts:320]
+
+'''
+
+[#effectivemarginright]
+=== effectiveMarginRight
+
+• *effectiveMarginRight*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMarginRight
+
+==== Inherited from
+
+ViewBase.effectiveMarginRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L318[ui/core/view-base/index.ts:318]
+
+'''
+
+[#effectivemargintop]
+=== effectiveMarginTop
+
+• *effectiveMarginTop*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMarginTop
+
+==== Inherited from
+
+ViewBase.effectiveMarginTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L317[ui/core/view-base/index.ts:317]
+
+'''
+
+[#effectiveminheight]
+=== effectiveMinHeight
+
+• *effectiveMinHeight*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMinHeight
+
+==== Inherited from
+
+ViewBase.effectiveMinHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L314[ui/core/view-base/index.ts:314]
+
+'''
+
+[#effectiveminwidth]
+=== effectiveMinWidth
+
+• *effectiveMinWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveMinWidth
+
+==== Inherited from
+
+ViewBase.effectiveMinWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L313[ui/core/view-base/index.ts:313]
+
+'''
+
+[#effectivepaddingbottom]
+=== effectivePaddingBottom
+
+• *effectivePaddingBottom*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectivePaddingBottom
+
+==== Inherited from
+
+ViewBase.effectivePaddingBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L323[ui/core/view-base/index.ts:323]
+
+'''
+
+[#effectivepaddingleft]
+=== effectivePaddingLeft
+
+• *effectivePaddingLeft*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectivePaddingLeft
+
+==== Inherited from
+
+ViewBase.effectivePaddingLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L324[ui/core/view-base/index.ts:324]
+
+'''
+
+[#effectivepaddingright]
+=== effectivePaddingRight
+
+• *effectivePaddingRight*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectivePaddingRight
+
+==== Inherited from
+
+ViewBase.effectivePaddingRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L322[ui/core/view-base/index.ts:322]
+
+'''
+
+[#effectivepaddingtop]
+=== effectivePaddingTop
+
+• *effectivePaddingTop*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectivePaddingTop
+
+==== Inherited from
+
+ViewBase.effectivePaddingTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L321[ui/core/view-base/index.ts:321]
+
+'''
+
+[#effectivetop]
+=== effectiveTop
+
+• *effectiveTop*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveTop
+
+==== Inherited from
+
+ViewBase.effectiveTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L292[ui/core/view-base/index.ts:292]
+
+'''
+
+[#effectivewidth]
+=== effectiveWidth
+
+• *effectiveWidth*: `number`
+
+==== Implementation of
+
+SpanDefinition.effectiveWidth
+
+==== Inherited from
+
+ViewBase.effectiveWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L315[ui/core/view-base/index.ts:315]
+
+'''
+
+[#flexgrow]
+=== flexGrow
+
+• *flexGrow*: `number`
+
+==== Implementation of
+
+SpanDefinition.flexGrow
+
+==== Inherited from
+
+ViewBase.flexGrow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L302[ui/core/view-base/index.ts:302]
+
+'''
+
+[#flexshrink]
+=== flexShrink
+
+• *flexShrink*: `number`
+
+==== Implementation of
+
+SpanDefinition.flexShrink
+
+==== Inherited from
+
+ViewBase.flexShrink
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L303[ui/core/view-base/index.ts:303]
+
+'''
+
+[#flexwrapbefore]
+=== flexWrapBefore
+
+• *flexWrapBefore*: `boolean`
+
+==== Implementation of
+
+SpanDefinition.flexWrapBefore
+
+==== Inherited from
+
+ViewBase.flexWrapBefore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L304[ui/core/view-base/index.ts:304]
+
+'''
+
+[#id]
+=== id
+
+• *id*: `string`
+
+==== Implementation of
+
+SpanDefinition.id
+
+==== Inherited from
+
+ViewBase.id
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L273[ui/core/view-base/index.ts:273]
+
+'''
+
+[#iscollapsed]
+=== isCollapsed
+
+• *isCollapsed*: `any`
+
+==== Implementation of
+
+SpanDefinition.isCollapsed
+
+==== Inherited from
+
+ViewBase.isCollapsed
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L271[ui/core/view-base/index.ts:271]
+
+'''
+
+[#left]
+=== left
+
+• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+==== Implementation of
+
+SpanDefinition.left
+
+==== Inherited from
+
+ViewBase.left
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L289[ui/core/view-base/index.ts:289]
+
+'''
+
+[#nativeviewprotected]
+=== nativeViewProtected
+
+• *nativeViewProtected*: `any`
+
+==== Implementation of
+
+SpanDefinition.nativeViewProtected
+
+==== Inherited from
+
+ViewBase.nativeViewProtected
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L269[ui/core/view-base/index.ts:269]
+
+'''
+
+[#order]
+=== order
+
+• *order*: `number`
+
+==== Implementation of
+
+SpanDefinition.order
+
+==== Inherited from
+
+ViewBase.order
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L301[ui/core/view-base/index.ts:301]
+
+'''
+
+[#parent]
+=== parent
+
+• *parent*: xref:ViewBase.adoc[`ViewBase`]
+
+==== Implementation of
+
+SpanDefinition.parent
+
+==== Inherited from
+
+ViewBase.parent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L270[ui/core/view-base/index.ts:270]
+
+'''
+
+[#recyclenativeview]
+=== recycleNativeView
+
+• *recycleNativeView*: `"auto"` | `"never"` | `"always"`
+
+==== Implementation of
+
+SpanDefinition.recycleNativeView
+
+==== Inherited from
+
+ViewBase.recycleNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L266[ui/core/view-base/index.ts:266]
+
+'''
+
+[#reusable]
+=== reusable
+
+• *reusable*: `boolean`
+
+==== Implementation of
+
+SpanDefinition.reusable
+
+==== Inherited from
+
+ViewBase.reusable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L338[ui/core/view-base/index.ts:338]
+
+'''
+
+[#row]
+=== row
+
+• *row*: `number`
+
+==== Implementation of
+
+SpanDefinition.row
+
+==== Inherited from
+
+ViewBase.row
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L294[ui/core/view-base/index.ts:294]
+
+'''
+
+[#rowspan]
+=== rowSpan
+
+• *rowSpan*: `number`
+
+==== Implementation of
+
+SpanDefinition.rowSpan
+
+==== Inherited from
+
+ViewBase.rowSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L297[ui/core/view-base/index.ts:297]
+
+'''
+
+[#top]
+=== top
+
+• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+==== Implementation of
+
+SpanDefinition.top
+
+==== Inherited from
+
+ViewBase.top
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L290[ui/core/view-base/index.ts:290]
+
+'''
+
+[#viewcontroller]
+=== viewController
+
+• *viewController*: `any`
+
+==== Implementation of
+
+SpanDefinition.viewController
+
+==== Inherited from
+
+ViewBase.viewController
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L267[ui/core/view-base/index.ts:267]
+
+'''
+
+[#createdevent]
+=== createdEvent
+
+▪ `Static` *createdEvent*: `string` = `'created'`
+
+==== Inherited from
+
+ViewBase.createdEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L250[ui/core/view-base/index.ts:250]
+
+'''
+
+[#disposenativeviewevent]
+=== disposeNativeViewEvent
+
+▪ `Static` *disposeNativeViewEvent*: `string` = `'disposeNativeView'`
+
+==== Inherited from
+
+ViewBase.disposeNativeViewEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L251[ui/core/view-base/index.ts:251]
+
+'''
+
+[#linktapevent]
+=== linkTapEvent
+
+▪ `Static` *linkTapEvent*: `string` = `'linkTap'`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L10[ui/text-base/span.ts:10]
+
+'''
+
+[#loadedevent]
+=== loadedEvent
+
+▪ `Static` *loadedEvent*: `string` = `'loaded'`
+
+==== Inherited from
+
+ViewBase.loadedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L248[ui/core/view-base/index.ts:248]
+
+'''
+
+[#propertychangeevent]
+=== propertyChangeEvent
+
+▪ `Static` *propertyChangeEvent*: `string` = `'propertyChange'`
+
+==== Inherited from
+
+ViewBase.propertyChangeEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L51[data/observable/index.ts:51]
+
+'''
+
+[#unloadedevent]
+=== unloadedEvent
+
+▪ `Static` *unloadedEvent*: `string` = `'unloaded'`
+
+==== Inherited from
+
+ViewBase.unloadedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L249[ui/core/view-base/index.ts:249]
+
+== Accessors
+
+[#android]
+=== android
+
+• `get` *android*(): `any`
+
+==== Returns
+
+`any`
+
+==== Implementation of
+
+SpanDefinition.android
+
+==== Inherited from
+
+ViewBase.android
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L379[ui/core/view-base/index.ts:379]
+
+'''
+
+[#backgroundcolor]
+=== backgroundColor
+
+• `get` *backgroundColor*(): xref:Color.adoc[`Color`]
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Implementation of
+
+SpanDefinition.backgroundColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L58[ui/text-base/span.ts:58]
+
+• `set` *backgroundColor*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.backgroundColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L61[ui/text-base/span.ts:61]
+
+'''
+
+[#class]
+=== class
+
+• `get` *class*(): `string`
+
+==== Returns
+
+`string`
+
+==== Implementation of
+
+SpanDefinition.class
+
+==== Inherited from
+
+ViewBase.class
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L393[ui/core/view-base/index.ts:393]
+
+• `set` *class*(`v`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `v`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.class
+
+==== Inherited from
+
+ViewBase.class
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L396[ui/core/view-base/index.ts:396]
+
+'''
+
+[#color]
+=== color
+
+• `get` *color*(): xref:Color.adoc[`Color`]
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Implementation of
+
+SpanDefinition.color
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L51[ui/text-base/span.ts:51]
+
+• `set` *color*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.color
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L54[ui/text-base/span.ts:54]
+
+'''
+
+[#fontfamily]
+=== fontFamily
+
+• `get` *fontFamily*(): `string`
+
+==== Returns
+
+`string`
+
+==== Implementation of
+
+SpanDefinition.fontFamily
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L14[ui/text-base/span.ts:14]
+
+• `set` *fontFamily*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.fontFamily
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L17[ui/text-base/span.ts:17]
+
+'''
+
+[#fontsize]
+=== fontSize
+
+• `get` *fontSize*(): `number`
+
+==== Returns
+
+`number`
+
+==== Implementation of
+
+SpanDefinition.fontSize
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L21[ui/text-base/span.ts:21]
+
+• `set` *fontSize*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.fontSize
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L24[ui/text-base/span.ts:24]
+
+'''
+
+[#fontstyle]
+=== fontStyle
+
+• `get` *fontStyle*(): `FontStyle`
+
+==== Returns
+
+`FontStyle`
+
+==== Implementation of
+
+SpanDefinition.fontStyle
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L29[ui/text-base/span.ts:29]
+
+• `set` *fontStyle*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `FontStyle`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.fontStyle
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L32[ui/text-base/span.ts:32]
+
+'''
+
+[#fontweight]
+=== fontWeight
+
+• `get` *fontWeight*(): `FontWeight`
+
+==== Returns
+
+`FontWeight`
+
+==== Implementation of
+
+SpanDefinition.fontWeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L37[ui/text-base/span.ts:37]
+
+• `set` *fontWeight*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `FontWeight`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.fontWeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L40[ui/text-base/span.ts:40]
+
+'''
+
+[#ios]
+=== ios
+
+• `get` *ios*(): `any`
+
+==== Returns
+
+`any`
+
+==== Implementation of
+
+SpanDefinition.ios
+
+==== Inherited from
+
+ViewBase.ios
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L384[ui/core/view-base/index.ts:384]
+
+'''
+
+[#isloaded]
+=== isLoaded
+
+• `get` *isLoaded*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition.isLoaded
+
+==== Inherited from
+
+ViewBase.isLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L389[ui/core/view-base/index.ts:389]
+
+'''
+
+[#nativeview]
+=== nativeView
+
+• `get` *nativeView*(): `any`
+
+==== Returns
+
+`any`
+
+==== Implementation of
+
+SpanDefinition.nativeView
+
+==== Inherited from
+
+ViewBase.nativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L355[ui/core/view-base/index.ts:355]
+
+• `set` *nativeView*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.nativeView
+
+==== Inherited from
+
+ViewBase.nativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L359[ui/core/view-base/index.ts:359]
+
+'''
+
+[#page]
+=== page
+
+• `get` *page*(): xref:Page.adoc[`Page`]
+
+==== Returns
+
+xref:Page.adoc[`Page`]
+
+==== Implementation of
+
+SpanDefinition.page
+
+==== Inherited from
+
+ViewBase.page
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L408[ui/core/view-base/index.ts:408]
+
+'''
+
+[#parentnode]
+=== parentNode
+
+• `get` *parentNode*(): xref:ViewBase.adoc[`ViewBase`]
+
+==== Returns
+
+xref:ViewBase.adoc[`ViewBase`]
+
+==== Implementation of
+
+SpanDefinition.parentNode
+
+==== Inherited from
+
+ViewBase.parentNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L348[ui/core/view-base/index.ts:348]
+
+• `set` *parentNode*(`node`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `node`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.parentNode
+
+==== Inherited from
+
+ViewBase.parentNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L351[ui/core/view-base/index.ts:351]
+
+'''
+
+[#style]
+=== style
+
+• `get` *style*(): xref:Style.adoc[`Style`]
+
+==== Returns
+
+xref:Style.adoc[`Style`]
+
+==== Implementation of
+
+SpanDefinition.style
+
+==== Inherited from
+
+ViewBase.style
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L368[ui/core/view-base/index.ts:368]
+
+• `set` *style*(`inlineStyle`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `inlineStyle`
+| xref:Style.adoc[`Style`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.style
+
+==== Inherited from
+
+ViewBase.style
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L371[ui/core/view-base/index.ts:371]
+
+'''
+
+[#tappable]
+=== tappable
+
+• `get` *tappable*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition.tappable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L80[ui/text-base/span.ts:80]
+
+'''
+
+[#text]
+=== text
+
+• `get` *text*(): `string`
+
+==== Returns
+
+`string`
+
+==== Implementation of
+
+SpanDefinition.text
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L65[ui/text-base/span.ts:65]
+
+• `set` *text*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.text
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L68[ui/text-base/span.ts:68]
+
+'''
+
+[#textdecoration]
+=== textDecoration
+
+• `get` *textDecoration*(): link:../modules/CoreTypes.md#textdecorationtype[`TextDecorationType`]
+
+==== Returns
+
+link:../modules/CoreTypes.md#textdecorationtype[`TextDecorationType`]
+
+==== Implementation of
+
+SpanDefinition.textDecoration
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L44[ui/text-base/span.ts:44]
+
+• `set` *textDecoration*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#textdecorationtype[`TextDecorationType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.textDecoration
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L47[ui/text-base/span.ts:47]
+
+'''
+
+[#typename]
+=== typeName
+
+• `get` *typeName*(): `string`
+
+==== Returns
+
+`string`
+
+==== Implementation of
+
+SpanDefinition.typeName
+
+==== Inherited from
+
+ViewBase.typeName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L364[ui/core/view-base/index.ts:364]
+
+== Methods
+
+[#_addview]
+=== _addView
+
+▸ *_addView*(`view`, `atIndex?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+
+| `atIndex?`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._addView
+
+==== Inherited from
+
+ViewBase._addView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L675[ui/core/view-base/index.ts:675]
+
+'''
+
+[#_addviewcore]
+=== _addViewCore
+
+▸ *_addViewCore*(`view`, `atIndex?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+
+| `atIndex?`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._addViewCore
+
+==== Inherited from
+
+ViewBase._addViewCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L700[ui/core/view-base/index.ts:700]
+
+'''
+
+[#_addviewtonativevisualtree]
+=== _addViewToNativeVisualTree
+
+▸ *_addViewToNativeVisualTree*(`view`, `atIndex?`): `boolean`
+
+Method is intended to be overridden by inheritors and used as "protected".
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+
+| `atIndex?`
+| `number`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition._addViewToNativeVisualTree
+
+==== Inherited from
+
+ViewBase._addViewToNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L982[ui/core/view-base/index.ts:982]
+
+'''
+
+[#_applyxmlattribute]
+=== _applyXmlAttribute
+
+▸ *_applyXmlAttribute*(`attribute`, `value`): `boolean`
+
+*`Deprecated`*
+
+This used to be the way to set attribute values in early \{N} versions.
+Now attributes are expected to be set as plain properties on the view instances.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `attribute`
+| `string`
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition._applyXmlAttribute
+
+==== Inherited from
+
+ViewBase._applyXmlAttribute
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1017[ui/core/view-base/index.ts:1017]
+
+'''
+
+[#_batchupdate]
+=== _batchUpdate
+
+▸ *_batchUpdate*<``T``>(`callback`): `T`
+
+==== Type parameters
+
+|===
+| Name
+
+| `T`
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| () \=> `T`
+|===
+
+==== Returns
+
+`T`
+
+==== Implementation of
+
+SpanDefinition._batchUpdate
+
+==== Inherited from
+
+ViewBase._batchUpdate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L497[ui/core/view-base/index.ts:497]
+
+'''
+
+[#_childindextonativechildindex]
+=== _childIndexToNativeChildIndex
+
+▸ *_childIndexToNativeChildIndex*(`index?`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `index?`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Implementation of
+
+SpanDefinition._childIndexToNativeChildIndex
+
+==== Inherited from
+
+ViewBase._childIndexToNativeChildIndex
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L975[ui/core/view-base/index.ts:975]
+
+'''
+
+[#_createpropertychangedata]
+=== _createPropertyChangeData
+
+▸ *_createPropertyChangeData*(`propertyName`, `value`, `oldValue?`): xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `propertyName`
+| `string`
+
+| `value`
+| `any`
+
+| `oldValue?`
+| `any`
+|===
+
+==== Returns
+
+xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
+
+==== Implementation of
+
+SpanDefinition._createPropertyChangeData
+
+==== Inherited from
+
+ViewBase._createPropertyChangeData
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L313[data/observable/index.ts:313]
+
+'''
+
+[#_dialogclosed]
+=== _dialogClosed
+
+▸ *_dialogClosed*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._dialogClosed
+
+==== Inherited from
+
+ViewBase._dialogClosed
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1113[ui/core/view-base/index.ts:1113]
+
+'''
+
+[#_emit]
+=== _emit
+
+▸ *_emit*(`eventNames`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventNames`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._emit
+
+==== Inherited from
+
+ViewBase._emit
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L323[data/observable/index.ts:323]
+
+'''
+
+[#_gotovisualstate]
+=== _goToVisualState
+
+▸ *_goToVisualState*(`state`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `state`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._goToVisualState
+
+==== Inherited from
+
+ViewBase._goToVisualState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L997[ui/core/view-base/index.ts:997]
+
+'''
+
+[#_inheritstylescope]
+=== _inheritStyleScope
+
+▸ *_inheritStyleScope*(`styleScope`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `styleScope`
+| `StyleScope`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._inheritStyleScope
+
+==== Inherited from
+
+ViewBase._inheritStyleScope
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1082[ui/core/view-base/index.ts:1082]
+
+'''
+
+[#_layoutparent]
+=== _layoutParent
+
+▸ *_layoutParent*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._layoutParent
+
+==== Inherited from
+
+ViewBase._layoutParent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L469[ui/core/view-base/index.ts:469]
+
+'''
+
+[#_oncssstatechange]
+=== _onCssStateChange
+
+▸ *_onCssStateChange*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._onCssStateChange
+
+==== Inherited from
+
+ViewBase._onCssStateChange
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1073[ui/core/view-base/index.ts:1073]
+
+'''
+
+[#_onrootviewreset]
+=== _onRootViewReset
+
+▸ *_onRootViewReset*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._onRootViewReset
+
+==== Inherited from
+
+ViewBase._onRootViewReset
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1121[ui/core/view-base/index.ts:1121]
+
+'''
+
+[#_parentchanged]
+=== _parentChanged
+
+▸ *_parentChanged*(`oldParent`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `oldParent`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._parentChanged
+
+==== Inherited from
+
+ViewBase._parentChanged
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1038[ui/core/view-base/index.ts:1038]
+
+'''
+
+[#_removeview]
+=== _removeView
+
+▸ *_removeView*(`view`): `void`
+
+Core logic for removing a child view from this instance.
+Used by the framework to handle lifecycle events more centralized.
+Do not use outside the UI Stack implementation.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._removeView
+
+==== Inherited from
+
+ViewBase._removeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L733[ui/core/view-base/index.ts:733]
+
+'''
+
+[#_removeviewcore]
+=== _removeViewCore
+
+▸ *_removeViewCore*(`view`): `void`
+
+Method is intended to be overridden by inheritors and used as "protected"
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._removeViewCore
+
+==== Inherited from
+
+ViewBase._removeViewCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L754[ui/core/view-base/index.ts:754]
+
+'''
+
+[#_removeviewfromnativevisualtree]
+=== _removeViewFromNativeVisualTree
+
+▸ *_removeViewFromNativeVisualTree*(`view`): `void`
+
+Method is intended to be overridden by inheritors and used as "protected"
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._removeViewFromNativeVisualTree
+
+==== Inherited from
+
+ViewBase._removeViewFromNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L993[ui/core/view-base/index.ts:993]
+
+'''
+
+[#_resumenativeupdates]
+=== _resumeNativeUpdates
+
+▸ *_resumeNativeUpdates*(`type`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| `SuspendType`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._resumeNativeUpdates
+
+==== Inherited from
+
+ViewBase._resumeNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L482[ui/core/view-base/index.ts:482]
+
+'''
+
+[#_settappable]
+=== _setTappable
+
+▸ `Private` *_setTappable*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._setTappable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L98[ui/text-base/span.ts:98]
+
+'''
+
+[#_settextinternal]
+=== _setTextInternal
+
+▸ *_setTextInternal*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._setTextInternal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L94[ui/text-base/span.ts:94]
+
+'''
+
+[#_setupasrootview]
+=== _setupAsRootView
+
+▸ *_setupAsRootView*(`context`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._setupAsRootView
+
+==== Inherited from
+
+ViewBase._setupAsRootView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L800[ui/core/view-base/index.ts:800]
+
+'''
+
+[#_setupui]
+=== _setupUI
+
+▸ *_setupUI*(`context`, `atIndex?`, `parentIsLoaded?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context`
+| `any`
+
+| `atIndex?`
+| `number`
+
+| `parentIsLoaded?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._setupUI
+
+==== Inherited from
+
+ViewBase._setupUI
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L804[ui/core/view-base/index.ts:804]
+
+'''
+
+[#_shoulddelaylayout]
+=== _shouldDelayLayout
+
+▸ *_shouldDelayLayout*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition._shouldDelayLayout
+
+==== Inherited from
+
+ViewBase._shouldDelayLayout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L720[ui/core/view-base/index.ts:720]
+
+'''
+
+[#_suspendnativeupdates]
+=== _suspendNativeUpdates
+
+▸ *_suspendNativeUpdates*(`type`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| `SuspendType`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._suspendNativeUpdates
+
+==== Inherited from
+
+ViewBase._suspendNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L475[ui/core/view-base/index.ts:475]
+
+'''
+
+[#_teardownui]
+=== _tearDownUI
+
+▸ *_tearDownUI*(`force?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `force?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition._tearDownUI
+
+==== Inherited from
+
+ViewBase._tearDownUI
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L916[ui/core/view-base/index.ts:916]
+
+'''
+
+[#addeventlistener]
+=== addEventListener
+
+▸ *addEventListener*(`arg`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `arg`
+| `string`
+
+| `callback`
+| (`data`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.addEventListener
+
+==== Overrides
+
+ViewBase.addEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L84[ui/text-base/span.ts:84]
+
+'''
+
+[#addpseudoclass]
+=== addPseudoClass
+
+▸ *addPseudoClass*(`name`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.addPseudoClass
+
+==== Inherited from
+
+ViewBase.addPseudoClass
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L568[ui/core/view-base/index.ts:568]
+
+'''
+
+[#bind]
+=== bind
+
+▸ *bind*(`options`, `source?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type | Default value
+
+| `options`
+| xref:../interfaces/BindingOptions.adoc[`BindingOptions`]
+| `undefined`
+
+| `source`
+| `Object`
+| `defaultBindingSource`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.bind
+
+==== Inherited from
+
+ViewBase.bind
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L598[ui/core/view-base/index.ts:598]
+
+'''
+
+[#callloaded]
+=== callLoaded
+
+▸ *callLoaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.callLoaded
+
+==== Inherited from
+
+ViewBase.callLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L537[ui/core/view-base/index.ts:537]
+
+'''
+
+[#callunloaded]
+=== callUnloaded
+
+▸ *callUnloaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.callUnloaded
+
+==== Inherited from
+
+ViewBase.callUnloaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L541[ui/core/view-base/index.ts:541]
+
+'''
+
+[#closemodal]
+=== closeModal
+
+▸ *closeModal*(...`args`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `+...args+`
+| `any`[]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.closeModal
+
+==== Inherited from
+
+ViewBase.closeModal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1106[ui/core/view-base/index.ts:1106]
+
+'''
+
+[#createnativeview]
+=== createNativeView
+
+▸ *createNativeView*(): `Object`
+
+==== Returns
+
+`Object`
+
+==== Implementation of
+
+SpanDefinition.createNativeView
+
+==== Inherited from
+
+ViewBase.createNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L762[ui/core/view-base/index.ts:762]
+
+'''
+
+[#deletepseudoclass]
+=== deletePseudoClass
+
+▸ *deletePseudoClass*(`name`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.deletePseudoClass
+
+==== Inherited from
+
+ViewBase.deletePseudoClass
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L579[ui/core/view-base/index.ts:579]
+
+'''
+
+[#destroynode]
+=== destroyNode
+
+▸ *destroyNode*(`forceDestroyChildren?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `forceDestroyChildren?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.destroyNode
+
+==== Inherited from
+
+ViewBase.destroyNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L910[ui/core/view-base/index.ts:910]
+
+'''
+
+[#disposenativeview]
+=== disposeNativeView
+
+▸ *disposeNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.disposeNativeView
+
+==== Inherited from
+
+ViewBase.disposeNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L766[ui/core/view-base/index.ts:766]
+
+'''
+
+[#eachchild]
+=== eachChild
+
+▸ *eachChild*(`callback`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| (`child`: xref:ViewBase.adoc[`ViewBase`]) \=> `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.eachChild
+
+==== Inherited from
+
+ViewBase.eachChild
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L671[ui/core/view-base/index.ts:671]
+
+'''
+
+[#ensuredomnode]
+=== ensureDomNode
+
+▸ *ensureDomNode*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.ensureDomNode
+
+==== Inherited from
+
+ViewBase.ensureDomNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L416[ui/core/view-base/index.ts:416]
+
+'''
+
+[#get]
+=== get
+
+▸ *get*(`name`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`any`
+
+==== Implementation of
+
+SpanDefinition.get
+
+==== Inherited from
+
+ViewBase.get
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L56[data/observable/index.ts:56]
+
+'''
+
+[#getviewbydomid]
+=== getViewByDomId
+
+▸ *getViewByDomId*<``T``>(`domId`): `T`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `domId`
+| `number`
+|===
+
+==== Returns
+
+`T`
+
+==== Implementation of
+
+SpanDefinition.getViewByDomId
+
+==== Inherited from
+
+ViewBase.getViewByDomId
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L404[ui/core/view-base/index.ts:404]
+
+'''
+
+[#getviewbyid]
+=== getViewById
+
+▸ *getViewById*<``T``>(`id`): `T`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `id`
+| `string`
+|===
+
+==== Returns
+
+`T`
+
+==== Implementation of
+
+SpanDefinition.getViewById
+
+==== Inherited from
+
+ViewBase.getViewById
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L400[ui/core/view-base/index.ts:400]
+
+'''
+
+[#haslisteners]
+=== hasListeners
+
+▸ *hasListeners*(`eventName`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+SpanDefinition.hasListeners
+
+==== Inherited from
+
+ViewBase.hasListeners
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L309[data/observable/index.ts:309]
+
+'''
+
+[#initnativeview]
+=== initNativeView
+
+▸ *initNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.initNativeView
+
+==== Inherited from
+
+ViewBase.initNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L773[ui/core/view-base/index.ts:773]
+
+'''
+
+[#loadview]
+=== loadView
+
+▸ *loadView*(`view`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.loadView
+
+==== Inherited from
+
+ViewBase.loadView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L714[ui/core/view-base/index.ts:714]
+
+'''
+
+[#notify]
+=== notify
+
+▸ *notify*<``T``>(`data`): `void`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends `NotifyData`<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `data`
+| `T`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.notify
+
+==== Inherited from
+
+ViewBase.notify
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L274[data/observable/index.ts:274]
+
+'''
+
+[#notifypropertychange]
+=== notifyPropertyChange
+
+▸ *notifyPropertyChange*(`name`, `value`, `oldValue?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+
+| `oldValue?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.notifyPropertyChange
+
+==== Inherited from
+
+ViewBase.notifyPropertyChange
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L305[data/observable/index.ts:305]
+
+'''
+
+[#off]
+=== off
+
+▸ *off*(`eventNames`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventNames`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.off
+
+==== Inherited from
+
+ViewBase.off
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L105[data/observable/index.ts:105]
+
+'''
+
+[#on]
+=== on
+
+▸ *on*(`eventNames`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventNames`
+| `string`
+
+| `callback`
+| (`data`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.on
+
+==== Inherited from
+
+ViewBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L88[data/observable/index.ts:88]
+
+'''
+
+[#onloaded]
+=== onLoaded
+
+▸ *onLoaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.onLoaded
+
+==== Inherited from
+
+ViewBase.onLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L429[ui/core/view-base/index.ts:429]
+
+'''
+
+[#onresumenativeupdates]
+=== onResumeNativeUpdates
+
+▸ *onResumeNativeUpdates*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.onResumeNativeUpdates
+
+==== Inherited from
+
+ViewBase.onResumeNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1053[ui/core/view-base/index.ts:1053]
+
+'''
+
+[#onunloaded]
+=== onUnloaded
+
+▸ *onUnloaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.onUnloaded
+
+==== Inherited from
+
+ViewBase.onUnloaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L449[ui/core/view-base/index.ts:449]
+
+'''
+
+[#once]
+=== once
+
+▸ *once*(`event`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `event`
+| `string`
+
+| `callback`
+| (`data`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.once
+
+==== Inherited from
+
+ViewBase.once
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L92[data/observable/index.ts:92]
+
+'''
+
+[#removeeventlistener]
+=== removeEventListener
+
+▸ *removeEventListener*(`arg`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `arg`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.removeEventListener
+
+==== Overrides
+
+ViewBase.removeEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/span.ts#L89[ui/text-base/span.ts:89]
+
+'''
+
+[#requestlayout]
+=== requestLayout
+
+▸ *requestLayout*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.requestLayout
+
+==== Inherited from
+
+ViewBase.requestLayout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L662[ui/core/view-base/index.ts:662]
+
+'''
+
+[#resetnativeview]
+=== resetNativeView
+
+▸ *resetNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.resetNativeView
+
+==== Inherited from
+
+ViewBase.resetNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L777[ui/core/view-base/index.ts:777]
+
+'''
+
+[#set]
+=== set
+
+▸ *set*(`name`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.set
+
+==== Inherited from
+
+ViewBase.set
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L425[ui/core/view-base/index.ts:425]
+
+'''
+
+[#setinlinestyle]
+=== setInlineStyle
+
+▸ *setInlineStyle*(`style`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `style`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.setInlineStyle
+
+==== Inherited from
+
+ViewBase.setInlineStyle
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1029[ui/core/view-base/index.ts:1029]
+
+'''
+
+[#setnativeview]
+=== setNativeView
+
+▸ *setNativeView*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.setNativeView
+
+==== Inherited from
+
+ViewBase.setNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L892[ui/core/view-base/index.ts:892]
+
+'''
+
+[#setproperty]
+=== setProperty
+
+▸ *setProperty*(`name`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.setProperty
+
+==== Inherited from
+
+ViewBase.setProperty
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L72[data/observable/index.ts:72]
+
+'''
+
+[#showmodal]
+=== showModal
+
+▸ *showModal*(...`args`): xref:ViewBase.adoc[`ViewBase`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `+...args+`
+| `any`[]
+|===
+
+==== Returns
+
+xref:ViewBase.adoc[`ViewBase`]
+
+==== Implementation of
+
+SpanDefinition.showModal
+
+==== Inherited from
+
+ViewBase.showModal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1100[ui/core/view-base/index.ts:1100]
+
+'''
+
+[#tostring]
+=== toString
+
+▸ *toString*(): `string`
+
+==== Returns
+
+`string`
+
+==== Implementation of
+
+SpanDefinition.toString
+
+==== Inherited from
+
+ViewBase.toString
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1058[ui/core/view-base/index.ts:1058]
+
+'''
+
+[#unbind]
+=== unbind
+
+▸ *unbind*(`property`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `property`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.unbind
+
+==== Inherited from
+
+ViewBase.unbind
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L627[ui/core/view-base/index.ts:627]
+
+'''
+
+[#unloadview]
+=== unloadView
+
+▸ *unloadView*(`view`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+SpanDefinition.unloadView
+
+==== Inherited from
+
+ViewBase.unloadView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L724[ui/core/view-base/index.ts:724]
+
+'''
+
+[#addeventlistener-1]
+=== addEventListener
+
+▸ `Static` *addEventListener*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+ViewBase.addEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L235[data/observable/index.ts:235]
+
+'''
+
+[#off-1]
+=== off
+
+▸ `Static` *off*(`eventName`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+ViewBase.off
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L183[data/observable/index.ts:183]
+
+'''
+
+[#on-1]
+=== on
+
+▸ `Static` *on*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+ViewBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L160[data/observable/index.ts:160]
+
+'''
+
+[#once-1]
+=== once
+
+▸ `Static` *once*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+ViewBase.once
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L164[data/observable/index.ts:164]
+
+'''
+
+[#removeeventlistener-1]
+=== removeEventListener
+
+▸ `Static` *removeEventListener*(`eventName`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+ViewBase.removeEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L187[data/observable/index.ts:187]

@@ -1,0 +1,162 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PanGestureEventData
+
+= Interface: PanGestureEventData
+
+Provides gesture event data for pan gesture.
+
+== Hierarchy
+
+* xref:GestureEventDataWithState.adoc[`GestureEventDataWithState`]
++
+↳ *`PanGestureEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:PanGestureEventData.md#android[android]
+* link:PanGestureEventData.md#deltax[deltaX]
+* link:PanGestureEventData.md#deltay[deltaY]
+* link:PanGestureEventData.md#eventname[eventName]
+* link:PanGestureEventData.md#ios[ios]
+* link:PanGestureEventData.md#object[object]
+* link:PanGestureEventData.md#state[state]
+* link:PanGestureEventData.md#type[type]
+* link:PanGestureEventData.md#view[view]
+
+== Properties
+
+[#android]
+=== android
+
+• *android*: `any`
+
+Gets the underlying native android specific http://developer.android.com/reference/android/view/GestureDetector.html[gesture detector].
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#android[android]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
+
+'''
+
+[#deltax]
+=== deltaX
+
+• *deltaX*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L269[ui/gestures/index.d.ts:269]
+
+'''
+
+[#deltay]
+=== deltaY
+
+• *deltaY*: `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L270[ui/gestures/index.d.ts:270]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#ios]
+=== ios
+
+• *ios*: `any`
+
+Gets the underlying native iOS specific https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIGestureRecognizer_Class/[UIGestureRecognizer].
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#ios[ios]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
+
+'''
+
+[#state]
+=== state
+
+• *state*: `number`
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#state[state]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L245[ui/gestures/index.d.ts:245]
+
+'''
+
+[#type]
+=== type
+
+• *type*: xref:../enums/GestureTypes.adoc[`GestureTypes`]
+
+Gets the type of the gesture.
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#type[type]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
+
+'''
+
+[#view]
+=== view
+
+• *view*: `Partial`<xref:../classes/View.adoc[`View`]>
+
+Gets the view which originates the gesture.
+
+==== Inherited from
+
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#view[view]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]

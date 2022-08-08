@@ -1,0 +1,119 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PercentLength
+
+= Namespace: PercentLength
+
+== Table of contents
+
+=== Functions
+
+* link:PercentLength.md#converttostring[convertToString]
+* link:PercentLength.md#equals[equals]
+* link:PercentLength.md#parse[parse]
+* link:PercentLength.md#todevicepixels[toDevicePixels]
+
+== Functions
+
+[#converttostring]
+=== convertToString
+
+▸ *convertToString*(`length`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L146[ui/styling/style-properties.ts:146]
+
+'''
+
+[#equals]
+=== equals
+
+▸ *equals*(`a`, `b`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+| `b`
+| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L140[ui/styling/style-properties.ts:140]
+
+'''
+
+[#parse]
+=== parse
+
+▸ *parse*(`fromValue`): link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `fromValue`
+| `string` \| `number` \| link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+|===
+
+==== Returns
+
+link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L95[ui/styling/style-properties.ts:95]
+
+'''
+
+[#todevicepixels]
+=== toDevicePixels
+
+▸ *toDevicePixels*(`length`, `auto`, `parentAvailableWidth`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+| `auto`
+| `number`
+
+| `parentAvailableWidth`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L143[ui/styling/style-properties.ts:143]

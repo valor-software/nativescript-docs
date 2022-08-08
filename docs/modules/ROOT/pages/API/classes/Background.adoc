@@ -1,0 +1,907 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Background
+
+= Class: Background
+
+== Table of contents
+
+=== Constructors
+
+* link:Background.md#constructor[constructor]
+
+=== Properties
+
+* link:Background.md#borderbottomcolor[borderBottomColor]
+* link:Background.md#borderbottomleftradius[borderBottomLeftRadius]
+* link:Background.md#borderbottomrightradius[borderBottomRightRadius]
+* link:Background.md#borderbottomwidth[borderBottomWidth]
+* link:Background.md#borderleftcolor[borderLeftColor]
+* link:Background.md#borderleftwidth[borderLeftWidth]
+* link:Background.md#borderrightcolor[borderRightColor]
+* link:Background.md#borderrightwidth[borderRightWidth]
+* link:Background.md#bordertopcolor[borderTopColor]
+* link:Background.md#bordertopleftradius[borderTopLeftRadius]
+* link:Background.md#bordertoprightradius[borderTopRightRadius]
+* link:Background.md#bordertopwidth[borderTopWidth]
+* link:Background.md#boxshadow[boxShadow]
+* link:Background.md#clearflags[clearFlags]
+* link:Background.md#clippath[clipPath]
+* link:Background.md#color[color]
+* link:Background.md#image[image]
+* link:Background.md#position[position]
+* link:Background.md#repeat[repeat]
+* link:Background.md#size[size]
+* link:Background.md#default[default]
+
+=== Methods
+
+* link:Background.md#clone[clone]
+* link:Background.md#getboxshadow[getBoxShadow]
+* link:Background.md#getuniformbordercolor[getUniformBorderColor]
+* link:Background.md#getuniformborderradius[getUniformBorderRadius]
+* link:Background.md#getuniformborderwidth[getUniformBorderWidth]
+* link:Background.md#hasbordercolor[hasBorderColor]
+* link:Background.md#hasborderradius[hasBorderRadius]
+* link:Background.md#hasborderwidth[hasBorderWidth]
+* link:Background.md#hasboxshadow[hasBoxShadow]
+* link:Background.md#hasuniformborder[hasUniformBorder]
+* link:Background.md#hasuniformbordercolor[hasUniformBorderColor]
+* link:Background.md#hasuniformborderradius[hasUniformBorderRadius]
+* link:Background.md#hasuniformborderwidth[hasUniformBorderWidth]
+* link:Background.md#isempty[isEmpty]
+* link:Background.md#tostring[toString]
+* link:Background.md#withborderbottomcolor[withBorderBottomColor]
+* link:Background.md#withborderbottomleftradius[withBorderBottomLeftRadius]
+* link:Background.md#withborderbottomrightradius[withBorderBottomRightRadius]
+* link:Background.md#withborderbottomwidth[withBorderBottomWidth]
+* link:Background.md#withborderleftcolor[withBorderLeftColor]
+* link:Background.md#withborderleftwidth[withBorderLeftWidth]
+* link:Background.md#withborderrightcolor[withBorderRightColor]
+* link:Background.md#withborderrightwidth[withBorderRightWidth]
+* link:Background.md#withbordertopcolor[withBorderTopColor]
+* link:Background.md#withbordertopleftradius[withBorderTopLeftRadius]
+* link:Background.md#withbordertoprightradius[withBorderTopRightRadius]
+* link:Background.md#withbordertopwidth[withBorderTopWidth]
+* link:Background.md#withboxshadow[withBoxShadow]
+* link:Background.md#withclippath[withClipPath]
+* link:Background.md#withcolor[withColor]
+* link:Background.md#withimage[withImage]
+* link:Background.md#withposition[withPosition]
+* link:Background.md#withrepeat[withRepeat]
+* link:Background.md#withsize[withSize]
+* link:Background.md#equals[equals]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Background*()
+
+== Properties
+
+[#borderbottomcolor]
+=== borderBottomColor
+
+• *borderBottomColor*: xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L32[ui/styling/background-common.ts:32]
+
+'''
+
+[#borderbottomleftradius]
+=== borderBottomLeftRadius
+
+• *borderBottomLeftRadius*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L40[ui/styling/background-common.ts:40]
+
+'''
+
+[#borderbottomrightradius]
+=== borderBottomRightRadius
+
+• *borderBottomRightRadius*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L41[ui/styling/background-common.ts:41]
+
+'''
+
+[#borderbottomwidth]
+=== borderBottomWidth
+
+• *borderBottomWidth*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L36[ui/styling/background-common.ts:36]
+
+'''
+
+[#borderleftcolor]
+=== borderLeftColor
+
+• *borderLeftColor*: xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L33[ui/styling/background-common.ts:33]
+
+'''
+
+[#borderleftwidth]
+=== borderLeftWidth
+
+• *borderLeftWidth*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L37[ui/styling/background-common.ts:37]
+
+'''
+
+[#borderrightcolor]
+=== borderRightColor
+
+• *borderRightColor*: xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L31[ui/styling/background-common.ts:31]
+
+'''
+
+[#borderrightwidth]
+=== borderRightWidth
+
+• *borderRightWidth*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L35[ui/styling/background-common.ts:35]
+
+'''
+
+[#bordertopcolor]
+=== borderTopColor
+
+• *borderTopColor*: xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L30[ui/styling/background-common.ts:30]
+
+'''
+
+[#bordertopleftradius]
+=== borderTopLeftRadius
+
+• *borderTopLeftRadius*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L38[ui/styling/background-common.ts:38]
+
+'''
+
+[#bordertoprightradius]
+=== borderTopRightRadius
+
+• *borderTopRightRadius*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L39[ui/styling/background-common.ts:39]
+
+'''
+
+[#bordertopwidth]
+=== borderTopWidth
+
+• *borderTopWidth*: `number` = `0`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L34[ui/styling/background-common.ts:34]
+
+'''
+
+[#boxshadow]
+=== boxShadow
+
+• *boxShadow*: `CSSShadow`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L43[ui/styling/background-common.ts:43]
+
+'''
+
+[#clearflags]
+=== clearFlags
+
+• *clearFlags*: `number` = `BackgroundClearFlags.NONE`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L44[ui/styling/background-common.ts:44]
+
+'''
+
+[#clippath]
+=== clipPath
+
+• *clipPath*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L42[ui/styling/background-common.ts:42]
+
+'''
+
+[#color]
+=== color
+
+• *color*: xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L25[ui/styling/background-common.ts:25]
+
+'''
+
+[#image]
+=== image
+
+• *image*: `string` | `LinearGradient`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L26[ui/styling/background-common.ts:26]
+
+'''
+
+[#position]
+=== position
+
+• *position*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L28[ui/styling/background-common.ts:28]
+
+'''
+
+[#repeat]
+=== repeat
+
+• *repeat*: link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L27[ui/styling/background-common.ts:27]
+
+'''
+
+[#size]
+=== size
+
+• *size*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L29[ui/styling/background-common.ts:29]
+
+'''
+
+[#default]
+=== default
+
+▪ `Static` *default*: xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L23[ui/styling/background-common.ts:23]
+
+== Methods
+
+[#clone]
+=== clone
+
+▸ `Private` *clone*(): xref:Background.adoc[`Background`]
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L46[ui/styling/background-common.ts:46]
+
+'''
+
+[#getboxshadow]
+=== getBoxShadow
+
+▸ *getBoxShadow*(): `CSSShadow`
+
+==== Returns
+
+`CSSShadow`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L313[ui/styling/background-common.ts:313]
+
+'''
+
+[#getuniformbordercolor]
+=== getUniformBorderColor
+
+▸ *getUniformBorderColor*(): xref:Color.adoc[`Color`]
+
+==== Returns
+
+xref:Color.adoc[`Color`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L285[ui/styling/background-common.ts:285]
+
+'''
+
+[#getuniformborderradius]
+=== getUniformBorderRadius
+
+▸ *getUniformBorderRadius*(): `number`
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L301[ui/styling/background-common.ts:301]
+
+'''
+
+[#getuniformborderwidth]
+=== getUniformBorderWidth
+
+▸ *getUniformBorderWidth*(): `number`
+
+==== Returns
+
+`number`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L293[ui/styling/background-common.ts:293]
+
+'''
+
+[#hasbordercolor]
+=== hasBorderColor
+
+▸ *hasBorderColor*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L257[ui/styling/background-common.ts:257]
+
+'''
+
+[#hasborderradius]
+=== hasBorderRadius
+
+▸ *hasBorderRadius*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L265[ui/styling/background-common.ts:265]
+
+'''
+
+[#hasborderwidth]
+=== hasBorderWidth
+
+▸ *hasBorderWidth*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L261[ui/styling/background-common.ts:261]
+
+'''
+
+[#hasboxshadow]
+=== hasBoxShadow
+
+▸ *hasBoxShadow*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L309[ui/styling/background-common.ts:309]
+
+'''
+
+[#hasuniformborder]
+=== hasUniformBorder
+
+▸ *hasUniformBorder*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L281[ui/styling/background-common.ts:281]
+
+'''
+
+[#hasuniformbordercolor]
+=== hasUniformBorderColor
+
+▸ *hasUniformBorderColor*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L269[ui/styling/background-common.ts:269]
+
+'''
+
+[#hasuniformborderradius]
+=== hasUniformBorderRadius
+
+▸ *hasUniformBorderRadius*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L277[ui/styling/background-common.ts:277]
+
+'''
+
+[#hasuniformborderwidth]
+=== hasUniformBorderWidth
+
+▸ *hasUniformBorderWidth*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L273[ui/styling/background-common.ts:273]
+
+'''
+
+[#isempty]
+=== isEmpty
+
+▸ *isEmpty*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L212[ui/styling/background-common.ts:212]
+
+'''
+
+[#tostring]
+=== toString
+
+▸ *toString*(): `string`
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L317[ui/styling/background-common.ts:317]
+
+'''
+
+[#withborderbottomcolor]
+=== withBorderBottomColor
+
+▸ *withBorderBottomColor*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L125[ui/styling/background-common.ts:125]
+
+'''
+
+[#withborderbottomleftradius]
+=== withBorderBottomLeftRadius
+
+▸ *withBorderBottomLeftRadius*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L188[ui/styling/background-common.ts:188]
+
+'''
+
+[#withborderbottomrightradius]
+=== withBorderBottomRightRadius
+
+▸ *withBorderBottomRightRadius*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L181[ui/styling/background-common.ts:181]
+
+'''
+
+[#withborderbottomwidth]
+=== withBorderBottomWidth
+
+▸ *withBorderBottomWidth*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L153[ui/styling/background-common.ts:153]
+
+'''
+
+[#withborderleftcolor]
+=== withBorderLeftColor
+
+▸ *withBorderLeftColor*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L132[ui/styling/background-common.ts:132]
+
+'''
+
+[#withborderleftwidth]
+=== withBorderLeftWidth
+
+▸ *withBorderLeftWidth*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L160[ui/styling/background-common.ts:160]
+
+'''
+
+[#withborderrightcolor]
+=== withBorderRightColor
+
+▸ *withBorderRightColor*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L118[ui/styling/background-common.ts:118]
+
+'''
+
+[#withborderrightwidth]
+=== withBorderRightWidth
+
+▸ *withBorderRightWidth*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L146[ui/styling/background-common.ts:146]
+
+'''
+
+[#withbordertopcolor]
+=== withBorderTopColor
+
+▸ *withBorderTopColor*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L111[ui/styling/background-common.ts:111]
+
+'''
+
+[#withbordertopleftradius]
+=== withBorderTopLeftRadius
+
+▸ *withBorderTopLeftRadius*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L167[ui/styling/background-common.ts:167]
+
+'''
+
+[#withbordertoprightradius]
+=== withBorderTopRightRadius
+
+▸ *withBorderTopRightRadius*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L174[ui/styling/background-common.ts:174]
+
+'''
+
+[#withbordertopwidth]
+=== withBorderTopWidth
+
+▸ *withBorderTopWidth*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L139[ui/styling/background-common.ts:139]
+
+'''
+
+[#withboxshadow]
+=== withBoxShadow
+
+▸ *withBoxShadow*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `CSSShadow`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L202[ui/styling/background-common.ts:202]
+
+'''
+
+[#withclippath]
+=== withClipPath
+
+▸ *withClipPath*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L195[ui/styling/background-common.ts:195]
+
+'''
+
+[#withcolor]
+=== withColor
+
+▸ *withColor*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| xref:Color.adoc[`Color`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L73[ui/styling/background-common.ts:73]
+
+'''
+
+[#withimage]
+=== withImage
+
+▸ *withImage*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string` \| `LinearGradient`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L83[ui/styling/background-common.ts:83]
+
+'''
+
+[#withposition]
+=== withPosition
+
+▸ *withPosition*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L97[ui/styling/background-common.ts:97]
+
+'''
+
+[#withrepeat]
+=== withRepeat
+
+▸ *withRepeat*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L90[ui/styling/background-common.ts:90]
+
+'''
+
+[#withsize]
+=== withSize
+
+▸ *withSize*(`value`): xref:Background.adoc[`Background`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+xref:Background.adoc[`Background`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L104[ui/styling/background-common.ts:104]
+
+'''
+
+[#equals]
+=== equals
+
+▸ `Static` *equals*(`value1`, `value2`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value1`
+| xref:Background.adoc[`Background`]
+
+| `value2`
+| xref:Background.adoc[`Background`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background-common.ts#L216[ui/styling/background-common.ts:216]

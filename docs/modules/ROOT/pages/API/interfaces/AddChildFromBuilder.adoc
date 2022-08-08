@@ -1,0 +1,52 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AddChildFromBuilder
+
+= Interface: AddChildFromBuilder
+
+Defines an interface for adding a child element declared in xml.
+
+== Implemented by
+
+* xref:../classes/ContentView.adoc[`ContentView`]
+* xref:../classes/FormattedString.adoc[`FormattedString`]
+* xref:../classes/SegmentedBar.adoc[`SegmentedBar`]
+* xref:../classes/TextBase.adoc[`TextBase`]
+
+== Table of contents
+
+=== Methods
+
+* link:AddChildFromBuilder.md#_addchildfrombuilder[_addChildFromBuilder]
+
+== Methods
+
+[#_addchildfrombuilder]
+=== _addChildFromBuilder
+
+▸ *_addChildFromBuilder*(`name`, `value`): `void`
+
+Called for every child element declared in xml.
+This method will add a child element (value) to current element.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `name`
+| `string`
+| Name of the element.
+
+| `value`
+| `any`
+| Value of the element.
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L967[ui/core/view/index.d.ts:967]

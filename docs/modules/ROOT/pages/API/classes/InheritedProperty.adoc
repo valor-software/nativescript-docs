@@ -1,0 +1,483 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / InheritedProperty
+
+= Class: InheritedProperty<T, U>
+
+== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]
+
+| `U`
+| `U`
+|===
+
+== Hierarchy
+
+* xref:Property.adoc[`Property`]<``T``, `U`>
++
+↳ *`InheritedProperty`*
+
+== Implements
+
+* xref:InheritedProperty.adoc[`InheritedProperty`]<``T``, `U`>
+
+== Implemented by
+
+* xref:InheritedProperty.adoc[`InheritedProperty`]
+
+== Table of contents
+
+=== Constructors
+
+* link:InheritedProperty.md#constructor[constructor]
+
+=== Properties
+
+* link:InheritedProperty.md#configurable[configurable]
+* link:InheritedProperty.md#defaultvalue[defaultValue]
+* link:InheritedProperty.md#defaultvaluekey[defaultValueKey]
+* link:InheritedProperty.md#enumerable[enumerable]
+* link:InheritedProperty.md#get[get]
+* link:InheritedProperty.md#getdefault[getDefault]
+* link:InheritedProperty.md#isstyleproperty[isStyleProperty]
+* link:InheritedProperty.md#key[key]
+* link:InheritedProperty.md#name[name]
+* link:InheritedProperty.md#nativevaluechange[nativeValueChange]
+* link:InheritedProperty.md#overridehandlers[overrideHandlers]
+* link:InheritedProperty.md#set[set]
+* link:InheritedProperty.md#setinheritedvalue[setInheritedValue]
+* link:InheritedProperty.md#setnative[setNative]
+* link:InheritedProperty.md#sourcekey[sourceKey]
+
+=== Methods
+
+* link:InheritedProperty.md#isset[isSet]
+* link:InheritedProperty.md#register[register]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new InheritedProperty*<``T``, `U`>(`options`)
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]<``T``>
+
+| `U`
+| `U`
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| `PropertyOptions`<``T``, `U`>
+|===
+
+==== Overrides
+
+Property<T, U\>.constructor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L507[ui/core/properties/index.ts:507]
+
+== Properties
+
+[#configurable]
+=== configurable
+
+• *configurable*: `boolean` = `true`
+
+==== Implementation of
+
+InheritedProperty.configurable
+
+==== Inherited from
+
+Property.configurable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L186[ui/core/properties/index.ts:186]
+
+'''
+
+[#defaultvalue]
+=== defaultValue
+
+• `Readonly` *defaultValue*: `U`
+
+==== Implementation of
+
+InheritedProperty.defaultValue
+
+==== Inherited from
+
+Property.defaultValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L177[ui/core/properties/index.ts:177]
+
+'''
+
+[#defaultvaluekey]
+=== defaultValueKey
+
+• `Readonly` *defaultValueKey*: `symbol`
+
+==== Implementation of
+
+InheritedProperty.defaultValueKey
+
+==== Inherited from
+
+Property.defaultValueKey
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L176[ui/core/properties/index.ts:176]
+
+'''
+
+[#enumerable]
+=== enumerable
+
+• *enumerable*: `boolean` = `true`
+
+==== Implementation of
+
+InheritedProperty.enumerable
+
+==== Inherited from
+
+Property.enumerable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L185[ui/core/properties/index.ts:185]
+
+'''
+
+[#get]
+=== get
+
+• *get*: () \=> `U`
+
+==== Type declaration
+
+▸ (): `U`
+
+===== Returns
+
+`U`
+
+==== Implementation of
+
+InheritedProperty.get
+
+==== Inherited from
+
+Property.get
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L182[ui/core/properties/index.ts:182]
+
+'''
+
+[#getdefault]
+=== getDefault
+
+• `Readonly` *getDefault*: `symbol`
+
+==== Implementation of
+
+InheritedProperty.getDefault
+
+==== Inherited from
+
+Property.getDefault
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L173[ui/core/properties/index.ts:173]
+
+'''
+
+[#isstyleproperty]
+=== isStyleProperty
+
+• *isStyleProperty*: `boolean`
+
+==== Implementation of
+
+InheritedProperty.isStyleProperty
+
+==== Inherited from
+
+Property.isStyleProperty
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L180[ui/core/properties/index.ts:180]
+
+'''
+
+[#key]
+=== key
+
+• `Readonly` *key*: `symbol`
+
+==== Implementation of
+
+InheritedProperty.key
+
+==== Inherited from
+
+Property.key
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L171[ui/core/properties/index.ts:171]
+
+'''
+
+[#name]
+=== name
+
+• `Readonly` *name*: `string`
+
+==== Implementation of
+
+InheritedProperty.name
+
+==== Inherited from
+
+Property.name
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L170[ui/core/properties/index.ts:170]
+
+'''
+
+[#nativevaluechange]
+=== nativeValueChange
+
+• `Readonly` *nativeValueChange*: (`owner`: `T`, `value`: `U`) \=> `void`
+
+==== Type declaration
+
+▸ (`owner`, `value`): `void`
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `owner`
+| `T`
+
+| `value`
+| `U`
+|===
+
+===== Returns
+
+`void`
+
+==== Implementation of
+
+InheritedProperty.nativeValueChange
+
+==== Inherited from
+
+Property.nativeValueChange
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L178[ui/core/properties/index.ts:178]
+
+'''
+
+[#overridehandlers]
+=== overrideHandlers
+
+• *overrideHandlers*: (`options`: `PropertyOptions`<``T``, `U`>) \=> `void`
+
+==== Type declaration
+
+▸ (`options`): `void`
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| `PropertyOptions`<``T``, `U`>
+|===
+
+===== Returns
+
+`void`
+
+==== Implementation of
+
+InheritedProperty.overrideHandlers
+
+==== Inherited from
+
+Property.overrideHandlers
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L184[ui/core/properties/index.ts:184]
+
+'''
+
+[#set]
+=== set
+
+• *set*: (`value`: `U`) \=> `void`
+
+==== Type declaration
+
+▸ (`value`): `void`
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `U`
+|===
+
+===== Returns
+
+`void`
+
+==== Implementation of
+
+InheritedProperty.set
+
+==== Inherited from
+
+Property.set
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L183[ui/core/properties/index.ts:183]
+
+'''
+
+[#setinheritedvalue]
+=== setInheritedValue
+
+• `Readonly` *setInheritedValue*: (`value`: `U`) \=> `void`
+
+==== Type declaration
+
+▸ (`value`): `void`
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `U`
+|===
+
+===== Returns
+
+`void`
+
+==== Implementation of
+
+InheritedProperty.setInheritedValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L505[ui/core/properties/index.ts:505]
+
+'''
+
+[#setnative]
+=== setNative
+
+• `Readonly` *setNative*: `symbol`
+
+==== Implementation of
+
+InheritedProperty.setNative
+
+==== Inherited from
+
+Property.setNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L174[ui/core/properties/index.ts:174]
+
+'''
+
+[#sourcekey]
+=== sourceKey
+
+• `Readonly` *sourceKey*: `symbol`
+
+==== Implementation of
+
+InheritedProperty.sourceKey
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L504[ui/core/properties/index.ts:504]
+
+== Methods
+
+[#isset]
+=== isSet
+
+▸ *isSet*(`instance`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `instance`
+| `T`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+InheritedProperty.isSet
+
+==== Inherited from
+
+Property.isSet
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L360[ui/core/properties/index.ts:360]
+
+'''
+
+[#register]
+=== register
+
+▸ *register*(`cls`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `cls`
+| `Object`
+
+| `cls.prototype`
+| `T`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+InheritedProperty.register
+
+==== Inherited from
+
+Property.register
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L352[ui/core/properties/index.ts:352]

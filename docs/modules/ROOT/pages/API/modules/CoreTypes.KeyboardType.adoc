@@ -1,0 +1,84 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / KeyboardType
+
+= Namespace: KeyboardType
+
+xref:CoreTypes.adoc[CoreTypes].KeyboardType
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.KeyboardType.md#datetime[datetime]
+* link:CoreTypes.KeyboardType.md#email[email]
+* link:CoreTypes.KeyboardType.md#integer[integer]
+* link:CoreTypes.KeyboardType.md#number[number]
+* link:CoreTypes.KeyboardType.md#phone[phone]
+* link:CoreTypes.KeyboardType.md#url[url]
+
+== Variables
+
+[#datetime]
+=== datetime
+
+• `Const` *datetime*: `"datetime"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L37[core-types/index.ts:37]
+
+'''
+
+[#email]
+=== email
+
+• `Const` *email*: `"email"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L41[core-types/index.ts:41]
+
+'''
+
+[#integer]
+=== integer
+
+• `Const` *integer*: `"integer"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L42[core-types/index.ts:42]
+
+'''
+
+[#number]
+=== number
+
+• `Const` *number*: `"number"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L39[core-types/index.ts:39]
+
+'''
+
+[#phone]
+=== phone
+
+• `Const` *phone*: `"phone"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L38[core-types/index.ts:38]
+
+'''
+
+[#url]
+=== url
+
+• `Const` *url*: `"url"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L40[core-types/index.ts:40]

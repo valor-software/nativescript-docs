@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / StatusBarStyle
+
+= Namespace: StatusBarStyle
+
+xref:CoreTypes.adoc[CoreTypes].StatusBarStyle
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.StatusBarStyle.md#dark[dark]
+* link:CoreTypes.StatusBarStyle.md#light[light]
+
+== Variables
+
+[#dark]
+=== dark
+
+• `Const` *dark*: `"dark"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L268[core-types/index.ts:268]
+
+'''
+
+[#light]
+=== light
+
+• `Const` *light*: `"light"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L267[core-types/index.ts:267]

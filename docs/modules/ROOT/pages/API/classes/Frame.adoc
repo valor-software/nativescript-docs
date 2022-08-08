@@ -1,0 +1,7681 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Frame
+
+= Class: Frame
+
+Represents the logical View unit that is responsible for navigation within an application.
+Nested frames are supported, enabling hierarchical navigation scenarios.
+
+== Hierarchy
+
+* `FrameBase`
++
+↳ *`Frame`*
+
+== Table of contents
+
+=== Constructors
+
+* link:Frame.md#constructor[constructor]
+
+=== Properties
+
+* link:Frame.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:Frame.md#_animationinprogress[_animationInProgress]
+* link:Frame.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:Frame.md#_closemodalcallback[_closeModalCallback]
+* link:Frame.md#_context[_context]
+* link:Frame.md#_cssstate[_cssState]
+* link:Frame.md#_currententry[_currentEntry]
+* link:Frame.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:Frame.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:Frame.md#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:Frame.md#_defaultpaddingleft[_defaultPaddingLeft]
+* link:Frame.md#_defaultpaddingright[_defaultPaddingRight]
+* link:Frame.md#_defaultpaddingtop[_defaultPaddingTop]
+* link:Frame.md#_domid[_domId]
+* link:Frame.md#_executingcontext[_executingContext]
+* link:Frame.md#_gestureobservers[_gestureObservers]
+* link:Frame.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:Frame.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:Frame.md#_isinframestack[_isInFrameStack]
+* link:Frame.md#_islayoutvalid[_isLayoutValid]
+* link:Frame.md#_ispaddingrelative[_isPaddingRelative]
+* link:Frame.md#_isstylescopehost[_isStyleScopeHost]
+* link:Frame.md#_isviewbase[_isViewBase]
+* link:Frame.md#_manager[_manager]
+* link:Frame.md#_modalparent[_modalParent]
+* link:Frame.md#_modulename[_moduleName]
+* link:Frame.md#_oldbottom[_oldBottom]
+* link:Frame.md#_oldleft[_oldLeft]
+* link:Frame.md#_oldright[_oldRight]
+* link:Frame.md#_oldtop[_oldTop]
+* link:Frame.md#_stylescope[_styleScope]
+* link:Frame.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:Frame.md#_suspendedupdates[_suspendedUpdates]
+* link:Frame.md#accessibilityhidden[accessibilityHidden]
+* link:Frame.md#accessibilityhint[accessibilityHint]
+* link:Frame.md#accessibilityidentifier[accessibilityIdentifier]
+* link:Frame.md#accessibilitylabel[accessibilityLabel]
+* link:Frame.md#accessibilitylanguage[accessibilityLanguage]
+* link:Frame.md#accessibilityliveregion[accessibilityLiveRegion]
+* link:Frame.md#accessibilitymediasession[accessibilityMediaSession]
+* link:Frame.md#accessibilityrole[accessibilityRole]
+* link:Frame.md#accessibilitystate[accessibilityState]
+* link:Frame.md#accessibilityvalue[accessibilityValue]
+* link:Frame.md#accessible[accessible]
+* link:Frame.md#actionbarvisibility[actionBarVisibility]
+* link:Frame.md#alignself[alignSelf]
+* link:Frame.md#android[android]
+* link:Frame.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:Frame.md#androidelevation[androidElevation]
+* link:Frame.md#animated[animated]
+* link:Frame.md#automationtext[automationText]
+* link:Frame.md#backstack[backStack]
+* link:Frame.md#background[background]
+* link:Frame.md#backgroundcolor[backgroundColor]
+* link:Frame.md#backgroundimage[backgroundImage]
+* link:Frame.md#bindingcontext[bindingContext]
+* link:Frame.md#borderbottomcolor[borderBottomColor]
+* link:Frame.md#borderbottomleftradius[borderBottomLeftRadius]
+* link:Frame.md#borderbottomrightradius[borderBottomRightRadius]
+* link:Frame.md#borderbottomwidth[borderBottomWidth]
+* link:Frame.md#bordercolor[borderColor]
+* link:Frame.md#borderleftcolor[borderLeftColor]
+* link:Frame.md#borderleftwidth[borderLeftWidth]
+* link:Frame.md#borderradius[borderRadius]
+* link:Frame.md#borderrightcolor[borderRightColor]
+* link:Frame.md#borderrightwidth[borderRightWidth]
+* link:Frame.md#bordertopcolor[borderTopColor]
+* link:Frame.md#bordertopleftradius[borderTopLeftRadius]
+* link:Frame.md#bordertoprightradius[borderTopRightRadius]
+* link:Frame.md#bordertopwidth[borderTopWidth]
+* link:Frame.md#borderwidth[borderWidth]
+* link:Frame.md#boxshadow[boxShadow]
+* link:Frame.md#classname[className]
+* link:Frame.md#col[col]
+* link:Frame.md#colspan[colSpan]
+* link:Frame.md#color[color]
+* link:Frame.md#column[column]
+* link:Frame.md#columnspan[columnSpan]
+* link:Frame.md#css[css]
+* link:Frame.md#cssclasses[cssClasses]
+* link:Frame.md#csspseudoclasses[cssPseudoClasses]
+* link:Frame.md#csstype[cssType]
+* link:Frame.md#currententry[currentEntry]
+* link:Frame.md#currentpage[currentPage]
+* link:Frame.md#dock[dock]
+* link:Frame.md#domnode[domNode]
+* link:Frame.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:Frame.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:Frame.md#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:Frame.md#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:Frame.md#effectiveheight[effectiveHeight]
+* link:Frame.md#effectiveleft[effectiveLeft]
+* link:Frame.md#effectivemarginbottom[effectiveMarginBottom]
+* link:Frame.md#effectivemarginleft[effectiveMarginLeft]
+* link:Frame.md#effectivemarginright[effectiveMarginRight]
+* link:Frame.md#effectivemargintop[effectiveMarginTop]
+* link:Frame.md#effectiveminheight[effectiveMinHeight]
+* link:Frame.md#effectiveminwidth[effectiveMinWidth]
+* link:Frame.md#effectivepaddingbottom[effectivePaddingBottom]
+* link:Frame.md#effectivepaddingleft[effectivePaddingLeft]
+* link:Frame.md#effectivepaddingright[effectivePaddingRight]
+* link:Frame.md#effectivepaddingtop[effectivePaddingTop]
+* link:Frame.md#effectivetop[effectiveTop]
+* link:Frame.md#effectivewidth[effectiveWidth]
+* link:Frame.md#flexgrow[flexGrow]
+* link:Frame.md#flexshrink[flexShrink]
+* link:Frame.md#flexwrapbefore[flexWrapBefore]
+* link:Frame.md#height[height]
+* link:Frame.md#horizontalalignment[horizontalAlignment]
+* link:Frame.md#id[id]
+* link:Frame.md#ignoretouchanimation[ignoreTouchAnimation]
+* link:Frame.md#ios[ios]
+* link:Frame.md#iosignoresafearea[iosIgnoreSafeArea]
+* link:Frame.md#iosoverflowsafearea[iosOverflowSafeArea]
+* link:Frame.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:Frame.md#iscollapsed[isCollapsed]
+* link:Frame.md#isenabled[isEnabled]
+* link:Frame.md#islayoutrequired[isLayoutRequired]
+* link:Frame.md#islayoutvalid[isLayoutValid]
+* link:Frame.md#isuserinteractionenabled[isUserInteractionEnabled]
+* link:Frame.md#left[left]
+* link:Frame.md#margin[margin]
+* link:Frame.md#marginbottom[marginBottom]
+* link:Frame.md#marginleft[marginLeft]
+* link:Frame.md#marginright[marginRight]
+* link:Frame.md#margintop[marginTop]
+* link:Frame.md#minheight[minHeight]
+* link:Frame.md#minwidth[minWidth]
+* link:Frame.md#modal[modal]
+* link:Frame.md#nativeviewprotected[nativeViewProtected]
+* link:Frame.md#navigationbarheight[navigationBarHeight]
+* link:Frame.md#opacity[opacity]
+* link:Frame.md#order[order]
+* link:Frame.md#originx[originX]
+* link:Frame.md#originy[originY]
+* link:Frame.md#parent[parent]
+* link:Frame.md#perspective[perspective]
+* link:Frame.md#recyclenativeview[recycleNativeView]
+* link:Frame.md#reusable[reusable]
+* link:Frame.md#rotate[rotate]
+* link:Frame.md#rotatex[rotateX]
+* link:Frame.md#rotatey[rotateY]
+* link:Frame.md#row[row]
+* link:Frame.md#rowspan[rowSpan]
+* link:Frame.md#scalex[scaleX]
+* link:Frame.md#scaley[scaleY]
+* link:Frame.md#testid[testID]
+* link:Frame.md#top[top]
+* link:Frame.md#touchanimation[touchAnimation]
+* link:Frame.md#touchdelay[touchDelay]
+* link:Frame.md#transition[transition]
+* link:Frame.md#translatex[translateX]
+* link:Frame.md#translatey[translateY]
+* link:Frame.md#verticalalignment[verticalAlignment]
+* link:Frame.md#viewcontroller[viewController]
+* link:Frame.md#visibility[visibility]
+* link:Frame.md#width[width]
+* link:Frame.md#accessibilityblurevent[accessibilityBlurEvent]
+* link:Frame.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:Frame.md#accessibilityfocusevent[accessibilityFocusEvent]
+* link:Frame.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:Frame.md#androidoptionselectedevent[androidOptionSelectedEvent]
+* link:Frame.md#createdevent[createdEvent]
+* link:Frame.md#defaultanimatednavigation[defaultAnimatedNavigation]
+* link:Frame.md#defaulttransition[defaultTransition]
+* link:Frame.md#disposenativeviewevent[disposeNativeViewEvent]
+* link:Frame.md#layoutchangedevent[layoutChangedEvent]
+* link:Frame.md#loadedevent[loadedEvent]
+* link:Frame.md#propertychangeevent[propertyChangeEvent]
+* link:Frame.md#showingmodallyevent[showingModallyEvent]
+* link:Frame.md#shownmodallyevent[shownModallyEvent]
+* link:Frame.md#unloadedevent[unloadedEvent]
+
+=== Accessors
+
+* link:Frame.md#_childrencount[_childrenCount]
+* link:Frame.md#backgroundposition[backgroundPosition]
+* link:Frame.md#backgroundrepeat[backgroundRepeat]
+* link:Frame.md#backgroundsize[backgroundSize]
+* link:Frame.md#class[class]
+* link:Frame.md#isloaded[isLoaded]
+* link:Frame.md#nativeview[nativeView]
+* link:Frame.md#page[page]
+* link:Frame.md#parentnode[parentNode]
+* link:Frame.md#style[style]
+* link:Frame.md#texttransform[textTransform]
+* link:Frame.md#typename[typeName]
+
+=== Methods
+
+* link:Frame.md#_addchildfrombuilder[_addChildFromBuilder]
+* link:Frame.md#_addview[_addView]
+* link:Frame.md#_addviewcore[_addViewCore]
+* link:Frame.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:Frame.md#_applybackground[_applyBackground]
+* link:Frame.md#_applyxmlattribute[_applyXmlAttribute]
+* link:Frame.md#_backstackentrytrace[_backstackEntryTrace]
+* link:Frame.md#_batchupdate[_batchUpdate]
+* link:Frame.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:Frame.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:Frame.md#_createpropertychangedata[_createPropertyChangeData]
+* link:Frame.md#_dialogclosed[_dialogClosed]
+* link:Frame.md#_eachlayoutview[_eachLayoutView]
+* link:Frame.md#_emit[_emit]
+* link:Frame.md#_findentryfortag[_findEntryForTag]
+* link:Frame.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:Frame.md#_getfragmentmanager[_getFragmentManager]
+* link:Frame.md#_getisanimatednavigation[_getIsAnimatedNavigation]
+* link:Frame.md#_getnativeviewscount[_getNativeViewsCount]
+* link:Frame.md#_getnavbarvisible[_getNavBarVisible]
+* link:Frame.md#_getnavigationtransition[_getNavigationTransition]
+* link:Frame.md#_getrootmodalviews[_getRootModalViews]
+* link:Frame.md#_getvalue[_getValue]
+* link:Frame.md#_gobackcore[_goBackCore]
+* link:Frame.md#_gotovisualstate[_goToVisualState]
+* link:Frame.md#_handlelivesync[_handleLivesync]
+* link:Frame.md#_hasancestorview[_hasAncestorView]
+* link:Frame.md#_hidenativemodalview[_hideNativeModalView]
+* link:Frame.md#_inheritstylescope[_inheritStyleScope]
+* link:Frame.md#_layoutparent[_layoutParent]
+* link:Frame.md#_navigatecore[_navigateCore]
+* link:Frame.md#_observe[_observe]
+* link:Frame.md#_onattachedtowindow[_onAttachedToWindow]
+* link:Frame.md#_oncssstatechange[_onCssStateChange]
+* link:Frame.md#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:Frame.md#_onlivesync[_onLivesync]
+* link:Frame.md#_onnavigatingto[_onNavigatingTo]
+* link:Frame.md#_onrootviewreset[_onRootViewReset]
+* link:Frame.md#_onsizechanged[_onSizeChanged]
+* link:Frame.md#_parentchanged[_parentChanged]
+* link:Frame.md#_popfromframestack[_popFromFrameStack]
+* link:Frame.md#_printframebackstack[_printFrameBackStack]
+* link:Frame.md#_processnavigationqueue[_processNavigationQueue]
+* link:Frame.md#_processnextnavigationentry[_processNextNavigationEntry]
+* link:Frame.md#_pushinframestack[_pushInFrameStack]
+* link:Frame.md#_pushinframestackrecursive[_pushInFrameStackRecursive]
+* link:Frame.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:Frame.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:Frame.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:Frame.md#_redrawnativebackground[_redrawNativeBackground]
+* link:Frame.md#_removeanimation[_removeAnimation]
+* link:Frame.md#_removeentry[_removeEntry]
+* link:Frame.md#_removefromframestack[_removeFromFrameStack]
+* link:Frame.md#_removeview[_removeView]
+* link:Frame.md#_removeviewcore[_removeViewCore]
+* link:Frame.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:Frame.md#_resumenativeupdates[_resumeNativeUpdates]
+* link:Frame.md#_setchildminheightnative[_setChildMinHeightNative]
+* link:Frame.md#_setchildminwidthnative[_setChildMinWidthNative]
+* link:Frame.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:Frame.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:Frame.md#_setminheightnative[_setMinHeightNative]
+* link:Frame.md#_setminwidthnative[_setMinWidthNative]
+* link:Frame.md#_setnativecliptobounds[_setNativeClipToBounds]
+* link:Frame.md#_setnativeviewframe[_setNativeViewFrame]
+* link:Frame.md#_setvalue[_setValue]
+* link:Frame.md#_setupasrootview[_setupAsRootView]
+* link:Frame.md#_setupui[_setupUI]
+* link:Frame.md#_shoulddelaylayout[_shouldDelayLayout]
+* link:Frame.md#_shownativemodalview[_showNativeModalView]
+* link:Frame.md#_suspendnativeupdates[_suspendNativeUpdates]
+* link:Frame.md#_teardownui[_tearDownUI]
+* link:Frame.md#_updateactionbar[_updateActionBar]
+* link:Frame.md#_updatebackstack[_updateBackstack]
+* link:Frame.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:Frame.md#_updatenativelayoutparams[_updateNativeLayoutParams]
+* link:Frame.md#_updatestylescope[_updateStyleScope]
+* link:Frame.md#accessibilityannouncement[accessibilityAnnouncement]
+* link:Frame.md#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:Frame.md#addcss[addCss]
+* link:Frame.md#addcssfile[addCssFile]
+* link:Frame.md#addeventlistener[addEventListener]
+* link:Frame.md#addpseudoclass[addPseudoClass]
+* link:Frame.md#animate[animate]
+* link:Frame.md#bind[bind]
+* link:Frame.md#callloaded[callLoaded]
+* link:Frame.md#callunloaded[callUnloaded]
+* link:Frame.md#cangoback[canGoBack]
+* link:Frame.md#changecssfile[changeCssFile]
+* link:Frame.md#closemodal[closeModal]
+* link:Frame.md#createanimation[createAnimation]
+* link:Frame.md#createnativeview[createNativeView]
+* link:Frame.md#deletepseudoclass[deletePseudoClass]
+* link:Frame.md#destroynode[destroyNode]
+* link:Frame.md#disposenativeview[disposeNativeView]
+* link:Frame.md#eachchild[eachChild]
+* link:Frame.md#eachchildview[eachChildView]
+* link:Frame.md#ensuredomnode[ensureDomNode]
+* link:Frame.md#focus[focus]
+* link:Frame.md#get[get]
+* link:Frame.md#getactualsize[getActualSize]
+* link:Frame.md#getgestureobservers[getGestureObservers]
+* link:Frame.md#getlocationinwindow[getLocationInWindow]
+* link:Frame.md#getlocationonscreen[getLocationOnScreen]
+* link:Frame.md#getlocationrelativeto[getLocationRelativeTo]
+* link:Frame.md#getmeasuredheight[getMeasuredHeight]
+* link:Frame.md#getmeasuredstate[getMeasuredState]
+* link:Frame.md#getmeasuredwidth[getMeasuredWidth]
+* link:Frame.md#getsafeareainsets[getSafeAreaInsets]
+* link:Frame.md#getviewbydomid[getViewByDomId]
+* link:Frame.md#getviewbyid[getViewById]
+* link:Frame.md#goback[goBack]
+* link:Frame.md#hasgestureobservers[hasGestureObservers]
+* link:Frame.md#haslisteners[hasListeners]
+* link:Frame.md#initnativeview[initNativeView]
+* link:Frame.md#iscurrent[isCurrent]
+* link:Frame.md#layout[layout]
+* link:Frame.md#layoutnativeview[layoutNativeView]
+* link:Frame.md#loadview[loadView]
+* link:Frame.md#measure[measure]
+* link:Frame.md#navigate[navigate]
+* link:Frame.md#navigationqueueisempty[navigationQueueIsEmpty]
+* link:Frame.md#notify[notify]
+* link:Frame.md#notifypropertychange[notifyPropertyChange]
+* link:Frame.md#off[off]
+* link:Frame.md#on[on]
+* link:Frame.md#onbackpressed[onBackPressed]
+* link:Frame.md#onlayout[onLayout]
+* link:Frame.md#onloaded[onLoaded]
+* link:Frame.md#onmeasure[onMeasure]
+* link:Frame.md#onresumenativeupdates[onResumeNativeUpdates]
+* link:Frame.md#onunloaded[onUnloaded]
+* link:Frame.md#once[once]
+* link:Frame.md#performnavigation[performNavigation]
+* link:Frame.md#removeeventlistener[removeEventListener]
+* link:Frame.md#replacepage[replacePage]
+* link:Frame.md#requestlayout[requestLayout]
+* link:Frame.md#resetnativeview[resetNativeView]
+* link:Frame.md#sendaccessibilityevent[sendAccessibilityEvent]
+* link:Frame.md#set[set]
+* link:Frame.md#setcurrent[setCurrent]
+* link:Frame.md#setinlinestyle[setInlineStyle]
+* link:Frame.md#setmeasureddimension[setMeasuredDimension]
+* link:Frame.md#setnativeview[setNativeView]
+* link:Frame.md#setontouchlistener[setOnTouchListener]
+* link:Frame.md#setproperty[setProperty]
+* link:Frame.md#settestid[setTestID]
+* link:Frame.md#showmodal[showModal]
+* link:Frame.md#tostring[toString]
+* link:Frame.md#unbind[unbind]
+* link:Frame.md#unloadview[unloadView]
+* link:Frame.md#_isentrybackstackvisible[_isEntryBackstackVisible]
+* link:Frame.md#_stack[_stack]
+* link:Frame.md#addeventlistener-1[addEventListener]
+* link:Frame.md#combinemeasuredstates[combineMeasuredStates]
+* link:Frame.md#getframebyid[getFrameById]
+* link:Frame.md#goback-1[goBack]
+* link:Frame.md#layoutchild[layoutChild]
+* link:Frame.md#measurechild[measureChild]
+* link:Frame.md#off-1[off]
+* link:Frame.md#on-1[on]
+* link:Frame.md#once-1[once]
+* link:Frame.md#reloadpage[reloadPage]
+* link:Frame.md#removeeventlistener-1[removeEventListener]
+* link:Frame.md#resolvesizeandstate[resolveSizeAndState]
+* link:Frame.md#topmost[topmost]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new Frame*()
+
+==== Inherited from
+
+FrameBase.constructor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L340[ui/core/view-base/index.ts:340]
+
+== Properties
+
+[#_androidcontentdescriptionupdated]
+=== _androidContentDescriptionUpdated
+
+• `Optional` *_androidContentDescriptionUpdated*: `boolean`
+
+Internal use only.
+This is used to limit the number of updates to android.view.View.setContentDescription()
+
+==== Inherited from
+
+FrameBase._androidContentDescriptionUpdated
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L288[ui/core/view/index.d.ts:288]
+
+'''
+
+[#_animationinprogress]
+=== _animationInProgress
+
+• `Private` *_animationInProgress*: `boolean`
+
+==== Overrides
+
+FrameBase._animationInProgress
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L162[ui/frame/index.d.ts:162]
+
+'''
+
+[#_automaticallyadjustsscrollviewinsets]
+=== _automaticallyAdjustsScrollViewInsets
+
+• *_automaticallyAdjustsScrollViewInsets*: `boolean`
+
+==== Inherited from
+
+FrameBase._automaticallyAdjustsScrollViewInsets
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L286[ui/core/view-base/index.ts:286]
+
+'''
+
+[#_closemodalcallback]
+=== _closeModalCallback
+
+• `Protected` *_closeModalCallback*: `Function`
+
+==== Inherited from
+
+FrameBase._closeModalCallback
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L91[ui/core/view/view-common.ts:91]
+
+'''
+
+[#_context]
+=== _context
+
+• *_context*: `any`
+
+==== Inherited from
+
+FrameBase._context
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L277[ui/core/view-base/index.ts:277]
+
+'''
+
+[#_cssstate]
+=== _cssState
+
+• *_cssState*: `CssState`
+
+==== Inherited from
+
+FrameBase._cssState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L279[ui/core/view-base/index.ts:279]
+
+'''
+
+[#_currententry]
+=== _currentEntry
+
+• `Private` *_currentEntry*: xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+
+==== Overrides
+
+FrameBase._currentEntry
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L166[ui/frame/index.d.ts:166]
+
+'''
+
+[#_currentheightmeasurespec]
+=== _currentHeightMeasureSpec
+
+• `Private` *_currentHeightMeasureSpec*: `number`
+
+==== Inherited from
+
+FrameBase._currentHeightMeasureSpec
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L820[ui/core/view/index.d.ts:820]
+
+'''
+
+[#_currentwidthmeasurespec]
+=== _currentWidthMeasureSpec
+
+• `Private` *_currentWidthMeasureSpec*: `number`
+
+==== Inherited from
+
+FrameBase._currentWidthMeasureSpec
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L816[ui/core/view/index.d.ts:816]
+
+'''
+
+[#_defaultpaddingbottom]
+=== _defaultPaddingBottom
+
+• *_defaultPaddingBottom*: `number`
+
+==== Inherited from
+
+FrameBase._defaultPaddingBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L332[ui/core/view-base/index.ts:332]
+
+'''
+
+[#_defaultpaddingleft]
+=== _defaultPaddingLeft
+
+• *_defaultPaddingLeft*: `number`
+
+==== Inherited from
+
+FrameBase._defaultPaddingLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L333[ui/core/view-base/index.ts:333]
+
+'''
+
+[#_defaultpaddingright]
+=== _defaultPaddingRight
+
+• *_defaultPaddingRight*: `number`
+
+==== Inherited from
+
+FrameBase._defaultPaddingRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L331[ui/core/view-base/index.ts:331]
+
+'''
+
+[#_defaultpaddingtop]
+=== _defaultPaddingTop
+
+• *_defaultPaddingTop*: `number`
+
+==== Inherited from
+
+FrameBase._defaultPaddingTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L330[ui/core/view-base/index.ts:330]
+
+'''
+
+[#_domid]
+=== _domId
+
+• *_domId*: `number`
+
+==== Inherited from
+
+FrameBase._domId
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L276[ui/core/view-base/index.ts:276]
+
+'''
+
+[#_executingcontext]
+=== _executingContext
+
+• `Private` *_executingContext*: xref:../interfaces/NavigationContext.adoc[`NavigationContext`]
+
+==== Overrides
+
+FrameBase._executingContext
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L170[ui/frame/index.d.ts:170]
+
+'''
+
+[#_gestureobservers]
+=== _gestureObservers
+
+• `Private` *_gestureObservers*: `any`
+
+==== Inherited from
+
+FrameBase._gestureObservers
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L770[ui/core/view/index.d.ts:770]
+
+'''
+
+[#_ignoreflexminwidthheightreset]
+=== _ignoreFlexMinWidthHeightReset
+
+• *_ignoreFlexMinWidthHeightReset*: `boolean`
+
+==== Inherited from
+
+FrameBase._ignoreFlexMinWidthHeightReset
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L311[ui/core/view-base/index.ts:311]
+
+'''
+
+[#_isaddedtonativevisualtree]
+=== _isAddedToNativeVisualTree
+
+• *_isAddedToNativeVisualTree*: `boolean`
+
+==== Inherited from
+
+FrameBase._isAddedToNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L278[ui/core/view-base/index.ts:278]
+
+'''
+
+[#_isinframestack]
+=== _isInFrameStack
+
+• *_isInFrameStack*: `boolean` = `false`
+
+==== Inherited from
+
+FrameBase._isInFrameStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L48[ui/frame/frame-common.ts:48]
+
+'''
+
+[#_islayoutvalid]
+=== _isLayoutValid
+
+• `Protected` *_isLayoutValid*: `boolean`
+
+==== Inherited from
+
+FrameBase._isLayoutValid
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L100[ui/core/view/view-common.ts:100]
+
+'''
+
+[#_ispaddingrelative]
+=== _isPaddingRelative
+
+• *_isPaddingRelative*: `boolean`
+
+==== Inherited from
+
+FrameBase._isPaddingRelative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L334[ui/core/view-base/index.ts:334]
+
+'''
+
+[#_isstylescopehost]
+=== _isStyleScopeHost
+
+• *_isStyleScopeHost*: `boolean`
+
+==== Inherited from
+
+FrameBase._isStyleScopeHost
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L285[ui/core/view-base/index.ts:285]
+
+'''
+
+[#_isviewbase]
+=== _isViewBase
+
+• *_isViewBase*: `boolean`
+
+==== Inherited from
+
+FrameBase._isViewBase
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L52[data/observable/index.ts:52]
+
+'''
+
+[#_manager]
+=== _manager
+
+• `Private` *_manager*: `any`
+
+androidx.fragment.app.FragmentManager
+
+==== Inherited from
+
+FrameBase._manager
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L775[ui/core/view/index.d.ts:775]
+
+'''
+
+[#_modalparent]
+=== _modalParent
+
+• `Optional` `Private` *_modalParent*: xref:View.adoc[`View`]
+
+==== Inherited from
+
+FrameBase._modalParent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L762[ui/core/view/index.d.ts:762]
+
+'''
+
+[#_modulename]
+=== _moduleName
+
+• *_moduleName*: `string`
+
+==== Inherited from
+
+FrameBase._moduleName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L336[ui/core/view-base/index.ts:336]
+
+'''
+
+[#_oldbottom]
+=== _oldBottom
+
+• *_oldBottom*: `number`
+
+==== Inherited from
+
+FrameBase._oldBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L310[ui/core/view-base/index.ts:310]
+
+'''
+
+[#_oldleft]
+=== _oldLeft
+
+• *_oldLeft*: `number`
+
+==== Inherited from
+
+FrameBase._oldLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L307[ui/core/view-base/index.ts:307]
+
+'''
+
+[#_oldright]
+=== _oldRight
+
+• *_oldRight*: `number`
+
+==== Inherited from
+
+FrameBase._oldRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L309[ui/core/view-base/index.ts:309]
+
+'''
+
+[#_oldtop]
+=== _oldTop
+
+• *_oldTop*: `number`
+
+==== Inherited from
+
+FrameBase._oldTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L308[ui/core/view-base/index.ts:308]
+
+'''
+
+[#_stylescope]
+=== _styleScope
+
+• *_styleScope*: `StyleScope`
+
+==== Inherited from
+
+FrameBase._styleScope
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L280[ui/core/view-base/index.ts:280]
+
+'''
+
+[#_suspendnativeupdatescount]
+=== _suspendNativeUpdatesCount
+
+• *_suspendNativeUpdatesCount*: `number`
+
+==== Inherited from
+
+FrameBase._suspendNativeUpdatesCount
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L284[ui/core/view-base/index.ts:284]
+
+'''
+
+[#_suspendedupdates]
+=== _suspendedUpdates
+
+• *_suspendedUpdates*: `Object`
+
+==== Index signature
+
+▪ [propertyName: `string`]: xref:Property.adoc[`Property`]<xref:ViewBase.adoc[`ViewBase`], `any`> | xref:CssProperty.adoc[`CssProperty`]<xref:Style.adoc[`Style`], `any`> | xref:CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:Style.adoc[`Style`], `any`>
+
+==== Inherited from
+
+FrameBase._suspendedUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L281[ui/core/view-base/index.ts:281]
+
+'''
+
+[#accessibilityhidden]
+=== accessibilityHidden
+
+• *accessibilityHidden*: `boolean`
+
+Hide the view and its children from the a11y service
+
+==== Inherited from
+
+FrameBase.accessibilityHidden
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L239[ui/core/view/index.d.ts:239]
+
+'''
+
+[#accessibilityhint]
+=== accessibilityHint
+
+• *accessibilityHint*: `string`
+
+A hint describes the elements behavior.
+Example: 'Tap change playback speed'
+
+==== Inherited from
+
+FrameBase.accessibilityHint
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L271[ui/core/view/index.d.ts:271]
+
+'''
+
+[#accessibilityidentifier]
+=== accessibilityIdentifier
+
+• *accessibilityIdentifier*: `string`
+
+The view's unique accessibilityIdentifier.
+
+This is used for automated testing.
+
+==== Inherited from
+
+FrameBase.accessibilityIdentifier
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L246[ui/core/view/index.d.ts:246]
+
+'''
+
+[#accessibilitylabel]
+=== accessibilityLabel
+
+• *accessibilityLabel*: `string`
+
+Short description of the element, ideally one word.
+
+==== Inherited from
+
+FrameBase.accessibilityLabel
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L261[ui/core/view/index.d.ts:261]
+
+'''
+
+[#accessibilitylanguage]
+=== accessibilityLanguage
+
+• *accessibilityLanguage*: `string`
+
+Sets the language in which to speak the element's label and value.
+Accepts language ID tags that follows the "BCP 47" specification.
+
+==== Inherited from
+
+FrameBase.accessibilityLanguage
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L278[ui/core/view/index.d.ts:278]
+
+'''
+
+[#accessibilityliveregion]
+=== accessibilityLiveRegion
+
+• *accessibilityLiveRegion*: xref:../enums/AccessibilityLiveRegion.adoc[`AccessibilityLiveRegion`]
+
+==== Inherited from
+
+FrameBase.accessibilityLiveRegion
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L272[ui/core/view/index.d.ts:272]
+
+'''
+
+[#accessibilitymediasession]
+=== accessibilityMediaSession
+
+• *accessibilityMediaSession*: `boolean`
+
+This view starts a media session.
+Equivalent to trait = startsMedia
+
+==== Inherited from
+
+FrameBase.accessibilityMediaSession
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L283[ui/core/view/index.d.ts:283]
+
+'''
+
+[#accessibilityrole]
+=== accessibilityRole
+
+• *accessibilityRole*: xref:../enums/AccessibilityRole.adoc[`AccessibilityRole`]
+
+Which role should this view be treated by the a11y service?
+
+==== Inherited from
+
+FrameBase.accessibilityRole
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L251[ui/core/view/index.d.ts:251]
+
+'''
+
+[#accessibilitystate]
+=== accessibilityState
+
+• *accessibilityState*: xref:../enums/AccessibilityState.adoc[`AccessibilityState`]
+
+Which state should this view be treated as by the a11y service?
+
+==== Inherited from
+
+FrameBase.accessibilityState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L256[ui/core/view/index.d.ts:256]
+
+'''
+
+[#accessibilityvalue]
+=== accessibilityValue
+
+• *accessibilityValue*: `string`
+
+Current value of the element in a localized string.
+
+==== Inherited from
+
+FrameBase.accessibilityValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L266[ui/core/view/index.d.ts:266]
+
+'''
+
+[#accessible]
+=== accessible
+
+• *accessible*: `boolean`
+
+If `true` the element is an accessibility element and all the children will be treated as a single selectable component.
+
+==== Inherited from
+
+FrameBase.accessible
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L234[ui/core/view/index.d.ts:234]
+
+'''
+
+[#actionbarvisibility]
+=== actionBarVisibility
+
+• *actionBarVisibility*: `"auto"` | `"never"` | `"always"`
+
+Used to control the visibility the Navigation Bar in iOS and the Action Bar in Android.
+
+==== Overrides
+
+FrameBase.actionBarVisibility
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L85[ui/frame/index.d.ts:85]
+
+'''
+
+[#alignself]
+=== alignSelf
+
+• *alignSelf*: `AlignSelf`
+
+==== Inherited from
+
+FrameBase.alignSelf
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L305[ui/core/view-base/index.ts:305]
+
+'''
+
+[#android]
+=== android
+
+• *android*: `AndroidFrame`
+
+Gets the AndroidFrame object that represents the Android-specific APIs for this Frame.
+Valid when running on Android OS.
+
+==== Overrides
+
+FrameBase.android
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L130[ui/frame/index.d.ts:130]
+
+'''
+
+[#androiddynamicelevationoffset]
+=== androidDynamicElevationOffset
+
+• *androidDynamicElevationOffset*: `number`
+
+Gets or sets the dynamic elevation offset of the android view.
+
+==== Inherited from
+
+FrameBase.androidDynamicElevationOffset
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L300[ui/core/view/index.d.ts:300]
+
+'''
+
+[#androidelevation]
+=== androidElevation
+
+• *androidElevation*: `number`
+
+Gets or sets the elevation of the android view.
+
+==== Inherited from
+
+FrameBase.androidElevation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L295[ui/core/view/index.d.ts:295]
+
+'''
+
+[#animated]
+=== animated
+
+• *animated*: `boolean`
+
+Gets or sets if navigation transitions should be animated.
+
+==== Overrides
+
+FrameBase.animated
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L109[ui/frame/index.d.ts:109]
+
+'''
+
+[#automationtext]
+=== automationText
+
+• *automationText*: `string`
+
+==== Inherited from
+
+FrameBase.automationText
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L290[ui/core/view/index.d.ts:290]
+
+'''
+
+[#backstack]
+=== backStack
+
+• *backStack*: xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`][]
+
+Gets the back stack of this instance.
+
+==== Overrides
+
+FrameBase.backStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L91[ui/frame/index.d.ts:91]
+
+'''
+
+[#background]
+=== background
+
+• *background*: `string`
+
+Gets or sets the background style property.
+
+==== Inherited from
+
+FrameBase.background
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L305[ui/core/view/index.d.ts:305]
+
+'''
+
+[#backgroundcolor]
+=== backgroundColor
+
+• *backgroundColor*: `string` | xref:Color.adoc[`Color`]
+
+Gets or sets the background color of the view.
+
+==== Inherited from
+
+FrameBase.backgroundColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L310[ui/core/view/index.d.ts:310]
+
+'''
+
+[#backgroundimage]
+=== backgroundImage
+
+• *backgroundImage*: `string` | `LinearGradient`
+
+Gets or sets the background image of the view.
+
+==== Inherited from
+
+FrameBase.backgroundImage
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L315[ui/core/view/index.d.ts:315]
+
+'''
+
+[#bindingcontext]
+=== bindingContext
+
+• *bindingContext*: `any`
+
+Gets or sets the binding context of this instance.
+This object is used as a source for each Binding that does not have a source object specified.
+
+==== Inherited from
+
+FrameBase.bindingContext
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L149[ui/core/view/index.d.ts:149]
+
+'''
+
+[#borderbottomcolor]
+=== borderBottomColor
+
+• *borderBottomColor*: xref:Color.adoc[`Color`]
+
+Gets or sets the bottom border color of the view.
+
+==== Inherited from
+
+FrameBase.borderBottomColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L169[ui/core/view/index.d.ts:169]
+
+'''
+
+[#borderbottomleftradius]
+=== borderBottomLeftRadius
+
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the bottom left border radius of the view.
+
+==== Inherited from
+
+FrameBase.borderBottomLeftRadius
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L224[ui/core/view/index.d.ts:224]
+
+'''
+
+[#borderbottomrightradius]
+=== borderBottomRightRadius
+
+• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the bottom right border radius of the view.
+
+==== Inherited from
+
+FrameBase.borderBottomRightRadius
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L219[ui/core/view/index.d.ts:219]
+
+'''
+
+[#borderbottomwidth]
+=== borderBottomWidth
+
+• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the bottom border width of the view.
+
+==== Inherited from
+
+FrameBase.borderBottomWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L194[ui/core/view/index.d.ts:194]
+
+'''
+
+[#bordercolor]
+=== borderColor
+
+• *borderColor*: `string` | xref:Color.adoc[`Color`]
+
+Gets or sets the border color of the view.
+
+==== Inherited from
+
+FrameBase.borderColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L154[ui/core/view/index.d.ts:154]
+
+'''
+
+[#borderleftcolor]
+=== borderLeftColor
+
+• *borderLeftColor*: xref:Color.adoc[`Color`]
+
+Gets or sets the left border color of the view.
+
+==== Inherited from
+
+FrameBase.borderLeftColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L174[ui/core/view/index.d.ts:174]
+
+'''
+
+[#borderleftwidth]
+=== borderLeftWidth
+
+• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the left border width of the view.
+
+==== Inherited from
+
+FrameBase.borderLeftWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L199[ui/core/view/index.d.ts:199]
+
+'''
+
+[#borderradius]
+=== borderRadius
+
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+
+Gets or sets the border radius of the view.
+
+==== Inherited from
+
+FrameBase.borderRadius
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L204[ui/core/view/index.d.ts:204]
+
+'''
+
+[#borderrightcolor]
+=== borderRightColor
+
+• *borderRightColor*: xref:Color.adoc[`Color`]
+
+Gets or sets the right border color of the view.
+
+==== Inherited from
+
+FrameBase.borderRightColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L164[ui/core/view/index.d.ts:164]
+
+'''
+
+[#borderrightwidth]
+=== borderRightWidth
+
+• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the right border width of the view.
+
+==== Inherited from
+
+FrameBase.borderRightWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L189[ui/core/view/index.d.ts:189]
+
+'''
+
+[#bordertopcolor]
+=== borderTopColor
+
+• *borderTopColor*: xref:Color.adoc[`Color`]
+
+Gets or sets the top border color of the view.
+
+==== Inherited from
+
+FrameBase.borderTopColor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L159[ui/core/view/index.d.ts:159]
+
+'''
+
+[#bordertopleftradius]
+=== borderTopLeftRadius
+
+• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the top left border radius of the view.
+
+==== Inherited from
+
+FrameBase.borderTopLeftRadius
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L209[ui/core/view/index.d.ts:209]
+
+'''
+
+[#bordertoprightradius]
+=== borderTopRightRadius
+
+• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the top right border radius of the view.
+
+==== Inherited from
+
+FrameBase.borderTopRightRadius
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L214[ui/core/view/index.d.ts:214]
+
+'''
+
+[#bordertopwidth]
+=== borderTopWidth
+
+• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the top border width of the view.
+
+==== Inherited from
+
+FrameBase.borderTopWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L184[ui/core/view/index.d.ts:184]
+
+'''
+
+[#borderwidth]
+=== borderWidth
+
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+
+Gets or sets the border width of the view.
+
+==== Inherited from
+
+FrameBase.borderWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L179[ui/core/view/index.d.ts:179]
+
+'''
+
+[#boxshadow]
+=== boxShadow
+
+• *boxShadow*: `string` | `CSSShadow`
+
+Gets or sets the box shadow of the view.
+
+==== Inherited from
+
+FrameBase.boxShadow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L320[ui/core/view/index.d.ts:320]
+
+'''
+
+[#classname]
+=== className
+
+• *className*: `string`
+
+==== Inherited from
+
+FrameBase.className
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L274[ui/core/view-base/index.ts:274]
+
+'''
+
+[#col]
+=== col
+
+• *col*: `number`
+
+==== Inherited from
+
+FrameBase.col
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L295[ui/core/view-base/index.ts:295]
+
+'''
+
+[#colspan]
+=== colSpan
+
+• *colSpan*: `number`
+
+==== Inherited from
+
+FrameBase.colSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L298[ui/core/view-base/index.ts:298]
+
+'''
+
+[#color]
+=== color
+
+• *color*: xref:Color.adoc[`Color`]
+
+Gets or sets the color of the view.
+
+==== Inherited from
+
+FrameBase.color
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L229[ui/core/view/index.d.ts:229]
+
+'''
+
+[#column]
+=== column
+
+• *column*: `number`
+
+==== Inherited from
+
+FrameBase.column
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L296[ui/core/view-base/index.ts:296]
+
+'''
+
+[#columnspan]
+=== columnSpan
+
+• *columnSpan*: `number`
+
+==== Inherited from
+
+FrameBase.columnSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L299[ui/core/view-base/index.ts:299]
+
+'''
+
+[#css]
+=== css
+
+• `Private` *css*: `string`
+
+A valid css string which will be applied for all nested UI components (based on css rules).
+
+==== Inherited from
+
+FrameBase.css
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L673[ui/core/view/index.d.ts:673]
+
+'''
+
+[#cssclasses]
+=== cssClasses
+
+• *cssClasses*: `Set`<``string``>
+
+==== Inherited from
+
+FrameBase.cssClasses
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L476[ui/core/view/index.d.ts:476]
+
+'''
+
+[#csspseudoclasses]
+=== cssPseudoClasses
+
+• *cssPseudoClasses*: `Set`<``string``>
+
+==== Inherited from
+
+FrameBase.cssPseudoClasses
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L477[ui/core/view/index.d.ts:477]
+
+'''
+
+[#csstype]
+=== cssType
+
+• *cssType*: `string`
+
+Gets the CSS fully qualified type name.
+Using this as element type should allow for PascalCase and kebap-case selectors, when fully qualified, to match the element.
+
+==== Inherited from
+
+FrameBase.cssType
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L474[ui/core/view/index.d.ts:474]
+
+'''
+
+[#currententry]
+=== currentEntry
+
+• *currentEntry*: xref:../interfaces/NavigationEntry.adoc[`NavigationEntry`]
+
+Gets the NavigationEntry instance the Frame is currently navigated to.
+
+==== Overrides
+
+FrameBase.currentEntry
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L103[ui/frame/index.d.ts:103]
+
+'''
+
+[#currentpage]
+=== currentPage
+
+• *currentPage*: xref:Page.adoc[`Page`]
+
+Gets the Page instance the Frame is currently navigated to.
+
+==== Overrides
+
+FrameBase.currentPage
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L97[ui/frame/index.d.ts:97]
+
+'''
+
+[#dock]
+=== dock
+
+• *dock*: `"left"` | `"right"` | `"top"` | `"bottom"`
+
+==== Inherited from
+
+FrameBase.dock
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L293[ui/core/view-base/index.ts:293]
+
+'''
+
+[#domnode]
+=== domNode
+
+• *domNode*: `DOMNode`
+
+==== Inherited from
+
+FrameBase.domNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L264[ui/core/view-base/index.ts:264]
+
+'''
+
+[#effectiveborderbottomwidth]
+=== effectiveBorderBottomWidth
+
+• *effectiveBorderBottomWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveBorderBottomWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L327[ui/core/view-base/index.ts:327]
+
+'''
+
+[#effectiveborderleftwidth]
+=== effectiveBorderLeftWidth
+
+• *effectiveBorderLeftWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveBorderLeftWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L328[ui/core/view-base/index.ts:328]
+
+'''
+
+[#effectiveborderrightwidth]
+=== effectiveBorderRightWidth
+
+• *effectiveBorderRightWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveBorderRightWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L326[ui/core/view-base/index.ts:326]
+
+'''
+
+[#effectivebordertopwidth]
+=== effectiveBorderTopWidth
+
+• *effectiveBorderTopWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveBorderTopWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L325[ui/core/view-base/index.ts:325]
+
+'''
+
+[#effectiveheight]
+=== effectiveHeight
+
+• *effectiveHeight*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L316[ui/core/view-base/index.ts:316]
+
+'''
+
+[#effectiveleft]
+=== effectiveLeft
+
+• *effectiveLeft*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L291[ui/core/view-base/index.ts:291]
+
+'''
+
+[#effectivemarginbottom]
+=== effectiveMarginBottom
+
+• *effectiveMarginBottom*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMarginBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L319[ui/core/view-base/index.ts:319]
+
+'''
+
+[#effectivemarginleft]
+=== effectiveMarginLeft
+
+• *effectiveMarginLeft*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMarginLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L320[ui/core/view-base/index.ts:320]
+
+'''
+
+[#effectivemarginright]
+=== effectiveMarginRight
+
+• *effectiveMarginRight*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMarginRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L318[ui/core/view-base/index.ts:318]
+
+'''
+
+[#effectivemargintop]
+=== effectiveMarginTop
+
+• *effectiveMarginTop*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMarginTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L317[ui/core/view-base/index.ts:317]
+
+'''
+
+[#effectiveminheight]
+=== effectiveMinHeight
+
+• *effectiveMinHeight*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMinHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L314[ui/core/view-base/index.ts:314]
+
+'''
+
+[#effectiveminwidth]
+=== effectiveMinWidth
+
+• *effectiveMinWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveMinWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L313[ui/core/view-base/index.ts:313]
+
+'''
+
+[#effectivepaddingbottom]
+=== effectivePaddingBottom
+
+• *effectivePaddingBottom*: `number`
+
+==== Inherited from
+
+FrameBase.effectivePaddingBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L323[ui/core/view-base/index.ts:323]
+
+'''
+
+[#effectivepaddingleft]
+=== effectivePaddingLeft
+
+• *effectivePaddingLeft*: `number`
+
+==== Inherited from
+
+FrameBase.effectivePaddingLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L324[ui/core/view-base/index.ts:324]
+
+'''
+
+[#effectivepaddingright]
+=== effectivePaddingRight
+
+• *effectivePaddingRight*: `number`
+
+==== Inherited from
+
+FrameBase.effectivePaddingRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L322[ui/core/view-base/index.ts:322]
+
+'''
+
+[#effectivepaddingtop]
+=== effectivePaddingTop
+
+• *effectivePaddingTop*: `number`
+
+==== Inherited from
+
+FrameBase.effectivePaddingTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L321[ui/core/view-base/index.ts:321]
+
+'''
+
+[#effectivetop]
+=== effectiveTop
+
+• *effectiveTop*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L292[ui/core/view-base/index.ts:292]
+
+'''
+
+[#effectivewidth]
+=== effectiveWidth
+
+• *effectiveWidth*: `number`
+
+==== Inherited from
+
+FrameBase.effectiveWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L315[ui/core/view-base/index.ts:315]
+
+'''
+
+[#flexgrow]
+=== flexGrow
+
+• *flexGrow*: `number`
+
+==== Inherited from
+
+FrameBase.flexGrow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L302[ui/core/view-base/index.ts:302]
+
+'''
+
+[#flexshrink]
+=== flexShrink
+
+• *flexShrink*: `number`
+
+==== Inherited from
+
+FrameBase.flexShrink
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L303[ui/core/view-base/index.ts:303]
+
+'''
+
+[#flexwrapbefore]
+=== flexWrapBefore
+
+• *flexWrapBefore*: `boolean`
+
+==== Inherited from
+
+FrameBase.flexWrapBefore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L304[ui/core/view-base/index.ts:304]
+
+'''
+
+[#height]
+=== height
+
+• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Gets or sets the desired height of the view.
+
+==== Inherited from
+
+FrameBase.height
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L340[ui/core/view/index.d.ts:340]
+
+'''
+
+[#horizontalalignment]
+=== horizontalAlignment
+
+• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+
+Gets or sets the alignment of this view within its parent along the Horizontal axis.
+
+==== Inherited from
+
+FrameBase.horizontalAlignment
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L370[ui/core/view/index.d.ts:370]
+
+'''
+
+[#id]
+=== id
+
+• *id*: `string`
+
+==== Inherited from
+
+FrameBase.id
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L273[ui/core/view-base/index.ts:273]
+
+'''
+
+[#ignoretouchanimation]
+=== ignoreTouchAnimation
+
+• *ignoreTouchAnimation*: `boolean`
+
+==== Inherited from
+
+FrameBase.ignoreTouchAnimation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L88[ui/core/view/view-common.ts:88]
+
+'''
+
+[#ios]
+=== ios
+
+• *ios*: `iOSFrame`
+
+Gets the iOSFrame object that represents the iOS-specific APIs for this Frame.
+Valid when running on iOS.
+
+==== Overrides
+
+FrameBase.ios
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L135[ui/frame/index.d.ts:135]
+
+'''
+
+[#iosignoresafearea]
+=== iosIgnoreSafeArea
+
+• *iosIgnoreSafeArea*: `boolean`
+
+Gets or sets a value indicating whether the the view should totally ignore safe areas computation.
+This property is iOS specific.
+Default value: false
+
+==== Inherited from
+
+FrameBase.iosIgnoreSafeArea
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L463[ui/core/view/index.d.ts:463]
+
+'''
+
+[#iosoverflowsafearea]
+=== iosOverflowSafeArea
+
+• *iosOverflowSafeArea*: `boolean`
+
+Instruct container view to expand beyond the safe area.
+This property is iOS specific.
+Default value: true
+
+==== Inherited from
+
+FrameBase.iosOverflowSafeArea
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L895[ui/core/view/index.d.ts:895]
+
+'''
+
+[#iosoverflowsafeareaenabled]
+=== iosOverflowSafeAreaEnabled
+
+• *iosOverflowSafeAreaEnabled*: `boolean`
+
+Enables or disables the iosOverflowSafeArea property for all children.
+This property is iOS specific.
+Default value: true
+
+==== Inherited from
+
+FrameBase.iosOverflowSafeAreaEnabled
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L458[ui/core/view/index.d.ts:458]
+
+'''
+
+[#iscollapsed]
+=== isCollapsed
+
+• *isCollapsed*: `any`
+
+==== Inherited from
+
+FrameBase.isCollapsed
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L271[ui/core/view-base/index.ts:271]
+
+'''
+
+[#isenabled]
+=== isEnabled
+
+• *isEnabled*: `boolean`
+
+Gets or sets a value indicating whether the the view is enabled.
+This affects the appearance of the view.
+
+==== Inherited from
+
+FrameBase.isEnabled
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L443[ui/core/view/index.d.ts:443]
+
+'''
+
+[#islayoutrequired]
+=== isLayoutRequired
+
+• `Private` *isLayoutRequired*: `boolean`
+
+==== Inherited from
+
+FrameBase.isLayoutRequired
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L766[ui/core/view/index.d.ts:766]
+
+'''
+
+[#islayoutvalid]
+=== isLayoutValid
+
+• *isLayoutValid*: `boolean`
+
+Gets is layout is valid.
+This is a read-only property.
+
+==== Inherited from
+
+FrameBase.isLayoutValid
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L468[ui/core/view/index.d.ts:468]
+
+'''
+
+[#isuserinteractionenabled]
+=== isUserInteractionEnabled
+
+• *isUserInteractionEnabled*: `boolean`
+
+Gets or sets a value indicating whether the user can interact with the view.
+This does not affect the appearance of the view.
+
+==== Inherited from
+
+FrameBase.isUserInteractionEnabled
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L448[ui/core/view/index.d.ts:448]
+
+'''
+
+[#left]
+=== left
+
+• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+==== Inherited from
+
+FrameBase.left
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L289[ui/core/view-base/index.ts:289]
+
+'''
+
+[#margin]
+=== margin
+
+• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+
+Gets or sets margin style property.
+
+==== Inherited from
+
+FrameBase.margin
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L345[ui/core/view/index.d.ts:345]
+
+'''
+
+[#marginbottom]
+=== marginBottom
+
+• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Specifies extra space on the bottom side of this view.
+
+==== Inherited from
+
+FrameBase.marginBottom
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L365[ui/core/view/index.d.ts:365]
+
+'''
+
+[#marginleft]
+=== marginLeft
+
+• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Specifies extra space on the left side of this view.
+
+==== Inherited from
+
+FrameBase.marginLeft
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L350[ui/core/view/index.d.ts:350]
+
+'''
+
+[#marginright]
+=== marginRight
+
+• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Specifies extra space on the right side of this view.
+
+==== Inherited from
+
+FrameBase.marginRight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L360[ui/core/view/index.d.ts:360]
+
+'''
+
+[#margintop]
+=== marginTop
+
+• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Specifies extra space on the top side of this view.
+
+==== Inherited from
+
+FrameBase.marginTop
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L355[ui/core/view/index.d.ts:355]
+
+'''
+
+[#minheight]
+=== minHeight
+
+• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the minimum height the view may grow to.
+
+==== Inherited from
+
+FrameBase.minHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L330[ui/core/view/index.d.ts:330]
+
+'''
+
+[#minwidth]
+=== minWidth
+
+• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+Gets or sets the minimum width the view may grow to.
+
+==== Inherited from
+
+FrameBase.minWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L325[ui/core/view/index.d.ts:325]
+
+'''
+
+[#modal]
+=== modal
+
+• *modal*: xref:View.adoc[`View`]
+
+Returns the current modal view that this page is showing (is parent of), if any.
+
+==== Inherited from
+
+FrameBase.modal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L627[ui/core/view/index.d.ts:627]
+
+'''
+
+[#nativeviewprotected]
+=== nativeViewProtected
+
+• *nativeViewProtected*: `any`
+
+==== Inherited from
+
+FrameBase.nativeViewProtected
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L269[ui/core/view-base/index.ts:269]
+
+'''
+
+[#navigationbarheight]
+=== navigationBarHeight
+
+• `Private` *navigationBarHeight*: `number`
+
+==== Overrides
+
+FrameBase.navigationBarHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L158[ui/frame/index.d.ts:158]
+
+'''
+
+[#opacity]
+=== opacity
+
+• *opacity*: `number`
+
+Gets or sets the opacity style property.
+
+==== Inherited from
+
+FrameBase.opacity
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L385[ui/core/view/index.d.ts:385]
+
+'''
+
+[#order]
+=== order
+
+• *order*: `number`
+
+==== Inherited from
+
+FrameBase.order
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L301[ui/core/view-base/index.ts:301]
+
+'''
+
+[#originx]
+=== originX
+
+• *originX*: `number`
+
+Gets or sets the X component of the origin point around which the view will be transformed.
+The default value is 0.5 representing the center of the view.
+
+==== Inherited from
+
+FrameBase.originX
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L433[ui/core/view/index.d.ts:433]
+
+'''
+
+[#originy]
+=== originY
+
+• *originY*: `number`
+
+Gets or sets the Y component of the origin point around which the view will be transformed.
+The default value is 0.5 representing the center of the view.
+
+==== Inherited from
+
+FrameBase.originY
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L438[ui/core/view/index.d.ts:438]
+
+'''
+
+[#parent]
+=== parent
+
+• *parent*: xref:ViewBase.adoc[`ViewBase`]
+
+==== Inherited from
+
+FrameBase.parent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L270[ui/core/view-base/index.ts:270]
+
+'''
+
+[#perspective]
+=== perspective
+
+• *perspective*: `number`
+
+Gets or sets the distance of the camera form the view perspective.
+Usually needed when rotating the view over the X or Y axis.
+
+==== Inherited from
+
+FrameBase.perspective
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L406[ui/core/view/index.d.ts:406]
+
+'''
+
+[#recyclenativeview]
+=== recycleNativeView
+
+• *recycleNativeView*: `"auto"` | `"never"` | `"always"`
+
+==== Inherited from
+
+FrameBase.recycleNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L266[ui/core/view-base/index.ts:266]
+
+'''
+
+[#reusable]
+=== reusable
+
+• *reusable*: `boolean`
+
+==== Inherited from
+
+FrameBase.reusable
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L338[ui/core/view-base/index.ts:338]
+
+'''
+
+[#rotate]
+=== rotate
+
+• *rotate*: `number`
+
+Gets or sets the rotate affine transform of the view along the Z axis.
+
+==== Inherited from
+
+FrameBase.rotate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L390[ui/core/view/index.d.ts:390]
+
+'''
+
+[#rotatex]
+=== rotateX
+
+• *rotateX*: `number`
+
+Gets or sets the rotate affine transform of the view along the X axis.
+
+==== Inherited from
+
+FrameBase.rotateX
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L395[ui/core/view/index.d.ts:395]
+
+'''
+
+[#rotatey]
+=== rotateY
+
+• *rotateY*: `number`
+
+Gets or sets the rotate affine transform of the view along the Y axis.
+
+==== Inherited from
+
+FrameBase.rotateY
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L400[ui/core/view/index.d.ts:400]
+
+'''
+
+[#row]
+=== row
+
+• *row*: `number`
+
+==== Inherited from
+
+FrameBase.row
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L294[ui/core/view-base/index.ts:294]
+
+'''
+
+[#rowspan]
+=== rowSpan
+
+• *rowSpan*: `number`
+
+==== Inherited from
+
+FrameBase.rowSpan
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L297[ui/core/view-base/index.ts:297]
+
+'''
+
+[#scalex]
+=== scaleX
+
+• *scaleX*: `number`
+
+Gets or sets the scaleX affine transform of the view.
+
+==== Inherited from
+
+FrameBase.scaleX
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L421[ui/core/view/index.d.ts:421]
+
+'''
+
+[#scaley]
+=== scaleY
+
+• *scaleY*: `number`
+
+Gets or sets the scaleY affine transform of the view.
+
+==== Inherited from
+
+FrameBase.scaleY
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L426[ui/core/view/index.d.ts:426]
+
+'''
+
+[#testid]
+=== testID
+
+• *testID*: `string`
+
+==== Inherited from
+
+FrameBase.testID
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L85[ui/core/view/view-common.ts:85]
+
+'''
+
+[#top]
+=== top
+
+• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+
+==== Inherited from
+
+FrameBase.top
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L290[ui/core/view-base/index.ts:290]
+
+'''
+
+[#touchanimation]
+=== touchAnimation
+
+• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+
+==== Inherited from
+
+FrameBase.touchAnimation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L87[ui/core/view/view-common.ts:87]
+
+'''
+
+[#touchdelay]
+=== touchDelay
+
+• *touchDelay*: `number`
+
+==== Inherited from
+
+FrameBase.touchDelay
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L89[ui/core/view/view-common.ts:89]
+
+'''
+
+[#transition]
+=== transition
+
+• *transition*: xref:../interfaces/NavigationTransition.adoc[`NavigationTransition`]
+
+Gets or sets the default navigation transition for this frame.
+
+==== Overrides
+
+FrameBase.transition
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L115[ui/frame/index.d.ts:115]
+
+'''
+
+[#translatex]
+=== translateX
+
+• *translateX*: `number`
+
+Gets or sets the translateX affine transform of the view in device independent pixels.
+
+==== Inherited from
+
+FrameBase.translateX
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L411[ui/core/view/index.d.ts:411]
+
+'''
+
+[#translatey]
+=== translateY
+
+• *translateY*: `number`
+
+Gets or sets the translateY affine transform of the view in device independent pixels.
+
+==== Inherited from
+
+FrameBase.translateY
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L416[ui/core/view/index.d.ts:416]
+
+'''
+
+[#verticalalignment]
+=== verticalAlignment
+
+• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+
+Gets or sets the alignment of this view within its parent along the Vertical axis.
+
+==== Inherited from
+
+FrameBase.verticalAlignment
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L375[ui/core/view/index.d.ts:375]
+
+'''
+
+[#viewcontroller]
+=== viewController
+
+• *viewController*: `any`
+
+==== Inherited from
+
+FrameBase.viewController
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L267[ui/core/view-base/index.ts:267]
+
+'''
+
+[#visibility]
+=== visibility
+
+• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+
+Gets or sets the visibility of the view.
+
+==== Inherited from
+
+FrameBase.visibility
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L380[ui/core/view/index.d.ts:380]
+
+'''
+
+[#width]
+=== width
+
+• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+
+Gets or sets the desired width of the view.
+
+==== Inherited from
+
+FrameBase.width
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L335[ui/core/view/index.d.ts:335]
+
+'''
+
+[#accessibilityblurevent]
+=== accessibilityBlurEvent
+
+▪ `Static` *accessibilityBlurEvent*: `string`
+
+String value used when hooking to accessibilityBlur event.
+
+==== Inherited from
+
+FrameBase.accessibilityBlurEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L122[ui/core/view/index.d.ts:122]
+
+'''
+
+[#accessibilityfocuschangedevent]
+=== accessibilityFocusChangedEvent
+
+▪ `Static` *accessibilityFocusChangedEvent*: `string`
+
+String value used when hooking to accessibilityFocusChanged event.
+
+==== Inherited from
+
+FrameBase.accessibilityFocusChangedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L132[ui/core/view/index.d.ts:132]
+
+'''
+
+[#accessibilityfocusevent]
+=== accessibilityFocusEvent
+
+▪ `Static` *accessibilityFocusEvent*: `string`
+
+String value used when hooking to accessibilityFocus event.
+
+==== Inherited from
+
+FrameBase.accessibilityFocusEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L127[ui/core/view/index.d.ts:127]
+
+'''
+
+[#accessibilityperformescapeevent]
+=== accessibilityPerformEscapeEvent
+
+▪ `Static` *accessibilityPerformEscapeEvent*: `string` = `accessibilityPerformEscapeEvent`
+
+==== Inherited from
+
+FrameBase.accessibilityPerformEscapeEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L78[ui/core/view/view-common.ts:78]
+
+'''
+
+[#androidoptionselectedevent]
+=== androidOptionSelectedEvent
+
+▪ `Static` *androidOptionSelectedEvent*: `string` = `'optionSelected'`
+
+==== Inherited from
+
+FrameBase.androidOptionSelectedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L37[ui/frame/frame-common.ts:37]
+
+'''
+
+[#createdevent]
+=== createdEvent
+
+▪ `Static` *createdEvent*: `string` = `'created'`
+
+==== Inherited from
+
+FrameBase.createdEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L250[ui/core/view-base/index.ts:250]
+
+'''
+
+[#defaultanimatednavigation]
+=== defaultAnimatedNavigation
+
+▪ `Static` *defaultAnimatedNavigation*: `boolean`
+
+Gets or sets if navigation transitions should be animated globally.
+
+==== Overrides
+
+FrameBase.defaultAnimatedNavigation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L120[ui/frame/index.d.ts:120]
+
+'''
+
+[#defaulttransition]
+=== defaultTransition
+
+▪ `Static` *defaultTransition*: xref:../interfaces/NavigationTransition.adoc[`NavigationTransition`]
+
+Gets or sets the default NavigationTransition for all frames across the app.
+
+==== Overrides
+
+FrameBase.defaultTransition
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L125[ui/frame/index.d.ts:125]
+
+'''
+
+[#disposenativeviewevent]
+=== disposeNativeViewEvent
+
+▪ `Static` *disposeNativeViewEvent*: `string` = `'disposeNativeView'`
+
+==== Inherited from
+
+FrameBase.disposeNativeViewEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L251[ui/core/view-base/index.ts:251]
+
+'''
+
+[#layoutchangedevent]
+=== layoutChangedEvent
+
+▪ `Static` *layoutChangedEvent*: `string`
+
+String value used when hooking to layoutChanged event.
+
+==== Inherited from
+
+FrameBase.layoutChangedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L108[ui/core/view/index.d.ts:108]
+
+'''
+
+[#loadedevent]
+=== loadedEvent
+
+▪ `Static` *loadedEvent*: `string` = `'loaded'`
+
+==== Inherited from
+
+FrameBase.loadedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L248[ui/core/view-base/index.ts:248]
+
+'''
+
+[#propertychangeevent]
+=== propertyChangeEvent
+
+▪ `Static` *propertyChangeEvent*: `string` = `'propertyChange'`
+
+==== Inherited from
+
+FrameBase.propertyChangeEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L51[data/observable/index.ts:51]
+
+'''
+
+[#showingmodallyevent]
+=== showingModallyEvent
+
+▪ `Static` *showingModallyEvent*: `string`
+
+String value used when hooking to showingModally event.
+
+==== Inherited from
+
+FrameBase.showingModallyEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L112[ui/core/view/index.d.ts:112]
+
+'''
+
+[#shownmodallyevent]
+=== shownModallyEvent
+
+▪ `Static` *shownModallyEvent*: `string`
+
+String value used when hooking to shownModally event.
+
+==== Inherited from
+
+FrameBase.shownModallyEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L117[ui/core/view/index.d.ts:117]
+
+'''
+
+[#unloadedevent]
+=== unloadedEvent
+
+▪ `Static` *unloadedEvent*: `string` = `'unloaded'`
+
+==== Inherited from
+
+FrameBase.unloadedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L249[ui/core/view-base/index.ts:249]
+
+== Accessors
+
+[#_childrencount]
+=== _childrenCount
+
+• `get` *_childrenCount*(): `number`
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase._childrenCount
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L510[ui/frame/frame-common.ts:510]
+
+'''
+
+[#backgroundposition]
+=== backgroundPosition
+
+• `get` *backgroundPosition*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase.backgroundPosition
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L606[ui/core/view/view-common.ts:606]
+
+• `set` *backgroundPosition*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.backgroundPosition
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L609[ui/core/view/view-common.ts:609]
+
+'''
+
+[#backgroundrepeat]
+=== backgroundRepeat
+
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+
+==== Returns
+
+link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+
+==== Inherited from
+
+FrameBase.backgroundRepeat
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L613[ui/core/view/view-common.ts:613]
+
+• `set` *backgroundRepeat*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.backgroundRepeat
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L616[ui/core/view/view-common.ts:616]
+
+'''
+
+[#backgroundsize]
+=== backgroundSize
+
+• `get` *backgroundSize*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase.backgroundSize
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L599[ui/core/view/view-common.ts:599]
+
+• `set` *backgroundSize*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.backgroundSize
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L602[ui/core/view/view-common.ts:602]
+
+'''
+
+[#class]
+=== class
+
+• `get` *class*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase.class
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L393[ui/core/view-base/index.ts:393]
+
+• `set` *class*(`v`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `v`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.class
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L396[ui/core/view-base/index.ts:396]
+
+'''
+
+[#isloaded]
+=== isLoaded
+
+• `get` *isLoaded*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase.isLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L389[ui/core/view-base/index.ts:389]
+
+'''
+
+[#nativeview]
+=== nativeView
+
+• `get` *nativeView*(): `any`
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase.nativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L355[ui/core/view-base/index.ts:355]
+
+• `set` *nativeView*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.nativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L359[ui/core/view-base/index.ts:359]
+
+'''
+
+[#page]
+=== page
+
+• `get` *page*(): xref:Page.adoc[`Page`]
+
+==== Returns
+
+xref:Page.adoc[`Page`]
+
+==== Inherited from
+
+FrameBase.page
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L408[ui/core/view-base/index.ts:408]
+
+'''
+
+[#parentnode]
+=== parentNode
+
+• `get` *parentNode*(): xref:ViewBase.adoc[`ViewBase`]
+
+==== Returns
+
+xref:ViewBase.adoc[`ViewBase`]
+
+==== Inherited from
+
+FrameBase.parentNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L348[ui/core/view-base/index.ts:348]
+
+• `set` *parentNode*(`node`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `node`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.parentNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L351[ui/core/view-base/index.ts:351]
+
+'''
+
+[#style]
+=== style
+
+• `get` *style*(): xref:Style.adoc[`Style`]
+
+==== Returns
+
+xref:Style.adoc[`Style`]
+
+==== Inherited from
+
+FrameBase.style
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L368[ui/core/view-base/index.ts:368]
+
+• `set` *style*(`inlineStyle`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `inlineStyle`
+| xref:Style.adoc[`Style`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.style
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L371[ui/core/view-base/index.ts:371]
+
+'''
+
+[#texttransform]
+=== textTransform
+
+• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+
+==== Returns
+
+link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+
+==== Inherited from
+
+FrameBase.textTransform
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L747[ui/core/view/view-common.ts:747]
+
+• `set` *textTransform*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.textTransform
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L750[ui/core/view/view-common.ts:750]
+
+'''
+
+[#typename]
+=== typeName
+
+• `get` *typeName*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase.typeName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L364[ui/core/view-base/index.ts:364]
+
+== Methods
+
+[#_addchildfrombuilder]
+=== _addChildFromBuilder
+
+▸ *_addChildFromBuilder*(`name`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._addChildFromBuilder
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L107[ui/frame/frame-common.ts:107]
+
+'''
+
+[#_addview]
+=== _addView
+
+▸ *_addView*(`view`, `atIndex?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+
+| `atIndex?`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._addView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L675[ui/core/view-base/index.ts:675]
+
+'''
+
+[#_addviewcore]
+=== _addViewCore
+
+▸ *_addViewCore*(`view`, `atIndex?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+
+| `atIndex?`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._addViewCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L700[ui/core/view-base/index.ts:700]
+
+'''
+
+[#_addviewtonativevisualtree]
+=== _addViewToNativeVisualTree
+
+▸ *_addViewToNativeVisualTree*(`child`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `child`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._addViewToNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L568[ui/frame/frame-common.ts:568]
+
+'''
+
+[#_applybackground]
+=== _applyBackground
+
+▸ `Private` *_applyBackground*(`background`, `isBorderDrawable`, `onlyColor`, `backgroundDrawable`): `any`
+
+method called on Android to apply the background.
+This allows custom handling
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `background`
+| `Background`
+
+| `isBorderDrawable`
+| `boolean`
+
+| `onlyColor`
+| `boolean`
+
+| `backgroundDrawable`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase._applyBackground
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L837[ui/core/view/index.d.ts:837]
+
+'''
+
+[#_applyxmlattribute]
+=== _applyXmlAttribute
+
+▸ *_applyXmlAttribute*(`attribute`, `value`): `boolean`
+
+*`Deprecated`*
+
+This used to be the way to set attribute values in early \{N} versions.
+Now attributes are expected to be set as plain properties on the view instances.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `attribute`
+| `string`
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._applyXmlAttribute
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1017[ui/core/view-base/index.ts:1017]
+
+'''
+
+[#_backstackentrytrace]
+=== _backstackEntryTrace
+
+▸ *_backstackEntryTrace*(`b`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `b`
+| `BackstackEntry`
+|===
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase._backstackEntryTrace
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L587[ui/frame/frame-common.ts:587]
+
+'''
+
+[#_batchupdate]
+=== _batchUpdate
+
+▸ *_batchUpdate*<``T``>(`callback`): `T`
+
+==== Type parameters
+
+|===
+| Name
+
+| `T`
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| () \=> `T`
+|===
+
+==== Returns
+
+`T`
+
+==== Inherited from
+
+FrameBase._batchUpdate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L497[ui/core/view-base/index.ts:497]
+
+'''
+
+[#_childindextonativechildindex]
+=== _childIndexToNativeChildIndex
+
+▸ *_childIndexToNativeChildIndex*(`index?`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `index?`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase._childIndexToNativeChildIndex
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L975[ui/core/view-base/index.ts:975]
+
+'''
+
+[#_closeallmodalviewsinternal]
+=== _closeAllModalViewsInternal
+
+▸ *_closeAllModalViewsInternal*(): `boolean`
+
+Internal method: Closes all modal views.
+Should be used by plugins like `nativescript-angular` which implement their own `modal views` service.
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._closeAllModalViewsInternal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L703[ui/core/view/index.d.ts:703]
+
+'''
+
+[#_createpropertychangedata]
+=== _createPropertyChangeData
+
+▸ *_createPropertyChangeData*(`propertyName`, `value`, `oldValue?`): xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `propertyName`
+| `string`
+
+| `value`
+| `any`
+
+| `oldValue?`
+| `any`
+|===
+
+==== Returns
+
+xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
+
+==== Inherited from
+
+FrameBase._createPropertyChangeData
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L313[data/observable/index.ts:313]
+
+'''
+
+[#_dialogclosed]
+=== _dialogClosed
+
+▸ *_dialogClosed*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._dialogClosed
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L500[ui/frame/frame-common.ts:500]
+
+'''
+
+[#_eachlayoutview]
+=== _eachLayoutView
+
+▸ *_eachLayoutView*(`callback`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| (`View`: `any`) \=> `void`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._eachLayoutView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L711[ui/core/view/index.d.ts:711]
+
+'''
+
+[#_emit]
+=== _emit
+
+▸ *_emit*(`eventNames`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventNames`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._emit
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L323[data/observable/index.ts:323]
+
+'''
+
+[#_findentryfortag]
+=== _findEntryForTag
+
+▸ `Private` *_findEntryForTag*(`fragmentTag`): xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `fragmentTag`
+| `string`
+|===
+
+==== Returns
+
+xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+
+==== Overrides
+
+FrameBase._findEntryForTag
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L199[ui/frame/index.d.ts:199]
+
+'''
+
+[#_getcurrentlayoutbounds]
+=== _getCurrentLayoutBounds
+
+▸ `Private` *_getCurrentLayoutBounds*(): `Object`
+
+Return view bounds.
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `bottom`
+| `number`
+
+| `left`
+| `number`
+
+| `right`
+| `number`
+
+| `top`
+| `number`
+|===
+
+==== Inherited from
+
+FrameBase._getCurrentLayoutBounds
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L794[ui/core/view/index.d.ts:794]
+
+'''
+
+[#_getfragmentmanager]
+=== _getFragmentManager
+
+▸ `Private` *_getFragmentManager*(): `any`
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase._getFragmentManager
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L850[ui/core/view/index.d.ts:850]
+
+'''
+
+[#_getisanimatednavigation]
+=== _getIsAnimatedNavigation
+
+▸ `Private` *_getIsAnimatedNavigation*(`entry`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| xref:../interfaces/NavigationEntry.adoc[`NavigationEntry`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Overrides
+
+FrameBase._getIsAnimatedNavigation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L178[ui/frame/index.d.ts:178]
+
+'''
+
+[#_getnativeviewscount]
+=== _getNativeViewsCount
+
+▸ *_getNativeViewsCount*(): `number`
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase._getNativeViewsCount
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L697[ui/core/view/index.d.ts:697]
+
+'''
+
+[#_getnavbarvisible]
+=== _getNavBarVisible
+
+▸ `Private` *_getNavBarVisible*(`page`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `page`
+| xref:Page.adoc[`Page`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Overrides
+
+FrameBase._getNavBarVisible
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L195[ui/frame/index.d.ts:195]
+
+'''
+
+[#_getnavigationtransition]
+=== _getNavigationTransition
+
+▸ `Private` *_getNavigationTransition*(`entry`): xref:../interfaces/NavigationTransition.adoc[`NavigationTransition`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| xref:../interfaces/NavigationEntry.adoc[`NavigationEntry`]
+|===
+
+==== Returns
+
+xref:../interfaces/NavigationTransition.adoc[`NavigationTransition`]
+
+==== Overrides
+
+FrameBase._getNavigationTransition
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L182[ui/frame/index.d.ts:182]
+
+'''
+
+[#_getrootmodalviews]
+=== _getRootModalViews
+
+▸ *_getRootModalViews*(): xref:ViewBase.adoc[`ViewBase`][]
+
+Internal method: Gets all modal views of the current view.
+
+==== Returns
+
+xref:ViewBase.adoc[`ViewBase`][]
+
+==== Inherited from
+
+FrameBase._getRootModalViews
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L709[ui/core/view/index.d.ts:709]
+
+'''
+
+[#_getvalue]
+=== _getValue
+
+▸ *_getValue*(`property`): `never`
+
+*Obsolete:* There is a new property system that does not rely on _getValue.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `property`
+| `any`
+|===
+
+==== Returns
+
+`never`
+
+==== Inherited from
+
+FrameBase._getValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L880[ui/core/view/index.d.ts:880]
+
+'''
+
+[#_gobackcore]
+=== _goBackCore
+
+▸ *_goBackCore*(`backstackEntry`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `backstackEntry`
+| `BackstackEntry`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._goBackCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L408[ui/frame/frame-common.ts:408]
+
+'''
+
+[#_gotovisualstate]
+=== _goToVisualState
+
+▸ `Private` *_goToVisualState*(`state`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `state`
+| `string`
+|===
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase._goToVisualState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L803[ui/core/view/index.d.ts:803]
+
+'''
+
+[#_handlelivesync]
+=== _handleLivesync
+
+▸ *_handleLivesync*(`context?`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context?`
+| `ModuleContext`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._handleLivesync
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L625[ui/frame/frame-common.ts:625]
+
+'''
+
+[#_hasancestorview]
+=== _hasAncestorView
+
+▸ *_hasAncestorView*(`ancestorView`): `boolean`
+
+Checks whether the current view has specific view for an ancestor.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `ancestorView`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._hasAncestorView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L874[ui/core/view/index.d.ts:874]
+
+'''
+
+[#_hidenativemodalview]
+=== _hideNativeModalView
+
+▸ `Protected` *_hideNativeModalView*(`parent`, `whenClosedCallback`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `parent`
+| `ViewCommon`
+
+| `whenClosedCallback`
+| () \=> `void`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._hideNativeModalView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L422[ui/core/view/view-common.ts:422]
+
+'''
+
+[#_inheritstylescope]
+=== _inheritStyleScope
+
+▸ *_inheritStyleScope*(`styleScope`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `styleScope`
+| `StyleScope`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._inheritStyleScope
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1082[ui/core/view-base/index.ts:1082]
+
+'''
+
+[#_layoutparent]
+=== _layoutParent
+
+▸ *_layoutParent*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._layoutParent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L469[ui/core/view-base/index.ts:469]
+
+'''
+
+[#_navigatecore]
+=== _navigateCore
+
+▸ *_navigateCore*(`backstackEntry`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `backstackEntry`
+| `BackstackEntry`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._navigateCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L414[ui/frame/frame-common.ts:414]
+
+'''
+
+[#_observe]
+=== _observe
+
+▸ *_observe*(`type`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| xref:../enums/GestureTypes.adoc[`GestureTypes`]
+
+| `callback`
+| (`args`: xref:../interfaces/GestureEventData.adoc[`GestureEventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._observe
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L256[ui/core/view/view-common.ts:256]
+
+'''
+
+[#_onattachedtowindow]
+=== _onAttachedToWindow
+
+▸ *_onAttachedToWindow*(): `void`
+
+Called in android when native view is attached to window.
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onAttachedToWindow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L864[ui/core/view/index.d.ts:864]
+
+'''
+
+[#_oncssstatechange]
+=== _onCssStateChange
+
+▸ *_onCssStateChange*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onCssStateChange
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1073[ui/core/view-base/index.ts:1073]
+
+'''
+
+[#_ondetachedfromwindow]
+=== _onDetachedFromWindow
+
+▸ *_onDetachedFromWindow*(): `void`
+
+Called in android when native view is dettached from window.
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onDetachedFromWindow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L869[ui/core/view/index.d.ts:869]
+
+'''
+
+[#_onlivesync]
+=== _onLivesync
+
+▸ *_onLivesync*(`context?`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context?`
+| `ModuleContext`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._onLivesync
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L612[ui/frame/frame-common.ts:612]
+
+'''
+
+[#_onnavigatingto]
+=== _onNavigatingTo
+
+▸ *_onNavigatingTo*(`backstackEntry`, `isBack`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `backstackEntry`
+| `BackstackEntry`
+
+| `isBack`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onNavigatingTo
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L420[ui/frame/frame-common.ts:420]
+
+'''
+
+[#_onrootviewreset]
+=== _onRootViewReset
+
+▸ *_onRootViewReset*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onRootViewReset
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L505[ui/frame/frame-common.ts:505]
+
+'''
+
+[#_onsizechanged]
+=== _onSizeChanged
+
+▸ `Optional` *_onSizeChanged*(): `void`
+
+iOS Only Internal method used to update various view details like background rerendering, border, etc.
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._onSizeChanged
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L716[ui/core/view/index.d.ts:716]
+
+'''
+
+[#_parentchanged]
+=== _parentChanged
+
+▸ *_parentChanged*(`oldParent`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `oldParent`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._parentChanged
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1038[ui/core/view-base/index.ts:1038]
+
+'''
+
+[#_popfromframestack]
+=== _popFromFrameStack
+
+▸ *_popFromFrameStack*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._popFromFrameStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L492[ui/frame/frame-common.ts:492]
+
+'''
+
+[#_printframebackstack]
+=== _printFrameBackStack
+
+▸ *_printFrameBackStack*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._printFrameBackStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L577[ui/frame/frame-common.ts:577]
+
+'''
+
+[#_processnavigationqueue]
+=== _processNavigationQueue
+
+▸ `Private` *_processNavigationQueue*(`page`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `page`
+| xref:Page.adoc[`Page`]
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase._processNavigationQueue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L174[ui/frame/index.d.ts:174]
+
+'''
+
+[#_processnextnavigationentry]
+=== _processNextNavigationEntry
+
+▸ `Protected` *_processNextNavigationEntry*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._processNextNavigationEntry
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L368[ui/frame/frame-common.ts:368]
+
+'''
+
+[#_pushinframestack]
+=== _pushInFrameStack
+
+▸ `Private` *_pushInFrameStack*(): `any`
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase._pushInFrameStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L207[ui/frame/index.d.ts:207]
+
+'''
+
+[#_pushinframestackrecursive]
+=== _pushInFrameStackRecursive
+
+▸ `Private` *_pushInFrameStackRecursive*(): `any`
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase._pushInFrameStackRecursive
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L211[ui/frame/index.d.ts:211]
+
+'''
+
+[#_raiselayoutchangedevent]
+=== _raiseLayoutChangedEvent
+
+▸ `Protected` *_raiseLayoutChangedEvent*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._raiseLayoutChangedEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L424[ui/core/view/view-common.ts:424]
+
+'''
+
+[#_raiseshowingmodallyevent]
+=== _raiseShowingModallyEvent
+
+▸ `Protected` *_raiseShowingModallyEvent*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._raiseShowingModallyEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L442[ui/core/view/view-common.ts:442]
+
+'''
+
+[#_raiseshownmodallyevent]
+=== _raiseShownModallyEvent
+
+▸ `Protected` *_raiseShownModallyEvent*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._raiseShownModallyEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L432[ui/core/view/view-common.ts:432]
+
+'''
+
+[#_redrawnativebackground]
+=== _redrawNativeBackground
+
+▸ `Private` *_redrawNativeBackground*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._redrawNativeBackground
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L832[ui/core/view/index.d.ts:832]
+
+'''
+
+[#_removeanimation]
+=== _removeAnimation
+
+▸ `Private` *_removeAnimation*(`animation`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `animation`
+| xref:Animation.adoc[`Animation`]
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._removeAnimation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L842[ui/core/view/index.d.ts:842]
+
+'''
+
+[#_removeentry]
+=== _removeEntry
+
+▸ *_removeEntry*(`removed`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `removed`
+| `BackstackEntry`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._removeEntry
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L192[ui/frame/frame-common.ts:192]
+
+'''
+
+[#_removefromframestack]
+=== _removeFromFrameStack
+
+▸ `Private` *_removeFromFrameStack*(): `any`
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase._removeFromFrameStack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L215[ui/frame/index.d.ts:215]
+
+'''
+
+[#_removeview]
+=== _removeView
+
+▸ *_removeView*(`view`): `void`
+
+Core logic for removing a child view from this instance.
+Used by the framework to handle lifecycle events more centralized.
+Do not use outside the UI Stack implementation.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._removeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L733[ui/core/view-base/index.ts:733]
+
+'''
+
+[#_removeviewcore]
+=== _removeViewCore
+
+▸ *_removeViewCore*(`view`): `void`
+
+Method is intended to be overridden by inheritors and used as "protected"
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._removeViewCore
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L754[ui/core/view-base/index.ts:754]
+
+'''
+
+[#_removeviewfromnativevisualtree]
+=== _removeViewFromNativeVisualTree
+
+▸ *_removeViewFromNativeVisualTree*(`child`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `child`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._removeViewFromNativeVisualTree
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L573[ui/frame/frame-common.ts:573]
+
+'''
+
+[#_resumenativeupdates]
+=== _resumeNativeUpdates
+
+▸ *_resumeNativeUpdates*(`type`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| `SuspendType`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._resumeNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L482[ui/core/view-base/index.ts:482]
+
+'''
+
+[#_setchildminheightnative]
+=== _setChildMinHeightNative
+
+▸ `Private` *_setChildMinHeightNative*(`child`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `child`
+| xref:View.adoc[`View`]
+
+| `value`
+| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setChildMinHeightNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L914[ui/core/view/index.d.ts:914]
+
+'''
+
+[#_setchildminwidthnative]
+=== _setChildMinWidthNative
+
+▸ `Private` *_setChildMinWidthNative*(`child`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `child`
+| xref:View.adoc[`View`]
+
+| `value`
+| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setChildMinWidthNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L910[ui/core/view/index.d.ts:910]
+
+'''
+
+[#_setcurrentlayoutbounds]
+=== _setCurrentLayoutBounds
+
+▸ `Private` *_setCurrentLayoutBounds*(`left`, `top`, `right`, `bottom`): `Object`
+
+Called by layout method to cache view bounds.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `left`
+| `number`
+
+| `top`
+| `number`
+
+| `right`
+| `number`
+
+| `bottom`
+| `number`
+|===
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `boundsChanged`
+| `boolean`
+
+| `sizeChanged`
+| `boolean`
+|===
+
+==== Inherited from
+
+FrameBase._setCurrentLayoutBounds
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L789[ui/core/view/index.d.ts:789]
+
+'''
+
+[#_setcurrentmeasurespecs]
+=== _setCurrentMeasureSpecs
+
+▸ `Private` *_setCurrentMeasureSpecs*(`widthMeasureSpec`, `heightMeasureSpec`): `boolean`
+
+Called by measure method to cache measureSpecs.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `widthMeasureSpec`
+| `number`
+
+| `heightMeasureSpec`
+| `number`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._setCurrentMeasureSpecs
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L784[ui/core/view/index.d.ts:784]
+
+'''
+
+[#_setminheightnative]
+=== _setMinHeightNative
+
+▸ `Private` *_setMinHeightNative*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setMinHeightNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L828[ui/core/view/index.d.ts:828]
+
+'''
+
+[#_setminwidthnative]
+=== _setMinWidthNative
+
+▸ `Private` *_setMinWidthNative*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setMinWidthNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L824[ui/core/view/index.d.ts:824]
+
+'''
+
+[#_setnativecliptobounds]
+=== _setNativeClipToBounds
+
+▸ `Private` *_setNativeClipToBounds*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setNativeClipToBounds
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L779[ui/core/view/index.d.ts:779]
+
+'''
+
+[#_setnativeviewframe]
+=== _setNativeViewFrame
+
+▸ `Private` *_setNativeViewFrame*(`nativeView`, `frame`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `nativeView`
+| `any`
+
+| `frame`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setNativeViewFrame
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L807[ui/core/view/index.d.ts:807]
+
+'''
+
+[#_setvalue]
+=== _setValue
+
+▸ *_setValue*(`property`, `value`): `never`
+
+*Obsolete:* There is a new property system that does not rely on _setValue.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `property`
+| `any`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`never`
+
+==== Inherited from
+
+FrameBase._setValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L885[ui/core/view/index.d.ts:885]
+
+'''
+
+[#_setupasrootview]
+=== _setupAsRootView
+
+▸ *_setupAsRootView*(`context`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setupAsRootView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L249[ui/core/view/view-common.ts:249]
+
+'''
+
+[#_setupui]
+=== _setupUI
+
+▸ *_setupUI*(`context`, `atIndex?`, `parentIsLoaded?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context`
+| `any`
+
+| `atIndex?`
+| `number`
+
+| `parentIsLoaded?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._setupUI
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L804[ui/core/view-base/index.ts:804]
+
+'''
+
+[#_shoulddelaylayout]
+=== _shouldDelayLayout
+
+▸ *_shouldDelayLayout*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._shouldDelayLayout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L720[ui/core/view-base/index.ts:720]
+
+'''
+
+[#_shownativemodalview]
+=== _showNativeModalView
+
+▸ `Protected` *_showNativeModalView*(`parent`, `options`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `parent`
+| `ViewCommon`
+
+| `options`
+| xref:../interfaces/ShowModalOptions.adoc[`ShowModalOptions`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._showNativeModalView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L387[ui/core/view/view-common.ts:387]
+
+'''
+
+[#_suspendnativeupdates]
+=== _suspendNativeUpdates
+
+▸ *_suspendNativeUpdates*(`type`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| `SuspendType`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._suspendNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L475[ui/core/view-base/index.ts:475]
+
+'''
+
+[#_teardownui]
+=== _tearDownUI
+
+▸ *_tearDownUI*(`force?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `force?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._tearDownUI
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L916[ui/core/view-base/index.ts:916]
+
+'''
+
+[#_updateactionbar]
+=== _updateActionBar
+
+▸ `Private` *_updateActionBar*(`page?`, `disableNavBarAnimation?`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `page?`
+| xref:Page.adoc[`Page`]
+
+| `disableNavBarAnimation?`
+| `boolean`
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase._updateActionBar
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L186[ui/frame/index.d.ts:186]
+
+'''
+
+[#_updatebackstack]
+=== _updateBackstack
+
+▸ `Private` *_updateBackstack*(`entry`, `navigationType`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+
+| `navigationType`
+| `NavigationType`
+|===
+
+==== Returns
+
+`void`
+
+==== Overrides
+
+FrameBase._updateBackstack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L203[ui/frame/index.d.ts:203]
+
+'''
+
+[#_updateeffectivelayoutvalues]
+=== _updateEffectiveLayoutValues
+
+▸ `Private` *_updateEffectiveLayoutValues*(`parentWidthMeasureSize`, `parentWidthMeasureMode`, `parentHeightMeasureSize`, `parentHeightMeasureMode`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `parentWidthMeasureSize`
+| `number`
+
+| `parentWidthMeasureMode`
+| `number`
+
+| `parentHeightMeasureSize`
+| `number`
+
+| `parentHeightMeasureMode`
+| `number`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._updateEffectiveLayoutValues
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L812[ui/core/view/index.d.ts:812]
+
+'''
+
+[#_updatenativelayoutparams]
+=== _updateNativeLayoutParams
+
+▸ `Private` *_updateNativeLayoutParams*(`child`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `child`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._updateNativeLayoutParams
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L906[ui/core/view/index.d.ts:906]
+
+'''
+
+[#_updatestylescope]
+=== _updateStyleScope
+
+▸ *_updateStyleScope*(`cssFileName?`, `cssString?`, `css?`): `void`
+
+Updates styleScope or create new styleScope.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `cssFileName?`
+| `string`
+
+| `cssString?`
+| `string`
+
+| `css?`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase._updateStyleScope
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L859[ui/core/view/index.d.ts:859]
+
+'''
+
+[#accessibilityannouncement]
+=== accessibilityAnnouncement
+
+▸ *accessibilityAnnouncement*(`msg?`): `void`
+
+Make an announcement to the screen reader.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `msg?`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.accessibilityAnnouncement
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L751[ui/core/view/index.d.ts:751]
+
+'''
+
+[#accessibilityscreenchanged]
+=== accessibilityScreenChanged
+
+▸ *accessibilityScreenChanged*(): `void`
+
+Announce screen changed
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.accessibilityScreenChanged
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L756[ui/core/view/index.d.ts:756]
+
+'''
+
+[#addcss]
+=== addCss
+
+▸ `Private` *addCss*(`cssString`): `void`
+
+Adds a new values to current css.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `cssString`
+| `string`
+| A valid css which will be added to current css.
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.addCss
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L680[ui/core/view/index.d.ts:680]
+
+'''
+
+[#addcssfile]
+=== addCssFile
+
+▸ `Private` *addCssFile*(`cssFileName`): `void`
+
+Adds the content of the file to the current css.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `cssFileName`
+| `string`
+| A valid file name (from the application root) which contains a valid css.
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.addCssFile
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L687[ui/core/view/index.d.ts:687]
+
+'''
+
+[#addeventlistener]
+=== addEventListener
+
+▸ *addEventListener*(`arg`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `arg`
+| `string` \| xref:../enums/GestureTypes.adoc[`GestureTypes`]
+
+| `callback`
+| (`data`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.addEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L268[ui/core/view/view-common.ts:268]
+
+'''
+
+[#addpseudoclass]
+=== addPseudoClass
+
+▸ *addPseudoClass*(`name`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.addPseudoClass
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L568[ui/core/view-base/index.ts:568]
+
+'''
+
+[#animate]
+=== animate
+
+▸ *animate*(`options`): `AnimationPromise`
+
+Animates one or more properties of the view based on the supplied options.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| xref:../interfaces/AnimationDefinition.adoc[`AnimationDefinition`]
+|===
+
+==== Returns
+
+`AnimationPromise`
+
+==== Inherited from
+
+FrameBase.animate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L632[ui/core/view/index.d.ts:632]
+
+'''
+
+[#bind]
+=== bind
+
+▸ *bind*(`options`, `source?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type | Default value
+
+| `options`
+| xref:../interfaces/BindingOptions.adoc[`BindingOptions`]
+| `undefined`
+
+| `source`
+| `Object`
+| `defaultBindingSource`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.bind
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L598[ui/core/view-base/index.ts:598]
+
+'''
+
+[#callloaded]
+=== callLoaded
+
+▸ *callLoaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.callLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L537[ui/core/view-base/index.ts:537]
+
+'''
+
+[#callunloaded]
+=== callUnloaded
+
+▸ *callUnloaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.callUnloaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L541[ui/core/view-base/index.ts:541]
+
+'''
+
+[#cangoback]
+=== canGoBack
+
+▸ *canGoBack*(): `boolean`
+
+Checks whether the goBack operation is available.
+
+==== Returns
+
+`boolean`
+
+==== Overrides
+
+FrameBase.canGoBack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L55[ui/frame/index.d.ts:55]
+
+'''
+
+[#changecssfile]
+=== changeCssFile
+
+▸ `Private` *changeCssFile*(`cssFileName`): `void`
+
+Changes the current css to the content of the file.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `cssFileName`
+| `string`
+| A valid file name (from the application root) which contains a valid css.
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.changeCssFile
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L694[ui/core/view/index.d.ts:694]
+
+'''
+
+[#closemodal]
+=== closeModal
+
+▸ *closeModal*(...`args`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `+...args+`
+| `any`[]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.closeModal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L371[ui/core/view/view-common.ts:371]
+
+'''
+
+[#createanimation]
+=== createAnimation
+
+▸ *createAnimation*(`options`): xref:Animation.adoc[`Animation`]
+
+Creates an Animation object based on the supplied options.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| xref:../interfaces/AnimationDefinition.adoc[`AnimationDefinition`]
+|===
+
+==== Returns
+
+xref:Animation.adoc[`Animation`]
+
+==== Inherited from
+
+FrameBase.createAnimation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L637[ui/core/view/index.d.ts:637]
+
+'''
+
+[#createnativeview]
+=== createNativeView
+
+▸ *createNativeView*(): `Object`
+
+==== Returns
+
+`Object`
+
+==== Inherited from
+
+FrameBase.createNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L762[ui/core/view-base/index.ts:762]
+
+'''
+
+[#deletepseudoclass]
+=== deletePseudoClass
+
+▸ *deletePseudoClass*(`name`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.deletePseudoClass
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L579[ui/core/view-base/index.ts:579]
+
+'''
+
+[#destroynode]
+=== destroyNode
+
+▸ *destroyNode*(`forceDestroyChildren?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `forceDestroyChildren?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.destroyNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L910[ui/core/view-base/index.ts:910]
+
+'''
+
+[#disposenativeview]
+=== disposeNativeView
+
+▸ *disposeNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.disposeNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L766[ui/core/view-base/index.ts:766]
+
+'''
+
+[#eachchild]
+=== eachChild
+
+▸ *eachChild*(`callback`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| (`child`: xref:ViewBase.adoc[`ViewBase`]) \=> `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.eachChild
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L969[ui/core/view/view-common.ts:969]
+
+'''
+
+[#eachchildview]
+=== eachChildView
+
+▸ *eachChildView*(`callback`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `callback`
+| (`child`: xref:View.adoc[`View`]) \=> `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.eachChildView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L518[ui/frame/frame-common.ts:518]
+
+'''
+
+[#ensuredomnode]
+=== ensureDomNode
+
+▸ *ensureDomNode*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.ensureDomNode
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L416[ui/core/view-base/index.ts:416]
+
+'''
+
+[#focus]
+=== focus
+
+▸ *focus*(): `boolean`
+
+Tries to focus the view.
+Returns a value indicating whether this view or one of its descendants actually took focus.
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase.focus
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L578[ui/core/view/index.d.ts:578]
+
+'''
+
+[#get]
+=== get
+
+▸ *get*(`name`): `any`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+|===
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase.get
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L56[data/observable/index.ts:56]
+
+'''
+
+[#getactualsize]
+=== getActualSize
+
+▸ *getActualSize*(): xref:../interfaces/Size.adoc[`Size`]
+
+Returns the actual size of the view in device-independent pixels.
+
+==== Returns
+
+xref:../interfaces/Size.adoc[`Size`]
+
+==== Inherited from
+
+FrameBase.getActualSize
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L662[ui/core/view/index.d.ts:662]
+
+'''
+
+[#getgestureobservers]
+=== getGestureObservers
+
+▸ *getGestureObservers*(`type`): xref:GesturesObserver.adoc[`GesturesObserver`][]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `type`
+| xref:../enums/GestureTypes.adoc[`GestureTypes`]
+|===
+
+==== Returns
+
+xref:GesturesObserver.adoc[`GesturesObserver`][]
+
+==== Inherited from
+
+FrameBase.getGestureObservers
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L580[ui/core/view/index.d.ts:580]
+
+'''
+
+[#getlocationinwindow]
+=== getLocationInWindow
+
+▸ *getLocationInWindow*(): `Point`
+
+Returns the location of this view in the window coordinate system.
+
+==== Returns
+
+`Point`
+
+==== Inherited from
+
+FrameBase.getLocationInWindow
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L647[ui/core/view/index.d.ts:647]
+
+'''
+
+[#getlocationonscreen]
+=== getLocationOnScreen
+
+▸ *getLocationOnScreen*(): `Point`
+
+Returns the location of this view in the screen coordinate system.
+
+==== Returns
+
+`Point`
+
+==== Inherited from
+
+FrameBase.getLocationOnScreen
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L652[ui/core/view/index.d.ts:652]
+
+'''
+
+[#getlocationrelativeto]
+=== getLocationRelativeTo
+
+▸ *getLocationRelativeTo*(`otherView`): `Point`
+
+Returns the location of this view in the otherView's coordinate system.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `otherView`
+| xref:View.adoc[`View`]
+|===
+
+==== Returns
+
+`Point`
+
+==== Inherited from
+
+FrameBase.getLocationRelativeTo
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L657[ui/core/view/index.d.ts:657]
+
+'''
+
+[#getmeasuredheight]
+=== getMeasuredHeight
+
+▸ *getMeasuredHeight*(): `number`
+
+Returns the raw height component.
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase.getMeasuredHeight
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L506[ui/core/view/index.d.ts:506]
+
+'''
+
+[#getmeasuredstate]
+=== getMeasuredState
+
+▸ *getMeasuredState*(): `number`
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase.getMeasuredState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L508[ui/core/view/index.d.ts:508]
+
+'''
+
+[#getmeasuredwidth]
+=== getMeasuredWidth
+
+▸ *getMeasuredWidth*(): `number`
+
+Returns the raw width component.
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase.getMeasuredWidth
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L501[ui/core/view/index.d.ts:501]
+
+'''
+
+[#getsafeareainsets]
+=== getSafeAreaInsets
+
+▸ *getSafeAreaInsets*(): `Object`
+
+Returns the iOS safe area insets of this view.
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `bottom`
+| `any`
+
+| `left`
+| `any`
+
+| `right`
+| `any`
+
+| `top`
+| `any`
+|===
+
+==== Inherited from
+
+FrameBase.getSafeAreaInsets
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L642[ui/core/view/index.d.ts:642]
+
+'''
+
+[#getviewbydomid]
+=== getViewByDomId
+
+▸ *getViewByDomId*<``T``>(`domId`): `T`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `domId`
+| `number`
+|===
+
+==== Returns
+
+`T`
+
+==== Inherited from
+
+FrameBase.getViewByDomId
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L404[ui/core/view-base/index.ts:404]
+
+'''
+
+[#getviewbyid]
+=== getViewById
+
+▸ *getViewById*<``T``>(`id`): `T`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:ViewBase.adoc[`ViewBase`]<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `id`
+| `string`
+|===
+
+==== Returns
+
+`T`
+
+==== Inherited from
+
+FrameBase.getViewById
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L400[ui/core/view-base/index.ts:400]
+
+'''
+
+[#goback]
+=== goBack
+
+▸ *goBack*(`to?`): `any`
+
+Navigates to the previous entry (if any) in the back stack.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `to?`
+| xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+| The backstack entry to navigate back to.
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.goBack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L50[ui/frame/index.d.ts:50]
+
+'''
+
+[#hasgestureobservers]
+=== hasGestureObservers
+
+▸ `Optional` *hasGestureObservers*(): `boolean`
+
+Android only check if gesture observers are attached
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase.hasGestureObservers
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L721[ui/core/view/index.d.ts:721]
+
+'''
+
+[#haslisteners]
+=== hasListeners
+
+▸ *hasListeners*(`eventName`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase.hasListeners
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L309[data/observable/index.ts:309]
+
+'''
+
+[#initnativeview]
+=== initNativeView
+
+▸ *initNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.initNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L773[ui/core/view-base/index.ts:773]
+
+'''
+
+[#iscurrent]
+=== isCurrent
+
+▸ `Private` *isCurrent*(`entry`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `entry`
+| xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+| to check
+|===
+
+==== Returns
+
+`boolean`
+
+==== Overrides
+
+FrameBase.isCurrent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L142[ui/frame/index.d.ts:142]
+
+'''
+
+[#layout]
+=== layout
+
+▸ *layout*(`left`, `top`, `right`, `bottom`, `setFrame?`): `void`
+
+Assign a size and position to a view and all of its descendants This is the second phase of the layout mechanism.
+(The first is measuring).
+In this phase, each parent calls layout on all of its children to position them.
+This is typically done using the child measurements that were stored in the measure pass().
+Derived classes should not override this method.
+Derived classes with children should override onLayout.
+In that method, they should call layout on each of their children.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `left`
+| `number`
+
+| `top`
+| `number`
+
+| `right`
+| `number`
+
+| `bottom`
+| `number`
+
+| `setFrame?`
+| `boolean`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.layout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L496[ui/core/view/index.d.ts:496]
+
+'''
+
+[#layoutnativeview]
+=== layoutNativeView
+
+▸ *layoutNativeView*(`left`, `top`, `right`, `bottom`): `void`
+
+Called from onLayout when native view position is about to be changed.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `left`
+| `number`
+| Left position, relative to parent
+
+| `top`
+| `number`
+| Top position, relative to parent
+
+| `right`
+| `number`
+| Right position, relative to parent
+
+| `bottom`
+| `number`
+| Bottom position, relative to parent
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.layoutNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L541[ui/core/view/index.d.ts:541]
+
+'''
+
+[#loadview]
+=== loadView
+
+▸ *loadView*(`view`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.loadView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L714[ui/core/view-base/index.ts:714]
+
+'''
+
+[#measure]
+=== measure
+
+▸ *measure*(`widthMeasureSpec`, `heightMeasureSpec`): `void`
+
+This is called to find out how big a view should be.
+The parent supplies constraint information in the width and height parameters.
+The actual measurement work of a view is performed in onMeasure(int, int), called by this method.
+Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `widthMeasureSpec`
+| `number`
+| Horizontal space requirements as imposed by the parent
+
+| `heightMeasureSpec`
+| `number`
+| Vertical space requirements as imposed by the parent
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.measure
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L485[ui/core/view/index.d.ts:485]
+
+'''
+
+[#navigate]
+=== navigate
+
+▸ *navigate*(`pageModuleName`): `any`
+
+Navigates to a Page instance as described by the module name.
+This method will require the module and will check for a Page property in the exports of the module.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `pageModuleName`
+| `string`
+| The name of the module to require starting from the application root.
+For example if you want to navigate to page called "myPage.js" in a folder called "subFolder" and your root folder is "app" you can call navigate method like this: const frames = require("&#64;nativescript/core/ui/frame");
+frames.topmost().navigate("app/subFolder/myPage");
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.navigate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L65[ui/frame/index.d.ts:65]
+
+▸ *navigate*(`create`): `any`
+
+Creates a new Page instance using the provided callback and navigates to that Page.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `create`
+| () \=> xref:Page.adoc[`Page`]
+| The function to be used to create the new Page instance.
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.navigate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L71[ui/frame/index.d.ts:71]
+
+▸ *navigate*(`entry`): `any`
+
+Navigates to a Page resolved by the provided NavigationEntry object.
+Since there are a couple of  ways to specify a Page instance through an entry, there is a resolution priority:     1.
+entry.moduleName     2.
+entry.create()
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `entry`
+| xref:../interfaces/NavigationEntry.adoc[`NavigationEntry`]
+| The NavigationEntry instance.
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.navigate
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L80[ui/frame/index.d.ts:80]
+
+'''
+
+[#navigationqueueisempty]
+=== navigationQueueIsEmpty
+
+▸ `Private` *navigationQueueIsEmpty*(): `boolean`
+
+==== Returns
+
+`boolean`
+
+==== Overrides
+
+FrameBase.navigationQueueIsEmpty
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L153[ui/frame/index.d.ts:153]
+
+'''
+
+[#notify]
+=== notify
+
+▸ *notify*<``T``>(`data`): `void`
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends `NotifyData`<``T``>
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `data`
+| `T`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.notify
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L274[data/observable/index.ts:274]
+
+'''
+
+[#notifypropertychange]
+=== notifyPropertyChange
+
+▸ *notifyPropertyChange*(`name`, `value`, `oldValue?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+
+| `oldValue?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.notifyPropertyChange
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L305[data/observable/index.ts:305]
+
+'''
+
+[#off]
+=== off
+
+▸ *off*(`eventNames`, `callback?`, `thisArg?`): `any`
+
+Removes listener(s) for the specified event name.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `eventNames`
+| `string` \| xref:../enums/GestureTypes.adoc[`GestureTypes`]
+| Comma delimited names of the events or gesture types the specified listener is associated with.
+
+| `callback?`
+| (`args`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+| An optional parameter pointing to a specific listener.
+If not defined, all listeners for the event names will be removed.
+
+| `thisArg?`
+| `any`
+| An optional parameter which when set will be used to refine search of the correct callback which will be removed as event listener.
+|===
+
+==== Returns
+
+`any`
+
+==== Inherited from
+
+FrameBase.off
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L588[ui/core/view/index.d.ts:588]
+
+'''
+
+[#on]
+=== on
+
+▸ *on*(`eventNames`, `callback`, `thisArg?`): `any`
+
+A basic method signature to hook an event listener (shortcut alias to the addEventListener method).
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `eventNames`
+| `string`
+| String corresponding to events (e.g.
+"propertyChange").
+Optionally could be used more events separated by `,` (e.g.
+"propertyChange", "change").
+
+| `callback`
+| (`args`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+| Callback function which will be executed when event is raised.
+
+| `thisArg?`
+| `any`
+| An optional parameter which will be used as `this` context for callback execution.
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L224[ui/frame/index.d.ts:224]
+
+▸ *on*(`event`, `callback`, `thisArg?`): `any`
+
+Raised when navigation to the page has started.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `event`
+| `"navigatingTo"`
+
+| `callback`
+| (`args`: `NavigationData`) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L229[ui/frame/index.d.ts:229]
+
+▸ *on*(`event`, `callback`, `thisArg?`): `any`
+
+Raised when navigation to the page has finished.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `event`
+| `"navigatedTo"`
+
+| `callback`
+| (`args`: `NavigationData`) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L234[ui/frame/index.d.ts:234]
+
+'''
+
+[#onbackpressed]
+=== onBackPressed
+
+▸ *onBackPressed*(): `boolean`
+
+Derived classes can override this method to handle Android back button press.
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase.onBackPressed
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L667[ui/core/view/index.d.ts:667]
+
+'''
+
+[#onlayout]
+=== onLayout
+
+▸ *onLayout*(`left`, `top`, `right`, `bottom`): `void`
+
+Called from layout when this view should assign a size and position to each of its children.
+Derived classes with children should override this method and call layout on each of their children.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `left`
+| `number`
+| Left position, relative to parent
+
+| `top`
+| `number`
+| Top position, relative to parent
+
+| `right`
+| `number`
+| Right position, relative to parent
+
+| `bottom`
+| `number`
+| Bottom position, relative to parent
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.onLayout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L525[ui/core/view/index.d.ts:525]
+
+'''
+
+[#onloaded]
+=== onLoaded
+
+▸ *onLoaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.onLoaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L111[ui/frame/frame-common.ts:111]
+
+'''
+
+[#onmeasure]
+=== onMeasure
+
+▸ *onMeasure*(`widthMeasureSpec`, `heightMeasureSpec`): `void`
+
+Measure the view and its content to determine the measured width and the measured height.
+This method is invoked by measure(int, int) and should be overriden by subclasses to provide accurate and efficient measurement of their contents.
+When overriding this method, you must call setMeasuredDimension(int, int) to store the measured width and height of this view.
+Failure to do so will trigger an exception, thrown by measure(int, int).
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `widthMeasureSpec`
+| `number`
+| horizontal space requirements as imposed by the parent.
+The requirements are encoded with View.MeasureSpec.
+
+| `heightMeasureSpec`
+| `number`
+| vertical space requirements as imposed by the parent.
+The requirements are encoded with View.MeasureSpec.
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.onMeasure
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L516[ui/core/view/index.d.ts:516]
+
+'''
+
+[#onresumenativeupdates]
+=== onResumeNativeUpdates
+
+▸ *onResumeNativeUpdates*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.onResumeNativeUpdates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1053[ui/core/view-base/index.ts:1053]
+
+'''
+
+[#onunloaded]
+=== onUnloaded
+
+▸ *onUnloaded*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.onUnloaded
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L449[ui/core/view-base/index.ts:449]
+
+'''
+
+[#once]
+=== once
+
+▸ *once*(`event`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `event`
+| `string`
+
+| `callback`
+| (`data`: xref:../interfaces/EventData.adoc[`EventData`]) \=> `void`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.once
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L92[data/observable/index.ts:92]
+
+'''
+
+[#performnavigation]
+=== performNavigation
+
+▸ `Private` *performNavigation*(`navigationContext`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `navigationContext`
+| xref:../interfaces/NavigationContext.adoc[`NavigationContext`]
+|===
+
+==== Returns
+
+`void`
+
+==== Overrides
+
+FrameBase.performNavigation
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L191[ui/frame/index.d.ts:191]
+
+'''
+
+[#removeeventlistener]
+=== removeEventListener
+
+▸ *removeEventListener*(`arg`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `arg`
+| `string` \| xref:../enums/GestureTypes.adoc[`GestureTypes`]
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.removeEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L296[ui/core/view/view-common.ts:296]
+
+'''
+
+[#replacepage]
+=== replacePage
+
+▸ *replacePage*(`entry`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| `string` \| `NavigationEntry`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.replacePage
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L686[ui/frame/frame-common.ts:686]
+
+'''
+
+[#requestlayout]
+=== requestLayout
+
+▸ *requestLayout*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.requestLayout
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L912[ui/core/view/view-common.ts:912]
+
+'''
+
+[#resetnativeview]
+=== resetNativeView
+
+▸ *resetNativeView*(): `void`
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.resetNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1047[ui/core/view/view-common.ts:1047]
+
+'''
+
+[#sendaccessibilityevent]
+=== sendAccessibilityEvent
+
+▸ *sendAccessibilityEvent*(`options`): `void`
+
+Send accessibility event
+
+*`Params`*
+
+options AccessibilityEventOptions androidAccessibilityEvent: AndroidAccessibilityEvent;
+iosNotificationType: IOSPostAccessibilityNotificationType;
+message: string;
+
+iOS Notes:  type = 'announcement' will announce `args` via VoiceOver.
+If no args element will be announced instead.
+type = 'layout' used when the layout of a screen changes.
+type = 'screen' large change made to the screen.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| `Partial`<``AccessibilityEventOptions``>
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.sendAccessibilityEvent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L746[ui/core/view/index.d.ts:746]
+
+'''
+
+[#set]
+=== set
+
+▸ *set*(`name`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.set
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L425[ui/core/view-base/index.ts:425]
+
+'''
+
+[#setcurrent]
+=== setCurrent
+
+▸ `Private` *setCurrent*(`entry`, `navigationType`): `void`
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `entry`
+| xref:../interfaces/BackstackEntry.adoc[`BackstackEntry`]
+| to set as current
+
+| `navigationType`
+| `NavigationType`
+|
+|===
+
+==== Returns
+
+`void`
+
+==== Overrides
+
+FrameBase.setCurrent
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L149[ui/frame/index.d.ts:149]
+
+'''
+
+[#setinlinestyle]
+=== setInlineStyle
+
+▸ *setInlineStyle*(`style`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `style`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setInlineStyle
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1029[ui/core/view-base/index.ts:1029]
+
+'''
+
+[#setmeasureddimension]
+=== setMeasuredDimension
+
+▸ *setMeasuredDimension*(`measuredWidth`, `measuredHeight`): `void`
+
+This method must be called by onMeasure(int, int) to store the measured width and measured height.
+Failing to do so will trigger an exception at measurement time.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `measuredWidth`
+| `number`
+| The measured width of this view.
+May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TOO_SMALL.
+
+| `measuredHeight`
+| `number`
+| The measured height of this view.
+May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TOO_SMALL.
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setMeasuredDimension
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L532[ui/core/view/index.d.ts:532]
+
+'''
+
+[#setnativeview]
+=== setNativeView
+
+▸ *setNativeView*(`value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setNativeView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L892[ui/core/view-base/index.ts:892]
+
+'''
+
+[#setontouchlistener]
+=== setOnTouchListener
+
+▸ `Optional` *setOnTouchListener*(): `void`
+
+Android only to set the touch listener
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setOnTouchListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L726[ui/core/view/index.d.ts:726]
+
+'''
+
+[#setproperty]
+=== setProperty
+
+▸ *setProperty*(`name`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `name`
+| `string`
+
+| `value`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setProperty
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L72[data/observable/index.ts:72]
+
+'''
+
+[#settestid]
+=== setTestID
+
+▸ *setTestID*(`view`, `value`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| `any`
+
+| `value`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.setTestID
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1126[ui/core/view/view-common.ts:1126]
+
+'''
+
+[#showmodal]
+=== showModal
+
+▸ *showModal*(...`args`): xref:View.adoc[`View`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `+...args+`
+| `any`[]
+|===
+
+==== Returns
+
+xref:View.adoc[`View`]
+
+==== Inherited from
+
+FrameBase.showModal
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L363[ui/core/view/view-common.ts:363]
+
+'''
+
+[#tostring]
+=== toString
+
+▸ *toString*(): `string`
+
+==== Returns
+
+`string`
+
+==== Inherited from
+
+FrameBase.toString
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1058[ui/core/view-base/index.ts:1058]
+
+'''
+
+[#unbind]
+=== unbind
+
+▸ *unbind*(`property`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `property`
+| `string`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.unbind
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L627[ui/core/view-base/index.ts:627]
+
+'''
+
+[#unloadview]
+=== unloadView
+
+▸ *unloadView*(`view`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `view`
+| xref:ViewBase.adoc[`ViewBase`]
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.unloadView
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L724[ui/core/view-base/index.ts:724]
+
+'''
+
+[#_isentrybackstackvisible]
+=== _isEntryBackstackVisible
+
+▸ `Static` *_isEntryBackstackVisible*(`entry`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `entry`
+| `BackstackEntry`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Inherited from
+
+FrameBase._isEntryBackstackVisible
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/frame-common.ts#L353[ui/frame/frame-common.ts:353]
+
+'''
+
+[#_stack]
+=== _stack
+
+▸ `Static` `Private` *_stack*(): xref:Frame.adoc[`Frame`][]
+
+==== Returns
+
+xref:Frame.adoc[`Frame`][]
+
+==== Overrides
+
+FrameBase._stack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L44[ui/frame/index.d.ts:44]
+
+'''
+
+[#addeventlistener-1]
+=== addEventListener
+
+▸ `Static` *addEventListener*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.addEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L235[data/observable/index.ts:235]
+
+'''
+
+[#combinemeasuredstates]
+=== combineMeasuredStates
+
+▸ `Static` *combineMeasuredStates*(`curState`, `newState`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `curState`
+| `number`
+
+| `newState`
+| `any`
+|===
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase.combineMeasuredStates
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L572[ui/core/view/index.d.ts:572]
+
+'''
+
+[#getframebyid]
+=== getFrameById
+
+▸ `Static` *getFrameById*(`id`): xref:Frame.adoc[`Frame`]
+
+Gets a frame by id.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `id`
+| `string`
+|===
+
+==== Returns
+
+xref:Frame.adoc[`Frame`]
+
+==== Overrides
+
+FrameBase.getFrameById
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L23[ui/frame/index.d.ts:23]
+
+'''
+
+[#goback-1]
+=== goBack
+
+▸ `Static` *goBack*(): `any`
+
+Navigates back using the navigation hierarchy (if any).
+Updates the Frame stack as needed.
+This method will start from the topmost Frame and will recursively search for an instance that has the canGoBack operation available.
+
+==== Returns
+
+`any`
+
+==== Overrides
+
+FrameBase.goBack
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L34[ui/frame/index.d.ts:34]
+
+'''
+
+[#layoutchild]
+=== layoutChild
+
+▸ `Static` *layoutChild*(`parent`, `child`, `left`, `top`, `right`, `bottom`): `void`
+
+Layout a child by taking into account its margins, horizontal and vertical alignments and a given bounds.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `parent`
+| xref:View.adoc[`View`]
+| This parameter is not used.
+You can pass null.
+
+| `child`
+| xref:View.adoc[`View`]
+| -
+
+| `left`
+| `number`
+| Left position, relative to parent
+
+| `top`
+| `number`
+| Top position, relative to parent
+
+| `right`
+| `number`
+| Right position, relative to parent
+
+| `bottom`
+| `number`
+| Bottom position, relative to parent
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.layoutChild
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L560[ui/core/view/index.d.ts:560]
+
+'''
+
+[#measurechild]
+=== measureChild
+
+▸ `Static` *measureChild*(`parent`, `child`, `widthMeasureSpec`, `heightMeasureSpec`): `Object`
+
+Measure a child by taking into account its margins and a given measureSpecs.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `parent`
+| xref:View.adoc[`View`]
+| This parameter is not used.
+You can pass null.
+
+| `child`
+| xref:View.adoc[`View`]
+| The view to be measured.
+
+| `widthMeasureSpec`
+| `number`
+| -
+
+| `heightMeasureSpec`
+| `number`
+| -
+|===
+
+==== Returns
+
+`Object`
+
+|===
+| Name | Type
+
+| `measuredHeight`
+| `number`
+
+| `measuredWidth`
+| `number`
+|===
+
+==== Inherited from
+
+FrameBase.measureChild
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L550[ui/core/view/index.d.ts:550]
+
+'''
+
+[#off-1]
+=== off
+
+▸ `Static` *off*(`eventName`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.off
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L183[data/observable/index.ts:183]
+
+'''
+
+[#on-1]
+=== on
+
+▸ `Static` *on*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.on
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L160[data/observable/index.ts:160]
+
+'''
+
+[#once-1]
+=== once
+
+▸ `Static` *once*(`eventName`, `callback`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.once
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L164[data/observable/index.ts:164]
+
+'''
+
+[#reloadpage]
+=== reloadPage
+
+▸ `Static` `Private` *reloadPage*(`context?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `context?`
+| `ModuleContext`
+|===
+
+==== Returns
+
+`void`
+
+==== Overrides
+
+FrameBase.reloadPage
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L39[ui/frame/index.d.ts:39]
+
+'''
+
+[#removeeventlistener-1]
+=== removeEventListener
+
+▸ `Static` *removeEventListener*(`eventName`, `callback?`, `thisArg?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `eventName`
+| `string`
+
+| `callback?`
+| `any`
+
+| `thisArg?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Inherited from
+
+FrameBase.removeEventListener
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L187[data/observable/index.ts:187]
+
+'''
+
+[#resolvesizeandstate]
+=== resolveSizeAndState
+
+▸ `Static` *resolveSizeAndState*(`size`, `specSize`, `specMode`, `childMeasuredState`): `number`
+
+Utility to reconcile a desired size and state, with constraints imposed by a MeasureSpec.
+Will take the desired size, unless a different size is imposed by the constraints.
+The returned value is a compound integer, with the resolved size in the MEASURED_SIZE_MASK bits and optionally the bit MEASURED_STATE_TOO_SMALL set if the resulting size is smaller than the size the view wants to be.
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `size`
+| `number`
+
+| `specSize`
+| `number`
+
+| `specMode`
+| `number`
+
+| `childMeasuredState`
+| `number`
+|===
+
+==== Returns
+
+`number`
+
+==== Inherited from
+
+FrameBase.resolveSizeAndState
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L570[ui/core/view/index.d.ts:570]
+
+'''
+
+[#topmost]
+=== topmost
+
+▸ `Static` *topmost*(): xref:Frame.adoc[`Frame`]
+
+Gets the topmost frame in the frames stack.
+An application will typically has one frame instance.
+Multiple frames handle nested (hierarchical) navigation scenarios.
+
+==== Returns
+
+xref:Frame.adoc[`Frame`]
+
+==== Overrides
+
+FrameBase.topmost
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L28[ui/frame/index.d.ts:28]

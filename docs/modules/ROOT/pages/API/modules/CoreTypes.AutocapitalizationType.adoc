@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / AutocapitalizationType
+
+= Namespace: AutocapitalizationType
+
+xref:CoreTypes.adoc[CoreTypes].AutocapitalizationType
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.AutocapitalizationType.md#allcharacters[allCharacters]
+* link:CoreTypes.AutocapitalizationType.md#none[none]
+* link:CoreTypes.AutocapitalizationType.md#sentences[sentences]
+* link:CoreTypes.AutocapitalizationType.md#words[words]
+
+== Variables
+
+[#allcharacters]
+=== allCharacters
+
+• `Const` *allCharacters*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'allcharacters'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L191[core-types/index.ts:191]
+
+'''
+
+[#none]
+=== none
+
+• `Const` *none*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'none'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L188[core-types/index.ts:188]
+
+'''
+
+[#sentences]
+=== sentences
+
+• `Const` *sentences*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'sentences'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L190[core-types/index.ts:190]
+
+'''
+
+[#words]
+=== words
+
+• `Const` *words*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'words'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L189[core-types/index.ts:189]

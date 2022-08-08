@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / Orientation
+
+= Namespace: Orientation
+
+xref:CoreTypes.adoc[CoreTypes].Orientation
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.Orientation.md#horizontal[horizontal]
+* link:CoreTypes.Orientation.md#vertical[vertical]
+
+== Variables
+
+[#horizontal]
+=== horizontal
+
+• `Const` *horizontal*: `"horizontal"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L93[core-types/index.ts:93]
+
+'''
+
+[#vertical]
+=== vertical
+
+• `Const` *vertical*: `"vertical"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L94[core-types/index.ts:94]

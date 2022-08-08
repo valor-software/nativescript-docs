@@ -1,0 +1,36 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / IOSActionItemPosition
+
+= Namespace: IOSActionItemPosition
+
+xref:CoreTypes.adoc[CoreTypes].IOSActionItemPosition
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.IOSActionItemPosition.md#left[left]
+* link:CoreTypes.IOSActionItemPosition.md#right[right]
+
+== Variables
+
+[#left]
+=== left
+
+• `Const` *left*: `string` = `'left'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L213[core-types/index.ts:213]
+
+'''
+
+[#right]
+=== right
+
+• `Const` *right*: `string` = `'right'`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L214[core-types/index.ts:214]

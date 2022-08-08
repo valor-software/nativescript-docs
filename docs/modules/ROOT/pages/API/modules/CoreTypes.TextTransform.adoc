@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:CoreTypes.adoc[CoreTypes] / TextTransform
+
+= Namespace: TextTransform
+
+xref:CoreTypes.adoc[CoreTypes].TextTransform
+
+== Table of contents
+
+=== Variables
+
+* link:CoreTypes.TextTransform.md#capitalize[capitalize]
+* link:CoreTypes.TextTransform.md#lowercase[lowercase]
+* link:CoreTypes.TextTransform.md#none[none]
+* link:CoreTypes.TextTransform.md#uppercase[uppercase]
+
+== Variables
+
+[#capitalize]
+=== capitalize
+
+• `Const` *capitalize*: `"capitalize"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L78[core-types/index.ts:78]
+
+'''
+
+[#lowercase]
+=== lowercase
+
+• `Const` *lowercase*: `"lowercase"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L80[core-types/index.ts:80]
+
+'''
+
+[#none]
+=== none
+
+• `Const` *none*: `"none"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L77[core-types/index.ts:77]
+
+'''
+
+[#uppercase]
+=== uppercase
+
+• `Const` *uppercase*: `"uppercase"`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L79[core-types/index.ts:79]

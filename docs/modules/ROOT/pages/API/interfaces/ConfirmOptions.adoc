@@ -1,0 +1,141 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ConfirmOptions
+
+= Interface: ConfirmOptions
+
+Provides options for the confirm dialog.
+
+== Hierarchy
+
+* xref:AlertOptions.adoc[`AlertOptions`]
++
+↳ *`ConfirmOptions`*
++
+↳↳ xref:PromptOptions.adoc[`PromptOptions`]
++
+↳↳ xref:LoginOptions.adoc[`LoginOptions`]
+
+== Table of contents
+
+=== Properties
+
+* link:ConfirmOptions.md#cancelbuttontext[cancelButtonText]
+* link:ConfirmOptions.md#cancelable[cancelable]
+* link:ConfirmOptions.md#message[message]
+* link:ConfirmOptions.md#neutralbuttontext[neutralButtonText]
+* link:ConfirmOptions.md#okbuttontext[okButtonText]
+* link:ConfirmOptions.md#theme[theme]
+* link:ConfirmOptions.md#title[title]
+
+== Properties
+
+[#cancelbuttontext]
+=== cancelButtonText
+
+• `Optional` *cancelButtonText*: `string`
+
+Gets or sets the Cancel button text.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L214[ui/dialogs/index.d.ts:214]
+
+'''
+
+[#cancelable]
+=== cancelable
+
+• `Optional` *cancelable*: `boolean`
+
+[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog.
+
+==== Inherited from
+
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#cancelable[cancelable]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
+
+'''
+
+[#message]
+=== message
+
+• `Optional` *message*: `string`
+
+Gets or sets the dialog message.
+
+==== Inherited from
+
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#message[message]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
+
+'''
+
+[#neutralbuttontext]
+=== neutralButtonText
+
+• `Optional` *neutralButtonText*: `string`
+
+Gets or sets the neutral button text.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L219[ui/dialogs/index.d.ts:219]
+
+'''
+
+[#okbuttontext]
+=== okButtonText
+
+• `Optional` *okButtonText*: `string`
+
+Gets or sets the OK button text.
+
+==== Inherited from
+
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#okbuttontext[okButtonText]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
+
+'''
+
+[#theme]
+=== theme
+
+• `Optional` *theme*: `number`
+
+[Android only] Sets the theme of the Dialog.
+Usable themes can be found: https://developer.android.com/reference/android/R.style
+
+==== Inherited from
+
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#theme[theme]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
+
+'''
+
+[#title]
+=== title
+
+• `Optional` *title*: `string`
+
+Gets or sets the dialog title.
+
+==== Inherited from
+
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#title[title]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]

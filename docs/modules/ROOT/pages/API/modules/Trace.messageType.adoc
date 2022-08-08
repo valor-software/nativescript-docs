@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:Trace.adoc[Trace] / messageType
+
+= Namespace: messageType
+
+xref:Trace.adoc[Trace].messageType
+
+== Table of contents
+
+=== Variables
+
+* link:Trace.messageType.md#error[error]
+* link:Trace.messageType.md#info[info]
+* link:Trace.messageType.md#log[log]
+* link:Trace.messageType.md#warn[warn]
+
+== Variables
+
+[#error]
+=== error
+
+• `Const` *error*: `3`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L181[trace/index.ts:181]
+
+'''
+
+[#info]
+=== info
+
+• `Const` *info*: `1`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L179[trace/index.ts:179]
+
+'''
+
+[#log]
+=== log
+
+• `Const` *log*: `0`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L178[trace/index.ts:178]
+
+'''
+
+[#warn]
+=== warn
+
+• `Const` *warn*: `2`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L180[trace/index.ts:180]

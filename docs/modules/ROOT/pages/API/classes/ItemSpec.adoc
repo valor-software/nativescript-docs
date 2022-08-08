@@ -1,0 +1,113 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemSpec
+
+= Class: ItemSpec
+
+Defines row/column specific properties that apply to GridLayout elements.
+
+== Table of contents
+
+=== Constructors
+
+* link:ItemSpec.md#constructor[constructor]
+
+=== Properties
+
+* link:ItemSpec.md#actuallength[actualLength]
+* link:ItemSpec.md#gridunittype[gridUnitType]
+* link:ItemSpec.md#isabsolute[isAbsolute]
+* link:ItemSpec.md#isauto[isAuto]
+* link:ItemSpec.md#isstar[isStar]
+* link:ItemSpec.md#value[value]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new ItemSpec*()
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L9[ui/layouts/grid-layout/index.d.ts:9]
+
+• *new ItemSpec*(`value`, `type`)
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `value`
+| `number`
+
+| `type`
+| link:../modules.md#gridunittype[`GridUnitType`]
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L10[ui/layouts/grid-layout/index.d.ts:10]
+
+== Properties
+
+[#actuallength]
+=== actualLength
+
+• *actualLength*: `number`
+
+Gets the actual length of an ItemSpec.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L15[ui/layouts/grid-layout/index.d.ts:15]
+
+'''
+
+[#gridunittype]
+=== gridUnitType
+
+• *gridUnitType*: link:../modules.md#gridunittype[`GridUnitType`]
+
+Returns unit type of this ItemSpec instance.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L20[ui/layouts/grid-layout/index.d.ts:20]
+
+'''
+
+[#isabsolute]
+=== isAbsolute
+
+• *isAbsolute*: `boolean`
+
+Returns true if this ItemSpec instance holds an absolute (pixel) value.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L26[ui/layouts/grid-layout/index.d.ts:26]
+
+'''
+
+[#isauto]
+=== isAuto
+
+• *isAuto*: `boolean`
+
+Returns true if this GridLength instance is automatic (not specified).
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L32[ui/layouts/grid-layout/index.d.ts:32]
+
+'''
+
+[#isstar]
+=== isStar
+
+• *isStar*: `boolean`
+
+Returns true if this ItemSpec instance holds weighted proportion of available space.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L38[ui/layouts/grid-layout/index.d.ts:38]
+
+'''
+
+[#value]
+=== value
+
+• *value*: `number`
+
+Returns value part of this ItemSpec instance.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L43[ui/layouts/grid-layout/index.d.ts:43]

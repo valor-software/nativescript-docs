@@ -1,0 +1,163 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpContent
+
+= Interface: HttpContent
+
+Encapsulates the content of an HttpResponse.
+
+== Table of contents
+
+=== Properties
+
+* link:HttpContent.md#raw[raw]
+* link:HttpContent.md#toarraybuffer[toArrayBuffer]
+* link:HttpContent.md#tofile[toFile]
+* link:HttpContent.md#toimage[toImage]
+* link:HttpContent.md#tojson[toJSON]
+* link:HttpContent.md#tostring[toString]
+
+== Properties
+
+[#raw]
+=== raw
+
+• *raw*: `any`
+
+Gets the response body as raw data.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L74[http/index.ts:74]
+
+'''
+
+[#toarraybuffer]
+=== toArrayBuffer
+
+• *toArrayBuffer*: () \=> `ArrayBuffer`
+
+==== Type declaration
+
+▸ (): `ArrayBuffer`
+
+Gets the response body as ArrayBuffer
+
+===== Returns
+
+`ArrayBuffer`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L79[http/index.ts:79]
+
+'''
+
+[#tofile]
+=== toFile
+
+• *toFile*: (`destinationFilePath?`: `string`) \=> xref:../classes/File.adoc[`File`]
+
+==== Type declaration
+
+▸ (`destinationFilePath?`): xref:../classes/File.adoc[`File`]
+
+Gets the response body as file.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `destinationFilePath?`
+| `string`
+|===
+
+===== Returns
+
+xref:../classes/File.adoc[`File`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L99[http/index.ts:99]
+
+'''
+
+[#toimage]
+=== toImage
+
+• *toImage*: () \=> `Promise`<xref:../classes/ImageSource.adoc[`ImageSource`]>
+
+==== Type declaration
+
+▸ (): `Promise`<xref:../classes/ImageSource.adoc[`ImageSource`]>
+
+Gets the response body as ImageSource.
+
+===== Returns
+
+`Promise`<xref:../classes/ImageSource.adoc[`ImageSource`]>
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L94[http/index.ts:94]
+
+'''
+
+[#tojson]
+=== toJSON
+
+• *toJSON*: (`encoding?`: xref:../enums/HttpResponseEncoding.adoc[`HttpResponseEncoding`]) \=> `any`
+
+==== Type declaration
+
+▸ (`encoding?`): `any`
+
+Gets the response body as JSON object.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `encoding?`
+| xref:../enums/HttpResponseEncoding.adoc[`HttpResponseEncoding`]
+|===
+
+===== Returns
+
+`any`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L89[http/index.ts:89]
+
+'''
+
+[#tostring]
+=== toString
+
+• *toString*: (`encoding?`: xref:../enums/HttpResponseEncoding.adoc[`HttpResponseEncoding`]) \=> `string`
+
+==== Type declaration
+
+▸ (`encoding?`): `string`
+
+Gets the response body as string.
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `encoding?`
+| xref:../enums/HttpResponseEncoding.adoc[`HttpResponseEncoding`]
+|===
+
+===== Returns
+
+`string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L84[http/index.ts:84]

@@ -1,0 +1,96 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / encoding
+
+= Namespace: encoding
+
+Defines the supported character encodings.
+
+== Table of contents
+
+=== Variables
+
+* link:encoding.md#iso_8859_1[ISO_8859_1]
+* link:encoding.md#us_ascii[US_ASCII]
+* link:encoding.md#utf_16[UTF_16]
+* link:encoding.md#utf_16be[UTF_16BE]
+* link:encoding.md#utf_16le[UTF_16LE]
+* link:encoding.md#utf_8[UTF_8]
+
+== Variables
+
+[#iso_8859_1]
+=== ISO_8859_1
+
+• `Const` *ISO_8859_1*: `any`
+
+Denotes ISO-8859-1 character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L10[text/index.d.ts:10]
+
+'''
+
+[#us_ascii]
+=== US_ASCII
+
+• `Const` *US_ASCII*: `any`
+
+Denotes US_ASCII character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L15[text/index.d.ts:15]
+
+'''
+
+[#utf_16]
+=== UTF_16
+
+• `Const` *UTF_16*: `any`
+
+Denotes UTF_16 character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L20[text/index.d.ts:20]
+
+'''
+
+[#utf_16be]
+=== UTF_16BE
+
+• `Const` *UTF_16BE*: `any`
+
+Denotes UTF_16BE character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L25[text/index.d.ts:25]
+
+'''
+
+[#utf_16le]
+=== UTF_16LE
+
+• `Const` *UTF_16LE*: `any`
+
+Denotes UTF_16LE character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L30[text/index.d.ts:30]
+
+'''
+
+[#utf_8]
+=== UTF_8
+
+• `Const` *UTF_8*: `any`
+
+Denotes UTF_8 character encoding.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L35[text/index.d.ts:35]

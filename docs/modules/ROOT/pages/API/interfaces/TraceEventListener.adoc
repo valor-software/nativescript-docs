@@ -1,0 +1,58 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TraceEventListener
+
+= Interface: TraceEventListener
+
+An interface used to trace information about specific event.
+
+== Table of contents
+
+=== Properties
+
+* link:TraceEventListener.md#filter[filter]
+
+=== Methods
+
+* link:TraceEventListener.md#on[on]
+
+== Properties
+
+[#filter]
+=== filter
+
+• *filter*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L12[trace/index.ts:12]
+
+== Methods
+
+[#on]
+=== on
+
+▸ *on*(`object`, `name`, `data?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `object`
+| `Object`
+
+| `name`
+| `string`
+
+| `data?`
+| `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L13[trace/index.ts:13]

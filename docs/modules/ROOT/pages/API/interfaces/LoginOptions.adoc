@@ -1,0 +1,201 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoginOptions
+
+= Interface: LoginOptions
+
+Provides options for the login dialog.
+
+== Hierarchy
+
+* xref:ConfirmOptions.adoc[`ConfirmOptions`]
++
+↳ *`LoginOptions`*
+
+== Table of contents
+
+=== Properties
+
+* link:LoginOptions.md#cancelbuttontext[cancelButtonText]
+* link:LoginOptions.md#cancelable[cancelable]
+* link:LoginOptions.md#message[message]
+* link:LoginOptions.md#neutralbuttontext[neutralButtonText]
+* link:LoginOptions.md#okbuttontext[okButtonText]
+* link:LoginOptions.md#password[password]
+* link:LoginOptions.md#passwordhint[passwordHint]
+* link:LoginOptions.md#theme[theme]
+* link:LoginOptions.md#title[title]
+* link:LoginOptions.md#username[userName]
+* link:LoginOptions.md#usernamehint[userNameHint]
+
+== Properties
+
+[#cancelbuttontext]
+=== cancelButtonText
+
+• `Optional` *cancelButtonText*: `string`
+
+Gets or sets the Cancel button text.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelbuttontext[cancelButtonText]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L214[ui/dialogs/index.d.ts:214]
+
+'''
+
+[#cancelable]
+=== cancelable
+
+• `Optional` *cancelable*: `boolean`
+
+[Android only] Gets or sets if the dialog can be canceled by taping outside of the dialog.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelable[cancelable]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
+
+'''
+
+[#message]
+=== message
+
+• `Optional` *message*: `string`
+
+Gets or sets the dialog message.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#message[message]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
+
+'''
+
+[#neutralbuttontext]
+=== neutralButtonText
+
+• `Optional` *neutralButtonText*: `string`
+
+Gets or sets the neutral button text.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#neutralbuttontext[neutralButtonText]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L219[ui/dialogs/index.d.ts:219]
+
+'''
+
+[#okbuttontext]
+=== okButtonText
+
+• `Optional` *okButtonText*: `string`
+
+Gets or sets the OK button text.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#okbuttontext[okButtonText]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
+
+'''
+
+[#password]
+=== password
+
+• `Optional` *password*: `string`
+
+Gets or sets the default text to display in the password input box.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L264[ui/dialogs/index.d.ts:264]
+
+'''
+
+[#passwordhint]
+=== passwordHint
+
+• `Optional` *passwordHint*: `string`
+
+Gets or sets the default text to display as hint in the password input box.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L254[ui/dialogs/index.d.ts:254]
+
+'''
+
+[#theme]
+=== theme
+
+• `Optional` *theme*: `number`
+
+[Android only] Sets the theme of the Dialog.
+Usable themes can be found: https://developer.android.com/reference/android/R.style
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#theme[theme]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
+
+'''
+
+[#title]
+=== title
+
+• `Optional` *title*: `string`
+
+Gets or sets the dialog title.
+
+==== Inherited from
+
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#title[title]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]
+
+'''
+
+[#username]
+=== userName
+
+• `Optional` *userName*: `string`
+
+Gets or sets the default text to display in the user name input box.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L259[ui/dialogs/index.d.ts:259]
+
+'''
+
+[#usernamehint]
+=== userNameHint
+
+• `Optional` *userNameHint*: `string`
+
+Gets or sets the default text to display as hint in the user name input box.
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L249[ui/dialogs/index.d.ts:249]

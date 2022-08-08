@@ -1,0 +1,60 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadAppCSSEventData
+
+= Interface: LoadAppCSSEventData
+
+== Hierarchy
+
+* xref:EventData.adoc[`EventData`]
++
+↳ *`LoadAppCSSEventData`*
+
+== Table of contents
+
+=== Properties
+
+* link:LoadAppCSSEventData.md#cssfile[cssFile]
+* link:LoadAppCSSEventData.md#eventname[eventName]
+* link:LoadAppCSSEventData.md#object[object]
+
+== Properties
+
+[#cssfile]
+=== cssFile
+
+• *cssFile*: `string`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L763[application/index.d.ts:763]
+
+'''
+
+[#eventname]
+=== eventName
+
+• *eventName*: `string`
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
+
+'''
+
+[#object]
+=== object
+
+• *object*: `Partial`<xref:../classes/Observable.adoc[`Observable`]>
+
+==== Inherited from
+
+xref:EventData.adoc[EventData].link:EventData.md#object[object]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

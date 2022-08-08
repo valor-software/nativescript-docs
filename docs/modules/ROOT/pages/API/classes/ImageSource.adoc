@@ -1,0 +1,960 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ImageSource
+
+= Class: ImageSource
+
+Encapsulates the common abstraction behind a platform specific object (typically a Bitmap) that is used as a source for images.
+
+== Table of contents
+
+=== Constructors
+
+* link:ImageSource.md#constructor[constructor]
+
+=== Properties
+
+* link:ImageSource.md#android[android]
+* link:ImageSource.md#height[height]
+* link:ImageSource.md#ios[ios]
+* link:ImageSource.md#rotationangle[rotationAngle]
+* link:ImageSource.md#width[width]
+
+=== Methods
+
+* link:ImageSource.md#fromasset[fromAsset]
+* link:ImageSource.md#frombase64[fromBase64]
+* link:ImageSource.md#fromdata[fromData]
+* link:ImageSource.md#fromfile[fromFile]
+* link:ImageSource.md#fromresource[fromResource]
+* link:ImageSource.md#loadfrombase64[loadFromBase64]
+* link:ImageSource.md#loadfromdata[loadFromData]
+* link:ImageSource.md#loadfromfile[loadFromFile]
+* link:ImageSource.md#loadfromfonticoncode[loadFromFontIconCode]
+* link:ImageSource.md#loadfromresource[loadFromResource]
+* link:ImageSource.md#resize[resize]
+* link:ImageSource.md#resizeasync[resizeAsync]
+* link:ImageSource.md#savetofile[saveToFile]
+* link:ImageSource.md#savetofileasync[saveToFileAsync]
+* link:ImageSource.md#setnativesource[setNativeSource]
+* link:ImageSource.md#tobase64string[toBase64String]
+* link:ImageSource.md#tobase64stringasync[toBase64StringAsync]
+* link:ImageSource.md#fromasset-1[fromAsset]
+* link:ImageSource.md#frombase64-1[fromBase64]
+* link:ImageSource.md#frombase64sync[fromBase64Sync]
+* link:ImageSource.md#fromdata-1[fromData]
+* link:ImageSource.md#fromdatasync[fromDataSync]
+* link:ImageSource.md#fromfile-1[fromFile]
+* link:ImageSource.md#fromfileorresourcesync[fromFileOrResourceSync]
+* link:ImageSource.md#fromfilesync[fromFileSync]
+* link:ImageSource.md#fromfonticoncodesync[fromFontIconCodeSync]
+* link:ImageSource.md#fromresource-1[fromResource]
+* link:ImageSource.md#fromresourcesync[fromResourceSync]
+* link:ImageSource.md#fromurl[fromUrl]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new ImageSource*(`nativeSource?`)
+
+Creates a new ImageSource instance and sets the provided native source object (typically a Bitmap).
+The native source object will update either the android or ios properties, depending on the target os.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `nativeSource?`
+| `any`
+| The native image object.
+Will be either a Bitmap for Android or a UIImage for iOS.
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L112[image-source/index.d.ts:112]
+
+== Properties
+
+[#android]
+=== android
+
+• *android*: `any`
+
+The Android-specific http://developer.android.com/reference/android/graphics/Bitmap.html[image] instance.
+Will be undefined when running on iOS.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L31[image-source/index.d.ts:31]
+
+'''
+
+[#height]
+=== height
+
+• *height*: `number`
+
+Gets the height of this instance.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L11[image-source/index.d.ts:11]
+
+'''
+
+[#ios]
+=== ios
+
+• *ios*: `any`
+
+The iOS-specific https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/[UIImage] instance.
+Will be undefined when running on Android.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L26[image-source/index.d.ts:26]
+
+'''
+
+[#rotationangle]
+=== rotationAngle
+
+• *rotationAngle*: `number`
+
+Gets or sets the rotation angle that should be applied to the image.
+(Used in android)
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L21[image-source/index.d.ts:21]
+
+'''
+
+[#width]
+=== width
+
+• *width*: `number`
+
+Gets the width of this instance.
+This is a read-only property.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L16[image-source/index.d.ts:16]
+
+== Methods
+
+[#fromasset]
+=== fromAsset
+
+▸ *fromAsset*(`asset`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+*`Deprecated`*
+
+Use ImageSource.fromAsset() instead.
+Loads this instance from the specified asset asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `asset`
+| xref:ImageAsset.adoc[`ImageAsset`]
+| The ImageAsset instance used to create ImageSource.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L119[image-source/index.d.ts:119]
+
+'''
+
+[#frombase64]
+=== fromBase64
+
+▸ *fromBase64*(`source`): `Promise`<``boolean``>
+
+*`Deprecated`*
+
+Use ImageSource.fromBase64() instead.
+Loads this instance from the specified base64 encoded string asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The Base64 string to load the image from.
+|===
+
+==== Returns
+
+`Promise`<``boolean``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L175[image-source/index.d.ts:175]
+
+'''
+
+[#fromdata]
+=== fromData
+
+▸ *fromData*(`data`): `Promise`<``boolean``>
+
+*`Deprecated`*
+
+Use ImageSource.fromData() instead.
+Loads this instance from the specified native image data asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `data`
+| `any`
+| The native data (byte array) to load the image from.
+This will be either Stream for Android or NSData for iOS.
+|===
+
+==== Returns
+
+`Promise`<``boolean``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L161[image-source/index.d.ts:161]
+
+'''
+
+[#fromfile]
+=== fromFile
+
+▸ *fromFile*(`path`): `Promise`<``boolean``>
+
+*`Deprecated`*
+
+Use ImageSource.fromFile() instead.
+Loads this instance from the specified file asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The location of the file on the file system.
+|===
+
+==== Returns
+
+`Promise`<``boolean``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L147[image-source/index.d.ts:147]
+
+'''
+
+[#fromresource]
+=== fromResource
+
+▸ *fromResource*(`name`): `Promise`<``boolean``>
+
+*`Deprecated`*
+
+Use ImageSource.fromResource() instead.
+Loads this instance from the specified resource name asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `name`
+| `string`
+| The name of the resource (without its extension).
+|===
+
+==== Returns
+
+`Promise`<``boolean``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L133[image-source/index.d.ts:133]
+
+'''
+
+[#loadfrombase64]
+=== loadFromBase64
+
+▸ *loadFromBase64*(`source`): `boolean`
+
+*`Deprecated`*
+
+Use ImageSource.fromBase64Sync() instead.
+Loads this instance from the specified base64 encoded string.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The Base64 string to load the image from.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L168[image-source/index.d.ts:168]
+
+'''
+
+[#loadfromdata]
+=== loadFromData
+
+▸ *loadFromData*(`data`): `boolean`
+
+*`Deprecated`*
+
+Use ImageSource.fromDataSync() instead.
+Loads this instance from the specified native image data.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `data`
+| `any`
+| The native data (byte array) to load the image from.
+This will be either Stream for Android or NSData for iOS.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L154[image-source/index.d.ts:154]
+
+'''
+
+[#loadfromfile]
+=== loadFromFile
+
+▸ *loadFromFile*(`path`): `boolean`
+
+*`Deprecated`*
+
+Use ImageSource.fromFileSync() instead.
+Loads this instance from the specified file.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The location of the file on the file system.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L140[image-source/index.d.ts:140]
+
+'''
+
+[#loadfromfonticoncode]
+=== loadFromFontIconCode
+
+▸ *loadFromFontIconCode*(`source`, `font`, `color`): `boolean`
+
+*`Deprecated`*
+
+Use ImageSource.fromFontIconCode() instead.
+Loads this instance from the specified font icon code.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The hex font icon code string
+
+| `font`
+| xref:Font.adoc[`Font`]
+| The font for the corresponding font icon code
+
+| `color`
+| xref:Color.adoc[`Color`]
+| The color of the generated icon image
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L184[image-source/index.d.ts:184]
+
+'''
+
+[#loadfromresource]
+=== loadFromResource
+
+▸ *loadFromResource*(`name`): `boolean`
+
+*`Deprecated`*
+
+Use ImageSource.fromResourceSync() instead.
+Loads this instance from the specified resource name.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `name`
+| `string`
+| The name of the resource (without its extension).
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L126[image-source/index.d.ts:126]
+
+'''
+
+[#resize]
+=== resize
+
+▸ *resize*(`maxSize`, `options?`): xref:ImageSource.adoc[`ImageSource`]
+
+Returns a new ImageSource that is a resized version of this image with the same aspect ratio, but the max dimension set to the provided maxSize.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `maxSize`
+| `number`
+| The maximum pixel dimension of the resulting image.
+
+| `options?`
+| `any`
+| Optional parameter, Only used for android, options.filter is a boolean which     determines whether or not bilinear filtering should be used when scaling the bitmap.
+If this is true then bilinear filtering will be used when scaling which has     better image quality at the cost of worse performance.
+If this is false then     nearest-neighbor scaling is used instead which will have worse image quality     but is faster.
+Recommended default is to set filter to 'true' as the cost of     bilinear filtering is typically minimal and the improved image quality is significant.
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L234[image-source/index.d.ts:234]
+
+'''
+
+[#resizeasync]
+=== resizeAsync
+
+▸ *resizeAsync*(`maxSize`, `options?`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Returns a new ImageSource that is a resized version of this image with the same aspect ratio, but the max dimension set to the provided maxSize asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `maxSize`
+| `number`
+| The maximum pixel dimension of the resulting image.
+
+| `options?`
+| `any`
+| Optional parameter, Only used for android, options.filter is a boolean which     determines whether or not bilinear filtering should be used when scaling the bitmap.
+If this is true then bilinear filtering will be used when scaling which has     better image quality at the cost of worse performance.
+If this is false then     nearest-neighbor scaling is used instead which will have worse image quality     but is faster.
+Recommended default is to set filter to 'true' as the cost of     bilinear filtering is typically minimal and the improved image quality is significant.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L247[image-source/index.d.ts:247]
+
+'''
+
+[#savetofile]
+=== saveToFile
+
+▸ *saveToFile*(`path`, `format`, `quality?`): `boolean`
+
+Saves this instance to the specified file, using the provided image format and quality.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The path of the file on the file system to save to.
+
+| `format`
+| `"png"` \| `"jpeg"` \| `"jpg"`
+| The format (encoding) of the image.
+
+| `quality?`
+| `number`
+| Optional parameter, specifying the quality of the encoding.
+Defaults to the maximum available quality.
+Quality varies on a scale of 0 to 100.
+|===
+
+==== Returns
+
+`boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L199[image-source/index.d.ts:199]
+
+'''
+
+[#savetofileasync]
+=== saveToFileAsync
+
+▸ *saveToFileAsync*(`path`, `format`, `quality?`): `Promise`<``boolean``>
+
+Saves this instance to the specified file, using the provided image format and quality asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The path of the file on the file system to save to.
+
+| `format`
+| `"png"` \| `"jpeg"` \| `"jpg"`
+| The format (encoding) of the image.
+
+| `quality?`
+| `number`
+| Optional parameter, specifying the quality of the encoding.
+Defaults to the maximum available quality.
+Quality varies on a scale of 0 to 100.
+|===
+
+==== Returns
+
+`Promise`<``boolean``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L207[image-source/index.d.ts:207]
+
+'''
+
+[#setnativesource]
+=== setNativeSource
+
+▸ *setNativeSource*(`nativeSource`): `void`
+
+Sets the provided native source object (typically a Bitmap or a UIImage).
+This will update either the android or ios properties, depending on the target os.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `nativeSource`
+| `any`
+| The native image object.
+Will be either a Bitmap for Android or a UIImage for iOS.
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L191[image-source/index.d.ts:191]
+
+'''
+
+[#tobase64string]
+=== toBase64String
+
+▸ *toBase64String*(`format`, `quality?`): `string`
+
+Converts the image to base64 encoded string, using the provided image format and quality.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `format`
+| `"png"` \| `"jpeg"` \| `"jpg"`
+| The format (encoding) of the image.
+
+| `quality?`
+| `number`
+| Optional parameter, specifying the quality of the encoding.
+Defaults to the maximum available quality.
+Quality varies on a scale of 0 to 100.
+|===
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L214[image-source/index.d.ts:214]
+
+'''
+
+[#tobase64stringasync]
+=== toBase64StringAsync
+
+▸ *toBase64StringAsync*(`format`, `quality?`): `Promise`<``string``>
+
+Converts the image to base64 encoded string, using the provided image format and quality asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `format`
+| `"png"` \| `"jpeg"` \| `"jpg"`
+| The format (encoding) of the image.
+
+| `quality?`
+| `number`
+| Optional parameter, specifying the quality of the encoding.
+Defaults to the maximum available quality.
+Quality varies on a scale of 0 to 100.
+|===
+
+==== Returns
+
+`Promise`<``string``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L221[image-source/index.d.ts:221]
+
+'''
+
+[#fromasset-1]
+=== fromAsset
+
+▸ `Static` *fromAsset*(`asset`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Loads this instance from the specified asset asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `asset`
+| xref:ImageAsset.adoc[`ImageAsset`]
+| The ImageAsset instance used to create ImageSource.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L37[image-source/index.d.ts:37]
+
+'''
+
+[#frombase64-1]
+=== fromBase64
+
+▸ `Static` *fromBase64*(`source`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Loads this instance from the specified base64 encoded string asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The Base64 string to load the image from.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L97[image-source/index.d.ts:97]
+
+'''
+
+[#frombase64sync]
+=== fromBase64Sync
+
+▸ `Static` *fromBase64Sync*(`source`): xref:ImageSource.adoc[`ImageSource`]
+
+Loads this instance from the specified base64 encoded string.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The Base64 string to load the image from.
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L91[image-source/index.d.ts:91]
+
+'''
+
+[#fromdata-1]
+=== fromData
+
+▸ `Static` *fromData*(`data`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Loads this instance from the specified native image data asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `data`
+| `any`
+| The native data (byte array) to load the image from.
+This will be either Stream for Android or NSData for iOS.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L85[image-source/index.d.ts:85]
+
+'''
+
+[#fromdatasync]
+=== fromDataSync
+
+▸ `Static` *fromDataSync*(`data`): xref:ImageSource.adoc[`ImageSource`]
+
+Loads this instance from the specified native image data.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `data`
+| `any`
+| The native data (byte array) to load the image from.
+This will be either Stream for Android or NSData for iOS.
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L79[image-source/index.d.ts:79]
+
+'''
+
+[#fromfile-1]
+=== fromFile
+
+▸ `Static` *fromFile*(`path`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Loads this instance from the specified file asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The location of the file on the file system.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L67[image-source/index.d.ts:67]
+
+'''
+
+[#fromfileorresourcesync]
+=== fromFileOrResourceSync
+
+▸ `Static` *fromFileOrResourceSync*(`path`): xref:ImageSource.adoc[`ImageSource`]
+
+Creates a new ImageSource instance and loads it from the specified local file or resource (if specified with the "res://" prefix).
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The location of the file on the file system.
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L73[image-source/index.d.ts:73]
+
+'''
+
+[#fromfilesync]
+=== fromFileSync
+
+▸ `Static` *fromFileSync*(`path`): xref:ImageSource.adoc[`ImageSource`]
+
+Loads this instance from the specified file.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `path`
+| `string`
+| The location of the file on the file system.
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L61[image-source/index.d.ts:61]
+
+'''
+
+[#fromfonticoncodesync]
+=== fromFontIconCodeSync
+
+▸ `Static` *fromFontIconCodeSync*(`source`, `font`, `color`): xref:ImageSource.adoc[`ImageSource`]
+
+Creates a new ImageSource instance and loads it from the specified font icon code.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `source`
+| `string`
+| The hex font icon code string
+
+| `font`
+| xref:Font.adoc[`Font`]
+| The font for the corresponding font icon code
+
+| `color`
+| xref:Color.adoc[`Color`]
+| The color of the generated icon image
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L105[image-source/index.d.ts:105]
+
+'''
+
+[#fromresource-1]
+=== fromResource
+
+▸ `Static` *fromResource*(`name`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Loads this instance from the specified resource name asynchronously.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `name`
+| `string`
+| The name of the resource (without its extension).
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L55[image-source/index.d.ts:55]
+
+'''
+
+[#fromresourcesync]
+=== fromResourceSync
+
+▸ `Static` *fromResourceSync*(`name`): xref:ImageSource.adoc[`ImageSource`]
+
+Loads this instance from the specified resource name.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `name`
+| `string`
+| The name of the resource (without its extension).
+|===
+
+==== Returns
+
+xref:ImageSource.adoc[`ImageSource`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L49[image-source/index.d.ts:49]
+
+'''
+
+[#fromurl]
+=== fromUrl
+
+▸ `Static` *fromUrl*(`url`): `Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+Downloads the image from the provided Url and creates a new ImageSource instance from it.
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `url`
+| `string`
+| The link to the remote image object.
+This operation will download and decode the image.
+|===
+
+==== Returns
+
+`Promise`<xref:ImageSource.adoc[`ImageSource`]>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/image-source/index.d.ts#L43[image-source/index.d.ts:43]

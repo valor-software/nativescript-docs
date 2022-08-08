@@ -1,0 +1,343 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CssProperty
+
+= Class: CssProperty<T, U>
+
+== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:Style.adoc[`Style`]
+
+| `U`
+| `U`
+|===
+
+== Hierarchy
+
+* *`CssProperty`*
++
+↳ xref:InheritedCssProperty.adoc[`InheritedCssProperty`]
+
+== Implements
+
+* xref:CssProperty.adoc[`CssProperty`]<``T``, `U`>
+
+== Implemented by
+
+* xref:CssProperty.adoc[`CssProperty`]
+
+== Table of contents
+
+=== Constructors
+
+* link:CssProperty.md#constructor[constructor]
+
+=== Properties
+
+* link:CssProperty.md#csslocalname[cssLocalName]
+* link:CssProperty.md#cssname[cssName]
+* link:CssProperty.md#cssvaluedescriptor[cssValueDescriptor]
+* link:CssProperty.md#defaultvalue[defaultValue]
+* link:CssProperty.md#defaultvaluekey[defaultValueKey]
+* link:CssProperty.md#getdefault[getDefault]
+* link:CssProperty.md#isstyleproperty[isStyleProperty]
+* link:CssProperty.md#key[key]
+* link:CssProperty.md#localvaluedescriptor[localValueDescriptor]
+* link:CssProperty.md#name[name]
+* link:CssProperty.md#overridehandlers[overrideHandlers]
+* link:CssProperty.md#registered[registered]
+* link:CssProperty.md#setnative[setNative]
+* link:CssProperty.md#sourcekey[sourceKey]
+
+=== Methods
+
+* link:CssProperty.md#isset[isSet]
+* link:CssProperty.md#register[register]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new CssProperty*<``T``, `U`>(`options`)
+
+==== Type parameters
+
+|===
+| Name | Type
+
+| `T`
+| extends xref:Style.adoc[`Style`]<``T``>
+
+| `U`
+| `U`
+|===
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| `CssPropertyOptions`<``T``, `U`>
+|===
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L597[ui/core/properties/index.ts:597]
+
+== Properties
+
+[#csslocalname]
+=== cssLocalName
+
+• `Readonly` *cssLocalName*: `string`
+
+==== Implementation of
+
+CssProperty.cssLocalName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L581[ui/core/properties/index.ts:581]
+
+'''
+
+[#cssname]
+=== cssName
+
+• `Readonly` *cssName*: `string`
+
+==== Implementation of
+
+CssProperty.cssName
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L580[ui/core/properties/index.ts:580]
+
+'''
+
+[#cssvaluedescriptor]
+=== cssValueDescriptor
+
+• `Protected` `Readonly` *cssValueDescriptor*: `PropertyDescriptor`
+
+==== Implementation of
+
+CssProperty.cssValueDescriptor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L583[ui/core/properties/index.ts:583]
+
+'''
+
+[#defaultvalue]
+=== defaultValue
+
+• `Readonly` *defaultValue*: `U`
+
+==== Implementation of
+
+CssProperty.defaultValue
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L593[ui/core/properties/index.ts:593]
+
+'''
+
+[#defaultvaluekey]
+=== defaultValueKey
+
+• `Readonly` *defaultValueKey*: `symbol`
+
+==== Implementation of
+
+CssProperty.defaultValueKey
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L592[ui/core/properties/index.ts:592]
+
+'''
+
+[#getdefault]
+=== getDefault
+
+• `Readonly` *getDefault*: `symbol`
+
+==== Implementation of
+
+CssProperty.getDefault
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L589[ui/core/properties/index.ts:589]
+
+'''
+
+[#isstyleproperty]
+=== isStyleProperty
+
+• *isStyleProperty*: `boolean`
+
+==== Implementation of
+
+CssProperty.isStyleProperty
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L586[ui/core/properties/index.ts:586]
+
+'''
+
+[#key]
+=== key
+
+• `Readonly` *key*: `symbol`
+
+==== Implementation of
+
+CssProperty.key
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L588[ui/core/properties/index.ts:588]
+
+'''
+
+[#localvaluedescriptor]
+=== localValueDescriptor
+
+• `Protected` `Readonly` *localValueDescriptor*: `PropertyDescriptor`
+
+==== Implementation of
+
+CssProperty.localValueDescriptor
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L584[ui/core/properties/index.ts:584]
+
+'''
+
+[#name]
+=== name
+
+• `Readonly` *name*: `string`
+
+==== Implementation of
+
+CssProperty.name
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L579[ui/core/properties/index.ts:579]
+
+'''
+
+[#overridehandlers]
+=== overrideHandlers
+
+• *overrideHandlers*: (`options`: `CssPropertyOptions`<``T``, `U`>) \=> `void`
+
+==== Type declaration
+
+▸ (`options`): `void`
+
+===== Parameters
+
+|===
+| Name | Type
+
+| `options`
+| `CssPropertyOptions`<``T``, `U`>
+|===
+
+===== Returns
+
+`void`
+
+==== Implementation of
+
+CssProperty.overrideHandlers
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L595[ui/core/properties/index.ts:595]
+
+'''
+
+[#registered]
+=== registered
+
+• `Private` *registered*: `boolean`
+
+==== Implementation of
+
+CssProperty.registered
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L577[ui/core/properties/index.ts:577]
+
+'''
+
+[#setnative]
+=== setNative
+
+• `Readonly` *setNative*: `symbol`
+
+==== Implementation of
+
+CssProperty.setNative
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L590[ui/core/properties/index.ts:590]
+
+'''
+
+[#sourcekey]
+=== sourceKey
+
+• `Readonly` *sourceKey*: `symbol`
+
+==== Implementation of
+
+CssProperty.sourceKey
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L591[ui/core/properties/index.ts:591]
+
+== Methods
+
+[#isset]
+=== isSet
+
+▸ *isSet*(`instance`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `instance`
+| `T`
+|===
+
+==== Returns
+
+`boolean`
+
+==== Implementation of
+
+CssProperty.isSet
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L843[ui/core/properties/index.ts:843]
+
+'''
+
+[#register]
+=== register
+
+▸ *register*(`cls`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `cls`
+| `Object`
+
+| `cls.prototype`
+| `T`
+|===
+
+==== Returns
+
+`void`
+
+==== Implementation of
+
+CssProperty.register
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L831[ui/core/properties/index.ts:831]

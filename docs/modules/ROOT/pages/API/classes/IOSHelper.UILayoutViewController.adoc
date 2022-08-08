@@ -1,0 +1,46 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / xref:../modules/IOSHelper.adoc[IOSHelper] / UILayoutViewController
+
+= Class: UILayoutViewController
+
+xref:../modules/IOSHelper.adoc[IOSHelper].UILayoutViewController
+
+== Table of contents
+
+=== Constructors
+
+* link:IOSHelper.UILayoutViewController.md#constructor[constructor]
+
+=== Methods
+
+* link:IOSHelper.UILayoutViewController.md#initwithowner[initWithOwner]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new UILayoutViewController*()
+
+== Methods
+
+[#initwithowner]
+=== initWithOwner
+
+▸ `Static` *initWithOwner*(`owner`): xref:IOSHelper.UILayoutViewController.adoc[`UILayoutViewController`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `owner`
+| `WeakRef`<``Partial``<xref:View.adoc[`View`]>>
+|===
+
+==== Returns
+
+xref:IOSHelper.UILayoutViewController.adoc[`UILayoutViewController`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L58[ui/core/view/view-helper/index.d.ts:58]

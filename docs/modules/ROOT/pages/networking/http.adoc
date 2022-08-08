@@ -1,7 +1,3 @@
-:showtitlepage:"
-:noheader:"
-:nofooter:"
-
 = HTTP
 
 The import for the Http module.

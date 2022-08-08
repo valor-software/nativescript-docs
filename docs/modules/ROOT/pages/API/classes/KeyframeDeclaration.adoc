@@ -1,0 +1,41 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeDeclaration
+
+= Class: KeyframeDeclaration
+
+== Table of contents
+
+=== Constructors
+
+* link:KeyframeDeclaration.md#constructor[constructor]
+
+=== Properties
+
+* link:KeyframeDeclaration.md#property[property]
+* link:KeyframeDeclaration.md#value[value]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new KeyframeDeclaration*()
+
+== Properties
+
+[#property]
+=== property
+
+• *property*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L24[ui/animation/keyframe-animation.ts:24]
+
+'''
+
+[#value]
+=== value
+
+• *value*: `any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/animation/keyframe-animation.ts#L25[ui/animation/keyframe-animation.ts:25]

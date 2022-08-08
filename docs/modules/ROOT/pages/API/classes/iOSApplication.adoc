@@ -1,0 +1,163 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / iOSApplication
+
+= Class: iOSApplication
+
+The abstraction of an iOS-specific application object.
+
+== Table of contents
+
+=== Constructors
+
+* link:iOSApplication.md#constructor[constructor]
+
+=== Properties
+
+* link:iOSApplication.md#delegate[delegate]
+* link:iOSApplication.md#nativeapp[nativeApp]
+* link:iOSApplication.md#orientation[orientation]
+* link:iOSApplication.md#rootcontroller[rootController]
+* link:iOSApplication.md#systemappearance[systemAppearance]
+* link:iOSApplication.md#window[window]
+
+=== Methods
+
+* link:iOSApplication.md#addnotificationobserver[addNotificationObserver]
+* link:iOSApplication.md#removenotificationobserver[removeNotificationObserver]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new iOSApplication*()
+
+== Properties
+
+[#delegate]
+=== delegate
+
+• *delegate*: `any`
+
+The https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/index.html[UIApplicationDelegate] class.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L710[application/index.d.ts:710]
+
+'''
+
+[#nativeapp]
+=== nativeApp
+
+• *nativeApp*: `any`
+
+The https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html[UIApplication].
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L728[application/index.d.ts:728]
+
+'''
+
+[#orientation]
+=== orientation
+
+• *orientation*: `"portrait"` | `"landscape"` | `"unknown"`
+
+Gets or sets the orientation of the application.
+Available values: "portrait", "landscape", "unknown".
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L716[application/index.d.ts:716]
+
+'''
+
+[#rootcontroller]
+=== rootController
+
+• *rootController*: `any`
+
+The root view controller for the application.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L699[application/index.d.ts:699]
+
+'''
+
+[#systemappearance]
+=== systemAppearance
+
+• *systemAppearance*: `"light"` | `"dark"`
+
+Gets the system appearance.
+Available values: "dark", "light", null.
+Null for iOS \<= 11.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L723[application/index.d.ts:723]
+
+'''
+
+[#window]
+=== window
+
+• *window*: `any`
+
+The key window.
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L705[application/index.d.ts:705]
+
+== Methods
+
+[#addnotificationobserver]
+=== addNotificationObserver
+
+▸ *addNotificationObserver*(`notificationName`, `onReceiveCallback`): `any`
+
+Adds an observer to the default notification center for the specified notification.
+For more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `notificationName`
+| `string`
+| A string containing the name of the notification.
+
+| `onReceiveCallback`
+| (`notification`: `any`) \=> `void`
+| A callback function that will be called each time the observer receives a notification.
+|===
+
+==== Returns
+
+`any`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L736[application/index.d.ts:736]
+
+'''
+
+[#removenotificationobserver]
+=== removeNotificationObserver
+
+▸ *removeNotificationObserver*(`observer`, `notificationName`): `void`
+
+Removes the observer for the specified notification from the default notification center.
+For more information, please visit 'https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/#//apple_ref/occ/instm/NSNotificationCenter/addObserver:selector:name:object:'
+
+==== Parameters
+
+|===
+| Name | Type | Description
+
+| `observer`
+| `any`
+| The observer that was returned from the addNotificationObserver method.
+
+| `notificationName`
+| `string`
+| A string containing the name of the notification.
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L745[application/index.d.ts:745]

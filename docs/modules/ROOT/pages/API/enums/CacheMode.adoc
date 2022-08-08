@@ -1,0 +1,46 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CacheMode
+
+= Enumeration: CacheMode
+
+== Table of contents
+
+=== Enumeration Members
+
+* link:CacheMode.md#diskandmemory[diskAndMemory]
+* link:CacheMode.md#memory[memory]
+* link:CacheMode.md#none[none]
+
+== Enumeration Members
+
+[#diskandmemory]
+=== diskAndMemory
+
+• *diskAndMemory* = `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L12[ui/styling/background.d.ts:12]
+
+'''
+
+[#memory]
+=== memory
+
+• *memory* = `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L11[ui/styling/background.d.ts:11]
+
+'''
+
+[#none]
+=== none
+
+• *none* = `number`
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L10[ui/styling/background.d.ts:10]

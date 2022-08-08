@@ -1,0 +1,237 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / FileSystemEntity
+
+= Class: FileSystemEntity
+
+== Hierarchy
+
+* *`FileSystemEntity`*
++
+↳ xref:File.adoc[`File`]
++
+↳ xref:Folder.adoc[`Folder`]
+
+== Table of contents
+
+=== Constructors
+
+* link:FileSystemEntity.md#constructor[constructor]
+
+=== Properties
+
+* link:FileSystemEntity.md#_extension[_extension]
+* link:FileSystemEntity.md#_isknown[_isKnown]
+* link:FileSystemEntity.md#_lastmodified[_lastModified]
+* link:FileSystemEntity.md#_locked[_locked]
+* link:FileSystemEntity.md#_name[_name]
+* link:FileSystemEntity.md#_path[_path]
+
+=== Accessors
+
+* link:FileSystemEntity.md#lastmodified[lastModified]
+* link:FileSystemEntity.md#name[name]
+* link:FileSystemEntity.md#parent[parent]
+* link:FileSystemEntity.md#path[path]
+
+=== Methods
+
+* link:FileSystemEntity.md#remove[remove]
+* link:FileSystemEntity.md#removesync[removeSync]
+* link:FileSystemEntity.md#rename[rename]
+* link:FileSystemEntity.md#renamesync[renameSync]
+
+== Constructors
+
+[#constructor]
+=== constructor
+
+• *new FileSystemEntity*()
+
+== Properties
+
+[#_extension]
+=== _extension
+
+• *_extension*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L53[file-system/index.ts:53]
+
+'''
+
+[#_isknown]
+=== _isKnown
+
+• *_isKnown*: `boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L56[file-system/index.ts:56]
+
+'''
+
+[#_lastmodified]
+=== _lastModified
+
+• *_lastModified*: `Date`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L55[file-system/index.ts:55]
+
+'''
+
+[#_locked]
+=== _locked
+
+• *_locked*: `boolean`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L54[file-system/index.ts:54]
+
+'''
+
+[#_name]
+=== _name
+
+• *_name*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L52[file-system/index.ts:52]
+
+'''
+
+[#_path]
+=== _path
+
+• *_path*: `string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L51[file-system/index.ts:51]
+
+== Accessors
+
+[#lastmodified]
+=== lastModified
+
+• `get` *lastModified*(): `Date`
+
+==== Returns
+
+`Date`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L178[file-system/index.ts:178]
+
+'''
+
+[#name]
+=== name
+
+• `get` *name*(): `string`
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L170[file-system/index.ts:170]
+
+'''
+
+[#parent]
+=== parent
+
+• `get` *parent*(): xref:Folder.adoc[`Folder`]
+
+==== Returns
+
+xref:Folder.adoc[`Folder`]
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L58[file-system/index.ts:58]
+
+'''
+
+[#path]
+=== path
+
+• `get` *path*(): `string`
+
+==== Returns
+
+`string`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L174[file-system/index.ts:174]
+
+== Methods
+
+[#remove]
+=== remove
+
+▸ *remove*(): `Promise`<``any``>
+
+==== Returns
+
+`Promise`<``any``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L71[file-system/index.ts:71]
+
+'''
+
+[#removesync]
+=== removeSync
+
+▸ *removeSync*(`onError?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `onError?`
+| (`error`: `any`) \=> `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L86[file-system/index.ts:86]
+
+'''
+
+[#rename]
+=== rename
+
+▸ *rename*(`newName`): `Promise`<``any``>
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `newName`
+| `string`
+|===
+
+==== Returns
+
+`Promise`<``any``>
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L104[file-system/index.ts:104]
+
+'''
+
+[#renamesync]
+=== renameSync
+
+▸ *renameSync*(`newName`, `onError?`): `void`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `newName`
+| `string`
+
+| `onError?`
+| (`error`: `any`) \=> `any`
+|===
+
+==== Returns
+
+`void`
+
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L120[file-system/index.ts:120]

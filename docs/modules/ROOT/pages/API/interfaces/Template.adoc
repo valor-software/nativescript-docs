@@ -1,0 +1,22 @@
+:doctype: book
+
+xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Template
+
+= Interface: Template
+
+== Callable
+
+=== Template
+
+▸ *Template*(): xref:../classes/View.adoc[`View`]
+
+Call signature of the factory function.
+Returns a new View instance.
+
+==== Returns
+
+xref:../classes/View.adoc[`View`]
+
+==== Defined in
+
+https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L927[ui/core/view/index.d.ts:927]
