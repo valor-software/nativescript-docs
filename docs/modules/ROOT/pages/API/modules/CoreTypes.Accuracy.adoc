@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].Accuracy
 
 === Variables
 
-* link:CoreTypes.Accuracy.md#any[any]
-* link:CoreTypes.Accuracy.md#high[high]
+* link:CoreTypes.Accuracy.adoc#any[any]
+* link:CoreTypes.Accuracy.adoc#high[high]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].Accuracy
 
 • `Const` *any*: `number` = `300`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L174[core-types/index.ts:174]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L174[core-types/index.ts:174]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *high*: `number` = `3`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L175[core-types/index.ts:175]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L175[core-types/index.ts:175]

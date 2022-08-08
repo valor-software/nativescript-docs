@@ -12,10 +12,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / knownFolders
 
 === Functions
 
-* link:knownFolders.md#currentapp[currentApp]
-* link:knownFolders.md#documents[documents]
-* link:knownFolders.md#externaldocuments[externalDocuments]
-* link:knownFolders.md#temp[temp]
+* link:knownFolders.adoc#currentapp[currentApp]
+* link:knownFolders.adoc#documents[documents]
+* link:knownFolders.adoc#externaldocuments[externalDocuments]
+* link:knownFolders.adoc#temp[temp]
 
 == Functions
 
@@ -28,9 +28,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / knownFolders
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L588[file-system/index.ts:588]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L588[file-system/index.ts:588]
 
 '''
 
@@ -43,9 +41,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L555[file-system/index.ts:555]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L555[file-system/index.ts:555]
 
 '''
 
@@ -58,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L566[file-system/index.ts:566]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L566[file-system/index.ts:566]
 
 '''
 
@@ -73,6 +67,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L577[file-system/index.ts:577]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L577[file-system/index.ts:577]

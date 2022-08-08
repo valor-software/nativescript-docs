@@ -10,51 +10,43 @@ xref:CoreTypes.adoc[CoreTypes].AutocapitalizationType
 
 === Variables
 
-* link:CoreTypes.AutocapitalizationType.md#allcharacters[allCharacters]
-* link:CoreTypes.AutocapitalizationType.md#none[none]
-* link:CoreTypes.AutocapitalizationType.md#sentences[sentences]
-* link:CoreTypes.AutocapitalizationType.md#words[words]
+* link:CoreTypes.AutocapitalizationType.adoc#allcharacters[allCharacters]
+* link:CoreTypes.AutocapitalizationType.adoc#none[none]
+* link:CoreTypes.AutocapitalizationType.adoc#sentences[sentences]
+* link:CoreTypes.AutocapitalizationType.adoc#words[words]
 
 == Variables
 
 [#allcharacters]
 === allCharacters
 
-• `Const` *allCharacters*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'allcharacters'`
+• `Const` *allCharacters*: link:CoreTypes.adoc#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'allcharacters'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L191[core-types/index.ts:191]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L191[core-types/index.ts:191]
 
 '''
 
 [#none]
 === none
 
-• `Const` *none*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'none'`
+• `Const` *none*: link:CoreTypes.adoc#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'none'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L188[core-types/index.ts:188]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L188[core-types/index.ts:188]
 
 '''
 
 [#sentences]
 === sentences
 
-• `Const` *sentences*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'sentences'`
+• `Const` *sentences*: link:CoreTypes.adoc#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'sentences'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L190[core-types/index.ts:190]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L190[core-types/index.ts:190]
 
 '''
 
 [#words]
 === words
 
-• `Const` *words*: link:CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'words'`
+• `Const` *words*: link:CoreTypes.adoc#autocapitalizationinputtype[`AutocapitalizationInputType`] = `'words'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L189[core-types/index.ts:189]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L189[core-types/index.ts:189]

@@ -8,8 +8,8 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / RootLayoutOp
 
 === Properties
 
-* link:RootLayoutOptions.md#animation[animation]
-* link:RootLayoutOptions.md#shadecover[shadeCover]
+* link:RootLayoutOptions.adoc#animation[animation]
+* link:RootLayoutOptions.adoc#shadecover[shadeCover]
 
 == Properties
 

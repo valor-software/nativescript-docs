@@ -10,14 +10,14 @@ Defines an enum with supported gesture types.
 
 === Enumeration Members
 
-* link:GestureTypes.md#doubletap[doubleTap]
-* link:GestureTypes.md#longpress[longPress]
-* link:GestureTypes.md#pan[pan]
-* link:GestureTypes.md#pinch[pinch]
-* link:GestureTypes.md#rotation[rotation]
-* link:GestureTypes.md#swipe[swipe]
-* link:GestureTypes.md#tap[tap]
-* link:GestureTypes.md#touch[touch]
+* link:GestureTypes.adoc#doubletap[doubleTap]
+* link:GestureTypes.adoc#longpress[longPress]
+* link:GestureTypes.adoc#pan[pan]
+* link:GestureTypes.adoc#pinch[pinch]
+* link:GestureTypes.adoc#rotation[rotation]
+* link:GestureTypes.adoc#swipe[swipe]
+* link:GestureTypes.adoc#tap[tap]
+* link:GestureTypes.adoc#touch[touch]
 
 == Enumeration Members
 
@@ -28,9 +28,7 @@ Defines an enum with supported gesture types.
 
 Denotes double tap gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L36[ui/gestures/index.d.ts:36]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L36[ui/gestures/index.d.ts:36]
 
 '''
 
@@ -41,9 +39,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes long press gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L56[ui/gestures/index.d.ts:56]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L56[ui/gestures/index.d.ts:56]
 
 '''
 
@@ -54,9 +50,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes pan gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L44[ui/gestures/index.d.ts:44]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L44[ui/gestures/index.d.ts:44]
 
 '''
 
@@ -67,9 +61,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes pinch gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L40[ui/gestures/index.d.ts:40]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L40[ui/gestures/index.d.ts:40]
 
 '''
 
@@ -80,9 +72,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes rotation gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L52[ui/gestures/index.d.ts:52]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L52[ui/gestures/index.d.ts:52]
 
 '''
 
@@ -93,9 +83,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes swipe gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L48[ui/gestures/index.d.ts:48]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L48[ui/gestures/index.d.ts:48]
 
 '''
 
@@ -106,9 +94,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes tap (click) gesture.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L32[ui/gestures/index.d.ts:32]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L32[ui/gestures/index.d.ts:32]
 
 '''
 
@@ -119,6 +105,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Denotes touch action.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L60[ui/gestures/index.d.ts:60]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L60[ui/gestures/index.d.ts:60]

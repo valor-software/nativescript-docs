@@ -22,12 +22,12 @@ Provides gesture event data.
 
 === Properties
 
-* link:GestureEventData.md#android[android]
-* link:GestureEventData.md#eventname[eventName]
-* link:GestureEventData.md#ios[ios]
-* link:GestureEventData.md#object[object]
-* link:GestureEventData.md#type[type]
-* link:GestureEventData.md#view[view]
+* link:GestureEventData.adoc#android[android]
+* link:GestureEventData.adoc#eventname[eventName]
+* link:GestureEventData.adoc#ios[ios]
+* link:GestureEventData.adoc#object[object]
+* link:GestureEventData.adoc#type[type]
+* link:GestureEventData.adoc#view[view]
 
 == Properties
 
@@ -49,7 +49,7 @@ Gets the underlying native android specific http://developer.android.com/referen
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -73,7 +73,7 @@ Gets the underlying native iOS specific https://developer.apple.com/library/ios/
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

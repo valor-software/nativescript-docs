@@ -10,14 +10,14 @@ Represents an entry in the back stack of a Frame object.
 
 === Properties
 
-* link:BackstackEntry.md#entry[entry]
-* link:BackstackEntry.md#fragment[fragment]
-* link:BackstackEntry.md#fragmenttag[fragmentTag]
-* link:BackstackEntry.md#frameid[frameId]
-* link:BackstackEntry.md#navdepth[navDepth]
-* link:BackstackEntry.md#recreated[recreated]
-* link:BackstackEntry.md#resolvedpage[resolvedPage]
-* link:BackstackEntry.md#viewsavedstate[viewSavedState]
+* link:BackstackEntry.adoc#entry[entry]
+* link:BackstackEntry.adoc#fragment[fragment]
+* link:BackstackEntry.adoc#fragmenttag[fragmentTag]
+* link:BackstackEntry.adoc#frameid[frameId]
+* link:BackstackEntry.adoc#navdepth[navDepth]
+* link:BackstackEntry.adoc#recreated[recreated]
+* link:BackstackEntry.adoc#resolvedpage[resolvedPage]
+* link:BackstackEntry.adoc#viewsavedstate[viewSavedState]
 
 == Properties
 

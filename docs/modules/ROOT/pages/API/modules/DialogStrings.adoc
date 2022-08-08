@@ -8,13 +8,13 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DialogString
 
 === Variables
 
-* link:DialogStrings.md#alert[ALERT]
-* link:DialogStrings.md#cancel[CANCEL]
-* link:DialogStrings.md#confirm[CONFIRM]
-* link:DialogStrings.md#login[LOGIN]
-* link:DialogStrings.md#ok[OK]
-* link:DialogStrings.md#prompt[PROMPT]
-* link:DialogStrings.md#string[STRING]
+* link:DialogStrings.adoc#alert[ALERT]
+* link:DialogStrings.adoc#cancel[CANCEL]
+* link:DialogStrings.adoc#confirm[CONFIRM]
+* link:DialogStrings.adoc#login[LOGIN]
+* link:DialogStrings.adoc#ok[OK]
+* link:DialogStrings.adoc#prompt[PROMPT]
+* link:DialogStrings.adoc#string[STRING]
 
 == Variables
 
@@ -23,9 +23,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / DialogString
 
 • `Const` *ALERT*: `"Alert"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L12[ui/dialogs/dialogs-common.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L12[ui/dialogs/dialogs-common.ts:12]
 
 '''
 
@@ -34,9 +32,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *CANCEL*: `"Cancel"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L15[ui/dialogs/dialogs-common.ts:15]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L15[ui/dialogs/dialogs-common.ts:15]
 
 '''
 
@@ -45,9 +41,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *CONFIRM*: `"Confirm"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L11[ui/dialogs/dialogs-common.ts:11]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L11[ui/dialogs/dialogs-common.ts:11]
 
 '''
 
@@ -56,9 +50,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *LOGIN*: `"Login"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L13[ui/dialogs/dialogs-common.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L13[ui/dialogs/dialogs-common.ts:13]
 
 '''
 
@@ -67,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *OK*: `"OK"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L14[ui/dialogs/dialogs-common.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L14[ui/dialogs/dialogs-common.ts:14]
 
 '''
 
@@ -78,9 +68,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *PROMPT*: `"Prompt"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L10[ui/dialogs/dialogs-common.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L10[ui/dialogs/dialogs-common.ts:10]
 
 '''
 
@@ -89,6 +77,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 • `Const` *STRING*: `"string"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L9[ui/dialogs/dialogs-common.ts:9]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L9[ui/dialogs/dialogs-common.ts:9]

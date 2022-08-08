@@ -10,10 +10,10 @@ Represents an object specifying a page navigation transition.
 
 === Properties
 
-* link:NavigationTransition.md#curve[curve]
-* link:NavigationTransition.md#duration[duration]
-* link:NavigationTransition.md#instance[instance]
-* link:NavigationTransition.md#name[name]
+* link:NavigationTransition.adoc#curve[curve]
+* link:NavigationTransition.adoc#duration[duration]
+* link:NavigationTransition.adoc#instance[instance]
+* link:NavigationTransition.adoc#name[name]
 
 == Properties
 

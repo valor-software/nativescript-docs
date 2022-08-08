@@ -16,11 +16,11 @@ An interface used to for handling trace error
 
 === Constructors
 
-* link:Trace.DefaultErrorHandler.md#constructor[constructor]
+* link:Trace.DefaultErrorHandler.adoc#constructor[constructor]
 
 === Methods
 
-* link:Trace.DefaultErrorHandler.md#handlererror[handlerError]
+* link:Trace.DefaultErrorHandler.adoc#handlererror[handlerError]
 
 == Constructors
 
@@ -51,6 +51,6 @@ An interface used to for handling trace error
 
 ==== Implementation of
 
-xref:../interfaces/TraceErrorHandler.adoc[TraceErrorHandler].link:../interfaces/TraceErrorHandler.md#handlererror[handlerError]
+xref:../interfaces/TraceErrorHandler.adoc[TraceErrorHandler].link:../interfaces/TraceErrorHandler.adoc#handlererror[handlerError]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L256[trace/index.ts:256]

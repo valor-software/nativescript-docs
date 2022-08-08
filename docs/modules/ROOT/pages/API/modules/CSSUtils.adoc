@@ -8,19 +8,19 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CSSUtils
 
 === Variables
 
-* link:CSSUtils.md#class_prefix[CLASS_PREFIX]
-* link:CSSUtils.md#modal_root_view_css_class[MODAL_ROOT_VIEW_CSS_CLASS]
-* link:CSSUtils.md#root_view_css_class[ROOT_VIEW_CSS_CLASS]
+* link:CSSUtils.adoc#class_prefix[CLASS_PREFIX]
+* link:CSSUtils.adoc#modal_root_view_css_class[MODAL_ROOT_VIEW_CSS_CLASS]
+* link:CSSUtils.adoc#root_view_css_class[ROOT_VIEW_CSS_CLASS]
 
 === Functions
 
-* link:CSSUtils.md#getmodalrootviewcssclass[getModalRootViewCssClass]
-* link:CSSUtils.md#getrootviewcssclasses[getRootViewCssClasses]
-* link:CSSUtils.md#getsystemcssclasses[getSystemCssClasses]
-* link:CSSUtils.md#pushtorootviewcssclasses[pushToRootViewCssClasses]
-* link:CSSUtils.md#pushtosystemcssclasses[pushToSystemCssClasses]
-* link:CSSUtils.md#removefromrootviewcssclasses[removeFromRootViewCssClasses]
-* link:CSSUtils.md#removesystemcssclass[removeSystemCssClass]
+* link:CSSUtils.adoc#getmodalrootviewcssclass[getModalRootViewCssClass]
+* link:CSSUtils.adoc#getrootviewcssclasses[getRootViewCssClasses]
+* link:CSSUtils.adoc#getsystemcssclasses[getSystemCssClasses]
+* link:CSSUtils.adoc#pushtorootviewcssclasses[pushToRootViewCssClasses]
+* link:CSSUtils.adoc#pushtosystemcssclasses[pushToSystemCssClasses]
+* link:CSSUtils.adoc#removefromrootviewcssclasses[removeFromRootViewCssClasses]
+* link:CSSUtils.adoc#removesystemcssclass[removeSystemCssClass]
 
 == Variables
 
@@ -29,9 +29,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CSSUtils
 
 • `Const` *CLASS_PREFIX*: `"ns-"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L6[css/system-classes.ts:6]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L6[css/system-classes.ts:6]
 
 '''
 
@@ -40,9 +38,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 • `Const` *MODAL_ROOT_VIEW_CSS_CLASS*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L7[css/system-classes.ts:7]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L7[css/system-classes.ts:7]
 
 '''
 
@@ -51,9 +47,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 • `Const` *ROOT_VIEW_CSS_CLASS*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L8[css/system-classes.ts:8]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L8[css/system-classes.ts:8]
 
 == Functions
 
@@ -66,9 +60,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L31[css/system-classes.ts:31]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L31[css/system-classes.ts:31]
 
 '''
 
@@ -81,9 +73,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `string`[]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L35[css/system-classes.ts:35]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L35[css/system-classes.ts:35]
 
 '''
 
@@ -96,9 +86,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `string`[]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L10[css/system-classes.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L10[css/system-classes.ts:10]
 
 '''
 
@@ -120,9 +108,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L39[css/system-classes.ts:39]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L39[css/system-classes.ts:39]
 
 '''
 
@@ -144,9 +130,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L14[css/system-classes.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L14[css/system-classes.ts:14]
 
 '''
 
@@ -168,9 +152,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L43[css/system-classes.ts:43]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L43[css/system-classes.ts:43]
 
 '''
 
@@ -192,6 +174,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/sy
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L20[css/system-classes.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/css/system-classes.ts#L20[css/system-classes.ts:20]

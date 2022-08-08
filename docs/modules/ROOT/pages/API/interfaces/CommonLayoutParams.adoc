@@ -8,20 +8,20 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CommonLayout
 
 === Properties
 
-* link:CommonLayoutParams.md#bottommargin[bottomMargin]
-* link:CommonLayoutParams.md#bottommarginpercent[bottomMarginPercent]
-* link:CommonLayoutParams.md#height[height]
-* link:CommonLayoutParams.md#heightpercent[heightPercent]
-* link:CommonLayoutParams.md#horizontalalignment[horizontalAlignment]
-* link:CommonLayoutParams.md#leftmargin[leftMargin]
-* link:CommonLayoutParams.md#leftmarginpercent[leftMarginPercent]
-* link:CommonLayoutParams.md#rightmargin[rightMargin]
-* link:CommonLayoutParams.md#rightmarginpercent[rightMarginPercent]
-* link:CommonLayoutParams.md#topmargin[topMargin]
-* link:CommonLayoutParams.md#topmarginpercent[topMarginPercent]
-* link:CommonLayoutParams.md#verticalalignment[verticalAlignment]
-* link:CommonLayoutParams.md#width[width]
-* link:CommonLayoutParams.md#widthpercent[widthPercent]
+* link:CommonLayoutParams.adoc#bottommargin[bottomMargin]
+* link:CommonLayoutParams.adoc#bottommarginpercent[bottomMarginPercent]
+* link:CommonLayoutParams.adoc#height[height]
+* link:CommonLayoutParams.adoc#heightpercent[heightPercent]
+* link:CommonLayoutParams.adoc#horizontalalignment[horizontalAlignment]
+* link:CommonLayoutParams.adoc#leftmargin[leftMargin]
+* link:CommonLayoutParams.adoc#leftmarginpercent[leftMarginPercent]
+* link:CommonLayoutParams.adoc#rightmargin[rightMargin]
+* link:CommonLayoutParams.adoc#rightmarginpercent[rightMarginPercent]
+* link:CommonLayoutParams.adoc#topmargin[topMargin]
+* link:CommonLayoutParams.adoc#topmarginpercent[topMarginPercent]
+* link:CommonLayoutParams.adoc#verticalalignment[verticalAlignment]
+* link:CommonLayoutParams.adoc#width[width]
+* link:CommonLayoutParams.adoc#widthpercent[widthPercent]
 
 == Properties
 
@@ -64,7 +64,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CommonLayout
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L32[ui/styling/style/index.ts:32]
 
@@ -127,7 +127,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CommonLayout
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style/index.ts#L33[ui/styling/style/index.ts:33]
 

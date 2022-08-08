@@ -8,10 +8,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ImageAssetOp
 
 === Properties
 
-* link:ImageAssetOptions.md#autoscalefactor[autoScaleFactor]
-* link:ImageAssetOptions.md#height[height]
-* link:ImageAssetOptions.md#keepaspectratio[keepAspectRatio]
-* link:ImageAssetOptions.md#width[width]
+* link:ImageAssetOptions.adoc#autoscalefactor[autoScaleFactor]
+* link:ImageAssetOptions.adoc#height[height]
+* link:ImageAssetOptions.adoc#keepaspectratio[keepAspectRatio]
+* link:ImageAssetOptions.adoc#width[width]
 
 == Properties
 

@@ -8,21 +8,21 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / NativeScript
 
 === Properties
 
-* link:NativeScriptConfig.md#android[android]
-* link:NativeScriptConfig.md#apppath[appPath]
-* link:NativeScriptConfig.md#appresourcespath[appResourcesPath]
-* link:NativeScriptConfig.md#cli[cli]
-* link:NativeScriptConfig.md#cssparser[cssParser]
-* link:NativeScriptConfig.md#hooks[hooks]
-* link:NativeScriptConfig.md#id[id]
-* link:NativeScriptConfig.md#ignorednativedependencies[ignoredNativeDependencies]
-* link:NativeScriptConfig.md#ios[ios]
-* link:NativeScriptConfig.md#main[main]
-* link:NativeScriptConfig.md#overridepods[overridePods]
-* link:NativeScriptConfig.md#previewappschema[previewAppSchema]
-* link:NativeScriptConfig.md#profiling[profiling]
-* link:NativeScriptConfig.md#shared[shared]
-* link:NativeScriptConfig.md#webpackconfigpath[webpackConfigPath]
+* link:NativeScriptConfig.adoc#android[android]
+* link:NativeScriptConfig.adoc#apppath[appPath]
+* link:NativeScriptConfig.adoc#appresourcespath[appResourcesPath]
+* link:NativeScriptConfig.adoc#cli[cli]
+* link:NativeScriptConfig.adoc#cssparser[cssParser]
+* link:NativeScriptConfig.adoc#hooks[hooks]
+* link:NativeScriptConfig.adoc#id[id]
+* link:NativeScriptConfig.adoc#ignorednativedependencies[ignoredNativeDependencies]
+* link:NativeScriptConfig.adoc#ios[ios]
+* link:NativeScriptConfig.adoc#main[main]
+* link:NativeScriptConfig.adoc#overridepods[overridePods]
+* link:NativeScriptConfig.adoc#previewappschema[previewAppSchema]
+* link:NativeScriptConfig.adoc#profiling[profiling]
+* link:NativeScriptConfig.adoc#shared[shared]
+* link:NativeScriptConfig.adoc#webpackconfigpath[webpackConfigPath]
 
 == Properties
 
@@ -159,7 +159,7 @@ App's main entry file - this setting overrides the value set in package.json
 [#profiling]
 === profiling
 
-• `Optional` *profiling*: link:../modules.md#instrumentationmode[`InstrumentationMode`]
+• `Optional` *profiling*: link:../modules.adoc#instrumentationmode[`InstrumentationMode`]
 
 Enable profiling for the application.
 Default: no profiling In most cases when profiling, you will want to use "timeline"

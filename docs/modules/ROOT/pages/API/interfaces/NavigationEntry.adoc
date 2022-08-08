@@ -16,16 +16,16 @@ Represents an entry in passed to navigate method.
 
 === Properties
 
-* link:NavigationEntry.md#animated[animated]
-* link:NavigationEntry.md#backstackvisible[backstackVisible]
-* link:NavigationEntry.md#bindingcontext[bindingContext]
-* link:NavigationEntry.md#clearhistory[clearHistory]
-* link:NavigationEntry.md#context[context]
-* link:NavigationEntry.md#create[create]
-* link:NavigationEntry.md#modulename[moduleName]
-* link:NavigationEntry.md#transition[transition]
-* link:NavigationEntry.md#transitionandroid[transitionAndroid]
-* link:NavigationEntry.md#transitionios[transitioniOS]
+* link:NavigationEntry.adoc#animated[animated]
+* link:NavigationEntry.adoc#backstackvisible[backstackVisible]
+* link:NavigationEntry.adoc#bindingcontext[bindingContext]
+* link:NavigationEntry.adoc#clearhistory[clearHistory]
+* link:NavigationEntry.adoc#context[context]
+* link:NavigationEntry.adoc#create[create]
+* link:NavigationEntry.adoc#modulename[moduleName]
+* link:NavigationEntry.adoc#transition[transition]
+* link:NavigationEntry.adoc#transitionandroid[transitionAndroid]
+* link:NavigationEntry.adoc#transitionios[transitioniOS]
 
 == Properties
 
@@ -107,7 +107,7 @@ xref:../classes/View.adoc[`View`]
 
 ==== Inherited from
 
-xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.md#create[create]
+xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.adoc#create[create]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L285[ui/frame/index.d.ts:285]
 
@@ -123,7 +123,7 @@ Optional.
 
 ==== Inherited from
 
-xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.md#modulename[moduleName]
+xref:ViewEntry.adoc[ViewEntry].link:ViewEntry.adoc#modulename[moduleName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L280[ui/frame/index.d.ts:280]
 

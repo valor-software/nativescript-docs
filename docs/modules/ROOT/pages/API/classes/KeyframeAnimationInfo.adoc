@@ -8,18 +8,18 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeAnim
 
 === Constructors
 
-* link:KeyframeAnimationInfo.md#constructor[constructor]
+* link:KeyframeAnimationInfo.adoc#constructor[constructor]
 
 === Properties
 
-* link:KeyframeAnimationInfo.md#curve[curve]
-* link:KeyframeAnimationInfo.md#delay[delay]
-* link:KeyframeAnimationInfo.md#duration[duration]
-* link:KeyframeAnimationInfo.md#isforwards[isForwards]
-* link:KeyframeAnimationInfo.md#isreverse[isReverse]
-* link:KeyframeAnimationInfo.md#iterations[iterations]
-* link:KeyframeAnimationInfo.md#keyframes[keyframes]
-* link:KeyframeAnimationInfo.md#name[name]
+* link:KeyframeAnimationInfo.adoc#curve[curve]
+* link:KeyframeAnimationInfo.adoc#delay[delay]
+* link:KeyframeAnimationInfo.adoc#duration[duration]
+* link:KeyframeAnimationInfo.adoc#isforwards[isForwards]
+* link:KeyframeAnimationInfo.adoc#isreverse[isReverse]
+* link:KeyframeAnimationInfo.adoc#iterations[iterations]
+* link:KeyframeAnimationInfo.adoc#keyframes[keyframes]
+* link:KeyframeAnimationInfo.adoc#name[name]
 
 == Constructors
 

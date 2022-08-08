@@ -10,59 +10,51 @@ xref:CoreTypes.adoc[CoreTypes].Visibility
 
 === Variables
 
-* link:CoreTypes.Visibility.md#collapse[collapse]
-* link:CoreTypes.Visibility.md#collapsed[collapsed]
-* link:CoreTypes.Visibility.md#hidden[hidden]
-* link:CoreTypes.Visibility.md#visible[visible]
+* link:CoreTypes.Visibility.adoc#collapse[collapse]
+* link:CoreTypes.Visibility.adoc#collapsed[collapsed]
+* link:CoreTypes.Visibility.adoc#hidden[hidden]
+* link:CoreTypes.Visibility.adoc#visible[visible]
 
 === Functions
 
-* link:CoreTypes.Visibility.md#isvalid[isValid]
-* link:CoreTypes.Visibility.md#parse[parse]
+* link:CoreTypes.Visibility.adoc#isvalid[isValid]
+* link:CoreTypes.Visibility.adoc#parse[parse]
 
 == Variables
 
 [#collapse]
 === collapse
 
-• `Const` *collapse*: link:CoreTypes.md#visibilitytype[`VisibilityType`] = `'collapse'`
+• `Const` *collapse*: link:CoreTypes.adoc#visibilitytype[`VisibilityType`] = `'collapse'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L148[core-types/index.ts:148]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L148[core-types/index.ts:148]
 
 '''
 
 [#collapsed]
 === collapsed
 
-• `Const` *collapsed*: link:CoreTypes.md#visibilitytype[`VisibilityType`] = `'collapsed'`
+• `Const` *collapsed*: link:CoreTypes.adoc#visibilitytype[`VisibilityType`] = `'collapsed'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L149[core-types/index.ts:149]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L149[core-types/index.ts:149]
 
 '''
 
 [#hidden]
 === hidden
 
-• `Const` *hidden*: link:CoreTypes.md#visibilitytype[`VisibilityType`] = `'hidden'`
+• `Const` *hidden*: link:CoreTypes.adoc#visibilitytype[`VisibilityType`] = `'hidden'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L150[core-types/index.ts:150]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L150[core-types/index.ts:150]
 
 '''
 
 [#visible]
 === visible
 
-• `Const` *visible*: link:CoreTypes.md#visibilitytype[`VisibilityType`] = `'visible'`
+• `Const` *visible*: link:CoreTypes.adoc#visibilitytype[`VisibilityType`] = `'visible'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L147[core-types/index.ts:147]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L147[core-types/index.ts:147]
 
 == Functions
 
@@ -84,16 +76,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 value is VisibilityType
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`value`): link:CoreTypes.md#visibilitytype[`VisibilityType`]
+▸ *parse*(`value`): link:CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 ==== Parameters
 
@@ -106,8 +96,6 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 ==== Returns
 
-link:CoreTypes.md#visibilitytype[`VisibilityType`]
+link:CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L152[core-types/index.ts:152]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L152[core-types/index.ts:152]

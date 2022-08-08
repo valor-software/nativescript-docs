@@ -10,10 +10,10 @@ Defines an enum with supported gesture states.
 
 === Enumeration Members
 
-* link:GestureStateTypes.md#began[began]
-* link:GestureStateTypes.md#cancelled[cancelled]
-* link:GestureStateTypes.md#changed[changed]
-* link:GestureStateTypes.md#ended[ended]
+* link:GestureStateTypes.adoc#began[began]
+* link:GestureStateTypes.adoc#cancelled[cancelled]
+* link:GestureStateTypes.adoc#changed[changed]
+* link:GestureStateTypes.adoc#ended[ended]
 
 == Enumeration Members
 
@@ -24,9 +24,7 @@ Defines an enum with supported gesture states.
 
 Gesture began.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L74[ui/gestures/index.d.ts:74]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L74[ui/gestures/index.d.ts:74]
 
 '''
 
@@ -37,9 +35,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Gesture canceled.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L70[ui/gestures/index.d.ts:70]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L70[ui/gestures/index.d.ts:70]
 
 '''
 
@@ -50,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Gesture changed.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L78[ui/gestures/index.d.ts:78]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L78[ui/gestures/index.d.ts:78]
 
 '''
 
@@ -63,6 +57,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Gesture ended.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L82[ui/gestures/index.d.ts:82]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L82[ui/gestures/index.d.ts:82]

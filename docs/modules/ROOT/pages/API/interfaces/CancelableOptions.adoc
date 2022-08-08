@@ -18,8 +18,8 @@ Provides options for the dialog.
 
 === Properties
 
-* link:CancelableOptions.md#cancelable[cancelable]
-* link:CancelableOptions.md#theme[theme]
+* link:CancelableOptions.adoc#cancelable[cancelable]
+* link:CancelableOptions.adoc#theme[theme]
 
 == Properties
 

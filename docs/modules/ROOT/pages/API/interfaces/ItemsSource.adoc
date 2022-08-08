@@ -8,11 +8,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ItemsSource
 
 === Properties
 
-* link:ItemsSource.md#length[length]
+* link:ItemsSource.adoc#length[length]
 
 === Methods
 
-* link:ItemsSource.md#getitem[getItem]
+* link:ItemsSource.adoc#getitem[getItem]
 
 == Properties
 

@@ -10,8 +10,8 @@ Defines an interface for Template with a key.
 
 === Properties
 
-* link:KeyedTemplate.md#createview[createView]
-* link:KeyedTemplate.md#key[key]
+* link:KeyedTemplate.adoc#createview[createView]
+* link:KeyedTemplate.adoc#key[key]
 
 == Properties
 

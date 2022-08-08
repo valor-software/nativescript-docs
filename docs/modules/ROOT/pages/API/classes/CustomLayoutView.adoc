@@ -22,318 +22,318 @@ Base class for all UI components that implement custom layouts.
 
 === Constructors
 
-* link:CustomLayoutView.md#constructor[constructor]
+* link:CustomLayoutView.adoc#constructor[constructor]
 
 === Properties
 
-* link:CustomLayoutView.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
-* link:CustomLayoutView.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
-* link:CustomLayoutView.md#_closemodalcallback[_closeModalCallback]
-* link:CustomLayoutView.md#_context[_context]
-* link:CustomLayoutView.md#_cssstate[_cssState]
-* link:CustomLayoutView.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
-* link:CustomLayoutView.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
-* link:CustomLayoutView.md#_defaultpaddingbottom[_defaultPaddingBottom]
-* link:CustomLayoutView.md#_defaultpaddingleft[_defaultPaddingLeft]
-* link:CustomLayoutView.md#_defaultpaddingright[_defaultPaddingRight]
-* link:CustomLayoutView.md#_defaultpaddingtop[_defaultPaddingTop]
-* link:CustomLayoutView.md#_domid[_domId]
-* link:CustomLayoutView.md#_gestureobservers[_gestureObservers]
-* link:CustomLayoutView.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
-* link:CustomLayoutView.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
-* link:CustomLayoutView.md#_islayoutvalid[_isLayoutValid]
-* link:CustomLayoutView.md#_ispaddingrelative[_isPaddingRelative]
-* link:CustomLayoutView.md#_isstylescopehost[_isStyleScopeHost]
-* link:CustomLayoutView.md#_isviewbase[_isViewBase]
-* link:CustomLayoutView.md#_manager[_manager]
-* link:CustomLayoutView.md#_modalparent[_modalParent]
-* link:CustomLayoutView.md#_modulename[_moduleName]
-* link:CustomLayoutView.md#_oldbottom[_oldBottom]
-* link:CustomLayoutView.md#_oldleft[_oldLeft]
-* link:CustomLayoutView.md#_oldright[_oldRight]
-* link:CustomLayoutView.md#_oldtop[_oldTop]
-* link:CustomLayoutView.md#_stylescope[_styleScope]
-* link:CustomLayoutView.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
-* link:CustomLayoutView.md#_suspendedupdates[_suspendedUpdates]
-* link:CustomLayoutView.md#accessibilityhidden[accessibilityHidden]
-* link:CustomLayoutView.md#accessibilityhint[accessibilityHint]
-* link:CustomLayoutView.md#accessibilityidentifier[accessibilityIdentifier]
-* link:CustomLayoutView.md#accessibilitylabel[accessibilityLabel]
-* link:CustomLayoutView.md#accessibilitylanguage[accessibilityLanguage]
-* link:CustomLayoutView.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:CustomLayoutView.md#accessibilitymediasession[accessibilityMediaSession]
-* link:CustomLayoutView.md#accessibilityrole[accessibilityRole]
-* link:CustomLayoutView.md#accessibilitystate[accessibilityState]
-* link:CustomLayoutView.md#accessibilityvalue[accessibilityValue]
-* link:CustomLayoutView.md#accessible[accessible]
-* link:CustomLayoutView.md#alignself[alignSelf]
-* link:CustomLayoutView.md#android[android]
-* link:CustomLayoutView.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:CustomLayoutView.md#androidelevation[androidElevation]
-* link:CustomLayoutView.md#automationtext[automationText]
-* link:CustomLayoutView.md#background[background]
-* link:CustomLayoutView.md#backgroundcolor[backgroundColor]
-* link:CustomLayoutView.md#backgroundimage[backgroundImage]
-* link:CustomLayoutView.md#bindingcontext[bindingContext]
-* link:CustomLayoutView.md#borderbottomcolor[borderBottomColor]
-* link:CustomLayoutView.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:CustomLayoutView.md#borderbottomrightradius[borderBottomRightRadius]
-* link:CustomLayoutView.md#borderbottomwidth[borderBottomWidth]
-* link:CustomLayoutView.md#bordercolor[borderColor]
-* link:CustomLayoutView.md#borderleftcolor[borderLeftColor]
-* link:CustomLayoutView.md#borderleftwidth[borderLeftWidth]
-* link:CustomLayoutView.md#borderradius[borderRadius]
-* link:CustomLayoutView.md#borderrightcolor[borderRightColor]
-* link:CustomLayoutView.md#borderrightwidth[borderRightWidth]
-* link:CustomLayoutView.md#bordertopcolor[borderTopColor]
-* link:CustomLayoutView.md#bordertopleftradius[borderTopLeftRadius]
-* link:CustomLayoutView.md#bordertoprightradius[borderTopRightRadius]
-* link:CustomLayoutView.md#bordertopwidth[borderTopWidth]
-* link:CustomLayoutView.md#borderwidth[borderWidth]
-* link:CustomLayoutView.md#boxshadow[boxShadow]
-* link:CustomLayoutView.md#classname[className]
-* link:CustomLayoutView.md#col[col]
-* link:CustomLayoutView.md#colspan[colSpan]
-* link:CustomLayoutView.md#color[color]
-* link:CustomLayoutView.md#column[column]
-* link:CustomLayoutView.md#columnspan[columnSpan]
-* link:CustomLayoutView.md#css[css]
-* link:CustomLayoutView.md#cssclasses[cssClasses]
-* link:CustomLayoutView.md#csspseudoclasses[cssPseudoClasses]
-* link:CustomLayoutView.md#csstype[cssType]
-* link:CustomLayoutView.md#dock[dock]
-* link:CustomLayoutView.md#domnode[domNode]
-* link:CustomLayoutView.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
-* link:CustomLayoutView.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
-* link:CustomLayoutView.md#effectiveborderrightwidth[effectiveBorderRightWidth]
-* link:CustomLayoutView.md#effectivebordertopwidth[effectiveBorderTopWidth]
-* link:CustomLayoutView.md#effectiveheight[effectiveHeight]
-* link:CustomLayoutView.md#effectiveleft[effectiveLeft]
-* link:CustomLayoutView.md#effectivemarginbottom[effectiveMarginBottom]
-* link:CustomLayoutView.md#effectivemarginleft[effectiveMarginLeft]
-* link:CustomLayoutView.md#effectivemarginright[effectiveMarginRight]
-* link:CustomLayoutView.md#effectivemargintop[effectiveMarginTop]
-* link:CustomLayoutView.md#effectiveminheight[effectiveMinHeight]
-* link:CustomLayoutView.md#effectiveminwidth[effectiveMinWidth]
-* link:CustomLayoutView.md#effectivepaddingbottom[effectivePaddingBottom]
-* link:CustomLayoutView.md#effectivepaddingleft[effectivePaddingLeft]
-* link:CustomLayoutView.md#effectivepaddingright[effectivePaddingRight]
-* link:CustomLayoutView.md#effectivepaddingtop[effectivePaddingTop]
-* link:CustomLayoutView.md#effectivetop[effectiveTop]
-* link:CustomLayoutView.md#effectivewidth[effectiveWidth]
-* link:CustomLayoutView.md#flexgrow[flexGrow]
-* link:CustomLayoutView.md#flexshrink[flexShrink]
-* link:CustomLayoutView.md#flexwrapbefore[flexWrapBefore]
-* link:CustomLayoutView.md#height[height]
-* link:CustomLayoutView.md#horizontalalignment[horizontalAlignment]
-* link:CustomLayoutView.md#id[id]
-* link:CustomLayoutView.md#ignoretouchanimation[ignoreTouchAnimation]
-* link:CustomLayoutView.md#ios[ios]
-* link:CustomLayoutView.md#iosignoresafearea[iosIgnoreSafeArea]
-* link:CustomLayoutView.md#iosoverflowsafearea[iosOverflowSafeArea]
-* link:CustomLayoutView.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
-* link:CustomLayoutView.md#iscollapsed[isCollapsed]
-* link:CustomLayoutView.md#isenabled[isEnabled]
-* link:CustomLayoutView.md#islayoutrequired[isLayoutRequired]
-* link:CustomLayoutView.md#islayoutvalid[isLayoutValid]
-* link:CustomLayoutView.md#isuserinteractionenabled[isUserInteractionEnabled]
-* link:CustomLayoutView.md#left[left]
-* link:CustomLayoutView.md#margin[margin]
-* link:CustomLayoutView.md#marginbottom[marginBottom]
-* link:CustomLayoutView.md#marginleft[marginLeft]
-* link:CustomLayoutView.md#marginright[marginRight]
-* link:CustomLayoutView.md#margintop[marginTop]
-* link:CustomLayoutView.md#minheight[minHeight]
-* link:CustomLayoutView.md#minwidth[minWidth]
-* link:CustomLayoutView.md#modal[modal]
-* link:CustomLayoutView.md#nativeviewprotected[nativeViewProtected]
-* link:CustomLayoutView.md#opacity[opacity]
-* link:CustomLayoutView.md#order[order]
-* link:CustomLayoutView.md#originx[originX]
-* link:CustomLayoutView.md#originy[originY]
-* link:CustomLayoutView.md#parent[parent]
-* link:CustomLayoutView.md#perspective[perspective]
-* link:CustomLayoutView.md#recyclenativeview[recycleNativeView]
-* link:CustomLayoutView.md#reusable[reusable]
-* link:CustomLayoutView.md#rotate[rotate]
-* link:CustomLayoutView.md#rotatex[rotateX]
-* link:CustomLayoutView.md#rotatey[rotateY]
-* link:CustomLayoutView.md#row[row]
-* link:CustomLayoutView.md#rowspan[rowSpan]
-* link:CustomLayoutView.md#scalex[scaleX]
-* link:CustomLayoutView.md#scaley[scaleY]
-* link:CustomLayoutView.md#testid[testID]
-* link:CustomLayoutView.md#top[top]
-* link:CustomLayoutView.md#touchanimation[touchAnimation]
-* link:CustomLayoutView.md#touchdelay[touchDelay]
-* link:CustomLayoutView.md#translatex[translateX]
-* link:CustomLayoutView.md#translatey[translateY]
-* link:CustomLayoutView.md#verticalalignment[verticalAlignment]
-* link:CustomLayoutView.md#viewcontroller[viewController]
-* link:CustomLayoutView.md#visibility[visibility]
-* link:CustomLayoutView.md#width[width]
-* link:CustomLayoutView.md#accessibilityblurevent[accessibilityBlurEvent]
-* link:CustomLayoutView.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
-* link:CustomLayoutView.md#accessibilityfocusevent[accessibilityFocusEvent]
-* link:CustomLayoutView.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
-* link:CustomLayoutView.md#createdevent[createdEvent]
-* link:CustomLayoutView.md#disposenativeviewevent[disposeNativeViewEvent]
-* link:CustomLayoutView.md#layoutchangedevent[layoutChangedEvent]
-* link:CustomLayoutView.md#loadedevent[loadedEvent]
-* link:CustomLayoutView.md#propertychangeevent[propertyChangeEvent]
-* link:CustomLayoutView.md#showingmodallyevent[showingModallyEvent]
-* link:CustomLayoutView.md#shownmodallyevent[shownModallyEvent]
-* link:CustomLayoutView.md#unloadedevent[unloadedEvent]
+* link:CustomLayoutView.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:CustomLayoutView.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:CustomLayoutView.adoc#_closemodalcallback[_closeModalCallback]
+* link:CustomLayoutView.adoc#_context[_context]
+* link:CustomLayoutView.adoc#_cssstate[_cssState]
+* link:CustomLayoutView.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:CustomLayoutView.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:CustomLayoutView.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:CustomLayoutView.adoc#_defaultpaddingleft[_defaultPaddingLeft]
+* link:CustomLayoutView.adoc#_defaultpaddingright[_defaultPaddingRight]
+* link:CustomLayoutView.adoc#_defaultpaddingtop[_defaultPaddingTop]
+* link:CustomLayoutView.adoc#_domid[_domId]
+* link:CustomLayoutView.adoc#_gestureobservers[_gestureObservers]
+* link:CustomLayoutView.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:CustomLayoutView.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:CustomLayoutView.adoc#_islayoutvalid[_isLayoutValid]
+* link:CustomLayoutView.adoc#_ispaddingrelative[_isPaddingRelative]
+* link:CustomLayoutView.adoc#_isstylescopehost[_isStyleScopeHost]
+* link:CustomLayoutView.adoc#_isviewbase[_isViewBase]
+* link:CustomLayoutView.adoc#_manager[_manager]
+* link:CustomLayoutView.adoc#_modalparent[_modalParent]
+* link:CustomLayoutView.adoc#_modulename[_moduleName]
+* link:CustomLayoutView.adoc#_oldbottom[_oldBottom]
+* link:CustomLayoutView.adoc#_oldleft[_oldLeft]
+* link:CustomLayoutView.adoc#_oldright[_oldRight]
+* link:CustomLayoutView.adoc#_oldtop[_oldTop]
+* link:CustomLayoutView.adoc#_stylescope[_styleScope]
+* link:CustomLayoutView.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:CustomLayoutView.adoc#_suspendedupdates[_suspendedUpdates]
+* link:CustomLayoutView.adoc#accessibilityhidden[accessibilityHidden]
+* link:CustomLayoutView.adoc#accessibilityhint[accessibilityHint]
+* link:CustomLayoutView.adoc#accessibilityidentifier[accessibilityIdentifier]
+* link:CustomLayoutView.adoc#accessibilitylabel[accessibilityLabel]
+* link:CustomLayoutView.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:CustomLayoutView.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:CustomLayoutView.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:CustomLayoutView.adoc#accessibilityrole[accessibilityRole]
+* link:CustomLayoutView.adoc#accessibilitystate[accessibilityState]
+* link:CustomLayoutView.adoc#accessibilityvalue[accessibilityValue]
+* link:CustomLayoutView.adoc#accessible[accessible]
+* link:CustomLayoutView.adoc#alignself[alignSelf]
+* link:CustomLayoutView.adoc#android[android]
+* link:CustomLayoutView.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:CustomLayoutView.adoc#androidelevation[androidElevation]
+* link:CustomLayoutView.adoc#automationtext[automationText]
+* link:CustomLayoutView.adoc#background[background]
+* link:CustomLayoutView.adoc#backgroundcolor[backgroundColor]
+* link:CustomLayoutView.adoc#backgroundimage[backgroundImage]
+* link:CustomLayoutView.adoc#bindingcontext[bindingContext]
+* link:CustomLayoutView.adoc#borderbottomcolor[borderBottomColor]
+* link:CustomLayoutView.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:CustomLayoutView.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:CustomLayoutView.adoc#borderbottomwidth[borderBottomWidth]
+* link:CustomLayoutView.adoc#bordercolor[borderColor]
+* link:CustomLayoutView.adoc#borderleftcolor[borderLeftColor]
+* link:CustomLayoutView.adoc#borderleftwidth[borderLeftWidth]
+* link:CustomLayoutView.adoc#borderradius[borderRadius]
+* link:CustomLayoutView.adoc#borderrightcolor[borderRightColor]
+* link:CustomLayoutView.adoc#borderrightwidth[borderRightWidth]
+* link:CustomLayoutView.adoc#bordertopcolor[borderTopColor]
+* link:CustomLayoutView.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:CustomLayoutView.adoc#bordertoprightradius[borderTopRightRadius]
+* link:CustomLayoutView.adoc#bordertopwidth[borderTopWidth]
+* link:CustomLayoutView.adoc#borderwidth[borderWidth]
+* link:CustomLayoutView.adoc#boxshadow[boxShadow]
+* link:CustomLayoutView.adoc#classname[className]
+* link:CustomLayoutView.adoc#col[col]
+* link:CustomLayoutView.adoc#colspan[colSpan]
+* link:CustomLayoutView.adoc#color[color]
+* link:CustomLayoutView.adoc#column[column]
+* link:CustomLayoutView.adoc#columnspan[columnSpan]
+* link:CustomLayoutView.adoc#css[css]
+* link:CustomLayoutView.adoc#cssclasses[cssClasses]
+* link:CustomLayoutView.adoc#csspseudoclasses[cssPseudoClasses]
+* link:CustomLayoutView.adoc#csstype[cssType]
+* link:CustomLayoutView.adoc#dock[dock]
+* link:CustomLayoutView.adoc#domnode[domNode]
+* link:CustomLayoutView.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:CustomLayoutView.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:CustomLayoutView.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:CustomLayoutView.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:CustomLayoutView.adoc#effectiveheight[effectiveHeight]
+* link:CustomLayoutView.adoc#effectiveleft[effectiveLeft]
+* link:CustomLayoutView.adoc#effectivemarginbottom[effectiveMarginBottom]
+* link:CustomLayoutView.adoc#effectivemarginleft[effectiveMarginLeft]
+* link:CustomLayoutView.adoc#effectivemarginright[effectiveMarginRight]
+* link:CustomLayoutView.adoc#effectivemargintop[effectiveMarginTop]
+* link:CustomLayoutView.adoc#effectiveminheight[effectiveMinHeight]
+* link:CustomLayoutView.adoc#effectiveminwidth[effectiveMinWidth]
+* link:CustomLayoutView.adoc#effectivepaddingbottom[effectivePaddingBottom]
+* link:CustomLayoutView.adoc#effectivepaddingleft[effectivePaddingLeft]
+* link:CustomLayoutView.adoc#effectivepaddingright[effectivePaddingRight]
+* link:CustomLayoutView.adoc#effectivepaddingtop[effectivePaddingTop]
+* link:CustomLayoutView.adoc#effectivetop[effectiveTop]
+* link:CustomLayoutView.adoc#effectivewidth[effectiveWidth]
+* link:CustomLayoutView.adoc#flexgrow[flexGrow]
+* link:CustomLayoutView.adoc#flexshrink[flexShrink]
+* link:CustomLayoutView.adoc#flexwrapbefore[flexWrapBefore]
+* link:CustomLayoutView.adoc#height[height]
+* link:CustomLayoutView.adoc#horizontalalignment[horizontalAlignment]
+* link:CustomLayoutView.adoc#id[id]
+* link:CustomLayoutView.adoc#ignoretouchanimation[ignoreTouchAnimation]
+* link:CustomLayoutView.adoc#ios[ios]
+* link:CustomLayoutView.adoc#iosignoresafearea[iosIgnoreSafeArea]
+* link:CustomLayoutView.adoc#iosoverflowsafearea[iosOverflowSafeArea]
+* link:CustomLayoutView.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:CustomLayoutView.adoc#iscollapsed[isCollapsed]
+* link:CustomLayoutView.adoc#isenabled[isEnabled]
+* link:CustomLayoutView.adoc#islayoutrequired[isLayoutRequired]
+* link:CustomLayoutView.adoc#islayoutvalid[isLayoutValid]
+* link:CustomLayoutView.adoc#isuserinteractionenabled[isUserInteractionEnabled]
+* link:CustomLayoutView.adoc#left[left]
+* link:CustomLayoutView.adoc#margin[margin]
+* link:CustomLayoutView.adoc#marginbottom[marginBottom]
+* link:CustomLayoutView.adoc#marginleft[marginLeft]
+* link:CustomLayoutView.adoc#marginright[marginRight]
+* link:CustomLayoutView.adoc#margintop[marginTop]
+* link:CustomLayoutView.adoc#minheight[minHeight]
+* link:CustomLayoutView.adoc#minwidth[minWidth]
+* link:CustomLayoutView.adoc#modal[modal]
+* link:CustomLayoutView.adoc#nativeviewprotected[nativeViewProtected]
+* link:CustomLayoutView.adoc#opacity[opacity]
+* link:CustomLayoutView.adoc#order[order]
+* link:CustomLayoutView.adoc#originx[originX]
+* link:CustomLayoutView.adoc#originy[originY]
+* link:CustomLayoutView.adoc#parent[parent]
+* link:CustomLayoutView.adoc#perspective[perspective]
+* link:CustomLayoutView.adoc#recyclenativeview[recycleNativeView]
+* link:CustomLayoutView.adoc#reusable[reusable]
+* link:CustomLayoutView.adoc#rotate[rotate]
+* link:CustomLayoutView.adoc#rotatex[rotateX]
+* link:CustomLayoutView.adoc#rotatey[rotateY]
+* link:CustomLayoutView.adoc#row[row]
+* link:CustomLayoutView.adoc#rowspan[rowSpan]
+* link:CustomLayoutView.adoc#scalex[scaleX]
+* link:CustomLayoutView.adoc#scaley[scaleY]
+* link:CustomLayoutView.adoc#testid[testID]
+* link:CustomLayoutView.adoc#top[top]
+* link:CustomLayoutView.adoc#touchanimation[touchAnimation]
+* link:CustomLayoutView.adoc#touchdelay[touchDelay]
+* link:CustomLayoutView.adoc#translatex[translateX]
+* link:CustomLayoutView.adoc#translatey[translateY]
+* link:CustomLayoutView.adoc#verticalalignment[verticalAlignment]
+* link:CustomLayoutView.adoc#viewcontroller[viewController]
+* link:CustomLayoutView.adoc#visibility[visibility]
+* link:CustomLayoutView.adoc#width[width]
+* link:CustomLayoutView.adoc#accessibilityblurevent[accessibilityBlurEvent]
+* link:CustomLayoutView.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:CustomLayoutView.adoc#accessibilityfocusevent[accessibilityFocusEvent]
+* link:CustomLayoutView.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:CustomLayoutView.adoc#createdevent[createdEvent]
+* link:CustomLayoutView.adoc#disposenativeviewevent[disposeNativeViewEvent]
+* link:CustomLayoutView.adoc#layoutchangedevent[layoutChangedEvent]
+* link:CustomLayoutView.adoc#loadedevent[loadedEvent]
+* link:CustomLayoutView.adoc#propertychangeevent[propertyChangeEvent]
+* link:CustomLayoutView.adoc#showingmodallyevent[showingModallyEvent]
+* link:CustomLayoutView.adoc#shownmodallyevent[shownModallyEvent]
+* link:CustomLayoutView.adoc#unloadedevent[unloadedEvent]
 
 === Accessors
 
-* link:CustomLayoutView.md#backgroundposition[backgroundPosition]
-* link:CustomLayoutView.md#backgroundrepeat[backgroundRepeat]
-* link:CustomLayoutView.md#backgroundsize[backgroundSize]
-* link:CustomLayoutView.md#class[class]
-* link:CustomLayoutView.md#isloaded[isLoaded]
-* link:CustomLayoutView.md#nativeview[nativeView]
-* link:CustomLayoutView.md#page[page]
-* link:CustomLayoutView.md#parentnode[parentNode]
-* link:CustomLayoutView.md#style[style]
-* link:CustomLayoutView.md#texttransform[textTransform]
-* link:CustomLayoutView.md#typename[typeName]
+* link:CustomLayoutView.adoc#backgroundposition[backgroundPosition]
+* link:CustomLayoutView.adoc#backgroundrepeat[backgroundRepeat]
+* link:CustomLayoutView.adoc#backgroundsize[backgroundSize]
+* link:CustomLayoutView.adoc#class[class]
+* link:CustomLayoutView.adoc#isloaded[isLoaded]
+* link:CustomLayoutView.adoc#nativeview[nativeView]
+* link:CustomLayoutView.adoc#page[page]
+* link:CustomLayoutView.adoc#parentnode[parentNode]
+* link:CustomLayoutView.adoc#style[style]
+* link:CustomLayoutView.adoc#texttransform[textTransform]
+* link:CustomLayoutView.adoc#typename[typeName]
 
 === Methods
 
-* link:CustomLayoutView.md#_addview[_addView]
-* link:CustomLayoutView.md#_addviewcore[_addViewCore]
-* link:CustomLayoutView.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
-* link:CustomLayoutView.md#_applybackground[_applyBackground]
-* link:CustomLayoutView.md#_applyxmlattribute[_applyXmlAttribute]
-* link:CustomLayoutView.md#_batchupdate[_batchUpdate]
-* link:CustomLayoutView.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
-* link:CustomLayoutView.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
-* link:CustomLayoutView.md#_createpropertychangedata[_createPropertyChangeData]
-* link:CustomLayoutView.md#_dialogclosed[_dialogClosed]
-* link:CustomLayoutView.md#_eachlayoutview[_eachLayoutView]
-* link:CustomLayoutView.md#_emit[_emit]
-* link:CustomLayoutView.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
-* link:CustomLayoutView.md#_getfragmentmanager[_getFragmentManager]
-* link:CustomLayoutView.md#_getnativeviewscount[_getNativeViewsCount]
-* link:CustomLayoutView.md#_getrootmodalviews[_getRootModalViews]
-* link:CustomLayoutView.md#_getvalue[_getValue]
-* link:CustomLayoutView.md#_gotovisualstate[_goToVisualState]
-* link:CustomLayoutView.md#_handlelivesync[_handleLivesync]
-* link:CustomLayoutView.md#_hasancestorview[_hasAncestorView]
-* link:CustomLayoutView.md#_hidenativemodalview[_hideNativeModalView]
-* link:CustomLayoutView.md#_inheritstylescope[_inheritStyleScope]
-* link:CustomLayoutView.md#_layoutparent[_layoutParent]
-* link:CustomLayoutView.md#_observe[_observe]
-* link:CustomLayoutView.md#_onattachedtowindow[_onAttachedToWindow]
-* link:CustomLayoutView.md#_oncssstatechange[_onCssStateChange]
-* link:CustomLayoutView.md#_ondetachedfromwindow[_onDetachedFromWindow]
-* link:CustomLayoutView.md#_onlivesync[_onLivesync]
-* link:CustomLayoutView.md#_onrootviewreset[_onRootViewReset]
-* link:CustomLayoutView.md#_onsizechanged[_onSizeChanged]
-* link:CustomLayoutView.md#_parentchanged[_parentChanged]
-* link:CustomLayoutView.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
-* link:CustomLayoutView.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
-* link:CustomLayoutView.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
-* link:CustomLayoutView.md#_redrawnativebackground[_redrawNativeBackground]
-* link:CustomLayoutView.md#_removeanimation[_removeAnimation]
-* link:CustomLayoutView.md#_removeview[_removeView]
-* link:CustomLayoutView.md#_removeviewcore[_removeViewCore]
-* link:CustomLayoutView.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
-* link:CustomLayoutView.md#_resumenativeupdates[_resumeNativeUpdates]
-* link:CustomLayoutView.md#_setchildminheightnative[_setChildMinHeightNative]
-* link:CustomLayoutView.md#_setchildminwidthnative[_setChildMinWidthNative]
-* link:CustomLayoutView.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
-* link:CustomLayoutView.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
-* link:CustomLayoutView.md#_setminheightnative[_setMinHeightNative]
-* link:CustomLayoutView.md#_setminwidthnative[_setMinWidthNative]
-* link:CustomLayoutView.md#_setnativecliptobounds[_setNativeClipToBounds]
-* link:CustomLayoutView.md#_setnativeviewframe[_setNativeViewFrame]
-* link:CustomLayoutView.md#_setvalue[_setValue]
-* link:CustomLayoutView.md#_setupasrootview[_setupAsRootView]
-* link:CustomLayoutView.md#_setupui[_setupUI]
-* link:CustomLayoutView.md#_shoulddelaylayout[_shouldDelayLayout]
-* link:CustomLayoutView.md#_shownativemodalview[_showNativeModalView]
-* link:CustomLayoutView.md#_suspendnativeupdates[_suspendNativeUpdates]
-* link:CustomLayoutView.md#_teardownui[_tearDownUI]
-* link:CustomLayoutView.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
-* link:CustomLayoutView.md#_updatenativelayoutparams[_updateNativeLayoutParams]
-* link:CustomLayoutView.md#_updatestylescope[_updateStyleScope]
-* link:CustomLayoutView.md#accessibilityannouncement[accessibilityAnnouncement]
-* link:CustomLayoutView.md#accessibilityscreenchanged[accessibilityScreenChanged]
-* link:CustomLayoutView.md#addcss[addCss]
-* link:CustomLayoutView.md#addcssfile[addCssFile]
-* link:CustomLayoutView.md#addeventlistener[addEventListener]
-* link:CustomLayoutView.md#addpseudoclass[addPseudoClass]
-* link:CustomLayoutView.md#animate[animate]
-* link:CustomLayoutView.md#bind[bind]
-* link:CustomLayoutView.md#callloaded[callLoaded]
-* link:CustomLayoutView.md#callunloaded[callUnloaded]
-* link:CustomLayoutView.md#changecssfile[changeCssFile]
-* link:CustomLayoutView.md#closemodal[closeModal]
-* link:CustomLayoutView.md#createanimation[createAnimation]
-* link:CustomLayoutView.md#createnativeview[createNativeView]
-* link:CustomLayoutView.md#deletepseudoclass[deletePseudoClass]
-* link:CustomLayoutView.md#destroynode[destroyNode]
-* link:CustomLayoutView.md#disposenativeview[disposeNativeView]
-* link:CustomLayoutView.md#eachchild[eachChild]
-* link:CustomLayoutView.md#eachchildview[eachChildView]
-* link:CustomLayoutView.md#ensuredomnode[ensureDomNode]
-* link:CustomLayoutView.md#focus[focus]
-* link:CustomLayoutView.md#get[get]
-* link:CustomLayoutView.md#getactualsize[getActualSize]
-* link:CustomLayoutView.md#getgestureobservers[getGestureObservers]
-* link:CustomLayoutView.md#getlocationinwindow[getLocationInWindow]
-* link:CustomLayoutView.md#getlocationonscreen[getLocationOnScreen]
-* link:CustomLayoutView.md#getlocationrelativeto[getLocationRelativeTo]
-* link:CustomLayoutView.md#getmeasuredheight[getMeasuredHeight]
-* link:CustomLayoutView.md#getmeasuredstate[getMeasuredState]
-* link:CustomLayoutView.md#getmeasuredwidth[getMeasuredWidth]
-* link:CustomLayoutView.md#getsafeareainsets[getSafeAreaInsets]
-* link:CustomLayoutView.md#getviewbydomid[getViewByDomId]
-* link:CustomLayoutView.md#getviewbyid[getViewById]
-* link:CustomLayoutView.md#hasgestureobservers[hasGestureObservers]
-* link:CustomLayoutView.md#haslisteners[hasListeners]
-* link:CustomLayoutView.md#initnativeview[initNativeView]
-* link:CustomLayoutView.md#layout[layout]
-* link:CustomLayoutView.md#layoutnativeview[layoutNativeView]
-* link:CustomLayoutView.md#loadview[loadView]
-* link:CustomLayoutView.md#measure[measure]
-* link:CustomLayoutView.md#notify[notify]
-* link:CustomLayoutView.md#notifypropertychange[notifyPropertyChange]
-* link:CustomLayoutView.md#off[off]
-* link:CustomLayoutView.md#on[on]
-* link:CustomLayoutView.md#onbackpressed[onBackPressed]
-* link:CustomLayoutView.md#onlayout[onLayout]
-* link:CustomLayoutView.md#onloaded[onLoaded]
-* link:CustomLayoutView.md#onmeasure[onMeasure]
-* link:CustomLayoutView.md#onresumenativeupdates[onResumeNativeUpdates]
-* link:CustomLayoutView.md#onunloaded[onUnloaded]
-* link:CustomLayoutView.md#once[once]
-* link:CustomLayoutView.md#removeeventlistener[removeEventListener]
-* link:CustomLayoutView.md#requestlayout[requestLayout]
-* link:CustomLayoutView.md#resetnativeview[resetNativeView]
-* link:CustomLayoutView.md#sendaccessibilityevent[sendAccessibilityEvent]
-* link:CustomLayoutView.md#set[set]
-* link:CustomLayoutView.md#setinlinestyle[setInlineStyle]
-* link:CustomLayoutView.md#setmeasureddimension[setMeasuredDimension]
-* link:CustomLayoutView.md#setnativeview[setNativeView]
-* link:CustomLayoutView.md#setontouchlistener[setOnTouchListener]
-* link:CustomLayoutView.md#setproperty[setProperty]
-* link:CustomLayoutView.md#settestid[setTestID]
-* link:CustomLayoutView.md#showmodal[showModal]
-* link:CustomLayoutView.md#tostring[toString]
-* link:CustomLayoutView.md#unbind[unbind]
-* link:CustomLayoutView.md#unloadview[unloadView]
-* link:CustomLayoutView.md#addeventlistener-1[addEventListener]
-* link:CustomLayoutView.md#combinemeasuredstates[combineMeasuredStates]
-* link:CustomLayoutView.md#layoutchild[layoutChild]
-* link:CustomLayoutView.md#measurechild[measureChild]
-* link:CustomLayoutView.md#off-1[off]
-* link:CustomLayoutView.md#on-1[on]
-* link:CustomLayoutView.md#once-1[once]
-* link:CustomLayoutView.md#removeeventlistener-1[removeEventListener]
-* link:CustomLayoutView.md#resolvesizeandstate[resolveSizeAndState]
+* link:CustomLayoutView.adoc#_addview[_addView]
+* link:CustomLayoutView.adoc#_addviewcore[_addViewCore]
+* link:CustomLayoutView.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:CustomLayoutView.adoc#_applybackground[_applyBackground]
+* link:CustomLayoutView.adoc#_applyxmlattribute[_applyXmlAttribute]
+* link:CustomLayoutView.adoc#_batchupdate[_batchUpdate]
+* link:CustomLayoutView.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:CustomLayoutView.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:CustomLayoutView.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:CustomLayoutView.adoc#_dialogclosed[_dialogClosed]
+* link:CustomLayoutView.adoc#_eachlayoutview[_eachLayoutView]
+* link:CustomLayoutView.adoc#_emit[_emit]
+* link:CustomLayoutView.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:CustomLayoutView.adoc#_getfragmentmanager[_getFragmentManager]
+* link:CustomLayoutView.adoc#_getnativeviewscount[_getNativeViewsCount]
+* link:CustomLayoutView.adoc#_getrootmodalviews[_getRootModalViews]
+* link:CustomLayoutView.adoc#_getvalue[_getValue]
+* link:CustomLayoutView.adoc#_gotovisualstate[_goToVisualState]
+* link:CustomLayoutView.adoc#_handlelivesync[_handleLivesync]
+* link:CustomLayoutView.adoc#_hasancestorview[_hasAncestorView]
+* link:CustomLayoutView.adoc#_hidenativemodalview[_hideNativeModalView]
+* link:CustomLayoutView.adoc#_inheritstylescope[_inheritStyleScope]
+* link:CustomLayoutView.adoc#_layoutparent[_layoutParent]
+* link:CustomLayoutView.adoc#_observe[_observe]
+* link:CustomLayoutView.adoc#_onattachedtowindow[_onAttachedToWindow]
+* link:CustomLayoutView.adoc#_oncssstatechange[_onCssStateChange]
+* link:CustomLayoutView.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:CustomLayoutView.adoc#_onlivesync[_onLivesync]
+* link:CustomLayoutView.adoc#_onrootviewreset[_onRootViewReset]
+* link:CustomLayoutView.adoc#_onsizechanged[_onSizeChanged]
+* link:CustomLayoutView.adoc#_parentchanged[_parentChanged]
+* link:CustomLayoutView.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:CustomLayoutView.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:CustomLayoutView.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:CustomLayoutView.adoc#_redrawnativebackground[_redrawNativeBackground]
+* link:CustomLayoutView.adoc#_removeanimation[_removeAnimation]
+* link:CustomLayoutView.adoc#_removeview[_removeView]
+* link:CustomLayoutView.adoc#_removeviewcore[_removeViewCore]
+* link:CustomLayoutView.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:CustomLayoutView.adoc#_resumenativeupdates[_resumeNativeUpdates]
+* link:CustomLayoutView.adoc#_setchildminheightnative[_setChildMinHeightNative]
+* link:CustomLayoutView.adoc#_setchildminwidthnative[_setChildMinWidthNative]
+* link:CustomLayoutView.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:CustomLayoutView.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:CustomLayoutView.adoc#_setminheightnative[_setMinHeightNative]
+* link:CustomLayoutView.adoc#_setminwidthnative[_setMinWidthNative]
+* link:CustomLayoutView.adoc#_setnativecliptobounds[_setNativeClipToBounds]
+* link:CustomLayoutView.adoc#_setnativeviewframe[_setNativeViewFrame]
+* link:CustomLayoutView.adoc#_setvalue[_setValue]
+* link:CustomLayoutView.adoc#_setupasrootview[_setupAsRootView]
+* link:CustomLayoutView.adoc#_setupui[_setupUI]
+* link:CustomLayoutView.adoc#_shoulddelaylayout[_shouldDelayLayout]
+* link:CustomLayoutView.adoc#_shownativemodalview[_showNativeModalView]
+* link:CustomLayoutView.adoc#_suspendnativeupdates[_suspendNativeUpdates]
+* link:CustomLayoutView.adoc#_teardownui[_tearDownUI]
+* link:CustomLayoutView.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:CustomLayoutView.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
+* link:CustomLayoutView.adoc#_updatestylescope[_updateStyleScope]
+* link:CustomLayoutView.adoc#accessibilityannouncement[accessibilityAnnouncement]
+* link:CustomLayoutView.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:CustomLayoutView.adoc#addcss[addCss]
+* link:CustomLayoutView.adoc#addcssfile[addCssFile]
+* link:CustomLayoutView.adoc#addeventlistener[addEventListener]
+* link:CustomLayoutView.adoc#addpseudoclass[addPseudoClass]
+* link:CustomLayoutView.adoc#animate[animate]
+* link:CustomLayoutView.adoc#bind[bind]
+* link:CustomLayoutView.adoc#callloaded[callLoaded]
+* link:CustomLayoutView.adoc#callunloaded[callUnloaded]
+* link:CustomLayoutView.adoc#changecssfile[changeCssFile]
+* link:CustomLayoutView.adoc#closemodal[closeModal]
+* link:CustomLayoutView.adoc#createanimation[createAnimation]
+* link:CustomLayoutView.adoc#createnativeview[createNativeView]
+* link:CustomLayoutView.adoc#deletepseudoclass[deletePseudoClass]
+* link:CustomLayoutView.adoc#destroynode[destroyNode]
+* link:CustomLayoutView.adoc#disposenativeview[disposeNativeView]
+* link:CustomLayoutView.adoc#eachchild[eachChild]
+* link:CustomLayoutView.adoc#eachchildview[eachChildView]
+* link:CustomLayoutView.adoc#ensuredomnode[ensureDomNode]
+* link:CustomLayoutView.adoc#focus[focus]
+* link:CustomLayoutView.adoc#get[get]
+* link:CustomLayoutView.adoc#getactualsize[getActualSize]
+* link:CustomLayoutView.adoc#getgestureobservers[getGestureObservers]
+* link:CustomLayoutView.adoc#getlocationinwindow[getLocationInWindow]
+* link:CustomLayoutView.adoc#getlocationonscreen[getLocationOnScreen]
+* link:CustomLayoutView.adoc#getlocationrelativeto[getLocationRelativeTo]
+* link:CustomLayoutView.adoc#getmeasuredheight[getMeasuredHeight]
+* link:CustomLayoutView.adoc#getmeasuredstate[getMeasuredState]
+* link:CustomLayoutView.adoc#getmeasuredwidth[getMeasuredWidth]
+* link:CustomLayoutView.adoc#getsafeareainsets[getSafeAreaInsets]
+* link:CustomLayoutView.adoc#getviewbydomid[getViewByDomId]
+* link:CustomLayoutView.adoc#getviewbyid[getViewById]
+* link:CustomLayoutView.adoc#hasgestureobservers[hasGestureObservers]
+* link:CustomLayoutView.adoc#haslisteners[hasListeners]
+* link:CustomLayoutView.adoc#initnativeview[initNativeView]
+* link:CustomLayoutView.adoc#layout[layout]
+* link:CustomLayoutView.adoc#layoutnativeview[layoutNativeView]
+* link:CustomLayoutView.adoc#loadview[loadView]
+* link:CustomLayoutView.adoc#measure[measure]
+* link:CustomLayoutView.adoc#notify[notify]
+* link:CustomLayoutView.adoc#notifypropertychange[notifyPropertyChange]
+* link:CustomLayoutView.adoc#off[off]
+* link:CustomLayoutView.adoc#on[on]
+* link:CustomLayoutView.adoc#onbackpressed[onBackPressed]
+* link:CustomLayoutView.adoc#onlayout[onLayout]
+* link:CustomLayoutView.adoc#onloaded[onLoaded]
+* link:CustomLayoutView.adoc#onmeasure[onMeasure]
+* link:CustomLayoutView.adoc#onresumenativeupdates[onResumeNativeUpdates]
+* link:CustomLayoutView.adoc#onunloaded[onUnloaded]
+* link:CustomLayoutView.adoc#once[once]
+* link:CustomLayoutView.adoc#removeeventlistener[removeEventListener]
+* link:CustomLayoutView.adoc#requestlayout[requestLayout]
+* link:CustomLayoutView.adoc#resetnativeview[resetNativeView]
+* link:CustomLayoutView.adoc#sendaccessibilityevent[sendAccessibilityEvent]
+* link:CustomLayoutView.adoc#set[set]
+* link:CustomLayoutView.adoc#setinlinestyle[setInlineStyle]
+* link:CustomLayoutView.adoc#setmeasureddimension[setMeasuredDimension]
+* link:CustomLayoutView.adoc#setnativeview[setNativeView]
+* link:CustomLayoutView.adoc#setontouchlistener[setOnTouchListener]
+* link:CustomLayoutView.adoc#setproperty[setProperty]
+* link:CustomLayoutView.adoc#settestid[setTestID]
+* link:CustomLayoutView.adoc#showmodal[showModal]
+* link:CustomLayoutView.adoc#tostring[toString]
+* link:CustomLayoutView.adoc#unbind[unbind]
+* link:CustomLayoutView.adoc#unloadview[unloadView]
+* link:CustomLayoutView.adoc#addeventlistener-1[addEventListener]
+* link:CustomLayoutView.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:CustomLayoutView.adoc#layoutchild[layoutChild]
+* link:CustomLayoutView.adoc#measurechild[measureChild]
+* link:CustomLayoutView.adoc#off-1[off]
+* link:CustomLayoutView.adoc#on-1[on]
+* link:CustomLayoutView.adoc#once-1[once]
+* link:CustomLayoutView.adoc#removeeventlistener-1[removeEventListener]
+* link:CustomLayoutView.adoc#resolvesizeandstate[resolveSizeAndState]
 
 == Constructors
 
@@ -342,7 +342,7 @@ Base class for all UI components that implement custom layouts.
 
 • *new CustomLayoutView*()
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#constructor[constructor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#constructor[constructor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L340[ui/core/view-base/index.ts:340]
 
@@ -356,7 +356,7 @@ Base class for all UI components that implement custom layouts.
 Internal use only.
 This is used to limit the number of updates to android.view.View.setContentDescription()
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L288[ui/core/view/index.d.ts:288]
 
@@ -367,7 +367,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_automaticallyAdjustsScrollViewInsets*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L286[ui/core/view-base/index.ts:286]
 
@@ -378,7 +378,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Protected` *_closeModalCallback*: `Function`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_closemodalcallback[_closeModalCallback]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_closemodalcallback[_closeModalCallback]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L91[ui/core/view/view-common.ts:91]
 
@@ -389,7 +389,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_context*: `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_context[_context]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_context[_context]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L277[ui/core/view-base/index.ts:277]
 
@@ -400,7 +400,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_cssState*: `CssState`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_cssstate[_cssState]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_cssstate[_cssState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L279[ui/core/view-base/index.ts:279]
 
@@ -411,7 +411,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentHeightMeasureSpec*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L820[ui/core/view/index.d.ts:820]
 
@@ -422,7 +422,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentWidthMeasureSpec*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L816[ui/core/view/index.d.ts:816]
 
@@ -433,7 +433,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingBottom*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_defaultpaddingbottom[_defaultPaddingBottom]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L332[ui/core/view-base/index.ts:332]
 
@@ -444,7 +444,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingLeft*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_defaultpaddingleft[_defaultPaddingLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_defaultpaddingleft[_defaultPaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L333[ui/core/view-base/index.ts:333]
 
@@ -455,7 +455,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingRight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_defaultpaddingright[_defaultPaddingRight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_defaultpaddingright[_defaultPaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L331[ui/core/view-base/index.ts:331]
 
@@ -466,7 +466,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingTop*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_defaultpaddingtop[_defaultPaddingTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_defaultpaddingtop[_defaultPaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L330[ui/core/view-base/index.ts:330]
 
@@ -477,7 +477,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_domId*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_domid[_domId]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_domid[_domId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L276[ui/core/view-base/index.ts:276]
 
@@ -488,7 +488,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_gestureObservers*: `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_gestureobservers[_gestureObservers]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_gestureobservers[_gestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L770[ui/core/view/index.d.ts:770]
 
@@ -499,7 +499,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_ignoreFlexMinWidthHeightReset*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L311[ui/core/view-base/index.ts:311]
 
@@ -510,7 +510,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isAddedToNativeVisualTree*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L278[ui/core/view-base/index.ts:278]
 
@@ -521,7 +521,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Protected` *_isLayoutValid*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_islayoutvalid[_isLayoutValid]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_islayoutvalid[_isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L100[ui/core/view/view-common.ts:100]
 
@@ -532,7 +532,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isPaddingRelative*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_ispaddingrelative[_isPaddingRelative]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_ispaddingrelative[_isPaddingRelative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L334[ui/core/view-base/index.ts:334]
 
@@ -543,7 +543,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isStyleScopeHost*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_isstylescopehost[_isStyleScopeHost]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_isstylescopehost[_isStyleScopeHost]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L285[ui/core/view-base/index.ts:285]
 
@@ -554,7 +554,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isViewBase*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_isviewbase[_isViewBase]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_isviewbase[_isViewBase]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L52[data/observable/index.ts:52]
 
@@ -567,7 +567,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 androidx.fragment.app.FragmentManager
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_manager[_manager]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_manager[_manager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L775[ui/core/view/index.d.ts:775]
 
@@ -578,7 +578,7 @@ androidx.fragment.app.FragmentManager
 
 • `Optional` `Private` *_modalParent*: xref:View.adoc[`View`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_modalparent[_modalParent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_modalparent[_modalParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L762[ui/core/view/index.d.ts:762]
 
@@ -589,7 +589,7 @@ androidx.fragment.app.FragmentManager
 
 • *_moduleName*: `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_modulename[_moduleName]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_modulename[_moduleName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L336[ui/core/view-base/index.ts:336]
 
@@ -600,7 +600,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldBottom*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_oldbottom[_oldBottom]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_oldbottom[_oldBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L310[ui/core/view-base/index.ts:310]
 
@@ -611,7 +611,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldLeft*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_oldleft[_oldLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_oldleft[_oldLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L307[ui/core/view-base/index.ts:307]
 
@@ -622,7 +622,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldRight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_oldright[_oldRight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_oldright[_oldRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L309[ui/core/view-base/index.ts:309]
 
@@ -633,7 +633,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldTop*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_oldtop[_oldTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_oldtop[_oldTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L308[ui/core/view-base/index.ts:308]
 
@@ -644,7 +644,7 @@ androidx.fragment.app.FragmentManager
 
 • *_styleScope*: `StyleScope`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_stylescope[_styleScope]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_stylescope[_styleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L280[ui/core/view-base/index.ts:280]
 
@@ -655,7 +655,7 @@ androidx.fragment.app.FragmentManager
 
 • *_suspendNativeUpdatesCount*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L284[ui/core/view-base/index.ts:284]
 
@@ -670,7 +670,7 @@ androidx.fragment.app.FragmentManager
 
 ▪ [propertyName: `string`]: xref:Property.adoc[`Property`]<xref:ViewBase.adoc[`ViewBase`], `any`> | xref:CssProperty.adoc[`CssProperty`]<xref:Style.adoc[`Style`], `any`> | xref:CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:Style.adoc[`Style`], `any`>
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_suspendedupdates[_suspendedUpdates]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_suspendedupdates[_suspendedUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L281[ui/core/view-base/index.ts:281]
 
@@ -683,7 +683,7 @@ androidx.fragment.app.FragmentManager
 
 Hide the view and its children from the a11y service
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityhidden[accessibilityHidden]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityhidden[accessibilityHidden]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L239[ui/core/view/index.d.ts:239]
 
@@ -697,7 +697,7 @@ Hide the view and its children from the a11y service
 A hint describes the elements behavior.
 Example: 'Tap change playback speed'
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityhint[accessibilityHint]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityhint[accessibilityHint]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L271[ui/core/view/index.d.ts:271]
 
@@ -712,7 +712,7 @@ The view's unique accessibilityIdentifier.
 
 This is used for automated testing.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityidentifier[accessibilityIdentifier]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityidentifier[accessibilityIdentifier]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L246[ui/core/view/index.d.ts:246]
 
@@ -725,7 +725,7 @@ This is used for automated testing.
 
 Short description of the element, ideally one word.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilitylabel[accessibilityLabel]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilitylabel[accessibilityLabel]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L261[ui/core/view/index.d.ts:261]
 
@@ -739,7 +739,7 @@ Short description of the element, ideally one word.
 Sets the language in which to speak the element's label and value.
 Accepts language ID tags that follows the "BCP 47" specification.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilitylanguage[accessibilityLanguage]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilitylanguage[accessibilityLanguage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L278[ui/core/view/index.d.ts:278]
 
@@ -750,7 +750,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 
 • *accessibilityLiveRegion*: xref:../enums/AccessibilityLiveRegion.adoc[`AccessibilityLiveRegion`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityliveregion[accessibilityLiveRegion]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityliveregion[accessibilityLiveRegion]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L272[ui/core/view/index.d.ts:272]
 
@@ -764,7 +764,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 This view starts a media session.
 Equivalent to trait = startsMedia
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilitymediasession[accessibilityMediaSession]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilitymediasession[accessibilityMediaSession]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L283[ui/core/view/index.d.ts:283]
 
@@ -777,7 +777,7 @@ Equivalent to trait = startsMedia
 
 Which role should this view be treated by the a11y service?
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityrole[accessibilityRole]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityrole[accessibilityRole]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L251[ui/core/view/index.d.ts:251]
 
@@ -790,7 +790,7 @@ Which role should this view be treated by the a11y service?
 
 Which state should this view be treated as by the a11y service?
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilitystate[accessibilityState]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilitystate[accessibilityState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L256[ui/core/view/index.d.ts:256]
 
@@ -803,7 +803,7 @@ Which state should this view be treated as by the a11y service?
 
 Current value of the element in a localized string.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityvalue[accessibilityValue]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityvalue[accessibilityValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L266[ui/core/view/index.d.ts:266]
 
@@ -816,7 +816,7 @@ Current value of the element in a localized string.
 
 If `true` the element is an accessibility element and all the children will be treated as a single selectable component.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessible[accessible]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessible[accessible]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L234[ui/core/view/index.d.ts:234]
 
@@ -827,7 +827,7 @@ If `true` the element is an accessibility element and all the children will be t
 
 • *alignSelf*: `AlignSelf`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#alignself[alignSelf]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#alignself[alignSelf]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L305[ui/core/view-base/index.ts:305]
 
@@ -841,7 +841,7 @@ If `true` the element is an accessibility element and all the children will be t
 Gets the android-specific native instance that lies behind this proxy.
 Will be available if running on an Android platform.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#android[android]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L138[ui/core/view/index.d.ts:138]
 
@@ -854,7 +854,7 @@ Will be available if running on an Android platform.
 
 Gets or sets the dynamic elevation offset of the android view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L300[ui/core/view/index.d.ts:300]
 
@@ -867,7 +867,7 @@ Gets or sets the dynamic elevation offset of the android view.
 
 Gets or sets the elevation of the android view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#androidelevation[androidElevation]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#androidelevation[androidElevation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L295[ui/core/view/index.d.ts:295]
 
@@ -878,7 +878,7 @@ Gets or sets the elevation of the android view.
 
 • *automationText*: `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#automationtext[automationText]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#automationtext[automationText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L290[ui/core/view/index.d.ts:290]
 
@@ -891,7 +891,7 @@ Gets or sets the elevation of the android view.
 
 Gets or sets the background style property.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#background[background]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#background[background]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L305[ui/core/view/index.d.ts:305]
 
@@ -904,7 +904,7 @@ Gets or sets the background style property.
 
 Gets or sets the background color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#backgroundcolor[backgroundColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#backgroundcolor[backgroundColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L310[ui/core/view/index.d.ts:310]
 
@@ -917,7 +917,7 @@ Gets or sets the background color of the view.
 
 Gets or sets the background image of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#backgroundimage[backgroundImage]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#backgroundimage[backgroundImage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L315[ui/core/view/index.d.ts:315]
 
@@ -931,7 +931,7 @@ Gets or sets the background image of the view.
 Gets or sets the binding context of this instance.
 This object is used as a source for each Binding that does not have a source object specified.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bindingcontext[bindingContext]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bindingcontext[bindingContext]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L149[ui/core/view/index.d.ts:149]
 
@@ -944,7 +944,7 @@ This object is used as a source for each Binding that does not have a source obj
 
 Gets or sets the bottom border color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderbottomcolor[borderBottomColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderbottomcolor[borderBottomColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L169[ui/core/view/index.d.ts:169]
 
@@ -953,11 +953,11 @@ Gets or sets the bottom border color of the view.
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom left border radius of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderbottomleftradius[borderBottomLeftRadius]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderbottomleftradius[borderBottomLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L224[ui/core/view/index.d.ts:224]
 
@@ -966,11 +966,11 @@ Gets or sets the bottom left border radius of the view.
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom right border radius of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderbottomrightradius[borderBottomRightRadius]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderbottomrightradius[borderBottomRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L219[ui/core/view/index.d.ts:219]
 
@@ -979,11 +979,11 @@ Gets or sets the bottom right border radius of the view.
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom border width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderbottomwidth[borderBottomWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderbottomwidth[borderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L194[ui/core/view/index.d.ts:194]
 
@@ -996,7 +996,7 @@ Gets or sets the bottom border width of the view.
 
 Gets or sets the border color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bordercolor[borderColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bordercolor[borderColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L154[ui/core/view/index.d.ts:154]
 
@@ -1009,7 +1009,7 @@ Gets or sets the border color of the view.
 
 Gets or sets the left border color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderleftcolor[borderLeftColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderleftcolor[borderLeftColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L174[ui/core/view/index.d.ts:174]
 
@@ -1018,11 +1018,11 @@ Gets or sets the left border color of the view.
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the left border width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderleftwidth[borderLeftWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderleftwidth[borderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L199[ui/core/view/index.d.ts:199]
 
@@ -1031,11 +1031,11 @@ Gets or sets the left border width of the view.
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border radius of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderradius[borderRadius]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderradius[borderRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L204[ui/core/view/index.d.ts:204]
 
@@ -1048,7 +1048,7 @@ Gets or sets the border radius of the view.
 
 Gets or sets the right border color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderrightcolor[borderRightColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderrightcolor[borderRightColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L164[ui/core/view/index.d.ts:164]
 
@@ -1057,11 +1057,11 @@ Gets or sets the right border color of the view.
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the right border width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderrightwidth[borderRightWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderrightwidth[borderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L189[ui/core/view/index.d.ts:189]
 
@@ -1074,7 +1074,7 @@ Gets or sets the right border width of the view.
 
 Gets or sets the top border color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bordertopcolor[borderTopColor]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bordertopcolor[borderTopColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L159[ui/core/view/index.d.ts:159]
 
@@ -1083,11 +1083,11 @@ Gets or sets the top border color of the view.
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top left border radius of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bordertopleftradius[borderTopLeftRadius]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bordertopleftradius[borderTopLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L209[ui/core/view/index.d.ts:209]
 
@@ -1096,11 +1096,11 @@ Gets or sets the top left border radius of the view.
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top right border radius of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bordertoprightradius[borderTopRightRadius]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bordertoprightradius[borderTopRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L214[ui/core/view/index.d.ts:214]
 
@@ -1109,11 +1109,11 @@ Gets or sets the top right border radius of the view.
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top border width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bordertopwidth[borderTopWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bordertopwidth[borderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L184[ui/core/view/index.d.ts:184]
 
@@ -1122,11 +1122,11 @@ Gets or sets the top border width of the view.
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#borderwidth[borderWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#borderwidth[borderWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L179[ui/core/view/index.d.ts:179]
 
@@ -1139,7 +1139,7 @@ Gets or sets the border width of the view.
 
 Gets or sets the box shadow of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#boxshadow[boxShadow]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#boxshadow[boxShadow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L320[ui/core/view/index.d.ts:320]
 
@@ -1150,7 +1150,7 @@ Gets or sets the box shadow of the view.
 
 • *className*: `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#classname[className]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#classname[className]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L274[ui/core/view-base/index.ts:274]
 
@@ -1161,7 +1161,7 @@ Gets or sets the box shadow of the view.
 
 • *col*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#col[col]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#col[col]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L295[ui/core/view-base/index.ts:295]
 
@@ -1172,7 +1172,7 @@ Gets or sets the box shadow of the view.
 
 • *colSpan*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#colspan[colSpan]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#colspan[colSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L298[ui/core/view-base/index.ts:298]
 
@@ -1185,7 +1185,7 @@ Gets or sets the box shadow of the view.
 
 Gets or sets the color of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#color[color]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#color[color]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L229[ui/core/view/index.d.ts:229]
 
@@ -1196,7 +1196,7 @@ Gets or sets the color of the view.
 
 • *column*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#column[column]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#column[column]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L296[ui/core/view-base/index.ts:296]
 
@@ -1207,7 +1207,7 @@ Gets or sets the color of the view.
 
 • *columnSpan*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#columnspan[columnSpan]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#columnspan[columnSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L299[ui/core/view-base/index.ts:299]
 
@@ -1220,7 +1220,7 @@ Gets or sets the color of the view.
 
 A valid css string which will be applied for all nested UI components (based on css rules).
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#css[css]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#css[css]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L673[ui/core/view/index.d.ts:673]
 
@@ -1231,7 +1231,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssClasses*: `Set`<``string``>
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#cssclasses[cssClasses]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#cssclasses[cssClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L476[ui/core/view/index.d.ts:476]
 
@@ -1242,7 +1242,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssPseudoClasses*: `Set`<``string``>
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#csspseudoclasses[cssPseudoClasses]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#csspseudoclasses[cssPseudoClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L477[ui/core/view/index.d.ts:477]
 
@@ -1256,7 +1256,7 @@ A valid css string which will be applied for all nested UI components (based on 
 Gets the CSS fully qualified type name.
 Using this as element type should allow for PascalCase and kebap-case selectors, when fully qualified, to match the element.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#csstype[cssType]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#csstype[cssType]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L474[ui/core/view/index.d.ts:474]
 
@@ -1267,7 +1267,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *dock*: `"left"` | `"right"` | `"top"` | `"bottom"`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#dock[dock]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#dock[dock]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L293[ui/core/view-base/index.ts:293]
 
@@ -1278,7 +1278,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *domNode*: `DOMNode`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#domnode[domNode]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#domnode[domNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L264[ui/core/view-base/index.ts:264]
 
@@ -1289,7 +1289,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderBottomWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L327[ui/core/view-base/index.ts:327]
 
@@ -1300,7 +1300,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderLeftWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L328[ui/core/view-base/index.ts:328]
 
@@ -1311,7 +1311,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderRightWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveborderrightwidth[effectiveBorderRightWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L326[ui/core/view-base/index.ts:326]
 
@@ -1322,7 +1322,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderTopWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivebordertopwidth[effectiveBorderTopWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L325[ui/core/view-base/index.ts:325]
 
@@ -1333,7 +1333,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveHeight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveheight[effectiveHeight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveheight[effectiveHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L316[ui/core/view-base/index.ts:316]
 
@@ -1344,7 +1344,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveLeft*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveleft[effectiveLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveleft[effectiveLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L291[ui/core/view-base/index.ts:291]
 
@@ -1355,7 +1355,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginBottom*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivemarginbottom[effectiveMarginBottom]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivemarginbottom[effectiveMarginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L319[ui/core/view-base/index.ts:319]
 
@@ -1366,7 +1366,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginLeft*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivemarginleft[effectiveMarginLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivemarginleft[effectiveMarginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L320[ui/core/view-base/index.ts:320]
 
@@ -1377,7 +1377,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginRight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivemarginright[effectiveMarginRight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivemarginright[effectiveMarginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L318[ui/core/view-base/index.ts:318]
 
@@ -1388,7 +1388,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginTop*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivemargintop[effectiveMarginTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivemargintop[effectiveMarginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L317[ui/core/view-base/index.ts:317]
 
@@ -1399,7 +1399,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinHeight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveminheight[effectiveMinHeight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveminheight[effectiveMinHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L314[ui/core/view-base/index.ts:314]
 
@@ -1410,7 +1410,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectiveminwidth[effectiveMinWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectiveminwidth[effectiveMinWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L313[ui/core/view-base/index.ts:313]
 
@@ -1421,7 +1421,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingBottom*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivepaddingbottom[effectivePaddingBottom]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivepaddingbottom[effectivePaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L323[ui/core/view-base/index.ts:323]
 
@@ -1432,7 +1432,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingLeft*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivepaddingleft[effectivePaddingLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivepaddingleft[effectivePaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L324[ui/core/view-base/index.ts:324]
 
@@ -1443,7 +1443,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingRight*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivepaddingright[effectivePaddingRight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivepaddingright[effectivePaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L322[ui/core/view-base/index.ts:322]
 
@@ -1454,7 +1454,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingTop*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivepaddingtop[effectivePaddingTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivepaddingtop[effectivePaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L321[ui/core/view-base/index.ts:321]
 
@@ -1465,7 +1465,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveTop*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivetop[effectiveTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivetop[effectiveTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L292[ui/core/view-base/index.ts:292]
 
@@ -1476,7 +1476,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveWidth*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#effectivewidth[effectiveWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#effectivewidth[effectiveWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L315[ui/core/view-base/index.ts:315]
 
@@ -1487,7 +1487,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexGrow*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#flexgrow[flexGrow]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#flexgrow[flexGrow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L302[ui/core/view-base/index.ts:302]
 
@@ -1498,7 +1498,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexShrink*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#flexshrink[flexShrink]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#flexshrink[flexShrink]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L303[ui/core/view-base/index.ts:303]
 
@@ -1509,7 +1509,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexWrapBefore*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#flexwrapbefore[flexWrapBefore]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#flexwrapbefore[flexWrapBefore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L304[ui/core/view-base/index.ts:304]
 
@@ -1518,11 +1518,11 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired height of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#height[height]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#height[height]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L340[ui/core/view/index.d.ts:340]
 
@@ -1531,11 +1531,11 @@ Gets or sets the desired height of the view.
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Horizontal axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#horizontalalignment[horizontalAlignment]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#horizontalalignment[horizontalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L370[ui/core/view/index.d.ts:370]
 
@@ -1546,7 +1546,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *id*: `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#id[id]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#id[id]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L273[ui/core/view-base/index.ts:273]
 
@@ -1557,7 +1557,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *ignoreTouchAnimation*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#ignoretouchanimation[ignoreTouchAnimation]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#ignoretouchanimation[ignoreTouchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L88[ui/core/view/view-common.ts:88]
 
@@ -1571,7 +1571,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 Gets the ios-specific native instance that lies behind this proxy.
 Will be available if running on an iOS platform.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#ios[ios]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L144[ui/core/view/index.d.ts:144]
 
@@ -1586,7 +1586,7 @@ Gets or sets a value indicating whether the the view should totally ignore safe 
 This property is iOS specific.
 Default value: false
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#iosignoresafearea[iosIgnoreSafeArea]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#iosignoresafearea[iosIgnoreSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L463[ui/core/view/index.d.ts:463]
 
@@ -1601,7 +1601,7 @@ Instruct container view to expand beyond the safe area.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#iosoverflowsafearea[iosOverflowSafeArea]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#iosoverflowsafearea[iosOverflowSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L895[ui/core/view/index.d.ts:895]
 
@@ -1616,7 +1616,7 @@ Enables or disables the iosOverflowSafeArea property for all children.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L458[ui/core/view/index.d.ts:458]
 
@@ -1627,7 +1627,7 @@ Default value: true
 
 • *isCollapsed*: `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#iscollapsed[isCollapsed]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#iscollapsed[isCollapsed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L271[ui/core/view-base/index.ts:271]
 
@@ -1641,7 +1641,7 @@ Default value: true
 Gets or sets a value indicating whether the the view is enabled.
 This affects the appearance of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#isenabled[isEnabled]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#isenabled[isEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L443[ui/core/view/index.d.ts:443]
 
@@ -1652,7 +1652,7 @@ This affects the appearance of the view.
 
 • `Private` *isLayoutRequired*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#islayoutrequired[isLayoutRequired]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#islayoutrequired[isLayoutRequired]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L766[ui/core/view/index.d.ts:766]
 
@@ -1666,7 +1666,7 @@ This affects the appearance of the view.
 Gets is layout is valid.
 This is a read-only property.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#islayoutvalid[isLayoutValid]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#islayoutvalid[isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L468[ui/core/view/index.d.ts:468]
 
@@ -1680,7 +1680,7 @@ This is a read-only property.
 Gets or sets a value indicating whether the user can interact with the view.
 This does not affect the appearance of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#isuserinteractionenabled[isUserInteractionEnabled]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#isuserinteractionenabled[isUserInteractionEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L448[ui/core/view/index.d.ts:448]
 
@@ -1689,9 +1689,9 @@ This does not affect the appearance of the view.
 [#left]
 === left
 
-• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *left*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#left[left]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#left[left]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L289[ui/core/view-base/index.ts:289]
 
@@ -1700,11 +1700,11 @@ This does not affect the appearance of the view.
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets margin style property.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#margin[margin]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#margin[margin]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L345[ui/core/view/index.d.ts:345]
 
@@ -1713,11 +1713,11 @@ Gets or sets margin style property.
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the bottom side of this view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#marginbottom[marginBottom]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#marginbottom[marginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L365[ui/core/view/index.d.ts:365]
 
@@ -1726,11 +1726,11 @@ Specifies extra space on the bottom side of this view.
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the left side of this view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#marginleft[marginLeft]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#marginleft[marginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L350[ui/core/view/index.d.ts:350]
 
@@ -1739,11 +1739,11 @@ Specifies extra space on the left side of this view.
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the right side of this view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#marginright[marginRight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#marginright[marginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L360[ui/core/view/index.d.ts:360]
 
@@ -1752,11 +1752,11 @@ Specifies extra space on the right side of this view.
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the top side of this view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#margintop[marginTop]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#margintop[marginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L355[ui/core/view/index.d.ts:355]
 
@@ -1765,11 +1765,11 @@ Specifies extra space on the top side of this view.
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum height the view may grow to.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#minheight[minHeight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#minheight[minHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L330[ui/core/view/index.d.ts:330]
 
@@ -1778,11 +1778,11 @@ Gets or sets the minimum height the view may grow to.
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum width the view may grow to.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#minwidth[minWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#minwidth[minWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L325[ui/core/view/index.d.ts:325]
 
@@ -1795,7 +1795,7 @@ Gets or sets the minimum width the view may grow to.
 
 Returns the current modal view that this page is showing (is parent of), if any.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#modal[modal]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#modal[modal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L627[ui/core/view/index.d.ts:627]
 
@@ -1806,7 +1806,7 @@ Returns the current modal view that this page is showing (is parent of), if any.
 
 • *nativeViewProtected*: `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#nativeviewprotected[nativeViewProtected]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#nativeviewprotected[nativeViewProtected]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L269[ui/core/view-base/index.ts:269]
 
@@ -1819,7 +1819,7 @@ Returns the current modal view that this page is showing (is parent of), if any.
 
 Gets or sets the opacity style property.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#opacity[opacity]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#opacity[opacity]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L385[ui/core/view/index.d.ts:385]
 
@@ -1830,7 +1830,7 @@ Gets or sets the opacity style property.
 
 • *order*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#order[order]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#order[order]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L301[ui/core/view-base/index.ts:301]
 
@@ -1844,7 +1844,7 @@ Gets or sets the opacity style property.
 Gets or sets the X component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#originx[originX]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#originx[originX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L433[ui/core/view/index.d.ts:433]
 
@@ -1858,7 +1858,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the Y component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#originy[originY]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#originy[originY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L438[ui/core/view/index.d.ts:438]
 
@@ -1869,7 +1869,7 @@ The default value is 0.5 representing the center of the view.
 
 • *parent*: xref:ViewBase.adoc[`ViewBase`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#parent[parent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#parent[parent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L270[ui/core/view-base/index.ts:270]
 
@@ -1883,7 +1883,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the distance of the camera form the view perspective.
 Usually needed when rotating the view over the X or Y axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#perspective[perspective]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#perspective[perspective]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L406[ui/core/view/index.d.ts:406]
 
@@ -1894,7 +1894,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *recycleNativeView*: `"auto"` | `"never"` | `"always"`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#recyclenativeview[recycleNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#recyclenativeview[recycleNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L266[ui/core/view-base/index.ts:266]
 
@@ -1905,7 +1905,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *reusable*: `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#reusable[reusable]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#reusable[reusable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L338[ui/core/view-base/index.ts:338]
 
@@ -1918,7 +1918,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 Gets or sets the rotate affine transform of the view along the Z axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#rotate[rotate]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#rotate[rotate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L390[ui/core/view/index.d.ts:390]
 
@@ -1931,7 +1931,7 @@ Gets or sets the rotate affine transform of the view along the Z axis.
 
 Gets or sets the rotate affine transform of the view along the X axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#rotatex[rotateX]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#rotatex[rotateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L395[ui/core/view/index.d.ts:395]
 
@@ -1944,7 +1944,7 @@ Gets or sets the rotate affine transform of the view along the X axis.
 
 Gets or sets the rotate affine transform of the view along the Y axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#rotatey[rotateY]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#rotatey[rotateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L400[ui/core/view/index.d.ts:400]
 
@@ -1955,7 +1955,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *row*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#row[row]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#row[row]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L294[ui/core/view-base/index.ts:294]
 
@@ -1966,7 +1966,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *rowSpan*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#rowspan[rowSpan]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#rowspan[rowSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L297[ui/core/view-base/index.ts:297]
 
@@ -1979,7 +1979,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 Gets or sets the scaleX affine transform of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#scalex[scaleX]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#scalex[scaleX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L421[ui/core/view/index.d.ts:421]
 
@@ -1992,7 +1992,7 @@ Gets or sets the scaleX affine transform of the view.
 
 Gets or sets the scaleY affine transform of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#scaley[scaleY]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#scaley[scaleY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L426[ui/core/view/index.d.ts:426]
 
@@ -2003,7 +2003,7 @@ Gets or sets the scaleY affine transform of the view.
 
 • *testID*: `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#testid[testID]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#testid[testID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L85[ui/core/view/view-common.ts:85]
 
@@ -2012,9 +2012,9 @@ Gets or sets the scaleY affine transform of the view.
 [#top]
 === top
 
-• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *top*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#top[top]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#top[top]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L290[ui/core/view-base/index.ts:290]
 
@@ -2023,9 +2023,9 @@ Gets or sets the scaleY affine transform of the view.
 [#touchanimation]
 === touchAnimation
 
-• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+• *touchAnimation*: `boolean` | link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#touchanimation[touchAnimation]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#touchanimation[touchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L87[ui/core/view/view-common.ts:87]
 
@@ -2036,7 +2036,7 @@ Gets or sets the scaleY affine transform of the view.
 
 • *touchDelay*: `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#touchdelay[touchDelay]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#touchdelay[touchDelay]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L89[ui/core/view/view-common.ts:89]
 
@@ -2049,7 +2049,7 @@ Gets or sets the scaleY affine transform of the view.
 
 Gets or sets the translateX affine transform of the view in device independent pixels.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#translatex[translateX]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#translatex[translateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L411[ui/core/view/index.d.ts:411]
 
@@ -2062,7 +2062,7 @@ Gets or sets the translateX affine transform of the view in device independent p
 
 Gets or sets the translateY affine transform of the view in device independent pixels.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#translatey[translateY]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#translatey[translateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L416[ui/core/view/index.d.ts:416]
 
@@ -2071,11 +2071,11 @@ Gets or sets the translateY affine transform of the view in device independent p
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Vertical axis.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#verticalalignment[verticalAlignment]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#verticalalignment[verticalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L375[ui/core/view/index.d.ts:375]
 
@@ -2086,7 +2086,7 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 
 • *viewController*: `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#viewcontroller[viewController]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#viewcontroller[viewController]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L267[ui/core/view-base/index.ts:267]
 
@@ -2095,11 +2095,11 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 Gets or sets the visibility of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#visibility[visibility]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#visibility[visibility]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L380[ui/core/view/index.d.ts:380]
 
@@ -2108,11 +2108,11 @@ Gets or sets the visibility of the view.
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired width of the view.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#width[width]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#width[width]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L335[ui/core/view/index.d.ts:335]
 
@@ -2125,7 +2125,7 @@ Gets or sets the desired width of the view.
 
 String value used when hooking to accessibilityBlur event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityblurevent[accessibilityBlurEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityblurevent[accessibilityBlurEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L122[ui/core/view/index.d.ts:122]
 
@@ -2138,7 +2138,7 @@ String value used when hooking to accessibilityBlur event.
 
 String value used when hooking to accessibilityFocusChanged event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L132[ui/core/view/index.d.ts:132]
 
@@ -2151,7 +2151,7 @@ String value used when hooking to accessibilityFocusChanged event.
 
 String value used when hooking to accessibilityFocus event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityfocusevent[accessibilityFocusEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityfocusevent[accessibilityFocusEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L127[ui/core/view/index.d.ts:127]
 
@@ -2162,7 +2162,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *accessibilityPerformEscapeEvent*: `string` = `accessibilityPerformEscapeEvent`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L78[ui/core/view/view-common.ts:78]
 
@@ -2173,7 +2173,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *createdEvent*: `string` = `'created'`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#createdevent[createdEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#createdevent[createdEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L250[ui/core/view-base/index.ts:250]
 
@@ -2184,7 +2184,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *disposeNativeViewEvent*: `string` = `'disposeNativeView'`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#disposenativeviewevent[disposeNativeViewEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#disposenativeviewevent[disposeNativeViewEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L251[ui/core/view-base/index.ts:251]
 
@@ -2197,7 +2197,7 @@ String value used when hooking to accessibilityFocus event.
 
 String value used when hooking to layoutChanged event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#layoutchangedevent[layoutChangedEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#layoutchangedevent[layoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L108[ui/core/view/index.d.ts:108]
 
@@ -2208,7 +2208,7 @@ String value used when hooking to layoutChanged event.
 
 ▪ `Static` *loadedEvent*: `string` = `'loaded'`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#loadedevent[loadedEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#loadedevent[loadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L248[ui/core/view-base/index.ts:248]
 
@@ -2219,7 +2219,7 @@ String value used when hooking to layoutChanged event.
 
 ▪ `Static` *propertyChangeEvent*: `string` = `'propertyChange'`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#propertychangeevent[propertyChangeEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#propertychangeevent[propertyChangeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L51[data/observable/index.ts:51]
 
@@ -2232,7 +2232,7 @@ String value used when hooking to layoutChanged event.
 
 String value used when hooking to showingModally event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#showingmodallyevent[showingModallyEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#showingmodallyevent[showingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L112[ui/core/view/index.d.ts:112]
 
@@ -2245,7 +2245,7 @@ String value used when hooking to showingModally event.
 
 String value used when hooking to shownModally event.
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#shownmodallyevent[shownModallyEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#shownmodallyevent[shownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L117[ui/core/view/index.d.ts:117]
 
@@ -2256,7 +2256,7 @@ String value used when hooking to shownModally event.
 
 ▪ `Static` *unloadedEvent*: `string` = `'unloaded'`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#unloadedevent[unloadedEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#unloadedevent[unloadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L249[ui/core/view-base/index.ts:249]
 
@@ -2303,11 +2303,11 @@ ContainerView.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Inherited from
 
@@ -2323,7 +2323,7 @@ ContainerView.backgroundRepeat
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+| link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 |===
 
 ==== Returns
@@ -2565,11 +2565,11 @@ ContainerView.style
 [#texttransform]
 === textTransform
 
-• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• `get` *textTransform*(): link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Inherited from
 
@@ -2585,7 +2585,7 @@ ContainerView.textTransform
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
@@ -2638,7 +2638,7 @@ ContainerView.typeName
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_addview[_addView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_addview[_addView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L675[ui/core/view-base/index.ts:675]
 
@@ -2665,7 +2665,7 @@ ContainerView.typeName
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_addviewcore[_addViewCore]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_addviewcore[_addViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L700[ui/core/view-base/index.ts:700]
 
@@ -2694,7 +2694,7 @@ Method is intended to be overridden by inheritors and used as "protected".
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L982[ui/core/view-base/index.ts:982]
 
@@ -2730,7 +2730,7 @@ This allows custom handling
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_applybackground[_applyBackground]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_applybackground[_applyBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L837[ui/core/view/index.d.ts:837]
 
@@ -2762,7 +2762,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_applyxmlattribute[_applyXmlAttribute]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_applyxmlattribute[_applyXmlAttribute]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1017[ui/core/view-base/index.ts:1017]
 
@@ -2794,7 +2794,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `T`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_batchupdate[_batchUpdate]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_batchupdate[_batchUpdate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L497[ui/core/view-base/index.ts:497]
 
@@ -2818,7 +2818,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L975[ui/core/view-base/index.ts:975]
 
@@ -2836,7 +2836,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L703[ui/core/view/index.d.ts:703]
 
@@ -2866,7 +2866,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_createpropertychangedata[_createPropertyChangeData]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_createpropertychangedata[_createPropertyChangeData]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L313[data/observable/index.ts:313]
 
@@ -2881,7 +2881,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_dialogclosed[_dialogClosed]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_dialogclosed[_dialogClosed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1113[ui/core/view-base/index.ts:1113]
 
@@ -2905,7 +2905,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_eachlayoutview[_eachLayoutView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_eachlayoutview[_eachLayoutView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L711[ui/core/view/index.d.ts:711]
 
@@ -2929,7 +2929,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_emit[_emit]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_emit[_emit]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L323[data/observable/index.ts:323]
 
@@ -2962,7 +2962,7 @@ Return view bounds.
 | `number`
 |===
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L794[ui/core/view/index.d.ts:794]
 
@@ -2977,7 +2977,7 @@ Return view bounds.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_getfragmentmanager[_getFragmentManager]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_getfragmentmanager[_getFragmentManager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L850[ui/core/view/index.d.ts:850]
 
@@ -2992,7 +2992,7 @@ Return view bounds.
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_getnativeviewscount[_getNativeViewsCount]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_getnativeviewscount[_getNativeViewsCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L697[ui/core/view/index.d.ts:697]
 
@@ -3009,7 +3009,7 @@ Internal method: Gets all modal views of the current view.
 
 xref:ViewBase.adoc[`ViewBase`][]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_getrootmodalviews[_getRootModalViews]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_getrootmodalviews[_getRootModalViews]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L709[ui/core/view/index.d.ts:709]
 
@@ -3035,7 +3035,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `never`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_getvalue[_getValue]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_getvalue[_getValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L880[ui/core/view/index.d.ts:880]
 
@@ -3059,7 +3059,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_gotovisualstate[_goToVisualState]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_gotovisualstate[_goToVisualState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L803[ui/core/view/index.d.ts:803]
 
@@ -3089,7 +3089,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_handlelivesync[_handleLivesync]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_handlelivesync[_handleLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L851[ui/core/view/index.d.ts:851]
 
@@ -3115,7 +3115,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_hasancestorview[_hasAncestorView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_hasancestorview[_hasAncestorView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L874[ui/core/view/index.d.ts:874]
 
@@ -3142,7 +3142,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_hidenativemodalview[_hideNativeModalView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_hidenativemodalview[_hideNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L422[ui/core/view/view-common.ts:422]
 
@@ -3166,7 +3166,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_inheritstylescope[_inheritStyleScope]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_inheritstylescope[_inheritStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1082[ui/core/view-base/index.ts:1082]
 
@@ -3181,7 +3181,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_layoutparent[_layoutParent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_layoutparent[_layoutParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L469[ui/core/view-base/index.ts:469]
 
@@ -3211,7 +3211,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_observe[_observe]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_observe[_observe]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L256[ui/core/view/view-common.ts:256]
 
@@ -3228,7 +3228,7 @@ Called in android when native view is attached to window.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_onattachedtowindow[_onAttachedToWindow]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_onattachedtowindow[_onAttachedToWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L864[ui/core/view/index.d.ts:864]
 
@@ -3243,7 +3243,7 @@ Called in android when native view is attached to window.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_oncssstatechange[_onCssStateChange]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_oncssstatechange[_onCssStateChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1073[ui/core/view-base/index.ts:1073]
 
@@ -3260,7 +3260,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_ondetachedfromwindow[_onDetachedFromWindow]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L869[ui/core/view/index.d.ts:869]
 
@@ -3290,7 +3290,7 @@ Called in android when native view is dettached from window.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_onlivesync[_onLivesync]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_onlivesync[_onLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L846[ui/core/view/index.d.ts:846]
 
@@ -3305,7 +3305,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_onrootviewreset[_onRootViewReset]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_onrootviewreset[_onRootViewReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1121[ui/core/view-base/index.ts:1121]
 
@@ -3322,7 +3322,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_onsizechanged[_onSizeChanged]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_onsizechanged[_onSizeChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L716[ui/core/view/index.d.ts:716]
 
@@ -3346,7 +3346,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_parentchanged[_parentChanged]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_parentchanged[_parentChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1038[ui/core/view-base/index.ts:1038]
 
@@ -3361,7 +3361,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L424[ui/core/view/view-common.ts:424]
 
@@ -3376,7 +3376,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L442[ui/core/view/view-common.ts:442]
 
@@ -3391,7 +3391,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L432[ui/core/view/view-common.ts:432]
 
@@ -3415,7 +3415,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_redrawnativebackground[_redrawNativeBackground]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_redrawnativebackground[_redrawNativeBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L832[ui/core/view/index.d.ts:832]
 
@@ -3439,7 +3439,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_removeanimation[_removeAnimation]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_removeanimation[_removeAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L842[ui/core/view/index.d.ts:842]
 
@@ -3467,7 +3467,7 @@ Do not use outside the UI Stack implementation.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_removeview[_removeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_removeview[_removeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L733[ui/core/view-base/index.ts:733]
 
@@ -3493,7 +3493,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_removeviewcore[_removeViewCore]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_removeviewcore[_removeViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L754[ui/core/view-base/index.ts:754]
 
@@ -3519,7 +3519,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L993[ui/core/view-base/index.ts:993]
 
@@ -3543,7 +3543,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_resumenativeupdates[_resumeNativeUpdates]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_resumenativeupdates[_resumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L482[ui/core/view-base/index.ts:482]
 
@@ -3563,7 +3563,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -3588,7 +3588,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -3638,7 +3638,7 @@ Called by layout method to cache view bounds.
 | `boolean`
 |===
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L789[ui/core/view/index.d.ts:789]
 
@@ -3667,7 +3667,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L784[ui/core/view/index.d.ts:784]
 
@@ -3684,14 +3684,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setminheightnative[_setMinHeightNative]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setminheightnative[_setMinHeightNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L828[ui/core/view/index.d.ts:828]
 
@@ -3708,14 +3708,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setminwidthnative[_setMinWidthNative]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setminwidthnative[_setMinWidthNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L824[ui/core/view/index.d.ts:824]
 
@@ -3730,7 +3730,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setnativecliptobounds[_setNativeClipToBounds]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setnativecliptobounds[_setNativeClipToBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L779[ui/core/view/index.d.ts:779]
 
@@ -3757,7 +3757,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setnativeviewframe[_setNativeViewFrame]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setnativeviewframe[_setNativeViewFrame]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L807[ui/core/view/index.d.ts:807]
 
@@ -3786,7 +3786,7 @@ Called by measure method to cache measureSpecs.
 
 `never`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setvalue[_setValue]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setvalue[_setValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L885[ui/core/view/index.d.ts:885]
 
@@ -3810,7 +3810,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setupasrootview[_setupAsRootView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setupasrootview[_setupAsRootView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L249[ui/core/view/view-common.ts:249]
 
@@ -3840,7 +3840,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_setupui[_setupUI]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_setupui[_setupUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L804[ui/core/view-base/index.ts:804]
 
@@ -3855,7 +3855,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_shoulddelaylayout[_shouldDelayLayout]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_shoulddelaylayout[_shouldDelayLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L720[ui/core/view-base/index.ts:720]
 
@@ -3882,7 +3882,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_shownativemodalview[_showNativeModalView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_shownativemodalview[_showNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L387[ui/core/view/view-common.ts:387]
 
@@ -3906,7 +3906,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_suspendnativeupdates[_suspendNativeUpdates]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_suspendnativeupdates[_suspendNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L475[ui/core/view-base/index.ts:475]
 
@@ -3930,7 +3930,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_teardownui[_tearDownUI]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_teardownui[_tearDownUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L916[ui/core/view-base/index.ts:916]
 
@@ -3963,7 +3963,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L812[ui/core/view/index.d.ts:812]
 
@@ -4017,7 +4017,7 @@ Updates styleScope or create new styleScope.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#_updatestylescope[_updateStyleScope]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#_updatestylescope[_updateStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L859[ui/core/view/index.d.ts:859]
 
@@ -4043,7 +4043,7 @@ Make an announcement to the screen reader.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityannouncement[accessibilityAnnouncement]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityannouncement[accessibilityAnnouncement]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L751[ui/core/view/index.d.ts:751]
 
@@ -4060,7 +4060,7 @@ Announce screen changed
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#accessibilityscreenchanged[accessibilityScreenChanged]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L756[ui/core/view/index.d.ts:756]
 
@@ -4087,7 +4087,7 @@ Adds a new values to current css.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#addcss[addCss]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#addcss[addCss]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L680[ui/core/view/index.d.ts:680]
 
@@ -4114,7 +4114,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#addcssfile[addCssFile]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#addcssfile[addCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L687[ui/core/view/index.d.ts:687]
 
@@ -4144,7 +4144,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#addeventlistener[addEventListener]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#addeventlistener[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L268[ui/core/view/view-common.ts:268]
 
@@ -4168,7 +4168,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#addpseudoclass[addPseudoClass]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#addpseudoclass[addPseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L568[ui/core/view-base/index.ts:568]
 
@@ -4194,7 +4194,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `AnimationPromise`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#animate[animate]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#animate[animate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L632[ui/core/view/index.d.ts:632]
 
@@ -4223,7 +4223,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#bind[bind]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#bind[bind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L598[ui/core/view-base/index.ts:598]
 
@@ -4238,7 +4238,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#callloaded[callLoaded]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#callloaded[callLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L537[ui/core/view-base/index.ts:537]
 
@@ -4253,7 +4253,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#callunloaded[callUnloaded]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#callunloaded[callUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L541[ui/core/view-base/index.ts:541]
 
@@ -4280,7 +4280,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#changecssfile[changeCssFile]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#changecssfile[changeCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L694[ui/core/view/index.d.ts:694]
 
@@ -4304,7 +4304,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#closemodal[closeModal]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#closemodal[closeModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L371[ui/core/view/view-common.ts:371]
 
@@ -4330,7 +4330,7 @@ Creates an Animation object based on the supplied options.
 
 xref:Animation.adoc[`Animation`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#createanimation[createAnimation]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#createanimation[createAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L637[ui/core/view/index.d.ts:637]
 
@@ -4345,7 +4345,7 @@ xref:Animation.adoc[`Animation`]
 
 `Object`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#createnativeview[createNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#createnativeview[createNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L762[ui/core/view-base/index.ts:762]
 
@@ -4369,7 +4369,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#deletepseudoclass[deletePseudoClass]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#deletepseudoclass[deletePseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L579[ui/core/view-base/index.ts:579]
 
@@ -4393,7 +4393,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#destroynode[destroyNode]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#destroynode[destroyNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L910[ui/core/view-base/index.ts:910]
 
@@ -4408,7 +4408,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#disposenativeview[disposeNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#disposenativeview[disposeNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L766[ui/core/view-base/index.ts:766]
 
@@ -4432,7 +4432,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#eachchild[eachChild]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#eachchild[eachChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L969[ui/core/view/view-common.ts:969]
 
@@ -4460,7 +4460,7 @@ Iteration stops if this method returns falsy value.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#eachchildview[eachChildView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#eachchildview[eachChildView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L732[ui/core/view/index.d.ts:732]
 
@@ -4475,7 +4475,7 @@ Iteration stops if this method returns falsy value.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#ensuredomnode[ensureDomNode]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#ensuredomnode[ensureDomNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L416[ui/core/view-base/index.ts:416]
 
@@ -4493,7 +4493,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#focus[focus]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#focus[focus]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L578[ui/core/view/index.d.ts:578]
 
@@ -4517,7 +4517,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#get[get]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#get[get]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L56[data/observable/index.ts:56]
 
@@ -4534,7 +4534,7 @@ Returns the actual size of the view in device-independent pixels.
 
 xref:../interfaces/Size.adoc[`Size`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getactualsize[getActualSize]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getactualsize[getActualSize]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L662[ui/core/view/index.d.ts:662]
 
@@ -4558,7 +4558,7 @@ xref:../interfaces/Size.adoc[`Size`]
 
 xref:GesturesObserver.adoc[`GesturesObserver`][]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getgestureobservers[getGestureObservers]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getgestureobservers[getGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L580[ui/core/view/index.d.ts:580]
 
@@ -4575,7 +4575,7 @@ Returns the location of this view in the window coordinate system.
 
 `Point`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getlocationinwindow[getLocationInWindow]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getlocationinwindow[getLocationInWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L647[ui/core/view/index.d.ts:647]
 
@@ -4592,7 +4592,7 @@ Returns the location of this view in the screen coordinate system.
 
 `Point`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getlocationonscreen[getLocationOnScreen]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getlocationonscreen[getLocationOnScreen]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L652[ui/core/view/index.d.ts:652]
 
@@ -4618,7 +4618,7 @@ Returns the location of this view in the otherView's coordinate system.
 
 `Point`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getlocationrelativeto[getLocationRelativeTo]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getlocationrelativeto[getLocationRelativeTo]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L657[ui/core/view/index.d.ts:657]
 
@@ -4635,7 +4635,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getmeasuredheight[getMeasuredHeight]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getmeasuredheight[getMeasuredHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L506[ui/core/view/index.d.ts:506]
 
@@ -4650,7 +4650,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getmeasuredstate[getMeasuredState]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getmeasuredstate[getMeasuredState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L508[ui/core/view/index.d.ts:508]
 
@@ -4667,7 +4667,7 @@ Returns the raw width component.
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getmeasuredwidth[getMeasuredWidth]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getmeasuredwidth[getMeasuredWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L501[ui/core/view/index.d.ts:501]
 
@@ -4700,7 +4700,7 @@ Returns the iOS safe area insets of this view.
 | `any`
 |===
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getsafeareainsets[getSafeAreaInsets]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getsafeareainsets[getSafeAreaInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L642[ui/core/view/index.d.ts:642]
 
@@ -4733,7 +4733,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getviewbydomid[getViewByDomId]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getviewbydomid[getViewByDomId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L404[ui/core/view-base/index.ts:404]
 
@@ -4766,7 +4766,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#getviewbyid[getViewById]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#getviewbyid[getViewById]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L400[ui/core/view-base/index.ts:400]
 
@@ -4783,7 +4783,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#hasgestureobservers[hasGestureObservers]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#hasgestureobservers[hasGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L721[ui/core/view/index.d.ts:721]
 
@@ -4807,7 +4807,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#haslisteners[hasListeners]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#haslisteners[hasListeners]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L309[data/observable/index.ts:309]
 
@@ -4822,7 +4822,7 @@ Android only check if gesture observers are attached
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#initnativeview[initNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#initnativeview[initNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L773[ui/core/view-base/index.ts:773]
 
@@ -4866,7 +4866,7 @@ In that method, they should call layout on each of their children.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#layout[layout]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#layout[layout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L496[ui/core/view/index.d.ts:496]
 
@@ -4905,7 +4905,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#layoutnativeview[layoutNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#layoutnativeview[layoutNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L541[ui/core/view/index.d.ts:541]
 
@@ -4929,7 +4929,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#loadview[loadView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#loadview[loadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L714[ui/core/view-base/index.ts:714]
 
@@ -4963,7 +4963,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#measure[measure]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#measure[measure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L485[ui/core/view/index.d.ts:485]
 
@@ -4996,7 +4996,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#notify[notify]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#notify[notify]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L274[data/observable/index.ts:274]
 
@@ -5026,7 +5026,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#notifypropertychange[notifyPropertyChange]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#notifypropertychange[notifyPropertyChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L305[data/observable/index.ts:305]
 
@@ -5062,7 +5062,7 @@ If not defined, all listeners for the event names will be removed.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#off[off]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#off[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L588[ui/core/view/index.d.ts:588]
 
@@ -5100,7 +5100,7 @@ Optionally could be used more events separated by `,` (e.g.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L596[ui/core/view/index.d.ts:596]
 
@@ -5127,7 +5127,7 @@ Raised when a loaded event occurs.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L601[ui/core/view/index.d.ts:601]
 
@@ -5154,7 +5154,7 @@ Raised when an unloaded event occurs.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L606[ui/core/view/index.d.ts:606]
 
@@ -5182,7 +5182,7 @@ This event is raised only for android.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L612[ui/core/view/index.d.ts:612]
 
@@ -5209,7 +5209,7 @@ Raised before the view is shown as a modal dialog.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L617[ui/core/view/index.d.ts:617]
 
@@ -5236,7 +5236,7 @@ Raised after the view is shown as a modal dialog.
 
 `any`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L622[ui/core/view/index.d.ts:622]
 
@@ -5253,7 +5253,7 @@ Derived classes can override this method to handle Android back button press.
 
 `boolean`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onbackpressed[onBackPressed]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onbackpressed[onBackPressed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L667[ui/core/view/index.d.ts:667]
 
@@ -5293,7 +5293,7 @@ Derived classes with children should override this method and call layout on eac
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onlayout[onLayout]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onlayout[onLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L525[ui/core/view/index.d.ts:525]
 
@@ -5308,7 +5308,7 @@ Derived classes with children should override this method and call layout on eac
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onloaded[onLoaded]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onloaded[onLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L163[ui/core/view/view-common.ts:163]
 
@@ -5344,7 +5344,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onmeasure[onMeasure]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onmeasure[onMeasure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L516[ui/core/view/index.d.ts:516]
 
@@ -5359,7 +5359,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onresumenativeupdates[onResumeNativeUpdates]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onresumenativeupdates[onResumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1053[ui/core/view-base/index.ts:1053]
 
@@ -5374,7 +5374,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#onunloaded[onUnloaded]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#onunloaded[onUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L449[ui/core/view-base/index.ts:449]
 
@@ -5404,7 +5404,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#once[once]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#once[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L92[data/observable/index.ts:92]
 
@@ -5434,7 +5434,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#removeeventlistener[removeEventListener]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#removeeventlistener[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L296[ui/core/view/view-common.ts:296]
 
@@ -5449,7 +5449,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#requestlayout[requestLayout]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#requestlayout[requestLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L912[ui/core/view/view-common.ts:912]
 
@@ -5464,7 +5464,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#resetnativeview[resetNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#resetnativeview[resetNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1047[ui/core/view/view-common.ts:1047]
 
@@ -5501,7 +5501,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#sendaccessibilityevent[sendAccessibilityEvent]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#sendaccessibilityevent[sendAccessibilityEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L746[ui/core/view/index.d.ts:746]
 
@@ -5528,7 +5528,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#set[set]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#set[set]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L425[ui/core/view-base/index.ts:425]
 
@@ -5552,7 +5552,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#setinlinestyle[setInlineStyle]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#setinlinestyle[setInlineStyle]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1029[ui/core/view-base/index.ts:1029]
 
@@ -5586,7 +5586,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#setmeasureddimension[setMeasuredDimension]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#setmeasureddimension[setMeasuredDimension]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L532[ui/core/view/index.d.ts:532]
 
@@ -5610,7 +5610,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#setnativeview[setNativeView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#setnativeview[setNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L892[ui/core/view-base/index.ts:892]
 
@@ -5627,7 +5627,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#setontouchlistener[setOnTouchListener]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#setontouchlistener[setOnTouchListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L726[ui/core/view/index.d.ts:726]
 
@@ -5654,7 +5654,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#setproperty[setProperty]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#setproperty[setProperty]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L72[data/observable/index.ts:72]
 
@@ -5681,7 +5681,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#settestid[setTestID]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#settestid[setTestID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1126[ui/core/view/view-common.ts:1126]
 
@@ -5705,7 +5705,7 @@ Android only to set the touch listener
 
 xref:View.adoc[`View`]
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#showmodal[showModal]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#showmodal[showModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L363[ui/core/view/view-common.ts:363]
 
@@ -5720,7 +5720,7 @@ xref:View.adoc[`View`]
 
 `string`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#tostring[toString]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#tostring[toString]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1058[ui/core/view-base/index.ts:1058]
 
@@ -5744,7 +5744,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#unbind[unbind]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#unbind[unbind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L627[ui/core/view-base/index.ts:627]
 
@@ -5768,7 +5768,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#unloadview[unloadView]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#unloadview[unloadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L724[ui/core/view-base/index.ts:724]
 
@@ -5798,7 +5798,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#addeventlistener-1[addEventListener]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#addeventlistener-1[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L235[data/observable/index.ts:235]
 
@@ -5825,7 +5825,7 @@ xref:View.adoc[`View`]
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#combinemeasuredstates[combineMeasuredStates]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#combinemeasuredstates[combineMeasuredStates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L572[ui/core/view/index.d.ts:572]
 
@@ -5873,7 +5873,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#layoutchild[layoutChild]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#layoutchild[layoutChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L560[ui/core/view/index.d.ts:560]
 
@@ -5923,7 +5923,7 @@ You can pass null.
 | `number`
 |===
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#measurechild[measureChild]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#measurechild[measureChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L550[ui/core/view/index.d.ts:550]
 
@@ -5953,7 +5953,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#off-1[off]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#off-1[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L183[data/observable/index.ts:183]
 
@@ -5983,7 +5983,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#on-1[on]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#on-1[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L160[data/observable/index.ts:160]
 
@@ -6013,7 +6013,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#once-1[once]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#once-1[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L164[data/observable/index.ts:164]
 
@@ -6043,7 +6043,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#removeeventlistener-1[removeEventListener]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#removeeventlistener-1[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L187[data/observable/index.ts:187]
 
@@ -6080,6 +6080,6 @@ The returned value is a compound integer, with the resolved size in the MEASURED
 
 `number`
 
-==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.md#resolvesizeandstate[resolveSizeAndState]
+==== Inherited from xref:ContainerView.adoc[ContainerView].link:ContainerView.adoc#resolvesizeandstate[resolveSizeAndState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L570[ui/core/view/index.d.ts:570]

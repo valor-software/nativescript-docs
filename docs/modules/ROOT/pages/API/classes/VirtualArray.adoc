@@ -24,49 +24,49 @@ Advanced array like class that helps loading items on demand.
 
 === Constructors
 
-* link:VirtualArray.md#constructor[constructor]
+* link:VirtualArray.adoc#constructor[constructor]
 
 === Properties
 
-* link:VirtualArray.md#_cache[_cache]
-* link:VirtualArray.md#_isviewbase[_isViewBase]
-* link:VirtualArray.md#_length[_length]
-* link:VirtualArray.md#_loadsize[_loadSize]
-* link:VirtualArray.md#_loadedindexes[_loadedIndexes]
-* link:VirtualArray.md#_requestedindexes[_requestedIndexes]
-* link:VirtualArray.md#changeevent[changeEvent]
-* link:VirtualArray.md#itemsloadingevent[itemsLoadingEvent]
-* link:VirtualArray.md#propertychangeevent[propertyChangeEvent]
+* link:VirtualArray.adoc#_cache[_cache]
+* link:VirtualArray.adoc#_isviewbase[_isViewBase]
+* link:VirtualArray.adoc#_length[_length]
+* link:VirtualArray.adoc#_loadsize[_loadSize]
+* link:VirtualArray.adoc#_loadedindexes[_loadedIndexes]
+* link:VirtualArray.adoc#_requestedindexes[_requestedIndexes]
+* link:VirtualArray.adoc#changeevent[changeEvent]
+* link:VirtualArray.adoc#itemsloadingevent[itemsLoadingEvent]
+* link:VirtualArray.adoc#propertychangeevent[propertyChangeEvent]
 
 === Accessors
 
-* link:VirtualArray.md#length[length]
-* link:VirtualArray.md#loadsize[loadSize]
+* link:VirtualArray.adoc#length[length]
+* link:VirtualArray.adoc#loadsize[loadSize]
 
 === Methods
 
-* link:VirtualArray.md#_createpropertychangedata[_createPropertyChangeData]
-* link:VirtualArray.md#_emit[_emit]
-* link:VirtualArray.md#addeventlistener[addEventListener]
-* link:VirtualArray.md#get[get]
-* link:VirtualArray.md#getitem[getItem]
-* link:VirtualArray.md#haslisteners[hasListeners]
-* link:VirtualArray.md#load[load]
-* link:VirtualArray.md#notify[notify]
-* link:VirtualArray.md#notifypropertychange[notifyPropertyChange]
-* link:VirtualArray.md#off[off]
-* link:VirtualArray.md#on[on]
-* link:VirtualArray.md#once[once]
-* link:VirtualArray.md#removeeventlistener[removeEventListener]
-* link:VirtualArray.md#requestitems[requestItems]
-* link:VirtualArray.md#set[set]
-* link:VirtualArray.md#setitem[setItem]
-* link:VirtualArray.md#setproperty[setProperty]
-* link:VirtualArray.md#addeventlistener-1[addEventListener]
-* link:VirtualArray.md#off-1[off]
-* link:VirtualArray.md#on-1[on]
-* link:VirtualArray.md#once-1[once]
-* link:VirtualArray.md#removeeventlistener-1[removeEventListener]
+* link:VirtualArray.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:VirtualArray.adoc#_emit[_emit]
+* link:VirtualArray.adoc#addeventlistener[addEventListener]
+* link:VirtualArray.adoc#get[get]
+* link:VirtualArray.adoc#getitem[getItem]
+* link:VirtualArray.adoc#haslisteners[hasListeners]
+* link:VirtualArray.adoc#load[load]
+* link:VirtualArray.adoc#notify[notify]
+* link:VirtualArray.adoc#notifypropertychange[notifyPropertyChange]
+* link:VirtualArray.adoc#off[off]
+* link:VirtualArray.adoc#on[on]
+* link:VirtualArray.adoc#once[once]
+* link:VirtualArray.adoc#removeeventlistener[removeEventListener]
+* link:VirtualArray.adoc#requestitems[requestItems]
+* link:VirtualArray.adoc#set[set]
+* link:VirtualArray.adoc#setitem[setItem]
+* link:VirtualArray.adoc#setproperty[setProperty]
+* link:VirtualArray.adoc#addeventlistener-1[addEventListener]
+* link:VirtualArray.adoc#off-1[off]
+* link:VirtualArray.adoc#on-1[on]
+* link:VirtualArray.adoc#once-1[once]
+* link:VirtualArray.adoc#removeeventlistener-1[removeEventListener]
 
 == Constructors
 

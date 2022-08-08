@@ -8,11 +8,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 === Enumeration Members
 
-* link:AccessibilityTrait.md#allowsdirectinteraction[AllowsDirectInteraction]
-* link:AccessibilityTrait.md#causespageturn[CausesPageTurn]
-* link:AccessibilityTrait.md#notenabled[NotEnabled]
-* link:AccessibilityTrait.md#selected[Selected]
-* link:AccessibilityTrait.md#updatesfrequently[UpdatesFrequently]
+* link:AccessibilityTrait.adoc#allowsdirectinteraction[AllowsDirectInteraction]
+* link:AccessibilityTrait.adoc#causespageturn[CausesPageTurn]
+* link:AccessibilityTrait.adoc#notenabled[NotEnabled]
+* link:AccessibilityTrait.adoc#selected[Selected]
+* link:AccessibilityTrait.adoc#updatesfrequently[UpdatesFrequently]
 
 == Enumeration Members
 
@@ -23,9 +23,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 The element allows direct touch interaction for VoiceOver users.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L7[accessibility/accessibility-types.ts:7]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L7[accessibility/accessibility-types.ts:7]
 
 '''
 
@@ -37,9 +35,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 The element should cause an automatic page turn when VoiceOver finishes reading the text within it.
 Note: Requires custom view with accessibilityScroll(...)
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L13[accessibility/accessibility-types.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L13[accessibility/accessibility-types.ts:13]
 
 '''
 
@@ -50,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element is not enabled and does not respond to user interaction.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L18[accessibility/accessibility-types.ts:18]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L18[accessibility/accessibility-types.ts:18]
 
 '''
 
@@ -63,9 +57,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element is currently selected.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L23[accessibility/accessibility-types.ts:23]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L23[accessibility/accessibility-types.ts:23]
 
 '''
 
@@ -76,6 +68,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element frequently updates its label or value.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L28[accessibility/accessibility-types.ts:28]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L28[accessibility/accessibility-types.ts:28]

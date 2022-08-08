@@ -8,15 +8,15 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / IDevice
 
 === Properties
 
-* link:IDevice.md#devicetype[deviceType]
-* link:IDevice.md#language[language]
-* link:IDevice.md#manufacturer[manufacturer]
-* link:IDevice.md#model[model]
-* link:IDevice.md#os[os]
-* link:IDevice.md#osversion[osVersion]
-* link:IDevice.md#region[region]
-* link:IDevice.md#sdkversion[sdkVersion]
-* link:IDevice.md#uuid[uuid]
+* link:IDevice.adoc#devicetype[deviceType]
+* link:IDevice.adoc#language[language]
+* link:IDevice.adoc#manufacturer[manufacturer]
+* link:IDevice.adoc#model[model]
+* link:IDevice.adoc#os[os]
+* link:IDevice.adoc#osversion[osVersion]
+* link:IDevice.adoc#region[region]
+* link:IDevice.adoc#sdkversion[sdkVersion]
+* link:IDevice.adoc#uuid[uuid]
 
 == Properties
 

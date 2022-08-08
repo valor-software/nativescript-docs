@@ -10,16 +10,16 @@ Defines row/column specific properties that apply to GridLayout elements.
 
 === Constructors
 
-* link:ItemSpec.md#constructor[constructor]
+* link:ItemSpec.adoc#constructor[constructor]
 
 === Properties
 
-* link:ItemSpec.md#actuallength[actualLength]
-* link:ItemSpec.md#gridunittype[gridUnitType]
-* link:ItemSpec.md#isabsolute[isAbsolute]
-* link:ItemSpec.md#isauto[isAuto]
-* link:ItemSpec.md#isstar[isStar]
-* link:ItemSpec.md#value[value]
+* link:ItemSpec.adoc#actuallength[actualLength]
+* link:ItemSpec.adoc#gridunittype[gridUnitType]
+* link:ItemSpec.adoc#isabsolute[isAbsolute]
+* link:ItemSpec.adoc#isauto[isAuto]
+* link:ItemSpec.adoc#isstar[isStar]
+* link:ItemSpec.adoc#value[value]
 
 == Constructors
 
@@ -41,7 +41,7 @@ Defines row/column specific properties that apply to GridLayout elements.
 | `number`
 
 | `type`
-| link:../modules.md#gridunittype[`GridUnitType`]
+| link:../modules.adoc#gridunittype[`GridUnitType`]
 |===
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L10[ui/layouts/grid-layout/index.d.ts:10]
@@ -62,7 +62,7 @@ Gets the actual length of an ItemSpec.
 [#gridunittype]
 === gridUnitType
 
-• *gridUnitType*: link:../modules.md#gridunittype[`GridUnitType`]
+• *gridUnitType*: link:../modules.adoc#gridunittype[`GridUnitType`]
 
 Returns unit type of this ItemSpec instance.
 

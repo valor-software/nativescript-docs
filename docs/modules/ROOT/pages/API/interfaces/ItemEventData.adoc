@@ -16,12 +16,12 @@ Event data containing information for the index and the view associated to a lis
 
 === Properties
 
-* link:ItemEventData.md#android[android]
-* link:ItemEventData.md#eventname[eventName]
-* link:ItemEventData.md#index[index]
-* link:ItemEventData.md#ios[ios]
-* link:ItemEventData.md#object[object]
-* link:ItemEventData.md#view[view]
+* link:ItemEventData.adoc#android[android]
+* link:ItemEventData.adoc#eventname[eventName]
+* link:ItemEventData.adoc#index[index]
+* link:ItemEventData.adoc#ios[ios]
+* link:ItemEventData.adoc#object[object]
+* link:ItemEventData.adoc#view[view]
 
 == Properties
 
@@ -44,7 +44,7 @@ Valid only when running on Android OS.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -80,7 +80,7 @@ Valid only when running on iOS.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

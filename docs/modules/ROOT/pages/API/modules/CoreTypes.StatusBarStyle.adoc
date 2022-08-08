@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].StatusBarStyle
 
 === Variables
 
-* link:CoreTypes.StatusBarStyle.md#dark[dark]
-* link:CoreTypes.StatusBarStyle.md#light[light]
+* link:CoreTypes.StatusBarStyle.adoc#dark[dark]
+* link:CoreTypes.StatusBarStyle.adoc#light[light]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].StatusBarStyle
 
 • `Const` *dark*: `"dark"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L268[core-types/index.ts:268]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L268[core-types/index.ts:268]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *light*: `"light"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L267[core-types/index.ts:267]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L267[core-types/index.ts:267]

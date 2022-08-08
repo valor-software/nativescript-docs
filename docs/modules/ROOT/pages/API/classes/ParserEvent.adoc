@@ -16,31 +16,31 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ParserEvent
 
 === Constructors
 
-* link:ParserEvent.md#constructor[constructor]
+* link:ParserEvent.adoc#constructor[constructor]
 
 === Properties
 
-* link:ParserEvent.md#_attributes[_attributes]
-* link:ParserEvent.md#_data[_data]
-* link:ParserEvent.md#_elementname[_elementName]
-* link:ParserEvent.md#_eventtype[_eventType]
-* link:ParserEvent.md#_namespace[_namespace]
-* link:ParserEvent.md#_position[_position]
-* link:ParserEvent.md#_prefix[_prefix]
+* link:ParserEvent.adoc#_attributes[_attributes]
+* link:ParserEvent.adoc#_data[_data]
+* link:ParserEvent.adoc#_elementname[_elementName]
+* link:ParserEvent.adoc#_eventtype[_eventType]
+* link:ParserEvent.adoc#_namespace[_namespace]
+* link:ParserEvent.adoc#_position[_position]
+* link:ParserEvent.adoc#_prefix[_prefix]
 
 === Accessors
 
-* link:ParserEvent.md#attributes[attributes]
-* link:ParserEvent.md#data[data]
-* link:ParserEvent.md#elementname[elementName]
-* link:ParserEvent.md#eventtype[eventType]
-* link:ParserEvent.md#namespace[namespace]
-* link:ParserEvent.md#position[position]
-* link:ParserEvent.md#prefix[prefix]
+* link:ParserEvent.adoc#attributes[attributes]
+* link:ParserEvent.adoc#data[data]
+* link:ParserEvent.adoc#elementname[elementName]
+* link:ParserEvent.adoc#eventtype[eventType]
+* link:ParserEvent.adoc#namespace[namespace]
+* link:ParserEvent.adoc#position[position]
+* link:ParserEvent.adoc#prefix[prefix]
 
 === Methods
 
-* link:ParserEvent.md#tostring[toString]
+* link:ParserEvent.adoc#tostring[toString]
 
 == Constructors
 

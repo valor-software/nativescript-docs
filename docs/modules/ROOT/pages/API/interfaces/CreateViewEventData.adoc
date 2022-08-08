@@ -14,10 +14,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CreateViewEv
 
 === Properties
 
-* link:CreateViewEventData.md#context[context]
-* link:CreateViewEventData.md#eventname[eventName]
-* link:CreateViewEventData.md#object[object]
-* link:CreateViewEventData.md#view[view]
+* link:CreateViewEventData.adoc#context[context]
+* link:CreateViewEventData.adoc#eventname[eventName]
+* link:CreateViewEventData.adoc#object[object]
+* link:CreateViewEventData.adoc#view[view]
 
 == Properties
 
@@ -39,7 +39,7 @@ An optional context for creating the view.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -52,7 +52,7 @@ xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

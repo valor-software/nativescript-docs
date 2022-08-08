@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].AndroidActionItemPosition
 
 === Variables
 
-* link:CoreTypes.AndroidActionItemPosition.md#actionbar[actionBar]
-* link:CoreTypes.AndroidActionItemPosition.md#actionbarifroom[actionBarIfRoom]
-* link:CoreTypes.AndroidActionItemPosition.md#popup[popup]
+* link:CoreTypes.AndroidActionItemPosition.adoc#actionbar[actionBar]
+* link:CoreTypes.AndroidActionItemPosition.adoc#actionbarifroom[actionBarIfRoom]
+* link:CoreTypes.AndroidActionItemPosition.adoc#popup[popup]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].AndroidActionItemPosition
 
 • `Const` *actionBar*: `string` = `'actionBar'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L207[core-types/index.ts:207]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L207[core-types/index.ts:207]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *actionBarIfRoom*: `string` = `'actionBarIfRoom'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L208[core-types/index.ts:208]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L208[core-types/index.ts:208]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *popup*: `string` = `'popup'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L209[core-types/index.ts:209]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L209[core-types/index.ts:209]

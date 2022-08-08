@@ -11,8 +11,8 @@ It has two properties width and height, representing the width and height values
 
 === Properties
 
-* link:Size.md#height[height]
-* link:Size.md#width[width]
+* link:Size.adoc#height[height]
+* link:Size.adoc#width[width]
 
 == Properties
 

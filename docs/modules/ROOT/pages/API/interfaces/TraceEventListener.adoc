@@ -10,11 +10,11 @@ An interface used to trace information about specific event.
 
 === Properties
 
-* link:TraceEventListener.md#filter[filter]
+* link:TraceEventListener.adoc#filter[filter]
 
 === Methods
 
-* link:TraceEventListener.md#on[on]
+* link:TraceEventListener.adoc#on[on]
 
 == Properties
 

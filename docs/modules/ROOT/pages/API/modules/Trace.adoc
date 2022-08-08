@@ -17,22 +17,22 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Trace
 
 === Functions
 
-* link:Trace.md#addcategories[addCategories]
-* link:Trace.md#addeventlistener[addEventListener]
-* link:Trace.md#addwriter[addWriter]
-* link:Trace.md#clearwriters[clearWriters]
-* link:Trace.md#disable[disable]
-* link:Trace.md#enable[enable]
-* link:Trace.md#error[error]
-* link:Trace.md#geterrorhandler[getErrorHandler]
-* link:Trace.md#iscategoryset[isCategorySet]
-* link:Trace.md#isenabled[isEnabled]
-* link:Trace.md#notifyevent[notifyEvent]
-* link:Trace.md#removeeventlistener[removeEventListener]
-* link:Trace.md#removewriter[removeWriter]
-* link:Trace.md#setcategories[setCategories]
-* link:Trace.md#seterrorhandler[setErrorHandler]
-* link:Trace.md#write[write]
+* link:Trace.adoc#addcategories[addCategories]
+* link:Trace.adoc#addeventlistener[addEventListener]
+* link:Trace.adoc#addwriter[addWriter]
+* link:Trace.adoc#clearwriters[clearWriters]
+* link:Trace.adoc#disable[disable]
+* link:Trace.adoc#enable[enable]
+* link:Trace.adoc#error[error]
+* link:Trace.adoc#geterrorhandler[getErrorHandler]
+* link:Trace.adoc#iscategoryset[isCategorySet]
+* link:Trace.adoc#isenabled[isEnabled]
+* link:Trace.adoc#notifyevent[notifyEvent]
+* link:Trace.adoc#removeeventlistener[removeEventListener]
+* link:Trace.adoc#removewriter[removeWriter]
+* link:Trace.adoc#setcategories[setCategories]
+* link:Trace.adoc#seterrorhandler[setErrorHandler]
+* link:Trace.adoc#write[write]
 
 == Functions
 
@@ -58,9 +58,7 @@ If not specified all messages from all categories will be traced.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L94[trace/index.ts:94]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L94[trace/index.ts:94]
 
 '''
 
@@ -82,9 +80,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L166[trace/index.ts:166]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L166[trace/index.ts:166]
 
 '''
 
@@ -109,9 +105,7 @@ Adds a TraceWriter instance to the trace module.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L57[trace/index.ts:57]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L57[trace/index.ts:57]
 
 '''
 
@@ -126,9 +120,7 @@ Clears all the writers from the trace module.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L75[trace/index.ts:75]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L75[trace/index.ts:75]
 
 '''
 
@@ -143,9 +135,7 @@ Disables the trace module.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L40[trace/index.ts:40]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L40[trace/index.ts:40]
 
 '''
 
@@ -160,9 +150,7 @@ Enables the trace module.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L33[trace/index.ts:33]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L33[trace/index.ts:33]
 
 '''
 
@@ -187,9 +175,7 @@ Passes an error to the registered ErrorHandler
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L274[trace/index.ts:274]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L274[trace/index.ts:274]
 
 '''
 
@@ -202,9 +188,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 xref:../interfaces/TraceErrorHandler.adoc[`TraceErrorHandler`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L262[trace/index.ts:262]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L262[trace/index.ts:262]
 
 '''
 
@@ -229,9 +213,7 @@ Check if category is already set in trace module.
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L105[trace/index.ts:105]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L105[trace/index.ts:105]
 
 '''
 
@@ -248,9 +230,7 @@ Send error messages even if tracing is disabled.
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L49[trace/index.ts:49]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L49[trace/index.ts:49]
 
 '''
 
@@ -283,9 +263,7 @@ Notifies all the attached listeners for an event that has occurred in the sender
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L145[trace/index.ts:145]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L145[trace/index.ts:145]
 
 '''
 
@@ -307,9 +285,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L170[trace/index.ts:170]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L170[trace/index.ts:170]
 
 '''
 
@@ -334,9 +310,7 @@ Removes a TraceWriter instance from the trace module.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L65[trace/index.ts:65]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L65[trace/index.ts:65]
 
 '''
 
@@ -362,9 +336,7 @@ If not specified all messages from all categories will be traced.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L85[trace/index.ts:85]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L85[trace/index.ts:85]
 
 '''
 
@@ -386,9 +358,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L266[trace/index.ts:266]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L266[trace/index.ts:266]
 
 '''
 
@@ -421,6 +391,4 @@ Writes a message using the available writers.
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L115[trace/index.ts:115]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L115[trace/index.ts:115]

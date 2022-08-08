@@ -10,10 +10,10 @@ xref:CoreTypes.adoc[CoreTypes].VerticalAlignment
 
 === Variables
 
-* link:CoreTypes.VerticalAlignment.md#bottom[bottom]
-* link:CoreTypes.VerticalAlignment.md#middle[middle]
-* link:CoreTypes.VerticalAlignment.md#stretch[stretch]
-* link:CoreTypes.VerticalAlignment.md#top[top]
+* link:CoreTypes.VerticalAlignment.adoc#bottom[bottom]
+* link:CoreTypes.VerticalAlignment.adoc#middle[middle]
+* link:CoreTypes.VerticalAlignment.adoc#stretch[stretch]
+* link:CoreTypes.VerticalAlignment.adoc#top[top]
 
 == Variables
 
@@ -22,9 +22,7 @@ xref:CoreTypes.adoc[CoreTypes].VerticalAlignment
 
 • `Const` *bottom*: `"bottom"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L118[core-types/index.ts:118]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L118[core-types/index.ts:118]
 
 '''
 
@@ -33,9 +31,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *middle*: `"middle"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L117[core-types/index.ts:117]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L117[core-types/index.ts:117]
 
 '''
 
@@ -44,9 +40,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *stretch*: `"stretch"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L119[core-types/index.ts:119]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L119[core-types/index.ts:119]
 
 '''
 
@@ -55,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *top*: `"top"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L116[core-types/index.ts:116]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L116[core-types/index.ts:116]

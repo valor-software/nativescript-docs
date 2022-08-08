@@ -8,14 +8,14 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / GridUnitType
 
 === Variables
 
-* link:GridUnitType.md#auto[AUTO]
-* link:GridUnitType.md#pixel[PIXEL]
-* link:GridUnitType.md#star[STAR]
+* link:GridUnitType.adoc#auto[AUTO]
+* link:GridUnitType.adoc#pixel[PIXEL]
+* link:GridUnitType.adoc#star[STAR]
 
 === Functions
 
-* link:GridUnitType.md#isvalid[isValid]
-* link:GridUnitType.md#parse[parse]
+* link:GridUnitType.adoc#isvalid[isValid]
+* link:GridUnitType.adoc#parse[parse]
 
 == Variables
 
@@ -24,9 +24,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / GridUnitType
 
 • `Const` *AUTO*: `"auto"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L179[ui/layouts/grid-layout/index.d.ts:179]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L179[ui/layouts/grid-layout/index.d.ts:179]
 
 '''
 
@@ -35,9 +33,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 • `Const` *PIXEL*: `"pixel"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L177[ui/layouts/grid-layout/index.d.ts:177]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L177[ui/layouts/grid-layout/index.d.ts:177]
 
 '''
 
@@ -46,9 +42,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 • `Const` *STAR*: `"star"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L178[ui/layouts/grid-layout/index.d.ts:178]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L178[ui/layouts/grid-layout/index.d.ts:178]
 
 == Functions
 
@@ -70,16 +64,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L180[ui/layouts/grid-layout/index.d.ts:180]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L180[ui/layouts/grid-layout/index.d.ts:180]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`value`): link:../modules.md#gridunittype[`GridUnitType`]
+▸ *parse*(`value`): link:../modules.adoc#gridunittype[`GridUnitType`]
 
 ==== Parameters
 
@@ -92,8 +84,6 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 ==== Returns
 
-link:../modules.md#gridunittype[`GridUnitType`]
+link:../modules.adoc#gridunittype[`GridUnitType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L181[ui/layouts/grid-layout/index.d.ts:181]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L181[ui/layouts/grid-layout/index.d.ts:181]

@@ -24,9 +24,9 @@ Data for the Android activity events.
 
 === Properties
 
-* link:AndroidActivityEventData.md#activity[activity]
-* link:AndroidActivityEventData.md#eventname[eventName]
-* link:AndroidActivityEventData.md#object[object]
+* link:AndroidActivityEventData.adoc#activity[activity]
+* link:AndroidActivityEventData.adoc#eventname[eventName]
+* link:AndroidActivityEventData.adoc#object[object]
 
 == Properties
 

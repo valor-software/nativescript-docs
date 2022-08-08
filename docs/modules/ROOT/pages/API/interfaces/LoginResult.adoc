@@ -10,9 +10,9 @@ Provides result data from the login dialog.
 
 === Properties
 
-* link:LoginResult.md#password[password]
-* link:LoginResult.md#result[result]
-* link:LoginResult.md#username[userName]
+* link:LoginResult.adoc#password[password]
+* link:LoginResult.adoc#result[result]
+* link:LoginResult.adoc#username[userName]
 
 == Properties
 

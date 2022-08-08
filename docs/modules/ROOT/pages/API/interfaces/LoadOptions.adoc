@@ -8,11 +8,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadOptions
 
 === Properties
 
-* link:LoadOptions.md#attributes[attributes]
-* link:LoadOptions.md#exports[exports]
-* link:LoadOptions.md#name[name]
-* link:LoadOptions.md#page[page]
-* link:LoadOptions.md#path[path]
+* link:LoadOptions.adoc#attributes[attributes]
+* link:LoadOptions.adoc#exports[exports]
+* link:LoadOptions.adoc#name[name]
+* link:LoadOptions.adoc#page[page]
+* link:LoadOptions.adoc#path[path]
 
 == Properties
 

@@ -10,10 +10,10 @@ Represents a single download request.
 
 === Properties
 
-* link:DownloadRequest.md#completed[completed]
-* link:DownloadRequest.md#error[error]
-* link:DownloadRequest.md#key[key]
-* link:DownloadRequest.md#url[url]
+* link:DownloadRequest.adoc#completed[completed]
+* link:DownloadRequest.adoc#error[error]
+* link:DownloadRequest.adoc#key[key]
+* link:DownloadRequest.adoc#url[url]
 
 == Properties
 

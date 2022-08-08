@@ -16,12 +16,12 @@ Data for the Android activity result event.
 
 === Properties
 
-* link:AndroidActivityResultEventData.md#activity[activity]
-* link:AndroidActivityResultEventData.md#eventname[eventName]
-* link:AndroidActivityResultEventData.md#intent[intent]
-* link:AndroidActivityResultEventData.md#object[object]
-* link:AndroidActivityResultEventData.md#requestcode[requestCode]
-* link:AndroidActivityResultEventData.md#resultcode[resultCode]
+* link:AndroidActivityResultEventData.adoc#activity[activity]
+* link:AndroidActivityResultEventData.adoc#eventname[eventName]
+* link:AndroidActivityResultEventData.adoc#intent[intent]
+* link:AndroidActivityResultEventData.adoc#object[object]
+* link:AndroidActivityResultEventData.adoc#requestcode[requestCode]
+* link:AndroidActivityResultEventData.adoc#resultcode[resultCode]
 
 == Properties
 
@@ -34,7 +34,7 @@ The activity.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#activity[activity]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#activity[activity]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
 
@@ -49,7 +49,7 @@ The name of the event.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#eventname[eventName]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
 
@@ -75,7 +75,7 @@ The instance that has raised the event.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#object[object]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]
 

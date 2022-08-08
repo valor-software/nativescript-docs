@@ -16,13 +16,13 @@ Provides options for the dialog.
 
 === Properties
 
-* link:ActionOptions.md#actions[actions]
-* link:ActionOptions.md#cancelbuttontext[cancelButtonText]
-* link:ActionOptions.md#cancelable[cancelable]
-* link:ActionOptions.md#destructiveactionsindexes[destructiveActionsIndexes]
-* link:ActionOptions.md#message[message]
-* link:ActionOptions.md#theme[theme]
-* link:ActionOptions.md#title[title]
+* link:ActionOptions.adoc#actions[actions]
+* link:ActionOptions.adoc#cancelbuttontext[cancelButtonText]
+* link:ActionOptions.adoc#cancelable[cancelable]
+* link:ActionOptions.adoc#destructiveactionsindexes[destructiveActionsIndexes]
+* link:ActionOptions.adoc#message[message]
+* link:ActionOptions.adoc#theme[theme]
+* link:ActionOptions.adoc#title[title]
 
 == Properties
 
@@ -57,7 +57,7 @@ Gets or sets the Cancel button text.
 
 ==== Inherited from
 
-xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#cancelable[cancelable]
+xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.adoc#cancelable[cancelable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
@@ -95,7 +95,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 ==== Inherited from
 
-xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#theme[theme]
+xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.adoc#theme[theme]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 

@@ -10,12 +10,12 @@ Encapsulates the content of an HttpResponse.
 
 === Properties
 
-* link:HttpContent.md#raw[raw]
-* link:HttpContent.md#toarraybuffer[toArrayBuffer]
-* link:HttpContent.md#tofile[toFile]
-* link:HttpContent.md#toimage[toImage]
-* link:HttpContent.md#tojson[toJSON]
-* link:HttpContent.md#tostring[toString]
+* link:HttpContent.adoc#raw[raw]
+* link:HttpContent.adoc#toarraybuffer[toArrayBuffer]
+* link:HttpContent.adoc#tofile[toFile]
+* link:HttpContent.adoc#toimage[toImage]
+* link:HttpContent.adoc#tojson[toJSON]
+* link:HttpContent.adoc#tostring[toString]
 
 == Properties
 

@@ -10,18 +10,18 @@ Defines animation options for the View.animate method.
 
 === Properties
 
-* link:AnimationDefinition.md#backgroundcolor[backgroundColor]
-* link:AnimationDefinition.md#curve[curve]
-* link:AnimationDefinition.md#delay[delay]
-* link:AnimationDefinition.md#duration[duration]
-* link:AnimationDefinition.md#height[height]
-* link:AnimationDefinition.md#iterations[iterations]
-* link:AnimationDefinition.md#opacity[opacity]
-* link:AnimationDefinition.md#rotate[rotate]
-* link:AnimationDefinition.md#scale[scale]
-* link:AnimationDefinition.md#target[target]
-* link:AnimationDefinition.md#translate[translate]
-* link:AnimationDefinition.md#width[width]
+* link:AnimationDefinition.adoc#backgroundcolor[backgroundColor]
+* link:AnimationDefinition.adoc#curve[curve]
+* link:AnimationDefinition.adoc#delay[delay]
+* link:AnimationDefinition.adoc#duration[duration]
+* link:AnimationDefinition.adoc#height[height]
+* link:AnimationDefinition.adoc#iterations[iterations]
+* link:AnimationDefinition.adoc#opacity[opacity]
+* link:AnimationDefinition.adoc#rotate[rotate]
+* link:AnimationDefinition.adoc#scale[scale]
+* link:AnimationDefinition.adoc#target[target]
+* link:AnimationDefinition.adoc#translate[translate]
+* link:AnimationDefinition.adoc#width[width]
 
 == Properties
 
@@ -75,7 +75,7 @@ The default duration is 300 milliseconds.
 [#height]
 === height
 
-• `Optional` *height*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• `Optional` *height*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Animates the height of a view.
 
@@ -158,7 +158,7 @@ Animates the translate affine transform of the view.
 [#width]
 === width
 
-• `Optional` *width*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• `Optional` *width*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Animates the width of a view.
 

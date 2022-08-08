@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].NavigationBarVisibility
 
 === Variables
 
-* link:CoreTypes.NavigationBarVisibility.md#always[always]
-* link:CoreTypes.NavigationBarVisibility.md#auto[auto]
-* link:CoreTypes.NavigationBarVisibility.md#never[never]
+* link:CoreTypes.NavigationBarVisibility.adoc#always[always]
+* link:CoreTypes.NavigationBarVisibility.adoc#auto[auto]
+* link:CoreTypes.NavigationBarVisibility.adoc#never[never]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].NavigationBarVisibility
 
 • `Const` *always*: `string` = `'always'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L197[core-types/index.ts:197]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L197[core-types/index.ts:197]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *auto*: `string` = `'auto'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L195[core-types/index.ts:195]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L195[core-types/index.ts:195]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *never*: `string` = `'never'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L196[core-types/index.ts:196]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L196[core-types/index.ts:196]

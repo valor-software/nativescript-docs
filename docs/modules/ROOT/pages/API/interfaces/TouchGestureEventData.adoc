@@ -16,21 +16,21 @@ Provides gesture event data.
 
 === Properties
 
-* link:TouchGestureEventData.md#action[action]
-* link:TouchGestureEventData.md#android[android]
-* link:TouchGestureEventData.md#eventname[eventName]
-* link:TouchGestureEventData.md#ios[ios]
-* link:TouchGestureEventData.md#object[object]
-* link:TouchGestureEventData.md#type[type]
-* link:TouchGestureEventData.md#view[view]
+* link:TouchGestureEventData.adoc#action[action]
+* link:TouchGestureEventData.adoc#android[android]
+* link:TouchGestureEventData.adoc#eventname[eventName]
+* link:TouchGestureEventData.adoc#ios[ios]
+* link:TouchGestureEventData.adoc#object[object]
+* link:TouchGestureEventData.adoc#type[type]
+* link:TouchGestureEventData.adoc#view[view]
 
 === Methods
 
-* link:TouchGestureEventData.md#getactivepointers[getActivePointers]
-* link:TouchGestureEventData.md#getallpointers[getAllPointers]
-* link:TouchGestureEventData.md#getpointercount[getPointerCount]
-* link:TouchGestureEventData.md#getx[getX]
-* link:TouchGestureEventData.md#gety[getY]
+* link:TouchGestureEventData.adoc#getactivepointers[getActivePointers]
+* link:TouchGestureEventData.adoc#getallpointers[getAllPointers]
+* link:TouchGestureEventData.adoc#getpointercount[getPointerCount]
+* link:TouchGestureEventData.adoc#getx[getX]
+* link:TouchGestureEventData.adoc#gety[getY]
 
 == Properties
 
@@ -55,7 +55,7 @@ Gets the underlying native android specific http://developer.android.com/referen
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#android[android]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
 
@@ -68,7 +68,7 @@ xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#a
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#eventname[eventName]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -83,7 +83,7 @@ Gets the underlying native iOS specific https://developer.apple.com/library/ios/
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#ios[ios]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
 
@@ -96,7 +96,7 @@ xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#i
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#object[object]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
@@ -111,7 +111,7 @@ Gets the type of the gesture.
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#type[type]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#type[type]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
 
@@ -126,7 +126,7 @@ Gets the view which originates the gesture.
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#view[view]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#view[view]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]
 
@@ -176,7 +176,7 @@ Gets the number of pointers in the event.
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#getpointercount[getPointerCount]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#getpointercount[getPointerCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L161[ui/gestures/index.d.ts:161]
 
@@ -195,7 +195,7 @@ Gets the X coordinate of this event inside the view that triggered the event
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#getx[getX]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#getx[getX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L165[ui/gestures/index.d.ts:165]
 
@@ -214,6 +214,6 @@ Gets the Y coordinate of the event inside the view that triggered the event.
 
 ==== Inherited from
 
-xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.md#gety[getY]
+xref:TapGestureEventData.adoc[TapGestureEventData].link:TapGestureEventData.adoc#gety[getY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L169[ui/gestures/index.d.ts:169]

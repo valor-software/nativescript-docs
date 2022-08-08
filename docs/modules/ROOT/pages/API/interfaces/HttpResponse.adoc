@@ -10,9 +10,9 @@ Encapsulates HTTP-response information from an HTTP-request.
 
 === Properties
 
-* link:HttpResponse.md#content[content]
-* link:HttpResponse.md#headers[headers]
-* link:HttpResponse.md#statuscode[statusCode]
+* link:HttpResponse.adoc#content[content]
+* link:HttpResponse.adoc#headers[headers]
+* link:HttpResponse.adoc#statuscode[statusCode]
 
 == Properties
 
@@ -30,7 +30,7 @@ Gets the response content.
 [#headers]
 === headers
 
-• *headers*: link:../modules.md#headers[`Headers`]
+• *headers*: link:../modules.adoc#headers[`Headers`]
 
 Gets the response headers.
 

@@ -8,15 +8,15 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ChangeType
 
 === Constructors
 
-* link:ChangeType.md#constructor[constructor]
+* link:ChangeType.adoc#constructor[constructor]
 
 === Properties
 
-* link:ChangeType.md#add[Add]
-* link:ChangeType.md#change[Change]
-* link:ChangeType.md#delete[Delete]
-* link:ChangeType.md#splice[Splice]
-* link:ChangeType.md#update[Update]
+* link:ChangeType.adoc#add[Add]
+* link:ChangeType.adoc#change[Change]
+* link:ChangeType.adoc#delete[Delete]
+* link:ChangeType.adoc#splice[Splice]
+* link:ChangeType.adoc#update[Update]
 
 == Constructors
 

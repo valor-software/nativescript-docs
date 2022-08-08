@@ -20,13 +20,13 @@ Provides options for the confirm dialog.
 
 === Properties
 
-* link:ConfirmOptions.md#cancelbuttontext[cancelButtonText]
-* link:ConfirmOptions.md#cancelable[cancelable]
-* link:ConfirmOptions.md#message[message]
-* link:ConfirmOptions.md#neutralbuttontext[neutralButtonText]
-* link:ConfirmOptions.md#okbuttontext[okButtonText]
-* link:ConfirmOptions.md#theme[theme]
-* link:ConfirmOptions.md#title[title]
+* link:ConfirmOptions.adoc#cancelbuttontext[cancelButtonText]
+* link:ConfirmOptions.adoc#cancelable[cancelable]
+* link:ConfirmOptions.adoc#message[message]
+* link:ConfirmOptions.adoc#neutralbuttontext[neutralButtonText]
+* link:ConfirmOptions.adoc#okbuttontext[okButtonText]
+* link:ConfirmOptions.adoc#theme[theme]
+* link:ConfirmOptions.adoc#title[title]
 
 == Properties
 
@@ -50,7 +50,7 @@ Gets or sets the Cancel button text.
 
 ==== Inherited from
 
-xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#cancelable[cancelable]
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.adoc#cancelable[cancelable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
@@ -65,7 +65,7 @@ Gets or sets the dialog message.
 
 ==== Inherited from
 
-xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#message[message]
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.adoc#message[message]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
 
@@ -91,7 +91,7 @@ Gets or sets the OK button text.
 
 ==== Inherited from
 
-xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#okbuttontext[okButtonText]
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.adoc#okbuttontext[okButtonText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
 
@@ -107,7 +107,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 ==== Inherited from
 
-xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#theme[theme]
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.adoc#theme[theme]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 
@@ -122,6 +122,6 @@ Gets or sets the dialog title.
 
 ==== Inherited from
 
-xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.md#title[title]
+xref:AlertOptions.adoc[AlertOptions].link:AlertOptions.adoc#title[title]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]

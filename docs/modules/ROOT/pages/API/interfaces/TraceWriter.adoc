@@ -10,7 +10,7 @@ An interface used to define a writer used by trace to print (log).
 
 === Methods
 
-* link:TraceWriter.md#write[write]
+* link:TraceWriter.adoc#write[write]
 
 == Methods
 

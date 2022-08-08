@@ -10,51 +10,43 @@ xref:CoreTypes.adoc[CoreTypes].Dock
 
 === Variables
 
-* link:CoreTypes.Dock.md#bottom[bottom]
-* link:CoreTypes.Dock.md#left[left]
-* link:CoreTypes.Dock.md#right[right]
-* link:CoreTypes.Dock.md#top[top]
+* link:CoreTypes.Dock.adoc#bottom[bottom]
+* link:CoreTypes.Dock.adoc#left[left]
+* link:CoreTypes.Dock.adoc#right[right]
+* link:CoreTypes.Dock.adoc#top[top]
 
 == Variables
 
 [#bottom]
 === bottom
 
-• `Const` *bottom*: link:CoreTypes.md#docktype[`DockType`] = `'bottom'`
+• `Const` *bottom*: link:CoreTypes.adoc#docktype[`DockType`] = `'bottom'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L183[core-types/index.ts:183]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L183[core-types/index.ts:183]
 
 '''
 
 [#left]
 === left
 
-• `Const` *left*: link:CoreTypes.md#docktype[`DockType`] = `'left'`
+• `Const` *left*: link:CoreTypes.adoc#docktype[`DockType`] = `'left'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L180[core-types/index.ts:180]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L180[core-types/index.ts:180]
 
 '''
 
 [#right]
 === right
 
-• `Const` *right*: link:CoreTypes.md#docktype[`DockType`] = `'right'`
+• `Const` *right*: link:CoreTypes.adoc#docktype[`DockType`] = `'right'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L182[core-types/index.ts:182]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L182[core-types/index.ts:182]
 
 '''
 
 [#top]
 === top
 
-• `Const` *top*: link:CoreTypes.md#docktype[`DockType`] = `'top'`
+• `Const` *top*: link:CoreTypes.adoc#docktype[`DockType`] = `'top'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L181[core-types/index.ts:181]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L181[core-types/index.ts:181]

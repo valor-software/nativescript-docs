@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].DeviceOrientation
 
 === Variables
 
-* link:CoreTypes.DeviceOrientation.md#landscape[landscape]
-* link:CoreTypes.DeviceOrientation.md#portrait[portrait]
-* link:CoreTypes.DeviceOrientation.md#unknown[unknown]
+* link:CoreTypes.DeviceOrientation.adoc#landscape[landscape]
+* link:CoreTypes.DeviceOrientation.adoc#portrait[portrait]
+* link:CoreTypes.DeviceOrientation.adoc#unknown[unknown]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].DeviceOrientation
 
 • `Const` *landscape*: `"landscape"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L100[core-types/index.ts:100]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L100[core-types/index.ts:100]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *portrait*: `"portrait"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L99[core-types/index.ts:99]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L99[core-types/index.ts:99]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *unknown*: `"unknown"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L101[core-types/index.ts:101]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L101[core-types/index.ts:101]

@@ -10,15 +10,15 @@ xref:CoreTypes.adoc[CoreTypes].FontWeight
 
 === Variables
 
-* link:CoreTypes.FontWeight.md#black[black]
-* link:CoreTypes.FontWeight.md#bold[bold]
-* link:CoreTypes.FontWeight.md#extrabold[extraBold]
-* link:CoreTypes.FontWeight.md#extralight[extraLight]
-* link:CoreTypes.FontWeight.md#light[light]
-* link:CoreTypes.FontWeight.md#medium[medium]
-* link:CoreTypes.FontWeight.md#normal[normal]
-* link:CoreTypes.FontWeight.md#semibold[semiBold]
-* link:CoreTypes.FontWeight.md#thin[thin]
+* link:CoreTypes.FontWeight.adoc#black[black]
+* link:CoreTypes.FontWeight.adoc#bold[bold]
+* link:CoreTypes.FontWeight.adoc#extrabold[extraBold]
+* link:CoreTypes.FontWeight.adoc#extralight[extraLight]
+* link:CoreTypes.FontWeight.adoc#light[light]
+* link:CoreTypes.FontWeight.adoc#medium[medium]
+* link:CoreTypes.FontWeight.adoc#normal[normal]
+* link:CoreTypes.FontWeight.adoc#semibold[semiBold]
+* link:CoreTypes.FontWeight.adoc#thin[thin]
 
 == Variables
 
@@ -27,9 +27,7 @@ xref:CoreTypes.adoc[CoreTypes].FontWeight
 
 • `Const` *black*: `string` = `'900'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L237[core-types/index.ts:237]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L237[core-types/index.ts:237]
 
 '''
 
@@ -38,9 +36,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *bold*: `string` = `'bold'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L235[core-types/index.ts:235]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L235[core-types/index.ts:235]
 
 '''
 
@@ -49,9 +45,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *extraBold*: `string` = `'800'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L236[core-types/index.ts:236]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L236[core-types/index.ts:236]
 
 '''
 
@@ -60,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *extraLight*: `string` = `'200'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L230[core-types/index.ts:230]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L230[core-types/index.ts:230]
 
 '''
 
@@ -71,9 +63,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *light*: `string` = `'300'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L231[core-types/index.ts:231]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L231[core-types/index.ts:231]
 
 '''
 
@@ -82,9 +72,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *medium*: `string` = `'500'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L233[core-types/index.ts:233]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L233[core-types/index.ts:233]
 
 '''
 
@@ -93,9 +81,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *normal*: `string` = `'normal'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L232[core-types/index.ts:232]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L232[core-types/index.ts:232]
 
 '''
 
@@ -104,9 +90,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *semiBold*: `string` = `'600'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L234[core-types/index.ts:234]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L234[core-types/index.ts:234]
 
 '''
 
@@ -115,6 +99,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *thin*: `string` = `'100'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L229[core-types/index.ts:229]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L229[core-types/index.ts:229]

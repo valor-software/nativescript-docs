@@ -16,344 +16,344 @@ Represents a logical unit for navigation (inside Frame).
 
 === Constructors
 
-* link:Page.md#constructor[constructor]
+* link:Page.adoc#constructor[constructor]
 
 === Properties
 
-* link:Page.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
-* link:Page.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
-* link:Page.md#_closemodalcallback[_closeModalCallback]
-* link:Page.md#_context[_context]
-* link:Page.md#_cssstate[_cssState]
-* link:Page.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
-* link:Page.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
-* link:Page.md#_defaultpaddingbottom[_defaultPaddingBottom]
-* link:Page.md#_defaultpaddingleft[_defaultPaddingLeft]
-* link:Page.md#_defaultpaddingright[_defaultPaddingRight]
-* link:Page.md#_defaultpaddingtop[_defaultPaddingTop]
-* link:Page.md#_domid[_domId]
-* link:Page.md#_frame[_frame]
-* link:Page.md#_gestureobservers[_gestureObservers]
-* link:Page.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
-* link:Page.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
-* link:Page.md#_islayoutvalid[_isLayoutValid]
-* link:Page.md#_ispaddingrelative[_isPaddingRelative]
-* link:Page.md#_isstylescopehost[_isStyleScopeHost]
-* link:Page.md#_isviewbase[_isViewBase]
-* link:Page.md#_manager[_manager]
-* link:Page.md#_modalparent[_modalParent]
-* link:Page.md#_modulename[_moduleName]
-* link:Page.md#_oldbottom[_oldBottom]
-* link:Page.md#_oldleft[_oldLeft]
-* link:Page.md#_oldright[_oldRight]
-* link:Page.md#_oldtop[_oldTop]
-* link:Page.md#_stylescope[_styleScope]
-* link:Page.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
-* link:Page.md#_suspendedupdates[_suspendedUpdates]
-* link:Page.md#accessibilityannouncepageenabled[accessibilityAnnouncePageEnabled]
-* link:Page.md#accessibilityhidden[accessibilityHidden]
-* link:Page.md#accessibilityhint[accessibilityHint]
-* link:Page.md#accessibilityidentifier[accessibilityIdentifier]
-* link:Page.md#accessibilitylabel[accessibilityLabel]
-* link:Page.md#accessibilitylanguage[accessibilityLanguage]
-* link:Page.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:Page.md#accessibilitymediasession[accessibilityMediaSession]
-* link:Page.md#accessibilityrole[accessibilityRole]
-* link:Page.md#accessibilitystate[accessibilityState]
-* link:Page.md#accessibilityvalue[accessibilityValue]
-* link:Page.md#accessible[accessible]
-* link:Page.md#actionbar[actionBar]
-* link:Page.md#actionbarhidden[actionBarHidden]
-* link:Page.md#alignself[alignSelf]
-* link:Page.md#android[android]
-* link:Page.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:Page.md#androidelevation[androidElevation]
-* link:Page.md#androidstatusbarbackground[androidStatusBarBackground]
-* link:Page.md#automationtext[automationText]
-* link:Page.md#background[background]
-* link:Page.md#backgroundcolor[backgroundColor]
-* link:Page.md#backgroundimage[backgroundImage]
-* link:Page.md#backgroundspanunderstatusbar[backgroundSpanUnderStatusBar]
-* link:Page.md#bindingcontext[bindingContext]
-* link:Page.md#borderbottomcolor[borderBottomColor]
-* link:Page.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:Page.md#borderbottomrightradius[borderBottomRightRadius]
-* link:Page.md#borderbottomwidth[borderBottomWidth]
-* link:Page.md#bordercolor[borderColor]
-* link:Page.md#borderleftcolor[borderLeftColor]
-* link:Page.md#borderleftwidth[borderLeftWidth]
-* link:Page.md#borderradius[borderRadius]
-* link:Page.md#borderrightcolor[borderRightColor]
-* link:Page.md#borderrightwidth[borderRightWidth]
-* link:Page.md#bordertopcolor[borderTopColor]
-* link:Page.md#bordertopleftradius[borderTopLeftRadius]
-* link:Page.md#bordertoprightradius[borderTopRightRadius]
-* link:Page.md#bordertopwidth[borderTopWidth]
-* link:Page.md#borderwidth[borderWidth]
-* link:Page.md#boxshadow[boxShadow]
-* link:Page.md#classname[className]
-* link:Page.md#col[col]
-* link:Page.md#colspan[colSpan]
-* link:Page.md#color[color]
-* link:Page.md#column[column]
-* link:Page.md#columnspan[columnSpan]
-* link:Page.md#css[css]
-* link:Page.md#cssclasses[cssClasses]
-* link:Page.md#csspseudoclasses[cssPseudoClasses]
-* link:Page.md#csstype[cssType]
-* link:Page.md#dock[dock]
-* link:Page.md#domnode[domNode]
-* link:Page.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
-* link:Page.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
-* link:Page.md#effectiveborderrightwidth[effectiveBorderRightWidth]
-* link:Page.md#effectivebordertopwidth[effectiveBorderTopWidth]
-* link:Page.md#effectiveheight[effectiveHeight]
-* link:Page.md#effectiveleft[effectiveLeft]
-* link:Page.md#effectivemarginbottom[effectiveMarginBottom]
-* link:Page.md#effectivemarginleft[effectiveMarginLeft]
-* link:Page.md#effectivemarginright[effectiveMarginRight]
-* link:Page.md#effectivemargintop[effectiveMarginTop]
-* link:Page.md#effectiveminheight[effectiveMinHeight]
-* link:Page.md#effectiveminwidth[effectiveMinWidth]
-* link:Page.md#effectivepaddingbottom[effectivePaddingBottom]
-* link:Page.md#effectivepaddingleft[effectivePaddingLeft]
-* link:Page.md#effectivepaddingright[effectivePaddingRight]
-* link:Page.md#effectivepaddingtop[effectivePaddingTop]
-* link:Page.md#effectivetop[effectiveTop]
-* link:Page.md#effectivewidth[effectiveWidth]
-* link:Page.md#enableswipebacknavigation[enableSwipeBackNavigation]
-* link:Page.md#flexgrow[flexGrow]
-* link:Page.md#flexshrink[flexShrink]
-* link:Page.md#flexwrapbefore[flexWrapBefore]
-* link:Page.md#frame[frame]
-* link:Page.md#hasactionbar[hasActionBar]
-* link:Page.md#height[height]
-* link:Page.md#horizontalalignment[horizontalAlignment]
-* link:Page.md#id[id]
-* link:Page.md#ignoretouchanimation[ignoreTouchAnimation]
-* link:Page.md#ios[ios]
-* link:Page.md#iosignoresafearea[iosIgnoreSafeArea]
-* link:Page.md#iosoverflowsafearea[iosOverflowSafeArea]
-* link:Page.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
-* link:Page.md#iscollapsed[isCollapsed]
-* link:Page.md#isenabled[isEnabled]
-* link:Page.md#islayoutrequired[isLayoutRequired]
-* link:Page.md#islayoutvalid[isLayoutValid]
-* link:Page.md#isuserinteractionenabled[isUserInteractionEnabled]
-* link:Page.md#left[left]
-* link:Page.md#margin[margin]
-* link:Page.md#marginbottom[marginBottom]
-* link:Page.md#marginleft[marginLeft]
-* link:Page.md#marginright[marginRight]
-* link:Page.md#margintop[marginTop]
-* link:Page.md#minheight[minHeight]
-* link:Page.md#minwidth[minWidth]
-* link:Page.md#modal[modal]
-* link:Page.md#nativeviewprotected[nativeViewProtected]
-* link:Page.md#navigationcontext[navigationContext]
-* link:Page.md#onaccessibilityperformescape[onAccessibilityPerformEscape]
-* link:Page.md#opacity[opacity]
-* link:Page.md#order[order]
-* link:Page.md#originx[originX]
-* link:Page.md#originy[originY]
-* link:Page.md#parent[parent]
-* link:Page.md#perspective[perspective]
-* link:Page.md#recyclenativeview[recycleNativeView]
-* link:Page.md#reusable[reusable]
-* link:Page.md#rotate[rotate]
-* link:Page.md#rotatex[rotateX]
-* link:Page.md#rotatey[rotateY]
-* link:Page.md#row[row]
-* link:Page.md#rowspan[rowSpan]
-* link:Page.md#scalex[scaleX]
-* link:Page.md#scaley[scaleY]
-* link:Page.md#statusbarstyle[statusBarStyle]
-* link:Page.md#testid[testID]
-* link:Page.md#top[top]
-* link:Page.md#touchanimation[touchAnimation]
-* link:Page.md#touchdelay[touchDelay]
-* link:Page.md#translatex[translateX]
-* link:Page.md#translatey[translateY]
-* link:Page.md#verticalalignment[verticalAlignment]
-* link:Page.md#viewcontroller[viewController]
-* link:Page.md#visibility[visibility]
-* link:Page.md#width[width]
-* link:Page.md#accessibilityblurevent[accessibilityBlurEvent]
-* link:Page.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
-* link:Page.md#accessibilityfocusevent[accessibilityFocusEvent]
-* link:Page.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
-* link:Page.md#createdevent[createdEvent]
-* link:Page.md#disposenativeviewevent[disposeNativeViewEvent]
-* link:Page.md#layoutchangedevent[layoutChangedEvent]
-* link:Page.md#loadedevent[loadedEvent]
-* link:Page.md#navigatedfromevent[navigatedFromEvent]
-* link:Page.md#navigatedtoevent[navigatedToEvent]
-* link:Page.md#navigatingfromevent[navigatingFromEvent]
-* link:Page.md#navigatingtoevent[navigatingToEvent]
-* link:Page.md#propertychangeevent[propertyChangeEvent]
-* link:Page.md#showingmodallyevent[showingModallyEvent]
-* link:Page.md#shownmodallyevent[shownModallyEvent]
-* link:Page.md#unloadedevent[unloadedEvent]
+* link:Page.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:Page.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:Page.adoc#_closemodalcallback[_closeModalCallback]
+* link:Page.adoc#_context[_context]
+* link:Page.adoc#_cssstate[_cssState]
+* link:Page.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:Page.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:Page.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:Page.adoc#_defaultpaddingleft[_defaultPaddingLeft]
+* link:Page.adoc#_defaultpaddingright[_defaultPaddingRight]
+* link:Page.adoc#_defaultpaddingtop[_defaultPaddingTop]
+* link:Page.adoc#_domid[_domId]
+* link:Page.adoc#_frame[_frame]
+* link:Page.adoc#_gestureobservers[_gestureObservers]
+* link:Page.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:Page.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:Page.adoc#_islayoutvalid[_isLayoutValid]
+* link:Page.adoc#_ispaddingrelative[_isPaddingRelative]
+* link:Page.adoc#_isstylescopehost[_isStyleScopeHost]
+* link:Page.adoc#_isviewbase[_isViewBase]
+* link:Page.adoc#_manager[_manager]
+* link:Page.adoc#_modalparent[_modalParent]
+* link:Page.adoc#_modulename[_moduleName]
+* link:Page.adoc#_oldbottom[_oldBottom]
+* link:Page.adoc#_oldleft[_oldLeft]
+* link:Page.adoc#_oldright[_oldRight]
+* link:Page.adoc#_oldtop[_oldTop]
+* link:Page.adoc#_stylescope[_styleScope]
+* link:Page.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:Page.adoc#_suspendedupdates[_suspendedUpdates]
+* link:Page.adoc#accessibilityannouncepageenabled[accessibilityAnnouncePageEnabled]
+* link:Page.adoc#accessibilityhidden[accessibilityHidden]
+* link:Page.adoc#accessibilityhint[accessibilityHint]
+* link:Page.adoc#accessibilityidentifier[accessibilityIdentifier]
+* link:Page.adoc#accessibilitylabel[accessibilityLabel]
+* link:Page.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:Page.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:Page.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:Page.adoc#accessibilityrole[accessibilityRole]
+* link:Page.adoc#accessibilitystate[accessibilityState]
+* link:Page.adoc#accessibilityvalue[accessibilityValue]
+* link:Page.adoc#accessible[accessible]
+* link:Page.adoc#actionbar[actionBar]
+* link:Page.adoc#actionbarhidden[actionBarHidden]
+* link:Page.adoc#alignself[alignSelf]
+* link:Page.adoc#android[android]
+* link:Page.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:Page.adoc#androidelevation[androidElevation]
+* link:Page.adoc#androidstatusbarbackground[androidStatusBarBackground]
+* link:Page.adoc#automationtext[automationText]
+* link:Page.adoc#background[background]
+* link:Page.adoc#backgroundcolor[backgroundColor]
+* link:Page.adoc#backgroundimage[backgroundImage]
+* link:Page.adoc#backgroundspanunderstatusbar[backgroundSpanUnderStatusBar]
+* link:Page.adoc#bindingcontext[bindingContext]
+* link:Page.adoc#borderbottomcolor[borderBottomColor]
+* link:Page.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:Page.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:Page.adoc#borderbottomwidth[borderBottomWidth]
+* link:Page.adoc#bordercolor[borderColor]
+* link:Page.adoc#borderleftcolor[borderLeftColor]
+* link:Page.adoc#borderleftwidth[borderLeftWidth]
+* link:Page.adoc#borderradius[borderRadius]
+* link:Page.adoc#borderrightcolor[borderRightColor]
+* link:Page.adoc#borderrightwidth[borderRightWidth]
+* link:Page.adoc#bordertopcolor[borderTopColor]
+* link:Page.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:Page.adoc#bordertoprightradius[borderTopRightRadius]
+* link:Page.adoc#bordertopwidth[borderTopWidth]
+* link:Page.adoc#borderwidth[borderWidth]
+* link:Page.adoc#boxshadow[boxShadow]
+* link:Page.adoc#classname[className]
+* link:Page.adoc#col[col]
+* link:Page.adoc#colspan[colSpan]
+* link:Page.adoc#color[color]
+* link:Page.adoc#column[column]
+* link:Page.adoc#columnspan[columnSpan]
+* link:Page.adoc#css[css]
+* link:Page.adoc#cssclasses[cssClasses]
+* link:Page.adoc#csspseudoclasses[cssPseudoClasses]
+* link:Page.adoc#csstype[cssType]
+* link:Page.adoc#dock[dock]
+* link:Page.adoc#domnode[domNode]
+* link:Page.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:Page.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:Page.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:Page.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:Page.adoc#effectiveheight[effectiveHeight]
+* link:Page.adoc#effectiveleft[effectiveLeft]
+* link:Page.adoc#effectivemarginbottom[effectiveMarginBottom]
+* link:Page.adoc#effectivemarginleft[effectiveMarginLeft]
+* link:Page.adoc#effectivemarginright[effectiveMarginRight]
+* link:Page.adoc#effectivemargintop[effectiveMarginTop]
+* link:Page.adoc#effectiveminheight[effectiveMinHeight]
+* link:Page.adoc#effectiveminwidth[effectiveMinWidth]
+* link:Page.adoc#effectivepaddingbottom[effectivePaddingBottom]
+* link:Page.adoc#effectivepaddingleft[effectivePaddingLeft]
+* link:Page.adoc#effectivepaddingright[effectivePaddingRight]
+* link:Page.adoc#effectivepaddingtop[effectivePaddingTop]
+* link:Page.adoc#effectivetop[effectiveTop]
+* link:Page.adoc#effectivewidth[effectiveWidth]
+* link:Page.adoc#enableswipebacknavigation[enableSwipeBackNavigation]
+* link:Page.adoc#flexgrow[flexGrow]
+* link:Page.adoc#flexshrink[flexShrink]
+* link:Page.adoc#flexwrapbefore[flexWrapBefore]
+* link:Page.adoc#frame[frame]
+* link:Page.adoc#hasactionbar[hasActionBar]
+* link:Page.adoc#height[height]
+* link:Page.adoc#horizontalalignment[horizontalAlignment]
+* link:Page.adoc#id[id]
+* link:Page.adoc#ignoretouchanimation[ignoreTouchAnimation]
+* link:Page.adoc#ios[ios]
+* link:Page.adoc#iosignoresafearea[iosIgnoreSafeArea]
+* link:Page.adoc#iosoverflowsafearea[iosOverflowSafeArea]
+* link:Page.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:Page.adoc#iscollapsed[isCollapsed]
+* link:Page.adoc#isenabled[isEnabled]
+* link:Page.adoc#islayoutrequired[isLayoutRequired]
+* link:Page.adoc#islayoutvalid[isLayoutValid]
+* link:Page.adoc#isuserinteractionenabled[isUserInteractionEnabled]
+* link:Page.adoc#left[left]
+* link:Page.adoc#margin[margin]
+* link:Page.adoc#marginbottom[marginBottom]
+* link:Page.adoc#marginleft[marginLeft]
+* link:Page.adoc#marginright[marginRight]
+* link:Page.adoc#margintop[marginTop]
+* link:Page.adoc#minheight[minHeight]
+* link:Page.adoc#minwidth[minWidth]
+* link:Page.adoc#modal[modal]
+* link:Page.adoc#nativeviewprotected[nativeViewProtected]
+* link:Page.adoc#navigationcontext[navigationContext]
+* link:Page.adoc#onaccessibilityperformescape[onAccessibilityPerformEscape]
+* link:Page.adoc#opacity[opacity]
+* link:Page.adoc#order[order]
+* link:Page.adoc#originx[originX]
+* link:Page.adoc#originy[originY]
+* link:Page.adoc#parent[parent]
+* link:Page.adoc#perspective[perspective]
+* link:Page.adoc#recyclenativeview[recycleNativeView]
+* link:Page.adoc#reusable[reusable]
+* link:Page.adoc#rotate[rotate]
+* link:Page.adoc#rotatex[rotateX]
+* link:Page.adoc#rotatey[rotateY]
+* link:Page.adoc#row[row]
+* link:Page.adoc#rowspan[rowSpan]
+* link:Page.adoc#scalex[scaleX]
+* link:Page.adoc#scaley[scaleY]
+* link:Page.adoc#statusbarstyle[statusBarStyle]
+* link:Page.adoc#testid[testID]
+* link:Page.adoc#top[top]
+* link:Page.adoc#touchanimation[touchAnimation]
+* link:Page.adoc#touchdelay[touchDelay]
+* link:Page.adoc#translatex[translateX]
+* link:Page.adoc#translatey[translateY]
+* link:Page.adoc#verticalalignment[verticalAlignment]
+* link:Page.adoc#viewcontroller[viewController]
+* link:Page.adoc#visibility[visibility]
+* link:Page.adoc#width[width]
+* link:Page.adoc#accessibilityblurevent[accessibilityBlurEvent]
+* link:Page.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:Page.adoc#accessibilityfocusevent[accessibilityFocusEvent]
+* link:Page.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:Page.adoc#createdevent[createdEvent]
+* link:Page.adoc#disposenativeviewevent[disposeNativeViewEvent]
+* link:Page.adoc#layoutchangedevent[layoutChangedEvent]
+* link:Page.adoc#loadedevent[loadedEvent]
+* link:Page.adoc#navigatedfromevent[navigatedFromEvent]
+* link:Page.adoc#navigatedtoevent[navigatedToEvent]
+* link:Page.adoc#navigatingfromevent[navigatingFromEvent]
+* link:Page.adoc#navigatingtoevent[navigatingToEvent]
+* link:Page.adoc#propertychangeevent[propertyChangeEvent]
+* link:Page.adoc#showingmodallyevent[showingModallyEvent]
+* link:Page.adoc#shownmodallyevent[shownModallyEvent]
+* link:Page.adoc#unloadedevent[unloadedEvent]
 
 === Accessors
 
-* link:Page.md#_childrencount[_childrenCount]
-* link:Page.md#backgroundposition[backgroundPosition]
-* link:Page.md#backgroundrepeat[backgroundRepeat]
-* link:Page.md#backgroundsize[backgroundSize]
-* link:Page.md#class[class]
-* link:Page.md#content[content]
-* link:Page.md#isloaded[isLoaded]
-* link:Page.md#layoutview[layoutView]
-* link:Page.md#nativeview[nativeView]
-* link:Page.md#page[page]
-* link:Page.md#parentnode[parentNode]
-* link:Page.md#style[style]
-* link:Page.md#texttransform[textTransform]
-* link:Page.md#typename[typeName]
+* link:Page.adoc#_childrencount[_childrenCount]
+* link:Page.adoc#backgroundposition[backgroundPosition]
+* link:Page.adoc#backgroundrepeat[backgroundRepeat]
+* link:Page.adoc#backgroundsize[backgroundSize]
+* link:Page.adoc#class[class]
+* link:Page.adoc#content[content]
+* link:Page.adoc#isloaded[isLoaded]
+* link:Page.adoc#layoutview[layoutView]
+* link:Page.adoc#nativeview[nativeView]
+* link:Page.adoc#page[page]
+* link:Page.adoc#parentnode[parentNode]
+* link:Page.adoc#style[style]
+* link:Page.adoc#texttransform[textTransform]
+* link:Page.adoc#typename[typeName]
 
 === Methods
 
-* link:Page.md#_addchildfrombuilder[_addChildFromBuilder]
-* link:Page.md#_addview[_addView]
-* link:Page.md#_addviewcore[_addViewCore]
-* link:Page.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
-* link:Page.md#_applybackground[_applyBackground]
-* link:Page.md#_applyxmlattribute[_applyXmlAttribute]
-* link:Page.md#_batchupdate[_batchUpdate]
-* link:Page.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
-* link:Page.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
-* link:Page.md#_createpropertychangedata[_createPropertyChangeData]
-* link:Page.md#_dialogclosed[_dialogClosed]
-* link:Page.md#_eachlayoutview[_eachLayoutView]
-* link:Page.md#_emit[_emit]
-* link:Page.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
-* link:Page.md#_getfragmentmanager[_getFragmentManager]
-* link:Page.md#_getnativeviewscount[_getNativeViewsCount]
-* link:Page.md#_getrootmodalviews[_getRootModalViews]
-* link:Page.md#_getvalue[_getValue]
-* link:Page.md#_gotovisualstate[_goToVisualState]
-* link:Page.md#_handlelivesync[_handleLivesync]
-* link:Page.md#_hasancestorview[_hasAncestorView]
-* link:Page.md#_hidenativemodalview[_hideNativeModalView]
-* link:Page.md#_inheritstylescope[_inheritStyleScope]
-* link:Page.md#_layoutparent[_layoutParent]
-* link:Page.md#_observe[_observe]
-* link:Page.md#_onattachedtowindow[_onAttachedToWindow]
-* link:Page.md#_oncontentchanged[_onContentChanged]
-* link:Page.md#_oncssstatechange[_onCssStateChange]
-* link:Page.md#_ondetachedfromwindow[_onDetachedFromWindow]
-* link:Page.md#_onlivesync[_onLivesync]
-* link:Page.md#_onrootviewreset[_onRootViewReset]
-* link:Page.md#_onsizechanged[_onSizeChanged]
-* link:Page.md#_parentchanged[_parentChanged]
-* link:Page.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
-* link:Page.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
-* link:Page.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
-* link:Page.md#_redrawnativebackground[_redrawNativeBackground]
-* link:Page.md#_removeanimation[_removeAnimation]
-* link:Page.md#_removeview[_removeView]
-* link:Page.md#_removeviewcore[_removeViewCore]
-* link:Page.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
-* link:Page.md#_resumenativeupdates[_resumeNativeUpdates]
-* link:Page.md#_setchildminheightnative[_setChildMinHeightNative]
-* link:Page.md#_setchildminwidthnative[_setChildMinWidthNative]
-* link:Page.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
-* link:Page.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
-* link:Page.md#_setminheightnative[_setMinHeightNative]
-* link:Page.md#_setminwidthnative[_setMinWidthNative]
-* link:Page.md#_setnativecliptobounds[_setNativeClipToBounds]
-* link:Page.md#_setnativeviewframe[_setNativeViewFrame]
-* link:Page.md#_setvalue[_setValue]
-* link:Page.md#_setupasrootview[_setupAsRootView]
-* link:Page.md#_setupui[_setupUI]
-* link:Page.md#_shoulddelaylayout[_shouldDelayLayout]
-* link:Page.md#_shownativemodalview[_showNativeModalView]
-* link:Page.md#_suspendnativeupdates[_suspendNativeUpdates]
-* link:Page.md#_teardownui[_tearDownUI]
-* link:Page.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
-* link:Page.md#_updatenativelayoutparams[_updateNativeLayoutParams]
-* link:Page.md#_updatestylescope[_updateStyleScope]
-* link:Page.md#accessibilityannouncement[accessibilityAnnouncement]
-* link:Page.md#accessibilityscreenchanged[accessibilityScreenChanged]
-* link:Page.md#addcss[addCss]
-* link:Page.md#addcssfile[addCssFile]
-* link:Page.md#addeventlistener[addEventListener]
-* link:Page.md#addpseudoclass[addPseudoClass]
-* link:Page.md#animate[animate]
-* link:Page.md#bind[bind]
-* link:Page.md#callloaded[callLoaded]
-* link:Page.md#callunloaded[callUnloaded]
-* link:Page.md#changecssfile[changeCssFile]
-* link:Page.md#closemodal[closeModal]
-* link:Page.md#createanimation[createAnimation]
-* link:Page.md#createnativeview[createNativeView]
-* link:Page.md#deletepseudoclass[deletePseudoClass]
-* link:Page.md#destroynode[destroyNode]
-* link:Page.md#disposenativeview[disposeNativeView]
-* link:Page.md#eachchild[eachChild]
-* link:Page.md#eachchildview[eachChildView]
-* link:Page.md#ensuredomnode[ensureDomNode]
-* link:Page.md#focus[focus]
-* link:Page.md#get[get]
-* link:Page.md#getactualsize[getActualSize]
-* link:Page.md#getgestureobservers[getGestureObservers]
-* link:Page.md#getkeyframeanimationwithname[getKeyframeAnimationWithName]
-* link:Page.md#getlocationinwindow[getLocationInWindow]
-* link:Page.md#getlocationonscreen[getLocationOnScreen]
-* link:Page.md#getlocationrelativeto[getLocationRelativeTo]
-* link:Page.md#getmeasuredheight[getMeasuredHeight]
-* link:Page.md#getmeasuredstate[getMeasuredState]
-* link:Page.md#getmeasuredwidth[getMeasuredWidth]
-* link:Page.md#getsafeareainsets[getSafeAreaInsets]
-* link:Page.md#getviewbydomid[getViewByDomId]
-* link:Page.md#getviewbyid[getViewById]
-* link:Page.md#hasgestureobservers[hasGestureObservers]
-* link:Page.md#haslisteners[hasListeners]
-* link:Page.md#initnativeview[initNativeView]
-* link:Page.md#layout[layout]
-* link:Page.md#layoutnativeview[layoutNativeView]
-* link:Page.md#loadview[loadView]
-* link:Page.md#measure[measure]
-* link:Page.md#notify[notify]
-* link:Page.md#notifypropertychange[notifyPropertyChange]
-* link:Page.md#off[off]
-* link:Page.md#on[on]
-* link:Page.md#onbackpressed[onBackPressed]
-* link:Page.md#onlayout[onLayout]
-* link:Page.md#onloaded[onLoaded]
-* link:Page.md#onmeasure[onMeasure]
-* link:Page.md#onnavigatedfrom[onNavigatedFrom]
-* link:Page.md#onnavigatedto[onNavigatedTo]
-* link:Page.md#onnavigatingfrom[onNavigatingFrom]
-* link:Page.md#onnavigatingto[onNavigatingTo]
-* link:Page.md#onresumenativeupdates[onResumeNativeUpdates]
-* link:Page.md#onunloaded[onUnloaded]
-* link:Page.md#once[once]
-* link:Page.md#removeeventlistener[removeEventListener]
-* link:Page.md#requestlayout[requestLayout]
-* link:Page.md#resetnativeview[resetNativeView]
-* link:Page.md#sendaccessibilityevent[sendAccessibilityEvent]
-* link:Page.md#set[set]
-* link:Page.md#setinlinestyle[setInlineStyle]
-* link:Page.md#setmeasureddimension[setMeasuredDimension]
-* link:Page.md#setnativeview[setNativeView]
-* link:Page.md#setontouchlistener[setOnTouchListener]
-* link:Page.md#setproperty[setProperty]
-* link:Page.md#settestid[setTestID]
-* link:Page.md#showmodal[showModal]
-* link:Page.md#tostring[toString]
-* link:Page.md#unbind[unbind]
-* link:Page.md#unloadview[unloadView]
-* link:Page.md#addeventlistener-1[addEventListener]
-* link:Page.md#combinemeasuredstates[combineMeasuredStates]
-* link:Page.md#layoutchild[layoutChild]
-* link:Page.md#measurechild[measureChild]
-* link:Page.md#off-1[off]
-* link:Page.md#on-1[on]
-* link:Page.md#once-1[once]
-* link:Page.md#removeeventlistener-1[removeEventListener]
-* link:Page.md#resolvesizeandstate[resolveSizeAndState]
+* link:Page.adoc#_addchildfrombuilder[_addChildFromBuilder]
+* link:Page.adoc#_addview[_addView]
+* link:Page.adoc#_addviewcore[_addViewCore]
+* link:Page.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:Page.adoc#_applybackground[_applyBackground]
+* link:Page.adoc#_applyxmlattribute[_applyXmlAttribute]
+* link:Page.adoc#_batchupdate[_batchUpdate]
+* link:Page.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:Page.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:Page.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:Page.adoc#_dialogclosed[_dialogClosed]
+* link:Page.adoc#_eachlayoutview[_eachLayoutView]
+* link:Page.adoc#_emit[_emit]
+* link:Page.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:Page.adoc#_getfragmentmanager[_getFragmentManager]
+* link:Page.adoc#_getnativeviewscount[_getNativeViewsCount]
+* link:Page.adoc#_getrootmodalviews[_getRootModalViews]
+* link:Page.adoc#_getvalue[_getValue]
+* link:Page.adoc#_gotovisualstate[_goToVisualState]
+* link:Page.adoc#_handlelivesync[_handleLivesync]
+* link:Page.adoc#_hasancestorview[_hasAncestorView]
+* link:Page.adoc#_hidenativemodalview[_hideNativeModalView]
+* link:Page.adoc#_inheritstylescope[_inheritStyleScope]
+* link:Page.adoc#_layoutparent[_layoutParent]
+* link:Page.adoc#_observe[_observe]
+* link:Page.adoc#_onattachedtowindow[_onAttachedToWindow]
+* link:Page.adoc#_oncontentchanged[_onContentChanged]
+* link:Page.adoc#_oncssstatechange[_onCssStateChange]
+* link:Page.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:Page.adoc#_onlivesync[_onLivesync]
+* link:Page.adoc#_onrootviewreset[_onRootViewReset]
+* link:Page.adoc#_onsizechanged[_onSizeChanged]
+* link:Page.adoc#_parentchanged[_parentChanged]
+* link:Page.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:Page.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:Page.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:Page.adoc#_redrawnativebackground[_redrawNativeBackground]
+* link:Page.adoc#_removeanimation[_removeAnimation]
+* link:Page.adoc#_removeview[_removeView]
+* link:Page.adoc#_removeviewcore[_removeViewCore]
+* link:Page.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:Page.adoc#_resumenativeupdates[_resumeNativeUpdates]
+* link:Page.adoc#_setchildminheightnative[_setChildMinHeightNative]
+* link:Page.adoc#_setchildminwidthnative[_setChildMinWidthNative]
+* link:Page.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:Page.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:Page.adoc#_setminheightnative[_setMinHeightNative]
+* link:Page.adoc#_setminwidthnative[_setMinWidthNative]
+* link:Page.adoc#_setnativecliptobounds[_setNativeClipToBounds]
+* link:Page.adoc#_setnativeviewframe[_setNativeViewFrame]
+* link:Page.adoc#_setvalue[_setValue]
+* link:Page.adoc#_setupasrootview[_setupAsRootView]
+* link:Page.adoc#_setupui[_setupUI]
+* link:Page.adoc#_shoulddelaylayout[_shouldDelayLayout]
+* link:Page.adoc#_shownativemodalview[_showNativeModalView]
+* link:Page.adoc#_suspendnativeupdates[_suspendNativeUpdates]
+* link:Page.adoc#_teardownui[_tearDownUI]
+* link:Page.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:Page.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
+* link:Page.adoc#_updatestylescope[_updateStyleScope]
+* link:Page.adoc#accessibilityannouncement[accessibilityAnnouncement]
+* link:Page.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:Page.adoc#addcss[addCss]
+* link:Page.adoc#addcssfile[addCssFile]
+* link:Page.adoc#addeventlistener[addEventListener]
+* link:Page.adoc#addpseudoclass[addPseudoClass]
+* link:Page.adoc#animate[animate]
+* link:Page.adoc#bind[bind]
+* link:Page.adoc#callloaded[callLoaded]
+* link:Page.adoc#callunloaded[callUnloaded]
+* link:Page.adoc#changecssfile[changeCssFile]
+* link:Page.adoc#closemodal[closeModal]
+* link:Page.adoc#createanimation[createAnimation]
+* link:Page.adoc#createnativeview[createNativeView]
+* link:Page.adoc#deletepseudoclass[deletePseudoClass]
+* link:Page.adoc#destroynode[destroyNode]
+* link:Page.adoc#disposenativeview[disposeNativeView]
+* link:Page.adoc#eachchild[eachChild]
+* link:Page.adoc#eachchildview[eachChildView]
+* link:Page.adoc#ensuredomnode[ensureDomNode]
+* link:Page.adoc#focus[focus]
+* link:Page.adoc#get[get]
+* link:Page.adoc#getactualsize[getActualSize]
+* link:Page.adoc#getgestureobservers[getGestureObservers]
+* link:Page.adoc#getkeyframeanimationwithname[getKeyframeAnimationWithName]
+* link:Page.adoc#getlocationinwindow[getLocationInWindow]
+* link:Page.adoc#getlocationonscreen[getLocationOnScreen]
+* link:Page.adoc#getlocationrelativeto[getLocationRelativeTo]
+* link:Page.adoc#getmeasuredheight[getMeasuredHeight]
+* link:Page.adoc#getmeasuredstate[getMeasuredState]
+* link:Page.adoc#getmeasuredwidth[getMeasuredWidth]
+* link:Page.adoc#getsafeareainsets[getSafeAreaInsets]
+* link:Page.adoc#getviewbydomid[getViewByDomId]
+* link:Page.adoc#getviewbyid[getViewById]
+* link:Page.adoc#hasgestureobservers[hasGestureObservers]
+* link:Page.adoc#haslisteners[hasListeners]
+* link:Page.adoc#initnativeview[initNativeView]
+* link:Page.adoc#layout[layout]
+* link:Page.adoc#layoutnativeview[layoutNativeView]
+* link:Page.adoc#loadview[loadView]
+* link:Page.adoc#measure[measure]
+* link:Page.adoc#notify[notify]
+* link:Page.adoc#notifypropertychange[notifyPropertyChange]
+* link:Page.adoc#off[off]
+* link:Page.adoc#on[on]
+* link:Page.adoc#onbackpressed[onBackPressed]
+* link:Page.adoc#onlayout[onLayout]
+* link:Page.adoc#onloaded[onLoaded]
+* link:Page.adoc#onmeasure[onMeasure]
+* link:Page.adoc#onnavigatedfrom[onNavigatedFrom]
+* link:Page.adoc#onnavigatedto[onNavigatedTo]
+* link:Page.adoc#onnavigatingfrom[onNavigatingFrom]
+* link:Page.adoc#onnavigatingto[onNavigatingTo]
+* link:Page.adoc#onresumenativeupdates[onResumeNativeUpdates]
+* link:Page.adoc#onunloaded[onUnloaded]
+* link:Page.adoc#once[once]
+* link:Page.adoc#removeeventlistener[removeEventListener]
+* link:Page.adoc#requestlayout[requestLayout]
+* link:Page.adoc#resetnativeview[resetNativeView]
+* link:Page.adoc#sendaccessibilityevent[sendAccessibilityEvent]
+* link:Page.adoc#set[set]
+* link:Page.adoc#setinlinestyle[setInlineStyle]
+* link:Page.adoc#setmeasureddimension[setMeasuredDimension]
+* link:Page.adoc#setnativeview[setNativeView]
+* link:Page.adoc#setontouchlistener[setOnTouchListener]
+* link:Page.adoc#setproperty[setProperty]
+* link:Page.adoc#settestid[setTestID]
+* link:Page.adoc#showmodal[showModal]
+* link:Page.adoc#tostring[toString]
+* link:Page.adoc#unbind[unbind]
+* link:Page.adoc#unloadview[unloadView]
+* link:Page.adoc#addeventlistener-1[addEventListener]
+* link:Page.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:Page.adoc#layoutchild[layoutChild]
+* link:Page.adoc#measurechild[measureChild]
+* link:Page.adoc#off-1[off]
+* link:Page.adoc#on-1[on]
+* link:Page.adoc#once-1[once]
+* link:Page.adoc#removeeventlistener-1[removeEventListener]
+* link:Page.adoc#resolvesizeandstate[resolveSizeAndState]
 
 == Constructors
 
@@ -362,7 +362,7 @@ Represents a logical unit for navigation (inside Frame).
 
 • *new Page*()
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#constructor[constructor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#constructor[constructor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L340[ui/core/view-base/index.ts:340]
 
@@ -376,7 +376,7 @@ Represents a logical unit for navigation (inside Frame).
 Internal use only.
 This is used to limit the number of updates to android.view.View.setContentDescription()
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L288[ui/core/view/index.d.ts:288]
 
@@ -387,7 +387,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_automaticallyAdjustsScrollViewInsets*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L286[ui/core/view-base/index.ts:286]
 
@@ -398,7 +398,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Protected` *_closeModalCallback*: `Function`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_closemodalcallback[_closeModalCallback]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_closemodalcallback[_closeModalCallback]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L91[ui/core/view/view-common.ts:91]
 
@@ -409,7 +409,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_context*: `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_context[_context]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_context[_context]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L277[ui/core/view-base/index.ts:277]
 
@@ -420,7 +420,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_cssState*: `CssState`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_cssstate[_cssState]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_cssstate[_cssState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L279[ui/core/view-base/index.ts:279]
 
@@ -431,7 +431,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentHeightMeasureSpec*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L820[ui/core/view/index.d.ts:820]
 
@@ -442,7 +442,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentWidthMeasureSpec*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L816[ui/core/view/index.d.ts:816]
 
@@ -453,7 +453,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingBottom*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_defaultpaddingbottom[_defaultPaddingBottom]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L332[ui/core/view-base/index.ts:332]
 
@@ -464,7 +464,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingLeft*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_defaultpaddingleft[_defaultPaddingLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_defaultpaddingleft[_defaultPaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L333[ui/core/view-base/index.ts:333]
 
@@ -475,7 +475,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingRight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_defaultpaddingright[_defaultPaddingRight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_defaultpaddingright[_defaultPaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L331[ui/core/view-base/index.ts:331]
 
@@ -486,7 +486,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingTop*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_defaultpaddingtop[_defaultPaddingTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_defaultpaddingtop[_defaultPaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L330[ui/core/view-base/index.ts:330]
 
@@ -497,7 +497,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_domId*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_domid[_domId]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_domid[_domId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L276[ui/core/view-base/index.ts:276]
 
@@ -510,7 +510,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#_frame[_frame]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L149[ui/page/index.d.ts:149]
 
@@ -521,7 +521,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • `Private` *_gestureObservers*: `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_gestureobservers[_gestureObservers]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_gestureobservers[_gestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L770[ui/core/view/index.d.ts:770]
 
@@ -532,7 +532,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • *_ignoreFlexMinWidthHeightReset*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L311[ui/core/view-base/index.ts:311]
 
@@ -543,7 +543,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • *_isAddedToNativeVisualTree*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L278[ui/core/view-base/index.ts:278]
 
@@ -554,7 +554,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • `Protected` *_isLayoutValid*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_islayoutvalid[_isLayoutValid]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_islayoutvalid[_isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L100[ui/core/view/view-common.ts:100]
 
@@ -565,7 +565,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • *_isPaddingRelative*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_ispaddingrelative[_isPaddingRelative]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_ispaddingrelative[_isPaddingRelative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L334[ui/core/view-base/index.ts:334]
 
@@ -576,7 +576,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • *_isStyleScopeHost*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_isstylescopehost[_isStyleScopeHost]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_isstylescopehost[_isStyleScopeHost]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L285[ui/core/view-base/index.ts:285]
 
@@ -587,7 +587,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 • *_isViewBase*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_isviewbase[_isViewBase]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_isviewbase[_isViewBase]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L52[data/observable/index.ts:52]
 
@@ -600,7 +600,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#_frame[_frame]
 
 androidx.fragment.app.FragmentManager
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_manager[_manager]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_manager[_manager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L775[ui/core/view/index.d.ts:775]
 
@@ -611,7 +611,7 @@ androidx.fragment.app.FragmentManager
 
 • `Optional` `Private` *_modalParent*: xref:View.adoc[`View`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_modalparent[_modalParent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_modalparent[_modalParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L762[ui/core/view/index.d.ts:762]
 
@@ -622,7 +622,7 @@ androidx.fragment.app.FragmentManager
 
 • *_moduleName*: `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_modulename[_moduleName]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_modulename[_moduleName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L336[ui/core/view-base/index.ts:336]
 
@@ -633,7 +633,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldBottom*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oldbottom[_oldBottom]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oldbottom[_oldBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L310[ui/core/view-base/index.ts:310]
 
@@ -644,7 +644,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldLeft*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oldleft[_oldLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oldleft[_oldLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L307[ui/core/view-base/index.ts:307]
 
@@ -655,7 +655,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldRight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oldright[_oldRight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oldright[_oldRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L309[ui/core/view-base/index.ts:309]
 
@@ -666,7 +666,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldTop*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oldtop[_oldTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oldtop[_oldTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L308[ui/core/view-base/index.ts:308]
 
@@ -677,7 +677,7 @@ androidx.fragment.app.FragmentManager
 
 • *_styleScope*: `StyleScope`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_stylescope[_styleScope]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_stylescope[_styleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L280[ui/core/view-base/index.ts:280]
 
@@ -688,7 +688,7 @@ androidx.fragment.app.FragmentManager
 
 • *_suspendNativeUpdatesCount*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L284[ui/core/view-base/index.ts:284]
 
@@ -703,7 +703,7 @@ androidx.fragment.app.FragmentManager
 
 ▪ [propertyName: `string`]: xref:Property.adoc[`Property`]<xref:ViewBase.adoc[`ViewBase`], `any`> | xref:CssProperty.adoc[`CssProperty`]<xref:Style.adoc[`Style`], `any`> | xref:CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:Style.adoc[`Style`], `any`>
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_suspendedupdates[_suspendedUpdates]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_suspendedupdates[_suspendedUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L281[ui/core/view-base/index.ts:281]
 
@@ -718,7 +718,7 @@ Should page changed be annnounced to the screen reader.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityannouncepageenabled[accessibilityAnnouncePageEnabled]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityannouncepageenabled[accessibilityAnnouncePageEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L111[ui/page/index.d.ts:111]
 
@@ -731,7 +731,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityannouncepageenabled[a
 
 Hide the view and its children from the a11y service
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityhidden[accessibilityHidden]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityhidden[accessibilityHidden]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L239[ui/core/view/index.d.ts:239]
 
@@ -745,7 +745,7 @@ Hide the view and its children from the a11y service
 A hint describes the elements behavior.
 Example: 'Tap change playback speed'
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityhint[accessibilityHint]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityhint[accessibilityHint]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L271[ui/core/view/index.d.ts:271]
 
@@ -760,7 +760,7 @@ The view's unique accessibilityIdentifier.
 
 This is used for automated testing.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityidentifier[accessibilityIdentifier]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityidentifier[accessibilityIdentifier]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L246[ui/core/view/index.d.ts:246]
 
@@ -773,7 +773,7 @@ This is used for automated testing.
 
 Short description of the element, ideally one word.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilitylabel[accessibilityLabel]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilitylabel[accessibilityLabel]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L261[ui/core/view/index.d.ts:261]
 
@@ -787,7 +787,7 @@ Short description of the element, ideally one word.
 Sets the language in which to speak the element's label and value.
 Accepts language ID tags that follows the "BCP 47" specification.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilitylanguage[accessibilityLanguage]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilitylanguage[accessibilityLanguage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L278[ui/core/view/index.d.ts:278]
 
@@ -798,7 +798,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 
 • *accessibilityLiveRegion*: xref:../enums/AccessibilityLiveRegion.adoc[`AccessibilityLiveRegion`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityliveregion[accessibilityLiveRegion]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityliveregion[accessibilityLiveRegion]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L272[ui/core/view/index.d.ts:272]
 
@@ -812,7 +812,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 This view starts a media session.
 Equivalent to trait = startsMedia
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilitymediasession[accessibilityMediaSession]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilitymediasession[accessibilityMediaSession]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L283[ui/core/view/index.d.ts:283]
 
@@ -825,7 +825,7 @@ Equivalent to trait = startsMedia
 
 Which role should this view be treated by the a11y service?
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityrole[accessibilityRole]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityrole[accessibilityRole]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L251[ui/core/view/index.d.ts:251]
 
@@ -838,7 +838,7 @@ Which role should this view be treated by the a11y service?
 
 Which state should this view be treated as by the a11y service?
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilitystate[accessibilityState]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilitystate[accessibilityState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L256[ui/core/view/index.d.ts:256]
 
@@ -851,7 +851,7 @@ Which state should this view be treated as by the a11y service?
 
 Current value of the element in a localized string.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityvalue[accessibilityValue]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityvalue[accessibilityValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L266[ui/core/view/index.d.ts:266]
 
@@ -864,7 +864,7 @@ Current value of the element in a localized string.
 
 If `true` the element is an accessibility element and all the children will be treated as a single selectable component.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessible[accessible]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessible[accessible]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L234[ui/core/view/index.d.ts:234]
 
@@ -879,7 +879,7 @@ Gets the ActionBar for this page.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#actionbar[actionBar]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#actionbar[actionBar]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L100[ui/page/index.d.ts:100]
 
@@ -894,7 +894,7 @@ Used to hide the Navigation Bar in iOS and the Action Bar in Android.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#actionbarhidden[actionBarHidden]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#actionbarhidden[actionBarHidden]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L72[ui/page/index.d.ts:72]
 
@@ -905,7 +905,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#actionbarhidden[actionBarHidden]
 
 • *alignSelf*: `AlignSelf`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#alignself[alignSelf]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#alignself[alignSelf]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L305[ui/core/view-base/index.ts:305]
 
@@ -919,7 +919,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#actionbarhidden[actionBarHidden]
 Gets the android-specific native instance that lies behind this proxy.
 Will be available if running on an Android platform.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#android[android]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L138[ui/core/view/index.d.ts:138]
 
@@ -932,7 +932,7 @@ Will be available if running on an Android platform.
 
 Gets or sets the dynamic elevation offset of the android view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L300[ui/core/view/index.d.ts:300]
 
@@ -945,7 +945,7 @@ Gets or sets the dynamic elevation offset of the android view.
 
 Gets or sets the elevation of the android view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#androidelevation[androidElevation]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#androidelevation[androidElevation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L295[ui/core/view/index.d.ts:295]
 
@@ -960,7 +960,7 @@ Gets or sets the color of the status bar in Android.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#androidstatusbarbackground[androidStatusBarBackground]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#androidstatusbarbackground[androidStatusBarBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L66[ui/page/index.d.ts:66]
 
@@ -971,7 +971,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#androidstatusbarbackground[android
 
 • *automationText*: `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#automationtext[automationText]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#automationtext[automationText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L290[ui/core/view/index.d.ts:290]
 
@@ -984,7 +984,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#androidstatusbarbackground[android
 
 Gets or sets the background style property.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#background[background]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#background[background]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L305[ui/core/view/index.d.ts:305]
 
@@ -997,7 +997,7 @@ Gets or sets the background style property.
 
 Gets or sets the background color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#backgroundcolor[backgroundColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#backgroundcolor[backgroundColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L310[ui/core/view/index.d.ts:310]
 
@@ -1010,7 +1010,7 @@ Gets or sets the background color of the view.
 
 Gets or sets the background image of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#backgroundimage[backgroundImage]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#backgroundimage[backgroundImage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L315[ui/core/view/index.d.ts:315]
 
@@ -1025,7 +1025,7 @@ Gets or sets whether page background spans under status bar.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#backgroundspanunderstatusbar[backgroundSpanUnderStatusBar]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#backgroundspanunderstatusbar[backgroundSpanUnderStatusBar]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L54[ui/page/index.d.ts:54]
 
@@ -1039,7 +1039,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#backgroundspanunderstatusbar[backg
 Gets or sets the binding context of this instance.
 This object is used as a source for each Binding that does not have a source object specified.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bindingcontext[bindingContext]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bindingcontext[bindingContext]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L149[ui/core/view/index.d.ts:149]
 
@@ -1052,7 +1052,7 @@ This object is used as a source for each Binding that does not have a source obj
 
 Gets or sets the bottom border color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderbottomcolor[borderBottomColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderbottomcolor[borderBottomColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L169[ui/core/view/index.d.ts:169]
 
@@ -1061,11 +1061,11 @@ Gets or sets the bottom border color of the view.
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom left border radius of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderbottomleftradius[borderBottomLeftRadius]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderbottomleftradius[borderBottomLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L224[ui/core/view/index.d.ts:224]
 
@@ -1074,11 +1074,11 @@ Gets or sets the bottom left border radius of the view.
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom right border radius of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderbottomrightradius[borderBottomRightRadius]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderbottomrightradius[borderBottomRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L219[ui/core/view/index.d.ts:219]
 
@@ -1087,11 +1087,11 @@ Gets or sets the bottom right border radius of the view.
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom border width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderbottomwidth[borderBottomWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderbottomwidth[borderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L194[ui/core/view/index.d.ts:194]
 
@@ -1104,7 +1104,7 @@ Gets or sets the bottom border width of the view.
 
 Gets or sets the border color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bordercolor[borderColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bordercolor[borderColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L154[ui/core/view/index.d.ts:154]
 
@@ -1117,7 +1117,7 @@ Gets or sets the border color of the view.
 
 Gets or sets the left border color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderleftcolor[borderLeftColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderleftcolor[borderLeftColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L174[ui/core/view/index.d.ts:174]
 
@@ -1126,11 +1126,11 @@ Gets or sets the left border color of the view.
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the left border width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderleftwidth[borderLeftWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderleftwidth[borderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L199[ui/core/view/index.d.ts:199]
 
@@ -1139,11 +1139,11 @@ Gets or sets the left border width of the view.
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border radius of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderradius[borderRadius]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderradius[borderRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L204[ui/core/view/index.d.ts:204]
 
@@ -1156,7 +1156,7 @@ Gets or sets the border radius of the view.
 
 Gets or sets the right border color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderrightcolor[borderRightColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderrightcolor[borderRightColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L164[ui/core/view/index.d.ts:164]
 
@@ -1165,11 +1165,11 @@ Gets or sets the right border color of the view.
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the right border width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderrightwidth[borderRightWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderrightwidth[borderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L189[ui/core/view/index.d.ts:189]
 
@@ -1182,7 +1182,7 @@ Gets or sets the right border width of the view.
 
 Gets or sets the top border color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bordertopcolor[borderTopColor]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bordertopcolor[borderTopColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L159[ui/core/view/index.d.ts:159]
 
@@ -1191,11 +1191,11 @@ Gets or sets the top border color of the view.
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top left border radius of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bordertopleftradius[borderTopLeftRadius]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bordertopleftradius[borderTopLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L209[ui/core/view/index.d.ts:209]
 
@@ -1204,11 +1204,11 @@ Gets or sets the top left border radius of the view.
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top right border radius of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bordertoprightradius[borderTopRightRadius]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bordertoprightradius[borderTopRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L214[ui/core/view/index.d.ts:214]
 
@@ -1217,11 +1217,11 @@ Gets or sets the top right border radius of the view.
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top border width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bordertopwidth[borderTopWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bordertopwidth[borderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L184[ui/core/view/index.d.ts:184]
 
@@ -1230,11 +1230,11 @@ Gets or sets the top border width of the view.
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#borderwidth[borderWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#borderwidth[borderWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L179[ui/core/view/index.d.ts:179]
 
@@ -1247,7 +1247,7 @@ Gets or sets the border width of the view.
 
 Gets or sets the box shadow of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#boxshadow[boxShadow]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#boxshadow[boxShadow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L320[ui/core/view/index.d.ts:320]
 
@@ -1258,7 +1258,7 @@ Gets or sets the box shadow of the view.
 
 • *className*: `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#classname[className]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#classname[className]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L274[ui/core/view-base/index.ts:274]
 
@@ -1269,7 +1269,7 @@ Gets or sets the box shadow of the view.
 
 • *col*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#col[col]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#col[col]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L295[ui/core/view-base/index.ts:295]
 
@@ -1280,7 +1280,7 @@ Gets or sets the box shadow of the view.
 
 • *colSpan*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#colspan[colSpan]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#colspan[colSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L298[ui/core/view-base/index.ts:298]
 
@@ -1293,7 +1293,7 @@ Gets or sets the box shadow of the view.
 
 Gets or sets the color of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#color[color]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#color[color]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L229[ui/core/view/index.d.ts:229]
 
@@ -1304,7 +1304,7 @@ Gets or sets the color of the view.
 
 • *column*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#column[column]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#column[column]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L296[ui/core/view-base/index.ts:296]
 
@@ -1315,7 +1315,7 @@ Gets or sets the color of the view.
 
 • *columnSpan*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#columnspan[columnSpan]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#columnspan[columnSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L299[ui/core/view-base/index.ts:299]
 
@@ -1328,7 +1328,7 @@ Gets or sets the color of the view.
 
 A valid css string which will be applied for all nested UI components (based on css rules).
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#css[css]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#css[css]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L673[ui/core/view/index.d.ts:673]
 
@@ -1339,7 +1339,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssClasses*: `Set`<``string``>
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#cssclasses[cssClasses]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#cssclasses[cssClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L476[ui/core/view/index.d.ts:476]
 
@@ -1350,7 +1350,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssPseudoClasses*: `Set`<``string``>
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#csspseudoclasses[cssPseudoClasses]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#csspseudoclasses[cssPseudoClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L477[ui/core/view/index.d.ts:477]
 
@@ -1364,7 +1364,7 @@ A valid css string which will be applied for all nested UI components (based on 
 Gets the CSS fully qualified type name.
 Using this as element type should allow for PascalCase and kebap-case selectors, when fully qualified, to match the element.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#csstype[cssType]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#csstype[cssType]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L474[ui/core/view/index.d.ts:474]
 
@@ -1375,7 +1375,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *dock*: `"left"` | `"right"` | `"top"` | `"bottom"`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#dock[dock]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#dock[dock]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L293[ui/core/view-base/index.ts:293]
 
@@ -1386,7 +1386,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *domNode*: `DOMNode`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#domnode[domNode]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#domnode[domNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L264[ui/core/view-base/index.ts:264]
 
@@ -1397,7 +1397,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderBottomWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L327[ui/core/view-base/index.ts:327]
 
@@ -1408,7 +1408,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderLeftWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L328[ui/core/view-base/index.ts:328]
 
@@ -1419,7 +1419,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderRightWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveborderrightwidth[effectiveBorderRightWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L326[ui/core/view-base/index.ts:326]
 
@@ -1430,7 +1430,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderTopWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivebordertopwidth[effectiveBorderTopWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L325[ui/core/view-base/index.ts:325]
 
@@ -1441,7 +1441,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveHeight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveheight[effectiveHeight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveheight[effectiveHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L316[ui/core/view-base/index.ts:316]
 
@@ -1452,7 +1452,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveLeft*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveleft[effectiveLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveleft[effectiveLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L291[ui/core/view-base/index.ts:291]
 
@@ -1463,7 +1463,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginBottom*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivemarginbottom[effectiveMarginBottom]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivemarginbottom[effectiveMarginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L319[ui/core/view-base/index.ts:319]
 
@@ -1474,7 +1474,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginLeft*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivemarginleft[effectiveMarginLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivemarginleft[effectiveMarginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L320[ui/core/view-base/index.ts:320]
 
@@ -1485,7 +1485,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginRight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivemarginright[effectiveMarginRight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivemarginright[effectiveMarginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L318[ui/core/view-base/index.ts:318]
 
@@ -1496,7 +1496,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginTop*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivemargintop[effectiveMarginTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivemargintop[effectiveMarginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L317[ui/core/view-base/index.ts:317]
 
@@ -1507,7 +1507,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinHeight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveminheight[effectiveMinHeight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveminheight[effectiveMinHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L314[ui/core/view-base/index.ts:314]
 
@@ -1518,7 +1518,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectiveminwidth[effectiveMinWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectiveminwidth[effectiveMinWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L313[ui/core/view-base/index.ts:313]
 
@@ -1529,7 +1529,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingBottom*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivepaddingbottom[effectivePaddingBottom]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivepaddingbottom[effectivePaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L323[ui/core/view-base/index.ts:323]
 
@@ -1540,7 +1540,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingLeft*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivepaddingleft[effectivePaddingLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivepaddingleft[effectivePaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L324[ui/core/view-base/index.ts:324]
 
@@ -1551,7 +1551,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingRight*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivepaddingright[effectivePaddingRight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivepaddingright[effectivePaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L322[ui/core/view-base/index.ts:322]
 
@@ -1562,7 +1562,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingTop*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivepaddingtop[effectivePaddingTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivepaddingtop[effectivePaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L321[ui/core/view-base/index.ts:321]
 
@@ -1573,7 +1573,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveTop*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivetop[effectiveTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivetop[effectiveTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L292[ui/core/view-base/index.ts:292]
 
@@ -1584,7 +1584,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveWidth*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#effectivewidth[effectiveWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#effectivewidth[effectiveWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L315[ui/core/view-base/index.ts:315]
 
@@ -1601,7 +1601,7 @@ Default value: true
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#enableswipebacknavigation[enableSwipeBackNavigation]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#enableswipebacknavigation[enableSwipeBackNavigation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L77[ui/page/index.d.ts:77]
 
@@ -1612,7 +1612,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#enableswipebacknavigation[enableSw
 
 • *flexGrow*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#flexgrow[flexGrow]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#flexgrow[flexGrow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L302[ui/core/view-base/index.ts:302]
 
@@ -1623,7 +1623,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#enableswipebacknavigation[enableSw
 
 • *flexShrink*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#flexshrink[flexShrink]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#flexshrink[flexShrink]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L303[ui/core/view-base/index.ts:303]
 
@@ -1634,7 +1634,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#enableswipebacknavigation[enableSw
 
 • *flexWrapBefore*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#flexwrapbefore[flexWrapBefore]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#flexwrapbefore[flexWrapBefore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L304[ui/core/view-base/index.ts:304]
 
@@ -1649,7 +1649,7 @@ Gets the Frame object controlling this instance.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#frame[frame]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#frame[frame]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L94[ui/page/index.d.ts:94]
 
@@ -1662,7 +1662,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#frame[frame]
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#hasactionbar[hasActionBar]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#hasactionbar[hasActionBar]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L145[ui/page/index.d.ts:145]
 
@@ -1671,11 +1671,11 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#hasactionbar[hasActionBar]
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired height of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#height[height]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#height[height]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L340[ui/core/view/index.d.ts:340]
 
@@ -1684,11 +1684,11 @@ Gets or sets the desired height of the view.
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Horizontal axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#horizontalalignment[horizontalAlignment]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#horizontalalignment[horizontalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L370[ui/core/view/index.d.ts:370]
 
@@ -1699,7 +1699,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *id*: `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#id[id]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#id[id]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L273[ui/core/view-base/index.ts:273]
 
@@ -1710,7 +1710,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *ignoreTouchAnimation*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#ignoretouchanimation[ignoreTouchAnimation]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#ignoretouchanimation[ignoreTouchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L88[ui/core/view/view-common.ts:88]
 
@@ -1724,7 +1724,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 Gets the ios-specific native instance that lies behind this proxy.
 Will be available if running on an iOS platform.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#ios[ios]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L144[ui/core/view/index.d.ts:144]
 
@@ -1739,7 +1739,7 @@ Gets or sets a value indicating whether the the view should totally ignore safe 
 This property is iOS specific.
 Default value: false
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#iosignoresafearea[iosIgnoreSafeArea]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#iosignoresafearea[iosIgnoreSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L463[ui/core/view/index.d.ts:463]
 
@@ -1754,7 +1754,7 @@ Instruct container view to expand beyond the safe area.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#iosoverflowsafearea[iosOverflowSafeArea]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#iosoverflowsafearea[iosOverflowSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L895[ui/core/view/index.d.ts:895]
 
@@ -1769,7 +1769,7 @@ Enables or disables the iosOverflowSafeArea property for all children.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L458[ui/core/view/index.d.ts:458]
 
@@ -1780,7 +1780,7 @@ Default value: true
 
 • *isCollapsed*: `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#iscollapsed[isCollapsed]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#iscollapsed[isCollapsed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L271[ui/core/view-base/index.ts:271]
 
@@ -1794,7 +1794,7 @@ Default value: true
 Gets or sets a value indicating whether the the view is enabled.
 This affects the appearance of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#isenabled[isEnabled]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#isenabled[isEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L443[ui/core/view/index.d.ts:443]
 
@@ -1805,7 +1805,7 @@ This affects the appearance of the view.
 
 • `Private` *isLayoutRequired*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#islayoutrequired[isLayoutRequired]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#islayoutrequired[isLayoutRequired]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L766[ui/core/view/index.d.ts:766]
 
@@ -1819,7 +1819,7 @@ This affects the appearance of the view.
 Gets is layout is valid.
 This is a read-only property.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#islayoutvalid[isLayoutValid]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#islayoutvalid[isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L468[ui/core/view/index.d.ts:468]
 
@@ -1833,7 +1833,7 @@ This is a read-only property.
 Gets or sets a value indicating whether the user can interact with the view.
 This does not affect the appearance of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#isuserinteractionenabled[isUserInteractionEnabled]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#isuserinteractionenabled[isUserInteractionEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L448[ui/core/view/index.d.ts:448]
 
@@ -1842,9 +1842,9 @@ This does not affect the appearance of the view.
 [#left]
 === left
 
-• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *left*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#left[left]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#left[left]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L289[ui/core/view-base/index.ts:289]
 
@@ -1853,11 +1853,11 @@ This does not affect the appearance of the view.
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets margin style property.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#margin[margin]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#margin[margin]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L345[ui/core/view/index.d.ts:345]
 
@@ -1866,11 +1866,11 @@ Gets or sets margin style property.
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the bottom side of this view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#marginbottom[marginBottom]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#marginbottom[marginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L365[ui/core/view/index.d.ts:365]
 
@@ -1879,11 +1879,11 @@ Specifies extra space on the bottom side of this view.
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the left side of this view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#marginleft[marginLeft]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#marginleft[marginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L350[ui/core/view/index.d.ts:350]
 
@@ -1892,11 +1892,11 @@ Specifies extra space on the left side of this view.
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the right side of this view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#marginright[marginRight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#marginright[marginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L360[ui/core/view/index.d.ts:360]
 
@@ -1905,11 +1905,11 @@ Specifies extra space on the right side of this view.
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the top side of this view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#margintop[marginTop]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#margintop[marginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L355[ui/core/view/index.d.ts:355]
 
@@ -1918,11 +1918,11 @@ Specifies extra space on the top side of this view.
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum height the view may grow to.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#minheight[minHeight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#minheight[minHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L330[ui/core/view/index.d.ts:330]
 
@@ -1931,11 +1931,11 @@ Gets or sets the minimum height the view may grow to.
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum width the view may grow to.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#minwidth[minWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#minwidth[minWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L325[ui/core/view/index.d.ts:325]
 
@@ -1948,7 +1948,7 @@ Gets or sets the minimum width the view may grow to.
 
 Returns the current modal view that this page is showing (is parent of), if any.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#modal[modal]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#modal[modal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L627[ui/core/view/index.d.ts:627]
 
@@ -1959,7 +1959,7 @@ Returns the current modal view that this page is showing (is parent of), if any.
 
 • *nativeViewProtected*: `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#nativeviewprotected[nativeViewProtected]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#nativeviewprotected[nativeViewProtected]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L269[ui/core/view-base/index.ts:269]
 
@@ -1974,7 +1974,7 @@ A property that is used to pass a data from another page (while navigate to).
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#navigationcontext[navigationContext]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#navigationcontext[navigationContext]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L88[ui/page/index.d.ts:88]
 
@@ -2006,7 +2006,7 @@ iOS Only Perform an action when user performans the "escape" gesture
 
 Gets or sets the opacity style property.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#opacity[opacity]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#opacity[opacity]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L385[ui/core/view/index.d.ts:385]
 
@@ -2017,7 +2017,7 @@ Gets or sets the opacity style property.
 
 • *order*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#order[order]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#order[order]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L301[ui/core/view-base/index.ts:301]
 
@@ -2031,7 +2031,7 @@ Gets or sets the opacity style property.
 Gets or sets the X component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#originx[originX]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#originx[originX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L433[ui/core/view/index.d.ts:433]
 
@@ -2045,7 +2045,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the Y component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#originy[originY]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#originy[originY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L438[ui/core/view/index.d.ts:438]
 
@@ -2056,7 +2056,7 @@ The default value is 0.5 representing the center of the view.
 
 • *parent*: xref:ViewBase.adoc[`ViewBase`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#parent[parent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#parent[parent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L270[ui/core/view-base/index.ts:270]
 
@@ -2070,7 +2070,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the distance of the camera form the view perspective.
 Usually needed when rotating the view over the X or Y axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#perspective[perspective]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#perspective[perspective]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L406[ui/core/view/index.d.ts:406]
 
@@ -2081,7 +2081,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *recycleNativeView*: `"auto"` | `"never"` | `"always"`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#recyclenativeview[recycleNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#recyclenativeview[recycleNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L266[ui/core/view-base/index.ts:266]
 
@@ -2092,7 +2092,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *reusable*: `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#reusable[reusable]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#reusable[reusable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L338[ui/core/view-base/index.ts:338]
 
@@ -2105,7 +2105,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 Gets or sets the rotate affine transform of the view along the Z axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#rotate[rotate]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#rotate[rotate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L390[ui/core/view/index.d.ts:390]
 
@@ -2118,7 +2118,7 @@ Gets or sets the rotate affine transform of the view along the Z axis.
 
 Gets or sets the rotate affine transform of the view along the X axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#rotatex[rotateX]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#rotatex[rotateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L395[ui/core/view/index.d.ts:395]
 
@@ -2131,7 +2131,7 @@ Gets or sets the rotate affine transform of the view along the X axis.
 
 Gets or sets the rotate affine transform of the view along the Y axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#rotatey[rotateY]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#rotatey[rotateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L400[ui/core/view/index.d.ts:400]
 
@@ -2142,7 +2142,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *row*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#row[row]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#row[row]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L294[ui/core/view-base/index.ts:294]
 
@@ -2153,7 +2153,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *rowSpan*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#rowspan[rowSpan]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#rowspan[rowSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L297[ui/core/view-base/index.ts:297]
 
@@ -2166,7 +2166,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 Gets or sets the scaleX affine transform of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#scalex[scaleX]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#scalex[scaleX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L421[ui/core/view/index.d.ts:421]
 
@@ -2179,7 +2179,7 @@ Gets or sets the scaleX affine transform of the view.
 
 Gets or sets the scaleY affine transform of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#scaley[scaleY]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#scaley[scaleY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L426[ui/core/view/index.d.ts:426]
 
@@ -2194,7 +2194,7 @@ Gets or sets the style of the status bar.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#statusbarstyle[statusBarStyle]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L60[ui/page/index.d.ts:60]
 
@@ -2205,7 +2205,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
 
 • *testID*: `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#testid[testID]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#testid[testID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L85[ui/core/view/view-common.ts:85]
 
@@ -2214,9 +2214,9 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
 [#top]
 === top
 
-• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *top*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#top[top]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#top[top]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L290[ui/core/view-base/index.ts:290]
 
@@ -2225,9 +2225,9 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
 [#touchanimation]
 === touchAnimation
 
-• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+• *touchAnimation*: `boolean` | link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#touchanimation[touchAnimation]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#touchanimation[touchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L87[ui/core/view/view-common.ts:87]
 
@@ -2238,7 +2238,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
 
 • *touchDelay*: `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#touchdelay[touchDelay]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#touchdelay[touchDelay]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L89[ui/core/view/view-common.ts:89]
 
@@ -2251,7 +2251,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#statusbarstyle[statusBarStyle]
 
 Gets or sets the translateX affine transform of the view in device independent pixels.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#translatex[translateX]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#translatex[translateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L411[ui/core/view/index.d.ts:411]
 
@@ -2264,7 +2264,7 @@ Gets or sets the translateX affine transform of the view in device independent p
 
 Gets or sets the translateY affine transform of the view in device independent pixels.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#translatey[translateY]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#translatey[translateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L416[ui/core/view/index.d.ts:416]
 
@@ -2273,11 +2273,11 @@ Gets or sets the translateY affine transform of the view in device independent p
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Vertical axis.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#verticalalignment[verticalAlignment]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#verticalalignment[verticalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L375[ui/core/view/index.d.ts:375]
 
@@ -2288,7 +2288,7 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 
 • *viewController*: `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#viewcontroller[viewController]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#viewcontroller[viewController]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L267[ui/core/view-base/index.ts:267]
 
@@ -2297,11 +2297,11 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 Gets or sets the visibility of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#visibility[visibility]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#visibility[visibility]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L380[ui/core/view/index.d.ts:380]
 
@@ -2310,11 +2310,11 @@ Gets or sets the visibility of the view.
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired width of the view.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#width[width]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#width[width]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L335[ui/core/view/index.d.ts:335]
 
@@ -2327,7 +2327,7 @@ Gets or sets the desired width of the view.
 
 String value used when hooking to accessibilityBlur event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityblurevent[accessibilityBlurEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityblurevent[accessibilityBlurEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L122[ui/core/view/index.d.ts:122]
 
@@ -2340,7 +2340,7 @@ String value used when hooking to accessibilityBlur event.
 
 String value used when hooking to accessibilityFocusChanged event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L132[ui/core/view/index.d.ts:132]
 
@@ -2353,7 +2353,7 @@ String value used when hooking to accessibilityFocusChanged event.
 
 String value used when hooking to accessibilityFocus event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityfocusevent[accessibilityFocusEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityfocusevent[accessibilityFocusEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L127[ui/core/view/index.d.ts:127]
 
@@ -2364,7 +2364,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *accessibilityPerformEscapeEvent*: `string` = `accessibilityPerformEscapeEvent`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L78[ui/core/view/view-common.ts:78]
 
@@ -2375,7 +2375,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *createdEvent*: `string` = `'created'`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#createdevent[createdEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#createdevent[createdEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L250[ui/core/view-base/index.ts:250]
 
@@ -2386,7 +2386,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *disposeNativeViewEvent*: `string` = `'disposeNativeView'`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#disposenativeviewevent[disposeNativeViewEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#disposenativeviewevent[disposeNativeViewEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L251[ui/core/view-base/index.ts:251]
 
@@ -2399,7 +2399,7 @@ String value used when hooking to accessibilityFocus event.
 
 String value used when hooking to layoutChanged event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#layoutchangedevent[layoutChangedEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#layoutchangedevent[layoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L108[ui/core/view/index.d.ts:108]
 
@@ -2410,7 +2410,7 @@ String value used when hooking to layoutChanged event.
 
 ▪ `Static` *loadedEvent*: `string` = `'loaded'`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#loadedevent[loadedEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#loadedevent[loadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L248[ui/core/view-base/index.ts:248]
 
@@ -2425,7 +2425,7 @@ String value used when hooking to navigatedFrom event.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#navigatedfromevent[navigatedFromEvent]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#navigatedfromevent[navigatedFromEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L49[ui/page/index.d.ts:49]
 
@@ -2440,7 +2440,7 @@ String value used when hooking to navigatedTo event.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#navigatedtoevent[navigatedToEvent]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#navigatedtoevent[navigatedToEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L39[ui/page/index.d.ts:39]
 
@@ -2455,7 +2455,7 @@ String value used when hooking to navigatingFrom event.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#navigatingfromevent[navigatingFromEvent]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#navigatingfromevent[navigatingFromEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L44[ui/page/index.d.ts:44]
 
@@ -2470,7 +2470,7 @@ String value used when hooking to navigatingTo event.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#navigatingtoevent[navigatingToEvent]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#navigatingtoevent[navigatingToEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L34[ui/page/index.d.ts:34]
 
@@ -2481,7 +2481,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#navigatingtoevent[navigatingToEven
 
 ▪ `Static` *propertyChangeEvent*: `string` = `'propertyChange'`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#propertychangeevent[propertyChangeEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#propertychangeevent[propertyChangeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L51[data/observable/index.ts:51]
 
@@ -2494,7 +2494,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#navigatingtoevent[navigatingToEven
 
 String value used when hooking to showingModally event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#showingmodallyevent[showingModallyEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#showingmodallyevent[showingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L112[ui/core/view/index.d.ts:112]
 
@@ -2507,7 +2507,7 @@ String value used when hooking to showingModally event.
 
 String value used when hooking to shownModally event.
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#shownmodallyevent[shownModallyEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#shownmodallyevent[shownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L117[ui/core/view/index.d.ts:117]
 
@@ -2518,7 +2518,7 @@ String value used when hooking to shownModally event.
 
 ▪ `Static` *unloadedEvent*: `string` = `'unloaded'`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#unloadedevent[unloadedEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#unloadedevent[unloadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L249[ui/core/view-base/index.ts:249]
 
@@ -2582,11 +2582,11 @@ PageBase.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Inherited from
 
@@ -2602,7 +2602,7 @@ PageBase.backgroundRepeat
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+| link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 |===
 
 ==== Returns
@@ -2901,11 +2901,11 @@ PageBase.style
 [#texttransform]
 === textTransform
 
-• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• `get` *textTransform*(): link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Inherited from
 
@@ -2921,7 +2921,7 @@ PageBase.textTransform
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
@@ -2979,7 +2979,7 @@ This method will add a child element (value) to current element.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_addchildfrombuilder[_addChildFromBuilder]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_addchildfrombuilder[_addChildFromBuilder]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/page-common.ts#L84[ui/page/page-common.ts:84]
 
@@ -3006,7 +3006,7 @@ This method will add a child element (value) to current element.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_addview[_addView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_addview[_addView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L675[ui/core/view-base/index.ts:675]
 
@@ -3033,7 +3033,7 @@ This method will add a child element (value) to current element.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_addviewcore[_addViewCore]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_addviewcore[_addViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L700[ui/core/view-base/index.ts:700]
 
@@ -3062,7 +3062,7 @@ Method is intended to be overridden by inheritors and used as "protected".
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L982[ui/core/view-base/index.ts:982]
 
@@ -3098,7 +3098,7 @@ This allows custom handling
 
 `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_applybackground[_applyBackground]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_applybackground[_applyBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L837[ui/core/view/index.d.ts:837]
 
@@ -3130,7 +3130,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_applyxmlattribute[_applyXmlAttribute]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_applyxmlattribute[_applyXmlAttribute]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1017[ui/core/view-base/index.ts:1017]
 
@@ -3162,7 +3162,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `T`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_batchupdate[_batchUpdate]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_batchupdate[_batchUpdate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L497[ui/core/view-base/index.ts:497]
 
@@ -3186,7 +3186,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L975[ui/core/view-base/index.ts:975]
 
@@ -3204,7 +3204,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L703[ui/core/view/index.d.ts:703]
 
@@ -3234,7 +3234,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_createpropertychangedata[_createPropertyChangeData]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_createpropertychangedata[_createPropertyChangeData]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L313[data/observable/index.ts:313]
 
@@ -3249,7 +3249,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_dialogclosed[_dialogClosed]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_dialogclosed[_dialogClosed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1113[ui/core/view-base/index.ts:1113]
 
@@ -3273,7 +3273,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_eachlayoutview[_eachLayoutView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_eachlayoutview[_eachLayoutView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L711[ui/core/view/index.d.ts:711]
 
@@ -3297,7 +3297,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_emit[_emit]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_emit[_emit]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L323[data/observable/index.ts:323]
 
@@ -3330,7 +3330,7 @@ Return view bounds.
 | `number`
 |===
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L794[ui/core/view/index.d.ts:794]
 
@@ -3345,7 +3345,7 @@ Return view bounds.
 
 `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_getfragmentmanager[_getFragmentManager]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_getfragmentmanager[_getFragmentManager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L850[ui/core/view/index.d.ts:850]
 
@@ -3360,7 +3360,7 @@ Return view bounds.
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_getnativeviewscount[_getNativeViewsCount]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_getnativeviewscount[_getNativeViewsCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L697[ui/core/view/index.d.ts:697]
 
@@ -3377,7 +3377,7 @@ Internal method: Gets all modal views of the current view.
 
 xref:ViewBase.adoc[`ViewBase`][]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_getrootmodalviews[_getRootModalViews]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_getrootmodalviews[_getRootModalViews]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L709[ui/core/view/index.d.ts:709]
 
@@ -3403,7 +3403,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `never`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_getvalue[_getValue]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_getvalue[_getValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L880[ui/core/view/index.d.ts:880]
 
@@ -3427,7 +3427,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_gotovisualstate[_goToVisualState]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_gotovisualstate[_goToVisualState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L803[ui/core/view/index.d.ts:803]
 
@@ -3457,7 +3457,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_handlelivesync[_handleLivesync]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_handlelivesync[_handleLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L851[ui/core/view/index.d.ts:851]
 
@@ -3483,7 +3483,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_hasancestorview[_hasAncestorView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_hasancestorview[_hasAncestorView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L874[ui/core/view/index.d.ts:874]
 
@@ -3510,7 +3510,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_hidenativemodalview[_hideNativeModalView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_hidenativemodalview[_hideNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L422[ui/core/view/view-common.ts:422]
 
@@ -3534,7 +3534,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_inheritstylescope[_inheritStyleScope]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_inheritstylescope[_inheritStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1082[ui/core/view-base/index.ts:1082]
 
@@ -3549,7 +3549,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_layoutparent[_layoutParent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_layoutparent[_layoutParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L469[ui/core/view-base/index.ts:469]
 
@@ -3579,7 +3579,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_observe[_observe]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_observe[_observe]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L256[ui/core/view/view-common.ts:256]
 
@@ -3596,7 +3596,7 @@ Called in android when native view is attached to window.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_onattachedtowindow[_onAttachedToWindow]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_onattachedtowindow[_onAttachedToWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L864[ui/core/view/index.d.ts:864]
 
@@ -3627,7 +3627,7 @@ Called when the content property has changed.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oncontentchanged[_onContentChanged]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oncontentchanged[_onContentChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/content-view/index.ts#L64[ui/content-view/index.ts:64]
 
@@ -3642,7 +3642,7 @@ Called when the content property has changed.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_oncssstatechange[_onCssStateChange]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_oncssstatechange[_onCssStateChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1073[ui/core/view-base/index.ts:1073]
 
@@ -3659,7 +3659,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_ondetachedfromwindow[_onDetachedFromWindow]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L869[ui/core/view/index.d.ts:869]
 
@@ -3689,7 +3689,7 @@ Called in android when native view is dettached from window.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_onlivesync[_onLivesync]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_onlivesync[_onLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L846[ui/core/view/index.d.ts:846]
 
@@ -3704,7 +3704,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_onrootviewreset[_onRootViewReset]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_onrootviewreset[_onRootViewReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1121[ui/core/view-base/index.ts:1121]
 
@@ -3721,7 +3721,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_onsizechanged[_onSizeChanged]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_onsizechanged[_onSizeChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L716[ui/core/view/index.d.ts:716]
 
@@ -3745,7 +3745,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_parentchanged[_parentChanged]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_parentchanged[_parentChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1038[ui/core/view-base/index.ts:1038]
 
@@ -3760,7 +3760,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L424[ui/core/view/view-common.ts:424]
 
@@ -3775,7 +3775,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L442[ui/core/view/view-common.ts:442]
 
@@ -3790,7 +3790,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L432[ui/core/view/view-common.ts:432]
 
@@ -3814,7 +3814,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_redrawnativebackground[_redrawNativeBackground]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_redrawnativebackground[_redrawNativeBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L832[ui/core/view/index.d.ts:832]
 
@@ -3838,7 +3838,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_removeanimation[_removeAnimation]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_removeanimation[_removeAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L842[ui/core/view/index.d.ts:842]
 
@@ -3866,7 +3866,7 @@ Do not use outside the UI Stack implementation.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_removeview[_removeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_removeview[_removeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L733[ui/core/view-base/index.ts:733]
 
@@ -3892,7 +3892,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_removeviewcore[_removeViewCore]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_removeviewcore[_removeViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L754[ui/core/view-base/index.ts:754]
 
@@ -3918,7 +3918,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L993[ui/core/view-base/index.ts:993]
 
@@ -3942,7 +3942,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_resumenativeupdates[_resumeNativeUpdates]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_resumenativeupdates[_resumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L482[ui/core/view-base/index.ts:482]
 
@@ -3962,14 +3962,14 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setchildminheightnative[_setChildMinHeightNative]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setchildminheightnative[_setChildMinHeightNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L914[ui/core/view/index.d.ts:914]
 
@@ -3989,14 +3989,14 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setchildminwidthnative[_setChildMinWidthNative]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setchildminwidthnative[_setChildMinWidthNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L910[ui/core/view/index.d.ts:910]
 
@@ -4041,7 +4041,7 @@ Called by layout method to cache view bounds.
 | `boolean`
 |===
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L789[ui/core/view/index.d.ts:789]
 
@@ -4070,7 +4070,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L784[ui/core/view/index.d.ts:784]
 
@@ -4087,14 +4087,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setminheightnative[_setMinHeightNative]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setminheightnative[_setMinHeightNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L828[ui/core/view/index.d.ts:828]
 
@@ -4111,14 +4111,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setminwidthnative[_setMinWidthNative]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setminwidthnative[_setMinWidthNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L824[ui/core/view/index.d.ts:824]
 
@@ -4133,7 +4133,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setnativecliptobounds[_setNativeClipToBounds]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setnativecliptobounds[_setNativeClipToBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L779[ui/core/view/index.d.ts:779]
 
@@ -4160,7 +4160,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setnativeviewframe[_setNativeViewFrame]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setnativeviewframe[_setNativeViewFrame]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L807[ui/core/view/index.d.ts:807]
 
@@ -4189,7 +4189,7 @@ Called by measure method to cache measureSpecs.
 
 `never`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setvalue[_setValue]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setvalue[_setValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L885[ui/core/view/index.d.ts:885]
 
@@ -4213,7 +4213,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setupasrootview[_setupAsRootView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setupasrootview[_setupAsRootView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L249[ui/core/view/view-common.ts:249]
 
@@ -4243,7 +4243,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_setupui[_setupUI]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_setupui[_setupUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L804[ui/core/view-base/index.ts:804]
 
@@ -4258,7 +4258,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_shoulddelaylayout[_shouldDelayLayout]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_shoulddelaylayout[_shouldDelayLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L720[ui/core/view-base/index.ts:720]
 
@@ -4285,7 +4285,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_shownativemodalview[_showNativeModalView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_shownativemodalview[_showNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L387[ui/core/view/view-common.ts:387]
 
@@ -4309,7 +4309,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_suspendnativeupdates[_suspendNativeUpdates]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_suspendnativeupdates[_suspendNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L475[ui/core/view-base/index.ts:475]
 
@@ -4333,7 +4333,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_teardownui[_tearDownUI]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_teardownui[_tearDownUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L916[ui/core/view-base/index.ts:916]
 
@@ -4366,7 +4366,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L812[ui/core/view/index.d.ts:812]
 
@@ -4390,7 +4390,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_updatenativelayoutparams[_updateNativeLayoutParams]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L906[ui/core/view/index.d.ts:906]
 
@@ -4422,7 +4422,7 @@ Updates styleScope or create new styleScope.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#_updatestylescope[_updateStyleScope]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#_updatestylescope[_updateStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L859[ui/core/view/index.d.ts:859]
 
@@ -4448,7 +4448,7 @@ Make an announcement to the screen reader.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityannouncement[accessibilityAnnouncement]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityannouncement[accessibilityAnnouncement]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L751[ui/core/view/index.d.ts:751]
 
@@ -4476,7 +4476,7 @@ Announce screen changed
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#accessibilityscreenchanged[accessibilityScreenChanged]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L185[ui/page/index.d.ts:185]
 
@@ -4503,7 +4503,7 @@ Adds a new values to current css.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#addcss[addCss]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#addcss[addCss]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L680[ui/core/view/index.d.ts:680]
 
@@ -4530,7 +4530,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#addcssfile[addCssFile]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#addcssfile[addCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L687[ui/core/view/index.d.ts:687]
 
@@ -4560,7 +4560,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#addeventlistener[addEventListener]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#addeventlistener[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L268[ui/core/view/view-common.ts:268]
 
@@ -4584,7 +4584,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#addpseudoclass[addPseudoClass]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#addpseudoclass[addPseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L568[ui/core/view-base/index.ts:568]
 
@@ -4610,7 +4610,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `AnimationPromise`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#animate[animate]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#animate[animate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L632[ui/core/view/index.d.ts:632]
 
@@ -4639,7 +4639,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#bind[bind]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#bind[bind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L598[ui/core/view-base/index.ts:598]
 
@@ -4654,7 +4654,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#callloaded[callLoaded]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#callloaded[callLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L537[ui/core/view-base/index.ts:537]
 
@@ -4669,7 +4669,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#callunloaded[callUnloaded]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#callunloaded[callUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L541[ui/core/view-base/index.ts:541]
 
@@ -4696,7 +4696,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#changecssfile[changeCssFile]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#changecssfile[changeCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L694[ui/core/view/index.d.ts:694]
 
@@ -4720,7 +4720,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#closemodal[closeModal]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#closemodal[closeModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L371[ui/core/view/view-common.ts:371]
 
@@ -4746,7 +4746,7 @@ Creates an Animation object based on the supplied options.
 
 xref:Animation.adoc[`Animation`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#createanimation[createAnimation]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#createanimation[createAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L637[ui/core/view/index.d.ts:637]
 
@@ -4761,7 +4761,7 @@ xref:Animation.adoc[`Animation`]
 
 `Object`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#createnativeview[createNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#createnativeview[createNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L762[ui/core/view-base/index.ts:762]
 
@@ -4785,7 +4785,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#deletepseudoclass[deletePseudoClass]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#deletepseudoclass[deletePseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L579[ui/core/view-base/index.ts:579]
 
@@ -4809,7 +4809,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#destroynode[destroyNode]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#destroynode[destroyNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L910[ui/core/view-base/index.ts:910]
 
@@ -4824,7 +4824,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#disposenativeview[disposeNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#disposenativeview[disposeNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L766[ui/core/view-base/index.ts:766]
 
@@ -4848,7 +4848,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#eachchild[eachChild]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#eachchild[eachChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L969[ui/core/view/view-common.ts:969]
 
@@ -4876,7 +4876,7 @@ Iteration stops if this method returns falsy value.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#eachchildview[eachChildView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#eachchildview[eachChildView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/page-common.ts#L150[ui/page/page-common.ts:150]
 
@@ -4891,7 +4891,7 @@ Iteration stops if this method returns falsy value.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#ensuredomnode[ensureDomNode]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#ensuredomnode[ensureDomNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L416[ui/core/view-base/index.ts:416]
 
@@ -4909,7 +4909,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#focus[focus]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#focus[focus]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L578[ui/core/view/index.d.ts:578]
 
@@ -4933,7 +4933,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#get[get]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#get[get]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L56[data/observable/index.ts:56]
 
@@ -4950,7 +4950,7 @@ Returns the actual size of the view in device-independent pixels.
 
 xref:../interfaces/Size.adoc[`Size`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getactualsize[getActualSize]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getactualsize[getActualSize]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L662[ui/core/view/index.d.ts:662]
 
@@ -4974,7 +4974,7 @@ xref:../interfaces/Size.adoc[`Size`]
 
 xref:GesturesObserver.adoc[`GesturesObserver`][]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getgestureobservers[getGestureObservers]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getgestureobservers[getGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L580[ui/core/view/index.d.ts:580]
 
@@ -5002,7 +5002,7 @@ xref:KeyframeAnimationInfo.adoc[`KeyframeAnimationInfo`]
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#getkeyframeanimationwithname[getKeyframeAnimationWithName]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#getkeyframeanimationwithname[getKeyframeAnimationWithName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L82[ui/page/index.d.ts:82]
 
@@ -5019,7 +5019,7 @@ Returns the location of this view in the window coordinate system.
 
 `Point`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getlocationinwindow[getLocationInWindow]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getlocationinwindow[getLocationInWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L647[ui/core/view/index.d.ts:647]
 
@@ -5036,7 +5036,7 @@ Returns the location of this view in the screen coordinate system.
 
 `Point`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getlocationonscreen[getLocationOnScreen]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getlocationonscreen[getLocationOnScreen]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L652[ui/core/view/index.d.ts:652]
 
@@ -5062,7 +5062,7 @@ Returns the location of this view in the otherView's coordinate system.
 
 `Point`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getlocationrelativeto[getLocationRelativeTo]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getlocationrelativeto[getLocationRelativeTo]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L657[ui/core/view/index.d.ts:657]
 
@@ -5079,7 +5079,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getmeasuredheight[getMeasuredHeight]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getmeasuredheight[getMeasuredHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L506[ui/core/view/index.d.ts:506]
 
@@ -5094,7 +5094,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getmeasuredstate[getMeasuredState]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getmeasuredstate[getMeasuredState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L508[ui/core/view/index.d.ts:508]
 
@@ -5111,7 +5111,7 @@ Returns the raw width component.
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getmeasuredwidth[getMeasuredWidth]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getmeasuredwidth[getMeasuredWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L501[ui/core/view/index.d.ts:501]
 
@@ -5144,7 +5144,7 @@ Returns the iOS safe area insets of this view.
 | `any`
 |===
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getsafeareainsets[getSafeAreaInsets]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getsafeareainsets[getSafeAreaInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L642[ui/core/view/index.d.ts:642]
 
@@ -5177,7 +5177,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getviewbydomid[getViewByDomId]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getviewbydomid[getViewByDomId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L404[ui/core/view-base/index.ts:404]
 
@@ -5210,7 +5210,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#getviewbyid[getViewById]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#getviewbyid[getViewById]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L400[ui/core/view-base/index.ts:400]
 
@@ -5227,7 +5227,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#hasgestureobservers[hasGestureObservers]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#hasgestureobservers[hasGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L721[ui/core/view/index.d.ts:721]
 
@@ -5251,7 +5251,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#haslisteners[hasListeners]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#haslisteners[hasListeners]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L309[data/observable/index.ts:309]
 
@@ -5266,7 +5266,7 @@ Android only check if gesture observers are attached
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#initnativeview[initNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#initnativeview[initNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L773[ui/core/view-base/index.ts:773]
 
@@ -5310,7 +5310,7 @@ In that method, they should call layout on each of their children.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#layout[layout]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#layout[layout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L496[ui/core/view/index.d.ts:496]
 
@@ -5349,7 +5349,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#layoutnativeview[layoutNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#layoutnativeview[layoutNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L541[ui/core/view/index.d.ts:541]
 
@@ -5373,7 +5373,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#loadview[loadView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#loadview[loadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L714[ui/core/view-base/index.ts:714]
 
@@ -5407,7 +5407,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#measure[measure]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#measure[measure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L485[ui/core/view/index.d.ts:485]
 
@@ -5440,7 +5440,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#notify[notify]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#notify[notify]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L274[data/observable/index.ts:274]
 
@@ -5470,7 +5470,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#notifypropertychange[notifyPropertyChange]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#notifypropertychange[notifyPropertyChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L305[data/observable/index.ts:305]
 
@@ -5506,7 +5506,7 @@ If not defined, all listeners for the event names will be removed.
 
 `any`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#off[off]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#off[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L588[ui/core/view/index.d.ts:588]
 
@@ -5546,7 +5546,7 @@ Optionally could be used more events separated by `,` (e.g.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#on[on]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L119[ui/page/index.d.ts:119]
 
@@ -5575,7 +5575,7 @@ Raised when navigation to the page has started.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#on[on]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L124[ui/page/index.d.ts:124]
 
@@ -5604,7 +5604,7 @@ Raised when navigation to the page has finished.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#on[on]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L129[ui/page/index.d.ts:129]
 
@@ -5633,7 +5633,7 @@ Raised when navigation from the page has started.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#on[on]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L134[ui/page/index.d.ts:134]
 
@@ -5662,7 +5662,7 @@ Raised when navigation from the page has finished.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#on[on]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L139[ui/page/index.d.ts:139]
 
@@ -5679,7 +5679,7 @@ Derived classes can override this method to handle Android back button press.
 
 `boolean`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onbackpressed[onBackPressed]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onbackpressed[onBackPressed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L667[ui/core/view/index.d.ts:667]
 
@@ -5719,7 +5719,7 @@ Derived classes with children should override this method and call layout on eac
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onlayout[onLayout]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onlayout[onLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/content-view/index.ts#L101[ui/content-view/index.ts:101]
 
@@ -5734,7 +5734,7 @@ Derived classes with children should override this method and call layout on eac
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onloaded[onLoaded]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onloaded[onLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L163[ui/core/view/view-common.ts:163]
 
@@ -5770,7 +5770,7 @@ The requirements are encoded with View.MeasureSpec.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onmeasure[onMeasure]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onmeasure[onMeasure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/content-view/index.ts#L82[ui/content-view/index.ts:82]
 
@@ -5799,7 +5799,7 @@ A method called after navigated from the page.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatedfrom[onNavigatedFrom]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#onnavigatedfrom[onNavigatedFrom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L179[ui/page/index.d.ts:179]
 
@@ -5828,7 +5828,7 @@ A method called after navigated to the page.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatedto[onNavigatedTo]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#onnavigatedto[onNavigatedTo]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L165[ui/page/index.d.ts:165]
 
@@ -5857,7 +5857,7 @@ A method called before navigating from the page.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingfrom[onNavigatingFrom]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#onnavigatingfrom[onNavigatingFrom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L172[ui/page/index.d.ts:172]
 
@@ -5895,7 +5895,7 @@ Optional.
 
 ==== Overrides
 
-xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
+xref:PageBase.adoc[PageBase].link:PageBase.adoc#onnavigatingto[onNavigatingTo]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/page/index.d.ts#L158[ui/page/index.d.ts:158]
 
@@ -5910,7 +5910,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onresumenativeupdates[onResumeNativeUpdates]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onresumenativeupdates[onResumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1053[ui/core/view-base/index.ts:1053]
 
@@ -5925,7 +5925,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#onunloaded[onUnloaded]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#onunloaded[onUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L449[ui/core/view-base/index.ts:449]
 
@@ -5955,7 +5955,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#once[once]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#once[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L92[data/observable/index.ts:92]
 
@@ -5985,7 +5985,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#removeeventlistener[removeEventListener]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#removeeventlistener[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L296[ui/core/view/view-common.ts:296]
 
@@ -6000,7 +6000,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#requestlayout[requestLayout]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#requestlayout[requestLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L912[ui/core/view/view-common.ts:912]
 
@@ -6015,7 +6015,7 @@ xref:PageBase.adoc[PageBase].link:PageBase.md#onnavigatingto[onNavigatingTo]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#resetnativeview[resetNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#resetnativeview[resetNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1047[ui/core/view/view-common.ts:1047]
 
@@ -6052,7 +6052,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#sendaccessibilityevent[sendAccessibilityEvent]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#sendaccessibilityevent[sendAccessibilityEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L746[ui/core/view/index.d.ts:746]
 
@@ -6079,7 +6079,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#set[set]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#set[set]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L425[ui/core/view-base/index.ts:425]
 
@@ -6103,7 +6103,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#setinlinestyle[setInlineStyle]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#setinlinestyle[setInlineStyle]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1029[ui/core/view-base/index.ts:1029]
 
@@ -6137,7 +6137,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#setmeasureddimension[setMeasuredDimension]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#setmeasureddimension[setMeasuredDimension]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L532[ui/core/view/index.d.ts:532]
 
@@ -6161,7 +6161,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#setnativeview[setNativeView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#setnativeview[setNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L892[ui/core/view-base/index.ts:892]
 
@@ -6178,7 +6178,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#setontouchlistener[setOnTouchListener]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#setontouchlistener[setOnTouchListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L726[ui/core/view/index.d.ts:726]
 
@@ -6205,7 +6205,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#setproperty[setProperty]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#setproperty[setProperty]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L72[data/observable/index.ts:72]
 
@@ -6232,7 +6232,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#settestid[setTestID]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#settestid[setTestID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1126[ui/core/view/view-common.ts:1126]
 
@@ -6256,7 +6256,7 @@ Android only to set the touch listener
 
 xref:View.adoc[`View`]
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#showmodal[showModal]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#showmodal[showModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L363[ui/core/view/view-common.ts:363]
 
@@ -6271,7 +6271,7 @@ xref:View.adoc[`View`]
 
 `string`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#tostring[toString]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#tostring[toString]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1058[ui/core/view-base/index.ts:1058]
 
@@ -6295,7 +6295,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#unbind[unbind]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#unbind[unbind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L627[ui/core/view-base/index.ts:627]
 
@@ -6319,7 +6319,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#unloadview[unloadView]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#unloadview[unloadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L724[ui/core/view-base/index.ts:724]
 
@@ -6349,7 +6349,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#addeventlistener-1[addEventListener]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#addeventlistener-1[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L235[data/observable/index.ts:235]
 
@@ -6376,7 +6376,7 @@ xref:View.adoc[`View`]
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#combinemeasuredstates[combineMeasuredStates]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#combinemeasuredstates[combineMeasuredStates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L572[ui/core/view/index.d.ts:572]
 
@@ -6424,7 +6424,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#layoutchild[layoutChild]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#layoutchild[layoutChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L560[ui/core/view/index.d.ts:560]
 
@@ -6474,7 +6474,7 @@ You can pass null.
 | `number`
 |===
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#measurechild[measureChild]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#measurechild[measureChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L550[ui/core/view/index.d.ts:550]
 
@@ -6504,7 +6504,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#off-1[off]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#off-1[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L183[data/observable/index.ts:183]
 
@@ -6534,7 +6534,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#on-1[on]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#on-1[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L160[data/observable/index.ts:160]
 
@@ -6564,7 +6564,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#once-1[once]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#once-1[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L164[data/observable/index.ts:164]
 
@@ -6594,7 +6594,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#removeeventlistener-1[removeEventListener]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#removeeventlistener-1[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L187[data/observable/index.ts:187]
 
@@ -6631,6 +6631,6 @@ The returned value is a compound integer, with the resolved size in the MEASURED
 
 `number`
 
-==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.md#resolvesizeandstate[resolveSizeAndState]
+==== Inherited from xref:PageBase.adoc[PageBase].link:PageBase.adoc#resolvesizeandstate[resolveSizeAndState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L570[ui/core/view/index.d.ts:570]

@@ -8,9 +8,9 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 === Enumeration Members
 
-* link:AccessibilityLiveRegion.md#assertive[Assertive]
-* link:AccessibilityLiveRegion.md#none[None]
-* link:AccessibilityLiveRegion.md#polite[Polite]
+* link:AccessibilityLiveRegion.adoc#assertive[Assertive]
+* link:AccessibilityLiveRegion.adoc#none[None]
+* link:AccessibilityLiveRegion.adoc#polite[Polite]
 
 == Enumeration Members
 
@@ -19,9 +19,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 • *Assertive* = `"assertive"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L133[accessibility/accessibility-types.ts:133]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L133[accessibility/accessibility-types.ts:133]
 
 '''
 
@@ -30,9 +28,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *None* = `"none"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L131[accessibility/accessibility-types.ts:131]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L131[accessibility/accessibility-types.ts:131]
 
 '''
 
@@ -41,6 +37,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *Polite* = `"polite"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L132[accessibility/accessibility-types.ts:132]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L132[accessibility/accessibility-types.ts:132]

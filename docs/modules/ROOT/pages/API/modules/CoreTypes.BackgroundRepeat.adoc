@@ -10,59 +10,51 @@ xref:CoreTypes.adoc[CoreTypes].BackgroundRepeat
 
 === Variables
 
-* link:CoreTypes.BackgroundRepeat.md#norepeat[noRepeat]
-* link:CoreTypes.BackgroundRepeat.md#repeat[repeat]
-* link:CoreTypes.BackgroundRepeat.md#repeatx[repeatX]
-* link:CoreTypes.BackgroundRepeat.md#repeaty[repeatY]
+* link:CoreTypes.BackgroundRepeat.adoc#norepeat[noRepeat]
+* link:CoreTypes.BackgroundRepeat.adoc#repeat[repeat]
+* link:CoreTypes.BackgroundRepeat.adoc#repeatx[repeatX]
+* link:CoreTypes.BackgroundRepeat.adoc#repeaty[repeatY]
 
 === Functions
 
-* link:CoreTypes.BackgroundRepeat.md#isvalid[isValid]
-* link:CoreTypes.BackgroundRepeat.md#parse[parse]
+* link:CoreTypes.BackgroundRepeat.adoc#isvalid[isValid]
+* link:CoreTypes.BackgroundRepeat.adoc#parse[parse]
 
 == Variables
 
 [#norepeat]
 === noRepeat
 
-• `Const` *noRepeat*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'no-repeat'`
+• `Const` *noRepeat*: link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`] = `'no-repeat'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L245[core-types/index.ts:245]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L245[core-types/index.ts:245]
 
 '''
 
 [#repeat]
 === repeat
 
-• `Const` *repeat*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat'`
+• `Const` *repeat*: link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L242[core-types/index.ts:242]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L242[core-types/index.ts:242]
 
 '''
 
 [#repeatx]
 === repeatX
 
-• `Const` *repeatX*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-x'`
+• `Const` *repeatX*: link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-x'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L243[core-types/index.ts:243]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L243[core-types/index.ts:243]
 
 '''
 
 [#repeaty]
 === repeatY
 
-• `Const` *repeatY*: link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-y'`
+• `Const` *repeatY*: link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`] = `'repeat-y'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L244[core-types/index.ts:244]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L244[core-types/index.ts:244]
 
 == Functions
 
@@ -84,16 +76,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 value is BackgroundRepeatType
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`value`): link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+▸ *parse*(`value`): link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Parameters
 
@@ -106,8 +96,6 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 ==== Returns
 
-link:CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]

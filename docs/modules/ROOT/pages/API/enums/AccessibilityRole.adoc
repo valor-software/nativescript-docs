@@ -8,24 +8,24 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 === Enumeration Members
 
-* link:AccessibilityRole.md#adjustable[Adjustable]
-* link:AccessibilityRole.md#button[Button]
-* link:AccessibilityRole.md#checkbox[Checkbox]
-* link:AccessibilityRole.md#header[Header]
-* link:AccessibilityRole.md#image[Image]
-* link:AccessibilityRole.md#imagebutton[ImageButton]
-* link:AccessibilityRole.md#keyboardkey[KeyboardKey]
-* link:AccessibilityRole.md#link[Link]
-* link:AccessibilityRole.md#none[None]
-* link:AccessibilityRole.md#playssound[PlaysSound]
-* link:AccessibilityRole.md#progressbar[ProgressBar]
-* link:AccessibilityRole.md#radiobutton[RadioButton]
-* link:AccessibilityRole.md#search[Search]
-* link:AccessibilityRole.md#spinbutton[SpinButton]
-* link:AccessibilityRole.md#startsmediasession[StartsMediaSession]
-* link:AccessibilityRole.md#statictext[StaticText]
-* link:AccessibilityRole.md#summary[Summary]
-* link:AccessibilityRole.md#switch[Switch]
+* link:AccessibilityRole.adoc#adjustable[Adjustable]
+* link:AccessibilityRole.adoc#button[Button]
+* link:AccessibilityRole.adoc#checkbox[Checkbox]
+* link:AccessibilityRole.adoc#header[Header]
+* link:AccessibilityRole.adoc#image[Image]
+* link:AccessibilityRole.adoc#imagebutton[ImageButton]
+* link:AccessibilityRole.adoc#keyboardkey[KeyboardKey]
+* link:AccessibilityRole.adoc#link[Link]
+* link:AccessibilityRole.adoc#none[None]
+* link:AccessibilityRole.adoc#playssound[PlaysSound]
+* link:AccessibilityRole.adoc#progressbar[ProgressBar]
+* link:AccessibilityRole.adoc#radiobutton[RadioButton]
+* link:AccessibilityRole.adoc#search[Search]
+* link:AccessibilityRole.adoc#spinbutton[SpinButton]
+* link:AccessibilityRole.adoc#startsmediasession[StartsMediaSession]
+* link:AccessibilityRole.adoc#statictext[StaticText]
+* link:AccessibilityRole.adoc#summary[Summary]
+* link:AccessibilityRole.adoc#switch[Switch]
 
 == Enumeration Members
 
@@ -36,9 +36,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 The element allows continuous adjustment through a range of values.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L35[accessibility/accessibility-types.ts:35]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L35[accessibility/accessibility-types.ts:35]
 
 '''
 
@@ -49,9 +47,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as a button.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L40[accessibility/accessibility-types.ts:40]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L40[accessibility/accessibility-types.ts:40]
 
 '''
 
@@ -62,9 +58,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves like a Checkbox
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L45[accessibility/accessibility-types.ts:45]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L45[accessibility/accessibility-types.ts:45]
 
 '''
 
@@ -75,9 +69,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element is a header that divides content into sections, such as the title of a navigation bar.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L50[accessibility/accessibility-types.ts:50]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L50[accessibility/accessibility-types.ts:50]
 
 '''
 
@@ -88,9 +80,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as an image.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L55[accessibility/accessibility-types.ts:55]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L55[accessibility/accessibility-types.ts:55]
 
 '''
 
@@ -101,9 +91,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as a image button.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L60[accessibility/accessibility-types.ts:60]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L60[accessibility/accessibility-types.ts:60]
 
 '''
 
@@ -114,9 +102,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves as a keyboard key.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L65[accessibility/accessibility-types.ts:65]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L65[accessibility/accessibility-types.ts:65]
 
 '''
 
@@ -127,9 +113,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as a link.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L70[accessibility/accessibility-types.ts:70]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L70[accessibility/accessibility-types.ts:70]
 
 '''
 
@@ -140,9 +124,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element has no traits.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L75[accessibility/accessibility-types.ts:75]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L75[accessibility/accessibility-types.ts:75]
 
 '''
 
@@ -153,9 +135,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element plays its own sound when activated.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L80[accessibility/accessibility-types.ts:80]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L80[accessibility/accessibility-types.ts:80]
 
 '''
 
@@ -166,9 +146,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves like a ProgressBar
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L85[accessibility/accessibility-types.ts:85]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L85[accessibility/accessibility-types.ts:85]
 
 '''
 
@@ -179,9 +157,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves like a RadioButton
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L90[accessibility/accessibility-types.ts:90]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L90[accessibility/accessibility-types.ts:90]
 
 '''
 
@@ -192,9 +168,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as a search field.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L95[accessibility/accessibility-types.ts:95]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L95[accessibility/accessibility-types.ts:95]
 
 '''
 
@@ -205,9 +179,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves like a SpinButton
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L100[accessibility/accessibility-types.ts:100]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L100[accessibility/accessibility-types.ts:100]
 
 '''
 
@@ -218,9 +190,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element starts a media session when it is activated.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L105[accessibility/accessibility-types.ts:105]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L105[accessibility/accessibility-types.ts:105]
 
 '''
 
@@ -231,9 +201,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element should be treated as static text that cannot change.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L110[accessibility/accessibility-types.ts:110]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L110[accessibility/accessibility-types.ts:110]
 
 '''
 
@@ -244,9 +212,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element provides summary information when the application starts.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L115[accessibility/accessibility-types.ts:115]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L115[accessibility/accessibility-types.ts:115]
 
 '''
 
@@ -257,6 +223,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 The element behaves like a switch
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L120[accessibility/accessibility-types.ts:120]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L120[accessibility/accessibility-types.ts:120]

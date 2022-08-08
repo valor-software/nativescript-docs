@@ -10,8 +10,8 @@ Provides result data from the prompt dialog.
 
 === Properties
 
-* link:PromptResult.md#result[result]
-* link:PromptResult.md#text[text]
+* link:PromptResult.adoc#result[result]
+* link:PromptResult.adoc#text[text]
 
 == Properties
 

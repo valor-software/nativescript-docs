@@ -10,10 +10,10 @@ xref:CoreTypes.adoc[CoreTypes].TextTransform
 
 === Variables
 
-* link:CoreTypes.TextTransform.md#capitalize[capitalize]
-* link:CoreTypes.TextTransform.md#lowercase[lowercase]
-* link:CoreTypes.TextTransform.md#none[none]
-* link:CoreTypes.TextTransform.md#uppercase[uppercase]
+* link:CoreTypes.TextTransform.adoc#capitalize[capitalize]
+* link:CoreTypes.TextTransform.adoc#lowercase[lowercase]
+* link:CoreTypes.TextTransform.adoc#none[none]
+* link:CoreTypes.TextTransform.adoc#uppercase[uppercase]
 
 == Variables
 
@@ -22,9 +22,7 @@ xref:CoreTypes.adoc[CoreTypes].TextTransform
 
 • `Const` *capitalize*: `"capitalize"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L78[core-types/index.ts:78]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L78[core-types/index.ts:78]
 
 '''
 
@@ -33,9 +31,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *lowercase*: `"lowercase"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L80[core-types/index.ts:80]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L80[core-types/index.ts:80]
 
 '''
 
@@ -44,9 +40,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *none*: `"none"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L77[core-types/index.ts:77]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L77[core-types/index.ts:77]
 
 '''
 
@@ -55,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *uppercase*: `"uppercase"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L79[core-types/index.ts:79]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L79[core-types/index.ts:79]

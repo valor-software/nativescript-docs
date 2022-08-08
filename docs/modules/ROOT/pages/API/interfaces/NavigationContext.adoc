@@ -10,9 +10,9 @@ Represents a context passed to navigation methods.
 
 === Properties
 
-* link:NavigationContext.md#entry[entry]
-* link:NavigationContext.md#isbacknavigation[isBackNavigation]
-* link:NavigationContext.md#navigationtype[navigationType]
+* link:NavigationContext.adoc#entry[entry]
+* link:NavigationContext.adoc#isbacknavigation[isBackNavigation]
+* link:NavigationContext.adoc#navigationtype[navigationType]
 
 == Properties
 

@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].AutofillType
 
 === Variables
 
-* link:CoreTypes.AutofillType.md#none[none]
-* link:CoreTypes.AutofillType.md#password[password]
-* link:CoreTypes.AutofillType.md#username[username]
+* link:CoreTypes.AutofillType.adoc#none[none]
+* link:CoreTypes.AutofillType.adoc#password[password]
+* link:CoreTypes.AutofillType.adoc#username[username]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].AutofillType
 
 • `Const` *none*: `"none"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L48[core-types/index.ts:48]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L48[core-types/index.ts:48]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *password*: `"password"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L47[core-types/index.ts:47]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L47[core-types/index.ts:47]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *username*: `"username"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L46[core-types/index.ts:46]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L46[core-types/index.ts:46]

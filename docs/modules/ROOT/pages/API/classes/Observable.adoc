@@ -34,38 +34,38 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Observable
 
 === Constructors
 
-* link:Observable.md#constructor[constructor]
+* link:Observable.adoc#constructor[constructor]
 
 === Properties
 
-* link:Observable.md#_isviewbase[_isViewBase]
-* link:Observable.md#_observers[_observers]
-* link:Observable.md#propertychangeevent[propertyChangeEvent]
+* link:Observable.adoc#_isviewbase[_isViewBase]
+* link:Observable.adoc#_observers[_observers]
+* link:Observable.adoc#propertychangeevent[propertyChangeEvent]
 
 === Methods
 
-* link:Observable.md#_createpropertychangedata[_createPropertyChangeData]
-* link:Observable.md#_emit[_emit]
-* link:Observable.md#_geteventlist[_getEventList]
-* link:Observable.md#_globalnotify[_globalNotify]
-* link:Observable.md#addeventlistener[addEventListener]
-* link:Observable.md#get[get]
-* link:Observable.md#haslisteners[hasListeners]
-* link:Observable.md#notify[notify]
-* link:Observable.md#notifypropertychange[notifyPropertyChange]
-* link:Observable.md#off[off]
-* link:Observable.md#on[on]
-* link:Observable.md#once[once]
-* link:Observable.md#removeeventlistener[removeEventListener]
-* link:Observable.md#set[set]
-* link:Observable.md#setproperty[setProperty]
-* link:Observable.md#_handleevent[_handleEvent]
-* link:Observable.md#_indexoflistener[_indexOfListener]
-* link:Observable.md#addeventlistener-1[addEventListener]
-* link:Observable.md#off-1[off]
-* link:Observable.md#on-1[on]
-* link:Observable.md#once-1[once]
-* link:Observable.md#removeeventlistener-1[removeEventListener]
+* link:Observable.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:Observable.adoc#_emit[_emit]
+* link:Observable.adoc#_geteventlist[_getEventList]
+* link:Observable.adoc#_globalnotify[_globalNotify]
+* link:Observable.adoc#addeventlistener[addEventListener]
+* link:Observable.adoc#get[get]
+* link:Observable.adoc#haslisteners[hasListeners]
+* link:Observable.adoc#notify[notify]
+* link:Observable.adoc#notifypropertychange[notifyPropertyChange]
+* link:Observable.adoc#off[off]
+* link:Observable.adoc#on[on]
+* link:Observable.adoc#once[once]
+* link:Observable.adoc#removeeventlistener[removeEventListener]
+* link:Observable.adoc#set[set]
+* link:Observable.adoc#setproperty[setProperty]
+* link:Observable.adoc#_handleevent[_handleEvent]
+* link:Observable.adoc#_indexoflistener[_indexOfListener]
+* link:Observable.adoc#addeventlistener-1[addEventListener]
+* link:Observable.adoc#off-1[off]
+* link:Observable.adoc#on-1[on]
+* link:Observable.adoc#once-1[once]
+* link:Observable.adoc#removeeventlistener-1[removeEventListener]
 
 == Constructors
 

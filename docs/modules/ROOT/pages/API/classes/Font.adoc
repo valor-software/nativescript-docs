@@ -8,29 +8,29 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Font
 
 === Constructors
 
-* link:Font.md#constructor[constructor]
+* link:Font.adoc#constructor[constructor]
 
 === Properties
 
-* link:Font.md#fontfamily[fontFamily]
-* link:Font.md#fontscale[fontScale]
-* link:Font.md#fontsize[fontSize]
-* link:Font.md#fontstyle[fontStyle]
-* link:Font.md#fontweight[fontWeight]
-* link:Font.md#isbold[isBold]
-* link:Font.md#isitalic[isItalic]
-* link:Font.md#default[default]
+* link:Font.adoc#fontfamily[fontFamily]
+* link:Font.adoc#fontscale[fontScale]
+* link:Font.adoc#fontsize[fontSize]
+* link:Font.adoc#fontstyle[fontStyle]
+* link:Font.adoc#fontweight[fontWeight]
+* link:Font.adoc#isbold[isBold]
+* link:Font.adoc#isitalic[isItalic]
+* link:Font.adoc#default[default]
 
 === Methods
 
-* link:Font.md#getandroidtypeface[getAndroidTypeface]
-* link:Font.md#getuifont[getUIFont]
-* link:Font.md#withfontfamily[withFontFamily]
-* link:Font.md#withfontscale[withFontScale]
-* link:Font.md#withfontsize[withFontSize]
-* link:Font.md#withfontstyle[withFontStyle]
-* link:Font.md#withfontweight[withFontWeight]
-* link:Font.md#equals[equals]
+* link:Font.adoc#getandroidtypeface[getAndroidTypeface]
+* link:Font.adoc#getuifont[getUIFont]
+* link:Font.adoc#withfontfamily[withFontFamily]
+* link:Font.adoc#withfontscale[withFontScale]
+* link:Font.adoc#withfontsize[withFontSize]
+* link:Font.adoc#withfontstyle[withFontStyle]
+* link:Font.adoc#withfontweight[withFontWeight]
+* link:Font.adoc#equals[equals]
 
 == Constructors
 

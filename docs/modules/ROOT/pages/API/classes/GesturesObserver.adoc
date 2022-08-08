@@ -10,19 +10,19 @@ Provides options for the GesturesObserver.
 
 === Constructors
 
-* link:GesturesObserver.md#constructor[constructor]
+* link:GesturesObserver.adoc#constructor[constructor]
 
 === Properties
 
-* link:GesturesObserver.md#androidontouchevent[androidOnTouchEvent]
-* link:GesturesObserver.md#callback[callback]
-* link:GesturesObserver.md#context[context]
-* link:GesturesObserver.md#type[type]
+* link:GesturesObserver.adoc#androidontouchevent[androidOnTouchEvent]
+* link:GesturesObserver.adoc#callback[callback]
+* link:GesturesObserver.adoc#context[context]
+* link:GesturesObserver.adoc#type[type]
 
 === Methods
 
-* link:GesturesObserver.md#disconnect[disconnect]
-* link:GesturesObserver.md#observe[observe]
+* link:GesturesObserver.adoc#disconnect[disconnect]
+* link:GesturesObserver.adoc#observe[observe]
 
 == Constructors
 

@@ -11,19 +11,19 @@ Store reusable down/up animation settings for touches as well as optionally enab
 
 === Constructors
 
-* link:TouchManager.md#constructor[constructor]
+* link:TouchManager.adoc#constructor[constructor]
 
 === Properties
 
-* link:TouchManager.md#animations[animations]
-* link:TouchManager.md#enableglobaltapanimations[enableGlobalTapAnimations]
-* link:TouchManager.md#touchanimationdefinitions[touchAnimationDefinitions]
-* link:TouchManager.md#touchhandlers[touchHandlers]
+* link:TouchManager.adoc#animations[animations]
+* link:TouchManager.adoc#enableglobaltapanimations[enableGlobalTapAnimations]
+* link:TouchManager.adoc#touchanimationdefinitions[touchAnimationDefinitions]
+* link:TouchManager.adoc#touchhandlers[touchHandlers]
 
 === Methods
 
-* link:TouchManager.md#addanimations[addAnimations]
-* link:TouchManager.md#startanimationfortype[startAnimationForType]
+* link:TouchManager.adoc#addanimations[addAnimations]
+* link:TouchManager.adoc#startanimationfortype[startAnimationForType]
 
 == Constructors
 
@@ -37,7 +37,7 @@ Store reusable down/up animation settings for touches as well as optionally enab
 [#animations]
 === animations
 
-▪ `Static` *animations*: link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+▪ `Static` *animations*: link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
 Define reusable touch animations to use on views with touchAnimation defined or with enableGlobalTapAnimations on.
 

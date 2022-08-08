@@ -8,10 +8,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 === Enumeration Members
 
-* link:AccessibilityState.md#checked[Checked]
-* link:AccessibilityState.md#disabled[Disabled]
-* link:AccessibilityState.md#selected[Selected]
-* link:AccessibilityState.md#unchecked[Unchecked]
+* link:AccessibilityState.adoc#checked[Checked]
+* link:AccessibilityState.adoc#disabled[Disabled]
+* link:AccessibilityState.adoc#selected[Selected]
+* link:AccessibilityState.adoc#unchecked[Unchecked]
 
 == Enumeration Members
 
@@ -20,9 +20,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Accessibilit
 
 • *Checked* = `"checked"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L125[accessibility/accessibility-types.ts:125]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L125[accessibility/accessibility-types.ts:125]
 
 '''
 
@@ -31,9 +29,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *Disabled* = `"disabled"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L127[accessibility/accessibility-types.ts:127]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L127[accessibility/accessibility-types.ts:127]
 
 '''
 
@@ -42,9 +38,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *Selected* = `"selected"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L124[accessibility/accessibility-types.ts:124]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L124[accessibility/accessibility-types.ts:124]
 
 '''
 
@@ -53,6 +47,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *Unchecked* = `"unchecked"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L126[accessibility/accessibility-types.ts:126]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/accessibility-types.ts#L126[accessibility/accessibility-types.ts:126]

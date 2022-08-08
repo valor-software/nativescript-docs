@@ -8,14 +8,14 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ViewHelper
 
 === Constructors
 
-* link:ViewHelper.md#constructor[constructor]
+* link:ViewHelper.adoc#constructor[constructor]
 
 === Methods
 
-* link:ViewHelper.md#combinemeasuredstates[combineMeasuredStates]
-* link:ViewHelper.md#layoutchild[layoutChild]
-* link:ViewHelper.md#measurechild[measureChild]
-* link:ViewHelper.md#resolvesizeandstate[resolveSizeAndState]
+* link:ViewHelper.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:ViewHelper.adoc#layoutchild[layoutChild]
+* link:ViewHelper.adoc#measurechild[measureChild]
+* link:ViewHelper.adoc#resolvesizeandstate[resolveSizeAndState]
 
 == Constructors
 

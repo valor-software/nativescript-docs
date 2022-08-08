@@ -212,159 +212,159 @@ xref:README.adoc[NativeScript] / Exports
 
 === Type Aliases
 
-* link:modules.md#gridunittype[GridUnitType]
-* link:modules.md#headers[Headers]
-* link:modules.md#horizontalalignment[HorizontalAlignment]
-* link:modules.md#instrumentationmode[InstrumentationMode]
-* link:modules.md#lengthdipunit[LengthDipUnit]
-* link:modules.md#lengthpercentunit[LengthPercentUnit]
-* link:modules.md#lengthpxunit[LengthPxUnit]
-* link:modules.md#lengthtype[LengthType]
-* link:modules.md#modulelistprovider[ModuleListProvider]
-* link:modules.md#percentlengthtype[PercentLengthType]
-* link:modules.md#touchanimationoptions[TouchAnimationOptions]
-* link:modules.md#verticalalignment[VerticalAlignment]
-* link:modules.md#webviewnavigationtype[WebViewNavigationType]
-* link:modules.md#dip[dip]
-* link:modules.md#percent[percent]
-* link:modules.md#px[px]
+* link:modules.adoc#gridunittype[GridUnitType]
+* link:modules.adoc#headers[Headers]
+* link:modules.adoc#horizontalalignment[HorizontalAlignment]
+* link:modules.adoc#instrumentationmode[InstrumentationMode]
+* link:modules.adoc#lengthdipunit[LengthDipUnit]
+* link:modules.adoc#lengthpercentunit[LengthPercentUnit]
+* link:modules.adoc#lengthpxunit[LengthPxUnit]
+* link:modules.adoc#lengthtype[LengthType]
+* link:modules.adoc#modulelistprovider[ModuleListProvider]
+* link:modules.adoc#percentlengthtype[PercentLengthType]
+* link:modules.adoc#touchanimationoptions[TouchAnimationOptions]
+* link:modules.adoc#verticalalignment[VerticalAlignment]
+* link:modules.adoc#webviewnavigationtype[WebViewNavigationType]
+* link:modules.adoc#dip[dip]
+* link:modules.adoc#percent[percent]
+* link:modules.adoc#px[px]
 
 === Variables
 
-* link:modules.md#accessibilityevents[AccessibilityEvents]
-* link:modules.md#animationcurve[AnimationCurve]
-* link:modules.md#application[Application]
-* link:modules.md#applicationsettings[ApplicationSettings]
-* link:modules.md#csshelper[CSSHelper]
-* link:modules.md#connectivity[Connectivity]
-* link:modules.md#device[Device]
-* link:modules.md#dialogs[Dialogs]
-* link:modules.md#enums[Enums]
-* link:modules.md#http[Http]
-* link:modules.md#utils[Utils]
-* link:modules.md#androiddynamicelevationoffsetproperty[androidDynamicElevationOffsetProperty]
-* link:modules.md#androidelevationproperty[androidElevationProperty]
-* link:modules.md#autocapitalizationtypeproperty[autocapitalizationTypeProperty]
-* link:modules.md#autocorrectproperty[autocorrectProperty]
-* link:modules.md#backgroundcolorproperty[backgroundColorProperty]
-* link:modules.md#backgroundimageproperty[backgroundImageProperty]
-* link:modules.md#backgroundinternalproperty[backgroundInternalProperty]
-* link:modules.md#backgroundpositionproperty[backgroundPositionProperty]
-* link:modules.md#backgroundrepeatproperty[backgroundRepeatProperty]
-* link:modules.md#backgroundsizeproperty[backgroundSizeProperty]
-* link:modules.md#borderbottomcolorproperty[borderBottomColorProperty]
-* link:modules.md#borderbottomleftradiusproperty[borderBottomLeftRadiusProperty]
-* link:modules.md#borderbottomrightradiusproperty[borderBottomRightRadiusProperty]
-* link:modules.md#borderbottomwidthproperty[borderBottomWidthProperty]
-* link:modules.md#borderleftcolorproperty[borderLeftColorProperty]
-* link:modules.md#borderleftwidthproperty[borderLeftWidthProperty]
-* link:modules.md#borderrightcolorproperty[borderRightColorProperty]
-* link:modules.md#borderrightwidthproperty[borderRightWidthProperty]
-* link:modules.md#bordertopcolorproperty[borderTopColorProperty]
-* link:modules.md#bordertopleftradiusproperty[borderTopLeftRadiusProperty]
-* link:modules.md#bordertoprightradiusproperty[borderTopRightRadiusProperty]
-* link:modules.md#bordertopwidthproperty[borderTopWidthProperty]
-* link:modules.md#clippathproperty[clipPathProperty]
-* link:modules.md#colorproperty[colorProperty]
-* link:modules.md#editableproperty[editableProperty]
-* link:modules.md#fontfamilyproperty[fontFamilyProperty]
-* link:modules.md#fontinternalproperty[fontInternalProperty]
-* link:modules.md#fontscaleproperty[fontScaleProperty]
-* link:modules.md#fontsizeproperty[fontSizeProperty]
-* link:modules.md#fontstyleproperty[fontStyleProperty]
-* link:modules.md#fontweightproperty[fontWeightProperty]
-* link:modules.md#heightproperty[heightProperty]
-* link:modules.md#hintproperty[hintProperty]
-* link:modules.md#horizontalalignmentproperty[horizontalAlignmentProperty]
-* link:modules.md#isandroid[isAndroid]
-* link:modules.md#isios[isIOS]
-* link:modules.md#isuserinteractionenabledproperty[isUserInteractionEnabledProperty]
-* link:modules.md#keyboardtypeproperty[keyboardTypeProperty]
-* link:modules.md#letterspacingproperty[letterSpacingProperty]
-* link:modules.md#lineheightproperty[lineHeightProperty]
-* link:modules.md#marginbottomproperty[marginBottomProperty]
-* link:modules.md#marginleftproperty[marginLeftProperty]
-* link:modules.md#marginrightproperty[marginRightProperty]
-* link:modules.md#margintopproperty[marginTopProperty]
-* link:modules.md#maxlengthproperty[maxLengthProperty]
-* link:modules.md#minheightproperty[minHeightProperty]
-* link:modules.md#minwidthproperty[minWidthProperty]
-* link:modules.md#opacityproperty[opacityProperty]
-* link:modules.md#paddingbottomproperty[paddingBottomProperty]
-* link:modules.md#paddingleftproperty[paddingLeftProperty]
-* link:modules.md#paddingrightproperty[paddingRightProperty]
-* link:modules.md#paddingtopproperty[paddingTopProperty]
-* link:modules.md#perspectiveproperty[perspectiveProperty]
-* link:modules.md#placeholdercolorproperty[placeholderColorProperty]
-* link:modules.md#platformnames[platformNames]
-* link:modules.md#profilingtime[profilingTime]
-* link:modules.md#returnkeytypeproperty[returnKeyTypeProperty]
-* link:modules.md#rotateproperty[rotateProperty]
-* link:modules.md#rotatexproperty[rotateXProperty]
-* link:modules.md#rotateyproperty[rotateYProperty]
-* link:modules.md#scalexproperty[scaleXProperty]
-* link:modules.md#scaleyproperty[scaleYProperty]
-* link:modules.md#textalignmentproperty[textAlignmentProperty]
-* link:modules.md#textdecorationproperty[textDecorationProperty]
-* link:modules.md#textshadowproperty[textShadowProperty]
-* link:modules.md#texttransformproperty[textTransformProperty]
-* link:modules.md#translatexproperty[translateXProperty]
-* link:modules.md#translateyproperty[translateYProperty]
-* link:modules.md#unsetvalue[unsetValue]
-* link:modules.md#updatetexttriggerproperty[updateTextTriggerProperty]
-* link:modules.md#verticalalignmentproperty[verticalAlignmentProperty]
-* link:modules.md#visibilityproperty[visibilityProperty]
-* link:modules.md#whitespaceproperty[whiteSpaceProperty]
-* link:modules.md#widthproperty[widthProperty]
-* link:modules.md#zindexproperty[zIndexProperty]
-* link:modules.md#zerolength[zeroLength]
+* link:modules.adoc#accessibilityevents[AccessibilityEvents]
+* link:modules.adoc#animationcurve[AnimationCurve]
+* link:modules.adoc#application[Application]
+* link:modules.adoc#applicationsettings[ApplicationSettings]
+* link:modules.adoc#csshelper[CSSHelper]
+* link:modules.adoc#connectivity[Connectivity]
+* link:modules.adoc#device[Device]
+* link:modules.adoc#dialogs[Dialogs]
+* link:modules.adoc#enums[Enums]
+* link:modules.adoc#http[Http]
+* link:modules.adoc#utils[Utils]
+* link:modules.adoc#androiddynamicelevationoffsetproperty[androidDynamicElevationOffsetProperty]
+* link:modules.adoc#androidelevationproperty[androidElevationProperty]
+* link:modules.adoc#autocapitalizationtypeproperty[autocapitalizationTypeProperty]
+* link:modules.adoc#autocorrectproperty[autocorrectProperty]
+* link:modules.adoc#backgroundcolorproperty[backgroundColorProperty]
+* link:modules.adoc#backgroundimageproperty[backgroundImageProperty]
+* link:modules.adoc#backgroundinternalproperty[backgroundInternalProperty]
+* link:modules.adoc#backgroundpositionproperty[backgroundPositionProperty]
+* link:modules.adoc#backgroundrepeatproperty[backgroundRepeatProperty]
+* link:modules.adoc#backgroundsizeproperty[backgroundSizeProperty]
+* link:modules.adoc#borderbottomcolorproperty[borderBottomColorProperty]
+* link:modules.adoc#borderbottomleftradiusproperty[borderBottomLeftRadiusProperty]
+* link:modules.adoc#borderbottomrightradiusproperty[borderBottomRightRadiusProperty]
+* link:modules.adoc#borderbottomwidthproperty[borderBottomWidthProperty]
+* link:modules.adoc#borderleftcolorproperty[borderLeftColorProperty]
+* link:modules.adoc#borderleftwidthproperty[borderLeftWidthProperty]
+* link:modules.adoc#borderrightcolorproperty[borderRightColorProperty]
+* link:modules.adoc#borderrightwidthproperty[borderRightWidthProperty]
+* link:modules.adoc#bordertopcolorproperty[borderTopColorProperty]
+* link:modules.adoc#bordertopleftradiusproperty[borderTopLeftRadiusProperty]
+* link:modules.adoc#bordertoprightradiusproperty[borderTopRightRadiusProperty]
+* link:modules.adoc#bordertopwidthproperty[borderTopWidthProperty]
+* link:modules.adoc#clippathproperty[clipPathProperty]
+* link:modules.adoc#colorproperty[colorProperty]
+* link:modules.adoc#editableproperty[editableProperty]
+* link:modules.adoc#fontfamilyproperty[fontFamilyProperty]
+* link:modules.adoc#fontinternalproperty[fontInternalProperty]
+* link:modules.adoc#fontscaleproperty[fontScaleProperty]
+* link:modules.adoc#fontsizeproperty[fontSizeProperty]
+* link:modules.adoc#fontstyleproperty[fontStyleProperty]
+* link:modules.adoc#fontweightproperty[fontWeightProperty]
+* link:modules.adoc#heightproperty[heightProperty]
+* link:modules.adoc#hintproperty[hintProperty]
+* link:modules.adoc#horizontalalignmentproperty[horizontalAlignmentProperty]
+* link:modules.adoc#isandroid[isAndroid]
+* link:modules.adoc#isios[isIOS]
+* link:modules.adoc#isuserinteractionenabledproperty[isUserInteractionEnabledProperty]
+* link:modules.adoc#keyboardtypeproperty[keyboardTypeProperty]
+* link:modules.adoc#letterspacingproperty[letterSpacingProperty]
+* link:modules.adoc#lineheightproperty[lineHeightProperty]
+* link:modules.adoc#marginbottomproperty[marginBottomProperty]
+* link:modules.adoc#marginleftproperty[marginLeftProperty]
+* link:modules.adoc#marginrightproperty[marginRightProperty]
+* link:modules.adoc#margintopproperty[marginTopProperty]
+* link:modules.adoc#maxlengthproperty[maxLengthProperty]
+* link:modules.adoc#minheightproperty[minHeightProperty]
+* link:modules.adoc#minwidthproperty[minWidthProperty]
+* link:modules.adoc#opacityproperty[opacityProperty]
+* link:modules.adoc#paddingbottomproperty[paddingBottomProperty]
+* link:modules.adoc#paddingleftproperty[paddingLeftProperty]
+* link:modules.adoc#paddingrightproperty[paddingRightProperty]
+* link:modules.adoc#paddingtopproperty[paddingTopProperty]
+* link:modules.adoc#perspectiveproperty[perspectiveProperty]
+* link:modules.adoc#placeholdercolorproperty[placeholderColorProperty]
+* link:modules.adoc#platformnames[platformNames]
+* link:modules.adoc#profilingtime[profilingTime]
+* link:modules.adoc#returnkeytypeproperty[returnKeyTypeProperty]
+* link:modules.adoc#rotateproperty[rotateProperty]
+* link:modules.adoc#rotatexproperty[rotateXProperty]
+* link:modules.adoc#rotateyproperty[rotateYProperty]
+* link:modules.adoc#scalexproperty[scaleXProperty]
+* link:modules.adoc#scaleyproperty[scaleYProperty]
+* link:modules.adoc#textalignmentproperty[textAlignmentProperty]
+* link:modules.adoc#textdecorationproperty[textDecorationProperty]
+* link:modules.adoc#textshadowproperty[textShadowProperty]
+* link:modules.adoc#texttransformproperty[textTransformProperty]
+* link:modules.adoc#translatexproperty[translateXProperty]
+* link:modules.adoc#translateyproperty[translateYProperty]
+* link:modules.adoc#unsetvalue[unsetValue]
+* link:modules.adoc#updatetexttriggerproperty[updateTextTriggerProperty]
+* link:modules.adoc#verticalalignmentproperty[verticalAlignmentProperty]
+* link:modules.adoc#visibilityproperty[visibilityProperty]
+* link:modules.adoc#whitespaceproperty[whiteSpaceProperty]
+* link:modules.adoc#widthproperty[widthProperty]
+* link:modules.adoc#zindexproperty[zIndexProperty]
+* link:modules.adoc#zerolength[zeroLength]
 
 === Functions
 
-* link:modules.md#csstype[CSSType]
-* link:modules.md#pseudoclasshandler[PseudoClassHandler]
-* link:modules.md#_setresolver[_setResolver]
-* link:modules.md#_updatecharactersinrangereplacementstring[_updateCharactersInRangeReplacementString]
-* link:modules.md#action[action]
-* link:modules.md#addtaggedadditionalcss[addTaggedAdditionalCSS]
-* link:modules.md#addweakeventlistener[addWeakEventListener]
-* link:modules.md#alert[alert]
-* link:modules.md#animationtimingfunctionconverter[animationTimingFunctionConverter]
-* link:modules.md#booleanconverter[booleanConverter]
-* link:modules.md#confirm[confirm]
-* link:modules.md#eachdescendant[eachDescendant]
-* link:modules.md#fromobject[fromObject]
-* link:modules.md#fromobjectrecursive[fromObjectRecursive]
-* link:modules.md#getancestor[getAncestor]
-* link:modules.md#getcurrentpage[getCurrentPage]
-* link:modules.md#getfileaccess[getFileAccess]
-* link:modules.md#getrootlayout[getRootLayout]
-* link:modules.md#gettransformedtext[getTransformedText]
-* link:modules.md#getviewbyid[getViewById]
-* link:modules.md#login[login]
-* link:modules.md#makeparser[makeParser]
-* link:modules.md#makevalidator[makeValidator]
-* link:modules.md#parsecssshadow[parseCSSShadow]
-* link:modules.md#parsekeyframedeclarations[parseKeyframeDeclarations]
-* link:modules.md#profile[profile]
-* link:modules.md#profilingdisable[profilingDisable]
-* link:modules.md#profilingdumpprofiles[profilingDumpProfiles]
-* link:modules.md#profilingenable[profilingEnable]
-* link:modules.md#profilingisrunning[profilingIsRunning]
-* link:modules.md#profilingresetprofiles[profilingResetProfiles]
-* link:modules.md#profilingstart[profilingStart]
-* link:modules.md#profilingstartcpu[profilingStartCPU]
-* link:modules.md#profilingstop[profilingStop]
-* link:modules.md#profilingstopcpu[profilingStopCPU]
-* link:modules.md#profilinguptime[profilingUptime]
-* link:modules.md#prompt[prompt]
-* link:modules.md#removetaggedadditionalcss[removeTaggedAdditionalCSS]
-* link:modules.md#removeweakeventlistener[removeWeakEventListener]
-* link:modules.md#resolvefilenamefromurl[resolveFileNameFromUrl]
-* link:modules.md#sanitizemodulename[sanitizeModuleName]
-* link:modules.md#setactivitycallbacks[setActivityCallbacks]
-* link:modules.md#timeconverter[timeConverter]
-* link:modules.md#transformconverter[transformConverter]
+* link:modules.adoc#csstype[CSSType]
+* link:modules.adoc#pseudoclasshandler[PseudoClassHandler]
+* link:modules.adoc#_setresolver[_setResolver]
+* link:modules.adoc#_updatecharactersinrangereplacementstring[_updateCharactersInRangeReplacementString]
+* link:modules.adoc#action[action]
+* link:modules.adoc#addtaggedadditionalcss[addTaggedAdditionalCSS]
+* link:modules.adoc#addweakeventlistener[addWeakEventListener]
+* link:modules.adoc#alert[alert]
+* link:modules.adoc#animationtimingfunctionconverter[animationTimingFunctionConverter]
+* link:modules.adoc#booleanconverter[booleanConverter]
+* link:modules.adoc#confirm[confirm]
+* link:modules.adoc#eachdescendant[eachDescendant]
+* link:modules.adoc#fromobject[fromObject]
+* link:modules.adoc#fromobjectrecursive[fromObjectRecursive]
+* link:modules.adoc#getancestor[getAncestor]
+* link:modules.adoc#getcurrentpage[getCurrentPage]
+* link:modules.adoc#getfileaccess[getFileAccess]
+* link:modules.adoc#getrootlayout[getRootLayout]
+* link:modules.adoc#gettransformedtext[getTransformedText]
+* link:modules.adoc#getviewbyid[getViewById]
+* link:modules.adoc#login[login]
+* link:modules.adoc#makeparser[makeParser]
+* link:modules.adoc#makevalidator[makeValidator]
+* link:modules.adoc#parsecssshadow[parseCSSShadow]
+* link:modules.adoc#parsekeyframedeclarations[parseKeyframeDeclarations]
+* link:modules.adoc#profile[profile]
+* link:modules.adoc#profilingdisable[profilingDisable]
+* link:modules.adoc#profilingdumpprofiles[profilingDumpProfiles]
+* link:modules.adoc#profilingenable[profilingEnable]
+* link:modules.adoc#profilingisrunning[profilingIsRunning]
+* link:modules.adoc#profilingresetprofiles[profilingResetProfiles]
+* link:modules.adoc#profilingstart[profilingStart]
+* link:modules.adoc#profilingstartcpu[profilingStartCPU]
+* link:modules.adoc#profilingstop[profilingStop]
+* link:modules.adoc#profilingstopcpu[profilingStopCPU]
+* link:modules.adoc#profilinguptime[profilingUptime]
+* link:modules.adoc#prompt[prompt]
+* link:modules.adoc#removetaggedadditionalcss[removeTaggedAdditionalCSS]
+* link:modules.adoc#removeweakeventlistener[removeWeakEventListener]
+* link:modules.adoc#resolvefilenamefromurl[resolveFileNameFromUrl]
+* link:modules.adoc#sanitizemodulename[sanitizeModuleName]
+* link:modules.adoc#setactivitycallbacks[setActivityCallbacks]
+* link:modules.adoc#timeconverter[timeConverter]
+* link:modules.adoc#transformconverter[transformConverter]
 
 == Type Aliases
 
@@ -373,9 +373,7 @@ xref:README.adoc[NativeScript] / Exports
 
 Ƭ *GridUnitType*: `"pixel"` | `"star"` | `"auto"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L175[ui/layouts/grid-layout/index.d.ts:175]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L175[ui/layouts/grid-layout/index.d.ts:175]
 
 https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/grid-layout/index.d.ts#L176[ui/layouts/grid-layout/index.d.ts:176]
 
@@ -390,24 +388,20 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 
 ▪ [key: `string`]: `string` | `string`[]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L61[http/index.ts:61]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L61[http/index.ts:61]
 
 '''
 
 [#horizontalalignment]
 === HorizontalAlignment
 
-Ƭ *HorizontalAlignment*: link:modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+Ƭ *HorizontalAlignment*: link:modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 *`Deprecated`*
 
 Use `CoreTypes.HorizontalAlignmentType` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L326[core-types/index.ts:326]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L326[core-types/index.ts:326]
 
 '''
 
@@ -416,69 +410,59 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *InstrumentationMode*: `"counters"` | `"timeline"` | `"lifecycle"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L16[profiling/index.ts:16]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L16[profiling/index.ts:16]
 
 '''
 
 [#lengthdipunit]
 === LengthDipUnit
 
-Ƭ *LengthDipUnit*: link:modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`]
+Ƭ *LengthDipUnit*: link:modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`]
 
 *`Deprecated`*
 
 Use `CoreTypes.LengthDipUnit` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L299[core-types/index.ts:299]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L299[core-types/index.ts:299]
 
 '''
 
 [#lengthpercentunit]
 === LengthPercentUnit
 
-Ƭ *LengthPercentUnit*: link:modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`]
+Ƭ *LengthPercentUnit*: link:modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`]
 
 *`Deprecated`*
 
 Use `CoreTypes.LengthPercentUnit` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L307[core-types/index.ts:307]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L307[core-types/index.ts:307]
 
 '''
 
 [#lengthpxunit]
 === LengthPxUnit
 
-Ƭ *LengthPxUnit*: link:modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+Ƭ *LengthPxUnit*: link:modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 *`Deprecated`*
 
 Use `CoreTypes.LengthPxUnit` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L303[core-types/index.ts:303]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L303[core-types/index.ts:303]
 
 '''
 
 [#lengthtype]
 === LengthType
 
-Ƭ *LengthType*: link:modules/CoreTypes.md#lengthtype[`LengthType`]
+Ƭ *LengthType*: link:modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 *`Deprecated`*
 
 Use `CoreTypes.LengthType` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L312[core-types/index.ts:312]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L312[core-types/index.ts:312]
 
 '''
 
@@ -495,24 +479,20 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 `string`[]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L9[module-name-resolver/index.ts:9]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L9[module-name-resolver/index.ts:9]
 
 '''
 
 [#percentlengthtype]
 === PercentLengthType
 
-Ƭ *PercentLengthType*: link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+Ƭ *PercentLengthType*: link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 *`Deprecated`*
 
 Use `CoreTypes.PercentLengthType` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L316[core-types/index.ts:316]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L316[core-types/index.ts:316]
 
 '''
 
@@ -533,24 +513,20 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `TouchAnimationFn` \| `AnimationDefinition`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/touch-manager.ts#L13[ui/gestures/touch-manager.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/touch-manager.ts#L13[ui/gestures/touch-manager.ts:13]
 
 '''
 
 [#verticalalignment]
 === VerticalAlignment
 
-Ƭ *VerticalAlignment*: link:modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+Ƭ *VerticalAlignment*: link:modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 *`Deprecated`*
 
 Use `CoreTypes.VerticalAlignmentType` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L331[core-types/index.ts:331]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L331[core-types/index.ts:331]
 
 '''
 
@@ -561,9 +537,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Represents navigation type
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web-view/index.d.ts#L17[ui/web-view/index.d.ts:17]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web-view/index.d.ts#L17[ui/web-view/index.d.ts:17]
 
 '''
 
@@ -576,9 +550,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/web
 
 Use `CoreTypes.dip` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L284[core-types/index.ts:284]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L284[core-types/index.ts:284]
 
 '''
 
@@ -591,9 +563,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Use `CoreTypes.percent` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L294[core-types/index.ts:294]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L294[core-types/index.ts:294]
 
 '''
 
@@ -606,9 +576,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Use `CoreTypes.px` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L289[core-types/index.ts:289]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L289[core-types/index.ts:289]
 
 == Variables
 
@@ -632,9 +600,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `string`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L64[index.d.ts:64]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L64[index.d.ts:64]
 
 '''
 
@@ -647,9 +613,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 
 Use `CoreTypes.AnimationCurve` instead.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L321[core-types/index.ts:321]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L321[core-types/index.ts:321]
 
 '''
 
@@ -772,9 +736,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `string`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L12[index.d.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L12[index.d.ts:12]
 
 '''
 
@@ -822,9 +784,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 | typeof `setString`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L51[index.d.ts:51]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L51[index.d.ts:51]
 
 '''
 
@@ -884,9 +844,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 | (`astRules`: `Node`[]) \=> `RuleSet`[]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-selector/index.ts#L702[ui/styling/css-selector/index.ts:702]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-selector/index.ts#L702[ui/styling/css-selector/index.ts:702]
 
 '''
 
@@ -913,9 +871,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | typeof `stopMonitoring`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L72[index.d.ts:72]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L72[index.d.ts:72]
 
 '''
 
@@ -926,9 +882,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 
 Gets the current device information.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L134[platform/index.d.ts:134]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L134[platform/index.d.ts:134]
 
 '''
 
@@ -945,24 +899,22 @@ Singular rollup for convenience of all dialog methods
 | Name | Type
 
 | `action`
-| typeof link:modules.md#action[`action`]
+| typeof link:modules.adoc#action[`action`]
 
 | `alert`
-| typeof link:modules.md#alert[`alert`]
+| typeof link:modules.adoc#alert[`alert`]
 
 | `confirm`
-| typeof link:modules.md#confirm[`confirm`]
+| typeof link:modules.adoc#confirm[`confirm`]
 
 | `login`
-| typeof link:modules.md#login[`login`]
+| typeof link:modules.adoc#login[`login`]
 
 | `prompt`
-| typeof link:modules.md#prompt[`prompt`]
+| typeof link:modules.adoc#prompt[`prompt`]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L305[ui/dialogs/index.d.ts:305]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L305[ui/dialogs/index.d.ts:305]
 
 '''
 
@@ -1069,9 +1021,7 @@ Enums will be removed in 9.0
 | typeof xref:modules/CoreTypes.WhiteSpace.adoc[`WhiteSpace`]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L336[core-types/index.ts:336]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L336[core-types/index.ts:336]
 
 '''
 
@@ -1101,9 +1051,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | (`options`: `HttpRequestOptions`) \=> `Promise`<``HttpResponse``>
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L89[index.d.ts:89]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L89[index.d.ts:89]
 
 '''
 
@@ -1268,9 +1216,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 | typeof `verifyCallback`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L110[index.d.ts:110]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.d.ts#L110[index.d.ts:110]
 
 '''
 
@@ -1279,9 +1225,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/index.
 
 • `Const` *androidDynamicElevationOffsetProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1450[ui/styling/style-properties.ts:1450]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1450[ui/styling/style-properties.ts:1450]
 
 '''
 
@@ -1290,20 +1234,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *androidElevationProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1443[ui/styling/style-properties.ts:1443]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1443[ui/styling/style-properties.ts:1443]
 
 '''
 
 [#autocapitalizationtypeproperty]
 === autocapitalizationTypeProperty
 
-• `Const` *autocapitalizationTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.md#autocapitalizationinputtype[`AutocapitalizationInputType`]>
+• `Const` *autocapitalizationTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.adoc#autocapitalizationinputtype[`AutocapitalizationInputType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L83[ui/editable-text-base/index.d.ts:83]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L83[ui/editable-text-base/index.d.ts:83]
 
 '''
 
@@ -1312,9 +1252,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 
 • `Const` *autocorrectProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], `boolean`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L84[ui/editable-text-base/index.d.ts:84]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L84[ui/editable-text-base/index.d.ts:84]
 
 '''
 
@@ -1323,9 +1261,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 
 • `Const` *backgroundColorProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L799[ui/styling/style-properties.ts:799]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L799[ui/styling/style-properties.ts:799]
 
 '''
 
@@ -1334,9 +1270,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *backgroundImageProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `string` | `LinearGradient`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L773[ui/styling/style-properties.ts:773]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L773[ui/styling/style-properties.ts:773]
 
 '''
 
@@ -1345,9 +1279,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *backgroundInternalProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Background.adoc[`Background`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L765[ui/styling/style-properties.ts:765]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L765[ui/styling/style-properties.ts:765]
 
 '''
 
@@ -1356,20 +1288,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *backgroundPositionProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `string`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L829[ui/styling/style-properties.ts:829]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L829[ui/styling/style-properties.ts:829]
 
 '''
 
 [#backgroundrepeatproperty]
 === backgroundRepeatProperty
 
-• `Const` *backgroundRepeatProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]>
+• `Const` *backgroundRepeatProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L810[ui/styling/style-properties.ts:810]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L810[ui/styling/style-properties.ts:810]
 
 '''
 
@@ -1378,9 +1306,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *backgroundSizeProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `string`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L820[ui/styling/style-properties.ts:820]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L820[ui/styling/style-properties.ts:820]
 
 '''
 
@@ -1389,42 +1315,34 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *borderBottomColorProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L978[ui/styling/style-properties.ts:978]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L978[ui/styling/style-properties.ts:978]
 
 '''
 
 [#borderbottomleftradiusproperty]
 === borderBottomLeftRadiusProperty
 
-• `Const` *borderBottomLeftRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderBottomLeftRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1210[ui/styling/style-properties.ts:1210]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1210[ui/styling/style-properties.ts:1210]
 
 '''
 
 [#borderbottomrightradiusproperty]
 === borderBottomRightRadiusProperty
 
-• `Const` *borderBottomRightRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderBottomRightRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1194[ui/styling/style-properties.ts:1194]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1194[ui/styling/style-properties.ts:1194]
 
 '''
 
 [#borderbottomwidthproperty]
 === borderBottomWidthProperty
 
-• `Const` *borderBottomWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderBottomWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1081[ui/styling/style-properties.ts:1081]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1081[ui/styling/style-properties.ts:1081]
 
 '''
 
@@ -1433,20 +1351,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *borderLeftColorProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L989[ui/styling/style-properties.ts:989]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L989[ui/styling/style-properties.ts:989]
 
 '''
 
 [#borderleftwidthproperty]
 === borderLeftWidthProperty
 
-• `Const` *borderLeftWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderLeftWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1105[ui/styling/style-properties.ts:1105]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1105[ui/styling/style-properties.ts:1105]
 
 '''
 
@@ -1455,20 +1369,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *borderRightColorProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L967[ui/styling/style-properties.ts:967]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L967[ui/styling/style-properties.ts:967]
 
 '''
 
 [#borderrightwidthproperty]
 === borderRightWidthProperty
 
-• `Const` *borderRightWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderRightWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1057[ui/styling/style-properties.ts:1057]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1057[ui/styling/style-properties.ts:1057]
 
 '''
 
@@ -1477,42 +1387,34 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *borderTopColorProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L956[ui/styling/style-properties.ts:956]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L956[ui/styling/style-properties.ts:956]
 
 '''
 
 [#bordertopleftradiusproperty]
 === borderTopLeftRadiusProperty
 
-• `Const` *borderTopLeftRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderTopLeftRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1162[ui/styling/style-properties.ts:1162]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1162[ui/styling/style-properties.ts:1162]
 
 '''
 
 [#bordertoprightradiusproperty]
 === borderTopRightRadiusProperty
 
-• `Const` *borderTopRightRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderTopRightRadiusProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1178[ui/styling/style-properties.ts:1178]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1178[ui/styling/style-properties.ts:1178]
 
 '''
 
 [#bordertopwidthproperty]
 === borderTopWidthProperty
 
-• `Const` *borderTopWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *borderTopWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1033[ui/styling/style-properties.ts:1033]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1033[ui/styling/style-properties.ts:1033]
 
 '''
 
@@ -1521,9 +1423,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *clipPathProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `string`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1252[ui/styling/style-properties.ts:1252]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1252[ui/styling/style-properties.ts:1252]
 
 '''
 
@@ -1532,9 +1432,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *colorProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1298[ui/styling/style-properties.ts:1298]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1298[ui/styling/style-properties.ts:1298]
 
 '''
 
@@ -1543,9 +1441,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *editableProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], `boolean`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L81[ui/editable-text-base/index.d.ts:81]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L81[ui/editable-text-base/index.d.ts:81]
 
 '''
 
@@ -1554,9 +1450,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 
 • `Const` *fontFamilyProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], `string`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1312[ui/styling/style-properties.ts:1312]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1312[ui/styling/style-properties.ts:1312]
 
 '''
 
@@ -1565,9 +1459,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *fontInternalProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Font.adoc[`Font`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1306[ui/styling/style-properties.ts:1306]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1306[ui/styling/style-properties.ts:1306]
 
 '''
 
@@ -1576,9 +1468,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *fontScaleProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1326[ui/styling/style-properties.ts:1326]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1326[ui/styling/style-properties.ts:1326]
 
 '''
 
@@ -1587,9 +1477,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *fontSizeProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1347[ui/styling/style-properties.ts:1347]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1347[ui/styling/style-properties.ts:1347]
 
 '''
 
@@ -1598,9 +1486,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *fontStyleProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], `FontStyle`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1365[ui/styling/style-properties.ts:1365]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1365[ui/styling/style-properties.ts:1365]
 
 '''
 
@@ -1609,20 +1495,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *fontWeightProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], `FontWeight`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1381[ui/styling/style-properties.ts:1381]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1381[ui/styling/style-properties.ts:1381]
 
 '''
 
 [#heightproperty]
 === heightProperty
 
-• `Const` *heightProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *heightProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L244[ui/styling/style-properties.ts:244]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L244[ui/styling/style-properties.ts:244]
 
 '''
 
@@ -1631,20 +1513,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *hintProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], `string`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L85[ui/editable-text-base/index.d.ts:85]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L85[ui/editable-text-base/index.d.ts:85]
 
 '''
 
 [#horizontalalignmentproperty]
 === horizontalAlignmentProperty
 
-• `Const` *horizontalAlignmentProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]>
+• `Const` *horizontalAlignmentProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L403[ui/styling/style-properties.ts:403]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L403[ui/styling/style-properties.ts:403]
 
 '''
 
@@ -1655,9 +1533,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 Gets a value indicating if the app is running on the Android platform.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L10[platform/index.d.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L10[platform/index.d.ts:10]
 
 '''
 
@@ -1668,9 +1544,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platfo
 
 Gets a value indicating if the app is running on the iOS platform.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L15[platform/index.d.ts:15]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L15[platform/index.d.ts:15]
 
 '''
 
@@ -1679,20 +1553,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platfo
 
 • `Const` *isUserInteractionEnabledProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/View.adoc[`View`], `boolean`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L973[ui/core/view/index.d.ts:973]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L973[ui/core/view/index.d.ts:973]
 
 '''
 
 [#keyboardtypeproperty]
 === keyboardTypeProperty
 
-• `Const` *keyboardTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.md#keyboardinputtype[`KeyboardInputType`]>
+• `Const` *keyboardTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.adoc#keyboardinputtype[`KeyboardInputType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L79[ui/editable-text-base/index.d.ts:79]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L79[ui/editable-text-base/index.d.ts:79]
 
 '''
 
@@ -1701,9 +1571,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 
 • `Const` *letterSpacingProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L137[ui/text-base/index.d.ts:137]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L137[ui/text-base/index.d.ts:137]
 
 '''
 
@@ -1712,53 +1580,43 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/tex
 
 • `Const` *lineHeightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L138[ui/text-base/index.d.ts:138]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L138[ui/text-base/index.d.ts:138]
 
 '''
 
 [#marginbottomproperty]
 === marginBottomProperty
 
-• `Const` *marginBottomProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *marginBottomProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L307[ui/styling/style-properties.ts:307]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L307[ui/styling/style-properties.ts:307]
 
 '''
 
 [#marginleftproperty]
 === marginLeftProperty
 
-• `Const` *marginLeftProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *marginLeftProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L277[ui/styling/style-properties.ts:277]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L277[ui/styling/style-properties.ts:277]
 
 '''
 
 [#marginrightproperty]
 === marginRightProperty
 
-• `Const` *marginRightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *marginRightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L287[ui/styling/style-properties.ts:287]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L287[ui/styling/style-properties.ts:287]
 
 '''
 
 [#margintopproperty]
 === marginTopProperty
 
-• `Const` *marginTopProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *marginTopProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L297[ui/styling/style-properties.ts:297]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L297[ui/styling/style-properties.ts:297]
 
 '''
 
@@ -1767,31 +1625,25 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *maxLengthProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L87[ui/editable-text-base/index.d.ts:87]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L87[ui/editable-text-base/index.d.ts:87]
 
 '''
 
 [#minheightproperty]
 === minHeightProperty
 
-• `Const` *minHeightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *minHeightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L207[ui/styling/style-properties.ts:207]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L207[ui/styling/style-properties.ts:207]
 
 '''
 
 [#minwidthproperty]
 === minWidthProperty
 
-• `Const` *minWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *minWidthProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L189[ui/styling/style-properties.ts:189]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L189[ui/styling/style-properties.ts:189]
 
 '''
 
@@ -1800,53 +1652,43 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *opacityProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1290[ui/styling/style-properties.ts:1290]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1290[ui/styling/style-properties.ts:1290]
 
 '''
 
 [#paddingbottomproperty]
 === paddingBottomProperty
 
-• `Const` *paddingBottomProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *paddingBottomProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L385[ui/styling/style-properties.ts:385]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L385[ui/styling/style-properties.ts:385]
 
 '''
 
 [#paddingleftproperty]
 === paddingLeftProperty
 
-• `Const` *paddingLeftProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *paddingLeftProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L331[ui/styling/style-properties.ts:331]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L331[ui/styling/style-properties.ts:331]
 
 '''
 
 [#paddingrightproperty]
 === paddingRightProperty
 
-• `Const` *paddingRightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *paddingRightProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L349[ui/styling/style-properties.ts:349]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L349[ui/styling/style-properties.ts:349]
 
 '''
 
 [#paddingtopproperty]
 === paddingTopProperty
 
-• `Const` *paddingTopProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#lengthtype[`LengthType`]>
+• `Const` *paddingTopProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#lengthtype[`LengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L367[ui/styling/style-properties.ts:367]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L367[ui/styling/style-properties.ts:367]
 
 '''
 
@@ -1855,9 +1697,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *perspectiveProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L536[ui/styling/style-properties.ts:536]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L536[ui/styling/style-properties.ts:536]
 
 '''
 
@@ -1866,9 +1706,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *placeholderColorProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], xref:classes/Color.adoc[`Color`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L86[ui/editable-text-base/index.d.ts:86]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L86[ui/editable-text-base/index.d.ts:86]
 
 '''
 
@@ -1889,9 +1727,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 | `string`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L20[platform/index.d.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platform/index.d.ts#L20[platform/index.d.ts:20]
 
 '''
 
@@ -1900,20 +1736,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/platfo
 
 • `Const` *profilingTime*: `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L34[profiling/index.ts:34]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L34[profiling/index.ts:34]
 
 '''
 
 [#returnkeytypeproperty]
 === returnKeyTypeProperty
 
-• `Const` *returnKeyTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.md#returnkeybuttontype[`ReturnKeyButtonType`]>
+• `Const` *returnKeyTypeProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.adoc#returnkeybuttontype[`ReturnKeyButtonType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L80[ui/editable-text-base/index.d.ts:80]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L80[ui/editable-text-base/index.d.ts:80]
 
 '''
 
@@ -1922,9 +1754,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/edi
 
 • `Const` *rotateProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L512[ui/styling/style-properties.ts:512]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L512[ui/styling/style-properties.ts:512]
 
 '''
 
@@ -1933,9 +1763,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *rotateXProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L520[ui/styling/style-properties.ts:520]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L520[ui/styling/style-properties.ts:520]
 
 '''
 
@@ -1944,9 +1772,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *rotateYProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L528[ui/styling/style-properties.ts:528]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L528[ui/styling/style-properties.ts:528]
 
 '''
 
@@ -1955,9 +1781,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *scaleXProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L544[ui/styling/style-properties.ts:544]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L544[ui/styling/style-properties.ts:544]
 
 '''
 
@@ -1966,31 +1790,25 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *scaleYProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L552[ui/styling/style-properties.ts:552]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L552[ui/styling/style-properties.ts:552]
 
 '''
 
 [#textalignmentproperty]
 === textAlignmentProperty
 
-• `Const` *textAlignmentProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#textalignmenttype[`TextAlignmentType`]>
+• `Const` *textAlignmentProperty*: xref:classes/InheritedCssProperty.adoc[`InheritedCssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#textalignmenttype[`TextAlignmentType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L132[ui/text-base/index.d.ts:132]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L132[ui/text-base/index.d.ts:132]
 
 '''
 
 [#textdecorationproperty]
 === textDecorationProperty
 
-• `Const` *textDecorationProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#textdecorationtype[`TextDecorationType`]>
+• `Const` *textDecorationProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#textdecorationtype[`TextDecorationType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L133[ui/text-base/index.d.ts:133]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L133[ui/text-base/index.d.ts:133]
 
 '''
 
@@ -1999,20 +1817,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/tex
 
 • `Const` *textShadowProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `CSSShadow`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L135[ui/text-base/index.d.ts:135]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L135[ui/text-base/index.d.ts:135]
 
 '''
 
 [#texttransformproperty]
 === textTransformProperty
 
-• `Const` *textTransformProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#texttransformtype[`TextTransformType`]>
+• `Const` *textTransformProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L134[ui/text-base/index.d.ts:134]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L134[ui/text-base/index.d.ts:134]
 
 '''
 
@@ -2021,9 +1835,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/tex
 
 • `Const` *translateXProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L568[ui/styling/style-properties.ts:568]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L568[ui/styling/style-properties.ts:568]
 
 '''
 
@@ -2032,9 +1844,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *translateYProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L576[ui/styling/style-properties.ts:576]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L576[ui/styling/style-properties.ts:576]
 
 '''
 
@@ -2045,64 +1855,52 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 Value specifying that Property should be set to its initial value.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L14[ui/core/properties/index.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L14[ui/core/properties/index.ts:14]
 
 '''
 
 [#updatetexttriggerproperty]
 === updateTextTriggerProperty
 
-• `Const` *updateTextTriggerProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.md#updatetexttriggertype[`UpdateTextTriggerType`]>
+• `Const` *updateTextTriggerProperty*: xref:classes/Property.adoc[`Property`]<xref:classes/EditableTextBase.adoc[`EditableTextBase`], link:modules/CoreTypes.adoc#updatetexttriggertype[`UpdateTextTriggerType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L82[ui/editable-text-base/index.d.ts:82]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L82[ui/editable-text-base/index.d.ts:82]
 
 '''
 
 [#verticalalignmentproperty]
 === verticalAlignmentProperty
 
-• `Const` *verticalAlignmentProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#verticalalignmenttexttype[`VerticalAlignmentTextType`]>
+• `Const` *verticalAlignmentProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#verticalalignmenttexttype[`VerticalAlignmentTextType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L412[ui/styling/style-properties.ts:412]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L412[ui/styling/style-properties.ts:412]
 
 '''
 
 [#visibilityproperty]
 === visibilityProperty
 
-• `Const` *visibilityProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#visibilitytype[`VisibilityType`]>
+• `Const` *visibilityProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1426[ui/styling/style-properties.ts:1426]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1426[ui/styling/style-properties.ts:1426]
 
 '''
 
 [#whitespaceproperty]
 === whiteSpaceProperty
 
-• `Const` *whiteSpaceProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#whitespacetype[`WhiteSpaceType`]>
+• `Const` *whiteSpaceProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#whitespacetype[`WhiteSpaceType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L136[ui/text-base/index.d.ts:136]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L136[ui/text-base/index.d.ts:136]
 
 '''
 
 [#widthproperty]
 === widthProperty
 
-• `Const` *widthProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]>
+• `Const` *widthProperty*: xref:classes/CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:classes/Style.adoc[`Style`], link:modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L225[ui/styling/style-properties.ts:225]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L225[ui/styling/style-properties.ts:225]
 
 '''
 
@@ -2111,20 +1909,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • `Const` *zIndexProperty*: xref:classes/CssProperty.adoc[`CssProperty`]<xref:classes/Style.adoc[`Style`], `number`>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1274[ui/styling/style-properties.ts:1274]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L1274[ui/styling/style-properties.ts:1274]
 
 '''
 
 [#zerolength]
 === zeroLength
 
-• `Const` *zeroLength*: link:modules/CoreTypes.md#lengthtype[`LengthType`]
+• `Const` *zeroLength*: link:modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L187[ui/styling/style-properties.ts:187]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L187[ui/styling/style-properties.ts:187]
 
 == Functions
 
@@ -2161,9 +1955,7 @@ g.
 
 `ClassDecorator`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L36[ui/core/view/index.d.ts:36]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L36[ui/core/view/index.d.ts:36]
 
 '''
 
@@ -2185,9 +1977,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `MethodDecorator`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L20[ui/core/view/index.d.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L20[ui/core/view/index.d.ts:20]
 
 '''
 
@@ -2209,9 +1999,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L94[module-name-resolver/index.ts:94]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module-name-resolver/index.ts#L94[module-name-resolver/index.ts:94]
 
 '''
 
@@ -2242,9 +2030,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/module
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L93[ui/editable-text-base/index.d.ts:93]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/editable-text-base/index.d.ts#L93[ui/editable-text-base/index.d.ts:93]
 
 '''
 
@@ -2277,9 +2063,7 @@ The action() method displays a action box that prompts the visitor to choose som
 
 `Promise`<``string``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L129[ui/dialogs/index.d.ts:129]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L129[ui/dialogs/index.d.ts:129]
 
 ▸ *action*(`options`): `Promise`<``string``>
 
@@ -2299,9 +2083,7 @@ The action() method displays a action box that prompts the visitor to choose som
 
 `Promise`<``string``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L135[ui/dialogs/index.d.ts:135]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L135[ui/dialogs/index.d.ts:135]
 
 '''
 
@@ -2326,9 +2108,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L315[ui/styling/style-scope.ts:315]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L315[ui/styling/style-scope.ts:315]
 
 '''
 
@@ -2359,9 +2139,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/weak-event-listener/index.ts#L81[ui/core/weak-event-listener/index.ts:81]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/weak-event-listener/index.ts#L81[ui/core/weak-event-listener/index.ts:81]
 
 '''
 
@@ -2386,9 +2164,7 @@ The alert() method displays an alert box with a specified message.
 
 `Promise`<``void``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L66[ui/dialogs/index.d.ts:66]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L66[ui/dialogs/index.d.ts:66]
 
 ▸ *alert*(`options`): `Promise`<``void``>
 
@@ -2408,9 +2184,7 @@ The alert() method displays an alert box with a specified message.
 
 `Promise`<``void``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L72[ui/dialogs/index.d.ts:72]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L72[ui/dialogs/index.d.ts:72]
 
 '''
 
@@ -2432,9 +2206,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/converters.ts#L21[ui/styling/converters.ts:21]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/converters.ts#L21[ui/styling/converters.ts:21]
 
 '''
 
@@ -2456,9 +2228,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1215[ui/core/view-base/index.ts:1215]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1215[ui/core/view-base/index.ts:1215]
 
 '''
 
@@ -2483,9 +2253,7 @@ The confirm() method displays a dialog box with a specified message.
 
 `Promise`<``boolean``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L78[ui/dialogs/index.d.ts:78]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L78[ui/dialogs/index.d.ts:78]
 
 ▸ *confirm*(`options`): `Promise`<``boolean``>
 
@@ -2505,9 +2273,7 @@ The confirm() method displays a dialog box with a specified message.
 
 `Promise`<``boolean``>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L84[ui/dialogs/index.d.ts:84]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L84[ui/dialogs/index.d.ts:84]
 
 '''
 
@@ -2532,9 +2298,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L173[ui/core/view-base/index.ts:173]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L173[ui/core/view-base/index.ts:173]
 
 '''
 
@@ -2556,9 +2320,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 xref:classes/Observable.adoc[`Observable`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L408[data/observable/index.ts:408]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L408[data/observable/index.ts:408]
 
 '''
 
@@ -2580,9 +2342,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:classes/Observable.adoc[`Observable`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L415[data/observable/index.ts:415]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L415[data/observable/index.ts:415]
 
 '''
 
@@ -2607,9 +2367,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/o
 
 xref:classes/ViewBase.adoc[`ViewBase`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L104[ui/core/view-base/index.ts:104]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L104[ui/core/view-base/index.ts:104]
 
 '''
 
@@ -2622,9 +2380,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 xref:classes/Page.adoc[`Page`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L243[ui/dialogs/dialogs-common.ts:243]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/dialogs-common.ts#L243[ui/dialogs/dialogs-common.ts:243]
 
 '''
 
@@ -2642,9 +2398,7 @@ This is used under the hood of all the file system apis in @nativescript/core an
 
 FileSystemAccess
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L10[file-system/index.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L10[file-system/index.ts:10]
 
 '''
 
@@ -2657,9 +2411,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:classes/RootLayout.adoc[`RootLayout`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L15[ui/layouts/root-layout/index.d.ts:15]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/layouts/root-layout/index.d.ts#L15[ui/layouts/root-layout/index.d.ts:15]
 
 '''
 
@@ -2677,16 +2429,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/lay
 | `string`
 
 | `textTransform`
-| link:modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L141[ui/text-base/index.d.ts:141]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/text-base/index.d.ts#L141[ui/text-base/index.d.ts:141]
 
 '''
 
@@ -2711,9 +2461,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/tex
 
 xref:classes/ViewBase.adoc[`ViewBase`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L121[ui/core/view-base/index.ts:121]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L121[ui/core/view-base/index.ts:121]
 
 '''
 
@@ -2758,9 +2506,7 @@ Optional.
 
 `Promise`<xref:interfaces/LoginResult.adoc[`LoginResult`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L107[ui/dialogs/index.d.ts:107]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L107[ui/dialogs/index.d.ts:107]
 
 ▸ *login*(`message`, `userNameHint?`, `passwordHint?`): `Promise`<xref:interfaces/LoginResult.adoc[`LoginResult`]>
 
@@ -2790,9 +2536,7 @@ Optional.
 
 `Promise`<xref:interfaces/LoginResult.adoc[`LoginResult`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L115[ui/dialogs/index.d.ts:115]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L115[ui/dialogs/index.d.ts:115]
 
 ▸ *login*(`options`): `Promise`<xref:interfaces/LoginResult.adoc[`LoginResult`]>
 
@@ -2812,9 +2556,7 @@ The login() method displays a login dialog box that prompts the visitor for user
 
 `Promise`<xref:interfaces/LoginResult.adoc[`LoginResult`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L121[ui/dialogs/index.d.ts:121]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L121[ui/dialogs/index.d.ts:121]
 
 '''
 
@@ -2864,9 +2606,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 `T`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]
 
 '''
 
@@ -2911,9 +2651,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 value is T
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
 
 '''
 
@@ -2939,9 +2677,7 @@ inspired by https://github.com/jxnblk/css-box-shadow/blob/master/index.js (MIT L
 
 `CSSShadow`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-shadow.ts#L37[ui/styling/css-shadow.ts:37]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-shadow.ts#L37[ui/styling/css-shadow.ts:37]
 
 '''
 
@@ -2963,9 +2699,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 xref:classes/KeyframeDeclaration.adoc[`KeyframeDeclaration`][]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-animation-parser.ts#L125[ui/styling/css-animation-parser.ts:125]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/css-animation-parser.ts#L125[ui/styling/css-animation-parser.ts:125]
 
 '''
 
@@ -2996,9 +2730,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L247[profiling/index.ts:247]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L247[profiling/index.ts:247]
 
 '''
 
@@ -3011,9 +2743,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L175[profiling/index.ts:175]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L175[profiling/index.ts:175]
 
 '''
 
@@ -3026,9 +2756,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L287[profiling/index.ts:287]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L287[profiling/index.ts:287]
 
 '''
 
@@ -3043,7 +2771,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 | Name | Type | Default value
 
 | `mode`
-| link:modules.md#instrumentationmode[`InstrumentationMode`]
+| link:modules.adoc#instrumentationmode[`InstrumentationMode`]
 | `'counters'`
 |===
 
@@ -3051,9 +2779,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L147[profiling/index.ts:147]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L147[profiling/index.ts:147]
 
 '''
 
@@ -3075,9 +2801,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L93[profiling/index.ts:93]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L93[profiling/index.ts:93]
 
 '''
 
@@ -3090,9 +2814,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L298[profiling/index.ts:298]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L298[profiling/index.ts:298]
 
 '''
 
@@ -3114,9 +2836,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L36[profiling/index.ts:36]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L36[profiling/index.ts:36]
 
 '''
 
@@ -3138,9 +2858,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L311[profiling/index.ts:311]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L311[profiling/index.ts:311]
 
 '''
 
@@ -3162,9 +2880,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 xref:interfaces/TimerInfo.adoc[`TimerInfo`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L54[profiling/index.ts:54]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L54[profiling/index.ts:54]
 
 '''
 
@@ -3186,9 +2902,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L317[profiling/index.ts:317]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L317[profiling/index.ts:317]
 
 '''
 
@@ -3201,9 +2915,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profil
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L5[profiling/index.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/profiling/index.ts#L5[profiling/index.ts:5]
 
 '''
 
@@ -3233,9 +2945,7 @@ Optional.
 
 `Promise`<xref:interfaces/PromptResult.adoc[`PromptResult`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L91[ui/dialogs/index.d.ts:91]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L91[ui/dialogs/index.d.ts:91]
 
 ▸ *prompt*(`options`): `Promise`<xref:interfaces/PromptResult.adoc[`PromptResult`]>
 
@@ -3255,9 +2965,7 @@ The prompt() method displays a dialog box that prompts the visitor for input.
 
 `Promise`<xref:interfaces/PromptResult.adoc[`PromptResult`]>
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L97[ui/dialogs/index.d.ts:97]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L97[ui/dialogs/index.d.ts:97]
 
 '''
 
@@ -3279,9 +2987,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L299[ui/styling/style-scope.ts:299]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L299[ui/styling/style-scope.ts:299]
 
 '''
 
@@ -3312,9 +3018,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/weak-event-listener/index.ts#L107[ui/core/weak-event-listener/index.ts:107]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/weak-event-listener/index.ts#L107[ui/core/weak-event-listener/index.ts:107]
 
 '''
 
@@ -3345,9 +3049,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L867[ui/styling/style-scope.ts:867]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-scope.ts#L867[ui/styling/style-scope.ts:867]
 
 '''
 
@@ -3378,9 +3080,7 @@ Helps sanitize a module name if it is prefixed with '~/', '~' or '/'
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/module-name-sanitizer.ts#L6[ui/builder/module-name-sanitizer.ts:6]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/builder/module-name-sanitizer.ts#L6[ui/builder/module-name-sanitizer.ts:6]
 
 '''
 
@@ -3402,9 +3102,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/bui
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L510[ui/frame/index.d.ts:510]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/frame/index.d.ts#L510[ui/frame/index.d.ts:510]
 
 '''
 
@@ -3426,9 +3124,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/fra
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/converters.ts#L12[ui/styling/converters.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/converters.ts#L12[ui/styling/converters.ts:12]
 
 '''
 
@@ -3450,6 +3146,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `TransformFunctionsInfo`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L692[ui/styling/style-properties.ts:692]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L692[ui/styling/style-properties.ts:692]

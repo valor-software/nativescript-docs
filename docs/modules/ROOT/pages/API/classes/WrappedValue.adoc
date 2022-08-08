@@ -16,16 +16,16 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / WrappedValue
 
 === Constructors
 
-* link:WrappedValue.md#constructor[constructor]
+* link:WrappedValue.adoc#constructor[constructor]
 
 === Properties
 
-* link:WrappedValue.md#wrapped[wrapped]
+* link:WrappedValue.adoc#wrapped[wrapped]
 
 === Methods
 
-* link:WrappedValue.md#unwrap[unwrap]
-* link:WrappedValue.md#wrap[wrap]
+* link:WrappedValue.adoc#unwrap[unwrap]
+* link:WrappedValue.adoc#wrap[wrap]
 
 == Constructors
 

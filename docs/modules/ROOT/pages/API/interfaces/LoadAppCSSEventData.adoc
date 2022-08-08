@@ -14,9 +14,9 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadAppCSSEv
 
 === Properties
 
-* link:LoadAppCSSEventData.md#cssfile[cssFile]
-* link:LoadAppCSSEventData.md#eventname[eventName]
-* link:LoadAppCSSEventData.md#object[object]
+* link:LoadAppCSSEventData.adoc#cssfile[cssFile]
+* link:LoadAppCSSEventData.adoc#eventname[eventName]
+* link:LoadAppCSSEventData.adoc#object[object]
 
 == Properties
 
@@ -36,7 +36,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / LoadAppCSSEv
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -49,6 +49,6 @@ xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

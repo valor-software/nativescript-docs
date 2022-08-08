@@ -14,44 +14,44 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 === Constructors
 
-* link:File.md#constructor[constructor]
+* link:File.adoc#constructor[constructor]
 
 === Properties
 
-* link:File.md#_extension[_extension]
-* link:File.md#_isknown[_isKnown]
-* link:File.md#_lastmodified[_lastModified]
-* link:File.md#_locked[_locked]
-* link:File.md#_name[_name]
-* link:File.md#_path[_path]
+* link:File.adoc#_extension[_extension]
+* link:File.adoc#_isknown[_isKnown]
+* link:File.adoc#_lastmodified[_lastModified]
+* link:File.adoc#_locked[_locked]
+* link:File.adoc#_name[_name]
+* link:File.adoc#_path[_path]
 
 === Accessors
 
-* link:File.md#extension[extension]
-* link:File.md#islocked[isLocked]
-* link:File.md#lastmodified[lastModified]
-* link:File.md#name[name]
-* link:File.md#parent[parent]
-* link:File.md#path[path]
-* link:File.md#size[size]
+* link:File.adoc#extension[extension]
+* link:File.adoc#islocked[isLocked]
+* link:File.adoc#lastmodified[lastModified]
+* link:File.adoc#name[name]
+* link:File.adoc#parent[parent]
+* link:File.adoc#path[path]
+* link:File.adoc#size[size]
 
 === Methods
 
-* link:File.md#_checkaccess[_checkAccess]
-* link:File.md#read[read]
-* link:File.md#readsync[readSync]
-* link:File.md#readtext[readText]
-* link:File.md#readtextsync[readTextSync]
-* link:File.md#remove[remove]
-* link:File.md#removesync[removeSync]
-* link:File.md#rename[rename]
-* link:File.md#renamesync[renameSync]
-* link:File.md#write[write]
-* link:File.md#writesync[writeSync]
-* link:File.md#writetext[writeText]
-* link:File.md#writetextsync[writeTextSync]
-* link:File.md#exists[exists]
-* link:File.md#frompath[fromPath]
+* link:File.adoc#_checkaccess[_checkAccess]
+* link:File.adoc#read[read]
+* link:File.adoc#readsync[readSync]
+* link:File.adoc#readtext[readText]
+* link:File.adoc#readtextsync[readTextSync]
+* link:File.adoc#remove[remove]
+* link:File.adoc#removesync[removeSync]
+* link:File.adoc#rename[rename]
+* link:File.adoc#renamesync[renameSync]
+* link:File.adoc#write[write]
+* link:File.adoc#writesync[writeSync]
+* link:File.adoc#writetext[writeText]
+* link:File.adoc#writetextsync[writeTextSync]
+* link:File.adoc#exists[exists]
+* link:File.adoc#frompath[fromPath]
 
 == Constructors
 
@@ -60,7 +60,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *new File*()
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#constructor[constructor]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#constructor[constructor]
 
 == Properties
 
@@ -69,7 +69,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_extension*: `string`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_extension[_extension]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_extension[_extension]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L53[file-system/index.ts:53]
 
@@ -80,7 +80,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_isKnown*: `boolean`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_isknown[_isKnown]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_isknown[_isKnown]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L56[file-system/index.ts:56]
 
@@ -91,7 +91,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_lastModified*: `Date`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_lastmodified[_lastModified]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_lastmodified[_lastModified]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L55[file-system/index.ts:55]
 
@@ -102,7 +102,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_locked*: `boolean`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_locked[_locked]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_locked[_locked]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L54[file-system/index.ts:54]
 
@@ -113,7 +113,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_name*: `string`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_name[_name]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_name[_name]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L52[file-system/index.ts:52]
 
@@ -124,7 +124,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / File
 
 • *_path*: `string`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#_path[_path]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#_path[_path]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L51[file-system/index.ts:51]
 
@@ -341,7 +341,7 @@ FileSystemEntity.path
 
 `Promise`<``any``>
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#remove[remove]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#remove[remove]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L71[file-system/index.ts:71]
 
@@ -365,7 +365,7 @@ FileSystemEntity.path
 
 `void`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#removesync[removeSync]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#removesync[removeSync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L86[file-system/index.ts:86]
 
@@ -389,7 +389,7 @@ FileSystemEntity.path
 
 `Promise`<``any``>
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#rename[rename]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#rename[rename]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L104[file-system/index.ts:104]
 
@@ -416,7 +416,7 @@ FileSystemEntity.path
 
 `void`
 
-==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.md#renamesync[renameSync]
+==== Inherited from xref:FileSystemEntity.adoc[FileSystemEntity].link:FileSystemEntity.adoc#renamesync[renameSync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L120[file-system/index.ts:120]
 

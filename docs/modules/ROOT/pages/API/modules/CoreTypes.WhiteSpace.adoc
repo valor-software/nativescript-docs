@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].WhiteSpace
 
 === Variables
 
-* link:CoreTypes.WhiteSpace.md#normal[normal]
-* link:CoreTypes.WhiteSpace.md#nowrap[nowrap]
+* link:CoreTypes.WhiteSpace.adoc#normal[normal]
+* link:CoreTypes.WhiteSpace.adoc#nowrap[nowrap]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].WhiteSpace
 
 • `Const` *normal*: `"normal"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L85[core-types/index.ts:85]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L85[core-types/index.ts:85]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *nowrap*: `"nowrap"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L86[core-types/index.ts:86]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L86[core-types/index.ts:86]

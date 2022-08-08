@@ -17,366 +17,366 @@ Nested frames are supported, enabling hierarchical navigation scenarios.
 
 === Constructors
 
-* link:Frame.md#constructor[constructor]
+* link:Frame.adoc#constructor[constructor]
 
 === Properties
 
-* link:Frame.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
-* link:Frame.md#_animationinprogress[_animationInProgress]
-* link:Frame.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
-* link:Frame.md#_closemodalcallback[_closeModalCallback]
-* link:Frame.md#_context[_context]
-* link:Frame.md#_cssstate[_cssState]
-* link:Frame.md#_currententry[_currentEntry]
-* link:Frame.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
-* link:Frame.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
-* link:Frame.md#_defaultpaddingbottom[_defaultPaddingBottom]
-* link:Frame.md#_defaultpaddingleft[_defaultPaddingLeft]
-* link:Frame.md#_defaultpaddingright[_defaultPaddingRight]
-* link:Frame.md#_defaultpaddingtop[_defaultPaddingTop]
-* link:Frame.md#_domid[_domId]
-* link:Frame.md#_executingcontext[_executingContext]
-* link:Frame.md#_gestureobservers[_gestureObservers]
-* link:Frame.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
-* link:Frame.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
-* link:Frame.md#_isinframestack[_isInFrameStack]
-* link:Frame.md#_islayoutvalid[_isLayoutValid]
-* link:Frame.md#_ispaddingrelative[_isPaddingRelative]
-* link:Frame.md#_isstylescopehost[_isStyleScopeHost]
-* link:Frame.md#_isviewbase[_isViewBase]
-* link:Frame.md#_manager[_manager]
-* link:Frame.md#_modalparent[_modalParent]
-* link:Frame.md#_modulename[_moduleName]
-* link:Frame.md#_oldbottom[_oldBottom]
-* link:Frame.md#_oldleft[_oldLeft]
-* link:Frame.md#_oldright[_oldRight]
-* link:Frame.md#_oldtop[_oldTop]
-* link:Frame.md#_stylescope[_styleScope]
-* link:Frame.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
-* link:Frame.md#_suspendedupdates[_suspendedUpdates]
-* link:Frame.md#accessibilityhidden[accessibilityHidden]
-* link:Frame.md#accessibilityhint[accessibilityHint]
-* link:Frame.md#accessibilityidentifier[accessibilityIdentifier]
-* link:Frame.md#accessibilitylabel[accessibilityLabel]
-* link:Frame.md#accessibilitylanguage[accessibilityLanguage]
-* link:Frame.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:Frame.md#accessibilitymediasession[accessibilityMediaSession]
-* link:Frame.md#accessibilityrole[accessibilityRole]
-* link:Frame.md#accessibilitystate[accessibilityState]
-* link:Frame.md#accessibilityvalue[accessibilityValue]
-* link:Frame.md#accessible[accessible]
-* link:Frame.md#actionbarvisibility[actionBarVisibility]
-* link:Frame.md#alignself[alignSelf]
-* link:Frame.md#android[android]
-* link:Frame.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:Frame.md#androidelevation[androidElevation]
-* link:Frame.md#animated[animated]
-* link:Frame.md#automationtext[automationText]
-* link:Frame.md#backstack[backStack]
-* link:Frame.md#background[background]
-* link:Frame.md#backgroundcolor[backgroundColor]
-* link:Frame.md#backgroundimage[backgroundImage]
-* link:Frame.md#bindingcontext[bindingContext]
-* link:Frame.md#borderbottomcolor[borderBottomColor]
-* link:Frame.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:Frame.md#borderbottomrightradius[borderBottomRightRadius]
-* link:Frame.md#borderbottomwidth[borderBottomWidth]
-* link:Frame.md#bordercolor[borderColor]
-* link:Frame.md#borderleftcolor[borderLeftColor]
-* link:Frame.md#borderleftwidth[borderLeftWidth]
-* link:Frame.md#borderradius[borderRadius]
-* link:Frame.md#borderrightcolor[borderRightColor]
-* link:Frame.md#borderrightwidth[borderRightWidth]
-* link:Frame.md#bordertopcolor[borderTopColor]
-* link:Frame.md#bordertopleftradius[borderTopLeftRadius]
-* link:Frame.md#bordertoprightradius[borderTopRightRadius]
-* link:Frame.md#bordertopwidth[borderTopWidth]
-* link:Frame.md#borderwidth[borderWidth]
-* link:Frame.md#boxshadow[boxShadow]
-* link:Frame.md#classname[className]
-* link:Frame.md#col[col]
-* link:Frame.md#colspan[colSpan]
-* link:Frame.md#color[color]
-* link:Frame.md#column[column]
-* link:Frame.md#columnspan[columnSpan]
-* link:Frame.md#css[css]
-* link:Frame.md#cssclasses[cssClasses]
-* link:Frame.md#csspseudoclasses[cssPseudoClasses]
-* link:Frame.md#csstype[cssType]
-* link:Frame.md#currententry[currentEntry]
-* link:Frame.md#currentpage[currentPage]
-* link:Frame.md#dock[dock]
-* link:Frame.md#domnode[domNode]
-* link:Frame.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
-* link:Frame.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
-* link:Frame.md#effectiveborderrightwidth[effectiveBorderRightWidth]
-* link:Frame.md#effectivebordertopwidth[effectiveBorderTopWidth]
-* link:Frame.md#effectiveheight[effectiveHeight]
-* link:Frame.md#effectiveleft[effectiveLeft]
-* link:Frame.md#effectivemarginbottom[effectiveMarginBottom]
-* link:Frame.md#effectivemarginleft[effectiveMarginLeft]
-* link:Frame.md#effectivemarginright[effectiveMarginRight]
-* link:Frame.md#effectivemargintop[effectiveMarginTop]
-* link:Frame.md#effectiveminheight[effectiveMinHeight]
-* link:Frame.md#effectiveminwidth[effectiveMinWidth]
-* link:Frame.md#effectivepaddingbottom[effectivePaddingBottom]
-* link:Frame.md#effectivepaddingleft[effectivePaddingLeft]
-* link:Frame.md#effectivepaddingright[effectivePaddingRight]
-* link:Frame.md#effectivepaddingtop[effectivePaddingTop]
-* link:Frame.md#effectivetop[effectiveTop]
-* link:Frame.md#effectivewidth[effectiveWidth]
-* link:Frame.md#flexgrow[flexGrow]
-* link:Frame.md#flexshrink[flexShrink]
-* link:Frame.md#flexwrapbefore[flexWrapBefore]
-* link:Frame.md#height[height]
-* link:Frame.md#horizontalalignment[horizontalAlignment]
-* link:Frame.md#id[id]
-* link:Frame.md#ignoretouchanimation[ignoreTouchAnimation]
-* link:Frame.md#ios[ios]
-* link:Frame.md#iosignoresafearea[iosIgnoreSafeArea]
-* link:Frame.md#iosoverflowsafearea[iosOverflowSafeArea]
-* link:Frame.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
-* link:Frame.md#iscollapsed[isCollapsed]
-* link:Frame.md#isenabled[isEnabled]
-* link:Frame.md#islayoutrequired[isLayoutRequired]
-* link:Frame.md#islayoutvalid[isLayoutValid]
-* link:Frame.md#isuserinteractionenabled[isUserInteractionEnabled]
-* link:Frame.md#left[left]
-* link:Frame.md#margin[margin]
-* link:Frame.md#marginbottom[marginBottom]
-* link:Frame.md#marginleft[marginLeft]
-* link:Frame.md#marginright[marginRight]
-* link:Frame.md#margintop[marginTop]
-* link:Frame.md#minheight[minHeight]
-* link:Frame.md#minwidth[minWidth]
-* link:Frame.md#modal[modal]
-* link:Frame.md#nativeviewprotected[nativeViewProtected]
-* link:Frame.md#navigationbarheight[navigationBarHeight]
-* link:Frame.md#opacity[opacity]
-* link:Frame.md#order[order]
-* link:Frame.md#originx[originX]
-* link:Frame.md#originy[originY]
-* link:Frame.md#parent[parent]
-* link:Frame.md#perspective[perspective]
-* link:Frame.md#recyclenativeview[recycleNativeView]
-* link:Frame.md#reusable[reusable]
-* link:Frame.md#rotate[rotate]
-* link:Frame.md#rotatex[rotateX]
-* link:Frame.md#rotatey[rotateY]
-* link:Frame.md#row[row]
-* link:Frame.md#rowspan[rowSpan]
-* link:Frame.md#scalex[scaleX]
-* link:Frame.md#scaley[scaleY]
-* link:Frame.md#testid[testID]
-* link:Frame.md#top[top]
-* link:Frame.md#touchanimation[touchAnimation]
-* link:Frame.md#touchdelay[touchDelay]
-* link:Frame.md#transition[transition]
-* link:Frame.md#translatex[translateX]
-* link:Frame.md#translatey[translateY]
-* link:Frame.md#verticalalignment[verticalAlignment]
-* link:Frame.md#viewcontroller[viewController]
-* link:Frame.md#visibility[visibility]
-* link:Frame.md#width[width]
-* link:Frame.md#accessibilityblurevent[accessibilityBlurEvent]
-* link:Frame.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
-* link:Frame.md#accessibilityfocusevent[accessibilityFocusEvent]
-* link:Frame.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
-* link:Frame.md#androidoptionselectedevent[androidOptionSelectedEvent]
-* link:Frame.md#createdevent[createdEvent]
-* link:Frame.md#defaultanimatednavigation[defaultAnimatedNavigation]
-* link:Frame.md#defaulttransition[defaultTransition]
-* link:Frame.md#disposenativeviewevent[disposeNativeViewEvent]
-* link:Frame.md#layoutchangedevent[layoutChangedEvent]
-* link:Frame.md#loadedevent[loadedEvent]
-* link:Frame.md#propertychangeevent[propertyChangeEvent]
-* link:Frame.md#showingmodallyevent[showingModallyEvent]
-* link:Frame.md#shownmodallyevent[shownModallyEvent]
-* link:Frame.md#unloadedevent[unloadedEvent]
+* link:Frame.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:Frame.adoc#_animationinprogress[_animationInProgress]
+* link:Frame.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:Frame.adoc#_closemodalcallback[_closeModalCallback]
+* link:Frame.adoc#_context[_context]
+* link:Frame.adoc#_cssstate[_cssState]
+* link:Frame.adoc#_currententry[_currentEntry]
+* link:Frame.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:Frame.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:Frame.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:Frame.adoc#_defaultpaddingleft[_defaultPaddingLeft]
+* link:Frame.adoc#_defaultpaddingright[_defaultPaddingRight]
+* link:Frame.adoc#_defaultpaddingtop[_defaultPaddingTop]
+* link:Frame.adoc#_domid[_domId]
+* link:Frame.adoc#_executingcontext[_executingContext]
+* link:Frame.adoc#_gestureobservers[_gestureObservers]
+* link:Frame.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:Frame.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:Frame.adoc#_isinframestack[_isInFrameStack]
+* link:Frame.adoc#_islayoutvalid[_isLayoutValid]
+* link:Frame.adoc#_ispaddingrelative[_isPaddingRelative]
+* link:Frame.adoc#_isstylescopehost[_isStyleScopeHost]
+* link:Frame.adoc#_isviewbase[_isViewBase]
+* link:Frame.adoc#_manager[_manager]
+* link:Frame.adoc#_modalparent[_modalParent]
+* link:Frame.adoc#_modulename[_moduleName]
+* link:Frame.adoc#_oldbottom[_oldBottom]
+* link:Frame.adoc#_oldleft[_oldLeft]
+* link:Frame.adoc#_oldright[_oldRight]
+* link:Frame.adoc#_oldtop[_oldTop]
+* link:Frame.adoc#_stylescope[_styleScope]
+* link:Frame.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:Frame.adoc#_suspendedupdates[_suspendedUpdates]
+* link:Frame.adoc#accessibilityhidden[accessibilityHidden]
+* link:Frame.adoc#accessibilityhint[accessibilityHint]
+* link:Frame.adoc#accessibilityidentifier[accessibilityIdentifier]
+* link:Frame.adoc#accessibilitylabel[accessibilityLabel]
+* link:Frame.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:Frame.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:Frame.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:Frame.adoc#accessibilityrole[accessibilityRole]
+* link:Frame.adoc#accessibilitystate[accessibilityState]
+* link:Frame.adoc#accessibilityvalue[accessibilityValue]
+* link:Frame.adoc#accessible[accessible]
+* link:Frame.adoc#actionbarvisibility[actionBarVisibility]
+* link:Frame.adoc#alignself[alignSelf]
+* link:Frame.adoc#android[android]
+* link:Frame.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:Frame.adoc#androidelevation[androidElevation]
+* link:Frame.adoc#animated[animated]
+* link:Frame.adoc#automationtext[automationText]
+* link:Frame.adoc#backstack[backStack]
+* link:Frame.adoc#background[background]
+* link:Frame.adoc#backgroundcolor[backgroundColor]
+* link:Frame.adoc#backgroundimage[backgroundImage]
+* link:Frame.adoc#bindingcontext[bindingContext]
+* link:Frame.adoc#borderbottomcolor[borderBottomColor]
+* link:Frame.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:Frame.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:Frame.adoc#borderbottomwidth[borderBottomWidth]
+* link:Frame.adoc#bordercolor[borderColor]
+* link:Frame.adoc#borderleftcolor[borderLeftColor]
+* link:Frame.adoc#borderleftwidth[borderLeftWidth]
+* link:Frame.adoc#borderradius[borderRadius]
+* link:Frame.adoc#borderrightcolor[borderRightColor]
+* link:Frame.adoc#borderrightwidth[borderRightWidth]
+* link:Frame.adoc#bordertopcolor[borderTopColor]
+* link:Frame.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:Frame.adoc#bordertoprightradius[borderTopRightRadius]
+* link:Frame.adoc#bordertopwidth[borderTopWidth]
+* link:Frame.adoc#borderwidth[borderWidth]
+* link:Frame.adoc#boxshadow[boxShadow]
+* link:Frame.adoc#classname[className]
+* link:Frame.adoc#col[col]
+* link:Frame.adoc#colspan[colSpan]
+* link:Frame.adoc#color[color]
+* link:Frame.adoc#column[column]
+* link:Frame.adoc#columnspan[columnSpan]
+* link:Frame.adoc#css[css]
+* link:Frame.adoc#cssclasses[cssClasses]
+* link:Frame.adoc#csspseudoclasses[cssPseudoClasses]
+* link:Frame.adoc#csstype[cssType]
+* link:Frame.adoc#currententry[currentEntry]
+* link:Frame.adoc#currentpage[currentPage]
+* link:Frame.adoc#dock[dock]
+* link:Frame.adoc#domnode[domNode]
+* link:Frame.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:Frame.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:Frame.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:Frame.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:Frame.adoc#effectiveheight[effectiveHeight]
+* link:Frame.adoc#effectiveleft[effectiveLeft]
+* link:Frame.adoc#effectivemarginbottom[effectiveMarginBottom]
+* link:Frame.adoc#effectivemarginleft[effectiveMarginLeft]
+* link:Frame.adoc#effectivemarginright[effectiveMarginRight]
+* link:Frame.adoc#effectivemargintop[effectiveMarginTop]
+* link:Frame.adoc#effectiveminheight[effectiveMinHeight]
+* link:Frame.adoc#effectiveminwidth[effectiveMinWidth]
+* link:Frame.adoc#effectivepaddingbottom[effectivePaddingBottom]
+* link:Frame.adoc#effectivepaddingleft[effectivePaddingLeft]
+* link:Frame.adoc#effectivepaddingright[effectivePaddingRight]
+* link:Frame.adoc#effectivepaddingtop[effectivePaddingTop]
+* link:Frame.adoc#effectivetop[effectiveTop]
+* link:Frame.adoc#effectivewidth[effectiveWidth]
+* link:Frame.adoc#flexgrow[flexGrow]
+* link:Frame.adoc#flexshrink[flexShrink]
+* link:Frame.adoc#flexwrapbefore[flexWrapBefore]
+* link:Frame.adoc#height[height]
+* link:Frame.adoc#horizontalalignment[horizontalAlignment]
+* link:Frame.adoc#id[id]
+* link:Frame.adoc#ignoretouchanimation[ignoreTouchAnimation]
+* link:Frame.adoc#ios[ios]
+* link:Frame.adoc#iosignoresafearea[iosIgnoreSafeArea]
+* link:Frame.adoc#iosoverflowsafearea[iosOverflowSafeArea]
+* link:Frame.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:Frame.adoc#iscollapsed[isCollapsed]
+* link:Frame.adoc#isenabled[isEnabled]
+* link:Frame.adoc#islayoutrequired[isLayoutRequired]
+* link:Frame.adoc#islayoutvalid[isLayoutValid]
+* link:Frame.adoc#isuserinteractionenabled[isUserInteractionEnabled]
+* link:Frame.adoc#left[left]
+* link:Frame.adoc#margin[margin]
+* link:Frame.adoc#marginbottom[marginBottom]
+* link:Frame.adoc#marginleft[marginLeft]
+* link:Frame.adoc#marginright[marginRight]
+* link:Frame.adoc#margintop[marginTop]
+* link:Frame.adoc#minheight[minHeight]
+* link:Frame.adoc#minwidth[minWidth]
+* link:Frame.adoc#modal[modal]
+* link:Frame.adoc#nativeviewprotected[nativeViewProtected]
+* link:Frame.adoc#navigationbarheight[navigationBarHeight]
+* link:Frame.adoc#opacity[opacity]
+* link:Frame.adoc#order[order]
+* link:Frame.adoc#originx[originX]
+* link:Frame.adoc#originy[originY]
+* link:Frame.adoc#parent[parent]
+* link:Frame.adoc#perspective[perspective]
+* link:Frame.adoc#recyclenativeview[recycleNativeView]
+* link:Frame.adoc#reusable[reusable]
+* link:Frame.adoc#rotate[rotate]
+* link:Frame.adoc#rotatex[rotateX]
+* link:Frame.adoc#rotatey[rotateY]
+* link:Frame.adoc#row[row]
+* link:Frame.adoc#rowspan[rowSpan]
+* link:Frame.adoc#scalex[scaleX]
+* link:Frame.adoc#scaley[scaleY]
+* link:Frame.adoc#testid[testID]
+* link:Frame.adoc#top[top]
+* link:Frame.adoc#touchanimation[touchAnimation]
+* link:Frame.adoc#touchdelay[touchDelay]
+* link:Frame.adoc#transition[transition]
+* link:Frame.adoc#translatex[translateX]
+* link:Frame.adoc#translatey[translateY]
+* link:Frame.adoc#verticalalignment[verticalAlignment]
+* link:Frame.adoc#viewcontroller[viewController]
+* link:Frame.adoc#visibility[visibility]
+* link:Frame.adoc#width[width]
+* link:Frame.adoc#accessibilityblurevent[accessibilityBlurEvent]
+* link:Frame.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:Frame.adoc#accessibilityfocusevent[accessibilityFocusEvent]
+* link:Frame.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:Frame.adoc#androidoptionselectedevent[androidOptionSelectedEvent]
+* link:Frame.adoc#createdevent[createdEvent]
+* link:Frame.adoc#defaultanimatednavigation[defaultAnimatedNavigation]
+* link:Frame.adoc#defaulttransition[defaultTransition]
+* link:Frame.adoc#disposenativeviewevent[disposeNativeViewEvent]
+* link:Frame.adoc#layoutchangedevent[layoutChangedEvent]
+* link:Frame.adoc#loadedevent[loadedEvent]
+* link:Frame.adoc#propertychangeevent[propertyChangeEvent]
+* link:Frame.adoc#showingmodallyevent[showingModallyEvent]
+* link:Frame.adoc#shownmodallyevent[shownModallyEvent]
+* link:Frame.adoc#unloadedevent[unloadedEvent]
 
 === Accessors
 
-* link:Frame.md#_childrencount[_childrenCount]
-* link:Frame.md#backgroundposition[backgroundPosition]
-* link:Frame.md#backgroundrepeat[backgroundRepeat]
-* link:Frame.md#backgroundsize[backgroundSize]
-* link:Frame.md#class[class]
-* link:Frame.md#isloaded[isLoaded]
-* link:Frame.md#nativeview[nativeView]
-* link:Frame.md#page[page]
-* link:Frame.md#parentnode[parentNode]
-* link:Frame.md#style[style]
-* link:Frame.md#texttransform[textTransform]
-* link:Frame.md#typename[typeName]
+* link:Frame.adoc#_childrencount[_childrenCount]
+* link:Frame.adoc#backgroundposition[backgroundPosition]
+* link:Frame.adoc#backgroundrepeat[backgroundRepeat]
+* link:Frame.adoc#backgroundsize[backgroundSize]
+* link:Frame.adoc#class[class]
+* link:Frame.adoc#isloaded[isLoaded]
+* link:Frame.adoc#nativeview[nativeView]
+* link:Frame.adoc#page[page]
+* link:Frame.adoc#parentnode[parentNode]
+* link:Frame.adoc#style[style]
+* link:Frame.adoc#texttransform[textTransform]
+* link:Frame.adoc#typename[typeName]
 
 === Methods
 
-* link:Frame.md#_addchildfrombuilder[_addChildFromBuilder]
-* link:Frame.md#_addview[_addView]
-* link:Frame.md#_addviewcore[_addViewCore]
-* link:Frame.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
-* link:Frame.md#_applybackground[_applyBackground]
-* link:Frame.md#_applyxmlattribute[_applyXmlAttribute]
-* link:Frame.md#_backstackentrytrace[_backstackEntryTrace]
-* link:Frame.md#_batchupdate[_batchUpdate]
-* link:Frame.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
-* link:Frame.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
-* link:Frame.md#_createpropertychangedata[_createPropertyChangeData]
-* link:Frame.md#_dialogclosed[_dialogClosed]
-* link:Frame.md#_eachlayoutview[_eachLayoutView]
-* link:Frame.md#_emit[_emit]
-* link:Frame.md#_findentryfortag[_findEntryForTag]
-* link:Frame.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
-* link:Frame.md#_getfragmentmanager[_getFragmentManager]
-* link:Frame.md#_getisanimatednavigation[_getIsAnimatedNavigation]
-* link:Frame.md#_getnativeviewscount[_getNativeViewsCount]
-* link:Frame.md#_getnavbarvisible[_getNavBarVisible]
-* link:Frame.md#_getnavigationtransition[_getNavigationTransition]
-* link:Frame.md#_getrootmodalviews[_getRootModalViews]
-* link:Frame.md#_getvalue[_getValue]
-* link:Frame.md#_gobackcore[_goBackCore]
-* link:Frame.md#_gotovisualstate[_goToVisualState]
-* link:Frame.md#_handlelivesync[_handleLivesync]
-* link:Frame.md#_hasancestorview[_hasAncestorView]
-* link:Frame.md#_hidenativemodalview[_hideNativeModalView]
-* link:Frame.md#_inheritstylescope[_inheritStyleScope]
-* link:Frame.md#_layoutparent[_layoutParent]
-* link:Frame.md#_navigatecore[_navigateCore]
-* link:Frame.md#_observe[_observe]
-* link:Frame.md#_onattachedtowindow[_onAttachedToWindow]
-* link:Frame.md#_oncssstatechange[_onCssStateChange]
-* link:Frame.md#_ondetachedfromwindow[_onDetachedFromWindow]
-* link:Frame.md#_onlivesync[_onLivesync]
-* link:Frame.md#_onnavigatingto[_onNavigatingTo]
-* link:Frame.md#_onrootviewreset[_onRootViewReset]
-* link:Frame.md#_onsizechanged[_onSizeChanged]
-* link:Frame.md#_parentchanged[_parentChanged]
-* link:Frame.md#_popfromframestack[_popFromFrameStack]
-* link:Frame.md#_printframebackstack[_printFrameBackStack]
-* link:Frame.md#_processnavigationqueue[_processNavigationQueue]
-* link:Frame.md#_processnextnavigationentry[_processNextNavigationEntry]
-* link:Frame.md#_pushinframestack[_pushInFrameStack]
-* link:Frame.md#_pushinframestackrecursive[_pushInFrameStackRecursive]
-* link:Frame.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
-* link:Frame.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
-* link:Frame.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
-* link:Frame.md#_redrawnativebackground[_redrawNativeBackground]
-* link:Frame.md#_removeanimation[_removeAnimation]
-* link:Frame.md#_removeentry[_removeEntry]
-* link:Frame.md#_removefromframestack[_removeFromFrameStack]
-* link:Frame.md#_removeview[_removeView]
-* link:Frame.md#_removeviewcore[_removeViewCore]
-* link:Frame.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
-* link:Frame.md#_resumenativeupdates[_resumeNativeUpdates]
-* link:Frame.md#_setchildminheightnative[_setChildMinHeightNative]
-* link:Frame.md#_setchildminwidthnative[_setChildMinWidthNative]
-* link:Frame.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
-* link:Frame.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
-* link:Frame.md#_setminheightnative[_setMinHeightNative]
-* link:Frame.md#_setminwidthnative[_setMinWidthNative]
-* link:Frame.md#_setnativecliptobounds[_setNativeClipToBounds]
-* link:Frame.md#_setnativeviewframe[_setNativeViewFrame]
-* link:Frame.md#_setvalue[_setValue]
-* link:Frame.md#_setupasrootview[_setupAsRootView]
-* link:Frame.md#_setupui[_setupUI]
-* link:Frame.md#_shoulddelaylayout[_shouldDelayLayout]
-* link:Frame.md#_shownativemodalview[_showNativeModalView]
-* link:Frame.md#_suspendnativeupdates[_suspendNativeUpdates]
-* link:Frame.md#_teardownui[_tearDownUI]
-* link:Frame.md#_updateactionbar[_updateActionBar]
-* link:Frame.md#_updatebackstack[_updateBackstack]
-* link:Frame.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
-* link:Frame.md#_updatenativelayoutparams[_updateNativeLayoutParams]
-* link:Frame.md#_updatestylescope[_updateStyleScope]
-* link:Frame.md#accessibilityannouncement[accessibilityAnnouncement]
-* link:Frame.md#accessibilityscreenchanged[accessibilityScreenChanged]
-* link:Frame.md#addcss[addCss]
-* link:Frame.md#addcssfile[addCssFile]
-* link:Frame.md#addeventlistener[addEventListener]
-* link:Frame.md#addpseudoclass[addPseudoClass]
-* link:Frame.md#animate[animate]
-* link:Frame.md#bind[bind]
-* link:Frame.md#callloaded[callLoaded]
-* link:Frame.md#callunloaded[callUnloaded]
-* link:Frame.md#cangoback[canGoBack]
-* link:Frame.md#changecssfile[changeCssFile]
-* link:Frame.md#closemodal[closeModal]
-* link:Frame.md#createanimation[createAnimation]
-* link:Frame.md#createnativeview[createNativeView]
-* link:Frame.md#deletepseudoclass[deletePseudoClass]
-* link:Frame.md#destroynode[destroyNode]
-* link:Frame.md#disposenativeview[disposeNativeView]
-* link:Frame.md#eachchild[eachChild]
-* link:Frame.md#eachchildview[eachChildView]
-* link:Frame.md#ensuredomnode[ensureDomNode]
-* link:Frame.md#focus[focus]
-* link:Frame.md#get[get]
-* link:Frame.md#getactualsize[getActualSize]
-* link:Frame.md#getgestureobservers[getGestureObservers]
-* link:Frame.md#getlocationinwindow[getLocationInWindow]
-* link:Frame.md#getlocationonscreen[getLocationOnScreen]
-* link:Frame.md#getlocationrelativeto[getLocationRelativeTo]
-* link:Frame.md#getmeasuredheight[getMeasuredHeight]
-* link:Frame.md#getmeasuredstate[getMeasuredState]
-* link:Frame.md#getmeasuredwidth[getMeasuredWidth]
-* link:Frame.md#getsafeareainsets[getSafeAreaInsets]
-* link:Frame.md#getviewbydomid[getViewByDomId]
-* link:Frame.md#getviewbyid[getViewById]
-* link:Frame.md#goback[goBack]
-* link:Frame.md#hasgestureobservers[hasGestureObservers]
-* link:Frame.md#haslisteners[hasListeners]
-* link:Frame.md#initnativeview[initNativeView]
-* link:Frame.md#iscurrent[isCurrent]
-* link:Frame.md#layout[layout]
-* link:Frame.md#layoutnativeview[layoutNativeView]
-* link:Frame.md#loadview[loadView]
-* link:Frame.md#measure[measure]
-* link:Frame.md#navigate[navigate]
-* link:Frame.md#navigationqueueisempty[navigationQueueIsEmpty]
-* link:Frame.md#notify[notify]
-* link:Frame.md#notifypropertychange[notifyPropertyChange]
-* link:Frame.md#off[off]
-* link:Frame.md#on[on]
-* link:Frame.md#onbackpressed[onBackPressed]
-* link:Frame.md#onlayout[onLayout]
-* link:Frame.md#onloaded[onLoaded]
-* link:Frame.md#onmeasure[onMeasure]
-* link:Frame.md#onresumenativeupdates[onResumeNativeUpdates]
-* link:Frame.md#onunloaded[onUnloaded]
-* link:Frame.md#once[once]
-* link:Frame.md#performnavigation[performNavigation]
-* link:Frame.md#removeeventlistener[removeEventListener]
-* link:Frame.md#replacepage[replacePage]
-* link:Frame.md#requestlayout[requestLayout]
-* link:Frame.md#resetnativeview[resetNativeView]
-* link:Frame.md#sendaccessibilityevent[sendAccessibilityEvent]
-* link:Frame.md#set[set]
-* link:Frame.md#setcurrent[setCurrent]
-* link:Frame.md#setinlinestyle[setInlineStyle]
-* link:Frame.md#setmeasureddimension[setMeasuredDimension]
-* link:Frame.md#setnativeview[setNativeView]
-* link:Frame.md#setontouchlistener[setOnTouchListener]
-* link:Frame.md#setproperty[setProperty]
-* link:Frame.md#settestid[setTestID]
-* link:Frame.md#showmodal[showModal]
-* link:Frame.md#tostring[toString]
-* link:Frame.md#unbind[unbind]
-* link:Frame.md#unloadview[unloadView]
-* link:Frame.md#_isentrybackstackvisible[_isEntryBackstackVisible]
-* link:Frame.md#_stack[_stack]
-* link:Frame.md#addeventlistener-1[addEventListener]
-* link:Frame.md#combinemeasuredstates[combineMeasuredStates]
-* link:Frame.md#getframebyid[getFrameById]
-* link:Frame.md#goback-1[goBack]
-* link:Frame.md#layoutchild[layoutChild]
-* link:Frame.md#measurechild[measureChild]
-* link:Frame.md#off-1[off]
-* link:Frame.md#on-1[on]
-* link:Frame.md#once-1[once]
-* link:Frame.md#reloadpage[reloadPage]
-* link:Frame.md#removeeventlistener-1[removeEventListener]
-* link:Frame.md#resolvesizeandstate[resolveSizeAndState]
-* link:Frame.md#topmost[topmost]
+* link:Frame.adoc#_addchildfrombuilder[_addChildFromBuilder]
+* link:Frame.adoc#_addview[_addView]
+* link:Frame.adoc#_addviewcore[_addViewCore]
+* link:Frame.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:Frame.adoc#_applybackground[_applyBackground]
+* link:Frame.adoc#_applyxmlattribute[_applyXmlAttribute]
+* link:Frame.adoc#_backstackentrytrace[_backstackEntryTrace]
+* link:Frame.adoc#_batchupdate[_batchUpdate]
+* link:Frame.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:Frame.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:Frame.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:Frame.adoc#_dialogclosed[_dialogClosed]
+* link:Frame.adoc#_eachlayoutview[_eachLayoutView]
+* link:Frame.adoc#_emit[_emit]
+* link:Frame.adoc#_findentryfortag[_findEntryForTag]
+* link:Frame.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:Frame.adoc#_getfragmentmanager[_getFragmentManager]
+* link:Frame.adoc#_getisanimatednavigation[_getIsAnimatedNavigation]
+* link:Frame.adoc#_getnativeviewscount[_getNativeViewsCount]
+* link:Frame.adoc#_getnavbarvisible[_getNavBarVisible]
+* link:Frame.adoc#_getnavigationtransition[_getNavigationTransition]
+* link:Frame.adoc#_getrootmodalviews[_getRootModalViews]
+* link:Frame.adoc#_getvalue[_getValue]
+* link:Frame.adoc#_gobackcore[_goBackCore]
+* link:Frame.adoc#_gotovisualstate[_goToVisualState]
+* link:Frame.adoc#_handlelivesync[_handleLivesync]
+* link:Frame.adoc#_hasancestorview[_hasAncestorView]
+* link:Frame.adoc#_hidenativemodalview[_hideNativeModalView]
+* link:Frame.adoc#_inheritstylescope[_inheritStyleScope]
+* link:Frame.adoc#_layoutparent[_layoutParent]
+* link:Frame.adoc#_navigatecore[_navigateCore]
+* link:Frame.adoc#_observe[_observe]
+* link:Frame.adoc#_onattachedtowindow[_onAttachedToWindow]
+* link:Frame.adoc#_oncssstatechange[_onCssStateChange]
+* link:Frame.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:Frame.adoc#_onlivesync[_onLivesync]
+* link:Frame.adoc#_onnavigatingto[_onNavigatingTo]
+* link:Frame.adoc#_onrootviewreset[_onRootViewReset]
+* link:Frame.adoc#_onsizechanged[_onSizeChanged]
+* link:Frame.adoc#_parentchanged[_parentChanged]
+* link:Frame.adoc#_popfromframestack[_popFromFrameStack]
+* link:Frame.adoc#_printframebackstack[_printFrameBackStack]
+* link:Frame.adoc#_processnavigationqueue[_processNavigationQueue]
+* link:Frame.adoc#_processnextnavigationentry[_processNextNavigationEntry]
+* link:Frame.adoc#_pushinframestack[_pushInFrameStack]
+* link:Frame.adoc#_pushinframestackrecursive[_pushInFrameStackRecursive]
+* link:Frame.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:Frame.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:Frame.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:Frame.adoc#_redrawnativebackground[_redrawNativeBackground]
+* link:Frame.adoc#_removeanimation[_removeAnimation]
+* link:Frame.adoc#_removeentry[_removeEntry]
+* link:Frame.adoc#_removefromframestack[_removeFromFrameStack]
+* link:Frame.adoc#_removeview[_removeView]
+* link:Frame.adoc#_removeviewcore[_removeViewCore]
+* link:Frame.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:Frame.adoc#_resumenativeupdates[_resumeNativeUpdates]
+* link:Frame.adoc#_setchildminheightnative[_setChildMinHeightNative]
+* link:Frame.adoc#_setchildminwidthnative[_setChildMinWidthNative]
+* link:Frame.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:Frame.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:Frame.adoc#_setminheightnative[_setMinHeightNative]
+* link:Frame.adoc#_setminwidthnative[_setMinWidthNative]
+* link:Frame.adoc#_setnativecliptobounds[_setNativeClipToBounds]
+* link:Frame.adoc#_setnativeviewframe[_setNativeViewFrame]
+* link:Frame.adoc#_setvalue[_setValue]
+* link:Frame.adoc#_setupasrootview[_setupAsRootView]
+* link:Frame.adoc#_setupui[_setupUI]
+* link:Frame.adoc#_shoulddelaylayout[_shouldDelayLayout]
+* link:Frame.adoc#_shownativemodalview[_showNativeModalView]
+* link:Frame.adoc#_suspendnativeupdates[_suspendNativeUpdates]
+* link:Frame.adoc#_teardownui[_tearDownUI]
+* link:Frame.adoc#_updateactionbar[_updateActionBar]
+* link:Frame.adoc#_updatebackstack[_updateBackstack]
+* link:Frame.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:Frame.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
+* link:Frame.adoc#_updatestylescope[_updateStyleScope]
+* link:Frame.adoc#accessibilityannouncement[accessibilityAnnouncement]
+* link:Frame.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:Frame.adoc#addcss[addCss]
+* link:Frame.adoc#addcssfile[addCssFile]
+* link:Frame.adoc#addeventlistener[addEventListener]
+* link:Frame.adoc#addpseudoclass[addPseudoClass]
+* link:Frame.adoc#animate[animate]
+* link:Frame.adoc#bind[bind]
+* link:Frame.adoc#callloaded[callLoaded]
+* link:Frame.adoc#callunloaded[callUnloaded]
+* link:Frame.adoc#cangoback[canGoBack]
+* link:Frame.adoc#changecssfile[changeCssFile]
+* link:Frame.adoc#closemodal[closeModal]
+* link:Frame.adoc#createanimation[createAnimation]
+* link:Frame.adoc#createnativeview[createNativeView]
+* link:Frame.adoc#deletepseudoclass[deletePseudoClass]
+* link:Frame.adoc#destroynode[destroyNode]
+* link:Frame.adoc#disposenativeview[disposeNativeView]
+* link:Frame.adoc#eachchild[eachChild]
+* link:Frame.adoc#eachchildview[eachChildView]
+* link:Frame.adoc#ensuredomnode[ensureDomNode]
+* link:Frame.adoc#focus[focus]
+* link:Frame.adoc#get[get]
+* link:Frame.adoc#getactualsize[getActualSize]
+* link:Frame.adoc#getgestureobservers[getGestureObservers]
+* link:Frame.adoc#getlocationinwindow[getLocationInWindow]
+* link:Frame.adoc#getlocationonscreen[getLocationOnScreen]
+* link:Frame.adoc#getlocationrelativeto[getLocationRelativeTo]
+* link:Frame.adoc#getmeasuredheight[getMeasuredHeight]
+* link:Frame.adoc#getmeasuredstate[getMeasuredState]
+* link:Frame.adoc#getmeasuredwidth[getMeasuredWidth]
+* link:Frame.adoc#getsafeareainsets[getSafeAreaInsets]
+* link:Frame.adoc#getviewbydomid[getViewByDomId]
+* link:Frame.adoc#getviewbyid[getViewById]
+* link:Frame.adoc#goback[goBack]
+* link:Frame.adoc#hasgestureobservers[hasGestureObservers]
+* link:Frame.adoc#haslisteners[hasListeners]
+* link:Frame.adoc#initnativeview[initNativeView]
+* link:Frame.adoc#iscurrent[isCurrent]
+* link:Frame.adoc#layout[layout]
+* link:Frame.adoc#layoutnativeview[layoutNativeView]
+* link:Frame.adoc#loadview[loadView]
+* link:Frame.adoc#measure[measure]
+* link:Frame.adoc#navigate[navigate]
+* link:Frame.adoc#navigationqueueisempty[navigationQueueIsEmpty]
+* link:Frame.adoc#notify[notify]
+* link:Frame.adoc#notifypropertychange[notifyPropertyChange]
+* link:Frame.adoc#off[off]
+* link:Frame.adoc#on[on]
+* link:Frame.adoc#onbackpressed[onBackPressed]
+* link:Frame.adoc#onlayout[onLayout]
+* link:Frame.adoc#onloaded[onLoaded]
+* link:Frame.adoc#onmeasure[onMeasure]
+* link:Frame.adoc#onresumenativeupdates[onResumeNativeUpdates]
+* link:Frame.adoc#onunloaded[onUnloaded]
+* link:Frame.adoc#once[once]
+* link:Frame.adoc#performnavigation[performNavigation]
+* link:Frame.adoc#removeeventlistener[removeEventListener]
+* link:Frame.adoc#replacepage[replacePage]
+* link:Frame.adoc#requestlayout[requestLayout]
+* link:Frame.adoc#resetnativeview[resetNativeView]
+* link:Frame.adoc#sendaccessibilityevent[sendAccessibilityEvent]
+* link:Frame.adoc#set[set]
+* link:Frame.adoc#setcurrent[setCurrent]
+* link:Frame.adoc#setinlinestyle[setInlineStyle]
+* link:Frame.adoc#setmeasureddimension[setMeasuredDimension]
+* link:Frame.adoc#setnativeview[setNativeView]
+* link:Frame.adoc#setontouchlistener[setOnTouchListener]
+* link:Frame.adoc#setproperty[setProperty]
+* link:Frame.adoc#settestid[setTestID]
+* link:Frame.adoc#showmodal[showModal]
+* link:Frame.adoc#tostring[toString]
+* link:Frame.adoc#unbind[unbind]
+* link:Frame.adoc#unloadview[unloadView]
+* link:Frame.adoc#_isentrybackstackvisible[_isEntryBackstackVisible]
+* link:Frame.adoc#_stack[_stack]
+* link:Frame.adoc#addeventlistener-1[addEventListener]
+* link:Frame.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:Frame.adoc#getframebyid[getFrameById]
+* link:Frame.adoc#goback-1[goBack]
+* link:Frame.adoc#layoutchild[layoutChild]
+* link:Frame.adoc#measurechild[measureChild]
+* link:Frame.adoc#off-1[off]
+* link:Frame.adoc#on-1[on]
+* link:Frame.adoc#once-1[once]
+* link:Frame.adoc#reloadpage[reloadPage]
+* link:Frame.adoc#removeeventlistener-1[removeEventListener]
+* link:Frame.adoc#resolvesizeandstate[resolveSizeAndState]
+* link:Frame.adoc#topmost[topmost]
 
 == Constructors
 
@@ -1195,7 +1195,7 @@ FrameBase.borderBottomColor
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom left border radius of the view.
 
@@ -1210,7 +1210,7 @@ FrameBase.borderBottomLeftRadius
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom right border radius of the view.
 
@@ -1225,7 +1225,7 @@ FrameBase.borderBottomRightRadius
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom border width of the view.
 
@@ -1270,7 +1270,7 @@ FrameBase.borderLeftColor
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the left border width of the view.
 
@@ -1285,7 +1285,7 @@ FrameBase.borderLeftWidth
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border radius of the view.
 
@@ -1315,7 +1315,7 @@ FrameBase.borderRightColor
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the right border width of the view.
 
@@ -1345,7 +1345,7 @@ FrameBase.borderTopColor
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top left border radius of the view.
 
@@ -1360,7 +1360,7 @@ FrameBase.borderTopLeftRadius
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top right border radius of the view.
 
@@ -1375,7 +1375,7 @@ FrameBase.borderTopRightRadius
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top border width of the view.
 
@@ -1390,7 +1390,7 @@ FrameBase.borderTopWidth
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border width of the view.
 
@@ -1886,7 +1886,7 @@ FrameBase.flexWrapBefore
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired height of the view.
 
@@ -1901,7 +1901,7 @@ FrameBase.height
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Horizontal axis.
 
@@ -2083,7 +2083,7 @@ FrameBase.isUserInteractionEnabled
 [#left]
 === left
 
-• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *left*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Inherited from
 
@@ -2096,7 +2096,7 @@ FrameBase.left
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets margin style property.
 
@@ -2111,7 +2111,7 @@ FrameBase.margin
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the bottom side of this view.
 
@@ -2126,7 +2126,7 @@ FrameBase.marginBottom
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the left side of this view.
 
@@ -2141,7 +2141,7 @@ FrameBase.marginLeft
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the right side of this view.
 
@@ -2156,7 +2156,7 @@ FrameBase.marginRight
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the top side of this view.
 
@@ -2171,7 +2171,7 @@ FrameBase.marginTop
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum height the view may grow to.
 
@@ -2186,7 +2186,7 @@ FrameBase.minHeight
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum width the view may grow to.
 
@@ -2471,7 +2471,7 @@ FrameBase.testID
 [#top]
 === top
 
-• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *top*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Inherited from
 
@@ -2484,7 +2484,7 @@ FrameBase.top
 [#touchanimation]
 === touchAnimation
 
-• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+• *touchAnimation*: `boolean` | link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
 ==== Inherited from
 
@@ -2555,7 +2555,7 @@ FrameBase.translateY
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Vertical axis.
 
@@ -2583,7 +2583,7 @@ FrameBase.viewController
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 Gets or sets the visibility of the view.
 
@@ -2598,7 +2598,7 @@ FrameBase.visibility
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired width of the view.
 
@@ -2879,11 +2879,11 @@ FrameBase.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Inherited from
 
@@ -2899,7 +2899,7 @@ FrameBase.backgroundRepeat
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+| link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 |===
 
 ==== Returns
@@ -3141,11 +3141,11 @@ FrameBase.style
 [#texttransform]
 === textTransform
 
-• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• `get` *textTransform*(): link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Inherited from
 
@@ -3161,7 +3161,7 @@ FrameBase.textTransform
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
@@ -4594,7 +4594,7 @@ FrameBase._resumeNativeUpdates
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -4623,7 +4623,7 @@ FrameBase._setChildMinHeightNative
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -4727,7 +4727,7 @@ FrameBase._setCurrentMeasureSpecs
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -4753,7 +4753,7 @@ FrameBase._setMinHeightNative
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns

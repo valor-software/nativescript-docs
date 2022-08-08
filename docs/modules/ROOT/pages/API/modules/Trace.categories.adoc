@@ -12,28 +12,28 @@ all predefined categories.
 
 === Variables
 
-* link:Trace.categories.md#accessibility[Accessibility]
-* link:Trace.categories.md#all[All]
-* link:Trace.categories.md#animation[Animation]
-* link:Trace.categories.md#binding[Binding]
-* link:Trace.categories.md#bindingerror[BindingError]
-* link:Trace.categories.md#debug[Debug]
-* link:Trace.categories.md#error[Error]
-* link:Trace.categories.md#layout[Layout]
-* link:Trace.categories.md#livesync[Livesync]
-* link:Trace.categories.md#modulenameresolver[ModuleNameResolver]
-* link:Trace.categories.md#nativelifecycle[NativeLifecycle]
-* link:Trace.categories.md#navigation[Navigation]
-* link:Trace.categories.md#style[Style]
-* link:Trace.categories.md#test[Test]
-* link:Trace.categories.md#transition[Transition]
-* link:Trace.categories.md#viewhierarchy[ViewHierarchy]
-* link:Trace.categories.md#visualtreeevents[VisualTreeEvents]
-* link:Trace.categories.md#separator[separator]
+* link:Trace.categories.adoc#accessibility[Accessibility]
+* link:Trace.categories.adoc#all[All]
+* link:Trace.categories.adoc#animation[Animation]
+* link:Trace.categories.adoc#binding[Binding]
+* link:Trace.categories.adoc#bindingerror[BindingError]
+* link:Trace.categories.adoc#debug[Debug]
+* link:Trace.categories.adoc#error[Error]
+* link:Trace.categories.adoc#layout[Layout]
+* link:Trace.categories.adoc#livesync[Livesync]
+* link:Trace.categories.adoc#modulenameresolver[ModuleNameResolver]
+* link:Trace.categories.adoc#nativelifecycle[NativeLifecycle]
+* link:Trace.categories.adoc#navigation[Navigation]
+* link:Trace.categories.adoc#style[Style]
+* link:Trace.categories.adoc#test[Test]
+* link:Trace.categories.adoc#transition[Transition]
+* link:Trace.categories.adoc#viewhierarchy[ViewHierarchy]
+* link:Trace.categories.adoc#visualtreeevents[VisualTreeEvents]
+* link:Trace.categories.adoc#separator[separator]
 
 === Functions
 
-* link:Trace.categories.md#concat[concat]
+* link:Trace.categories.adoc#concat[concat]
 
 == Variables
 
@@ -42,9 +42,7 @@ all predefined categories.
 
 • `Const` *Accessibility*: `"Accessibility"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L188[trace/index.ts:188]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L188[trace/index.ts:188]
 
 '''
 
@@ -53,9 +51,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *All*: `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L206[trace/index.ts:206]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L206[trace/index.ts:206]
 
 '''
 
@@ -64,9 +60,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Animation*: `"Animation"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L200[trace/index.ts:200]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L200[trace/index.ts:200]
 
 '''
 
@@ -75,9 +69,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Binding*: `"Binding"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L197[trace/index.ts:197]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L197[trace/index.ts:197]
 
 '''
 
@@ -86,9 +78,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *BindingError*: `"BindingError"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L198[trace/index.ts:198]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L198[trace/index.ts:198]
 
 '''
 
@@ -97,9 +87,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Debug*: `"Debug"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L194[trace/index.ts:194]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L194[trace/index.ts:194]
 
 '''
 
@@ -108,9 +96,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Error*: `"Error"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L199[trace/index.ts:199]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L199[trace/index.ts:199]
 
 '''
 
@@ -119,9 +105,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Layout*: `"Layout"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L190[trace/index.ts:190]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L190[trace/index.ts:190]
 
 '''
 
@@ -130,9 +114,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Livesync*: `"Livesync"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L202[trace/index.ts:202]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L202[trace/index.ts:202]
 
 '''
 
@@ -141,9 +123,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *ModuleNameResolver*: `"ModuleNameResolver"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L203[trace/index.ts:203]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L203[trace/index.ts:203]
 
 '''
 
@@ -152,9 +132,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *NativeLifecycle*: `"NativeLifecycle"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L193[trace/index.ts:193]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L193[trace/index.ts:193]
 
 '''
 
@@ -163,9 +141,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Navigation*: `"Navigation"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L195[trace/index.ts:195]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L195[trace/index.ts:195]
 
 '''
 
@@ -174,9 +150,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Style*: `"Style"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L191[trace/index.ts:191]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L191[trace/index.ts:191]
 
 '''
 
@@ -185,9 +159,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Test*: `"Test"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L196[trace/index.ts:196]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L196[trace/index.ts:196]
 
 '''
 
@@ -196,9 +168,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *Transition*: `"Transition"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L201[trace/index.ts:201]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L201[trace/index.ts:201]
 
 '''
 
@@ -207,9 +177,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *ViewHierarchy*: `"ViewHierarchy"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L192[trace/index.ts:192]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L192[trace/index.ts:192]
 
 '''
 
@@ -218,9 +186,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *VisualTreeEvents*: `"VisualTreeEvents"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L189[trace/index.ts:189]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L189[trace/index.ts:189]
 
 '''
 
@@ -229,9 +195,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *separator*: `","`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L205[trace/index.ts:205]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L205[trace/index.ts:205]
 
 == Functions
 
@@ -253,6 +217,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L208[trace/index.ts:208]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L208[trace/index.ts:208]

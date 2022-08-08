@@ -34,30 +34,30 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / InheritedPro
 
 === Constructors
 
-* link:InheritedProperty.md#constructor[constructor]
+* link:InheritedProperty.adoc#constructor[constructor]
 
 === Properties
 
-* link:InheritedProperty.md#configurable[configurable]
-* link:InheritedProperty.md#defaultvalue[defaultValue]
-* link:InheritedProperty.md#defaultvaluekey[defaultValueKey]
-* link:InheritedProperty.md#enumerable[enumerable]
-* link:InheritedProperty.md#get[get]
-* link:InheritedProperty.md#getdefault[getDefault]
-* link:InheritedProperty.md#isstyleproperty[isStyleProperty]
-* link:InheritedProperty.md#key[key]
-* link:InheritedProperty.md#name[name]
-* link:InheritedProperty.md#nativevaluechange[nativeValueChange]
-* link:InheritedProperty.md#overridehandlers[overrideHandlers]
-* link:InheritedProperty.md#set[set]
-* link:InheritedProperty.md#setinheritedvalue[setInheritedValue]
-* link:InheritedProperty.md#setnative[setNative]
-* link:InheritedProperty.md#sourcekey[sourceKey]
+* link:InheritedProperty.adoc#configurable[configurable]
+* link:InheritedProperty.adoc#defaultvalue[defaultValue]
+* link:InheritedProperty.adoc#defaultvaluekey[defaultValueKey]
+* link:InheritedProperty.adoc#enumerable[enumerable]
+* link:InheritedProperty.adoc#get[get]
+* link:InheritedProperty.adoc#getdefault[getDefault]
+* link:InheritedProperty.adoc#isstyleproperty[isStyleProperty]
+* link:InheritedProperty.adoc#key[key]
+* link:InheritedProperty.adoc#name[name]
+* link:InheritedProperty.adoc#nativevaluechange[nativeValueChange]
+* link:InheritedProperty.adoc#overridehandlers[overrideHandlers]
+* link:InheritedProperty.adoc#set[set]
+* link:InheritedProperty.adoc#setinheritedvalue[setInheritedValue]
+* link:InheritedProperty.adoc#setnative[setNative]
+* link:InheritedProperty.adoc#sourcekey[sourceKey]
 
 === Methods
 
-* link:InheritedProperty.md#isset[isSet]
-* link:InheritedProperty.md#register[register]
+* link:InheritedProperty.adoc#isset[isSet]
+* link:InheritedProperty.adoc#register[register]
 
 == Constructors
 

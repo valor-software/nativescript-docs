@@ -10,12 +10,12 @@ xref:CoreTypes.adoc[CoreTypes].KeyboardType
 
 === Variables
 
-* link:CoreTypes.KeyboardType.md#datetime[datetime]
-* link:CoreTypes.KeyboardType.md#email[email]
-* link:CoreTypes.KeyboardType.md#integer[integer]
-* link:CoreTypes.KeyboardType.md#number[number]
-* link:CoreTypes.KeyboardType.md#phone[phone]
-* link:CoreTypes.KeyboardType.md#url[url]
+* link:CoreTypes.KeyboardType.adoc#datetime[datetime]
+* link:CoreTypes.KeyboardType.adoc#email[email]
+* link:CoreTypes.KeyboardType.adoc#integer[integer]
+* link:CoreTypes.KeyboardType.adoc#number[number]
+* link:CoreTypes.KeyboardType.adoc#phone[phone]
+* link:CoreTypes.KeyboardType.adoc#url[url]
 
 == Variables
 
@@ -24,9 +24,7 @@ xref:CoreTypes.adoc[CoreTypes].KeyboardType
 
 • `Const` *datetime*: `"datetime"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L37[core-types/index.ts:37]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L37[core-types/index.ts:37]
 
 '''
 
@@ -35,9 +33,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *email*: `"email"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L41[core-types/index.ts:41]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L41[core-types/index.ts:41]
 
 '''
 
@@ -46,9 +42,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *integer*: `"integer"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L42[core-types/index.ts:42]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L42[core-types/index.ts:42]
 
 '''
 
@@ -57,9 +51,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *number*: `"number"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L39[core-types/index.ts:39]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L39[core-types/index.ts:39]
 
 '''
 
@@ -68,9 +60,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *phone*: `"phone"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L38[core-types/index.ts:38]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L38[core-types/index.ts:38]
 
 '''
 
@@ -79,6 +69,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *url*: `"url"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L40[core-types/index.ts:40]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L40[core-types/index.ts:40]

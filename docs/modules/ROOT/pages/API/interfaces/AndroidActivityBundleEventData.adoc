@@ -16,10 +16,10 @@ Data for the Android activity events with bundle.
 
 === Properties
 
-* link:AndroidActivityBundleEventData.md#activity[activity]
-* link:AndroidActivityBundleEventData.md#bundle[bundle]
-* link:AndroidActivityBundleEventData.md#eventname[eventName]
-* link:AndroidActivityBundleEventData.md#object[object]
+* link:AndroidActivityBundleEventData.adoc#activity[activity]
+* link:AndroidActivityBundleEventData.adoc#bundle[bundle]
+* link:AndroidActivityBundleEventData.adoc#eventname[eventName]
+* link:AndroidActivityBundleEventData.adoc#object[object]
 
 == Properties
 
@@ -32,7 +32,7 @@ The activity.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#activity[activity]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#activity[activity]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L407[application/index.d.ts:407]
 
@@ -58,7 +58,7 @@ The name of the event.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#eventname[eventName]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L412[application/index.d.ts:412]
 
@@ -73,6 +73,6 @@ The instance that has raised the event.
 
 ==== Inherited from
 
-xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.md#object[object]
+xref:AndroidActivityEventData.adoc[AndroidActivityEventData].link:AndroidActivityEventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L417[application/index.d.ts:417]

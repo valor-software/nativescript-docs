@@ -16,8 +16,8 @@ Represents an entry to be used to create a view or load it form file
 
 === Properties
 
-* link:ViewEntry.md#create[create]
-* link:ViewEntry.md#modulename[moduleName]
+* link:ViewEntry.adoc#create[create]
+* link:ViewEntry.adoc#modulename[moduleName]
 
 == Properties
 

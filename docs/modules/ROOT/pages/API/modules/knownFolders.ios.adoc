@@ -10,14 +10,14 @@ xref:knownFolders.adoc[knownFolders].ios
 
 === Functions
 
-* link:knownFolders.ios.md#desktop[desktop]
-* link:knownFolders.ios.md#developer[developer]
-* link:knownFolders.ios.md#downloads[downloads]
-* link:knownFolders.ios.md#library[library]
-* link:knownFolders.ios.md#movies[movies]
-* link:knownFolders.ios.md#music[music]
-* link:knownFolders.ios.md#pictures[pictures]
-* link:knownFolders.ios.md#sharedpublic[sharedPublic]
+* link:knownFolders.ios.adoc#desktop[desktop]
+* link:knownFolders.ios.adoc#developer[developer]
+* link:knownFolders.ios.adoc#downloads[downloads]
+* link:knownFolders.ios.adoc#library[library]
+* link:knownFolders.ios.adoc#movies[movies]
+* link:knownFolders.ios.adoc#music[music]
+* link:knownFolders.ios.adoc#pictures[pictures]
+* link:knownFolders.ios.adoc#sharedpublic[sharedPublic]
 
 == Functions
 
@@ -30,9 +30,7 @@ xref:knownFolders.adoc[knownFolders].ios
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L639[file-system/index.ts:639]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L639[file-system/index.ts:639]
 
 '''
 
@@ -45,9 +43,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L623[file-system/index.ts:623]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L623[file-system/index.ts:623]
 
 '''
 
@@ -60,9 +56,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L655[file-system/index.ts:655]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L655[file-system/index.ts:655]
 
 '''
 
@@ -75,9 +69,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L607[file-system/index.ts:607]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L607[file-system/index.ts:607]
 
 '''
 
@@ -90,9 +82,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L671[file-system/index.ts:671]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L671[file-system/index.ts:671]
 
 '''
 
@@ -105,9 +95,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L687[file-system/index.ts:687]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L687[file-system/index.ts:687]
 
 '''
 
@@ -120,9 +108,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L703[file-system/index.ts:703]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L703[file-system/index.ts:703]
 
 '''
 
@@ -135,6 +121,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-s
 
 xref:../classes/Folder.adoc[`Folder`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L719[file-system/index.ts:719]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/file-system/index.ts#L719[file-system/index.ts:719]

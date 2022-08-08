@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].IOSActionItemPosition
 
 === Variables
 
-* link:CoreTypes.IOSActionItemPosition.md#left[left]
-* link:CoreTypes.IOSActionItemPosition.md#right[right]
+* link:CoreTypes.IOSActionItemPosition.adoc#left[left]
+* link:CoreTypes.IOSActionItemPosition.adoc#right[right]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].IOSActionItemPosition
 
 • `Const` *left*: `string` = `'left'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L213[core-types/index.ts:213]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L213[core-types/index.ts:213]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *right*: `string` = `'right'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L214[core-types/index.ts:214]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L214[core-types/index.ts:214]

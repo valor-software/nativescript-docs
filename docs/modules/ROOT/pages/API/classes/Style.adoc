@@ -22,150 +22,150 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Style
 
 === Constructors
 
-* link:Style.md#constructor[constructor]
+* link:Style.adoc#constructor[constructor]
 
 === Properties
 
-* link:Style.md#propertybag[PropertyBag]
-* link:Style.md#_fontscale[_fontScale]
-* link:Style.md#_isviewbase[_isViewBase]
-* link:Style.md#accessibilityhidden[accessibilityHidden]
-* link:Style.md#accessibilitylanguage[accessibilityLanguage]
-* link:Style.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:Style.md#accessibilitymediasession[accessibilityMediaSession]
-* link:Style.md#accessibilityrole[accessibilityRole]
-* link:Style.md#accessibilitystate[accessibilityState]
-* link:Style.md#accessibilitystep[accessibilityStep]
-* link:Style.md#accessible[accessible]
-* link:Style.md#aligncontent[alignContent]
-* link:Style.md#alignitems[alignItems]
-* link:Style.md#alignself[alignSelf]
-* link:Style.md#androidcontentinset[androidContentInset]
-* link:Style.md#androidcontentinsetleft[androidContentInsetLeft]
-* link:Style.md#androidcontentinsetright[androidContentInsetRight]
-* link:Style.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:Style.md#androidelevation[androidElevation]
-* link:Style.md#androidselectedtabhighlightcolor[androidSelectedTabHighlightColor]
-* link:Style.md#androidstatusbarbackground[androidStatusBarBackground]
-* link:Style.md#background[background]
-* link:Style.md#backgroundcolor[backgroundColor]
-* link:Style.md#backgroundimage[backgroundImage]
-* link:Style.md#backgroundinternal[backgroundInternal]
-* link:Style.md#backgroundposition[backgroundPosition]
-* link:Style.md#backgroundrepeat[backgroundRepeat]
-* link:Style.md#backgroundsize[backgroundSize]
-* link:Style.md#borderbottomcolor[borderBottomColor]
-* link:Style.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:Style.md#borderbottomrightradius[borderBottomRightRadius]
-* link:Style.md#borderbottomwidth[borderBottomWidth]
-* link:Style.md#bordercolor[borderColor]
-* link:Style.md#borderleftcolor[borderLeftColor]
-* link:Style.md#borderleftwidth[borderLeftWidth]
-* link:Style.md#borderradius[borderRadius]
-* link:Style.md#borderrightcolor[borderRightColor]
-* link:Style.md#borderrightwidth[borderRightWidth]
-* link:Style.md#bordertopcolor[borderTopColor]
-* link:Style.md#bordertopleftradius[borderTopLeftRadius]
-* link:Style.md#bordertoprightradius[borderTopRightRadius]
-* link:Style.md#bordertopwidth[borderTopWidth]
-* link:Style.md#borderwidth[borderWidth]
-* link:Style.md#boxshadow[boxShadow]
-* link:Style.md#clippath[clipPath]
-* link:Style.md#color[color]
-* link:Style.md#flexdirection[flexDirection]
-* link:Style.md#flexgrow[flexGrow]
-* link:Style.md#flexshrink[flexShrink]
-* link:Style.md#flexwrap[flexWrap]
-* link:Style.md#flexwrapbefore[flexWrapBefore]
-* link:Style.md#font[font]
-* link:Style.md#fontfamily[fontFamily]
-* link:Style.md#fontinternal[fontInternal]
-* link:Style.md#fontsize[fontSize]
-* link:Style.md#fontstyle[fontStyle]
-* link:Style.md#fontweight[fontWeight]
-* link:Style.md#height[height]
-* link:Style.md#horizontalalignment[horizontalAlignment]
-* link:Style.md#justifycontent[justifyContent]
-* link:Style.md#letterspacing[letterSpacing]
-* link:Style.md#lineheight[lineHeight]
-* link:Style.md#margin[margin]
-* link:Style.md#marginbottom[marginBottom]
-* link:Style.md#marginleft[marginLeft]
-* link:Style.md#marginright[marginRight]
-* link:Style.md#margintop[marginTop]
-* link:Style.md#maxlines[maxLines]
-* link:Style.md#minheight[minHeight]
-* link:Style.md#minwidth[minWidth]
-* link:Style.md#opacity[opacity]
-* link:Style.md#order[order]
-* link:Style.md#padding[padding]
-* link:Style.md#paddingbottom[paddingBottom]
-* link:Style.md#paddingleft[paddingLeft]
-* link:Style.md#paddingright[paddingRight]
-* link:Style.md#paddingtop[paddingTop]
-* link:Style.md#perspective[perspective]
-* link:Style.md#placeholdercolor[placeholderColor]
-* link:Style.md#rotate[rotate]
-* link:Style.md#rotatex[rotateX]
-* link:Style.md#rotatey[rotateY]
-* link:Style.md#scalex[scaleX]
-* link:Style.md#scaley[scaleY]
-* link:Style.md#scopedcssvariables[scopedCssVariables]
-* link:Style.md#selectedbackgroundcolor[selectedBackgroundColor]
-* link:Style.md#selectedtabtextcolor[selectedTabTextColor]
-* link:Style.md#separatorcolor[separatorColor]
-* link:Style.md#statusbarstyle[statusBarStyle]
-* link:Style.md#tabbackgroundcolor[tabBackgroundColor]
-* link:Style.md#tabtextcolor[tabTextColor]
-* link:Style.md#tabtextfontsize[tabTextFontSize]
-* link:Style.md#textalignment[textAlignment]
-* link:Style.md#textdecoration[textDecoration]
-* link:Style.md#textshadow[textShadow]
-* link:Style.md#texttransform[textTransform]
-* link:Style.md#tintcolor[tintColor]
-* link:Style.md#translatex[translateX]
-* link:Style.md#translatey[translateY]
-* link:Style.md#unscopedcssvariables[unscopedCssVariables]
-* link:Style.md#verticalalignment[verticalAlignment]
-* link:Style.md#viewref[viewRef]
-* link:Style.md#visibility[visibility]
-* link:Style.md#whitespace[whiteSpace]
-* link:Style.md#width[width]
-* link:Style.md#zindex[zIndex]
-* link:Style.md#propertychangeevent[propertyChangeEvent]
+* link:Style.adoc#propertybag[PropertyBag]
+* link:Style.adoc#_fontscale[_fontScale]
+* link:Style.adoc#_isviewbase[_isViewBase]
+* link:Style.adoc#accessibilityhidden[accessibilityHidden]
+* link:Style.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:Style.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:Style.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:Style.adoc#accessibilityrole[accessibilityRole]
+* link:Style.adoc#accessibilitystate[accessibilityState]
+* link:Style.adoc#accessibilitystep[accessibilityStep]
+* link:Style.adoc#accessible[accessible]
+* link:Style.adoc#aligncontent[alignContent]
+* link:Style.adoc#alignitems[alignItems]
+* link:Style.adoc#alignself[alignSelf]
+* link:Style.adoc#androidcontentinset[androidContentInset]
+* link:Style.adoc#androidcontentinsetleft[androidContentInsetLeft]
+* link:Style.adoc#androidcontentinsetright[androidContentInsetRight]
+* link:Style.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:Style.adoc#androidelevation[androidElevation]
+* link:Style.adoc#androidselectedtabhighlightcolor[androidSelectedTabHighlightColor]
+* link:Style.adoc#androidstatusbarbackground[androidStatusBarBackground]
+* link:Style.adoc#background[background]
+* link:Style.adoc#backgroundcolor[backgroundColor]
+* link:Style.adoc#backgroundimage[backgroundImage]
+* link:Style.adoc#backgroundinternal[backgroundInternal]
+* link:Style.adoc#backgroundposition[backgroundPosition]
+* link:Style.adoc#backgroundrepeat[backgroundRepeat]
+* link:Style.adoc#backgroundsize[backgroundSize]
+* link:Style.adoc#borderbottomcolor[borderBottomColor]
+* link:Style.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:Style.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:Style.adoc#borderbottomwidth[borderBottomWidth]
+* link:Style.adoc#bordercolor[borderColor]
+* link:Style.adoc#borderleftcolor[borderLeftColor]
+* link:Style.adoc#borderleftwidth[borderLeftWidth]
+* link:Style.adoc#borderradius[borderRadius]
+* link:Style.adoc#borderrightcolor[borderRightColor]
+* link:Style.adoc#borderrightwidth[borderRightWidth]
+* link:Style.adoc#bordertopcolor[borderTopColor]
+* link:Style.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:Style.adoc#bordertoprightradius[borderTopRightRadius]
+* link:Style.adoc#bordertopwidth[borderTopWidth]
+* link:Style.adoc#borderwidth[borderWidth]
+* link:Style.adoc#boxshadow[boxShadow]
+* link:Style.adoc#clippath[clipPath]
+* link:Style.adoc#color[color]
+* link:Style.adoc#flexdirection[flexDirection]
+* link:Style.adoc#flexgrow[flexGrow]
+* link:Style.adoc#flexshrink[flexShrink]
+* link:Style.adoc#flexwrap[flexWrap]
+* link:Style.adoc#flexwrapbefore[flexWrapBefore]
+* link:Style.adoc#font[font]
+* link:Style.adoc#fontfamily[fontFamily]
+* link:Style.adoc#fontinternal[fontInternal]
+* link:Style.adoc#fontsize[fontSize]
+* link:Style.adoc#fontstyle[fontStyle]
+* link:Style.adoc#fontweight[fontWeight]
+* link:Style.adoc#height[height]
+* link:Style.adoc#horizontalalignment[horizontalAlignment]
+* link:Style.adoc#justifycontent[justifyContent]
+* link:Style.adoc#letterspacing[letterSpacing]
+* link:Style.adoc#lineheight[lineHeight]
+* link:Style.adoc#margin[margin]
+* link:Style.adoc#marginbottom[marginBottom]
+* link:Style.adoc#marginleft[marginLeft]
+* link:Style.adoc#marginright[marginRight]
+* link:Style.adoc#margintop[marginTop]
+* link:Style.adoc#maxlines[maxLines]
+* link:Style.adoc#minheight[minHeight]
+* link:Style.adoc#minwidth[minWidth]
+* link:Style.adoc#opacity[opacity]
+* link:Style.adoc#order[order]
+* link:Style.adoc#padding[padding]
+* link:Style.adoc#paddingbottom[paddingBottom]
+* link:Style.adoc#paddingleft[paddingLeft]
+* link:Style.adoc#paddingright[paddingRight]
+* link:Style.adoc#paddingtop[paddingTop]
+* link:Style.adoc#perspective[perspective]
+* link:Style.adoc#placeholdercolor[placeholderColor]
+* link:Style.adoc#rotate[rotate]
+* link:Style.adoc#rotatex[rotateX]
+* link:Style.adoc#rotatey[rotateY]
+* link:Style.adoc#scalex[scaleX]
+* link:Style.adoc#scaley[scaleY]
+* link:Style.adoc#scopedcssvariables[scopedCssVariables]
+* link:Style.adoc#selectedbackgroundcolor[selectedBackgroundColor]
+* link:Style.adoc#selectedtabtextcolor[selectedTabTextColor]
+* link:Style.adoc#separatorcolor[separatorColor]
+* link:Style.adoc#statusbarstyle[statusBarStyle]
+* link:Style.adoc#tabbackgroundcolor[tabBackgroundColor]
+* link:Style.adoc#tabtextcolor[tabTextColor]
+* link:Style.adoc#tabtextfontsize[tabTextFontSize]
+* link:Style.adoc#textalignment[textAlignment]
+* link:Style.adoc#textdecoration[textDecoration]
+* link:Style.adoc#textshadow[textShadow]
+* link:Style.adoc#texttransform[textTransform]
+* link:Style.adoc#tintcolor[tintColor]
+* link:Style.adoc#translatex[translateX]
+* link:Style.adoc#translatey[translateY]
+* link:Style.adoc#unscopedcssvariables[unscopedCssVariables]
+* link:Style.adoc#verticalalignment[verticalAlignment]
+* link:Style.adoc#viewref[viewRef]
+* link:Style.adoc#visibility[visibility]
+* link:Style.adoc#whitespace[whiteSpace]
+* link:Style.adoc#width[width]
+* link:Style.adoc#zindex[zIndex]
+* link:Style.adoc#propertychangeevent[propertyChangeEvent]
 
 === Accessors
 
-* link:Style.md#view[view]
+* link:Style.adoc#view[view]
 
 === Methods
 
-* link:Style.md#_createpropertychangedata[_createPropertyChangeData]
-* link:Style.md#_emit[_emit]
-* link:Style.md#addeventlistener[addEventListener]
-* link:Style.md#get[get]
-* link:Style.md#getcssvariable[getCssVariable]
-* link:Style.md#haslisteners[hasListeners]
-* link:Style.md#notify[notify]
-* link:Style.md#notifypropertychange[notifyPropertyChange]
-* link:Style.md#off[off]
-* link:Style.md#on[on]
-* link:Style.md#once[once]
-* link:Style.md#removeeventlistener[removeEventListener]
-* link:Style.md#removescopedcssvariable[removeScopedCssVariable]
-* link:Style.md#removeunscopedcssvariable[removeUnscopedCssVariable]
-* link:Style.md#resetscopedcssvariables[resetScopedCssVariables]
-* link:Style.md#resetunscopedcssvariables[resetUnscopedCssVariables]
-* link:Style.md#set[set]
-* link:Style.md#setproperty[setProperty]
-* link:Style.md#setscopedcssvariable[setScopedCssVariable]
-* link:Style.md#setunscopedcssvariable[setUnscopedCssVariable]
-* link:Style.md#tostring[toString]
-* link:Style.md#addeventlistener-1[addEventListener]
-* link:Style.md#off-1[off]
-* link:Style.md#on-1[on]
-* link:Style.md#once-1[once]
-* link:Style.md#removeeventlistener-1[removeEventListener]
+* link:Style.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:Style.adoc#_emit[_emit]
+* link:Style.adoc#addeventlistener[addEventListener]
+* link:Style.adoc#get[get]
+* link:Style.adoc#getcssvariable[getCssVariable]
+* link:Style.adoc#haslisteners[hasListeners]
+* link:Style.adoc#notify[notify]
+* link:Style.adoc#notifypropertychange[notifyPropertyChange]
+* link:Style.adoc#off[off]
+* link:Style.adoc#on[on]
+* link:Style.adoc#once[once]
+* link:Style.adoc#removeeventlistener[removeEventListener]
+* link:Style.adoc#removescopedcssvariable[removeScopedCssVariable]
+* link:Style.adoc#removeunscopedcssvariable[removeUnscopedCssVariable]
+* link:Style.adoc#resetscopedcssvariables[resetScopedCssVariables]
+* link:Style.adoc#resetunscopedcssvariables[resetUnscopedCssVariables]
+* link:Style.adoc#set[set]
+* link:Style.adoc#setproperty[setProperty]
+* link:Style.adoc#setscopedcssvariable[setScopedCssVariable]
+* link:Style.adoc#setunscopedcssvariable[setUnscopedCssVariable]
+* link:Style.adoc#tostring[toString]
+* link:Style.adoc#addeventlistener-1[addEventListener]
+* link:Style.adoc#off-1[off]
+* link:Style.adoc#on-1[on]
+* link:Style.adoc#once-1[once]
+* link:Style.adoc#removeeventlistener-1[removeEventListener]
 
 == Constructors
 
@@ -390,7 +390,7 @@ StyleDefinition.alignSelf
 [#androidcontentinset]
 === androidContentInset
 
-• *androidContentInset*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *androidContentInset*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 ==== Implementation of
 
@@ -403,7 +403,7 @@ StyleDefinition.androidContentInset
 [#androidcontentinsetleft]
 === androidContentInsetLeft
 
-• *androidContentInsetLeft*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *androidContentInsetLeft*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -416,7 +416,7 @@ StyleDefinition.androidContentInsetLeft
 [#androidcontentinsetright]
 === androidContentInsetRight
 
-• *androidContentInsetRight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *androidContentInsetRight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -546,7 +546,7 @@ StyleDefinition.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• *backgroundRepeat*: link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• *backgroundRepeat*: link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Implementation of
 
@@ -585,7 +585,7 @@ StyleDefinition.borderBottomColor
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -598,7 +598,7 @@ StyleDefinition.borderBottomLeftRadius
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -611,7 +611,7 @@ StyleDefinition.borderBottomRightRadius
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -650,7 +650,7 @@ StyleDefinition.borderLeftColor
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -663,7 +663,7 @@ StyleDefinition.borderLeftWidth
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 ==== Implementation of
 
@@ -689,7 +689,7 @@ StyleDefinition.borderRightColor
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -715,7 +715,7 @@ StyleDefinition.borderTopColor
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -728,7 +728,7 @@ StyleDefinition.borderTopLeftRadius
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -741,7 +741,7 @@ StyleDefinition.borderTopRightRadius
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -754,7 +754,7 @@ StyleDefinition.borderTopWidth
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 ==== Implementation of
 
@@ -949,7 +949,7 @@ StyleDefinition.fontWeight
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 
@@ -962,7 +962,7 @@ StyleDefinition.height
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 ==== Implementation of
 
@@ -1014,7 +1014,7 @@ StyleDefinition.lineHeight
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 ==== Implementation of
 
@@ -1027,7 +1027,7 @@ StyleDefinition.margin
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 
@@ -1040,7 +1040,7 @@ StyleDefinition.marginBottom
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 
@@ -1053,7 +1053,7 @@ StyleDefinition.marginLeft
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 
@@ -1066,7 +1066,7 @@ StyleDefinition.marginRight
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 
@@ -1092,7 +1092,7 @@ StyleDefinition.maxLines
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1105,7 +1105,7 @@ StyleDefinition.minHeight
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1144,7 +1144,7 @@ StyleDefinition.order
 [#padding]
 === padding
 
-• *padding*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *padding*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 ==== Implementation of
 
@@ -1157,7 +1157,7 @@ StyleDefinition.padding
 [#paddingbottom]
 === paddingBottom
 
-• *paddingBottom*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *paddingBottom*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1170,7 +1170,7 @@ StyleDefinition.paddingBottom
 [#paddingleft]
 === paddingLeft
 
-• *paddingLeft*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *paddingLeft*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1183,7 +1183,7 @@ StyleDefinition.paddingLeft
 [#paddingright]
 === paddingRight
 
-• *paddingRight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *paddingRight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1196,7 +1196,7 @@ StyleDefinition.paddingRight
 [#paddingtop]
 === paddingTop
 
-• *paddingTop*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *paddingTop*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Implementation of
 
@@ -1404,7 +1404,7 @@ StyleDefinition.tabTextFontSize
 [#textalignment]
 === textAlignment
 
-• *textAlignment*: link:../modules/CoreTypes.md#textalignmenttype[`TextAlignmentType`]
+• *textAlignment*: link:../modules/CoreTypes.adoc#textalignmenttype[`TextAlignmentType`]
 
 ==== Implementation of
 
@@ -1417,7 +1417,7 @@ StyleDefinition.textAlignment
 [#textdecoration]
 === textDecoration
 
-• *textDecoration*: link:../modules/CoreTypes.md#textdecorationtype[`TextDecorationType`]
+• *textDecoration*: link:../modules/CoreTypes.adoc#textdecorationtype[`TextDecorationType`]
 
 ==== Implementation of
 
@@ -1443,7 +1443,7 @@ StyleDefinition.textShadow
 [#texttransform]
 === textTransform
 
-• *textTransform*: link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• *textTransform*: link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Implementation of
 
@@ -1508,7 +1508,7 @@ StyleDefinition.unscopedCssVariables
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 ==== Implementation of
 
@@ -1534,7 +1534,7 @@ StyleDefinition.viewRef
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 ==== Implementation of
 
@@ -1547,7 +1547,7 @@ StyleDefinition.visibility
 [#whitespace]
 === whiteSpace
 
-• *whiteSpace*: link:../modules/CoreTypes.md#whitespacetype[`WhiteSpaceType`]
+• *whiteSpace*: link:../modules/CoreTypes.adoc#whitespacetype[`WhiteSpaceType`]
 
 ==== Implementation of
 
@@ -1560,7 +1560,7 @@ StyleDefinition.whiteSpace
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Implementation of
 

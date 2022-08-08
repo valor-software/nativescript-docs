@@ -10,27 +10,23 @@ xref:CoreTypes.adoc[CoreTypes].UpdateTextTrigger
 
 === Variables
 
-* link:CoreTypes.UpdateTextTrigger.md#focuslost[focusLost]
-* link:CoreTypes.UpdateTextTrigger.md#textchanged[textChanged]
+* link:CoreTypes.UpdateTextTrigger.adoc#focuslost[focusLost]
+* link:CoreTypes.UpdateTextTrigger.adoc#textchanged[textChanged]
 
 == Variables
 
 [#focuslost]
 === focusLost
 
-• `Const` *focusLost*: link:CoreTypes.md#updatetexttriggertype[`UpdateTextTriggerType`] = `'focusLost'`
+• `Const` *focusLost*: link:CoreTypes.adoc#updatetexttriggertype[`UpdateTextTriggerType`] = `'focusLost'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L169[core-types/index.ts:169]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L169[core-types/index.ts:169]
 
 '''
 
 [#textchanged]
 === textChanged
 
-• `Const` *textChanged*: link:CoreTypes.md#updatetexttriggertype[`UpdateTextTriggerType`] = `'textChanged'`
+• `Const` *textChanged*: link:CoreTypes.adoc#updatetexttriggertype[`UpdateTextTriggerType`] = `'textChanged'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L170[core-types/index.ts:170]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L170[core-types/index.ts:170]

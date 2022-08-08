@@ -8,9 +8,9 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CacheMode
 
 === Enumeration Members
 
-* link:CacheMode.md#diskandmemory[diskAndMemory]
-* link:CacheMode.md#memory[memory]
-* link:CacheMode.md#none[none]
+* link:CacheMode.adoc#diskandmemory[diskAndMemory]
+* link:CacheMode.adoc#memory[memory]
+* link:CacheMode.adoc#none[none]
 
 == Enumeration Members
 
@@ -19,9 +19,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CacheMode
 
 • *diskAndMemory* = `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L12[ui/styling/background.d.ts:12]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L12[ui/styling/background.d.ts:12]
 
 '''
 
@@ -30,9 +28,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *memory* = `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L11[ui/styling/background.d.ts:11]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L11[ui/styling/background.d.ts:11]
 
 '''
 
@@ -41,6 +37,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 • *none* = `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L10[ui/styling/background.d.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/background.d.ts#L10[ui/styling/background.d.ts:10]

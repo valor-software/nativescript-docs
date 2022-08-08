@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].FontStyle
 
 === Variables
 
-* link:CoreTypes.FontStyle.md#italic[italic]
-* link:CoreTypes.FontStyle.md#normal[normal]
+* link:CoreTypes.FontStyle.adoc#italic[italic]
+* link:CoreTypes.FontStyle.adoc#normal[normal]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].FontStyle
 
 • `Const` *italic*: `string` = `'italic'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L225[core-types/index.ts:225]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L225[core-types/index.ts:225]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *normal*: `string` = `'normal'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L224[core-types/index.ts:224]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L224[core-types/index.ts:224]

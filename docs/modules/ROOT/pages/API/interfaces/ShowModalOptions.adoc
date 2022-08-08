@@ -8,14 +8,14 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShowModalOpt
 
 === Properties
 
-* link:ShowModalOptions.md#android[android]
-* link:ShowModalOptions.md#animated[animated]
-* link:ShowModalOptions.md#cancelable[cancelable]
-* link:ShowModalOptions.md#closecallback[closeCallback]
-* link:ShowModalOptions.md#context[context]
-* link:ShowModalOptions.md#fullscreen[fullscreen]
-* link:ShowModalOptions.md#ios[ios]
-* link:ShowModalOptions.md#stretched[stretched]
+* link:ShowModalOptions.adoc#android[android]
+* link:ShowModalOptions.adoc#animated[animated]
+* link:ShowModalOptions.adoc#cancelable[cancelable]
+* link:ShowModalOptions.adoc#closecallback[closeCallback]
+* link:ShowModalOptions.adoc#context[context]
+* link:ShowModalOptions.adoc#fullscreen[fullscreen]
+* link:ShowModalOptions.adoc#ios[ios]
+* link:ShowModalOptions.adoc#stretched[stretched]
 
 == Properties
 

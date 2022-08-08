@@ -8,12 +8,12 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeDecl
 
 === Constructors
 
-* link:KeyframeDeclaration.md#constructor[constructor]
+* link:KeyframeDeclaration.adoc#constructor[constructor]
 
 === Properties
 
-* link:KeyframeDeclaration.md#property[property]
-* link:KeyframeDeclaration.md#value[value]
+* link:KeyframeDeclaration.adoc#property[property]
+* link:KeyframeDeclaration.adoc#value[value]
 
 == Constructors
 

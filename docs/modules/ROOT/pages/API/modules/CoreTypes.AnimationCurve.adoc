@@ -10,16 +10,16 @@ xref:CoreTypes.adoc[CoreTypes].AnimationCurve
 
 === Variables
 
-* link:CoreTypes.AnimationCurve.md#ease[ease]
-* link:CoreTypes.AnimationCurve.md#easein[easeIn]
-* link:CoreTypes.AnimationCurve.md#easeinout[easeInOut]
-* link:CoreTypes.AnimationCurve.md#easeout[easeOut]
-* link:CoreTypes.AnimationCurve.md#linear[linear]
-* link:CoreTypes.AnimationCurve.md#spring[spring]
+* link:CoreTypes.AnimationCurve.adoc#ease[ease]
+* link:CoreTypes.AnimationCurve.adoc#easein[easeIn]
+* link:CoreTypes.AnimationCurve.adoc#easeinout[easeInOut]
+* link:CoreTypes.AnimationCurve.adoc#easeout[easeOut]
+* link:CoreTypes.AnimationCurve.adoc#linear[linear]
+* link:CoreTypes.AnimationCurve.adoc#spring[spring]
 
 === Functions
 
-* link:CoreTypes.AnimationCurve.md#cubicbezier[cubicBezier]
+* link:CoreTypes.AnimationCurve.adoc#cubicbezier[cubicBezier]
 
 == Variables
 
@@ -28,9 +28,7 @@ xref:CoreTypes.adoc[CoreTypes].AnimationCurve
 
 • `Const` *ease*: `"ease"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L253[core-types/index.ts:253]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L253[core-types/index.ts:253]
 
 '''
 
@@ -39,9 +37,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *easeIn*: `"easeIn"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L254[core-types/index.ts:254]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L254[core-types/index.ts:254]
 
 '''
 
@@ -50,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *easeInOut*: `"easeInOut"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L256[core-types/index.ts:256]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L256[core-types/index.ts:256]
 
 '''
 
@@ -61,9 +55,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *easeOut*: `"easeOut"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L255[core-types/index.ts:255]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L255[core-types/index.ts:255]
 
 '''
 
@@ -72,9 +64,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *linear*: `"linear"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L257[core-types/index.ts:257]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L257[core-types/index.ts:257]
 
 '''
 
@@ -83,9 +73,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *spring*: `"spring"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L258[core-types/index.ts:258]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L258[core-types/index.ts:258]
 
 == Functions
 
@@ -116,6 +104,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 `Object`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L259[core-types/index.ts:259]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L259[core-types/index.ts:259]

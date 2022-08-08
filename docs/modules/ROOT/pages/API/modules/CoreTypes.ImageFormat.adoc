@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].ImageFormat
 
 === Variables
 
-* link:CoreTypes.ImageFormat.md#jpeg[jpeg]
-* link:CoreTypes.ImageFormat.md#jpg[jpg]
-* link:CoreTypes.ImageFormat.md#png[png]
+* link:CoreTypes.ImageFormat.adoc#jpeg[jpeg]
+* link:CoreTypes.ImageFormat.adoc#jpg[jpg]
+* link:CoreTypes.ImageFormat.adoc#png[png]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].ImageFormat
 
 • `Const` *jpeg*: `string` = `'jpeg'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L219[core-types/index.ts:219]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L219[core-types/index.ts:219]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *jpg*: `string` = `'jpg'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L220[core-types/index.ts:220]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L220[core-types/index.ts:220]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *png*: `string` = `'png'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L218[core-types/index.ts:218]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L218[core-types/index.ts:218]

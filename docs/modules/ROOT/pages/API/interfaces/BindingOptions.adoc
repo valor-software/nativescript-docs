@@ -10,10 +10,10 @@ The options object used in the Bindable.bind method.
 
 === Properties
 
-* link:BindingOptions.md#expression[expression]
-* link:BindingOptions.md#sourceproperty[sourceProperty]
-* link:BindingOptions.md#targetproperty[targetProperty]
-* link:BindingOptions.md#twoway[twoWay]
+* link:BindingOptions.adoc#expression[expression]
+* link:BindingOptions.adoc#sourceproperty[sourceProperty]
+* link:BindingOptions.adoc#targetproperty[targetProperty]
+* link:BindingOptions.adoc#twoway[twoWay]
 
 == Properties
 

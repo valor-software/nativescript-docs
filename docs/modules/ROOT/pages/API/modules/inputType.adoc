@@ -10,12 +10,12 @@ Defines the input type for prompt dialog.
 
 === Variables
 
-* link:inputType.md#decimal[decimal]
-* link:inputType.md#email[email]
-* link:inputType.md#number[number]
-* link:inputType.md#password[password]
-* link:inputType.md#phone[phone]
-* link:inputType.md#text[text]
+* link:inputType.adoc#decimal[decimal]
+* link:inputType.adoc#email[email]
+* link:inputType.adoc#number[number]
+* link:inputType.adoc#password[password]
+* link:inputType.adoc#phone[phone]
+* link:inputType.adoc#text[text]
 
 == Variables
 
@@ -26,9 +26,7 @@ Defines the input type for prompt dialog.
 
 Decimal input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L29[ui/dialogs/index.d.ts:29]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L29[ui/dialogs/index.d.ts:29]
 
 '''
 
@@ -39,9 +37,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Email input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L19[ui/dialogs/index.d.ts:19]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L19[ui/dialogs/index.d.ts:19]
 
 '''
 
@@ -52,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Number input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L24[ui/dialogs/index.d.ts:24]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L24[ui/dialogs/index.d.ts:24]
 
 '''
 
@@ -65,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Password input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L14[ui/dialogs/index.d.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L14[ui/dialogs/index.d.ts:14]
 
 '''
 
@@ -78,9 +70,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Phone input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L34[ui/dialogs/index.d.ts:34]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L34[ui/dialogs/index.d.ts:34]
 
 '''
 
@@ -91,6 +81,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dia
 
 Plain text input type.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L9[ui/dialogs/index.d.ts:9]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L9[ui/dialogs/index.d.ts:9]

@@ -10,20 +10,20 @@ xref:CoreTypes.adoc[CoreTypes].VerticalAlignmentText
 
 === Variables
 
-* link:CoreTypes.VerticalAlignmentText.md#baseline[baseline]
-* link:CoreTypes.VerticalAlignmentText.md#bottom[bottom]
-* link:CoreTypes.VerticalAlignmentText.md#middle[middle]
-* link:CoreTypes.VerticalAlignmentText.md#stretch[stretch]
-* link:CoreTypes.VerticalAlignmentText.md#sub[sub]
-* link:CoreTypes.VerticalAlignmentText.md#sup[sup]
-* link:CoreTypes.VerticalAlignmentText.md#textbottom[textbottom]
-* link:CoreTypes.VerticalAlignmentText.md#texttop[texttop]
-* link:CoreTypes.VerticalAlignmentText.md#top[top]
+* link:CoreTypes.VerticalAlignmentText.adoc#baseline[baseline]
+* link:CoreTypes.VerticalAlignmentText.adoc#bottom[bottom]
+* link:CoreTypes.VerticalAlignmentText.adoc#middle[middle]
+* link:CoreTypes.VerticalAlignmentText.adoc#stretch[stretch]
+* link:CoreTypes.VerticalAlignmentText.adoc#sub[sub]
+* link:CoreTypes.VerticalAlignmentText.adoc#sup[sup]
+* link:CoreTypes.VerticalAlignmentText.adoc#textbottom[textbottom]
+* link:CoreTypes.VerticalAlignmentText.adoc#texttop[texttop]
+* link:CoreTypes.VerticalAlignmentText.adoc#top[top]
 
 === Functions
 
-* link:CoreTypes.VerticalAlignmentText.md#isvalid[isValid]
-* link:CoreTypes.VerticalAlignmentText.md#parse[parse]
+* link:CoreTypes.VerticalAlignmentText.adoc#isvalid[isValid]
+* link:CoreTypes.VerticalAlignmentText.adoc#parse[parse]
 
 == Variables
 
@@ -32,9 +32,7 @@ xref:CoreTypes.adoc[CoreTypes].VerticalAlignmentText
 
 • `Const` *baseline*: `"baseline"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L131[core-types/index.ts:131]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L131[core-types/index.ts:131]
 
 '''
 
@@ -43,9 +41,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *bottom*: `"bottom"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L125[core-types/index.ts:125]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L125[core-types/index.ts:125]
 
 '''
 
@@ -54,9 +50,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *middle*: `"middle"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L124[core-types/index.ts:124]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L124[core-types/index.ts:124]
 
 '''
 
@@ -65,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *stretch*: `"stretch"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L126[core-types/index.ts:126]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L126[core-types/index.ts:126]
 
 '''
 
@@ -76,9 +68,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *sub*: `"sub"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L130[core-types/index.ts:130]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L130[core-types/index.ts:130]
 
 '''
 
@@ -87,9 +77,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *sup*: `"sup"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L129[core-types/index.ts:129]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L129[core-types/index.ts:129]
 
 '''
 
@@ -98,9 +86,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *textbottom*: `"text-bottom"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L128[core-types/index.ts:128]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L128[core-types/index.ts:128]
 
 '''
 
@@ -109,9 +95,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *texttop*: `"text-top"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L127[core-types/index.ts:127]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L127[core-types/index.ts:127]
 
 '''
 
@@ -120,9 +104,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *top*: `"top"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L123[core-types/index.ts:123]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L123[core-types/index.ts:123]
 
 == Functions
 
@@ -144,16 +126,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 value is VerticalAlignmentTextType
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`value`): link:CoreTypes.md#verticalalignmenttexttype[`VerticalAlignmentTextType`]
+▸ *parse*(`value`): link:CoreTypes.adoc#verticalalignmenttexttype[`VerticalAlignmentTextType`]
 
 ==== Parameters
 
@@ -166,8 +146,6 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 ==== Returns
 
-link:CoreTypes.md#verticalalignmenttexttype[`VerticalAlignmentTextType`]
+link:CoreTypes.adoc#verticalalignmenttexttype[`VerticalAlignmentTextType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L133[core-types/index.ts:133]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L133[core-types/index.ts:133]

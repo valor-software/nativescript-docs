@@ -8,8 +8,8 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ComponentMod
 
 === Properties
 
-* link:ComponentModule.md#component[component]
-* link:ComponentModule.md#exports[exports]
+* link:ComponentModule.adoc#component[component]
+* link:ComponentModule.adoc#exports[exports]
 
 == Properties
 

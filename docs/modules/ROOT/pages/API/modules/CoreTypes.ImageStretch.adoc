@@ -10,51 +10,43 @@ xref:CoreTypes.adoc[CoreTypes].ImageStretch
 
 === Variables
 
-* link:CoreTypes.ImageStretch.md#aspectfill[aspectFill]
-* link:CoreTypes.ImageStretch.md#aspectfit[aspectFit]
-* link:CoreTypes.ImageStretch.md#fill[fill]
-* link:CoreTypes.ImageStretch.md#none[none]
+* link:CoreTypes.ImageStretch.adoc#aspectfill[aspectFill]
+* link:CoreTypes.ImageStretch.adoc#aspectfit[aspectFit]
+* link:CoreTypes.ImageStretch.adoc#fill[fill]
+* link:CoreTypes.ImageStretch.adoc#none[none]
 
 == Variables
 
 [#aspectfill]
 === aspectFill
 
-• `Const` *aspectFill*: link:CoreTypes.md#imagestretchtype[`ImageStretchType`] = `'aspectFill'`
+• `Const` *aspectFill*: link:CoreTypes.adoc#imagestretchtype[`ImageStretchType`] = `'aspectFill'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L140[core-types/index.ts:140]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L140[core-types/index.ts:140]
 
 '''
 
 [#aspectfit]
 === aspectFit
 
-• `Const` *aspectFit*: link:CoreTypes.md#imagestretchtype[`ImageStretchType`] = `'aspectFit'`
+• `Const` *aspectFit*: link:CoreTypes.adoc#imagestretchtype[`ImageStretchType`] = `'aspectFit'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L141[core-types/index.ts:141]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L141[core-types/index.ts:141]
 
 '''
 
 [#fill]
 === fill
 
-• `Const` *fill*: link:CoreTypes.md#imagestretchtype[`ImageStretchType`] = `'fill'`
+• `Const` *fill*: link:CoreTypes.adoc#imagestretchtype[`ImageStretchType`] = `'fill'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L142[core-types/index.ts:142]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L142[core-types/index.ts:142]
 
 '''
 
 [#none]
 === none
 
-• `Const` *none*: link:CoreTypes.md#imagestretchtype[`ImageStretchType`] = `'none'`
+• `Const` *none*: link:CoreTypes.adoc#imagestretchtype[`ImageStretchType`] = `'none'`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L139[core-types/index.ts:139]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L139[core-types/index.ts:139]

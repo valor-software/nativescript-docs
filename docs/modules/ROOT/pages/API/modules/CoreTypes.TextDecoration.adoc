@@ -10,9 +10,9 @@ xref:CoreTypes.adoc[CoreTypes].TextDecoration
 
 === Variables
 
-* link:CoreTypes.TextDecoration.md#linethrough[lineThrough]
-* link:CoreTypes.TextDecoration.md#none[none]
-* link:CoreTypes.TextDecoration.md#underline[underline]
+* link:CoreTypes.TextDecoration.adoc#linethrough[lineThrough]
+* link:CoreTypes.TextDecoration.adoc#none[none]
+* link:CoreTypes.TextDecoration.adoc#underline[underline]
 
 == Variables
 
@@ -21,9 +21,7 @@ xref:CoreTypes.adoc[CoreTypes].TextDecoration
 
 • `Const` *lineThrough*: `"line-through"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L72[core-types/index.ts:72]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L72[core-types/index.ts:72]
 
 '''
 
@@ -32,9 +30,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *none*: `"none"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L70[core-types/index.ts:70]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L70[core-types/index.ts:70]
 
 '''
 
@@ -43,6 +39,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *underline*: `"underline"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L71[core-types/index.ts:71]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L71[core-types/index.ts:71]

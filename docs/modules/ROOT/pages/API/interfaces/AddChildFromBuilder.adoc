@@ -17,7 +17,7 @@ Defines an interface for adding a child element declared in xml.
 
 === Methods
 
-* link:AddChildFromBuilder.md#_addchildfrombuilder[_addChildFromBuilder]
+* link:AddChildFromBuilder.adoc#_addchildfrombuilder[_addChildFromBuilder]
 
 == Methods
 

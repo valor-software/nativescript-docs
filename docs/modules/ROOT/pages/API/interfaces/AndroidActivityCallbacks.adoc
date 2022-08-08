@@ -8,18 +8,18 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / AndroidActiv
 
 === Methods
 
-* link:AndroidActivityCallbacks.md#getrootview[getRootView]
-* link:AndroidActivityCallbacks.md#onactivityresult[onActivityResult]
-* link:AndroidActivityCallbacks.md#onbackpressed[onBackPressed]
-* link:AndroidActivityCallbacks.md#oncreate[onCreate]
-* link:AndroidActivityCallbacks.md#ondestroy[onDestroy]
-* link:AndroidActivityCallbacks.md#onnewintent[onNewIntent]
-* link:AndroidActivityCallbacks.md#onpostresume[onPostResume]
-* link:AndroidActivityCallbacks.md#onrequestpermissionsresult[onRequestPermissionsResult]
-* link:AndroidActivityCallbacks.md#onsaveinstancestate[onSaveInstanceState]
-* link:AndroidActivityCallbacks.md#onstart[onStart]
-* link:AndroidActivityCallbacks.md#onstop[onStop]
-* link:AndroidActivityCallbacks.md#resetactivitycontent[resetActivityContent]
+* link:AndroidActivityCallbacks.adoc#getrootview[getRootView]
+* link:AndroidActivityCallbacks.adoc#onactivityresult[onActivityResult]
+* link:AndroidActivityCallbacks.adoc#onbackpressed[onBackPressed]
+* link:AndroidActivityCallbacks.adoc#oncreate[onCreate]
+* link:AndroidActivityCallbacks.adoc#ondestroy[onDestroy]
+* link:AndroidActivityCallbacks.adoc#onnewintent[onNewIntent]
+* link:AndroidActivityCallbacks.adoc#onpostresume[onPostResume]
+* link:AndroidActivityCallbacks.adoc#onrequestpermissionsresult[onRequestPermissionsResult]
+* link:AndroidActivityCallbacks.adoc#onsaveinstancestate[onSaveInstanceState]
+* link:AndroidActivityCallbacks.adoc#onstart[onStart]
+* link:AndroidActivityCallbacks.adoc#onstop[onStop]
+* link:AndroidActivityCallbacks.adoc#resetactivitycontent[resetActivityContent]
 
 == Methods
 

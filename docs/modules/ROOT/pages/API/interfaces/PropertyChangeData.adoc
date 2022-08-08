@@ -14,11 +14,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PropertyChan
 
 === Properties
 
-* link:PropertyChangeData.md#eventname[eventName]
-* link:PropertyChangeData.md#object[object]
-* link:PropertyChangeData.md#oldvalue[oldValue]
-* link:PropertyChangeData.md#propertyname[propertyName]
-* link:PropertyChangeData.md#value[value]
+* link:PropertyChangeData.adoc#eventname[eventName]
+* link:PropertyChangeData.adoc#object[object]
+* link:PropertyChangeData.adoc#oldvalue[oldValue]
+* link:PropertyChangeData.adoc#propertyname[propertyName]
+* link:PropertyChangeData.adoc#value[value]
 
 == Properties
 
@@ -29,7 +29,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PropertyChan
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -42,7 +42,7 @@ xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

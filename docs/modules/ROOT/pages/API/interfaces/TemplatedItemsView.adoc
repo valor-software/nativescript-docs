@@ -8,15 +8,15 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TemplatedIte
 
 === Properties
 
-* link:TemplatedItemsView.md#itemtemplate[itemTemplate]
-* link:TemplatedItemsView.md#itemtemplates[itemTemplates]
-* link:TemplatedItemsView.md#items[items]
+* link:TemplatedItemsView.adoc#itemtemplate[itemTemplate]
+* link:TemplatedItemsView.adoc#itemtemplates[itemTemplates]
+* link:TemplatedItemsView.adoc#items[items]
 
 === Methods
 
-* link:TemplatedItemsView.md#off[off]
-* link:TemplatedItemsView.md#on[on]
-* link:TemplatedItemsView.md#refresh[refresh]
+* link:TemplatedItemsView.adoc#off[off]
+* link:TemplatedItemsView.adoc#on[on]
+* link:TemplatedItemsView.adoc#refresh[refresh]
 
 == Properties
 

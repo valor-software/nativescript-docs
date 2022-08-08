@@ -10,10 +10,10 @@ xref:Trace.adoc[Trace].messageType
 
 === Variables
 
-* link:Trace.messageType.md#error[error]
-* link:Trace.messageType.md#info[info]
-* link:Trace.messageType.md#log[log]
-* link:Trace.messageType.md#warn[warn]
+* link:Trace.messageType.adoc#error[error]
+* link:Trace.messageType.adoc#info[info]
+* link:Trace.messageType.adoc#log[log]
+* link:Trace.messageType.adoc#warn[warn]
 
 == Variables
 
@@ -22,9 +22,7 @@ xref:Trace.adoc[Trace].messageType
 
 • `Const` *error*: `3`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L181[trace/index.ts:181]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L181[trace/index.ts:181]
 
 '''
 
@@ -33,9 +31,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *info*: `1`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L179[trace/index.ts:179]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L179[trace/index.ts:179]
 
 '''
 
@@ -44,9 +40,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *log*: `0`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L178[trace/index.ts:178]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L178[trace/index.ts:178]
 
 '''
 
@@ -55,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/
 
 • `Const` *warn*: `2`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L180[trace/index.ts:180]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/trace/index.ts#L180[trace/index.ts:180]

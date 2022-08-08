@@ -8,13 +8,13 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeInfo
 
 === Constructors
 
-* link:KeyframeInfo.md#constructor[constructor]
+* link:KeyframeInfo.adoc#constructor[constructor]
 
 === Properties
 
-* link:KeyframeInfo.md#curve[curve]
-* link:KeyframeInfo.md#declarations[declarations]
-* link:KeyframeInfo.md#duration[duration]
+* link:KeyframeInfo.adoc#curve[curve]
+* link:KeyframeInfo.adoc#declarations[declarations]
+* link:KeyframeInfo.adoc#duration[duration]
 
 == Constructors
 

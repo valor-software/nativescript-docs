@@ -16,10 +16,10 @@ Defines the data for the shownModally event.
 
 === Properties
 
-* link:ShownModallyData.md#closecallback[closeCallback]
-* link:ShownModallyData.md#context[context]
-* link:ShownModallyData.md#eventname[eventName]
-* link:ShownModallyData.md#object[object]
+* link:ShownModallyData.adoc#closecallback[closeCallback]
+* link:ShownModallyData.adoc#context[context]
+* link:ShownModallyData.adoc#eventname[eventName]
+* link:ShownModallyData.adoc#object[object]
 
 == Properties
 
@@ -53,7 +53,7 @@ The context (optional, may be undefined) passed to the view when shown modally.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -66,6 +66,6 @@ xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

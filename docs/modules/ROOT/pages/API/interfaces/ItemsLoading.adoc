@@ -16,10 +16,10 @@ Event args for "itemsLoading" event.
 
 === Properties
 
-* link:ItemsLoading.md#count[count]
-* link:ItemsLoading.md#eventname[eventName]
-* link:ItemsLoading.md#index[index]
-* link:ItemsLoading.md#object[object]
+* link:ItemsLoading.adoc#count[count]
+* link:ItemsLoading.adoc#eventname[eventName]
+* link:ItemsLoading.adoc#index[index]
+* link:ItemsLoading.adoc#object[object]
 
 == Properties
 
@@ -41,7 +41,7 @@ Number of items to load.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -65,6 +65,6 @@ Start index.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

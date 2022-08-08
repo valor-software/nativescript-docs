@@ -8,8 +8,8 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpResponse
 
 === Enumeration Members
 
-* link:HttpResponseEncoding.md#gbk[GBK]
-* link:HttpResponseEncoding.md#utf8[UTF8]
+* link:HttpResponseEncoding.adoc#gbk[GBK]
+* link:HttpResponseEncoding.adoc#utf8[UTF8]
 
 == Enumeration Members
 
@@ -18,9 +18,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / HttpResponse
 
 • *GBK* = `1`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L65[http/index.ts:65]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L65[http/index.ts:65]
 
 '''
 
@@ -29,6 +27,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/i
 
 • *UTF8* = `0`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L64[http/index.ts:64]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/http/index.ts#L64[http/index.ts:64]

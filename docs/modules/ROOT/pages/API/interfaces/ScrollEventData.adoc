@@ -14,10 +14,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ScrollEventD
 
 === Properties
 
-* link:ScrollEventData.md#eventname[eventName]
-* link:ScrollEventData.md#object[object]
-* link:ScrollEventData.md#scrollx[scrollX]
-* link:ScrollEventData.md#scrolly[scrollY]
+* link:ScrollEventData.adoc#eventname[eventName]
+* link:ScrollEventData.adoc#object[object]
+* link:ScrollEventData.adoc#scrollx[scrollX]
+* link:ScrollEventData.adoc#scrolly[scrollY]
 
 == Properties
 
@@ -28,7 +28,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ScrollEventD
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -41,7 +41,7 @@ xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

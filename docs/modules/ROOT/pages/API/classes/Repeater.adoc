@@ -16,333 +16,333 @@ Represents a UI Repeater component.
 
 === Constructors
 
-* link:Repeater.md#constructor[constructor]
+* link:Repeater.adoc#constructor[constructor]
 
 === Properties
 
-* link:Repeater.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
-* link:Repeater.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
-* link:Repeater.md#_closemodalcallback[_closeModalCallback]
-* link:Repeater.md#_context[_context]
-* link:Repeater.md#_cssstate[_cssState]
-* link:Repeater.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
-* link:Repeater.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
-* link:Repeater.md#_defaultpaddingbottom[_defaultPaddingBottom]
-* link:Repeater.md#_defaultpaddingleft[_defaultPaddingLeft]
-* link:Repeater.md#_defaultpaddingright[_defaultPaddingRight]
-* link:Repeater.md#_defaultpaddingtop[_defaultPaddingTop]
-* link:Repeater.md#_domid[_domId]
-* link:Repeater.md#_gestureobservers[_gestureObservers]
-* link:Repeater.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
-* link:Repeater.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
-* link:Repeater.md#_isdirty[_isDirty]
-* link:Repeater.md#_islayoutvalid[_isLayoutValid]
-* link:Repeater.md#_ispaddingrelative[_isPaddingRelative]
-* link:Repeater.md#_isstylescopehost[_isStyleScopeHost]
-* link:Repeater.md#_isviewbase[_isViewBase]
-* link:Repeater.md#_itemtemplateselector[_itemTemplateSelector]
-* link:Repeater.md#_itemtemplateselectorbindable[_itemTemplateSelectorBindable]
-* link:Repeater.md#_manager[_manager]
-* link:Repeater.md#_modalparent[_modalParent]
-* link:Repeater.md#_modulename[_moduleName]
-* link:Repeater.md#_oldbottom[_oldBottom]
-* link:Repeater.md#_oldleft[_oldLeft]
-* link:Repeater.md#_oldright[_oldRight]
-* link:Repeater.md#_oldtop[_oldTop]
-* link:Repeater.md#_stylescope[_styleScope]
-* link:Repeater.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
-* link:Repeater.md#_suspendedupdates[_suspendedUpdates]
-* link:Repeater.md#accessibilityhidden[accessibilityHidden]
-* link:Repeater.md#accessibilityhint[accessibilityHint]
-* link:Repeater.md#accessibilityidentifier[accessibilityIdentifier]
-* link:Repeater.md#accessibilitylabel[accessibilityLabel]
-* link:Repeater.md#accessibilitylanguage[accessibilityLanguage]
-* link:Repeater.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:Repeater.md#accessibilitymediasession[accessibilityMediaSession]
-* link:Repeater.md#accessibilityrole[accessibilityRole]
-* link:Repeater.md#accessibilitystate[accessibilityState]
-* link:Repeater.md#accessibilityvalue[accessibilityValue]
-* link:Repeater.md#accessible[accessible]
-* link:Repeater.md#alignself[alignSelf]
-* link:Repeater.md#android[android]
-* link:Repeater.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:Repeater.md#androidelevation[androidElevation]
-* link:Repeater.md#automationtext[automationText]
-* link:Repeater.md#background[background]
-* link:Repeater.md#backgroundcolor[backgroundColor]
-* link:Repeater.md#backgroundimage[backgroundImage]
-* link:Repeater.md#bindingcontext[bindingContext]
-* link:Repeater.md#borderbottomcolor[borderBottomColor]
-* link:Repeater.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:Repeater.md#borderbottomrightradius[borderBottomRightRadius]
-* link:Repeater.md#borderbottomwidth[borderBottomWidth]
-* link:Repeater.md#bordercolor[borderColor]
-* link:Repeater.md#borderleftcolor[borderLeftColor]
-* link:Repeater.md#borderleftwidth[borderLeftWidth]
-* link:Repeater.md#borderradius[borderRadius]
-* link:Repeater.md#borderrightcolor[borderRightColor]
-* link:Repeater.md#borderrightwidth[borderRightWidth]
-* link:Repeater.md#bordertopcolor[borderTopColor]
-* link:Repeater.md#bordertopleftradius[borderTopLeftRadius]
-* link:Repeater.md#bordertoprightradius[borderTopRightRadius]
-* link:Repeater.md#bordertopwidth[borderTopWidth]
-* link:Repeater.md#borderwidth[borderWidth]
-* link:Repeater.md#boxshadow[boxShadow]
-* link:Repeater.md#classname[className]
-* link:Repeater.md#col[col]
-* link:Repeater.md#colspan[colSpan]
-* link:Repeater.md#color[color]
-* link:Repeater.md#column[column]
-* link:Repeater.md#columnspan[columnSpan]
-* link:Repeater.md#css[css]
-* link:Repeater.md#cssclasses[cssClasses]
-* link:Repeater.md#csspseudoclasses[cssPseudoClasses]
-* link:Repeater.md#csstype[cssType]
-* link:Repeater.md#dock[dock]
-* link:Repeater.md#domnode[domNode]
-* link:Repeater.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
-* link:Repeater.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
-* link:Repeater.md#effectiveborderrightwidth[effectiveBorderRightWidth]
-* link:Repeater.md#effectivebordertopwidth[effectiveBorderTopWidth]
-* link:Repeater.md#effectiveheight[effectiveHeight]
-* link:Repeater.md#effectiveleft[effectiveLeft]
-* link:Repeater.md#effectivemarginbottom[effectiveMarginBottom]
-* link:Repeater.md#effectivemarginleft[effectiveMarginLeft]
-* link:Repeater.md#effectivemarginright[effectiveMarginRight]
-* link:Repeater.md#effectivemargintop[effectiveMarginTop]
-* link:Repeater.md#effectiveminheight[effectiveMinHeight]
-* link:Repeater.md#effectiveminwidth[effectiveMinWidth]
-* link:Repeater.md#effectivepaddingbottom[effectivePaddingBottom]
-* link:Repeater.md#effectivepaddingleft[effectivePaddingLeft]
-* link:Repeater.md#effectivepaddingright[effectivePaddingRight]
-* link:Repeater.md#effectivepaddingtop[effectivePaddingTop]
-* link:Repeater.md#effectivetop[effectiveTop]
-* link:Repeater.md#effectivewidth[effectiveWidth]
-* link:Repeater.md#flexgrow[flexGrow]
-* link:Repeater.md#flexshrink[flexShrink]
-* link:Repeater.md#flexwrapbefore[flexWrapBefore]
-* link:Repeater.md#height[height]
-* link:Repeater.md#horizontalalignment[horizontalAlignment]
-* link:Repeater.md#id[id]
-* link:Repeater.md#ignoretouchanimation[ignoreTouchAnimation]
-* link:Repeater.md#ios[ios]
-* link:Repeater.md#iosignoresafearea[iosIgnoreSafeArea]
-* link:Repeater.md#iosoverflowsafearea[iosOverflowSafeArea]
-* link:Repeater.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
-* link:Repeater.md#iscollapsed[isCollapsed]
-* link:Repeater.md#isenabled[isEnabled]
-* link:Repeater.md#islayoutrequired[isLayoutRequired]
-* link:Repeater.md#islayoutvalid[isLayoutValid]
-* link:Repeater.md#isuserinteractionenabled[isUserInteractionEnabled]
-* link:Repeater.md#itemtemplate[itemTemplate]
-* link:Repeater.md#itemtemplates[itemTemplates]
-* link:Repeater.md#items[items]
-* link:Repeater.md#itemslayout[itemsLayout]
-* link:Repeater.md#left[left]
-* link:Repeater.md#margin[margin]
-* link:Repeater.md#marginbottom[marginBottom]
-* link:Repeater.md#marginleft[marginLeft]
-* link:Repeater.md#marginright[marginRight]
-* link:Repeater.md#margintop[marginTop]
-* link:Repeater.md#minheight[minHeight]
-* link:Repeater.md#minwidth[minWidth]
-* link:Repeater.md#modal[modal]
-* link:Repeater.md#nativeviewprotected[nativeViewProtected]
-* link:Repeater.md#opacity[opacity]
-* link:Repeater.md#order[order]
-* link:Repeater.md#originx[originX]
-* link:Repeater.md#originy[originY]
-* link:Repeater.md#parent[parent]
-* link:Repeater.md#perspective[perspective]
-* link:Repeater.md#recyclenativeview[recycleNativeView]
-* link:Repeater.md#reusable[reusable]
-* link:Repeater.md#rotate[rotate]
-* link:Repeater.md#rotatex[rotateX]
-* link:Repeater.md#rotatey[rotateY]
-* link:Repeater.md#row[row]
-* link:Repeater.md#rowspan[rowSpan]
-* link:Repeater.md#scalex[scaleX]
-* link:Repeater.md#scaley[scaleY]
-* link:Repeater.md#testid[testID]
-* link:Repeater.md#top[top]
-* link:Repeater.md#touchanimation[touchAnimation]
-* link:Repeater.md#touchdelay[touchDelay]
-* link:Repeater.md#translatex[translateX]
-* link:Repeater.md#translatey[translateY]
-* link:Repeater.md#verticalalignment[verticalAlignment]
-* link:Repeater.md#viewcontroller[viewController]
-* link:Repeater.md#visibility[visibility]
-* link:Repeater.md#width[width]
-* link:Repeater.md#accessibilityblurevent[accessibilityBlurEvent]
-* link:Repeater.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
-* link:Repeater.md#accessibilityfocusevent[accessibilityFocusEvent]
-* link:Repeater.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
-* link:Repeater.md#createdevent[createdEvent]
-* link:Repeater.md#disposenativeviewevent[disposeNativeViewEvent]
-* link:Repeater.md#knownfunctions[knownFunctions]
-* link:Repeater.md#layoutchangedevent[layoutChangedEvent]
-* link:Repeater.md#loadedevent[loadedEvent]
-* link:Repeater.md#propertychangeevent[propertyChangeEvent]
-* link:Repeater.md#showingmodallyevent[showingModallyEvent]
-* link:Repeater.md#shownmodallyevent[shownModallyEvent]
-* link:Repeater.md#unloadedevent[unloadedEvent]
+* link:Repeater.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:Repeater.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:Repeater.adoc#_closemodalcallback[_closeModalCallback]
+* link:Repeater.adoc#_context[_context]
+* link:Repeater.adoc#_cssstate[_cssState]
+* link:Repeater.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:Repeater.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:Repeater.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:Repeater.adoc#_defaultpaddingleft[_defaultPaddingLeft]
+* link:Repeater.adoc#_defaultpaddingright[_defaultPaddingRight]
+* link:Repeater.adoc#_defaultpaddingtop[_defaultPaddingTop]
+* link:Repeater.adoc#_domid[_domId]
+* link:Repeater.adoc#_gestureobservers[_gestureObservers]
+* link:Repeater.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:Repeater.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:Repeater.adoc#_isdirty[_isDirty]
+* link:Repeater.adoc#_islayoutvalid[_isLayoutValid]
+* link:Repeater.adoc#_ispaddingrelative[_isPaddingRelative]
+* link:Repeater.adoc#_isstylescopehost[_isStyleScopeHost]
+* link:Repeater.adoc#_isviewbase[_isViewBase]
+* link:Repeater.adoc#_itemtemplateselector[_itemTemplateSelector]
+* link:Repeater.adoc#_itemtemplateselectorbindable[_itemTemplateSelectorBindable]
+* link:Repeater.adoc#_manager[_manager]
+* link:Repeater.adoc#_modalparent[_modalParent]
+* link:Repeater.adoc#_modulename[_moduleName]
+* link:Repeater.adoc#_oldbottom[_oldBottom]
+* link:Repeater.adoc#_oldleft[_oldLeft]
+* link:Repeater.adoc#_oldright[_oldRight]
+* link:Repeater.adoc#_oldtop[_oldTop]
+* link:Repeater.adoc#_stylescope[_styleScope]
+* link:Repeater.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:Repeater.adoc#_suspendedupdates[_suspendedUpdates]
+* link:Repeater.adoc#accessibilityhidden[accessibilityHidden]
+* link:Repeater.adoc#accessibilityhint[accessibilityHint]
+* link:Repeater.adoc#accessibilityidentifier[accessibilityIdentifier]
+* link:Repeater.adoc#accessibilitylabel[accessibilityLabel]
+* link:Repeater.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:Repeater.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:Repeater.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:Repeater.adoc#accessibilityrole[accessibilityRole]
+* link:Repeater.adoc#accessibilitystate[accessibilityState]
+* link:Repeater.adoc#accessibilityvalue[accessibilityValue]
+* link:Repeater.adoc#accessible[accessible]
+* link:Repeater.adoc#alignself[alignSelf]
+* link:Repeater.adoc#android[android]
+* link:Repeater.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:Repeater.adoc#androidelevation[androidElevation]
+* link:Repeater.adoc#automationtext[automationText]
+* link:Repeater.adoc#background[background]
+* link:Repeater.adoc#backgroundcolor[backgroundColor]
+* link:Repeater.adoc#backgroundimage[backgroundImage]
+* link:Repeater.adoc#bindingcontext[bindingContext]
+* link:Repeater.adoc#borderbottomcolor[borderBottomColor]
+* link:Repeater.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:Repeater.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:Repeater.adoc#borderbottomwidth[borderBottomWidth]
+* link:Repeater.adoc#bordercolor[borderColor]
+* link:Repeater.adoc#borderleftcolor[borderLeftColor]
+* link:Repeater.adoc#borderleftwidth[borderLeftWidth]
+* link:Repeater.adoc#borderradius[borderRadius]
+* link:Repeater.adoc#borderrightcolor[borderRightColor]
+* link:Repeater.adoc#borderrightwidth[borderRightWidth]
+* link:Repeater.adoc#bordertopcolor[borderTopColor]
+* link:Repeater.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:Repeater.adoc#bordertoprightradius[borderTopRightRadius]
+* link:Repeater.adoc#bordertopwidth[borderTopWidth]
+* link:Repeater.adoc#borderwidth[borderWidth]
+* link:Repeater.adoc#boxshadow[boxShadow]
+* link:Repeater.adoc#classname[className]
+* link:Repeater.adoc#col[col]
+* link:Repeater.adoc#colspan[colSpan]
+* link:Repeater.adoc#color[color]
+* link:Repeater.adoc#column[column]
+* link:Repeater.adoc#columnspan[columnSpan]
+* link:Repeater.adoc#css[css]
+* link:Repeater.adoc#cssclasses[cssClasses]
+* link:Repeater.adoc#csspseudoclasses[cssPseudoClasses]
+* link:Repeater.adoc#csstype[cssType]
+* link:Repeater.adoc#dock[dock]
+* link:Repeater.adoc#domnode[domNode]
+* link:Repeater.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:Repeater.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:Repeater.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:Repeater.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:Repeater.adoc#effectiveheight[effectiveHeight]
+* link:Repeater.adoc#effectiveleft[effectiveLeft]
+* link:Repeater.adoc#effectivemarginbottom[effectiveMarginBottom]
+* link:Repeater.adoc#effectivemarginleft[effectiveMarginLeft]
+* link:Repeater.adoc#effectivemarginright[effectiveMarginRight]
+* link:Repeater.adoc#effectivemargintop[effectiveMarginTop]
+* link:Repeater.adoc#effectiveminheight[effectiveMinHeight]
+* link:Repeater.adoc#effectiveminwidth[effectiveMinWidth]
+* link:Repeater.adoc#effectivepaddingbottom[effectivePaddingBottom]
+* link:Repeater.adoc#effectivepaddingleft[effectivePaddingLeft]
+* link:Repeater.adoc#effectivepaddingright[effectivePaddingRight]
+* link:Repeater.adoc#effectivepaddingtop[effectivePaddingTop]
+* link:Repeater.adoc#effectivetop[effectiveTop]
+* link:Repeater.adoc#effectivewidth[effectiveWidth]
+* link:Repeater.adoc#flexgrow[flexGrow]
+* link:Repeater.adoc#flexshrink[flexShrink]
+* link:Repeater.adoc#flexwrapbefore[flexWrapBefore]
+* link:Repeater.adoc#height[height]
+* link:Repeater.adoc#horizontalalignment[horizontalAlignment]
+* link:Repeater.adoc#id[id]
+* link:Repeater.adoc#ignoretouchanimation[ignoreTouchAnimation]
+* link:Repeater.adoc#ios[ios]
+* link:Repeater.adoc#iosignoresafearea[iosIgnoreSafeArea]
+* link:Repeater.adoc#iosoverflowsafearea[iosOverflowSafeArea]
+* link:Repeater.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:Repeater.adoc#iscollapsed[isCollapsed]
+* link:Repeater.adoc#isenabled[isEnabled]
+* link:Repeater.adoc#islayoutrequired[isLayoutRequired]
+* link:Repeater.adoc#islayoutvalid[isLayoutValid]
+* link:Repeater.adoc#isuserinteractionenabled[isUserInteractionEnabled]
+* link:Repeater.adoc#itemtemplate[itemTemplate]
+* link:Repeater.adoc#itemtemplates[itemTemplates]
+* link:Repeater.adoc#items[items]
+* link:Repeater.adoc#itemslayout[itemsLayout]
+* link:Repeater.adoc#left[left]
+* link:Repeater.adoc#margin[margin]
+* link:Repeater.adoc#marginbottom[marginBottom]
+* link:Repeater.adoc#marginleft[marginLeft]
+* link:Repeater.adoc#marginright[marginRight]
+* link:Repeater.adoc#margintop[marginTop]
+* link:Repeater.adoc#minheight[minHeight]
+* link:Repeater.adoc#minwidth[minWidth]
+* link:Repeater.adoc#modal[modal]
+* link:Repeater.adoc#nativeviewprotected[nativeViewProtected]
+* link:Repeater.adoc#opacity[opacity]
+* link:Repeater.adoc#order[order]
+* link:Repeater.adoc#originx[originX]
+* link:Repeater.adoc#originy[originY]
+* link:Repeater.adoc#parent[parent]
+* link:Repeater.adoc#perspective[perspective]
+* link:Repeater.adoc#recyclenativeview[recycleNativeView]
+* link:Repeater.adoc#reusable[reusable]
+* link:Repeater.adoc#rotate[rotate]
+* link:Repeater.adoc#rotatex[rotateX]
+* link:Repeater.adoc#rotatey[rotateY]
+* link:Repeater.adoc#row[row]
+* link:Repeater.adoc#rowspan[rowSpan]
+* link:Repeater.adoc#scalex[scaleX]
+* link:Repeater.adoc#scaley[scaleY]
+* link:Repeater.adoc#testid[testID]
+* link:Repeater.adoc#top[top]
+* link:Repeater.adoc#touchanimation[touchAnimation]
+* link:Repeater.adoc#touchdelay[touchDelay]
+* link:Repeater.adoc#translatex[translateX]
+* link:Repeater.adoc#translatey[translateY]
+* link:Repeater.adoc#verticalalignment[verticalAlignment]
+* link:Repeater.adoc#viewcontroller[viewController]
+* link:Repeater.adoc#visibility[visibility]
+* link:Repeater.adoc#width[width]
+* link:Repeater.adoc#accessibilityblurevent[accessibilityBlurEvent]
+* link:Repeater.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:Repeater.adoc#accessibilityfocusevent[accessibilityFocusEvent]
+* link:Repeater.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:Repeater.adoc#createdevent[createdEvent]
+* link:Repeater.adoc#disposenativeviewevent[disposeNativeViewEvent]
+* link:Repeater.adoc#knownfunctions[knownFunctions]
+* link:Repeater.adoc#layoutchangedevent[layoutChangedEvent]
+* link:Repeater.adoc#loadedevent[loadedEvent]
+* link:Repeater.adoc#propertychangeevent[propertyChangeEvent]
+* link:Repeater.adoc#showingmodallyevent[showingModallyEvent]
+* link:Repeater.adoc#shownmodallyevent[shownModallyEvent]
+* link:Repeater.adoc#unloadedevent[unloadedEvent]
 
 === Accessors
 
-* link:Repeater.md#_childrencount[_childrenCount]
-* link:Repeater.md#backgroundposition[backgroundPosition]
-* link:Repeater.md#backgroundrepeat[backgroundRepeat]
-* link:Repeater.md#backgroundsize[backgroundSize]
-* link:Repeater.md#class[class]
-* link:Repeater.md#isloaded[isLoaded]
-* link:Repeater.md#itemtemplateselector[itemTemplateSelector]
-* link:Repeater.md#nativeview[nativeView]
-* link:Repeater.md#page[page]
-* link:Repeater.md#parentnode[parentNode]
-* link:Repeater.md#style[style]
-* link:Repeater.md#texttransform[textTransform]
-* link:Repeater.md#typename[typeName]
+* link:Repeater.adoc#_childrencount[_childrenCount]
+* link:Repeater.adoc#backgroundposition[backgroundPosition]
+* link:Repeater.adoc#backgroundrepeat[backgroundRepeat]
+* link:Repeater.adoc#backgroundsize[backgroundSize]
+* link:Repeater.adoc#class[class]
+* link:Repeater.adoc#isloaded[isLoaded]
+* link:Repeater.adoc#itemtemplateselector[itemTemplateSelector]
+* link:Repeater.adoc#nativeview[nativeView]
+* link:Repeater.adoc#page[page]
+* link:Repeater.adoc#parentnode[parentNode]
+* link:Repeater.adoc#style[style]
+* link:Repeater.adoc#texttransform[textTransform]
+* link:Repeater.adoc#typename[typeName]
 
 === Methods
 
-* link:Repeater.md#_addview[_addView]
-* link:Repeater.md#_addviewcore[_addViewCore]
-* link:Repeater.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
-* link:Repeater.md#_applybackground[_applyBackground]
-* link:Repeater.md#_applyxmlattribute[_applyXmlAttribute]
-* link:Repeater.md#_batchupdate[_batchUpdate]
-* link:Repeater.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
-* link:Repeater.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
-* link:Repeater.md#_createpropertychangedata[_createPropertyChangeData]
-* link:Repeater.md#_dialogclosed[_dialogClosed]
-* link:Repeater.md#_eachlayoutview[_eachLayoutView]
-* link:Repeater.md#_emit[_emit]
-* link:Repeater.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
-* link:Repeater.md#_getdataitem[_getDataItem]
-* link:Repeater.md#_getdefaultitemcontent[_getDefaultItemContent]
-* link:Repeater.md#_getfragmentmanager[_getFragmentManager]
-* link:Repeater.md#_getnativeviewscount[_getNativeViewsCount]
-* link:Repeater.md#_getrootmodalviews[_getRootModalViews]
-* link:Repeater.md#_getvalue[_getValue]
-* link:Repeater.md#_gotovisualstate[_goToVisualState]
-* link:Repeater.md#_handlelivesync[_handleLivesync]
-* link:Repeater.md#_hasancestorview[_hasAncestorView]
-* link:Repeater.md#_hidenativemodalview[_hideNativeModalView]
-* link:Repeater.md#_inheritstylescope[_inheritStyleScope]
-* link:Repeater.md#_layoutparent[_layoutParent]
-* link:Repeater.md#_observe[_observe]
-* link:Repeater.md#_onattachedtowindow[_onAttachedToWindow]
-* link:Repeater.md#_oncssstatechange[_onCssStateChange]
-* link:Repeater.md#_ondetachedfromwindow[_onDetachedFromWindow]
-* link:Repeater.md#_onitemschanged[_onItemsChanged]
-* link:Repeater.md#_onlivesync[_onLivesync]
-* link:Repeater.md#_onrootviewreset[_onRootViewReset]
-* link:Repeater.md#_onsizechanged[_onSizeChanged]
-* link:Repeater.md#_parentchanged[_parentChanged]
-* link:Repeater.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
-* link:Repeater.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
-* link:Repeater.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
-* link:Repeater.md#_redrawnativebackground[_redrawNativeBackground]
-* link:Repeater.md#_removeanimation[_removeAnimation]
-* link:Repeater.md#_removeview[_removeView]
-* link:Repeater.md#_removeviewcore[_removeViewCore]
-* link:Repeater.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
-* link:Repeater.md#_requestrefresh[_requestRefresh]
-* link:Repeater.md#_resumenativeupdates[_resumeNativeUpdates]
-* link:Repeater.md#_setchildminheightnative[_setChildMinHeightNative]
-* link:Repeater.md#_setchildminwidthnative[_setChildMinWidthNative]
-* link:Repeater.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
-* link:Repeater.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
-* link:Repeater.md#_setminheightnative[_setMinHeightNative]
-* link:Repeater.md#_setminwidthnative[_setMinWidthNative]
-* link:Repeater.md#_setnativecliptobounds[_setNativeClipToBounds]
-* link:Repeater.md#_setnativeviewframe[_setNativeViewFrame]
-* link:Repeater.md#_setvalue[_setValue]
-* link:Repeater.md#_setupasrootview[_setupAsRootView]
-* link:Repeater.md#_setupui[_setupUI]
-* link:Repeater.md#_shoulddelaylayout[_shouldDelayLayout]
-* link:Repeater.md#_shownativemodalview[_showNativeModalView]
-* link:Repeater.md#_suspendnativeupdates[_suspendNativeUpdates]
-* link:Repeater.md#_teardownui[_tearDownUI]
-* link:Repeater.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
-* link:Repeater.md#_updatenativelayoutparams[_updateNativeLayoutParams]
-* link:Repeater.md#_updatestylescope[_updateStyleScope]
-* link:Repeater.md#accessibilityannouncement[accessibilityAnnouncement]
-* link:Repeater.md#accessibilityscreenchanged[accessibilityScreenChanged]
-* link:Repeater.md#addcss[addCss]
-* link:Repeater.md#addcssfile[addCssFile]
-* link:Repeater.md#addeventlistener[addEventListener]
-* link:Repeater.md#addpseudoclass[addPseudoClass]
-* link:Repeater.md#animate[animate]
-* link:Repeater.md#bind[bind]
-* link:Repeater.md#callloaded[callLoaded]
-* link:Repeater.md#callunloaded[callUnloaded]
-* link:Repeater.md#changecssfile[changeCssFile]
-* link:Repeater.md#closemodal[closeModal]
-* link:Repeater.md#createanimation[createAnimation]
-* link:Repeater.md#createnativeview[createNativeView]
-* link:Repeater.md#deletepseudoclass[deletePseudoClass]
-* link:Repeater.md#destroynode[destroyNode]
-* link:Repeater.md#disposenativeview[disposeNativeView]
-* link:Repeater.md#eachchild[eachChild]
-* link:Repeater.md#eachchildview[eachChildView]
-* link:Repeater.md#ensuredomnode[ensureDomNode]
-* link:Repeater.md#focus[focus]
-* link:Repeater.md#get[get]
-* link:Repeater.md#getactualsize[getActualSize]
-* link:Repeater.md#getgestureobservers[getGestureObservers]
-* link:Repeater.md#getlocationinwindow[getLocationInWindow]
-* link:Repeater.md#getlocationonscreen[getLocationOnScreen]
-* link:Repeater.md#getlocationrelativeto[getLocationRelativeTo]
-* link:Repeater.md#getmeasuredheight[getMeasuredHeight]
-* link:Repeater.md#getmeasuredstate[getMeasuredState]
-* link:Repeater.md#getmeasuredwidth[getMeasuredWidth]
-* link:Repeater.md#getsafeareainsets[getSafeAreaInsets]
-* link:Repeater.md#getviewbydomid[getViewByDomId]
-* link:Repeater.md#getviewbyid[getViewById]
-* link:Repeater.md#hasgestureobservers[hasGestureObservers]
-* link:Repeater.md#haslisteners[hasListeners]
-* link:Repeater.md#initnativeview[initNativeView]
-* link:Repeater.md#layout[layout]
-* link:Repeater.md#layoutnativeview[layoutNativeView]
-* link:Repeater.md#loadview[loadView]
-* link:Repeater.md#measure[measure]
-* link:Repeater.md#notify[notify]
-* link:Repeater.md#notifypropertychange[notifyPropertyChange]
-* link:Repeater.md#off[off]
-* link:Repeater.md#on[on]
-* link:Repeater.md#onbackpressed[onBackPressed]
-* link:Repeater.md#onlayout[onLayout]
-* link:Repeater.md#onloaded[onLoaded]
-* link:Repeater.md#onmeasure[onMeasure]
-* link:Repeater.md#onresumenativeupdates[onResumeNativeUpdates]
-* link:Repeater.md#onunloaded[onUnloaded]
-* link:Repeater.md#once[once]
-* link:Repeater.md#refresh[refresh]
-* link:Repeater.md#removeeventlistener[removeEventListener]
-* link:Repeater.md#requestlayout[requestLayout]
-* link:Repeater.md#resetnativeview[resetNativeView]
-* link:Repeater.md#sendaccessibilityevent[sendAccessibilityEvent]
-* link:Repeater.md#set[set]
-* link:Repeater.md#setinlinestyle[setInlineStyle]
-* link:Repeater.md#setmeasureddimension[setMeasuredDimension]
-* link:Repeater.md#setnativeview[setNativeView]
-* link:Repeater.md#setontouchlistener[setOnTouchListener]
-* link:Repeater.md#setproperty[setProperty]
-* link:Repeater.md#settestid[setTestID]
-* link:Repeater.md#showmodal[showModal]
-* link:Repeater.md#tostring[toString]
-* link:Repeater.md#unbind[unbind]
-* link:Repeater.md#unloadview[unloadView]
-* link:Repeater.md#addeventlistener-1[addEventListener]
-* link:Repeater.md#combinemeasuredstates[combineMeasuredStates]
-* link:Repeater.md#layoutchild[layoutChild]
-* link:Repeater.md#measurechild[measureChild]
-* link:Repeater.md#off-1[off]
-* link:Repeater.md#on-1[on]
-* link:Repeater.md#once-1[once]
-* link:Repeater.md#removeeventlistener-1[removeEventListener]
-* link:Repeater.md#resolvesizeandstate[resolveSizeAndState]
+* link:Repeater.adoc#_addview[_addView]
+* link:Repeater.adoc#_addviewcore[_addViewCore]
+* link:Repeater.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:Repeater.adoc#_applybackground[_applyBackground]
+* link:Repeater.adoc#_applyxmlattribute[_applyXmlAttribute]
+* link:Repeater.adoc#_batchupdate[_batchUpdate]
+* link:Repeater.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:Repeater.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:Repeater.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:Repeater.adoc#_dialogclosed[_dialogClosed]
+* link:Repeater.adoc#_eachlayoutview[_eachLayoutView]
+* link:Repeater.adoc#_emit[_emit]
+* link:Repeater.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:Repeater.adoc#_getdataitem[_getDataItem]
+* link:Repeater.adoc#_getdefaultitemcontent[_getDefaultItemContent]
+* link:Repeater.adoc#_getfragmentmanager[_getFragmentManager]
+* link:Repeater.adoc#_getnativeviewscount[_getNativeViewsCount]
+* link:Repeater.adoc#_getrootmodalviews[_getRootModalViews]
+* link:Repeater.adoc#_getvalue[_getValue]
+* link:Repeater.adoc#_gotovisualstate[_goToVisualState]
+* link:Repeater.adoc#_handlelivesync[_handleLivesync]
+* link:Repeater.adoc#_hasancestorview[_hasAncestorView]
+* link:Repeater.adoc#_hidenativemodalview[_hideNativeModalView]
+* link:Repeater.adoc#_inheritstylescope[_inheritStyleScope]
+* link:Repeater.adoc#_layoutparent[_layoutParent]
+* link:Repeater.adoc#_observe[_observe]
+* link:Repeater.adoc#_onattachedtowindow[_onAttachedToWindow]
+* link:Repeater.adoc#_oncssstatechange[_onCssStateChange]
+* link:Repeater.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:Repeater.adoc#_onitemschanged[_onItemsChanged]
+* link:Repeater.adoc#_onlivesync[_onLivesync]
+* link:Repeater.adoc#_onrootviewreset[_onRootViewReset]
+* link:Repeater.adoc#_onsizechanged[_onSizeChanged]
+* link:Repeater.adoc#_parentchanged[_parentChanged]
+* link:Repeater.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:Repeater.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:Repeater.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:Repeater.adoc#_redrawnativebackground[_redrawNativeBackground]
+* link:Repeater.adoc#_removeanimation[_removeAnimation]
+* link:Repeater.adoc#_removeview[_removeView]
+* link:Repeater.adoc#_removeviewcore[_removeViewCore]
+* link:Repeater.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:Repeater.adoc#_requestrefresh[_requestRefresh]
+* link:Repeater.adoc#_resumenativeupdates[_resumeNativeUpdates]
+* link:Repeater.adoc#_setchildminheightnative[_setChildMinHeightNative]
+* link:Repeater.adoc#_setchildminwidthnative[_setChildMinWidthNative]
+* link:Repeater.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:Repeater.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:Repeater.adoc#_setminheightnative[_setMinHeightNative]
+* link:Repeater.adoc#_setminwidthnative[_setMinWidthNative]
+* link:Repeater.adoc#_setnativecliptobounds[_setNativeClipToBounds]
+* link:Repeater.adoc#_setnativeviewframe[_setNativeViewFrame]
+* link:Repeater.adoc#_setvalue[_setValue]
+* link:Repeater.adoc#_setupasrootview[_setupAsRootView]
+* link:Repeater.adoc#_setupui[_setupUI]
+* link:Repeater.adoc#_shoulddelaylayout[_shouldDelayLayout]
+* link:Repeater.adoc#_shownativemodalview[_showNativeModalView]
+* link:Repeater.adoc#_suspendnativeupdates[_suspendNativeUpdates]
+* link:Repeater.adoc#_teardownui[_tearDownUI]
+* link:Repeater.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:Repeater.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
+* link:Repeater.adoc#_updatestylescope[_updateStyleScope]
+* link:Repeater.adoc#accessibilityannouncement[accessibilityAnnouncement]
+* link:Repeater.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:Repeater.adoc#addcss[addCss]
+* link:Repeater.adoc#addcssfile[addCssFile]
+* link:Repeater.adoc#addeventlistener[addEventListener]
+* link:Repeater.adoc#addpseudoclass[addPseudoClass]
+* link:Repeater.adoc#animate[animate]
+* link:Repeater.adoc#bind[bind]
+* link:Repeater.adoc#callloaded[callLoaded]
+* link:Repeater.adoc#callunloaded[callUnloaded]
+* link:Repeater.adoc#changecssfile[changeCssFile]
+* link:Repeater.adoc#closemodal[closeModal]
+* link:Repeater.adoc#createanimation[createAnimation]
+* link:Repeater.adoc#createnativeview[createNativeView]
+* link:Repeater.adoc#deletepseudoclass[deletePseudoClass]
+* link:Repeater.adoc#destroynode[destroyNode]
+* link:Repeater.adoc#disposenativeview[disposeNativeView]
+* link:Repeater.adoc#eachchild[eachChild]
+* link:Repeater.adoc#eachchildview[eachChildView]
+* link:Repeater.adoc#ensuredomnode[ensureDomNode]
+* link:Repeater.adoc#focus[focus]
+* link:Repeater.adoc#get[get]
+* link:Repeater.adoc#getactualsize[getActualSize]
+* link:Repeater.adoc#getgestureobservers[getGestureObservers]
+* link:Repeater.adoc#getlocationinwindow[getLocationInWindow]
+* link:Repeater.adoc#getlocationonscreen[getLocationOnScreen]
+* link:Repeater.adoc#getlocationrelativeto[getLocationRelativeTo]
+* link:Repeater.adoc#getmeasuredheight[getMeasuredHeight]
+* link:Repeater.adoc#getmeasuredstate[getMeasuredState]
+* link:Repeater.adoc#getmeasuredwidth[getMeasuredWidth]
+* link:Repeater.adoc#getsafeareainsets[getSafeAreaInsets]
+* link:Repeater.adoc#getviewbydomid[getViewByDomId]
+* link:Repeater.adoc#getviewbyid[getViewById]
+* link:Repeater.adoc#hasgestureobservers[hasGestureObservers]
+* link:Repeater.adoc#haslisteners[hasListeners]
+* link:Repeater.adoc#initnativeview[initNativeView]
+* link:Repeater.adoc#layout[layout]
+* link:Repeater.adoc#layoutnativeview[layoutNativeView]
+* link:Repeater.adoc#loadview[loadView]
+* link:Repeater.adoc#measure[measure]
+* link:Repeater.adoc#notify[notify]
+* link:Repeater.adoc#notifypropertychange[notifyPropertyChange]
+* link:Repeater.adoc#off[off]
+* link:Repeater.adoc#on[on]
+* link:Repeater.adoc#onbackpressed[onBackPressed]
+* link:Repeater.adoc#onlayout[onLayout]
+* link:Repeater.adoc#onloaded[onLoaded]
+* link:Repeater.adoc#onmeasure[onMeasure]
+* link:Repeater.adoc#onresumenativeupdates[onResumeNativeUpdates]
+* link:Repeater.adoc#onunloaded[onUnloaded]
+* link:Repeater.adoc#once[once]
+* link:Repeater.adoc#refresh[refresh]
+* link:Repeater.adoc#removeeventlistener[removeEventListener]
+* link:Repeater.adoc#requestlayout[requestLayout]
+* link:Repeater.adoc#resetnativeview[resetNativeView]
+* link:Repeater.adoc#sendaccessibilityevent[sendAccessibilityEvent]
+* link:Repeater.adoc#set[set]
+* link:Repeater.adoc#setinlinestyle[setInlineStyle]
+* link:Repeater.adoc#setmeasureddimension[setMeasuredDimension]
+* link:Repeater.adoc#setnativeview[setNativeView]
+* link:Repeater.adoc#setontouchlistener[setOnTouchListener]
+* link:Repeater.adoc#setproperty[setProperty]
+* link:Repeater.adoc#settestid[setTestID]
+* link:Repeater.adoc#showmodal[showModal]
+* link:Repeater.adoc#tostring[toString]
+* link:Repeater.adoc#unbind[unbind]
+* link:Repeater.adoc#unloadview[unloadView]
+* link:Repeater.adoc#addeventlistener-1[addEventListener]
+* link:Repeater.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:Repeater.adoc#layoutchild[layoutChild]
+* link:Repeater.adoc#measurechild[measureChild]
+* link:Repeater.adoc#off-1[off]
+* link:Repeater.adoc#on-1[on]
+* link:Repeater.adoc#once-1[once]
+* link:Repeater.adoc#removeeventlistener-1[removeEventListener]
+* link:Repeater.adoc#resolvesizeandstate[resolveSizeAndState]
 
 == Constructors
 
@@ -353,7 +353,7 @@ Represents a UI Repeater component.
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#constructor[constructor]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#constructor[constructor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L31[ui/repeater/index.ts:31]
 
@@ -367,7 +367,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#constructo
 Internal use only.
 This is used to limit the number of updates to android.view.View.setContentDescription()
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L288[ui/core/view/index.d.ts:288]
 
@@ -378,7 +378,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_automaticallyAdjustsScrollViewInsets*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L286[ui/core/view-base/index.ts:286]
 
@@ -389,7 +389,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Protected` *_closeModalCallback*: `Function`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_closemodalcallback[_closeModalCallback]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_closemodalcallback[_closeModalCallback]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L91[ui/core/view/view-common.ts:91]
 
@@ -400,7 +400,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_context*: `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_context[_context]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_context[_context]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L277[ui/core/view-base/index.ts:277]
 
@@ -411,7 +411,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_cssState*: `CssState`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_cssstate[_cssState]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_cssstate[_cssState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L279[ui/core/view-base/index.ts:279]
 
@@ -422,7 +422,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentHeightMeasureSpec*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L820[ui/core/view/index.d.ts:820]
 
@@ -433,7 +433,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_currentWidthMeasureSpec*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L816[ui/core/view/index.d.ts:816]
 
@@ -444,7 +444,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingBottom*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_defaultpaddingbottom[_defaultPaddingBottom]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L332[ui/core/view-base/index.ts:332]
 
@@ -455,7 +455,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingLeft*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_defaultpaddingleft[_defaultPaddingLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_defaultpaddingleft[_defaultPaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L333[ui/core/view-base/index.ts:333]
 
@@ -466,7 +466,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingRight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_defaultpaddingright[_defaultPaddingRight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_defaultpaddingright[_defaultPaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L331[ui/core/view-base/index.ts:331]
 
@@ -477,7 +477,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_defaultPaddingTop*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_defaultpaddingtop[_defaultPaddingTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_defaultpaddingtop[_defaultPaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L330[ui/core/view-base/index.ts:330]
 
@@ -488,7 +488,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_domId*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_domid[_domId]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_domid[_domId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L276[ui/core/view-base/index.ts:276]
 
@@ -499,7 +499,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Private` *_gestureObservers*: `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_gestureobservers[_gestureObservers]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_gestureobservers[_gestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L770[ui/core/view/index.d.ts:770]
 
@@ -510,7 +510,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_ignoreFlexMinWidthHeightReset*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L311[ui/core/view-base/index.ts:311]
 
@@ -521,7 +521,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isAddedToNativeVisualTree*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L278[ui/core/view-base/index.ts:278]
 
@@ -541,7 +541,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • `Protected` *_isLayoutValid*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_islayoutvalid[_isLayoutValid]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_islayoutvalid[_isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L100[ui/core/view/view-common.ts:100]
 
@@ -552,7 +552,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isPaddingRelative*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_ispaddingrelative[_isPaddingRelative]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_ispaddingrelative[_isPaddingRelative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L334[ui/core/view-base/index.ts:334]
 
@@ -563,7 +563,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isStyleScopeHost*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_isstylescopehost[_isStyleScopeHost]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_isstylescopehost[_isStyleScopeHost]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L285[ui/core/view-base/index.ts:285]
 
@@ -574,7 +574,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 • *_isViewBase*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_isviewbase[_isViewBase]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_isviewbase[_isViewBase]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L52[data/observable/index.ts:52]
 
@@ -628,7 +628,7 @@ This is used to limit the number of updates to android.view.View.setContentDescr
 
 androidx.fragment.app.FragmentManager
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_manager[_manager]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_manager[_manager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L775[ui/core/view/index.d.ts:775]
 
@@ -639,7 +639,7 @@ androidx.fragment.app.FragmentManager
 
 • `Optional` `Private` *_modalParent*: xref:View.adoc[`View`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_modalparent[_modalParent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_modalparent[_modalParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L762[ui/core/view/index.d.ts:762]
 
@@ -650,7 +650,7 @@ androidx.fragment.app.FragmentManager
 
 • *_moduleName*: `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_modulename[_moduleName]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_modulename[_moduleName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L336[ui/core/view-base/index.ts:336]
 
@@ -661,7 +661,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldBottom*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_oldbottom[_oldBottom]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_oldbottom[_oldBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L310[ui/core/view-base/index.ts:310]
 
@@ -672,7 +672,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldLeft*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_oldleft[_oldLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_oldleft[_oldLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L307[ui/core/view-base/index.ts:307]
 
@@ -683,7 +683,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldRight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_oldright[_oldRight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_oldright[_oldRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L309[ui/core/view-base/index.ts:309]
 
@@ -694,7 +694,7 @@ androidx.fragment.app.FragmentManager
 
 • *_oldTop*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_oldtop[_oldTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_oldtop[_oldTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L308[ui/core/view-base/index.ts:308]
 
@@ -705,7 +705,7 @@ androidx.fragment.app.FragmentManager
 
 • *_styleScope*: `StyleScope`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_stylescope[_styleScope]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_stylescope[_styleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L280[ui/core/view-base/index.ts:280]
 
@@ -716,7 +716,7 @@ androidx.fragment.app.FragmentManager
 
 • *_suspendNativeUpdatesCount*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L284[ui/core/view-base/index.ts:284]
 
@@ -731,7 +731,7 @@ androidx.fragment.app.FragmentManager
 
 ▪ [propertyName: `string`]: xref:Property.adoc[`Property`]<xref:ViewBase.adoc[`ViewBase`], `any`> | xref:CssProperty.adoc[`CssProperty`]<xref:Style.adoc[`Style`], `any`> | xref:CssAnimationProperty.adoc[`CssAnimationProperty`]<xref:Style.adoc[`Style`], `any`>
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_suspendedupdates[_suspendedUpdates]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_suspendedupdates[_suspendedUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L281[ui/core/view-base/index.ts:281]
 
@@ -744,7 +744,7 @@ androidx.fragment.app.FragmentManager
 
 Hide the view and its children from the a11y service
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityhidden[accessibilityHidden]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityhidden[accessibilityHidden]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L239[ui/core/view/index.d.ts:239]
 
@@ -758,7 +758,7 @@ Hide the view and its children from the a11y service
 A hint describes the elements behavior.
 Example: 'Tap change playback speed'
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityhint[accessibilityHint]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityhint[accessibilityHint]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L271[ui/core/view/index.d.ts:271]
 
@@ -773,7 +773,7 @@ The view's unique accessibilityIdentifier.
 
 This is used for automated testing.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityidentifier[accessibilityIdentifier]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityidentifier[accessibilityIdentifier]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L246[ui/core/view/index.d.ts:246]
 
@@ -786,7 +786,7 @@ This is used for automated testing.
 
 Short description of the element, ideally one word.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilitylabel[accessibilityLabel]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilitylabel[accessibilityLabel]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L261[ui/core/view/index.d.ts:261]
 
@@ -800,7 +800,7 @@ Short description of the element, ideally one word.
 Sets the language in which to speak the element's label and value.
 Accepts language ID tags that follows the "BCP 47" specification.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilitylanguage[accessibilityLanguage]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilitylanguage[accessibilityLanguage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L278[ui/core/view/index.d.ts:278]
 
@@ -811,7 +811,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 
 • *accessibilityLiveRegion*: xref:../enums/AccessibilityLiveRegion.adoc[`AccessibilityLiveRegion`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityliveregion[accessibilityLiveRegion]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityliveregion[accessibilityLiveRegion]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L272[ui/core/view/index.d.ts:272]
 
@@ -825,7 +825,7 @@ Accepts language ID tags that follows the "BCP 47" specification.
 This view starts a media session.
 Equivalent to trait = startsMedia
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilitymediasession[accessibilityMediaSession]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilitymediasession[accessibilityMediaSession]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L283[ui/core/view/index.d.ts:283]
 
@@ -838,7 +838,7 @@ Equivalent to trait = startsMedia
 
 Which role should this view be treated by the a11y service?
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityrole[accessibilityRole]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityrole[accessibilityRole]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L251[ui/core/view/index.d.ts:251]
 
@@ -851,7 +851,7 @@ Which role should this view be treated by the a11y service?
 
 Which state should this view be treated as by the a11y service?
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilitystate[accessibilityState]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilitystate[accessibilityState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L256[ui/core/view/index.d.ts:256]
 
@@ -864,7 +864,7 @@ Which state should this view be treated as by the a11y service?
 
 Current value of the element in a localized string.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityvalue[accessibilityValue]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityvalue[accessibilityValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L266[ui/core/view/index.d.ts:266]
 
@@ -877,7 +877,7 @@ Current value of the element in a localized string.
 
 If `true` the element is an accessibility element and all the children will be treated as a single selectable component.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessible[accessible]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessible[accessible]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L234[ui/core/view/index.d.ts:234]
 
@@ -888,7 +888,7 @@ If `true` the element is an accessibility element and all the children will be t
 
 • *alignSelf*: `AlignSelf`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#alignself[alignSelf]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#alignself[alignSelf]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L305[ui/core/view-base/index.ts:305]
 
@@ -904,7 +904,7 @@ Will be available if running on an Android platform.
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#android[android]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L29[ui/repeater/index.ts:29]
 
@@ -917,7 +917,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#android[an
 
 Gets or sets the dynamic elevation offset of the android view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L300[ui/core/view/index.d.ts:300]
 
@@ -930,7 +930,7 @@ Gets or sets the dynamic elevation offset of the android view.
 
 Gets or sets the elevation of the android view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#androidelevation[androidElevation]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#androidelevation[androidElevation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L295[ui/core/view/index.d.ts:295]
 
@@ -941,7 +941,7 @@ Gets or sets the elevation of the android view.
 
 • *automationText*: `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#automationtext[automationText]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#automationtext[automationText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L290[ui/core/view/index.d.ts:290]
 
@@ -954,7 +954,7 @@ Gets or sets the elevation of the android view.
 
 Gets or sets the background style property.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#background[background]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#background[background]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L305[ui/core/view/index.d.ts:305]
 
@@ -967,7 +967,7 @@ Gets or sets the background style property.
 
 Gets or sets the background color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#backgroundcolor[backgroundColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#backgroundcolor[backgroundColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L310[ui/core/view/index.d.ts:310]
 
@@ -980,7 +980,7 @@ Gets or sets the background color of the view.
 
 Gets or sets the background image of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#backgroundimage[backgroundImage]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#backgroundimage[backgroundImage]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L315[ui/core/view/index.d.ts:315]
 
@@ -994,7 +994,7 @@ Gets or sets the background image of the view.
 Gets or sets the binding context of this instance.
 This object is used as a source for each Binding that does not have a source object specified.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bindingcontext[bindingContext]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bindingcontext[bindingContext]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L149[ui/core/view/index.d.ts:149]
 
@@ -1007,7 +1007,7 @@ This object is used as a source for each Binding that does not have a source obj
 
 Gets or sets the bottom border color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderbottomcolor[borderBottomColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderbottomcolor[borderBottomColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L169[ui/core/view/index.d.ts:169]
 
@@ -1016,11 +1016,11 @@ Gets or sets the bottom border color of the view.
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom left border radius of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderbottomleftradius[borderBottomLeftRadius]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderbottomleftradius[borderBottomLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L224[ui/core/view/index.d.ts:224]
 
@@ -1029,11 +1029,11 @@ Gets or sets the bottom left border radius of the view.
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom right border radius of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderbottomrightradius[borderBottomRightRadius]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderbottomrightradius[borderBottomRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L219[ui/core/view/index.d.ts:219]
 
@@ -1042,11 +1042,11 @@ Gets or sets the bottom right border radius of the view.
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom border width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderbottomwidth[borderBottomWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderbottomwidth[borderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L194[ui/core/view/index.d.ts:194]
 
@@ -1059,7 +1059,7 @@ Gets or sets the bottom border width of the view.
 
 Gets or sets the border color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bordercolor[borderColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bordercolor[borderColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L154[ui/core/view/index.d.ts:154]
 
@@ -1072,7 +1072,7 @@ Gets or sets the border color of the view.
 
 Gets or sets the left border color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderleftcolor[borderLeftColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderleftcolor[borderLeftColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L174[ui/core/view/index.d.ts:174]
 
@@ -1081,11 +1081,11 @@ Gets or sets the left border color of the view.
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the left border width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderleftwidth[borderLeftWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderleftwidth[borderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L199[ui/core/view/index.d.ts:199]
 
@@ -1094,11 +1094,11 @@ Gets or sets the left border width of the view.
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border radius of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderradius[borderRadius]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderradius[borderRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L204[ui/core/view/index.d.ts:204]
 
@@ -1111,7 +1111,7 @@ Gets or sets the border radius of the view.
 
 Gets or sets the right border color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderrightcolor[borderRightColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderrightcolor[borderRightColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L164[ui/core/view/index.d.ts:164]
 
@@ -1120,11 +1120,11 @@ Gets or sets the right border color of the view.
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the right border width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderrightwidth[borderRightWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderrightwidth[borderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L189[ui/core/view/index.d.ts:189]
 
@@ -1137,7 +1137,7 @@ Gets or sets the right border width of the view.
 
 Gets or sets the top border color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bordertopcolor[borderTopColor]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bordertopcolor[borderTopColor]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L159[ui/core/view/index.d.ts:159]
 
@@ -1146,11 +1146,11 @@ Gets or sets the top border color of the view.
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top left border radius of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bordertopleftradius[borderTopLeftRadius]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bordertopleftradius[borderTopLeftRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L209[ui/core/view/index.d.ts:209]
 
@@ -1159,11 +1159,11 @@ Gets or sets the top left border radius of the view.
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top right border radius of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bordertoprightradius[borderTopRightRadius]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bordertoprightradius[borderTopRightRadius]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L214[ui/core/view/index.d.ts:214]
 
@@ -1172,11 +1172,11 @@ Gets or sets the top right border radius of the view.
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top border width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bordertopwidth[borderTopWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bordertopwidth[borderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L184[ui/core/view/index.d.ts:184]
 
@@ -1185,11 +1185,11 @@ Gets or sets the top border width of the view.
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#borderwidth[borderWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#borderwidth[borderWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L179[ui/core/view/index.d.ts:179]
 
@@ -1202,7 +1202,7 @@ Gets or sets the border width of the view.
 
 Gets or sets the box shadow of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#boxshadow[boxShadow]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#boxshadow[boxShadow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L320[ui/core/view/index.d.ts:320]
 
@@ -1213,7 +1213,7 @@ Gets or sets the box shadow of the view.
 
 • *className*: `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#classname[className]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#classname[className]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L274[ui/core/view-base/index.ts:274]
 
@@ -1224,7 +1224,7 @@ Gets or sets the box shadow of the view.
 
 • *col*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#col[col]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#col[col]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L295[ui/core/view-base/index.ts:295]
 
@@ -1235,7 +1235,7 @@ Gets or sets the box shadow of the view.
 
 • *colSpan*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#colspan[colSpan]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#colspan[colSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L298[ui/core/view-base/index.ts:298]
 
@@ -1248,7 +1248,7 @@ Gets or sets the box shadow of the view.
 
 Gets or sets the color of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#color[color]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#color[color]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L229[ui/core/view/index.d.ts:229]
 
@@ -1259,7 +1259,7 @@ Gets or sets the color of the view.
 
 • *column*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#column[column]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#column[column]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L296[ui/core/view-base/index.ts:296]
 
@@ -1270,7 +1270,7 @@ Gets or sets the color of the view.
 
 • *columnSpan*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#columnspan[columnSpan]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#columnspan[columnSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L299[ui/core/view-base/index.ts:299]
 
@@ -1283,7 +1283,7 @@ Gets or sets the color of the view.
 
 A valid css string which will be applied for all nested UI components (based on css rules).
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#css[css]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#css[css]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L673[ui/core/view/index.d.ts:673]
 
@@ -1294,7 +1294,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssClasses*: `Set`<``string``>
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#cssclasses[cssClasses]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#cssclasses[cssClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L476[ui/core/view/index.d.ts:476]
 
@@ -1305,7 +1305,7 @@ A valid css string which will be applied for all nested UI components (based on 
 
 • *cssPseudoClasses*: `Set`<``string``>
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#csspseudoclasses[cssPseudoClasses]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#csspseudoclasses[cssPseudoClasses]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L477[ui/core/view/index.d.ts:477]
 
@@ -1319,7 +1319,7 @@ A valid css string which will be applied for all nested UI components (based on 
 Gets the CSS fully qualified type name.
 Using this as element type should allow for PascalCase and kebap-case selectors, when fully qualified, to match the element.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#csstype[cssType]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#csstype[cssType]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L474[ui/core/view/index.d.ts:474]
 
@@ -1330,7 +1330,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *dock*: `"left"` | `"right"` | `"top"` | `"bottom"`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#dock[dock]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#dock[dock]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L293[ui/core/view-base/index.ts:293]
 
@@ -1341,7 +1341,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *domNode*: `DOMNode`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#domnode[domNode]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#domnode[domNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L264[ui/core/view-base/index.ts:264]
 
@@ -1352,7 +1352,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderBottomWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L327[ui/core/view-base/index.ts:327]
 
@@ -1363,7 +1363,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderLeftWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L328[ui/core/view-base/index.ts:328]
 
@@ -1374,7 +1374,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderRightWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveborderrightwidth[effectiveBorderRightWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L326[ui/core/view-base/index.ts:326]
 
@@ -1385,7 +1385,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveBorderTopWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivebordertopwidth[effectiveBorderTopWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L325[ui/core/view-base/index.ts:325]
 
@@ -1396,7 +1396,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveHeight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveheight[effectiveHeight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveheight[effectiveHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L316[ui/core/view-base/index.ts:316]
 
@@ -1407,7 +1407,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveLeft*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveleft[effectiveLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveleft[effectiveLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L291[ui/core/view-base/index.ts:291]
 
@@ -1418,7 +1418,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginBottom*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivemarginbottom[effectiveMarginBottom]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivemarginbottom[effectiveMarginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L319[ui/core/view-base/index.ts:319]
 
@@ -1429,7 +1429,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginLeft*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivemarginleft[effectiveMarginLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivemarginleft[effectiveMarginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L320[ui/core/view-base/index.ts:320]
 
@@ -1440,7 +1440,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginRight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivemarginright[effectiveMarginRight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivemarginright[effectiveMarginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L318[ui/core/view-base/index.ts:318]
 
@@ -1451,7 +1451,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMarginTop*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivemargintop[effectiveMarginTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivemargintop[effectiveMarginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L317[ui/core/view-base/index.ts:317]
 
@@ -1462,7 +1462,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinHeight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveminheight[effectiveMinHeight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveminheight[effectiveMinHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L314[ui/core/view-base/index.ts:314]
 
@@ -1473,7 +1473,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveMinWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectiveminwidth[effectiveMinWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectiveminwidth[effectiveMinWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L313[ui/core/view-base/index.ts:313]
 
@@ -1484,7 +1484,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingBottom*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivepaddingbottom[effectivePaddingBottom]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivepaddingbottom[effectivePaddingBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L323[ui/core/view-base/index.ts:323]
 
@@ -1495,7 +1495,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingLeft*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivepaddingleft[effectivePaddingLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivepaddingleft[effectivePaddingLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L324[ui/core/view-base/index.ts:324]
 
@@ -1506,7 +1506,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingRight*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivepaddingright[effectivePaddingRight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivepaddingright[effectivePaddingRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L322[ui/core/view-base/index.ts:322]
 
@@ -1517,7 +1517,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectivePaddingTop*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivepaddingtop[effectivePaddingTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivepaddingtop[effectivePaddingTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L321[ui/core/view-base/index.ts:321]
 
@@ -1528,7 +1528,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveTop*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivetop[effectiveTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivetop[effectiveTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L292[ui/core/view-base/index.ts:292]
 
@@ -1539,7 +1539,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *effectiveWidth*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#effectivewidth[effectiveWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#effectivewidth[effectiveWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L315[ui/core/view-base/index.ts:315]
 
@@ -1550,7 +1550,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexGrow*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#flexgrow[flexGrow]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#flexgrow[flexGrow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L302[ui/core/view-base/index.ts:302]
 
@@ -1561,7 +1561,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexShrink*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#flexshrink[flexShrink]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#flexshrink[flexShrink]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L303[ui/core/view-base/index.ts:303]
 
@@ -1572,7 +1572,7 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 
 • *flexWrapBefore*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#flexwrapbefore[flexWrapBefore]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#flexwrapbefore[flexWrapBefore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L304[ui/core/view-base/index.ts:304]
 
@@ -1581,11 +1581,11 @@ Using this as element type should allow for PascalCase and kebap-case selectors,
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired height of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#height[height]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#height[height]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L340[ui/core/view/index.d.ts:340]
 
@@ -1594,11 +1594,11 @@ Gets or sets the desired height of the view.
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Horizontal axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#horizontalalignment[horizontalAlignment]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#horizontalalignment[horizontalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L370[ui/core/view/index.d.ts:370]
 
@@ -1609,7 +1609,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *id*: `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#id[id]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#id[id]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L273[ui/core/view-base/index.ts:273]
 
@@ -1620,7 +1620,7 @@ Gets or sets the alignment of this view within its parent along the Horizontal a
 
 • *ignoreTouchAnimation*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#ignoretouchanimation[ignoreTouchAnimation]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#ignoretouchanimation[ignoreTouchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L88[ui/core/view/view-common.ts:88]
 
@@ -1636,7 +1636,7 @@ Will be available if running on an iOS platform.
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#ios[ios]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L28[ui/repeater/index.ts:28]
 
@@ -1651,7 +1651,7 @@ Gets or sets a value indicating whether the the view should totally ignore safe 
 This property is iOS specific.
 Default value: false
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#iosignoresafearea[iosIgnoreSafeArea]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#iosignoresafearea[iosIgnoreSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L463[ui/core/view/index.d.ts:463]
 
@@ -1666,7 +1666,7 @@ Instruct container view to expand beyond the safe area.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#iosoverflowsafearea[iosOverflowSafeArea]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#iosoverflowsafearea[iosOverflowSafeArea]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L895[ui/core/view/index.d.ts:895]
 
@@ -1681,7 +1681,7 @@ Enables or disables the iosOverflowSafeArea property for all children.
 This property is iOS specific.
 Default value: true
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L458[ui/core/view/index.d.ts:458]
 
@@ -1692,7 +1692,7 @@ Default value: true
 
 • *isCollapsed*: `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#iscollapsed[isCollapsed]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#iscollapsed[isCollapsed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L271[ui/core/view-base/index.ts:271]
 
@@ -1706,7 +1706,7 @@ Default value: true
 Gets or sets a value indicating whether the the view is enabled.
 This affects the appearance of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#isenabled[isEnabled]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#isenabled[isEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L443[ui/core/view/index.d.ts:443]
 
@@ -1717,7 +1717,7 @@ This affects the appearance of the view.
 
 • `Private` *isLayoutRequired*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#islayoutrequired[isLayoutRequired]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#islayoutrequired[isLayoutRequired]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L766[ui/core/view/index.d.ts:766]
 
@@ -1731,7 +1731,7 @@ This affects the appearance of the view.
 Gets is layout is valid.
 This is a read-only property.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#islayoutvalid[isLayoutValid]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#islayoutvalid[isLayoutValid]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L468[ui/core/view/index.d.ts:468]
 
@@ -1745,7 +1745,7 @@ This is a read-only property.
 Gets or sets a value indicating whether the user can interact with the view.
 This does not affect the appearance of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#isuserinteractionenabled[isUserInteractionEnabled]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#isuserinteractionenabled[isUserInteractionEnabled]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L448[ui/core/view/index.d.ts:448]
 
@@ -1800,9 +1800,9 @@ Default value is StackLayout with orientation="vertical".
 [#left]
 === left
 
-• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *left*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#left[left]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#left[left]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L289[ui/core/view-base/index.ts:289]
 
@@ -1811,11 +1811,11 @@ Default value is StackLayout with orientation="vertical".
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets margin style property.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#margin[margin]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#margin[margin]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L345[ui/core/view/index.d.ts:345]
 
@@ -1824,11 +1824,11 @@ Gets or sets margin style property.
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the bottom side of this view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#marginbottom[marginBottom]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#marginbottom[marginBottom]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L365[ui/core/view/index.d.ts:365]
 
@@ -1837,11 +1837,11 @@ Specifies extra space on the bottom side of this view.
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the left side of this view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#marginleft[marginLeft]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#marginleft[marginLeft]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L350[ui/core/view/index.d.ts:350]
 
@@ -1850,11 +1850,11 @@ Specifies extra space on the left side of this view.
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the right side of this view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#marginright[marginRight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#marginright[marginRight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L360[ui/core/view/index.d.ts:360]
 
@@ -1863,11 +1863,11 @@ Specifies extra space on the right side of this view.
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the top side of this view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#margintop[marginTop]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#margintop[marginTop]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L355[ui/core/view/index.d.ts:355]
 
@@ -1876,11 +1876,11 @@ Specifies extra space on the top side of this view.
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum height the view may grow to.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#minheight[minHeight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#minheight[minHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L330[ui/core/view/index.d.ts:330]
 
@@ -1889,11 +1889,11 @@ Gets or sets the minimum height the view may grow to.
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum width the view may grow to.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#minwidth[minWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#minwidth[minWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L325[ui/core/view/index.d.ts:325]
 
@@ -1906,7 +1906,7 @@ Gets or sets the minimum width the view may grow to.
 
 Returns the current modal view that this page is showing (is parent of), if any.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#modal[modal]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#modal[modal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L627[ui/core/view/index.d.ts:627]
 
@@ -1917,7 +1917,7 @@ Returns the current modal view that this page is showing (is parent of), if any.
 
 • *nativeViewProtected*: `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#nativeviewprotected[nativeViewProtected]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#nativeviewprotected[nativeViewProtected]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L269[ui/core/view-base/index.ts:269]
 
@@ -1930,7 +1930,7 @@ Returns the current modal view that this page is showing (is parent of), if any.
 
 Gets or sets the opacity style property.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#opacity[opacity]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#opacity[opacity]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L385[ui/core/view/index.d.ts:385]
 
@@ -1941,7 +1941,7 @@ Gets or sets the opacity style property.
 
 • *order*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#order[order]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#order[order]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L301[ui/core/view-base/index.ts:301]
 
@@ -1955,7 +1955,7 @@ Gets or sets the opacity style property.
 Gets or sets the X component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#originx[originX]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#originx[originX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L433[ui/core/view/index.d.ts:433]
 
@@ -1969,7 +1969,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the Y component of the origin point around which the view will be transformed.
 The default value is 0.5 representing the center of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#originy[originY]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#originy[originY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L438[ui/core/view/index.d.ts:438]
 
@@ -1980,7 +1980,7 @@ The default value is 0.5 representing the center of the view.
 
 • *parent*: xref:ViewBase.adoc[`ViewBase`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#parent[parent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#parent[parent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L270[ui/core/view-base/index.ts:270]
 
@@ -1994,7 +1994,7 @@ The default value is 0.5 representing the center of the view.
 Gets or sets the distance of the camera form the view perspective.
 Usually needed when rotating the view over the X or Y axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#perspective[perspective]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#perspective[perspective]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L406[ui/core/view/index.d.ts:406]
 
@@ -2005,7 +2005,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *recycleNativeView*: `"auto"` | `"never"` | `"always"`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#recyclenativeview[recycleNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#recyclenativeview[recycleNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L266[ui/core/view-base/index.ts:266]
 
@@ -2016,7 +2016,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 • *reusable*: `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#reusable[reusable]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#reusable[reusable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L338[ui/core/view-base/index.ts:338]
 
@@ -2029,7 +2029,7 @@ Usually needed when rotating the view over the X or Y axis.
 
 Gets or sets the rotate affine transform of the view along the Z axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#rotate[rotate]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#rotate[rotate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L390[ui/core/view/index.d.ts:390]
 
@@ -2042,7 +2042,7 @@ Gets or sets the rotate affine transform of the view along the Z axis.
 
 Gets or sets the rotate affine transform of the view along the X axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#rotatex[rotateX]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#rotatex[rotateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L395[ui/core/view/index.d.ts:395]
 
@@ -2055,7 +2055,7 @@ Gets or sets the rotate affine transform of the view along the X axis.
 
 Gets or sets the rotate affine transform of the view along the Y axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#rotatey[rotateY]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#rotatey[rotateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L400[ui/core/view/index.d.ts:400]
 
@@ -2066,7 +2066,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *row*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#row[row]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#row[row]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L294[ui/core/view-base/index.ts:294]
 
@@ -2077,7 +2077,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 • *rowSpan*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#rowspan[rowSpan]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#rowspan[rowSpan]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L297[ui/core/view-base/index.ts:297]
 
@@ -2090,7 +2090,7 @@ Gets or sets the rotate affine transform of the view along the Y axis.
 
 Gets or sets the scaleX affine transform of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#scalex[scaleX]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#scalex[scaleX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L421[ui/core/view/index.d.ts:421]
 
@@ -2103,7 +2103,7 @@ Gets or sets the scaleX affine transform of the view.
 
 Gets or sets the scaleY affine transform of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#scaley[scaleY]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#scaley[scaleY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L426[ui/core/view/index.d.ts:426]
 
@@ -2114,7 +2114,7 @@ Gets or sets the scaleY affine transform of the view.
 
 • *testID*: `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#testid[testID]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#testid[testID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L85[ui/core/view/view-common.ts:85]
 
@@ -2123,9 +2123,9 @@ Gets or sets the scaleY affine transform of the view.
 [#top]
 === top
 
-• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *top*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#top[top]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#top[top]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L290[ui/core/view-base/index.ts:290]
 
@@ -2134,9 +2134,9 @@ Gets or sets the scaleY affine transform of the view.
 [#touchanimation]
 === touchAnimation
 
-• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+• *touchAnimation*: `boolean` | link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#touchanimation[touchAnimation]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#touchanimation[touchAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L87[ui/core/view/view-common.ts:87]
 
@@ -2147,7 +2147,7 @@ Gets or sets the scaleY affine transform of the view.
 
 • *touchDelay*: `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#touchdelay[touchDelay]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#touchdelay[touchDelay]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L89[ui/core/view/view-common.ts:89]
 
@@ -2160,7 +2160,7 @@ Gets or sets the scaleY affine transform of the view.
 
 Gets or sets the translateX affine transform of the view in device independent pixels.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#translatex[translateX]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#translatex[translateX]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L411[ui/core/view/index.d.ts:411]
 
@@ -2173,7 +2173,7 @@ Gets or sets the translateX affine transform of the view in device independent p
 
 Gets or sets the translateY affine transform of the view in device independent pixels.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#translatey[translateY]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#translatey[translateY]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L416[ui/core/view/index.d.ts:416]
 
@@ -2182,11 +2182,11 @@ Gets or sets the translateY affine transform of the view in device independent p
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Vertical axis.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#verticalalignment[verticalAlignment]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#verticalalignment[verticalAlignment]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L375[ui/core/view/index.d.ts:375]
 
@@ -2197,7 +2197,7 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 
 • *viewController*: `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#viewcontroller[viewController]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#viewcontroller[viewController]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L267[ui/core/view-base/index.ts:267]
 
@@ -2206,11 +2206,11 @@ Gets or sets the alignment of this view within its parent along the Vertical axi
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 Gets or sets the visibility of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#visibility[visibility]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#visibility[visibility]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L380[ui/core/view/index.d.ts:380]
 
@@ -2219,11 +2219,11 @@ Gets or sets the visibility of the view.
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired width of the view.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#width[width]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#width[width]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L335[ui/core/view/index.d.ts:335]
 
@@ -2236,7 +2236,7 @@ Gets or sets the desired width of the view.
 
 String value used when hooking to accessibilityBlur event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityblurevent[accessibilityBlurEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityblurevent[accessibilityBlurEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L122[ui/core/view/index.d.ts:122]
 
@@ -2249,7 +2249,7 @@ String value used when hooking to accessibilityBlur event.
 
 String value used when hooking to accessibilityFocusChanged event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L132[ui/core/view/index.d.ts:132]
 
@@ -2262,7 +2262,7 @@ String value used when hooking to accessibilityFocusChanged event.
 
 String value used when hooking to accessibilityFocus event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityfocusevent[accessibilityFocusEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityfocusevent[accessibilityFocusEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L127[ui/core/view/index.d.ts:127]
 
@@ -2273,7 +2273,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *accessibilityPerformEscapeEvent*: `string` = `accessibilityPerformEscapeEvent`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L78[ui/core/view/view-common.ts:78]
 
@@ -2284,7 +2284,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *createdEvent*: `string` = `'created'`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#createdevent[createdEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#createdevent[createdEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L250[ui/core/view-base/index.ts:250]
 
@@ -2295,7 +2295,7 @@ String value used when hooking to accessibilityFocus event.
 
 ▪ `Static` *disposeNativeViewEvent*: `string` = `'disposeNativeView'`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#disposenativeviewevent[disposeNativeViewEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#disposenativeviewevent[disposeNativeViewEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L251[ui/core/view-base/index.ts:251]
 
@@ -2317,7 +2317,7 @@ String value used when hooking to accessibilityFocus event.
 
 String value used when hooking to layoutChanged event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#layoutchangedevent[layoutChangedEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#layoutchangedevent[layoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L108[ui/core/view/index.d.ts:108]
 
@@ -2328,7 +2328,7 @@ String value used when hooking to layoutChanged event.
 
 ▪ `Static` *loadedEvent*: `string` = `'loaded'`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#loadedevent[loadedEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#loadedevent[loadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L248[ui/core/view-base/index.ts:248]
 
@@ -2339,7 +2339,7 @@ String value used when hooking to layoutChanged event.
 
 ▪ `Static` *propertyChangeEvent*: `string` = `'propertyChange'`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#propertychangeevent[propertyChangeEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#propertychangeevent[propertyChangeEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L51[data/observable/index.ts:51]
 
@@ -2352,7 +2352,7 @@ String value used when hooking to layoutChanged event.
 
 String value used when hooking to showingModally event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#showingmodallyevent[showingModallyEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#showingmodallyevent[showingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L112[ui/core/view/index.d.ts:112]
 
@@ -2365,7 +2365,7 @@ String value used when hooking to showingModally event.
 
 String value used when hooking to shownModally event.
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#shownmodallyevent[shownModallyEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#shownmodallyevent[shownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L117[ui/core/view/index.d.ts:117]
 
@@ -2376,7 +2376,7 @@ String value used when hooking to shownModally event.
 
 ▪ `Static` *unloadedEvent*: `string` = `'unloaded'`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#unloadedevent[unloadedEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#unloadedevent[unloadedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L249[ui/core/view-base/index.ts:249]
 
@@ -2436,11 +2436,11 @@ CustomLayoutView.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Inherited from
 
@@ -2456,7 +2456,7 @@ CustomLayoutView.backgroundRepeat
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+| link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 |===
 
 ==== Returns
@@ -2728,11 +2728,11 @@ CustomLayoutView.style
 [#texttransform]
 === textTransform
 
-• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• `get` *textTransform*(): link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Inherited from
 
@@ -2748,7 +2748,7 @@ CustomLayoutView.textTransform
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
@@ -2801,7 +2801,7 @@ CustomLayoutView.typeName
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_addview[_addView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_addview[_addView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L675[ui/core/view-base/index.ts:675]
 
@@ -2828,7 +2828,7 @@ CustomLayoutView.typeName
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_addviewcore[_addViewCore]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_addviewcore[_addViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L700[ui/core/view-base/index.ts:700]
 
@@ -2857,7 +2857,7 @@ Method is intended to be overridden by inheritors and used as "protected".
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L982[ui/core/view-base/index.ts:982]
 
@@ -2893,7 +2893,7 @@ This allows custom handling
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_applybackground[_applyBackground]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_applybackground[_applyBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L837[ui/core/view/index.d.ts:837]
 
@@ -2925,7 +2925,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_applyxmlattribute[_applyXmlAttribute]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_applyxmlattribute[_applyXmlAttribute]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1017[ui/core/view-base/index.ts:1017]
 
@@ -2957,7 +2957,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `T`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_batchupdate[_batchUpdate]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_batchupdate[_batchUpdate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L497[ui/core/view-base/index.ts:497]
 
@@ -2981,7 +2981,7 @@ Now attributes are expected to be set as plain properties on the view instances.
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L975[ui/core/view-base/index.ts:975]
 
@@ -2999,7 +2999,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L703[ui/core/view/index.d.ts:703]
 
@@ -3029,7 +3029,7 @@ Should be used by plugins like `nativescript-angular` which implement their own 
 
 xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_createpropertychangedata[_createPropertyChangeData]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_createpropertychangedata[_createPropertyChangeData]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L313[data/observable/index.ts:313]
 
@@ -3044,7 +3044,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_dialogclosed[_dialogClosed]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_dialogclosed[_dialogClosed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1113[ui/core/view-base/index.ts:1113]
 
@@ -3068,7 +3068,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_eachlayoutview[_eachLayoutView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_eachlayoutview[_eachLayoutView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L711[ui/core/view/index.d.ts:711]
 
@@ -3092,7 +3092,7 @@ xref:../interfaces/PropertyChangeData.adoc[`PropertyChangeData`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_emit[_emit]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_emit[_emit]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L323[data/observable/index.ts:323]
 
@@ -3125,7 +3125,7 @@ Return view bounds.
 | `number`
 |===
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L794[ui/core/view/index.d.ts:794]
 
@@ -3184,7 +3184,7 @@ xref:View.adoc[`View`]
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_getfragmentmanager[_getFragmentManager]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_getfragmentmanager[_getFragmentManager]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L850[ui/core/view/index.d.ts:850]
 
@@ -3199,7 +3199,7 @@ xref:View.adoc[`View`]
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_getnativeviewscount[_getNativeViewsCount]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_getnativeviewscount[_getNativeViewsCount]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L697[ui/core/view/index.d.ts:697]
 
@@ -3216,7 +3216,7 @@ Internal method: Gets all modal views of the current view.
 
 xref:ViewBase.adoc[`ViewBase`][]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_getrootmodalviews[_getRootModalViews]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_getrootmodalviews[_getRootModalViews]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L709[ui/core/view/index.d.ts:709]
 
@@ -3242,7 +3242,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `never`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_getvalue[_getValue]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_getvalue[_getValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L880[ui/core/view/index.d.ts:880]
 
@@ -3266,7 +3266,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_gotovisualstate[_goToVisualState]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_gotovisualstate[_goToVisualState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L803[ui/core/view/index.d.ts:803]
 
@@ -3296,7 +3296,7 @@ xref:ViewBase.adoc[`ViewBase`][]
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_handlelivesync[_handleLivesync]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_handlelivesync[_handleLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L851[ui/core/view/index.d.ts:851]
 
@@ -3322,7 +3322,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_hasancestorview[_hasAncestorView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_hasancestorview[_hasAncestorView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L874[ui/core/view/index.d.ts:874]
 
@@ -3349,7 +3349,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_hidenativemodalview[_hideNativeModalView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_hidenativemodalview[_hideNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L422[ui/core/view/view-common.ts:422]
 
@@ -3373,7 +3373,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_inheritstylescope[_inheritStyleScope]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_inheritstylescope[_inheritStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1082[ui/core/view-base/index.ts:1082]
 
@@ -3388,7 +3388,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_layoutparent[_layoutParent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_layoutparent[_layoutParent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L469[ui/core/view-base/index.ts:469]
 
@@ -3418,7 +3418,7 @@ Checks whether the current view has specific view for an ancestor.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_observe[_observe]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_observe[_observe]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L256[ui/core/view/view-common.ts:256]
 
@@ -3435,7 +3435,7 @@ Called in android when native view is attached to window.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_onattachedtowindow[_onAttachedToWindow]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_onattachedtowindow[_onAttachedToWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L864[ui/core/view/index.d.ts:864]
 
@@ -3450,7 +3450,7 @@ Called in android when native view is attached to window.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_oncssstatechange[_onCssStateChange]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_oncssstatechange[_onCssStateChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1073[ui/core/view-base/index.ts:1073]
 
@@ -3467,7 +3467,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_ondetachedfromwindow[_onDetachedFromWindow]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L869[ui/core/view/index.d.ts:869]
 
@@ -3519,7 +3519,7 @@ Called in android when native view is dettached from window.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_onlivesync[_onLivesync]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_onlivesync[_onLivesync]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L846[ui/core/view/index.d.ts:846]
 
@@ -3534,7 +3534,7 @@ Called in android when native view is dettached from window.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_onrootviewreset[_onRootViewReset]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_onrootviewreset[_onRootViewReset]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1121[ui/core/view-base/index.ts:1121]
 
@@ -3551,7 +3551,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_onsizechanged[_onSizeChanged]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_onsizechanged[_onSizeChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L716[ui/core/view/index.d.ts:716]
 
@@ -3575,7 +3575,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_parentchanged[_parentChanged]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_parentchanged[_parentChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1038[ui/core/view-base/index.ts:1038]
 
@@ -3590,7 +3590,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L424[ui/core/view/view-common.ts:424]
 
@@ -3605,7 +3605,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L442[ui/core/view/view-common.ts:442]
 
@@ -3620,7 +3620,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L432[ui/core/view/view-common.ts:432]
 
@@ -3644,7 +3644,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_redrawnativebackground[_redrawNativeBackground]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_redrawnativebackground[_redrawNativeBackground]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L832[ui/core/view/index.d.ts:832]
 
@@ -3668,7 +3668,7 @@ iOS Only Internal method used to update various view details like background rer
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_removeanimation[_removeAnimation]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_removeanimation[_removeAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L842[ui/core/view/index.d.ts:842]
 
@@ -3696,7 +3696,7 @@ Do not use outside the UI Stack implementation.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_removeview[_removeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_removeview[_removeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L733[ui/core/view-base/index.ts:733]
 
@@ -3722,7 +3722,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_removeviewcore[_removeViewCore]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_removeviewcore[_removeViewCore]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L754[ui/core/view-base/index.ts:754]
 
@@ -3748,7 +3748,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L993[ui/core/view-base/index.ts:993]
 
@@ -3785,7 +3785,7 @@ Method is intended to be overridden by inheritors and used as "protected"
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_resumenativeupdates[_resumeNativeUpdates]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_resumenativeupdates[_resumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L482[ui/core/view-base/index.ts:482]
 
@@ -3805,14 +3805,14 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setchildminheightnative[_setChildMinHeightNative]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setchildminheightnative[_setChildMinHeightNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L914[ui/core/view/index.d.ts:914]
 
@@ -3832,14 +3832,14 @@ Method is intended to be overridden by inheritors and used as "protected"
 | xref:View.adoc[`View`]
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setchildminwidthnative[_setChildMinWidthNative]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setchildminwidthnative[_setChildMinWidthNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L910[ui/core/view/index.d.ts:910]
 
@@ -3884,7 +3884,7 @@ Called by layout method to cache view bounds.
 | `boolean`
 |===
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L789[ui/core/view/index.d.ts:789]
 
@@ -3913,7 +3913,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L784[ui/core/view/index.d.ts:784]
 
@@ -3930,14 +3930,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setminheightnative[_setMinHeightNative]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setminheightnative[_setMinHeightNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L828[ui/core/view/index.d.ts:828]
 
@@ -3954,14 +3954,14 @@ Called by measure method to cache measureSpecs.
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setminwidthnative[_setMinWidthNative]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setminwidthnative[_setMinWidthNative]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L824[ui/core/view/index.d.ts:824]
 
@@ -3976,7 +3976,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setnativecliptobounds[_setNativeClipToBounds]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setnativecliptobounds[_setNativeClipToBounds]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L779[ui/core/view/index.d.ts:779]
 
@@ -4003,7 +4003,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setnativeviewframe[_setNativeViewFrame]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setnativeviewframe[_setNativeViewFrame]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L807[ui/core/view/index.d.ts:807]
 
@@ -4032,7 +4032,7 @@ Called by measure method to cache measureSpecs.
 
 `never`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setvalue[_setValue]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setvalue[_setValue]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L885[ui/core/view/index.d.ts:885]
 
@@ -4056,7 +4056,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setupasrootview[_setupAsRootView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setupasrootview[_setupAsRootView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L249[ui/core/view/view-common.ts:249]
 
@@ -4086,7 +4086,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_setupui[_setupUI]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_setupui[_setupUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L804[ui/core/view-base/index.ts:804]
 
@@ -4101,7 +4101,7 @@ Called by measure method to cache measureSpecs.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_shoulddelaylayout[_shouldDelayLayout]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_shoulddelaylayout[_shouldDelayLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L720[ui/core/view-base/index.ts:720]
 
@@ -4128,7 +4128,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_shownativemodalview[_showNativeModalView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_shownativemodalview[_showNativeModalView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L387[ui/core/view/view-common.ts:387]
 
@@ -4152,7 +4152,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_suspendnativeupdates[_suspendNativeUpdates]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_suspendnativeupdates[_suspendNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L475[ui/core/view-base/index.ts:475]
 
@@ -4176,7 +4176,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_teardownui[_tearDownUI]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_teardownui[_tearDownUI]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L916[ui/core/view-base/index.ts:916]
 
@@ -4209,7 +4209,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L812[ui/core/view/index.d.ts:812]
 
@@ -4233,7 +4233,7 @@ Called by measure method to cache measureSpecs.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_updatenativelayoutparams[_updateNativeLayoutParams]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_updatenativelayoutparams[_updateNativeLayoutParams]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L906[ui/core/view/index.d.ts:906]
 
@@ -4265,7 +4265,7 @@ Updates styleScope or create new styleScope.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#_updatestylescope[_updateStyleScope]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#_updatestylescope[_updateStyleScope]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L859[ui/core/view/index.d.ts:859]
 
@@ -4291,7 +4291,7 @@ Make an announcement to the screen reader.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityannouncement[accessibilityAnnouncement]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityannouncement[accessibilityAnnouncement]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L751[ui/core/view/index.d.ts:751]
 
@@ -4308,7 +4308,7 @@ Announce screen changed
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#accessibilityscreenchanged[accessibilityScreenChanged]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L756[ui/core/view/index.d.ts:756]
 
@@ -4335,7 +4335,7 @@ Adds a new values to current css.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#addcss[addCss]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#addcss[addCss]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L680[ui/core/view/index.d.ts:680]
 
@@ -4362,7 +4362,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#addcssfile[addCssFile]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#addcssfile[addCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L687[ui/core/view/index.d.ts:687]
 
@@ -4392,7 +4392,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#addeventlistener[addEventListener]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#addeventlistener[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L268[ui/core/view/view-common.ts:268]
 
@@ -4416,7 +4416,7 @@ Adds the content of the file to the current css.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#addpseudoclass[addPseudoClass]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#addpseudoclass[addPseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L568[ui/core/view-base/index.ts:568]
 
@@ -4442,7 +4442,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `AnimationPromise`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#animate[animate]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#animate[animate]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L632[ui/core/view/index.d.ts:632]
 
@@ -4471,7 +4471,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#bind[bind]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#bind[bind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L598[ui/core/view-base/index.ts:598]
 
@@ -4486,7 +4486,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#callloaded[callLoaded]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#callloaded[callLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L537[ui/core/view-base/index.ts:537]
 
@@ -4501,7 +4501,7 @@ Animates one or more properties of the view based on the supplied options.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#callunloaded[callUnloaded]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#callunloaded[callUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L541[ui/core/view-base/index.ts:541]
 
@@ -4528,7 +4528,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#changecssfile[changeCssFile]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#changecssfile[changeCssFile]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L694[ui/core/view/index.d.ts:694]
 
@@ -4552,7 +4552,7 @@ Changes the current css to the content of the file.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#closemodal[closeModal]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#closemodal[closeModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L371[ui/core/view/view-common.ts:371]
 
@@ -4578,7 +4578,7 @@ Creates an Animation object based on the supplied options.
 
 xref:Animation.adoc[`Animation`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#createanimation[createAnimation]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#createanimation[createAnimation]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L637[ui/core/view/index.d.ts:637]
 
@@ -4593,7 +4593,7 @@ xref:Animation.adoc[`Animation`]
 
 `Object`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#createnativeview[createNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#createnativeview[createNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L762[ui/core/view-base/index.ts:762]
 
@@ -4617,7 +4617,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#deletepseudoclass[deletePseudoClass]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#deletepseudoclass[deletePseudoClass]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L579[ui/core/view-base/index.ts:579]
 
@@ -4641,7 +4641,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#destroynode[destroyNode]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#destroynode[destroyNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L910[ui/core/view-base/index.ts:910]
 
@@ -4656,7 +4656,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#disposenativeview[disposeNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#disposenativeview[disposeNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L766[ui/core/view-base/index.ts:766]
 
@@ -4680,7 +4680,7 @@ xref:Animation.adoc[`Animation`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#eachchild[eachChild]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#eachchild[eachChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L969[ui/core/view/view-common.ts:969]
 
@@ -4710,7 +4710,7 @@ Iteration stops if this method returns falsy value.
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#eachchildview[eachChildView]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#eachchildview[eachChildView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L171[ui/repeater/index.ts:171]
 
@@ -4725,7 +4725,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#eachchildv
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#ensuredomnode[ensureDomNode]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#ensuredomnode[ensureDomNode]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L416[ui/core/view-base/index.ts:416]
 
@@ -4743,7 +4743,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#focus[focus]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#focus[focus]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L578[ui/core/view/index.d.ts:578]
 
@@ -4767,7 +4767,7 @@ Returns a value indicating whether this view or one of its descendants actually 
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#get[get]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#get[get]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L56[data/observable/index.ts:56]
 
@@ -4784,7 +4784,7 @@ Returns the actual size of the view in device-independent pixels.
 
 xref:../interfaces/Size.adoc[`Size`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getactualsize[getActualSize]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getactualsize[getActualSize]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L662[ui/core/view/index.d.ts:662]
 
@@ -4808,7 +4808,7 @@ xref:../interfaces/Size.adoc[`Size`]
 
 xref:GesturesObserver.adoc[`GesturesObserver`][]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getgestureobservers[getGestureObservers]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getgestureobservers[getGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L580[ui/core/view/index.d.ts:580]
 
@@ -4825,7 +4825,7 @@ Returns the location of this view in the window coordinate system.
 
 `Point`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getlocationinwindow[getLocationInWindow]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getlocationinwindow[getLocationInWindow]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L647[ui/core/view/index.d.ts:647]
 
@@ -4842,7 +4842,7 @@ Returns the location of this view in the screen coordinate system.
 
 `Point`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getlocationonscreen[getLocationOnScreen]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getlocationonscreen[getLocationOnScreen]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L652[ui/core/view/index.d.ts:652]
 
@@ -4868,7 +4868,7 @@ Returns the location of this view in the otherView's coordinate system.
 
 `Point`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getlocationrelativeto[getLocationRelativeTo]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getlocationrelativeto[getLocationRelativeTo]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L657[ui/core/view/index.d.ts:657]
 
@@ -4885,7 +4885,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getmeasuredheight[getMeasuredHeight]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getmeasuredheight[getMeasuredHeight]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L506[ui/core/view/index.d.ts:506]
 
@@ -4900,7 +4900,7 @@ Returns the raw height component.
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getmeasuredstate[getMeasuredState]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getmeasuredstate[getMeasuredState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L508[ui/core/view/index.d.ts:508]
 
@@ -4917,7 +4917,7 @@ Returns the raw width component.
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getmeasuredwidth[getMeasuredWidth]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getmeasuredwidth[getMeasuredWidth]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L501[ui/core/view/index.d.ts:501]
 
@@ -4950,7 +4950,7 @@ Returns the iOS safe area insets of this view.
 | `any`
 |===
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getsafeareainsets[getSafeAreaInsets]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getsafeareainsets[getSafeAreaInsets]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L642[ui/core/view/index.d.ts:642]
 
@@ -4983,7 +4983,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getviewbydomid[getViewByDomId]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getviewbydomid[getViewByDomId]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L404[ui/core/view-base/index.ts:404]
 
@@ -5016,7 +5016,7 @@ Returns the iOS safe area insets of this view.
 
 `T`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#getviewbyid[getViewById]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#getviewbyid[getViewById]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L400[ui/core/view-base/index.ts:400]
 
@@ -5033,7 +5033,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#hasgestureobservers[hasGestureObservers]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#hasgestureobservers[hasGestureObservers]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L721[ui/core/view/index.d.ts:721]
 
@@ -5057,7 +5057,7 @@ Android only check if gesture observers are attached
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#haslisteners[hasListeners]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#haslisteners[hasListeners]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L309[data/observable/index.ts:309]
 
@@ -5072,7 +5072,7 @@ Android only check if gesture observers are attached
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#initnativeview[initNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#initnativeview[initNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L773[ui/core/view-base/index.ts:773]
 
@@ -5116,7 +5116,7 @@ In that method, they should call layout on each of their children.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#layout[layout]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#layout[layout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L496[ui/core/view/index.d.ts:496]
 
@@ -5155,7 +5155,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#layoutnativeview[layoutNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#layoutnativeview[layoutNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L541[ui/core/view/index.d.ts:541]
 
@@ -5179,7 +5179,7 @@ Called from onLayout when native view position is about to be changed.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#loadview[loadView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#loadview[loadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L714[ui/core/view-base/index.ts:714]
 
@@ -5213,7 +5213,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#measure[measure]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#measure[measure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L485[ui/core/view/index.d.ts:485]
 
@@ -5246,7 +5246,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#notify[notify]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#notify[notify]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L274[data/observable/index.ts:274]
 
@@ -5276,7 +5276,7 @@ Therefore, only onMeasure(int, int) can and must be overridden by subclasses.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#notifypropertychange[notifyPropertyChange]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#notifypropertychange[notifyPropertyChange]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L305[data/observable/index.ts:305]
 
@@ -5312,7 +5312,7 @@ If not defined, all listeners for the event names will be removed.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#off[off]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#off[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L588[ui/core/view/index.d.ts:588]
 
@@ -5350,7 +5350,7 @@ Optionally could be used more events separated by `,` (e.g.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L596[ui/core/view/index.d.ts:596]
 
@@ -5377,7 +5377,7 @@ Raised when a loaded event occurs.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L601[ui/core/view/index.d.ts:601]
 
@@ -5404,7 +5404,7 @@ Raised when an unloaded event occurs.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L606[ui/core/view/index.d.ts:606]
 
@@ -5432,7 +5432,7 @@ This event is raised only for android.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L612[ui/core/view/index.d.ts:612]
 
@@ -5459,7 +5459,7 @@ Raised before the view is shown as a modal dialog.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L617[ui/core/view/index.d.ts:617]
 
@@ -5486,7 +5486,7 @@ Raised after the view is shown as a modal dialog.
 
 `any`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L622[ui/core/view/index.d.ts:622]
 
@@ -5503,7 +5503,7 @@ Derived classes can override this method to handle Android back button press.
 
 `boolean`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onbackpressed[onBackPressed]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onbackpressed[onBackPressed]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L667[ui/core/view/index.d.ts:667]
 
@@ -5545,7 +5545,7 @@ Derived classes with children should override this method and call layout on eac
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onlayout[onLayout]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onlayout[onLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L177[ui/repeater/index.ts:177]
 
@@ -5562,7 +5562,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onlayout[o
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onloaded[onLoaded]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onloaded[onLoaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L37[ui/repeater/index.ts:37]
 
@@ -5600,7 +5600,7 @@ The requirements are encoded with View.MeasureSpec.
 
 ==== Overrides
 
-xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onmeasure[onMeasure]
+xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onmeasure[onMeasure]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/repeater/index.ts#L192[ui/repeater/index.ts:192]
 
@@ -5615,7 +5615,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onmeasure[
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onresumenativeupdates[onResumeNativeUpdates]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onresumenativeupdates[onResumeNativeUpdates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1053[ui/core/view-base/index.ts:1053]
 
@@ -5630,7 +5630,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onmeasure[
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onunloaded[onUnloaded]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#onunloaded[onUnloaded]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L449[ui/core/view-base/index.ts:449]
 
@@ -5660,7 +5660,7 @@ xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#onmeasure[
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#once[once]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#once[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L92[data/observable/index.ts:92]
 
@@ -5705,7 +5705,7 @@ Forces the Repeater to reload all its items.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#removeeventlistener[removeEventListener]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#removeeventlistener[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L296[ui/core/view/view-common.ts:296]
 
@@ -5720,7 +5720,7 @@ Forces the Repeater to reload all its items.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#requestlayout[requestLayout]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#requestlayout[requestLayout]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L912[ui/core/view/view-common.ts:912]
 
@@ -5735,7 +5735,7 @@ Forces the Repeater to reload all its items.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#resetnativeview[resetNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#resetnativeview[resetNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1047[ui/core/view/view-common.ts:1047]
 
@@ -5772,7 +5772,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#sendaccessibilityevent[sendAccessibilityEvent]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#sendaccessibilityevent[sendAccessibilityEvent]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L746[ui/core/view/index.d.ts:746]
 
@@ -5799,7 +5799,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#set[set]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#set[set]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L425[ui/core/view-base/index.ts:425]
 
@@ -5823,7 +5823,7 @@ type = 'screen' large change made to the screen.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#setinlinestyle[setInlineStyle]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#setinlinestyle[setInlineStyle]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1029[ui/core/view-base/index.ts:1029]
 
@@ -5857,7 +5857,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#setmeasureddimension[setMeasuredDimension]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#setmeasureddimension[setMeasuredDimension]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L532[ui/core/view/index.d.ts:532]
 
@@ -5881,7 +5881,7 @@ May be a complex bit mask as defined by MEASURED_SIZE_MASK and MEASURED_STATE_TO
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#setnativeview[setNativeView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#setnativeview[setNativeView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L892[ui/core/view-base/index.ts:892]
 
@@ -5898,7 +5898,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#setontouchlistener[setOnTouchListener]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#setontouchlistener[setOnTouchListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L726[ui/core/view/index.d.ts:726]
 
@@ -5925,7 +5925,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#setproperty[setProperty]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#setproperty[setProperty]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L72[data/observable/index.ts:72]
 
@@ -5952,7 +5952,7 @@ Android only to set the touch listener
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#settestid[setTestID]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#settestid[setTestID]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L1126[ui/core/view/view-common.ts:1126]
 
@@ -5976,7 +5976,7 @@ Android only to set the touch listener
 
 xref:View.adoc[`View`]
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#showmodal[showModal]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#showmodal[showModal]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-common.ts#L363[ui/core/view/view-common.ts:363]
 
@@ -5991,7 +5991,7 @@ xref:View.adoc[`View`]
 
 `string`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#tostring[toString]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#tostring[toString]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L1058[ui/core/view-base/index.ts:1058]
 
@@ -6015,7 +6015,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#unbind[unbind]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#unbind[unbind]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L627[ui/core/view-base/index.ts:627]
 
@@ -6039,7 +6039,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#unloadview[unloadView]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#unloadview[unloadView]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view-base/index.ts#L724[ui/core/view-base/index.ts:724]
 
@@ -6069,7 +6069,7 @@ xref:View.adoc[`View`]
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#addeventlistener-1[addEventListener]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#addeventlistener-1[addEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L235[data/observable/index.ts:235]
 
@@ -6096,7 +6096,7 @@ xref:View.adoc[`View`]
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#combinemeasuredstates[combineMeasuredStates]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#combinemeasuredstates[combineMeasuredStates]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L572[ui/core/view/index.d.ts:572]
 
@@ -6144,7 +6144,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#layoutchild[layoutChild]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#layoutchild[layoutChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L560[ui/core/view/index.d.ts:560]
 
@@ -6194,7 +6194,7 @@ You can pass null.
 | `number`
 |===
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#measurechild[measureChild]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#measurechild[measureChild]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L550[ui/core/view/index.d.ts:550]
 
@@ -6224,7 +6224,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#off-1[off]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#off-1[off]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L183[data/observable/index.ts:183]
 
@@ -6254,7 +6254,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#on-1[on]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#on-1[on]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L160[data/observable/index.ts:160]
 
@@ -6284,7 +6284,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#once-1[once]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#once-1[once]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L164[data/observable/index.ts:164]
 
@@ -6314,7 +6314,7 @@ You can pass null.
 
 `void`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#removeeventlistener-1[removeEventListener]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#removeeventlistener-1[removeEventListener]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L187[data/observable/index.ts:187]
 
@@ -6351,6 +6351,6 @@ The returned value is a compound integer, with the resolved size in the MEASURED
 
 `number`
 
-==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.md#resolvesizeandstate[resolveSizeAndState]
+==== Inherited from xref:CustomLayoutView.adoc[CustomLayoutView].link:CustomLayoutView.adoc#resolvesizeandstate[resolveSizeAndState]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/index.d.ts#L570[ui/core/view/index.d.ts:570]

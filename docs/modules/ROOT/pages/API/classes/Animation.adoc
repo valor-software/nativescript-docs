@@ -10,17 +10,17 @@ Defines a animation set.
 
 === Constructors
 
-* link:Animation.md#constructor[constructor]
+* link:Animation.adoc#constructor[constructor]
 
 === Properties
 
-* link:Animation.md#cancel[cancel]
-* link:Animation.md#isplaying[isPlaying]
-* link:Animation.md#play[play]
+* link:Animation.adoc#cancel[cancel]
+* link:Animation.adoc#isplaying[isPlaying]
+* link:Animation.adoc#play[play]
 
 === Methods
 
-* link:Animation.md#_resolveanimationcurve[_resolveAnimationCurve]
+* link:Animation.adoc#_resolveanimationcurve[_resolveAnimationCurve]
 
 == Constructors
 

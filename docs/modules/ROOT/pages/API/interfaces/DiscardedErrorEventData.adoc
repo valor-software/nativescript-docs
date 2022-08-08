@@ -16,11 +16,11 @@ Event data containing information about discarded application errors.
 
 === Properties
 
-* link:DiscardedErrorEventData.md#android[android]
-* link:DiscardedErrorEventData.md#error[error]
-* link:DiscardedErrorEventData.md#eventname[eventName]
-* link:DiscardedErrorEventData.md#ios[ios]
-* link:DiscardedErrorEventData.md#object[object]
+* link:DiscardedErrorEventData.adoc#android[android]
+* link:DiscardedErrorEventData.adoc#error[error]
+* link:DiscardedErrorEventData.adoc#eventname[eventName]
+* link:DiscardedErrorEventData.adoc#ios[ios]
+* link:DiscardedErrorEventData.adoc#object[object]
 
 == Properties
 
@@ -34,7 +34,7 @@ Valid only when running on Android.
 
 ==== Inherited from
 
-xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#android[android]
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L114[application/index.d.ts:114]
 
@@ -58,7 +58,7 @@ The name of the event.
 
 ==== Inherited from
 
-xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#eventname[eventName]
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L119[application/index.d.ts:119]
 
@@ -74,7 +74,7 @@ Valid only when running on iOS.
 
 ==== Inherited from
 
-xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#ios[ios]
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L109[application/index.d.ts:109]
 
@@ -89,6 +89,6 @@ The instance that has raised the event.
 
 ==== Inherited from
 
-xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.md#object[object]
+xref:ApplicationEventData.adoc[ApplicationEventData].link:ApplicationEventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L124[application/index.d.ts:124]

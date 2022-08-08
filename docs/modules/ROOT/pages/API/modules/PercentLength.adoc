@@ -8,10 +8,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PercentLengt
 
 === Functions
 
-* link:PercentLength.md#converttostring[convertToString]
-* link:PercentLength.md#equals[equals]
-* link:PercentLength.md#parse[parse]
-* link:PercentLength.md#todevicepixels[toDevicePixels]
+* link:PercentLength.adoc#converttostring[convertToString]
+* link:PercentLength.adoc#equals[equals]
+* link:PercentLength.adoc#parse[parse]
+* link:PercentLength.adoc#todevicepixels[toDevicePixels]
 
 == Functions
 
@@ -26,16 +26,14 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / PercentLengt
 | Name | Type
 
 | `length`
-| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+| link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 |===
 
 ==== Returns
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L146[ui/styling/style-properties.ts:146]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L146[ui/styling/style-properties.ts:146]
 
 '''
 
@@ -50,26 +48,24 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `a`
-| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+| link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 | `b`
-| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+| link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 |===
 
 ==== Returns
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L140[ui/styling/style-properties.ts:140]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L140[ui/styling/style-properties.ts:140]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`fromValue`): link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+▸ *parse*(`fromValue`): link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 ==== Parameters
 
@@ -77,16 +73,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `fromValue`
-| `string` \| `number` \| link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+| `string` \| `number` \| link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 |===
 
 ==== Returns
 
-link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L95[ui/styling/style-properties.ts:95]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L95[ui/styling/style-properties.ts:95]
 
 '''
 
@@ -101,7 +95,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `length`
-| link:CoreTypes.md#percentlengthtype[`PercentLengthType`]
+| link:CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 | `auto`
 | `number`
@@ -114,6 +108,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L143[ui/styling/style-properties.ts:143]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L143[ui/styling/style-properties.ts:143]

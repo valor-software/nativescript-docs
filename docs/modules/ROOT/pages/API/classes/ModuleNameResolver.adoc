@@ -8,18 +8,18 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ModuleNameRe
 
 === Constructors
 
-* link:ModuleNameResolver.md#constructor[constructor]
+* link:ModuleNameResolver.adoc#constructor[constructor]
 
 === Properties
 
-* link:ModuleNameResolver.md#_cache[_cache]
+* link:ModuleNameResolver.adoc#_cache[_cache]
 
 === Methods
 
-* link:ModuleNameResolver.md#clearcache[clearCache]
-* link:ModuleNameResolver.md#getcandidates[getCandidates]
-* link:ModuleNameResolver.md#resolvemodulename[resolveModuleName]
-* link:ModuleNameResolver.md#resolvemodulenameimpl[resolveModuleNameImpl]
+* link:ModuleNameResolver.adoc#clearcache[clearCache]
+* link:ModuleNameResolver.adoc#getcandidates[getCandidates]
+* link:ModuleNameResolver.adoc#resolvemodulename[resolveModuleName]
+* link:ModuleNameResolver.adoc#resolvemodulenameimpl[resolveModuleNameImpl]
 
 == Constructors
 
@@ -38,7 +38,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ModuleNameRe
 | `undefined`
 
 | `moduleListProvider`
-| link:../modules.md#modulelistprovider[`ModuleListProvider`]
+| link:../modules.adoc#modulelistprovider[`ModuleListProvider`]
 | `global.getRegisteredModules`
 |===
 

@@ -10,10 +10,10 @@ Used with qualifier matchers and module resolution
 
 === Properties
 
-* link:PlatformContext.md#devicetype[deviceType]
-* link:PlatformContext.md#height[height]
-* link:PlatformContext.md#os[os]
-* link:PlatformContext.md#width[width]
+* link:PlatformContext.adoc#devicetype[deviceType]
+* link:PlatformContext.adoc#height[height]
+* link:PlatformContext.adoc#os[os]
+* link:PlatformContext.adoc#width[width]
 
 == Properties
 

@@ -16,11 +16,11 @@ Event data containing information for the loading events of a WebView.
 
 === Properties
 
-* link:LoadEventData.md#error[error]
-* link:LoadEventData.md#eventname[eventName]
-* link:LoadEventData.md#navigationtype[navigationType]
-* link:LoadEventData.md#object[object]
-* link:LoadEventData.md#url[url]
+* link:LoadEventData.adoc#error[error]
+* link:LoadEventData.adoc#eventname[eventName]
+* link:LoadEventData.adoc#navigationtype[navigationType]
+* link:LoadEventData.adoc#object[object]
+* link:LoadEventData.adoc#url[url]
 
 == Properties
 
@@ -42,7 +42,7 @@ Gets the error (if any).
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -66,7 +66,7 @@ Gets the navigation type of the web-view.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

@@ -53,315 +53,315 @@ A View occupies a rectangular area on the screen and is responsible for drawing 
 
 === Constructors
 
-* link:View.md#constructor[constructor]
+* link:View.adoc#constructor[constructor]
 
 === Properties
 
-* link:View.md#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
-* link:View.md#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
-* link:View.md#_closemodalcallback[_closeModalCallback]
-* link:View.md#_context[_context]
-* link:View.md#_cssstate[_cssState]
-* link:View.md#_currentheightmeasurespec[_currentHeightMeasureSpec]
-* link:View.md#_currentwidthmeasurespec[_currentWidthMeasureSpec]
-* link:View.md#_defaultpaddingbottom[_defaultPaddingBottom]
-* link:View.md#_defaultpaddingleft[_defaultPaddingLeft]
-* link:View.md#_defaultpaddingright[_defaultPaddingRight]
-* link:View.md#_defaultpaddingtop[_defaultPaddingTop]
-* link:View.md#_domid[_domId]
-* link:View.md#_gestureobservers[_gestureObservers]
-* link:View.md#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
-* link:View.md#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
-* link:View.md#_islayoutvalid[_isLayoutValid]
-* link:View.md#_ispaddingrelative[_isPaddingRelative]
-* link:View.md#_isstylescopehost[_isStyleScopeHost]
-* link:View.md#_isviewbase[_isViewBase]
-* link:View.md#_manager[_manager]
-* link:View.md#_modalparent[_modalParent]
-* link:View.md#_modulename[_moduleName]
-* link:View.md#_oldbottom[_oldBottom]
-* link:View.md#_oldleft[_oldLeft]
-* link:View.md#_oldright[_oldRight]
-* link:View.md#_oldtop[_oldTop]
-* link:View.md#_stylescope[_styleScope]
-* link:View.md#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
-* link:View.md#_suspendedupdates[_suspendedUpdates]
-* link:View.md#accessibilityhidden[accessibilityHidden]
-* link:View.md#accessibilityhint[accessibilityHint]
-* link:View.md#accessibilityidentifier[accessibilityIdentifier]
-* link:View.md#accessibilitylabel[accessibilityLabel]
-* link:View.md#accessibilitylanguage[accessibilityLanguage]
-* link:View.md#accessibilityliveregion[accessibilityLiveRegion]
-* link:View.md#accessibilitymediasession[accessibilityMediaSession]
-* link:View.md#accessibilityrole[accessibilityRole]
-* link:View.md#accessibilitystate[accessibilityState]
-* link:View.md#accessibilityvalue[accessibilityValue]
-* link:View.md#accessible[accessible]
-* link:View.md#alignself[alignSelf]
-* link:View.md#android[android]
-* link:View.md#androiddynamicelevationoffset[androidDynamicElevationOffset]
-* link:View.md#androidelevation[androidElevation]
-* link:View.md#automationtext[automationText]
-* link:View.md#background[background]
-* link:View.md#backgroundcolor[backgroundColor]
-* link:View.md#backgroundimage[backgroundImage]
-* link:View.md#bindingcontext[bindingContext]
-* link:View.md#borderbottomcolor[borderBottomColor]
-* link:View.md#borderbottomleftradius[borderBottomLeftRadius]
-* link:View.md#borderbottomrightradius[borderBottomRightRadius]
-* link:View.md#borderbottomwidth[borderBottomWidth]
-* link:View.md#bordercolor[borderColor]
-* link:View.md#borderleftcolor[borderLeftColor]
-* link:View.md#borderleftwidth[borderLeftWidth]
-* link:View.md#borderradius[borderRadius]
-* link:View.md#borderrightcolor[borderRightColor]
-* link:View.md#borderrightwidth[borderRightWidth]
-* link:View.md#bordertopcolor[borderTopColor]
-* link:View.md#bordertopleftradius[borderTopLeftRadius]
-* link:View.md#bordertoprightradius[borderTopRightRadius]
-* link:View.md#bordertopwidth[borderTopWidth]
-* link:View.md#borderwidth[borderWidth]
-* link:View.md#boxshadow[boxShadow]
-* link:View.md#classname[className]
-* link:View.md#col[col]
-* link:View.md#colspan[colSpan]
-* link:View.md#color[color]
-* link:View.md#column[column]
-* link:View.md#columnspan[columnSpan]
-* link:View.md#css[css]
-* link:View.md#cssclasses[cssClasses]
-* link:View.md#csspseudoclasses[cssPseudoClasses]
-* link:View.md#csstype[cssType]
-* link:View.md#dock[dock]
-* link:View.md#domnode[domNode]
-* link:View.md#effectiveborderbottomwidth[effectiveBorderBottomWidth]
-* link:View.md#effectiveborderleftwidth[effectiveBorderLeftWidth]
-* link:View.md#effectiveborderrightwidth[effectiveBorderRightWidth]
-* link:View.md#effectivebordertopwidth[effectiveBorderTopWidth]
-* link:View.md#effectiveheight[effectiveHeight]
-* link:View.md#effectiveleft[effectiveLeft]
-* link:View.md#effectivemarginbottom[effectiveMarginBottom]
-* link:View.md#effectivemarginleft[effectiveMarginLeft]
-* link:View.md#effectivemarginright[effectiveMarginRight]
-* link:View.md#effectivemargintop[effectiveMarginTop]
-* link:View.md#effectiveminheight[effectiveMinHeight]
-* link:View.md#effectiveminwidth[effectiveMinWidth]
-* link:View.md#effectivepaddingbottom[effectivePaddingBottom]
-* link:View.md#effectivepaddingleft[effectivePaddingLeft]
-* link:View.md#effectivepaddingright[effectivePaddingRight]
-* link:View.md#effectivepaddingtop[effectivePaddingTop]
-* link:View.md#effectivetop[effectiveTop]
-* link:View.md#effectivewidth[effectiveWidth]
-* link:View.md#flexgrow[flexGrow]
-* link:View.md#flexshrink[flexShrink]
-* link:View.md#flexwrapbefore[flexWrapBefore]
-* link:View.md#height[height]
-* link:View.md#horizontalalignment[horizontalAlignment]
-* link:View.md#id[id]
-* link:View.md#ignoretouchanimation[ignoreTouchAnimation]
-* link:View.md#ios[ios]
-* link:View.md#iosignoresafearea[iosIgnoreSafeArea]
-* link:View.md#iosoverflowsafearea[iosOverflowSafeArea]
-* link:View.md#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
-* link:View.md#iscollapsed[isCollapsed]
-* link:View.md#isenabled[isEnabled]
-* link:View.md#islayoutrequired[isLayoutRequired]
-* link:View.md#islayoutvalid[isLayoutValid]
-* link:View.md#isuserinteractionenabled[isUserInteractionEnabled]
-* link:View.md#left[left]
-* link:View.md#margin[margin]
-* link:View.md#marginbottom[marginBottom]
-* link:View.md#marginleft[marginLeft]
-* link:View.md#marginright[marginRight]
-* link:View.md#margintop[marginTop]
-* link:View.md#minheight[minHeight]
-* link:View.md#minwidth[minWidth]
-* link:View.md#modal[modal]
-* link:View.md#nativeviewprotected[nativeViewProtected]
-* link:View.md#opacity[opacity]
-* link:View.md#order[order]
-* link:View.md#originx[originX]
-* link:View.md#originy[originY]
-* link:View.md#parent[parent]
-* link:View.md#perspective[perspective]
-* link:View.md#recyclenativeview[recycleNativeView]
-* link:View.md#reusable[reusable]
-* link:View.md#rotate[rotate]
-* link:View.md#rotatex[rotateX]
-* link:View.md#rotatey[rotateY]
-* link:View.md#row[row]
-* link:View.md#rowspan[rowSpan]
-* link:View.md#scalex[scaleX]
-* link:View.md#scaley[scaleY]
-* link:View.md#testid[testID]
-* link:View.md#top[top]
-* link:View.md#touchanimation[touchAnimation]
-* link:View.md#touchdelay[touchDelay]
-* link:View.md#translatex[translateX]
-* link:View.md#translatey[translateY]
-* link:View.md#verticalalignment[verticalAlignment]
-* link:View.md#viewcontroller[viewController]
-* link:View.md#visibility[visibility]
-* link:View.md#width[width]
-* link:View.md#accessibilityblurevent[accessibilityBlurEvent]
-* link:View.md#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
-* link:View.md#accessibilityfocusevent[accessibilityFocusEvent]
-* link:View.md#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
-* link:View.md#createdevent[createdEvent]
-* link:View.md#disposenativeviewevent[disposeNativeViewEvent]
-* link:View.md#layoutchangedevent[layoutChangedEvent]
-* link:View.md#loadedevent[loadedEvent]
-* link:View.md#propertychangeevent[propertyChangeEvent]
-* link:View.md#showingmodallyevent[showingModallyEvent]
-* link:View.md#shownmodallyevent[shownModallyEvent]
-* link:View.md#unloadedevent[unloadedEvent]
+* link:View.adoc#_androidcontentdescriptionupdated[_androidContentDescriptionUpdated]
+* link:View.adoc#_automaticallyadjustsscrollviewinsets[_automaticallyAdjustsScrollViewInsets]
+* link:View.adoc#_closemodalcallback[_closeModalCallback]
+* link:View.adoc#_context[_context]
+* link:View.adoc#_cssstate[_cssState]
+* link:View.adoc#_currentheightmeasurespec[_currentHeightMeasureSpec]
+* link:View.adoc#_currentwidthmeasurespec[_currentWidthMeasureSpec]
+* link:View.adoc#_defaultpaddingbottom[_defaultPaddingBottom]
+* link:View.adoc#_defaultpaddingleft[_defaultPaddingLeft]
+* link:View.adoc#_defaultpaddingright[_defaultPaddingRight]
+* link:View.adoc#_defaultpaddingtop[_defaultPaddingTop]
+* link:View.adoc#_domid[_domId]
+* link:View.adoc#_gestureobservers[_gestureObservers]
+* link:View.adoc#_ignoreflexminwidthheightreset[_ignoreFlexMinWidthHeightReset]
+* link:View.adoc#_isaddedtonativevisualtree[_isAddedToNativeVisualTree]
+* link:View.adoc#_islayoutvalid[_isLayoutValid]
+* link:View.adoc#_ispaddingrelative[_isPaddingRelative]
+* link:View.adoc#_isstylescopehost[_isStyleScopeHost]
+* link:View.adoc#_isviewbase[_isViewBase]
+* link:View.adoc#_manager[_manager]
+* link:View.adoc#_modalparent[_modalParent]
+* link:View.adoc#_modulename[_moduleName]
+* link:View.adoc#_oldbottom[_oldBottom]
+* link:View.adoc#_oldleft[_oldLeft]
+* link:View.adoc#_oldright[_oldRight]
+* link:View.adoc#_oldtop[_oldTop]
+* link:View.adoc#_stylescope[_styleScope]
+* link:View.adoc#_suspendnativeupdatescount[_suspendNativeUpdatesCount]
+* link:View.adoc#_suspendedupdates[_suspendedUpdates]
+* link:View.adoc#accessibilityhidden[accessibilityHidden]
+* link:View.adoc#accessibilityhint[accessibilityHint]
+* link:View.adoc#accessibilityidentifier[accessibilityIdentifier]
+* link:View.adoc#accessibilitylabel[accessibilityLabel]
+* link:View.adoc#accessibilitylanguage[accessibilityLanguage]
+* link:View.adoc#accessibilityliveregion[accessibilityLiveRegion]
+* link:View.adoc#accessibilitymediasession[accessibilityMediaSession]
+* link:View.adoc#accessibilityrole[accessibilityRole]
+* link:View.adoc#accessibilitystate[accessibilityState]
+* link:View.adoc#accessibilityvalue[accessibilityValue]
+* link:View.adoc#accessible[accessible]
+* link:View.adoc#alignself[alignSelf]
+* link:View.adoc#android[android]
+* link:View.adoc#androiddynamicelevationoffset[androidDynamicElevationOffset]
+* link:View.adoc#androidelevation[androidElevation]
+* link:View.adoc#automationtext[automationText]
+* link:View.adoc#background[background]
+* link:View.adoc#backgroundcolor[backgroundColor]
+* link:View.adoc#backgroundimage[backgroundImage]
+* link:View.adoc#bindingcontext[bindingContext]
+* link:View.adoc#borderbottomcolor[borderBottomColor]
+* link:View.adoc#borderbottomleftradius[borderBottomLeftRadius]
+* link:View.adoc#borderbottomrightradius[borderBottomRightRadius]
+* link:View.adoc#borderbottomwidth[borderBottomWidth]
+* link:View.adoc#bordercolor[borderColor]
+* link:View.adoc#borderleftcolor[borderLeftColor]
+* link:View.adoc#borderleftwidth[borderLeftWidth]
+* link:View.adoc#borderradius[borderRadius]
+* link:View.adoc#borderrightcolor[borderRightColor]
+* link:View.adoc#borderrightwidth[borderRightWidth]
+* link:View.adoc#bordertopcolor[borderTopColor]
+* link:View.adoc#bordertopleftradius[borderTopLeftRadius]
+* link:View.adoc#bordertoprightradius[borderTopRightRadius]
+* link:View.adoc#bordertopwidth[borderTopWidth]
+* link:View.adoc#borderwidth[borderWidth]
+* link:View.adoc#boxshadow[boxShadow]
+* link:View.adoc#classname[className]
+* link:View.adoc#col[col]
+* link:View.adoc#colspan[colSpan]
+* link:View.adoc#color[color]
+* link:View.adoc#column[column]
+* link:View.adoc#columnspan[columnSpan]
+* link:View.adoc#css[css]
+* link:View.adoc#cssclasses[cssClasses]
+* link:View.adoc#csspseudoclasses[cssPseudoClasses]
+* link:View.adoc#csstype[cssType]
+* link:View.adoc#dock[dock]
+* link:View.adoc#domnode[domNode]
+* link:View.adoc#effectiveborderbottomwidth[effectiveBorderBottomWidth]
+* link:View.adoc#effectiveborderleftwidth[effectiveBorderLeftWidth]
+* link:View.adoc#effectiveborderrightwidth[effectiveBorderRightWidth]
+* link:View.adoc#effectivebordertopwidth[effectiveBorderTopWidth]
+* link:View.adoc#effectiveheight[effectiveHeight]
+* link:View.adoc#effectiveleft[effectiveLeft]
+* link:View.adoc#effectivemarginbottom[effectiveMarginBottom]
+* link:View.adoc#effectivemarginleft[effectiveMarginLeft]
+* link:View.adoc#effectivemarginright[effectiveMarginRight]
+* link:View.adoc#effectivemargintop[effectiveMarginTop]
+* link:View.adoc#effectiveminheight[effectiveMinHeight]
+* link:View.adoc#effectiveminwidth[effectiveMinWidth]
+* link:View.adoc#effectivepaddingbottom[effectivePaddingBottom]
+* link:View.adoc#effectivepaddingleft[effectivePaddingLeft]
+* link:View.adoc#effectivepaddingright[effectivePaddingRight]
+* link:View.adoc#effectivepaddingtop[effectivePaddingTop]
+* link:View.adoc#effectivetop[effectiveTop]
+* link:View.adoc#effectivewidth[effectiveWidth]
+* link:View.adoc#flexgrow[flexGrow]
+* link:View.adoc#flexshrink[flexShrink]
+* link:View.adoc#flexwrapbefore[flexWrapBefore]
+* link:View.adoc#height[height]
+* link:View.adoc#horizontalalignment[horizontalAlignment]
+* link:View.adoc#id[id]
+* link:View.adoc#ignoretouchanimation[ignoreTouchAnimation]
+* link:View.adoc#ios[ios]
+* link:View.adoc#iosignoresafearea[iosIgnoreSafeArea]
+* link:View.adoc#iosoverflowsafearea[iosOverflowSafeArea]
+* link:View.adoc#iosoverflowsafeareaenabled[iosOverflowSafeAreaEnabled]
+* link:View.adoc#iscollapsed[isCollapsed]
+* link:View.adoc#isenabled[isEnabled]
+* link:View.adoc#islayoutrequired[isLayoutRequired]
+* link:View.adoc#islayoutvalid[isLayoutValid]
+* link:View.adoc#isuserinteractionenabled[isUserInteractionEnabled]
+* link:View.adoc#left[left]
+* link:View.adoc#margin[margin]
+* link:View.adoc#marginbottom[marginBottom]
+* link:View.adoc#marginleft[marginLeft]
+* link:View.adoc#marginright[marginRight]
+* link:View.adoc#margintop[marginTop]
+* link:View.adoc#minheight[minHeight]
+* link:View.adoc#minwidth[minWidth]
+* link:View.adoc#modal[modal]
+* link:View.adoc#nativeviewprotected[nativeViewProtected]
+* link:View.adoc#opacity[opacity]
+* link:View.adoc#order[order]
+* link:View.adoc#originx[originX]
+* link:View.adoc#originy[originY]
+* link:View.adoc#parent[parent]
+* link:View.adoc#perspective[perspective]
+* link:View.adoc#recyclenativeview[recycleNativeView]
+* link:View.adoc#reusable[reusable]
+* link:View.adoc#rotate[rotate]
+* link:View.adoc#rotatex[rotateX]
+* link:View.adoc#rotatey[rotateY]
+* link:View.adoc#row[row]
+* link:View.adoc#rowspan[rowSpan]
+* link:View.adoc#scalex[scaleX]
+* link:View.adoc#scaley[scaleY]
+* link:View.adoc#testid[testID]
+* link:View.adoc#top[top]
+* link:View.adoc#touchanimation[touchAnimation]
+* link:View.adoc#touchdelay[touchDelay]
+* link:View.adoc#translatex[translateX]
+* link:View.adoc#translatey[translateY]
+* link:View.adoc#verticalalignment[verticalAlignment]
+* link:View.adoc#viewcontroller[viewController]
+* link:View.adoc#visibility[visibility]
+* link:View.adoc#width[width]
+* link:View.adoc#accessibilityblurevent[accessibilityBlurEvent]
+* link:View.adoc#accessibilityfocuschangedevent[accessibilityFocusChangedEvent]
+* link:View.adoc#accessibilityfocusevent[accessibilityFocusEvent]
+* link:View.adoc#accessibilityperformescapeevent[accessibilityPerformEscapeEvent]
+* link:View.adoc#createdevent[createdEvent]
+* link:View.adoc#disposenativeviewevent[disposeNativeViewEvent]
+* link:View.adoc#layoutchangedevent[layoutChangedEvent]
+* link:View.adoc#loadedevent[loadedEvent]
+* link:View.adoc#propertychangeevent[propertyChangeEvent]
+* link:View.adoc#showingmodallyevent[showingModallyEvent]
+* link:View.adoc#shownmodallyevent[shownModallyEvent]
+* link:View.adoc#unloadedevent[unloadedEvent]
 
 === Accessors
 
-* link:View.md#backgroundposition[backgroundPosition]
-* link:View.md#backgroundrepeat[backgroundRepeat]
-* link:View.md#backgroundsize[backgroundSize]
-* link:View.md#class[class]
-* link:View.md#isloaded[isLoaded]
-* link:View.md#nativeview[nativeView]
-* link:View.md#page[page]
-* link:View.md#parentnode[parentNode]
-* link:View.md#style[style]
-* link:View.md#texttransform[textTransform]
-* link:View.md#typename[typeName]
+* link:View.adoc#backgroundposition[backgroundPosition]
+* link:View.adoc#backgroundrepeat[backgroundRepeat]
+* link:View.adoc#backgroundsize[backgroundSize]
+* link:View.adoc#class[class]
+* link:View.adoc#isloaded[isLoaded]
+* link:View.adoc#nativeview[nativeView]
+* link:View.adoc#page[page]
+* link:View.adoc#parentnode[parentNode]
+* link:View.adoc#style[style]
+* link:View.adoc#texttransform[textTransform]
+* link:View.adoc#typename[typeName]
 
 === Methods
 
-* link:View.md#_addview[_addView]
-* link:View.md#_addviewcore[_addViewCore]
-* link:View.md#_addviewtonativevisualtree[_addViewToNativeVisualTree]
-* link:View.md#_applybackground[_applyBackground]
-* link:View.md#_applyxmlattribute[_applyXmlAttribute]
-* link:View.md#_batchupdate[_batchUpdate]
-* link:View.md#_childindextonativechildindex[_childIndexToNativeChildIndex]
-* link:View.md#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
-* link:View.md#_createpropertychangedata[_createPropertyChangeData]
-* link:View.md#_dialogclosed[_dialogClosed]
-* link:View.md#_eachlayoutview[_eachLayoutView]
-* link:View.md#_emit[_emit]
-* link:View.md#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
-* link:View.md#_getfragmentmanager[_getFragmentManager]
-* link:View.md#_getnativeviewscount[_getNativeViewsCount]
-* link:View.md#_getrootmodalviews[_getRootModalViews]
-* link:View.md#_getvalue[_getValue]
-* link:View.md#_gotovisualstate[_goToVisualState]
-* link:View.md#_handlelivesync[_handleLivesync]
-* link:View.md#_hasancestorview[_hasAncestorView]
-* link:View.md#_hidenativemodalview[_hideNativeModalView]
-* link:View.md#_inheritstylescope[_inheritStyleScope]
-* link:View.md#_layoutparent[_layoutParent]
-* link:View.md#_observe[_observe]
-* link:View.md#_onattachedtowindow[_onAttachedToWindow]
-* link:View.md#_oncssstatechange[_onCssStateChange]
-* link:View.md#_ondetachedfromwindow[_onDetachedFromWindow]
-* link:View.md#_onlivesync[_onLivesync]
-* link:View.md#_onrootviewreset[_onRootViewReset]
-* link:View.md#_onsizechanged[_onSizeChanged]
-* link:View.md#_parentchanged[_parentChanged]
-* link:View.md#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
-* link:View.md#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
-* link:View.md#_raiseshownmodallyevent[_raiseShownModallyEvent]
-* link:View.md#_redrawnativebackground[_redrawNativeBackground]
-* link:View.md#_removeanimation[_removeAnimation]
-* link:View.md#_removeview[_removeView]
-* link:View.md#_removeviewcore[_removeViewCore]
-* link:View.md#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
-* link:View.md#_resumenativeupdates[_resumeNativeUpdates]
-* link:View.md#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
-* link:View.md#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
-* link:View.md#_setminheightnative[_setMinHeightNative]
-* link:View.md#_setminwidthnative[_setMinWidthNative]
-* link:View.md#_setnativecliptobounds[_setNativeClipToBounds]
-* link:View.md#_setnativeviewframe[_setNativeViewFrame]
-* link:View.md#_setvalue[_setValue]
-* link:View.md#_setupasrootview[_setupAsRootView]
-* link:View.md#_setupui[_setupUI]
-* link:View.md#_shoulddelaylayout[_shouldDelayLayout]
-* link:View.md#_shownativemodalview[_showNativeModalView]
-* link:View.md#_suspendnativeupdates[_suspendNativeUpdates]
-* link:View.md#_teardownui[_tearDownUI]
-* link:View.md#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
-* link:View.md#_updatestylescope[_updateStyleScope]
-* link:View.md#accessibilityannouncement[accessibilityAnnouncement]
-* link:View.md#accessibilityscreenchanged[accessibilityScreenChanged]
-* link:View.md#addcss[addCss]
-* link:View.md#addcssfile[addCssFile]
-* link:View.md#addeventlistener[addEventListener]
-* link:View.md#addpseudoclass[addPseudoClass]
-* link:View.md#animate[animate]
-* link:View.md#bind[bind]
-* link:View.md#callloaded[callLoaded]
-* link:View.md#callunloaded[callUnloaded]
-* link:View.md#changecssfile[changeCssFile]
-* link:View.md#closemodal[closeModal]
-* link:View.md#createanimation[createAnimation]
-* link:View.md#createnativeview[createNativeView]
-* link:View.md#deletepseudoclass[deletePseudoClass]
-* link:View.md#destroynode[destroyNode]
-* link:View.md#disposenativeview[disposeNativeView]
-* link:View.md#eachchild[eachChild]
-* link:View.md#eachchildview[eachChildView]
-* link:View.md#ensuredomnode[ensureDomNode]
-* link:View.md#focus[focus]
-* link:View.md#get[get]
-* link:View.md#getactualsize[getActualSize]
-* link:View.md#getgestureobservers[getGestureObservers]
-* link:View.md#getlocationinwindow[getLocationInWindow]
-* link:View.md#getlocationonscreen[getLocationOnScreen]
-* link:View.md#getlocationrelativeto[getLocationRelativeTo]
-* link:View.md#getmeasuredheight[getMeasuredHeight]
-* link:View.md#getmeasuredstate[getMeasuredState]
-* link:View.md#getmeasuredwidth[getMeasuredWidth]
-* link:View.md#getsafeareainsets[getSafeAreaInsets]
-* link:View.md#getviewbydomid[getViewByDomId]
-* link:View.md#getviewbyid[getViewById]
-* link:View.md#hasgestureobservers[hasGestureObservers]
-* link:View.md#haslisteners[hasListeners]
-* link:View.md#initnativeview[initNativeView]
-* link:View.md#layout[layout]
-* link:View.md#layoutnativeview[layoutNativeView]
-* link:View.md#loadview[loadView]
-* link:View.md#measure[measure]
-* link:View.md#notify[notify]
-* link:View.md#notifypropertychange[notifyPropertyChange]
-* link:View.md#off[off]
-* link:View.md#on[on]
-* link:View.md#onbackpressed[onBackPressed]
-* link:View.md#onlayout[onLayout]
-* link:View.md#onloaded[onLoaded]
-* link:View.md#onmeasure[onMeasure]
-* link:View.md#onresumenativeupdates[onResumeNativeUpdates]
-* link:View.md#onunloaded[onUnloaded]
-* link:View.md#once[once]
-* link:View.md#removeeventlistener[removeEventListener]
-* link:View.md#requestlayout[requestLayout]
-* link:View.md#resetnativeview[resetNativeView]
-* link:View.md#sendaccessibilityevent[sendAccessibilityEvent]
-* link:View.md#set[set]
-* link:View.md#setinlinestyle[setInlineStyle]
-* link:View.md#setmeasureddimension[setMeasuredDimension]
-* link:View.md#setnativeview[setNativeView]
-* link:View.md#setontouchlistener[setOnTouchListener]
-* link:View.md#setproperty[setProperty]
-* link:View.md#settestid[setTestID]
-* link:View.md#showmodal[showModal]
-* link:View.md#tostring[toString]
-* link:View.md#unbind[unbind]
-* link:View.md#unloadview[unloadView]
-* link:View.md#addeventlistener-1[addEventListener]
-* link:View.md#combinemeasuredstates[combineMeasuredStates]
-* link:View.md#layoutchild[layoutChild]
-* link:View.md#measurechild[measureChild]
-* link:View.md#off-1[off]
-* link:View.md#on-1[on]
-* link:View.md#once-1[once]
-* link:View.md#removeeventlistener-1[removeEventListener]
-* link:View.md#resolvesizeandstate[resolveSizeAndState]
+* link:View.adoc#_addview[_addView]
+* link:View.adoc#_addviewcore[_addViewCore]
+* link:View.adoc#_addviewtonativevisualtree[_addViewToNativeVisualTree]
+* link:View.adoc#_applybackground[_applyBackground]
+* link:View.adoc#_applyxmlattribute[_applyXmlAttribute]
+* link:View.adoc#_batchupdate[_batchUpdate]
+* link:View.adoc#_childindextonativechildindex[_childIndexToNativeChildIndex]
+* link:View.adoc#_closeallmodalviewsinternal[_closeAllModalViewsInternal]
+* link:View.adoc#_createpropertychangedata[_createPropertyChangeData]
+* link:View.adoc#_dialogclosed[_dialogClosed]
+* link:View.adoc#_eachlayoutview[_eachLayoutView]
+* link:View.adoc#_emit[_emit]
+* link:View.adoc#_getcurrentlayoutbounds[_getCurrentLayoutBounds]
+* link:View.adoc#_getfragmentmanager[_getFragmentManager]
+* link:View.adoc#_getnativeviewscount[_getNativeViewsCount]
+* link:View.adoc#_getrootmodalviews[_getRootModalViews]
+* link:View.adoc#_getvalue[_getValue]
+* link:View.adoc#_gotovisualstate[_goToVisualState]
+* link:View.adoc#_handlelivesync[_handleLivesync]
+* link:View.adoc#_hasancestorview[_hasAncestorView]
+* link:View.adoc#_hidenativemodalview[_hideNativeModalView]
+* link:View.adoc#_inheritstylescope[_inheritStyleScope]
+* link:View.adoc#_layoutparent[_layoutParent]
+* link:View.adoc#_observe[_observe]
+* link:View.adoc#_onattachedtowindow[_onAttachedToWindow]
+* link:View.adoc#_oncssstatechange[_onCssStateChange]
+* link:View.adoc#_ondetachedfromwindow[_onDetachedFromWindow]
+* link:View.adoc#_onlivesync[_onLivesync]
+* link:View.adoc#_onrootviewreset[_onRootViewReset]
+* link:View.adoc#_onsizechanged[_onSizeChanged]
+* link:View.adoc#_parentchanged[_parentChanged]
+* link:View.adoc#_raiselayoutchangedevent[_raiseLayoutChangedEvent]
+* link:View.adoc#_raiseshowingmodallyevent[_raiseShowingModallyEvent]
+* link:View.adoc#_raiseshownmodallyevent[_raiseShownModallyEvent]
+* link:View.adoc#_redrawnativebackground[_redrawNativeBackground]
+* link:View.adoc#_removeanimation[_removeAnimation]
+* link:View.adoc#_removeview[_removeView]
+* link:View.adoc#_removeviewcore[_removeViewCore]
+* link:View.adoc#_removeviewfromnativevisualtree[_removeViewFromNativeVisualTree]
+* link:View.adoc#_resumenativeupdates[_resumeNativeUpdates]
+* link:View.adoc#_setcurrentlayoutbounds[_setCurrentLayoutBounds]
+* link:View.adoc#_setcurrentmeasurespecs[_setCurrentMeasureSpecs]
+* link:View.adoc#_setminheightnative[_setMinHeightNative]
+* link:View.adoc#_setminwidthnative[_setMinWidthNative]
+* link:View.adoc#_setnativecliptobounds[_setNativeClipToBounds]
+* link:View.adoc#_setnativeviewframe[_setNativeViewFrame]
+* link:View.adoc#_setvalue[_setValue]
+* link:View.adoc#_setupasrootview[_setupAsRootView]
+* link:View.adoc#_setupui[_setupUI]
+* link:View.adoc#_shoulddelaylayout[_shouldDelayLayout]
+* link:View.adoc#_shownativemodalview[_showNativeModalView]
+* link:View.adoc#_suspendnativeupdates[_suspendNativeUpdates]
+* link:View.adoc#_teardownui[_tearDownUI]
+* link:View.adoc#_updateeffectivelayoutvalues[_updateEffectiveLayoutValues]
+* link:View.adoc#_updatestylescope[_updateStyleScope]
+* link:View.adoc#accessibilityannouncement[accessibilityAnnouncement]
+* link:View.adoc#accessibilityscreenchanged[accessibilityScreenChanged]
+* link:View.adoc#addcss[addCss]
+* link:View.adoc#addcssfile[addCssFile]
+* link:View.adoc#addeventlistener[addEventListener]
+* link:View.adoc#addpseudoclass[addPseudoClass]
+* link:View.adoc#animate[animate]
+* link:View.adoc#bind[bind]
+* link:View.adoc#callloaded[callLoaded]
+* link:View.adoc#callunloaded[callUnloaded]
+* link:View.adoc#changecssfile[changeCssFile]
+* link:View.adoc#closemodal[closeModal]
+* link:View.adoc#createanimation[createAnimation]
+* link:View.adoc#createnativeview[createNativeView]
+* link:View.adoc#deletepseudoclass[deletePseudoClass]
+* link:View.adoc#destroynode[destroyNode]
+* link:View.adoc#disposenativeview[disposeNativeView]
+* link:View.adoc#eachchild[eachChild]
+* link:View.adoc#eachchildview[eachChildView]
+* link:View.adoc#ensuredomnode[ensureDomNode]
+* link:View.adoc#focus[focus]
+* link:View.adoc#get[get]
+* link:View.adoc#getactualsize[getActualSize]
+* link:View.adoc#getgestureobservers[getGestureObservers]
+* link:View.adoc#getlocationinwindow[getLocationInWindow]
+* link:View.adoc#getlocationonscreen[getLocationOnScreen]
+* link:View.adoc#getlocationrelativeto[getLocationRelativeTo]
+* link:View.adoc#getmeasuredheight[getMeasuredHeight]
+* link:View.adoc#getmeasuredstate[getMeasuredState]
+* link:View.adoc#getmeasuredwidth[getMeasuredWidth]
+* link:View.adoc#getsafeareainsets[getSafeAreaInsets]
+* link:View.adoc#getviewbydomid[getViewByDomId]
+* link:View.adoc#getviewbyid[getViewById]
+* link:View.adoc#hasgestureobservers[hasGestureObservers]
+* link:View.adoc#haslisteners[hasListeners]
+* link:View.adoc#initnativeview[initNativeView]
+* link:View.adoc#layout[layout]
+* link:View.adoc#layoutnativeview[layoutNativeView]
+* link:View.adoc#loadview[loadView]
+* link:View.adoc#measure[measure]
+* link:View.adoc#notify[notify]
+* link:View.adoc#notifypropertychange[notifyPropertyChange]
+* link:View.adoc#off[off]
+* link:View.adoc#on[on]
+* link:View.adoc#onbackpressed[onBackPressed]
+* link:View.adoc#onlayout[onLayout]
+* link:View.adoc#onloaded[onLoaded]
+* link:View.adoc#onmeasure[onMeasure]
+* link:View.adoc#onresumenativeupdates[onResumeNativeUpdates]
+* link:View.adoc#onunloaded[onUnloaded]
+* link:View.adoc#once[once]
+* link:View.adoc#removeeventlistener[removeEventListener]
+* link:View.adoc#requestlayout[requestLayout]
+* link:View.adoc#resetnativeview[resetNativeView]
+* link:View.adoc#sendaccessibilityevent[sendAccessibilityEvent]
+* link:View.adoc#set[set]
+* link:View.adoc#setinlinestyle[setInlineStyle]
+* link:View.adoc#setmeasureddimension[setMeasuredDimension]
+* link:View.adoc#setnativeview[setNativeView]
+* link:View.adoc#setontouchlistener[setOnTouchListener]
+* link:View.adoc#setproperty[setProperty]
+* link:View.adoc#settestid[setTestID]
+* link:View.adoc#showmodal[showModal]
+* link:View.adoc#tostring[toString]
+* link:View.adoc#unbind[unbind]
+* link:View.adoc#unloadview[unloadView]
+* link:View.adoc#addeventlistener-1[addEventListener]
+* link:View.adoc#combinemeasuredstates[combineMeasuredStates]
+* link:View.adoc#layoutchild[layoutChild]
+* link:View.adoc#measurechild[measureChild]
+* link:View.adoc#off-1[off]
+* link:View.adoc#on-1[on]
+* link:View.adoc#once-1[once]
+* link:View.adoc#removeeventlistener-1[removeEventListener]
+* link:View.adoc#resolvesizeandstate[resolveSizeAndState]
 
 == Constructors
 
@@ -1083,7 +1083,7 @@ ViewCommon.borderBottomColor
 [#borderbottomleftradius]
 === borderBottomLeftRadius
 
-• *borderBottomLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom left border radius of the view.
 
@@ -1098,7 +1098,7 @@ ViewCommon.borderBottomLeftRadius
 [#borderbottomrightradius]
 === borderBottomRightRadius
 
-• *borderBottomRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom right border radius of the view.
 
@@ -1113,7 +1113,7 @@ ViewCommon.borderBottomRightRadius
 [#borderbottomwidth]
 === borderBottomWidth
 
-• *borderBottomWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderBottomWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the bottom border width of the view.
 
@@ -1158,7 +1158,7 @@ ViewCommon.borderLeftColor
 [#borderleftwidth]
 === borderLeftWidth
 
-• *borderLeftWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderLeftWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the left border width of the view.
 
@@ -1173,7 +1173,7 @@ ViewCommon.borderLeftWidth
 [#borderradius]
 === borderRadius
 
-• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderRadius*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border radius of the view.
 
@@ -1203,7 +1203,7 @@ ViewCommon.borderRightColor
 [#borderrightwidth]
 === borderRightWidth
 
-• *borderRightWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderRightWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the right border width of the view.
 
@@ -1233,7 +1233,7 @@ ViewCommon.borderTopColor
 [#bordertopleftradius]
 === borderTopLeftRadius
 
-• *borderTopLeftRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopLeftRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top left border radius of the view.
 
@@ -1248,7 +1248,7 @@ ViewCommon.borderTopLeftRadius
 [#bordertoprightradius]
 === borderTopRightRadius
 
-• *borderTopRightRadius*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopRightRadius*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top right border radius of the view.
 
@@ -1263,7 +1263,7 @@ ViewCommon.borderTopRightRadius
 [#bordertopwidth]
 === borderTopWidth
 
-• *borderTopWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *borderTopWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the top border width of the view.
 
@@ -1278,7 +1278,7 @@ ViewCommon.borderTopWidth
 [#borderwidth]
 === borderWidth
 
-• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *borderWidth*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets the border width of the view.
 
@@ -1744,7 +1744,7 @@ ViewCommon.flexWrapBefore
 [#height]
 === height
 
-• *height*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *height*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired height of the view.
 
@@ -1759,7 +1759,7 @@ ViewCommon.height
 [#horizontalalignment]
 === horizontalAlignment
 
-• *horizontalAlignment*: link:../modules/CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+• *horizontalAlignment*: link:../modules/CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Horizontal axis.
 
@@ -1941,7 +1941,7 @@ ViewCommon.isUserInteractionEnabled
 [#left]
 === left
 
-• *left*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *left*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Inherited from
 
@@ -1954,7 +1954,7 @@ ViewCommon.left
 [#margin]
 === margin
 
-• *margin*: `string` | `number` | link:../modules/CoreTypes.md#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+• *margin*: `string` | `number` | link:../modules/CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`] | link:../modules/CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:../modules/CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
 Gets or sets margin style property.
 
@@ -1969,7 +1969,7 @@ ViewCommon.margin
 [#marginbottom]
 === marginBottom
 
-• *marginBottom*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginBottom*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the bottom side of this view.
 
@@ -1984,7 +1984,7 @@ ViewCommon.marginBottom
 [#marginleft]
 === marginLeft
 
-• *marginLeft*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginLeft*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the left side of this view.
 
@@ -1999,7 +1999,7 @@ ViewCommon.marginLeft
 [#marginright]
 === marginRight
 
-• *marginRight*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginRight*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the right side of this view.
 
@@ -2014,7 +2014,7 @@ ViewCommon.marginRight
 [#margintop]
 === marginTop
 
-• *marginTop*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *marginTop*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Specifies extra space on the top side of this view.
 
@@ -2029,7 +2029,7 @@ ViewCommon.marginTop
 [#minheight]
 === minHeight
 
-• *minHeight*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minHeight*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum height the view may grow to.
 
@@ -2044,7 +2044,7 @@ ViewCommon.minHeight
 [#minwidth]
 === minWidth
 
-• *minWidth*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *minWidth*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 Gets or sets the minimum width the view may grow to.
 
@@ -2316,7 +2316,7 @@ ViewCommon.testID
 [#top]
 === top
 
-• *top*: link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+• *top*: link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Inherited from
 
@@ -2329,7 +2329,7 @@ ViewCommon.top
 [#touchanimation]
 === touchAnimation
 
-• *touchAnimation*: `boolean` | link:../modules.md#touchanimationoptions[`TouchAnimationOptions`]
+• *touchAnimation*: `boolean` | link:../modules.adoc#touchanimationoptions[`TouchAnimationOptions`]
 
 ==== Inherited from
 
@@ -2385,7 +2385,7 @@ ViewCommon.translateY
 [#verticalalignment]
 === verticalAlignment
 
-• *verticalAlignment*: link:../modules/CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`]
+• *verticalAlignment*: link:../modules/CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`]
 
 Gets or sets the alignment of this view within its parent along the Vertical axis.
 
@@ -2413,7 +2413,7 @@ ViewCommon.viewController
 [#visibility]
 === visibility
 
-• *visibility*: link:../modules/CoreTypes.md#visibilitytype[`VisibilityType`]
+• *visibility*: link:../modules/CoreTypes.adoc#visibilitytype[`VisibilityType`]
 
 Gets or sets the visibility of the view.
 
@@ -2428,7 +2428,7 @@ ViewCommon.visibility
 [#width]
 === width
 
-• *width*: link:../modules/CoreTypes.md#percentlengthtype[`PercentLengthType`]
+• *width*: link:../modules/CoreTypes.adoc#percentlengthtype[`PercentLengthType`]
 
 Gets or sets the desired width of the view.
 
@@ -2649,11 +2649,11 @@ ViewCommon.backgroundPosition
 [#backgroundrepeat]
 === backgroundRepeat
 
-• `get` *backgroundRepeat*(): link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+• `get` *backgroundRepeat*(): link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 
 ==== Inherited from
 
@@ -2669,7 +2669,7 @@ ViewCommon.backgroundRepeat
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#backgroundrepeattype[`BackgroundRepeatType`]
+| link:../modules/CoreTypes.adoc#backgroundrepeattype[`BackgroundRepeatType`]
 |===
 
 ==== Returns
@@ -2911,11 +2911,11 @@ ViewCommon.style
 [#texttransform]
 === textTransform
 
-• `get` *textTransform*(): link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+• `get` *textTransform*(): link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Returns
 
-link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 
 ==== Inherited from
 
@@ -2931,7 +2931,7 @@ ViewCommon.textTransform
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#texttransformtype[`TextTransformType`]
+| link:../modules/CoreTypes.adoc#texttransformtype[`TextTransformType`]
 |===
 
 ==== Returns
@@ -4060,7 +4060,7 @@ ViewCommon._setCurrentMeasureSpecs
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
@@ -4086,7 +4086,7 @@ ViewCommon._setMinHeightNative
 | Name | Type
 
 | `value`
-| link:../modules/CoreTypes.md#lengthtype[`LengthType`]
+| link:../modules/CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns

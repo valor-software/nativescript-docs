@@ -8,10 +8,10 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Length
 
 === Functions
 
-* link:Length.md#converttostring[convertToString]
-* link:Length.md#equals[equals]
-* link:Length.md#parse[parse]
-* link:Length.md#todevicepixels[toDevicePixels]
+* link:Length.adoc#converttostring[convertToString]
+* link:Length.adoc#equals[equals]
+* link:Length.adoc#parse[parse]
+* link:Length.adoc#todevicepixels[toDevicePixels]
 
 == Functions
 
@@ -26,16 +26,14 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Length
 | Name | Type
 
 | `length`
-| link:CoreTypes.md#lengthtype[`LengthType`]
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L183[ui/styling/style-properties.ts:183]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L183[ui/styling/style-properties.ts:183]
 
 '''
 
@@ -50,26 +48,24 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `a`
-| link:CoreTypes.md#lengthtype[`LengthType`]
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
 
 | `b`
-| link:CoreTypes.md#lengthtype[`LengthType`]
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns
 
 `boolean`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L178[ui/styling/style-properties.ts:178]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L178[ui/styling/style-properties.ts:178]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`fromValue`): link:CoreTypes.md#lengthtype[`LengthType`]
+▸ *parse*(`fromValue`): link:CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Parameters
 
@@ -77,16 +73,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `fromValue`
-| `string` \| `number` \| link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+| `string` \| `number` \| link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 |===
 
 ==== Returns
 
-link:CoreTypes.md#lengthtype[`LengthType`]
+link:CoreTypes.adoc#lengthtype[`LengthType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L151[ui/styling/style-properties.ts:151]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L151[ui/styling/style-properties.ts:151]
 
 '''
 
@@ -101,7 +95,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 | Name | Type
 
 | `length`
-| link:CoreTypes.md#lengthtype[`LengthType`]
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
 
 | `auto?`
 | `number`
@@ -111,6 +105,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/sty
 
 `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L180[ui/styling/style-properties.ts:180]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/styling/style-properties.ts#L180[ui/styling/style-properties.ts:180]

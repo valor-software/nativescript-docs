@@ -8,9 +8,9 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / FontScaleCat
 
 === Enumeration Members
 
-* link:FontScaleCategory.md#extralarge[ExtraLarge]
-* link:FontScaleCategory.md#extrasmall[ExtraSmall]
-* link:FontScaleCategory.md#medium[Medium]
+* link:FontScaleCategory.adoc#extralarge[ExtraLarge]
+* link:FontScaleCategory.adoc#extrasmall[ExtraSmall]
+* link:FontScaleCategory.adoc#medium[Medium]
 
 == Enumeration Members
 
@@ -19,9 +19,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / FontScaleCat
 
 • *ExtraLarge* = `"extra-large"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L6[accessibility/font-scale.d.ts:6]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L6[accessibility/font-scale.d.ts:6]
 
 '''
 
@@ -30,9 +28,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *ExtraSmall* = `"extra-small"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L4[accessibility/font-scale.d.ts:4]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L4[accessibility/font-scale.d.ts:4]
 
 '''
 
@@ -41,6 +37,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/access
 
 • *Medium* = `"medium"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L5[accessibility/font-scale.d.ts:5]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/accessibility/font-scale.d.ts#L5[accessibility/font-scale.d.ts:5]

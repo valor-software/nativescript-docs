@@ -8,19 +8,19 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Transition
 
 === Constructors
 
-* link:Transition.md#constructor[constructor]
+* link:Transition.adoc#constructor[constructor]
 
 === Properties
 
-* link:Transition.md#androidtransitiontype[AndroidTransitionType]
+* link:Transition.adoc#androidtransitiontype[AndroidTransitionType]
 
 === Methods
 
-* link:Transition.md#animateiostransition[animateIOSTransition]
-* link:Transition.md#createandroidanimator[createAndroidAnimator]
-* link:Transition.md#getcurve[getCurve]
-* link:Transition.md#getduration[getDuration]
-* link:Transition.md#tostring[toString]
+* link:Transition.adoc#animateiostransition[animateIOSTransition]
+* link:Transition.adoc#createandroidanimator[createAndroidAnimator]
+* link:Transition.adoc#getcurve[getCurve]
+* link:Transition.adoc#getduration[getDuration]
+* link:Transition.adoc#tostring[toString]
 
 == Constructors
 

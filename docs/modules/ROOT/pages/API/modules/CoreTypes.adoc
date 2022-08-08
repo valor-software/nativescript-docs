@@ -42,33 +42,33 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CoreTypes
 
 === Type Aliases
 
-* link:CoreTypes.md#autocapitalizationinputtype[AutocapitalizationInputType]
-* link:CoreTypes.md#autofilltype[AutofillType]
-* link:CoreTypes.md#backgroundrepeattype[BackgroundRepeatType]
-* link:CoreTypes.md#deviceorientationtype[DeviceOrientationType]
-* link:CoreTypes.md#docktype[DockType]
-* link:CoreTypes.md#horizontalalignmenttype[HorizontalAlignmentType]
-* link:CoreTypes.md#imagestretchtype[ImageStretchType]
-* link:CoreTypes.md#keyboardinputtype[KeyboardInputType]
-* link:CoreTypes.md#lengthdipunit[LengthDipUnit]
-* link:CoreTypes.md#lengthpercentunit[LengthPercentUnit]
-* link:CoreTypes.md#lengthpxunit[LengthPxUnit]
-* link:CoreTypes.md#lengthtype[LengthType]
-* link:CoreTypes.md#maxlinestype[MaxLinesType]
-* link:CoreTypes.md#orientationtype[OrientationType]
-* link:CoreTypes.md#percentlengthtype[PercentLengthType]
-* link:CoreTypes.md#returnkeybuttontype[ReturnKeyButtonType]
-* link:CoreTypes.md#textalignmenttype[TextAlignmentType]
-* link:CoreTypes.md#textdecorationtype[TextDecorationType]
-* link:CoreTypes.md#texttransformtype[TextTransformType]
-* link:CoreTypes.md#updatetexttriggertype[UpdateTextTriggerType]
-* link:CoreTypes.md#verticalalignmenttexttype[VerticalAlignmentTextType]
-* link:CoreTypes.md#verticalalignmenttype[VerticalAlignmentType]
-* link:CoreTypes.md#visibilitytype[VisibilityType]
-* link:CoreTypes.md#whitespacetype[WhiteSpaceType]
-* link:CoreTypes.md#dip[dip]
-* link:CoreTypes.md#percent[percent]
-* link:CoreTypes.md#px[px]
+* link:CoreTypes.adoc#autocapitalizationinputtype[AutocapitalizationInputType]
+* link:CoreTypes.adoc#autofilltype[AutofillType]
+* link:CoreTypes.adoc#backgroundrepeattype[BackgroundRepeatType]
+* link:CoreTypes.adoc#deviceorientationtype[DeviceOrientationType]
+* link:CoreTypes.adoc#docktype[DockType]
+* link:CoreTypes.adoc#horizontalalignmenttype[HorizontalAlignmentType]
+* link:CoreTypes.adoc#imagestretchtype[ImageStretchType]
+* link:CoreTypes.adoc#keyboardinputtype[KeyboardInputType]
+* link:CoreTypes.adoc#lengthdipunit[LengthDipUnit]
+* link:CoreTypes.adoc#lengthpercentunit[LengthPercentUnit]
+* link:CoreTypes.adoc#lengthpxunit[LengthPxUnit]
+* link:CoreTypes.adoc#lengthtype[LengthType]
+* link:CoreTypes.adoc#maxlinestype[MaxLinesType]
+* link:CoreTypes.adoc#orientationtype[OrientationType]
+* link:CoreTypes.adoc#percentlengthtype[PercentLengthType]
+* link:CoreTypes.adoc#returnkeybuttontype[ReturnKeyButtonType]
+* link:CoreTypes.adoc#textalignmenttype[TextAlignmentType]
+* link:CoreTypes.adoc#textdecorationtype[TextDecorationType]
+* link:CoreTypes.adoc#texttransformtype[TextTransformType]
+* link:CoreTypes.adoc#updatetexttriggertype[UpdateTextTriggerType]
+* link:CoreTypes.adoc#verticalalignmenttexttype[VerticalAlignmentTextType]
+* link:CoreTypes.adoc#verticalalignmenttype[VerticalAlignmentType]
+* link:CoreTypes.adoc#visibilitytype[VisibilityType]
+* link:CoreTypes.adoc#whitespacetype[WhiteSpaceType]
+* link:CoreTypes.adoc#dip[dip]
+* link:CoreTypes.adoc#percent[percent]
+* link:CoreTypes.adoc#px[px]
 
 == Type Aliases
 
@@ -77,9 +77,7 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / CoreTypes
 
 Ƭ *AutocapitalizationInputType*: `"none"` | `"words"` | `"sentences"` | `"allcharacters"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L186[core-types/index.ts:186]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L186[core-types/index.ts:186]
 
 '''
 
@@ -88,9 +86,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *AutofillType*: `"username"` | `"password"` | `"none"` | `string`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L44[core-types/index.ts:44]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L44[core-types/index.ts:44]
 
 https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L45[core-types/index.ts:45]
 
@@ -101,9 +97,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *BackgroundRepeatType*: `"repeat"` | `"repeat-x"` | `"repeat-y"` | `"no-repeat"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L240[core-types/index.ts:240]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L240[core-types/index.ts:240]
 
 '''
 
@@ -112,9 +106,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *DeviceOrientationType*: `"portrait"` | `"landscape"` | `"unknown"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L97[core-types/index.ts:97]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L97[core-types/index.ts:97]
 
 '''
 
@@ -123,9 +115,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *DockType*: `"left"` | `"top"` | `"right"` | `"bottom"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L178[core-types/index.ts:178]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L178[core-types/index.ts:178]
 
 '''
 
@@ -134,9 +124,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *HorizontalAlignmentType*: `"left"` | `"center"` | `"right"` | `"stretch"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L104[core-types/index.ts:104]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L104[core-types/index.ts:104]
 
 '''
 
@@ -145,9 +133,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *ImageStretchType*: `"none"` | `"aspectFill"` | `"aspectFit"` | `"fill"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L137[core-types/index.ts:137]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L137[core-types/index.ts:137]
 
 '''
 
@@ -156,9 +142,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *KeyboardInputType*: `"datetime"` | `"phone"` | `"number"` | `"url"` | `"email"` | `"integer"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L35[core-types/index.ts:35]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L35[core-types/index.ts:35]
 
 '''
 
@@ -176,12 +160,10 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `"dip"`
 
 | `value`
-| link:CoreTypes.md#dip[`dip`]
+| link:CoreTypes.adoc#dip[`dip`]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L28[core-types/index.ts:28]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L28[core-types/index.ts:28]
 
 '''
 
@@ -199,12 +181,10 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `"%"`
 
 | `value`
-| link:CoreTypes.md#percent[`percent`]
+| link:CoreTypes.adoc#percent[`percent`]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L30[core-types/index.ts:30]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L30[core-types/index.ts:30]
 
 '''
 
@@ -222,23 +202,19 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 | `"px"`
 
 | `value`
-| link:CoreTypes.md#px[`px`]
+| link:CoreTypes.adoc#px[`px`]
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L29[core-types/index.ts:29]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L29[core-types/index.ts:29]
 
 '''
 
 [#lengthtype]
 === LengthType
 
-Ƭ *LengthType*: `"auto"` | link:CoreTypes.md#dip[`dip`] | link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:CoreTypes.md#lengthpxunit[`LengthPxUnit`]
+Ƭ *LengthType*: `"auto"` | link:CoreTypes.adoc#dip[`dip`] | link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L32[core-types/index.ts:32]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L32[core-types/index.ts:32]
 
 '''
 
@@ -247,9 +223,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *MaxLinesType*: `number`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L89[core-types/index.ts:89]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L89[core-types/index.ts:89]
 
 '''
 
@@ -258,20 +232,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *OrientationType*: `"horizontal"` | `"vertical"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L91[core-types/index.ts:91]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L91[core-types/index.ts:91]
 
 '''
 
 [#percentlengthtype]
 === PercentLengthType
 
-Ƭ *PercentLengthType*: `"auto"` | link:CoreTypes.md#dip[`dip`] | link:CoreTypes.md#lengthdipunit[`LengthDipUnit`] | link:CoreTypes.md#lengthpxunit[`LengthPxUnit`] | link:CoreTypes.md#lengthpercentunit[`LengthPercentUnit`]
+Ƭ *PercentLengthType*: `"auto"` | link:CoreTypes.adoc#dip[`dip`] | link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] | link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`] | link:CoreTypes.adoc#lengthpercentunit[`LengthPercentUnit`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L33[core-types/index.ts:33]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L33[core-types/index.ts:33]
 
 '''
 
@@ -280,9 +250,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *ReturnKeyButtonType*: `"done"` | `"next"` | `"go"` | `"search"` | `"send"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L51[core-types/index.ts:51]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L51[core-types/index.ts:51]
 
 '''
 
@@ -291,9 +259,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *TextAlignmentType*: `"initial"` | `"left"` | `"center"` | `"right"` | `"justify"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L60[core-types/index.ts:60]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L60[core-types/index.ts:60]
 
 '''
 
@@ -302,9 +268,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *TextDecorationType*: `"none"` | `"underline"` | `"line-through"` | `"underline line-through"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L68[core-types/index.ts:68]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L68[core-types/index.ts:68]
 
 '''
 
@@ -313,9 +277,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *TextTransformType*: `"initial"` | `"none"` | `"capitalize"` | `"uppercase"` | `"lowercase"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L75[core-types/index.ts:75]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L75[core-types/index.ts:75]
 
 '''
 
@@ -324,20 +286,16 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *UpdateTextTriggerType*: `"focusLost"` | `"textChanged"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L167[core-types/index.ts:167]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L167[core-types/index.ts:167]
 
 '''
 
 [#verticalalignmenttexttype]
 === VerticalAlignmentTextType
 
-Ƭ *VerticalAlignmentTextType*: link:CoreTypes.md#verticalalignmenttype[`VerticalAlignmentType`] | `"text-top"` | `"text-bottom"` | `"sup"` | `"sub"` | `"baseline"`
+Ƭ *VerticalAlignmentTextType*: link:CoreTypes.adoc#verticalalignmenttype[`VerticalAlignmentType`] | `"text-top"` | `"text-bottom"` | `"sup"` | `"sub"` | `"baseline"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L121[core-types/index.ts:121]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L121[core-types/index.ts:121]
 
 '''
 
@@ -346,9 +304,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *VerticalAlignmentType*: `"top"` | `"middle"` | `"bottom"` | `"stretch"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L114[core-types/index.ts:114]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L114[core-types/index.ts:114]
 
 '''
 
@@ -357,9 +313,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *VisibilityType*: `"visible"` | `"hidden"` | `"collapse"` | `"collapsed"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L145[core-types/index.ts:145]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L145[core-types/index.ts:145]
 
 '''
 
@@ -368,9 +322,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Ƭ *WhiteSpaceType*: `"initial"` | `"normal"` | `"nowrap"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L83[core-types/index.ts:83]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L83[core-types/index.ts:83]
 
 '''
 
@@ -381,9 +333,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Denotes a length number that is in device independent pixel units.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L13[core-types/index.ts:13]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L13[core-types/index.ts:13]
 
 '''
 
@@ -395,9 +345,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 Denotes a normalized percent number.
 0% is represented as 0 50% is represented as 0.5 100% is represented as 1
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L26[core-types/index.ts:26]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L26[core-types/index.ts:26]
 
 '''
 
@@ -408,6 +356,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 Denotes a length number that is in physical device pixels.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L18[core-types/index.ts:18]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L18[core-types/index.ts:18]

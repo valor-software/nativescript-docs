@@ -10,11 +10,11 @@ xref:CoreTypes.adoc[CoreTypes].ReturnKeyType
 
 === Variables
 
-* link:CoreTypes.ReturnKeyType.md#done[done]
-* link:CoreTypes.ReturnKeyType.md#go[go]
-* link:CoreTypes.ReturnKeyType.md#next[next]
-* link:CoreTypes.ReturnKeyType.md#search[search]
-* link:CoreTypes.ReturnKeyType.md#send[send]
+* link:CoreTypes.ReturnKeyType.adoc#done[done]
+* link:CoreTypes.ReturnKeyType.adoc#go[go]
+* link:CoreTypes.ReturnKeyType.adoc#next[next]
+* link:CoreTypes.ReturnKeyType.adoc#search[search]
+* link:CoreTypes.ReturnKeyType.adoc#send[send]
 
 == Variables
 
@@ -23,9 +23,7 @@ xref:CoreTypes.adoc[CoreTypes].ReturnKeyType
 
 • `Const` *done*: `"done"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L53[core-types/index.ts:53]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L53[core-types/index.ts:53]
 
 '''
 
@@ -34,9 +32,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *go*: `"go"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L55[core-types/index.ts:55]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L55[core-types/index.ts:55]
 
 '''
 
@@ -45,9 +41,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *next*: `"next"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L54[core-types/index.ts:54]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L54[core-types/index.ts:54]
 
 '''
 
@@ -56,9 +50,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *search*: `"search"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L56[core-types/index.ts:56]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L56[core-types/index.ts:56]
 
 '''
 
@@ -67,6 +59,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *send*: `"send"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L57[core-types/index.ts:57]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L57[core-types/index.ts:57]

@@ -37,29 +37,29 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Property
 
 === Constructors
 
-* link:Property.md#constructor[constructor]
+* link:Property.adoc#constructor[constructor]
 
 === Properties
 
-* link:Property.md#configurable[configurable]
-* link:Property.md#defaultvalue[defaultValue]
-* link:Property.md#defaultvaluekey[defaultValueKey]
-* link:Property.md#enumerable[enumerable]
-* link:Property.md#get[get]
-* link:Property.md#getdefault[getDefault]
-* link:Property.md#isstyleproperty[isStyleProperty]
-* link:Property.md#key[key]
-* link:Property.md#name[name]
-* link:Property.md#nativevaluechange[nativeValueChange]
-* link:Property.md#overridehandlers[overrideHandlers]
-* link:Property.md#registered[registered]
-* link:Property.md#set[set]
-* link:Property.md#setnative[setNative]
+* link:Property.adoc#configurable[configurable]
+* link:Property.adoc#defaultvalue[defaultValue]
+* link:Property.adoc#defaultvaluekey[defaultValueKey]
+* link:Property.adoc#enumerable[enumerable]
+* link:Property.adoc#get[get]
+* link:Property.adoc#getdefault[getDefault]
+* link:Property.adoc#isstyleproperty[isStyleProperty]
+* link:Property.adoc#key[key]
+* link:Property.adoc#name[name]
+* link:Property.adoc#nativevaluechange[nativeValueChange]
+* link:Property.adoc#overridehandlers[overrideHandlers]
+* link:Property.adoc#registered[registered]
+* link:Property.adoc#set[set]
+* link:Property.adoc#setnative[setNative]
 
 === Methods
 
-* link:Property.md#isset[isSet]
-* link:Property.md#register[register]
+* link:Property.adoc#isset[isSet]
+* link:Property.adoc#register[register]
 
 == Constructors
 

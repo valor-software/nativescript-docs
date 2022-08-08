@@ -16,10 +16,10 @@ Provides data for downloaded event.
 
 === Properties
 
-* link:DownloadedData.md#eventname[eventName]
-* link:DownloadedData.md#image[image]
-* link:DownloadedData.md#key[key]
-* link:DownloadedData.md#object[object]
+* link:DownloadedData.adoc#eventname[eventName]
+* link:DownloadedData.adoc#image[image]
+* link:DownloadedData.adoc#key[key]
+* link:DownloadedData.adoc#object[object]
 
 == Properties
 
@@ -30,7 +30,7 @@ Provides data for downloaded event.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -65,6 +65,6 @@ A string indentifier of the cached image.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]

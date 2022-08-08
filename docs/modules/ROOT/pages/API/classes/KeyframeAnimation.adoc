@@ -8,33 +8,33 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / KeyframeAnim
 
 === Constructors
 
-* link:KeyframeAnimation.md#constructor[constructor]
+* link:KeyframeAnimation.adoc#constructor[constructor]
 
 === Properties
 
-* link:KeyframeAnimation.md#_isforwards[_isForwards]
-* link:KeyframeAnimation.md#_isplaying[_isPlaying]
-* link:KeyframeAnimation.md#_nativeanimations[_nativeAnimations]
-* link:KeyframeAnimation.md#_resolve[_resolve]
-* link:KeyframeAnimation.md#_target[_target]
-* link:KeyframeAnimation.md#animations[animations]
-* link:KeyframeAnimation.md#delay[delay]
-* link:KeyframeAnimation.md#iterations[iterations]
+* link:KeyframeAnimation.adoc#_isforwards[_isForwards]
+* link:KeyframeAnimation.adoc#_isplaying[_isPlaying]
+* link:KeyframeAnimation.adoc#_nativeanimations[_nativeAnimations]
+* link:KeyframeAnimation.adoc#_resolve[_resolve]
+* link:KeyframeAnimation.adoc#_target[_target]
+* link:KeyframeAnimation.adoc#animations[animations]
+* link:KeyframeAnimation.adoc#delay[delay]
+* link:KeyframeAnimation.adoc#iterations[iterations]
 
 === Accessors
 
-* link:KeyframeAnimation.md#isplaying[isPlaying]
+* link:KeyframeAnimation.adoc#isplaying[isPlaying]
 
 === Methods
 
-* link:KeyframeAnimation.md#_resetanimationvalues[_resetAnimationValues]
-* link:KeyframeAnimation.md#_resetanimations[_resetAnimations]
-* link:KeyframeAnimation.md#_resolveanimationfinishedpromise[_resolveAnimationFinishedPromise]
-* link:KeyframeAnimation.md#animate[animate]
-* link:KeyframeAnimation.md#cancel[cancel]
-* link:KeyframeAnimation.md#play[play]
-* link:KeyframeAnimation.md#keyframeanimationfrominfo[keyframeAnimationFromInfo]
-* link:KeyframeAnimation.md#parsekeyframe[parseKeyframe]
+* link:KeyframeAnimation.adoc#_resetanimationvalues[_resetAnimationValues]
+* link:KeyframeAnimation.adoc#_resetanimations[_resetAnimations]
+* link:KeyframeAnimation.adoc#_resolveanimationfinishedpromise[_resolveAnimationFinishedPromise]
+* link:KeyframeAnimation.adoc#animate[animate]
+* link:KeyframeAnimation.adoc#cancel[cancel]
+* link:KeyframeAnimation.adoc#play[play]
+* link:KeyframeAnimation.adoc#keyframeanimationfrominfo[keyframeAnimationFromInfo]
+* link:KeyframeAnimation.adoc#parsekeyframe[parseKeyframe]
 
 == Constructors
 

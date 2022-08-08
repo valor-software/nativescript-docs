@@ -10,10 +10,10 @@ Defines a touch action
 
 === Variables
 
-* link:TouchAction.md#cancel[cancel]
-* link:TouchAction.md#down[down]
-* link:TouchAction.md#move[move]
-* link:TouchAction.md#up[up]
+* link:TouchAction.adoc#cancel[cancel]
+* link:TouchAction.adoc#down[down]
+* link:TouchAction.adoc#move[move]
+* link:TouchAction.adoc#up[up]
 
 == Variables
 
@@ -24,9 +24,7 @@ Defines a touch action
 
 Cancel action.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L129[ui/gestures/index.d.ts:129]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L129[ui/gestures/index.d.ts:129]
 
 '''
 
@@ -37,9 +35,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Down action.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L114[ui/gestures/index.d.ts:114]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L114[ui/gestures/index.d.ts:114]
 
 '''
 
@@ -50,9 +46,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Move action.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L124[ui/gestures/index.d.ts:124]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L124[ui/gestures/index.d.ts:124]
 
 '''
 
@@ -63,6 +57,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 Up action.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L119[ui/gestures/index.d.ts:119]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L119[ui/gestures/index.d.ts:119]

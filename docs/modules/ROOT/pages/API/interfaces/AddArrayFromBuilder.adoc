@@ -15,7 +15,7 @@ Defines an interface for adding arrays declared in xml.
 
 === Methods
 
-* link:AddArrayFromBuilder.md#_addarrayfrombuilder[_addArrayFromBuilder]
+* link:AddArrayFromBuilder.adoc#_addarrayfrombuilder[_addArrayFromBuilder]
 
 == Methods
 

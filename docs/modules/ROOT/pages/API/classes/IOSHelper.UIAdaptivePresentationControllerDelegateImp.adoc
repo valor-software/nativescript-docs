@@ -10,11 +10,11 @@ xref:../modules/IOSHelper.adoc[IOSHelper].UIAdaptivePresentationControllerDelega
 
 === Constructors
 
-* link:IOSHelper.UIAdaptivePresentationControllerDelegateImp.md#constructor[constructor]
+* link:IOSHelper.UIAdaptivePresentationControllerDelegateImp.adoc#constructor[constructor]
 
 === Methods
 
-* link:IOSHelper.UIAdaptivePresentationControllerDelegateImp.md#initwithownerandcallback[initWithOwnerAndCallback]
+* link:IOSHelper.UIAdaptivePresentationControllerDelegateImp.adoc#initwithownerandcallback[initWithOwnerAndCallback]
 
 == Constructors
 

@@ -28,23 +28,23 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShorthandPro
 
 === Constructors
 
-* link:ShorthandProperty.md#constructor[constructor]
+* link:ShorthandProperty.adoc#constructor[constructor]
 
 === Properties
 
-* link:ShorthandProperty.md#csslocalname[cssLocalName]
-* link:ShorthandProperty.md#cssname[cssName]
-* link:ShorthandProperty.md#cssvaluedescriptor[cssValueDescriptor]
-* link:ShorthandProperty.md#key[key]
-* link:ShorthandProperty.md#localvaluedescriptor[localValueDescriptor]
-* link:ShorthandProperty.md#name[name]
-* link:ShorthandProperty.md#propertybagdescriptor[propertyBagDescriptor]
-* link:ShorthandProperty.md#registered[registered]
-* link:ShorthandProperty.md#sourcekey[sourceKey]
+* link:ShorthandProperty.adoc#csslocalname[cssLocalName]
+* link:ShorthandProperty.adoc#cssname[cssName]
+* link:ShorthandProperty.adoc#cssvaluedescriptor[cssValueDescriptor]
+* link:ShorthandProperty.adoc#key[key]
+* link:ShorthandProperty.adoc#localvaluedescriptor[localValueDescriptor]
+* link:ShorthandProperty.adoc#name[name]
+* link:ShorthandProperty.adoc#propertybagdescriptor[propertyBagDescriptor]
+* link:ShorthandProperty.adoc#registered[registered]
+* link:ShorthandProperty.adoc#sourcekey[sourceKey]
 
 === Methods
 
-* link:ShorthandProperty.md#register[register]
+* link:ShorthandProperty.adoc#register[register]
 
 == Constructors
 

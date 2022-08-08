@@ -26,10 +26,10 @@ Event data containing information for the application events.
 
 === Properties
 
-* link:ApplicationEventData.md#android[android]
-* link:ApplicationEventData.md#eventname[eventName]
-* link:ApplicationEventData.md#ios[ios]
-* link:ApplicationEventData.md#object[object]
+* link:ApplicationEventData.adoc#android[android]
+* link:ApplicationEventData.adoc#eventname[eventName]
+* link:ApplicationEventData.adoc#ios[ios]
+* link:ApplicationEventData.adoc#object[object]
 
 == Properties
 
@@ -54,7 +54,7 @@ The name of the event.
 
 ==== Overrides
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L119[application/index.d.ts:119]
 
@@ -81,6 +81,6 @@ The instance that has raised the event.
 
 ==== Overrides
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/application/index.d.ts#L124[application/index.d.ts:124]

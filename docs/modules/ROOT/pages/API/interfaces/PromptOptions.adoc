@@ -16,16 +16,16 @@ Provides options for the prompt dialog.
 
 === Properties
 
-* link:PromptOptions.md#cancelbuttontext[cancelButtonText]
-* link:PromptOptions.md#cancelable[cancelable]
-* link:PromptOptions.md#capitalizationtype[capitalizationType]
-* link:PromptOptions.md#defaulttext[defaultText]
-* link:PromptOptions.md#inputtype[inputType]
-* link:PromptOptions.md#message[message]
-* link:PromptOptions.md#neutralbuttontext[neutralButtonText]
-* link:PromptOptions.md#okbuttontext[okButtonText]
-* link:PromptOptions.md#theme[theme]
-* link:PromptOptions.md#title[title]
+* link:PromptOptions.adoc#cancelbuttontext[cancelButtonText]
+* link:PromptOptions.adoc#cancelable[cancelable]
+* link:PromptOptions.adoc#capitalizationtype[capitalizationType]
+* link:PromptOptions.adoc#defaulttext[defaultText]
+* link:PromptOptions.adoc#inputtype[inputType]
+* link:PromptOptions.adoc#message[message]
+* link:PromptOptions.adoc#neutralbuttontext[neutralButtonText]
+* link:PromptOptions.adoc#okbuttontext[okButtonText]
+* link:PromptOptions.adoc#theme[theme]
+* link:PromptOptions.adoc#title[title]
 
 == Properties
 
@@ -38,7 +38,7 @@ Gets or sets the Cancel button text.
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelbuttontext[cancelButtonText]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#cancelbuttontext[cancelButtonText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L214[ui/dialogs/index.d.ts:214]
 
@@ -53,7 +53,7 @@ xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelbuttontext
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#cancelable[cancelable]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#cancelable[cancelable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
@@ -101,7 +101,7 @@ Gets or sets the dialog message.
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#message[message]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#message[message]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L194[ui/dialogs/index.d.ts:194]
 
@@ -116,7 +116,7 @@ Gets or sets the neutral button text.
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#neutralbuttontext[neutralButtonText]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#neutralbuttontext[neutralButtonText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L219[ui/dialogs/index.d.ts:219]
 
@@ -131,7 +131,7 @@ Gets or sets the OK button text.
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#okbuttontext[okButtonText]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#okbuttontext[okButtonText]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L204[ui/dialogs/index.d.ts:204]
 
@@ -147,7 +147,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#theme[theme]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#theme[theme]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 
@@ -162,6 +162,6 @@ Gets or sets the dialog title.
 
 ==== Inherited from
 
-xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.md#title[title]
+xref:ConfirmOptions.adoc[ConfirmOptions].link:ConfirmOptions.adoc#title[title]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L189[ui/dialogs/index.d.ts:189]

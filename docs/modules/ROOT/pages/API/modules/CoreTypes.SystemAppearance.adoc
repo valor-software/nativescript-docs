@@ -10,8 +10,8 @@ xref:CoreTypes.adoc[CoreTypes].SystemAppearance
 
 === Variables
 
-* link:CoreTypes.SystemAppearance.md#dark[dark]
-* link:CoreTypes.SystemAppearance.md#light[light]
+* link:CoreTypes.SystemAppearance.adoc#dark[dark]
+* link:CoreTypes.SystemAppearance.adoc#light[light]
 
 == Variables
 
@@ -20,9 +20,7 @@ xref:CoreTypes.adoc[CoreTypes].SystemAppearance
 
 • `Const` *dark*: `"dark"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L273[core-types/index.ts:273]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L273[core-types/index.ts:273]
 
 '''
 
@@ -31,6 +29,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *light*: `"light"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L272[core-types/index.ts:272]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L272[core-types/index.ts:272]

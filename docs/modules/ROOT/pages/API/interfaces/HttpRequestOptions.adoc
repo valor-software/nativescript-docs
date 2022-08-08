@@ -10,12 +10,12 @@ Provides options for the http requests.
 
 === Properties
 
-* link:HttpRequestOptions.md#content[content]
-* link:HttpRequestOptions.md#dontfollowredirects[dontFollowRedirects]
-* link:HttpRequestOptions.md#headers[headers]
-* link:HttpRequestOptions.md#method[method]
-* link:HttpRequestOptions.md#timeout[timeout]
-* link:HttpRequestOptions.md#url[url]
+* link:HttpRequestOptions.adoc#content[content]
+* link:HttpRequestOptions.adoc#dontfollowredirects[dontFollowRedirects]
+* link:HttpRequestOptions.adoc#headers[headers]
+* link:HttpRequestOptions.adoc#method[method]
+* link:HttpRequestOptions.adoc#timeout[timeout]
+* link:HttpRequestOptions.adoc#url[url]
 
 == Properties
 

@@ -16,15 +16,15 @@ Provides gesture event data for pan gesture.
 
 === Properties
 
-* link:PanGestureEventData.md#android[android]
-* link:PanGestureEventData.md#deltax[deltaX]
-* link:PanGestureEventData.md#deltay[deltaY]
-* link:PanGestureEventData.md#eventname[eventName]
-* link:PanGestureEventData.md#ios[ios]
-* link:PanGestureEventData.md#object[object]
-* link:PanGestureEventData.md#state[state]
-* link:PanGestureEventData.md#type[type]
-* link:PanGestureEventData.md#view[view]
+* link:PanGestureEventData.adoc#android[android]
+* link:PanGestureEventData.adoc#deltax[deltaX]
+* link:PanGestureEventData.adoc#deltay[deltaY]
+* link:PanGestureEventData.adoc#eventname[eventName]
+* link:PanGestureEventData.adoc#ios[ios]
+* link:PanGestureEventData.adoc#object[object]
+* link:PanGestureEventData.adoc#state[state]
+* link:PanGestureEventData.adoc#type[type]
+* link:PanGestureEventData.adoc#view[view]
 
 == Properties
 
@@ -37,7 +37,7 @@ Gets the underlying native android specific http://developer.android.com/referen
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#android[android]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#android[android]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L151[ui/gestures/index.d.ts:151]
 
@@ -68,7 +68,7 @@ xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEvent
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#eventname[eventName]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -83,7 +83,7 @@ Gets the underlying native iOS specific https://developer.apple.com/library/ios/
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#ios[ios]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#ios[ios]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L147[ui/gestures/index.d.ts:147]
 
@@ -96,7 +96,7 @@ xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEvent
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#object[object]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 
@@ -109,7 +109,7 @@ xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEvent
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#state[state]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#state[state]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L245[ui/gestures/index.d.ts:245]
 
@@ -124,7 +124,7 @@ Gets the type of the gesture.
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#type[type]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#type[type]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L139[ui/gestures/index.d.ts:139]
 
@@ -139,6 +139,6 @@ Gets the view which originates the gesture.
 
 ==== Inherited from
 
-xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.md#view[view]
+xref:GestureEventDataWithState.adoc[GestureEventDataWithState].link:GestureEventDataWithState.adoc#view[view]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L143[ui/gestures/index.d.ts:143]

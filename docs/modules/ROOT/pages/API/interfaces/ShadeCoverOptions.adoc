@@ -8,11 +8,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / ShadeCoverOp
 
 === Properties
 
-* link:ShadeCoverOptions.md#animation[animation]
-* link:ShadeCoverOptions.md#color[color]
-* link:ShadeCoverOptions.md#ignoreshaderestore[ignoreShadeRestore]
-* link:ShadeCoverOptions.md#opacity[opacity]
-* link:ShadeCoverOptions.md#taptoclose[tapToClose]
+* link:ShadeCoverOptions.adoc#animation[animation]
+* link:ShadeCoverOptions.adoc#color[color]
+* link:ShadeCoverOptions.adoc#ignoreshaderestore[ignoreShadeRestore]
+* link:ShadeCoverOptions.adoc#opacity[opacity]
+* link:ShadeCoverOptions.adoc#taptoclose[tapToClose]
 
 == Properties
 

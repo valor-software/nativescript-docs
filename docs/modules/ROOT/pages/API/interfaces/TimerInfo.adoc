@@ -8,11 +8,11 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / TimerInfo
 
 === Properties
 
-* link:TimerInfo.md#count[count]
-* link:TimerInfo.md#currentstart[currentStart]
-* link:TimerInfo.md#lasttime[lastTime]
-* link:TimerInfo.md#runcount[runCount]
-* link:TimerInfo.md#totaltime[totalTime]
+* link:TimerInfo.adoc#count[count]
+* link:TimerInfo.adoc#currentstart[currentStart]
+* link:TimerInfo.adoc#lasttime[lastTime]
+* link:TimerInfo.adoc#runcount[runCount]
+* link:TimerInfo.adoc#totaltime[totalTime]
 
 == Properties
 

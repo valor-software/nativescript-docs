@@ -16,18 +16,18 @@ Various iOS view helper methods
 
 === Variables
 
-* link:IOSHelper.md#traitcollectioncolorappearancechangedevent[traitCollectionColorAppearanceChangedEvent]
+* link:IOSHelper.adoc#traitcollectioncolorappearancechangedevent[traitCollectionColorAppearanceChangedEvent]
 
 === Functions
 
-* link:IOSHelper.md#expandbeyondsafearea[expandBeyondSafeArea]
-* link:IOSHelper.md#getframefromposition[getFrameFromPosition]
-* link:IOSHelper.md#getparentwithviewcontroller[getParentWithViewController]
-* link:IOSHelper.md#getpositionfromframe[getPositionFromFrame]
-* link:IOSHelper.md#layoutview[layoutView]
-* link:IOSHelper.md#shrinktosafearea[shrinkToSafeArea]
-* link:IOSHelper.md#updateautoadjustscrollinsets[updateAutoAdjustScrollInsets]
-* link:IOSHelper.md#updateconstraints[updateConstraints]
+* link:IOSHelper.adoc#expandbeyondsafearea[expandBeyondSafeArea]
+* link:IOSHelper.adoc#getframefromposition[getFrameFromPosition]
+* link:IOSHelper.adoc#getparentwithviewcontroller[getParentWithViewController]
+* link:IOSHelper.adoc#getpositionfromframe[getPositionFromFrame]
+* link:IOSHelper.adoc#layoutview[layoutView]
+* link:IOSHelper.adoc#shrinktosafearea[shrinkToSafeArea]
+* link:IOSHelper.adoc#updateautoadjustscrollinsets[updateAutoAdjustScrollInsets]
+* link:IOSHelper.adoc#updateconstraints[updateConstraints]
 
 == Variables
 
@@ -38,9 +38,7 @@ Various iOS view helper methods
 
 String value used when hooking to traitCollectionColorAppearanceChangedEvent event.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L43[ui/core/view/view-helper/index.d.ts:43]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L43[ui/core/view/view-helper/index.d.ts:43]
 
 == Functions
 
@@ -65,9 +63,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L56[ui/core/view/view-helper/index.d.ts:56]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L56[ui/core/view/view-helper/index.d.ts:56]
 
 '''
 
@@ -116,9 +112,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L54[ui/core/view/view-helper/index.d.ts:54]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L54[ui/core/view/view-helper/index.d.ts:54]
 
 '''
 
@@ -143,9 +137,7 @@ Returns a view with viewController or undefined if no such found along the view'
 
 xref:../classes/View.adoc[`View`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L49[ui/core/view/view-helper/index.d.ts:49]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L49[ui/core/view/view-helper/index.d.ts:49]
 
 '''
 
@@ -183,9 +175,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 | `any`
 |===
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L53[ui/core/view/view-helper/index.d.ts:53]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L53[ui/core/view/view-helper/index.d.ts:53]
 
 '''
 
@@ -210,9 +200,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L52[ui/core/view/view-helper/index.d.ts:52]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L52[ui/core/view/view-helper/index.d.ts:52]
 
 '''
 
@@ -237,9 +225,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `any`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L55[ui/core/view/view-helper/index.d.ts:55]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L55[ui/core/view/view-helper/index.d.ts:55]
 
 '''
 
@@ -264,9 +250,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L50[ui/core/view/view-helper/index.d.ts:50]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L50[ui/core/view/view-helper/index.d.ts:50]
 
 '''
 
@@ -291,6 +275,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 `void`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L51[ui/core/view/view-helper/index.d.ts:51]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/view/view-helper/index.d.ts#L51[ui/core/view/view-helper/index.d.ts:51]

@@ -16,30 +16,30 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / FileSystemEn
 
 === Constructors
 
-* link:FileSystemEntity.md#constructor[constructor]
+* link:FileSystemEntity.adoc#constructor[constructor]
 
 === Properties
 
-* link:FileSystemEntity.md#_extension[_extension]
-* link:FileSystemEntity.md#_isknown[_isKnown]
-* link:FileSystemEntity.md#_lastmodified[_lastModified]
-* link:FileSystemEntity.md#_locked[_locked]
-* link:FileSystemEntity.md#_name[_name]
-* link:FileSystemEntity.md#_path[_path]
+* link:FileSystemEntity.adoc#_extension[_extension]
+* link:FileSystemEntity.adoc#_isknown[_isKnown]
+* link:FileSystemEntity.adoc#_lastmodified[_lastModified]
+* link:FileSystemEntity.adoc#_locked[_locked]
+* link:FileSystemEntity.adoc#_name[_name]
+* link:FileSystemEntity.adoc#_path[_path]
 
 === Accessors
 
-* link:FileSystemEntity.md#lastmodified[lastModified]
-* link:FileSystemEntity.md#name[name]
-* link:FileSystemEntity.md#parent[parent]
-* link:FileSystemEntity.md#path[path]
+* link:FileSystemEntity.adoc#lastmodified[lastModified]
+* link:FileSystemEntity.adoc#name[name]
+* link:FileSystemEntity.adoc#parent[parent]
+* link:FileSystemEntity.adoc#path[path]
 
 === Methods
 
-* link:FileSystemEntity.md#remove[remove]
-* link:FileSystemEntity.md#removesync[removeSync]
-* link:FileSystemEntity.md#rename[rename]
-* link:FileSystemEntity.md#renamesync[renameSync]
+* link:FileSystemEntity.adoc#remove[remove]
+* link:FileSystemEntity.adoc#removesync[removeSync]
+* link:FileSystemEntity.adoc#rename[rename]
+* link:FileSystemEntity.adoc#renamesync[renameSync]
 
 == Constructors
 

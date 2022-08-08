@@ -24,12 +24,12 @@ Event args for "changed" event.
 
 === Properties
 
-* link:ChangedData.md#action[action]
-* link:ChangedData.md#addedcount[addedCount]
-* link:ChangedData.md#eventname[eventName]
-* link:ChangedData.md#index[index]
-* link:ChangedData.md#object[object]
-* link:ChangedData.md#removed[removed]
+* link:ChangedData.adoc#action[action]
+* link:ChangedData.adoc#addedcount[addedCount]
+* link:ChangedData.adoc#eventname[eventName]
+* link:ChangedData.adoc#index[index]
+* link:ChangedData.adoc#object[object]
+* link:ChangedData.adoc#removed[removed]
 
 == Properties
 
@@ -62,7 +62,7 @@ Number of added items.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#eventname[eventName]
+xref:EventData.adoc[EventData].link:EventData.adoc#eventname[eventName]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L4[data/observable/index.ts:4]
 
@@ -86,7 +86,7 @@ Start index.
 
 ==== Inherited from
 
-xref:EventData.adoc[EventData].link:EventData.md#object[object]
+xref:EventData.adoc[EventData].link:EventData.adoc#object[object]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/data/observable/index.ts#L5[data/observable/index.ts:5]
 

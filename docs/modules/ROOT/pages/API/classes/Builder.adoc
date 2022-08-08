@@ -8,20 +8,20 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / Builder
 
 === Constructors
 
-* link:Builder.md#constructor[constructor]
+* link:Builder.adoc#constructor[constructor]
 
 === Properties
 
-* link:Builder.md#knowncollections[knownCollections]
-* link:Builder.md#knownmultitemplates[knownMultiTemplates]
-* link:Builder.md#knowntemplates[knownTemplates]
+* link:Builder.adoc#knowncollections[knownCollections]
+* link:Builder.adoc#knownmultitemplates[knownMultiTemplates]
+* link:Builder.adoc#knowntemplates[knownTemplates]
 
 === Methods
 
-* link:Builder.md#createviewfromentry[createViewFromEntry]
-* link:Builder.md#load[load]
-* link:Builder.md#parse[parse]
-* link:Builder.md#parsemultipletemplates[parseMultipleTemplates]
+* link:Builder.adoc#createviewfromentry[createViewFromEntry]
+* link:Builder.adoc#load[load]
+* link:Builder.adoc#parse[parse]
+* link:Builder.adoc#parsemultipletemplates[parseMultipleTemplates]
 
 == Constructors
 

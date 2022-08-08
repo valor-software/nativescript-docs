@@ -18,10 +18,10 @@ Provides options for the dialog.
 
 === Properties
 
-* link:DialogOptions.md#cancelable[cancelable]
-* link:DialogOptions.md#message[message]
-* link:DialogOptions.md#theme[theme]
-* link:DialogOptions.md#title[title]
+* link:DialogOptions.adoc#cancelable[cancelable]
+* link:DialogOptions.adoc#message[message]
+* link:DialogOptions.adoc#theme[theme]
+* link:DialogOptions.adoc#title[title]
 
 == Properties
 
@@ -34,7 +34,7 @@ Provides options for the dialog.
 
 ==== Inherited from
 
-xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#cancelable[cancelable]
+xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.adoc#cancelable[cancelable]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L144[ui/dialogs/index.d.ts:144]
 
@@ -61,7 +61,7 @@ Usable themes can be found: https://developer.android.com/reference/android/R.st
 
 ==== Inherited from
 
-xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.md#theme[theme]
+xref:CancelableOptions.adoc[CancelableOptions].link:CancelableOptions.adoc#theme[theme]
 
 ==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/dialogs/index.d.ts#L149[ui/dialogs/index.d.ts:149]
 

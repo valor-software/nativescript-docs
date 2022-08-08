@@ -10,15 +10,15 @@ xref:CoreTypes.adoc[CoreTypes].HorizontalAlignment
 
 === Variables
 
-* link:CoreTypes.HorizontalAlignment.md#center[center]
-* link:CoreTypes.HorizontalAlignment.md#left[left]
-* link:CoreTypes.HorizontalAlignment.md#right[right]
-* link:CoreTypes.HorizontalAlignment.md#stretch[stretch]
+* link:CoreTypes.HorizontalAlignment.adoc#center[center]
+* link:CoreTypes.HorizontalAlignment.adoc#left[left]
+* link:CoreTypes.HorizontalAlignment.adoc#right[right]
+* link:CoreTypes.HorizontalAlignment.adoc#stretch[stretch]
 
 === Functions
 
-* link:CoreTypes.HorizontalAlignment.md#isvalid[isValid]
-* link:CoreTypes.HorizontalAlignment.md#parse[parse]
+* link:CoreTypes.HorizontalAlignment.adoc#isvalid[isValid]
+* link:CoreTypes.HorizontalAlignment.adoc#parse[parse]
 
 == Variables
 
@@ -27,9 +27,7 @@ xref:CoreTypes.adoc[CoreTypes].HorizontalAlignment
 
 • `Const` *center*: `"center"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L107[core-types/index.ts:107]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L107[core-types/index.ts:107]
 
 '''
 
@@ -38,9 +36,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *left*: `"left"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L106[core-types/index.ts:106]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L106[core-types/index.ts:106]
 
 '''
 
@@ -49,9 +45,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *right*: `"right"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L108[core-types/index.ts:108]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L108[core-types/index.ts:108]
 
 '''
 
@@ -60,9 +54,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *stretch*: `"stretch"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L109[core-types/index.ts:109]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L109[core-types/index.ts:109]
 
 == Functions
 
@@ -84,16 +76,14 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 value is HorizontalAlignmentType
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1541[ui/core/properties/index.ts:1541]
 
 '''
 
 [#parse]
 === parse
 
-▸ *parse*(`value`): link:CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+▸ *parse*(`value`): link:CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
 ==== Parameters
 
@@ -106,8 +96,6 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/cor
 
 ==== Returns
 
-link:CoreTypes.md#horizontalalignmenttype[`HorizontalAlignmentType`]
+link:CoreTypes.adoc#horizontalalignmenttype[`HorizontalAlignmentType`]
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/core/properties/index.ts#L1547[ui/core/properties/index.ts:1547]

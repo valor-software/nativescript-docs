@@ -10,9 +10,9 @@ Events emitted during gesture lifecycle
 
 === Enumeration Members
 
-* link:GestureEvents.md#gestureattached[gestureAttached]
-* link:GestureEvents.md#touchdown[touchDown]
-* link:GestureEvents.md#touchup[touchUp]
+* link:GestureEvents.adoc#gestureattached[gestureAttached]
+* link:GestureEvents.adoc#touchdown[touchDown]
+* link:GestureEvents.adoc#touchup[touchUp]
 
 == Enumeration Members
 
@@ -23,9 +23,7 @@ Events emitted during gesture lifecycle
 
 When the gesture is attached to the view Provides access to the native gesture recognizer for further customization
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L14[ui/gestures/index.d.ts:14]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L14[ui/gestures/index.d.ts:14]
 
 '''
 
@@ -36,9 +34,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 When a touch down was detected
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L18[ui/gestures/index.d.ts:18]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L18[ui/gestures/index.d.ts:18]
 
 '''
 
@@ -49,6 +45,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/ges
 
 When a touch up was detected
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L22[ui/gestures/index.d.ts:22]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/ui/gestures/index.d.ts#L22[ui/gestures/index.d.ts:22]

@@ -10,12 +10,12 @@ Defines the supported character encodings.
 
 === Variables
 
-* link:encoding.md#iso_8859_1[ISO_8859_1]
-* link:encoding.md#us_ascii[US_ASCII]
-* link:encoding.md#utf_16[UTF_16]
-* link:encoding.md#utf_16be[UTF_16BE]
-* link:encoding.md#utf_16le[UTF_16LE]
-* link:encoding.md#utf_8[UTF_8]
+* link:encoding.adoc#iso_8859_1[ISO_8859_1]
+* link:encoding.adoc#us_ascii[US_ASCII]
+* link:encoding.adoc#utf_16[UTF_16]
+* link:encoding.adoc#utf_16be[UTF_16BE]
+* link:encoding.adoc#utf_16le[UTF_16LE]
+* link:encoding.adoc#utf_8[UTF_8]
 
 == Variables
 
@@ -26,9 +26,7 @@ Defines the supported character encodings.
 
 Denotes ISO-8859-1 character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L10[text/index.d.ts:10]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L10[text/index.d.ts:10]
 
 '''
 
@@ -39,9 +37,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/i
 
 Denotes US_ASCII character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L15[text/index.d.ts:15]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L15[text/index.d.ts:15]
 
 '''
 
@@ -52,9 +48,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/i
 
 Denotes UTF_16 character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L20[text/index.d.ts:20]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L20[text/index.d.ts:20]
 
 '''
 
@@ -65,9 +59,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/i
 
 Denotes UTF_16BE character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L25[text/index.d.ts:25]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L25[text/index.d.ts:25]
 
 '''
 
@@ -78,9 +70,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/i
 
 Denotes UTF_16LE character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L30[text/index.d.ts:30]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L30[text/index.d.ts:30]
 
 '''
 
@@ -91,6 +81,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/i
 
 Denotes UTF_8 character encoding.
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L35[text/index.d.ts:35]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/text/index.d.ts#L35[text/index.d.ts:35]

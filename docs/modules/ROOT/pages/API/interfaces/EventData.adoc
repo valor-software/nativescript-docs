@@ -42,8 +42,8 @@ xref:../README.adoc[NativeScript] / xref:../modules.adoc[Exports] / EventData
 
 === Properties
 
-* link:EventData.md#eventname[eventName]
-* link:EventData.md#object[object]
+* link:EventData.adoc#eventname[eventName]
+* link:EventData.adoc#object[object]
 
 == Properties
 

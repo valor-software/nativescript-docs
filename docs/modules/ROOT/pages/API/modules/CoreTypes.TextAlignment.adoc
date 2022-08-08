@@ -10,10 +10,10 @@ xref:CoreTypes.adoc[CoreTypes].TextAlignment
 
 === Variables
 
-* link:CoreTypes.TextAlignment.md#center[center]
-* link:CoreTypes.TextAlignment.md#justify[justify]
-* link:CoreTypes.TextAlignment.md#left[left]
-* link:CoreTypes.TextAlignment.md#right[right]
+* link:CoreTypes.TextAlignment.adoc#center[center]
+* link:CoreTypes.TextAlignment.adoc#justify[justify]
+* link:CoreTypes.TextAlignment.adoc#left[left]
+* link:CoreTypes.TextAlignment.adoc#right[right]
 
 == Variables
 
@@ -22,9 +22,7 @@ xref:CoreTypes.adoc[CoreTypes].TextAlignment
 
 • `Const` *center*: `"center"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L63[core-types/index.ts:63]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L63[core-types/index.ts:63]
 
 '''
 
@@ -33,9 +31,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *justify*: `"justify"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L65[core-types/index.ts:65]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L65[core-types/index.ts:65]
 
 '''
 
@@ -44,9 +40,7 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *left*: `"left"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L62[core-types/index.ts:62]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L62[core-types/index.ts:62]
 
 '''
 
@@ -55,6 +49,4 @@ https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-t
 
 • `Const` *right*: `"right"`
 
-==== Defined in
-
-https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L64[core-types/index.ts:64]
+==== Defined in https://github.com/NativeScript/NativeScript/blob/02d4834bd/packages/core/core-types/index.ts#L64[core-types/index.ts:64]
