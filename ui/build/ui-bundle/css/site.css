@@ -192,7 +192,7 @@ body ::-webkit-scrollbar-thumb {
 }
 .nav-container {
   position: fixed;
-  top: 5.5rem;
+  top: 1rem;
   left: 0;
   width: 100%;
   font-size: 0.94444rem;
@@ -495,7 +495,7 @@ html.is-clipped--nav {
   -ms-flex-pack: start;
   justify-content: flex-start;
   position: sticky;
-  top: 5.5rem;
+  top: 4rem;
   z-index: 2;
 }
 .toolbar a {
@@ -1645,7 +1645,7 @@ body {
   padding-top: 5.5rem;
 }
 .navbar {
-  background: #191919;
+  background: #fff;
   color: #4070f4;
   font-size: 0.88889rem;
   height: 5.5rem;
@@ -1759,7 +1759,7 @@ body {
 }
 .navbar-item,
 .navbar-link {
-  color: #000;
+  color: rgb(255, 255, 255);
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
@@ -1802,7 +1802,7 @@ body {
   border: 1px solid #e1e1e1;
   border-radius: 0.15rem;
   height: 1.75rem;
-  color: #000;
+  color: #fff;
   padding: 0 0.75em;
   white-space: nowrap;
 }
@@ -1893,13 +1893,16 @@ body {
   }
   .navbar-end .navbar-link,
   .navbar-end > .navbar-item {
-    color: #4070f4;
+    color: #fff;
   }
   .navbar-end .navbar-item.has-dropdown:hover .navbar-link,
   .navbar-end .navbar-link:hover,
   .navbar-end > a.navbar-item:hover {
-    background: #fff;
-    color: #4070f4;
+
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+
   }
   .navbar-end .navbar-link::after {
     border-color: currentColor;
@@ -12769,20 +12772,15 @@ code.hljs {
 .navbar-link {
   padding: 0.5rem 1.5rem 0.5rem 0.7rem;
 }
-.lisk-logo {
-  height: 2rem;
-  background-image: url(../img/lisk-symbol.svg);
-  background-repeat: no-repeat;
-  width: 2rem;
-}
 .docs-logo {
-  width: 5.5rem;
+  width: 15rem;
+  height: 2rem;
   padding: 0.25rem;
   margin-left: 0.5rem;
 }
 .docs-logo,
 .theme-toggle {
-  height: 1.5rem;
+  height: 2rem;
   background-repeat: no-repeat;
 }
 .theme-toggle {
@@ -13190,7 +13188,7 @@ footer.footer {
 @media screen and (min-width: 1024px) {
   .navbar-end .navbar-link,
   .navbar-end > .navbar-item {
-    color: #000;
+    color: #fff;
   }
 }
 .DocSearch-Button {
@@ -13204,7 +13202,7 @@ footer.footer {
   color: #969faf;
 }
 .navbar {
-  background: #fff;
+  background: #65adf1;
 }
 .navbar-end .navbar-item .navbar-dropdown {
   border-top: 1px solid #e1e1e1;
@@ -13220,9 +13218,7 @@ footer.footer {
 .navbar-brand .navbar-item:first-child {
   color: #000;
 }
-.lisk-logo {
-  background-image: url(../img/lisk-symbol.svg);
-}
+
 .docs-logo {
   background-image: url(../img/docs.svg);
 }
@@ -13232,7 +13228,7 @@ footer.footer {
 }
 .theme-toggle {
   background-image: url(../img/moon.svg);
-  background-color: #fff;
+  background-color: #65adf1;
 }
 .theme-toggle:hover {
   background-image: url(../img/moon-filled.svg);
