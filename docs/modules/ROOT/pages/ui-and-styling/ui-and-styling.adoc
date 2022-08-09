@@ -3146,9 +3146,10 @@ The NativeScript modules provides a custom component which simplifies the way na
 
 // TODO: examples in all flavors
 
-::: warning Note
+[WARNING]
+====
 The ListView's item template can contain only a single root view container.
-:::
+====
 
 /// flavor plain
 
@@ -3480,12 +3481,13 @@ When you create conditions for `<v-template>`, you can use a valid JavaScript ex
 
 Only the above variables are available in this scope, and currently you do not have access to the component scope (component state, computed properties...).
 
-::: warning Note
+[WARNING]
+====
 
-==== An important note about `v-for`
+An important note about `v-for`:
 
 `<ListView>` does not loop through list items as you would expect when using a https://vuejs.org/v2/guide/list.html#Mapping-an-Array-to-Elements-with-v-for[`v-for`] loop. Instead `<ListView>` only creates the necessary views to display the currently visible items on the screen, and reuses the views that are already off-screen when scrolled. This concept is called _view recycling_ and is commonly used in mobile apps to improve performance.
-:::
+====
 
 *This is important, because you should not use `key` properties within your v-templates, as they will force the ListView to re-create the views and prevent view recycling from working properly.*
 
@@ -3503,9 +3505,10 @@ onItemTap(event) {
 }
 ----
 
-::: warning Note
+[WARNING]
+====
 If a `v-for` is used on a `<ListView>` a warning will be printed to the console, and it will be converted to the `for` property.
-:::
+====
 
 ==== Props
 
@@ -3551,11 +3554,12 @@ For example: <ul><li>``item in listOfItems``</li><li>``(item, index) in listOfIt
 
 ///
 
-::: tip Tip
+[TIP]
+====
 Instead of manually triggering the UI update with the help of ListView's refresh method, NativeScript provides the ObservableArray. Using an ObservableArray for your listview's items source will make its members an observable objects and adding/removing an array item will automatically update the UI.
-:::
+====
 
-::: danger Important
+[TIP]
 Using the ListView component inside a ScrollView or ScrollView inside the ListView's items can lead to poor performance and can reflect the user experience. To avoid this issue, we should specify the height explicitly for the ListView in the scenario when the ListView is nested in ScrollView and the ScrollView's height - when the component is used inside the ListView.
 
 [source,html]
@@ -3567,7 +3571,7 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 </ScrollView>
 ----
 
-:::
+====
 
 ==== Events
 
@@ -3658,14 +3662,16 @@ Using the ListView component inside a ScrollView or ScrollView inside the ListVi
 It doesn't matter whether the `<actionBar>` is a first child, last child, or middle child of `<page>`.
 React NativeScript will automatically detect it using an `child instanceof Page` check, and set it as the `ActionBar` for the Page.
 
-:::tip Note
+[NOTE]
+====
 You can skip this check by explicitly setting `<actionBar nodeRole="actionBar">`, but it's not a major performance concern.
-:::
+====
 Any non-ActionBar child will be handled as the content view. Page only supports a single child, so if you want to insert multiple children on the Page (which is normally the case!), you should use a LayoutBase such as GridLayout to enscapsulate them.
 
-:::tip Out of interest
+[TIP]
+====
 You'd expect to be able to set ActionBar as the content view by specifying `<actionBar nodeRole="content">`, but it's not supported in NativeScript Core, so React NativeScript doesn't support it either!
-:::
+====
 
 ///
 
@@ -3778,9 +3784,10 @@ export default {
 }
 ----
 
-::: warning Note
+[WARNING]
+====
 Developers coming from a web background would usually reach for the `mounted` lifecycle hook Vue provides, however in NativeScript the application, and certain elements might not yet be loaded when the `mounted` hook is executed, thus certain actions such as alerts, dialogs, navigation etc. are not possible inside the `mounted` hook. To work around this limitation, the `loaded` event may be used, which only fires after the application is ready. In this case, we are using the `loaded` event of the <<page,`<Page>`>> element, but this event is available for all NativeScript elements.
-:::
+====
 
 ///
 
@@ -3843,9 +3850,10 @@ Valid values: +
 | Emitted before the app has navigated to the current page.
 |===
 
-::: warning Note
+[WARNING]
+====
 The events loaded, unloaded and layoutChanged are UI component lifecycles events and are universal for all classes that extend the View class (including Page). They can be used with all NativeScript elements (e.g. layouts, buttons, UI plugins, etc.).
-:::
+====
 
 ==== Native component
 
@@ -4112,9 +4120,10 @@ function getTaskCompletionPercent() {
 
 Using `backgroundColor` (*CSS*: `background-color`) & color to change the Progress style.
 
-:::tip Note
+[NOTE]
+====
 `backgroundColor` will work only on `iOS`; on `Android` the background will be the color with applied opacity.
-:::
+====
 
 [source,html]
 ----
@@ -4172,9 +4181,10 @@ Default value: `100`.
 
 The Repeater widget allows you to display a collection of data, which is present in an array.
 
-:::tip Note
+[NOTE]
+====
 `<Repeater>` is only applicable to plain NativeScript apps, most flavors provide directives to loop through arrays like `ngFor` and `v-for`.
-:::
+====
 
 '''
 
@@ -4220,11 +4230,12 @@ export function onNavigatingTo(args) {
 
 ///
 
-::: tip Note
+[NOTE]
+====
 Changing the array after the repeater is shown will not update the UI. You can force-update the UI using the `refresh()` method.
 
 When using `ObservableArray` the repeater will be automatically updated when items are added or removed form the array.
-:::
+====
 
 ==== API References
 
@@ -5299,9 +5310,10 @@ Using a `<TabView>` inside an `Angular` app requires some special attention abou
 </TabView>
 ----
 
-::: warning Note
+[WARNING]
+====
 If you have set the iconSource property on a `<TabViewItem>`, but are not seeing any icons next to the title, this might be because the icon is not present in your `App_Resources` folder. See the Working with Images article for information on how to add and reference your resource images.
-:::
+====
 
 ///
 
@@ -5379,9 +5391,10 @@ import { SelectedIndexChangedEventData } from '@nativescript/core'
 
 ///
 
-::: warning Note
+[WARNING]
+====
 Currently, `TabViewItem` expects a single child element. In most cases, you might want to wrap your content in a layout.
-:::
+====
 
 ==== Example: Adding icons to tabs
 
@@ -5435,9 +5448,10 @@ Currently, `TabViewItem` expects a single child element. In most cases, you migh
 
 // TODO: examples in all flavors
 
-::: tip Tip
+[TIP]
+====
 You can use images for tab icons instead of icon fonts. For more information about how to control the size of icons, see https://docs.nativescript.org/ui/image-resources[Working with image from resource folders].
-:::
+====
 
 // TODO: fix links
 
@@ -6318,9 +6332,10 @@ See also: <<htmlview,HtmlView>>.
 
 ///
 
-::: tip Tip
+[TIP]
+====
 To be able to use gestures in WebView component on Android, we should first disabled the zoom control. To do that we could access the android property and with the help of setDisplayZoomControls to set this control to false.
-:::
+====
 
 ==== Props
 
@@ -6648,13 +6663,15 @@ In the context of mobile development, there are a number of properties that are 
 | Gets or sets the underline color of the selected `TabStripItem`.
 |===
 
-::: warning Note
+[WARNING]
+====
 Currently, we can set only the `backgroundColor`, `color`, `fontFamily`, `fontSize`, `fontStyle`, `fontWeight` and `textTransform` styling properties to the `Label` and `Image` components inside the TabStripItem. More about the usage of those properties can be found in the <<supported-css-properties,Supported CSS Properties>> section.
-:::
+====
 
-::: warning Note
+[WARNING]
+====
 On iOS, the TabStripItems can not be stylied individually.
-:::
+====
 
 ==== Using the `androidElevation` property on Android
 
@@ -6681,7 +6698,8 @@ Since \{N} 5.4, a new Android-specific property, called androidElevation, is int
 }
 ----
 
-::: warning Note
+[WARNING]
+====
 Since NativeScript 5.4, the buttons on Android have default elevation (shadow) of 2, to provide Material Design elevation support. Removing the shadow will allow you to create a transparent button. To explicitly remove the elevation, set the android-elevation property to `0` as shown below:
 
 [source,css]
@@ -6691,7 +6709,7 @@ Since NativeScript 5.4, the buttons on Android have default elevation (shadow) o
 }
 ----
 
-:::
+====
 
 ==== Using the `androidDynamicElevationOffset` property on Android
 
@@ -6723,9 +6741,10 @@ Example:
 
 === Supported Selectors
 
-::: warning Note
+[WARNING]
+====
 Currently the CSS support is limited only to the selectors and properties listed in the current documentation.
-:::
+====
 
 NativeScript supports a subset of the http://www.w3schools.com/cssref/css_selectors.asp[CSS selector syntax]. Here is how to use the supported selectors:
 
@@ -6750,9 +6769,10 @@ button { background-color: gray }
 http://www.w3schools.com/cssref/sel_class.asp[Class selectors] select all views with a given class.
 The class is set using the `className` property of the view.
 
-::: warning Note
+[WARNING]
+====
 To use `className` in JS/TS to add a class to an element, the class rule must be in a CSS file that is higher up the component tree than the element, such as `app.css`.
-:::
+====
 
 [source,html]
 ----
@@ -6992,9 +7012,10 @@ platformNativeScriptDynamic({ bootInExistingPage: false, cssFile: 'style.css' })
 
 ///
 
-::: tip Note
+[NOTE]
+====
 The path to the CSS file is relative to the application root folder.
-:::
+====
 
 You could also check the name of the application-wide CSS file by using getCssFileName() method as shown below:
 
@@ -7176,9 +7197,10 @@ The CSS classes for each application and modal root view are:
 * `.ns-portrait`, `.ns-landscape`, `.ns-unknown` - classes that specify the application orientation
 * `.ns-light`, `.ns-dark` - classes that specify the system appearance.
 
-::: tip Note
+[NOTE]
+====
 In native modals in Angular, the classes are applied to the first layout view in your modal component's HTML. If you are targeting a class that is applied to the root layout in your modal, you would target it with `.ns-dark.your-class`.
-:::
+====
 
 For additional information on the Dark Mode support, refer to https://docs.nativescript.org/ui/dark-mode[this] documentation article.
 
@@ -7333,14 +7355,16 @@ The NativeScript runtime will look for the font files under the `app/fonts/` (or
 
 // [Custom fonts setup"](/assests/ui-and-styling/custom-fonts.png)
 
-::: tip Tip
+[TIP]
+====
 Since NativeScript 7.1, the CLI has the `ns fonts` command. Executing this command will print out the css styles you need for any custom fonts found in your application.
-:::
+====
 
-::: warning Note
+[WARNING]
+====
 On iOS your font file should be named *exactly* as the font name.
 If you have any doubt about the original font name, use the https://support.apple.com/en-us/HT201749[Font Book] app to get the original font name, or try using `ns fonts` from your terminal using NS 7.1 or newer.
-:::
+====
 
 ==== Using Icon Fonts in NativeScript
 
@@ -7351,11 +7375,12 @@ While bitmap images are great, they present challenges in designing mobile appli
 . In your root application folder (This is the *app* folder for NativeScript Core, and the *src* folder for Angular 6+), create a folder called *fonts* and place the *.ttf* there.
 . Follow the instructions on the icon font webpage to determine the hex codes of each font glyph, i.e., icon. Add a *Label* component to your NativeScript app and bind the Label's *text* property to a one-letter string generated from the character code of the icon you want to show, i.e., `\ue903`. Prefix the character (in this example: e903) with a `\u`
 
-:::tip Note
+[NOTE]
+====
 
 While this documentation article is focused on icon fonts, the above workflow is a hundred percent applicable for both *text fonts* and *icon fonts* (except that with text fonts step 4 as they don't include icons but only plain text).
 
-:::
+====
 
 ==== Platform Specific Font Recognition
 
@@ -7370,11 +7395,12 @@ There is a conceptual difference in how *.ttf* fonts are recognized on iOS and A
 
 In the above example, the `fa-brands-400.ttf` (as downloaded from the FontAwesome site) has a font name `Font Awesome 5 Brands`. With the above CSS, the font is recognized on both iOS (by the font name `Font Awesome 5 Brands`) and Android (by the file name `fa-brands-400`).
 
-:::tip Note
+[NOTE]
+====
 
 There are specific scenarios where the creators of the fonts might have released two differently named `ttf` files but with the same *font* name (see the example below).
 
-:::
+====
 
 |===
 | file name | font name

@@ -1,3 +1,5 @@
+:imagesdir: ../../../images
+
 = Angular Tutorial
 
 == Getting Started with NativeScript Angular
@@ -21,7 +23,8 @@ Components form the basic building blocks of an Angular application. Components 
 
 You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
-image::/assets/images/tutorial/tutorial-example-app-preview.png[Example app preview]
+.Example app preview
+image::basics/tutorial-example-app-preview.png[Example app preview]
 
 You can find the complete source code of the application on https://github.com/NativeScript/tutorials/tree/main/angular-tutorial[GitHub]
 
@@ -190,9 +193,10 @@ const routes: Routes = [
 export class AppRoutingModule {}
 ----
 
-:::tip Note
+[NOTE]
+====
 By default, `NgModules` are eagerly loaded, which means that they get loaded as soon as the application loads. Lazy-loaded modules on the other hand loads `NgModules` as needed. Lazy-loaded modules in NativeScript are handled the same way as a web Angular Application. You can read more about lazy loading modules https://angular.io/guide/lazy-loading-ngmodules[here].
-:::
+====
 
 === Home UI
 
@@ -200,7 +204,7 @@ Before we create the UI of our home page, let's create our `FlickModel` and `Fli
 
 `FlickModel` will contain the shape of each flick object. Create a `models` directory inside `core` and create a new file called `flick.model.ts`. Open the new `flick.model.ts` and add the following `interface`:
 
-[,typescript]
+[source,typescript]
 ----
 // src/app/core/models/flick.model.ts
 
@@ -220,7 +224,7 @@ export interface FlickModel {
 
 We will then use the `FlickModel` in our `FlickService` to return our flick data. Create a `services` directory inside `core` and create a new file called `flick.service.ts`. Open the new `flick.service.ts` and add the following:
 
-[,typescript]
+[source,typescript]
 ----
 // src/app/core/services/flick.service.ts
 
@@ -334,13 +338,14 @@ export class FlickService {
 
 Add a `/src/assets/` directory to your project, and copy the 3 static images over from the sample project https://github.com/NativeScript/tutorials/tree/main/angular-tutorial/src/assets[here].
 
-:::tip Note
+[NOTE]
+====
 You can create barrel exports for your models and services to give you more flexibility in organizing your files and folders. To do this, create an `index.ts` in your `services` and `models` directory and export `flick.service.ts` and `flick.model.ts` respectively. You can also add another `index.ts` in your `core` folder and export your `services` and `models` directory.
-:::
+====
 
 Next, let's break down the layout and UI elements of the home page.
 
-image::/assets/images/tutorial/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
+image::basics/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
 
 The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `home.component.html` and add the following code:
 
@@ -439,11 +444,12 @@ Before we dive into creating the card below, let's create some classes for our b
 }
 ----
 
-image::/assets/images/tutorial/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
+.Home page cards breakdown
+image::basics/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `home.component.html` and add the following:
 
-[,html{8-35}]
+[source,html{8-35}]
 ----
 <!-- src/app/features/home/home.component.html -->
 
@@ -488,7 +494,8 @@ As you can see in the image above, each card is made up of 3 components, the pre
 
 If you've followed along this far, running the app on either platform should result in an app that resembles the one in this screenshot, with the list being scrollable vertically.
 
-image::/assets/images/tutorial/tutorial-example-app-master.png[Home page]
+.Home Page
+image::basics/tutorial-example-app-master.png[Home page]
 
 == Create the details page
 
@@ -496,7 +503,7 @@ Let's start with creating the files for our details feature with the following c
 
 // tab:details.component.html
 
-[,html]
+[source,html]
 ----
 <!-- src/app/features/details/details.component.html -->
 ----
@@ -721,11 +728,12 @@ export class DetailsComponent {
 
 Let's break down the layout and UI elements of the details page.
 
-image::/assets/images/tutorial/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
+.Details page layout breakdown
+image::basics/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
 
 The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Angular's `*ngFor` directive to loop through the array and create a UI element or set of elements for each entry in the array. Open `details.component.html` and add the following code:
 
-[,html]
+[source,html]
 ----
 <!-- src/app/features/details/details.component.html -->
 
@@ -764,7 +772,8 @@ The details page can be divided into three main parts, the action bar with the f
 
 Running the app on either platform should now result in an app that resembles the one in this screenshot with the ability to navigate between the home and details pages.
 
-image::/assets/images/tutorial/tutorial-example-app-details.png[Details page]
+.Details page
+image::basics/tutorial-example-app-details.png[Details page]
 
 == What's next
 

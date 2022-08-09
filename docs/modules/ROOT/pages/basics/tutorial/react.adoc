@@ -1,3 +1,4 @@
+:imagesdir: ../../../images
 = React Tutorial
 
 == Getting Started with React NativeScript
@@ -18,7 +19,7 @@ To get the most out of this tutorial you should already have a basic understandi
 
 You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
-image::/assets/images/tutorial/tutorial-example-app-preview.png[Example app preview]
+image::basics/tutorial-example-app-preview.png[Example app preview]
 
 You can find the complete source code of the application on https://github.com/NativeScript/tutorials/tree/main/react-tutorial[GitHub]
 
@@ -279,7 +280,7 @@ Add a `/src/assets/` directory to your project, and copy the 3 static images ove
 
 Next, let's break down the layout and UI elements of the home page.
 
-image::/assets/images/tutorial/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
+image::basics/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
 
 The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section). Let's start with creating the action bar with the title. Open `Navigator.tsx` and add the following code:
 
@@ -429,7 +430,7 @@ Before we dive into creating the card below, let's create some classes for our b
 }
 ----
 
-image::/assets/images/tutorial/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
+image::basics/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description. We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts. Open your `HomeScreen.tsx` and add the following:
 
@@ -504,7 +505,7 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
 
 If you've followed along this far, running the app on either platform should result in an app that resembles the one in this screenshot, with the list being scrollable vertically.
 
-image::/assets/images/tutorial/tutorial-example-app-master.png[Home page]
+image::basics/tutorial-example-app-master.png[Home page]
 
 == Create the details screen
 
@@ -776,7 +777,7 @@ export function DetailsScreen({ route }: DetailsScreenProps) {
 
 Let's break down the layout and UI elements of the details page.
 
-image::/assets/images/tutorial/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
+image::basics/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
 
 The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details. We will use the `details` array from our `flicks` object to populate the flick details section. The `details` array contains objects with a `title` and `body` which are rendered uniformly, each with their style. We can use Javascript's array `map` operator to loop through the `details` array and create a UI element or set of elements for each entry in the array. Open `DetailsScreen.tsx` and add the following code:
 
@@ -884,7 +885,7 @@ export const mainStackNavigator = () => {
 
 Running the app on either platform should now result in an app that resembles the one in this screenshot with the ability to navigate between the home and details pages.
 
-image::/assets/images/tutorial/tutorial-example-app-details.png[Details page]
+image::basics/tutorial-example-app-details.png[Details page]
 
 == What's next
 

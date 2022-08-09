@@ -1,13 +1,13 @@
 site:
   title: NativeScript Documentation
   # the 404 page and sitemap files only get generated when the url property is set
-  url: http://localhost:3000
+  url: https://nativescript-docs-26174.web.app/
   start_page: ROOT::index.adoc
 asciidoc:
   attributes:
-    plantuml-server-url: http://www.plantuml.com/plantuml
+#    plantuml-server-url: http://www.plantuml.com/plantuml
     imagesdir: ~
-    page-toclevels: 4@
+    page-toclevels: 2@
 #    description: ~
     idprefix: ''
     idseparator: '-'
@@ -24,7 +24,6 @@ content:
 ui:
   bundle:
     url: ../ui/build/ui-bundle
-
-    snapshot: true
+    snapshot: false
 output:
   dir: ../live
