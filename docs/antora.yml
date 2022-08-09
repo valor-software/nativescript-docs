@@ -1,6 +1,7 @@
 name: ROOT
 title: NativeScript Documentation
-version: ~
+version: '8.0'
+display_version: 'v8'
 #display_version: ~
 start_page: ROOT:index.adoc
 nav:
