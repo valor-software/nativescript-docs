@@ -3,6 +3,8 @@ site:
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://nativescript-docs-26174.web.app/
   start_page: ROOT::index.adoc
+urls:
+  html_extension_style: drop
 asciidoc:
   attributes:
 #    plantuml-server-url: http://www.plantuml.com/plantuml
@@ -24,6 +26,6 @@ content:
 ui:
   bundle:
     url: ../ui/build/ui-bundle
-    snapshot: false
+    snapshot: true
 output:
   dir: ../live

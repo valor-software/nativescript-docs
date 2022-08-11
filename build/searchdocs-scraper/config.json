@@ -1,43 +1,11 @@
 {
-  "index_name": "lisk-docs-search",
+  "index_name": "ns-docs-search",
   "start_urls": [
     {
-      "url": "https://lisk.com/documentation/(?=lisk-sdk(?!/v3|/v4|/v2)/)",
+      "url": "https://nativescript-docs-26174.firebaseapp.com(?!/v8|/v7|/v6)/)",
       "variables": {
-        "component": [
-          "lisk-sdk",
-          "lisk-core",
-          "lisk-service"
-        ],
         "version": [
-          "!v3",
-          "!v4"
-        ]
-      }
-    },
-    {
-      "url": "https://lisk.com/documentation/(?=lisk-core(?!/v2)/)",
-      "variables": {
-        "component": [
-          "lisk-sdk",
-          "lisk-core",
-          "lisk-service"
-        ],
-        "version": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "url": "https://lisk.com/documentation/(?=lisk-service(?!/v0.3)/)",
-      "variables": {
-        "component": [
-          "lisk-sdk",
-          "lisk-core",
-          "lisk-service"
-        ],
-        "version": [
-          "v2"
+          "v8"
         ]
       }
     }
@@ -94,4 +62,3 @@
     ]
   }
 }
-

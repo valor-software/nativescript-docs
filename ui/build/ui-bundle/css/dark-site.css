@@ -12847,20 +12847,15 @@ code.hljs {
 .navbar-link {
   padding: 0.5rem 1.5rem 0.5rem 0.7rem;
 }
-.lisk-logo {
-  height: 2rem;
-  background-image: url(../img/lisk-symbol.svg);
-  background-repeat: no-repeat;
-  width: 2rem;
-}
 .docs-logo {
-  width: 5.5rem;
+  width: 15rem;
+  height: 2rem;
   padding: 0.25rem;
   margin-left: 0.5rem;
 }
 .docs-logo,
 .theme-toggle {
-  height: 1.5rem;
+  height: 2rem;
   background-repeat: no-repeat;
 }
 .theme-toggle {
@@ -13296,9 +13291,6 @@ footer.footer {
 }
 .navbar-brand .navbar-item:first-child {
   color: #f7f9fb;
-}
-.lisk-logo {
-  background-image: url(../img/lisk-symbol.svg);
 }
 .docs-logo {
   background-image: url(../img/docs-white.svg);

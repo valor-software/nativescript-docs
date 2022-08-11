@@ -13,7 +13,7 @@ When you set margins through XML, you can choose between the following approache
 * *Set one value*: Provide a single value that will be applied on all sides of the view.
 * *Set two values*: Provide two values. The first value is applied to the top side, the second value is applied to the right side. Next, the first value is applied to the bottom and the second value to the left side (in that order).
 * *Set four values*: Provide four values for each margin. The first value is applied to the top, the second value is applied to the right, the third value is applied to the bottom and the fourth value is applied to the left side (in that order).
-
+a
 === Paddings
 
 The four padding properties (`paddingTop`, `paddingRight`, `paddingBottom` and `paddingLeft`) describe the distance between the layout container and its children.
