@@ -39,4 +39,4 @@
 
 * API
 ** Modules
-*** xref:modules/Length.adoc[Namespace Length]
+*** xref:modules/Length.adoc[Length]

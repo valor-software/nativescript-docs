@@ -4,20 +4,20 @@
 
 = Namespace: Length
 
-== Functions
-
-====
+.Functions
+[#functions]
+****
 * image:icon1.png[] link:Length.adoc#converttostring[convertToString]
 * image:icon1.png[] link:Length.adoc#equals[equals]
 * image:icon1.png[] link:Length.adoc#parse[parse]
 * image:icon1.png[] link:Length.adoc#todevicepixels[toDevicePixels]
-====
+****
 
 == Functions
 
-=== kbd:[Const] convertToString
+=== convertToString
 
-image:icon1.png[] *convertToString*(`length`): `string`
+kbd:[Const] image:icon1.png[] *convertToString*(`length`): `string`
 
 ==== Parameters
 
@@ -34,9 +34,9 @@ image:icon1.png[] *convertToString*(`length`): `string`
 
 '''
 
-=== kbd:[Const] equals
+=== equals
 
-image:icon1.png[]  *equals*(`a`, `b`): `boolean`
+kbd:[Const] image:icon1.png[] *equals*(`a`, `b`): `boolean`
 
 ==== Parameters
 
@@ -75,9 +75,9 @@ image:icon1.png[] *parse*(`fromValue`): link:CoreTypes.adoc#lengthtype[`LengthTy
 
 '''
 
-=== kbd:[Const] toDevicePixels
+=== toDevicePixels
 
-image:icon1.png[] *toDevicePixels*(`length`, `auto?`): `number`
+kbd:[Const] image:icon1.png[] *toDevicePixels*(`length`, `auto?`): `number`
 
 ==== Parameters
 
@@ -94,3 +94,5 @@ image:icon1.png[] *toDevicePixels*(`length`, `auto?`): `number`
 ==== Returns: `number`
 
 ==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L180[ui/styling/style-properties.ts:180]
+
+'''
