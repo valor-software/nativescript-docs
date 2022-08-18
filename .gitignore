@@ -75,3 +75,8 @@ docs/modules/ROOT/images/.DS_Store
 docs/modules/ROOT/.DS_Store
 build/searchdocs-scraper/scraper
 .idea/
+docs/modules/.DS_Store
+docs/modules/ROOT/.DS_Store
+docs/modules/ROOT/images/.DS_Store
+ui/.DS_Store
+*DS_Store*

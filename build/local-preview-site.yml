@@ -4,7 +4,7 @@ site:
   url: https://nativescript-docs-26174.web.app/
   start_page: ROOT::index.adoc
 urls:
-  html_extension_style: drop
+  html_extension_style: indexify
 asciidoc:
   attributes:
 #    plantuml-server-url: http://www.plantuml.com/plantuml

@@ -1,0 +1,96 @@
+:doctype: book
+:imagesdir: ../../assets/images
+:experimental:
+
+= Namespace: Length
+
+== Functions
+
+====
+* image:icon1.png[] link:Length.adoc#converttostring[convertToString]
+* image:icon1.png[] link:Length.adoc#equals[equals]
+* image:icon1.png[] link:Length.adoc#parse[parse]
+* image:icon1.png[] link:Length.adoc#todevicepixels[toDevicePixels]
+====
+
+== Functions
+
+=== kbd:[Const] convertToString
+
+image:icon1.png[] *convertToString*(`length`): `string`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
+|===  
+
+==== Returns: `string`
+
+==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L183[ui/styling/style-properties.ts:183]
+
+'''
+
+=== kbd:[Const] equals
+
+image:icon1.png[]  *equals*(`a`, `b`): `boolean`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `a`
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
+
+| `b`
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
+|===
+
+==== Returns: `boolean`
+
+==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L178[ui/styling/style-properties.ts:178]
+
+'''
+
+=== parse
+
+image:icon1.png[] *parse*(`fromValue`): link:CoreTypes.adoc#lengthtype[`LengthType`]
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `fromValue`
+| `string` \| `number` \| link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
+|===
+
+==== Returns: link:CoreTypes.adoc#lengthtype[`LengthType`]
+
+==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L151[ui/styling/style-properties.ts:151]
+
+'''
+
+=== kbd:[Const] toDevicePixels
+
+image:icon1.png[] *toDevicePixels*(`length`, `auto?`): `number`
+
+==== Parameters
+
+|===
+| Name | Type
+
+| `length`
+| link:CoreTypes.adoc#lengthtype[`LengthType`]
+
+| kbd:[Optional] `auto?`
+| `number`
+|===
+
+==== Returns: `number`
+
+==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L180[ui/styling/style-properties.ts:180]

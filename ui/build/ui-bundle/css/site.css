@@ -495,7 +495,7 @@ html.is-clipped--nav {
   -ms-flex-pack: start;
   justify-content: flex-start;
   position: sticky;
-  top: 4rem;
+  top: 5.5rem;
   z-index: 2;
 }
 .toolbar a {
