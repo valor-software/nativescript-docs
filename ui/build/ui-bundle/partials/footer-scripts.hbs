@@ -4,6 +4,9 @@
 <script async src="{{{uiRootPath}}}/js/vendor/swagger-ui.js"></script>
 <script async src="{{{uiRootPath}}}/js/vendor/component-versions.js"></script>
 <script src="{{uiRootPath}}/js/vendor/custom.js"></script>
+{{#if env.SITE_SEARCH_PROVIDER}}
+    {{> search-scripts}}
+{{/if}}
 {{#if env.ALGOLIA_API_KEY}}
   <script src="{{{uiRootPath}}}/js/vendor/docsearch.js"></script>
   <!--<script src="{{uiRootPath}}/js/vendor/docsearch.min.js"></script>-->

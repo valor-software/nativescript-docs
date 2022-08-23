@@ -19,6 +19,9 @@ asciidoc:
 #  - asciidoctor-plantuml
 #  - asciidoctor-chart
   - ./lib/tabs-block/extension.js
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
 content:
   sources:
   - url: ../

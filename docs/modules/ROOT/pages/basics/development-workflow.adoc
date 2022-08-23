@@ -185,7 +185,7 @@ The `console.log()` function is great for outputting primitive values such as st
 
 To see this in action add a `console.log()` in your app code, which uses `console.log()` to log a simple object.
 
-[source, typescript]
+[source, ts]
 ----
 export function pageLoaded = () => {
     console.log({
