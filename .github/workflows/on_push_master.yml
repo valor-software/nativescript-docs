@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      - run: cd build && npx --yes antora --stacktrace local-preview-site.yml && export SITE_SEARCH_PROVIDER="lunr"
+      - run: npm i @antora/lunr-extension && cd build && npx --yes antora --stacktrace local-preview-site.yml && export SITE_SEARCH_PROVIDER="lunr"
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
