@@ -2,11 +2,11 @@ site:
   title: NativeScript Documentation
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://nativescript-docs-26174.web.app/
-  start_page: docs/main/ROOT/index.adoc
+  start_page: docs/main/modules/ROOT/pages/index.adoc
 
 
 urls:
-  html_extension_style: drop
+  html_extension_style: indexify
 
 
 asciidoc:
