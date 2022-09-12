@@ -1,0 +1,198 @@
+= DatePicker
+
+== Date Picker
+
+`<DatePicker>` is a UI component that lets users select a date from a pre-configured range.
+
+See also: link:/ui-and-styling.html#timepicker[TimePicker].
+
+'''
+
+[tabs]
+====
+Angular::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<ActivityIndicator [busy]="isBusy" (busyChange)="onBusyChanged($event)">
+</ActivityIndicator>
+----
+
+TypeScript::
++
+[,ts]
+----
+import { ActivityIndicator } from '@nativescript/core'
+
+onBusyChanged(args: EventData) {
+  const indicator: ActivityIndicator = args.object
+  console.log(`indicator.busy changed to: ${indicator.busy}`)
+}
+----
+=====
+
+Plain::
++
+[tabs]
+======
+XML::
++
+[,xml]
+----
+<DatePicker
+  year="1980"
+  month="4"
+  day="20"
+  loaded="onDatePickerLoaded"
+  date="{{ date }}"
+  minDate="{{ minDate }}"
+  maxDate="{{ maxDate }}"
+/>
+----
+
+TS::
++
+[,ts]
+----
+import { Component } from '@angular/core'
+import { DatePicker } from '@nativescript/core'
+
+@Component({
+  moduleId: module.id,
+  templateUrl: './usage.component.html'
+})
+export class DatePickerUsageComponent {
+  minDate: Date = new Date(1975, 0, 29)
+  maxDate: Date = new Date(2045, 4, 12)
+
+  onDatePickerLoaded(args) {
+    // const datePicker = args.object as DatePicker;
+  }
+
+  onDateChanged(args) {
+    console.log('Date New value: ' + args.value)
+    console.log('Date value: ' + args.oldValue)
+  }
+
+  onDayChanged(args) {
+    console.log('Day New value: ' + args.value)
+    console.log('Day Old value: ' + args.oldValue)
+  }
+
+  onMonthChanged(args) {
+    console.log('Month New value: ' + args.value)
+    console.log('Month Old value: ' + args.oldValue)
+  }
+
+  onYearChanged(args) {
+    console.log('Year New value: ' + args.value)
+    console.log('Year Old value: ' + args.oldValue)
+  }
+}
+----
+======
+
+React::
++
+[,html]
+----
+import { EventData } from '@nativescript/core'
+;<datePicker
+  date={new Date()}
+  onDateChange={(args: EventData) => {
+    const datePicker = args.object
+  }}
+/>
+----
+
+Svelte::
++
+[,html]
+----
+<datePicker date="{someDate}" />
+----
++
+`<datePicker>` provides two-way data binding using `bind`.
++
+[,html]
+----
+<datePicker bind:date="{selectedDate}" />
+----
+
+Vue::
++
+[,html]
+----
+<DatePicker :date="someDate" />
+----
++
+`<DatePicker>` provides two-way data binding using `v-model`.
++
+[,html]
+----
+<DatePicker v-model="selectedDate" />
+----
+====
+
+=== Props
+
+|===
+| Name | Type | Description
+
+| `date`
+| `Date`
+| Gets or sets the complete date.
+
+| `minDate`
+| `Date`
+| Gets or sets the earliest possible date to select.
+
+| `maxDate`
+| `Date`
+| Gets or sets the latest possible date to select.
+
+| `day`
+| `Number`
+| Gets or sets the day.
+
+| `month`
+| `Number`
+| Gets or sets the month.
+
+| `year`
+| `Number`
+| Gets or sets the year.
+
+| `iosPreferredDatePickerStyle`
+| `number`
+| Gets or set the UIDatePickerStyle of the date picker in iOS 13.4+.
+Defaults to 0.
++ Valid values are numbers: +  + `0 = automatic`: system picks the concrete style based on the current platform and date picker mode + `1 = wheels`: the date picker displays as a wheel picker + `2 = compact` : the date picker displays as a label that when tapped displays a calendar-style editor + `3 = inline` : the date pickers displays as an inline, editable field
+
+| `+...Inherited+`
+| `Inherited`
+| Additional inherited properties not shown.
+Refer to the https://docs.nativescript.org/api-reference/classes/datepicker[API Reference]
+|===
+
+=== Events
+
+|===
+| Name | Description
+
+| `dateChange`
+| Emitted when the selected date changes.
+|===
+
+=== Native component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/widget/DatePicker.html[`android.widget.DatePicker`]
+| https://developer.apple.com/documentation/uikit/uidatepicker[`UIDatePicker`]
+|===

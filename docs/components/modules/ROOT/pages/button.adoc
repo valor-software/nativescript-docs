@@ -1,0 +1,150 @@
+== Button
+
+`<Button>` is a UI component that displays a button which reacts to a user gesture.
+
+For more information about the available gestures, see link:/ui/interaction.html#gestures[Gestures in the documentation].
+
+'''
+
+[tabs]
+====
+Angular::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<button text="Tap me!" (tap)="onTap($event)"></button>
+----
+
+TypeScript::
++
+[,ts]
+----
+import { Button, EventData } from '@nativescript/core'
+
+onTap(args: EventData) {
+    const button = args.object as Button
+    // execute your custom logic here...
+}
+----
+=====
+
+Plain::
++
+[tabs]
+=====
+XML::
++
+[,xml]
+----
+<Button text="Tap me!" tap="onTap" />
+----
+
+TS::
++
+[,ts]
+----
+import { Button } from '@nativescript/core'
+
+export function onTap(args) {
+  const button = args.object as Button
+  // execute your custom logic here...
+}
+----
+=====
+
+React::
++
+[,html]
+----
+import { EventData } from '@nativescript/core'
+;<button
+  text="Button"
+  onTap={(args: EventData) => {
+    const button = args.object
+  }}
+/>
+----
+
+Svelte::
++
+[,html]
+----
+<button text="Button" on:tap="{onButtonTap}" />
+----
+
+Vue::
++
+[,html]
+----
+<button text="Button" @tap="onButtonTap" />
+----
+====
+
+==== Props
+
+|===
+| Name | Type | Description
+
+| `text`
+| `String`
+| Sets the label of the button.
+
+| `textWrap`
+| `Boolean`
+| Gets or sets whether the widget wraps the text of the label.
+Useful for longer labels.
+Default value is `false`.
+
+| `isEnabled `
+| `Boolean`
+| Make the button disabled or enabled.
+A disabled button is unusable and un-clickable.
+Default value is `true`.
+
+| `+...Inherited+`
+| `Inherited`
+| Additional inherited properties not shown.
+Refer to the https://docs.nativescript.org/api-reference/classes/button[API Reference]
+|===
+
+// TODO: fix links
+
+[discrete]
+==== Events
+
+|===
+| Name | Description
+
+| `tap`
+| Emitted when the button is tapped.
+|===
+
+==== Styling the button
+
+If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
+
+[,html]
+----
+<button>
+  <FormattedString>
+    <span text="This text has a " />
+    <span text="red " style="color: red" />
+    <span text="piece of text. " />
+    <span text="Also, this bit is italic, " fontStyle="italic" />
+    <span text="and this bit is bold." fontWeight="bold" />
+  </FormattedString>
+</button>
+----
+
+==== Native component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/widget/Button.html[`android.widget.Button`]
+| https://developer.apple.com/documentation/uikit/uibutton[`UIButton`]
+|===

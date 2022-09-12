@@ -1,0 +1,267 @@
+= ApplicationSettings
+
+The ApplicationSettings class allows you to store key/value pairs of data on the device.
+For example, an app could store a user's auth state so that, the user does not have to re-login when she resumes the app,if she didn't log out when she left the app.
+
+
+== Import
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+import { ApplicationSettings } from '@nativescript/core'
+----
+
+TS::
++
+[,typescript]
+----
+import { ApplicationSettings } from '@nativescript/core'
+----
+====
+
+== Setters
+
+=== setBoolean(key: string, value: boolean): void
+
+Sets a Boolean Object for a key.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.setBoolean(key, value)
+----
+
+[,typescript]
+----
+ApplicationSettings.setBoolean(key, value)
+----
+====
+
+=== setString(key: string, value: string): void
+
+Sets a String Object for a key.
+You can use this method with the `JSON.stringify()` to store an object or an array as a string and then use `JSON.parse()` to convert the result of `getString()` back to the object or array.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+// simple string
+ApplicationSettings.setString(key, "some string value")
+
+//Storing an object
+const obj = {key: "value"};
+const objAsString = JSON.stringify(obj);// objAsString = '{"key":"value"}'
+ApplicationSettings.setString("key", objAsString)
+
+//Retrieve
+const objStr = ApplicationSettings.getString("key");
+comsy myObj = JSON.parse(ObjStr) // myObj = {key: 'value'}
+----
+
+[,typescript]
+----
+ApplicationSettings.setString(key, value)
+----
+====
+
+=== setNumber(key: string, value: number): void
+
+Sets a Number Object for a key.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.setNumber(key, value)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.setNumber(key, value)
+----
+====
+
+== Getters
+
+=== hasKey(key: string): boolean
+
+Checks whether such a key exists.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.hasKey(key)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.hasKey(key)
+----
+====
+
+=== getBoolean(key: string, defaultValue?: boolean): boolean
+
+Gets a value (if existing) for a key as a Boolean Object.
+A default value can be provided in case there is no existing value.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.getBoolean(key, defaultValue)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.getBoolean(key, defaultValue)
+----
+====
+
+=== getString(key: string, defaultValue?: string): string
+
+Gets a value (if existing) for a key as a String Object.
+A default value can be provided in case there is no existing value.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.getString(key, defaultValue)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.getString(key, defaultValue)
+----
+====
+
+=== getNumber(key: string, defaultValue?: number): number
+
+Gets a value (if existing) for a key as a Number Object.
+A default value to be returned can be provided in case there is no existing value.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.getNumber(key, defaultValue)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.getNumber(key, defaultValue)
+----
+====
+
+== Other methods
+
+=== remove(key: string): void
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.remove(key)
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.remove(key)
+----
+====
+
+=== clear()
+
+Removes all values from the local storage.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.clear()
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.clear()
+----
+====
+
+=== getAllKeys(): Array<string>
+
+Returns an array of all stored keys or an empty array if no keys exist in the storage.
+
+[tabs]
+====
+JS::
++
+[,javascript]
+----
+ApplicationSettings.getAllKeys()
+----
+
+TS::
++
+[,typescript]
+----
+ApplicationSettings.getAllKeys()
+----
+====
+
+== API References
+
+|===
+| Name | Type
+
+| https://docs.nativescript.org/api-reference/modules#applicationsettings[@nativescript/core/application-settings]
+| `Module`
+|===
+
+
+==== Native Component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/content/SharedPreferences[SharedPreferences]
+| https://developer.apple.com/documentation/foundation/nsuserdefaults[NSUserDefaults]
+|===

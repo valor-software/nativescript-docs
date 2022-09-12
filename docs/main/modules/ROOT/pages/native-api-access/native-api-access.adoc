@@ -1,0 +1,125 @@
+= Accessing Native Platform APIs
+
+== Native API Access
+
+What exactly does it mean for NativeScript to "Empower JavaScript with native APIs"?
+
+This means you can go directly to platform source documentation like https://developer.apple.com/documentation/[Apple API Docs] and https://developer.android.com/reference[Android API Docs] and work with it right away without leaving your JavaScript codebase.
+
+Let's explore this more by looking at some concrete use cases.
+
+[NOTE]
+====
+The @nativescript/core package is written in TypeScript and you can view it's https://github.com/NativeScript/NativeScript/tree/master/packages/core[source on Github] for many examples of calling native platform APIs.
+====
+
+== Android Walkthrough
+
+The Java code below will get the Android device battery level.
+This example is only for Android API 21+.
+To get the battery level prior to Android 21 a different approach was necessary.
+The purpose of this example is to explain the approach of converting Java to JavaScript.
+
+[,java]
+----
+BatteryManager bm = (BatteryManager) context.getSystemService(BATTERY_SERVICE);
+int batLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
+----
+
+Below is the working JavaScript to achieve the same end result that Java code would provide.
+
+[,ts]
+----
+import { Utils, Device } from '@nativescript/core'
+
+if (global.isAndroid && Device.sdkVersion >= '21') {
+  const bm = Utils.android
+    .getApplicationContext()
+    .getSystemService(android.content.Context.BATTERY_SERVICE)
+  const batLevel = bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY)
+}
+----
+
+[WARNING]
+====
+The code block is wrapped with `global.isAndroid` so it's only executed on Android.
+Otherwise the app would crash on iOS when it tries to access APIs that are not part of the iOS platform.
+
+Since this code is only for Android API 21+ we have also included a sdk version check.
+====
+
+Now, for a short walkthrough of one way to go about translating Java to JavaScript.
+
+. JavaScript uses `const, let, var` to declare variables.
+Further with TypeScript we can assign any variable a platform native type using the `@nativescript/types` package.
+. Next we see the method `getSystemService(BATTERY_SERVICE)` is being executed.
+We can find the https://developer.android.com/reference/android/content/Context#getSystemService[getSystemService method is documented here] on Android docs.
++
+The method is a public abstract of the `android.content.Context`.
+In the Java code you typically see `context` which would be an instance of the Application Context.
+In NativeScript we can use `Utils` from `@nativescript/core` which provides a method to get the Android context: `Utils.android.getApplicationContext()`.
+
+. The `getSystemService(java.lang.String)` method accepts a String.
+When programming in Android you can use `BATTERY_SERVICE` if the `import android.content.Context` is declared in the .java file.
+The compiler will know that `BATTERY_SERVICE` is the https://developer.android.com/reference/android/content/Context#BATTERY_SERVICE[static final string declared here].
++
+You could also write the `getSystemService("batterymanager")` using the static constant value: "batterymanager".
+In your NativeScript code, you could do the same, but if you prefer to use the full namespace path to the static value, you can write it like the example does with `android.content.Context.BATTERY_SERVICE`.
+
+. Now we have an instance of the https://developer.android.com/reference/android/os/BatteryManager[Android BatteryManager] which is what the https://developer.android.com/reference/android/content/Context#BATTERY_SERVICE[docs state as the return value] for this system service.
+. The next line we see https://developer.android.com/reference/android/os/BatteryManager#getIntProperty[`getIntProperty() method`] called on the BatteryManager instance we have from the first line.
++
+We see that the method expects an `int id` as the argument and returns an `int`.
+Now we need to determine what the `BatteryManager.BATTERY_PROPERTY_CAPACITY` value is.
+You can see that `BatteryManager` is the class and what looks like a static value.
+Searching the Android BatteryManager docs for `BATTERY_PROPERTY_CAPACITY` you will find the constant value of the static final: `Constant Value: 4 (0x00000004)`.
++
+You could execute the `getIntProperty(int id)` method passing in `4` as the argument in Java and it would work, same as you could in NativeScript.
+In order to use the full namespace in NativeScript you would use the fully qualified namespace path to the static int `android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY`.
+Again, you typically do not use the full namespace path to values in Java because you can import the class.
+So `import android.os.BatteryManager` would be in the example java file allowing you to use the static value and the compiler know what you are trying to do and compile correctly at build time.
+
+== iOS Walkthrough
+
+Here is the Objective-C code to get the current battery level from an iOS device:
+
+[,objc]
+----
+float batteryLevel = [[UIDevice currentDevice] batteryLevel];
+----
+
+Here's the same thing in JavaScript using our abilities with NativeScript:
+
+[,ts]
+----
+if (global.isIOS) {
+  const batteryLevel = UIDevice.currentDevice.batteryLevel
+}
+----
+
+[WARNING]
+====
+We can conditionally wrap any platform specific code with `global.isIOS` or `global.isAndroid` so that it is only executed on the platform we want.
+This global is also configured at the webpack level so when you use these conditionals, production code is bundled with only the target platform code excluding any conditionals which are not indicated for the platform.
+Otherwise the app would crash on Android when it tries to access APIs that are not part of the Android platform itself (just as the platform would in this case).
+====
+
+Now for a short walkthrough of one way to go about translating Objective-C to JavaScript.
+
+. In Objective-C we see `UIDevice`, so you can search for `UIDevice` on the https://developer.apple.com/documentation/uikit/uidevice[iOS Documentation].
+. Next we see `currentDevice` property being accessed.
+In the iOS documentation for `UIDevice` you will find the https://developer.apple.com/documentation/uikit/uidevice/1620014-currentdevice?language=objc[`currentDevice property`] of the `UIDevice` class.
++
+[NOTE]
+====
+Translating Objective-C to JavaScript is made easy using intellisense and the `@nativescript/types` package during development which will help you autocomplete the native API calls where they may slightly differ.
+====
++
+. Lastly, Objective-C is accessing https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel?language=objc[`batteryLevel`] synchronously to get the value.
+So we can access the exact same value synchronously in our JavaScript code to read the battery level just as the iOS platform API is designed to do.
+
+////
+## Android Examples
+
+## iOS Examples
+////

@@ -1,0 +1,11 @@
+* Best Practices
+** xref:index.adoc[Introduction]
+** xref:view-bindings.adoc[View Bindings]
+** xref:listviews.adoc[ListViews]
+** xref:if-things.adoc[Hidden/Visibility/if]
+** xref:rogue-timers.adoc[Rogue Timers]
+** xref:native-class.adoc[@NativeClass() decorator]
+** xref:android-tips.adoc[Android]
+** xref:ios-tips.adoc[iOS]
+** xref:platform-file-split-or-not.adoc[file.{ios,android}?]
+** xref:optimizing-images.adoc[Optimizing Images]

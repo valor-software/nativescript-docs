@@ -1,0 +1,115 @@
+= HtmlView
+
+== HtmlView
+
+`<HtmlView>` is a UI component that lets you show static HTML content.
+
+See also: <<webview,WebView>>.
+
+'''
+
+[tabs]
+====
+Angular::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<HtmlView [html]="htmlString"></HtmlView>
+----
+
+TypeScript::
++
+[,typescript]
+----
+import { Component } from '@angular/core'
+
+@Component({
+  moduleId: module.id,
+  templateUrl: './usage.component.html'
+})
+export class HtmlViewUsageComponent {
+  htmlString: string
+
+  constructor() {
+    this.htmlString = `<span>
+                          <h1>HtmlView demo in <font color="blue">NativeScript</font> App</h1>
+                        </span>`
+  }
+}
+----
+=====
+
+Plain::
++
+[tabs]
+=====
+XML::
++
+[,xml]
+----
+<HtmlView loaded="onHtmlLoaded" />
+----
+
+TS::
++
+[,ts]
+----
+import { HtmlView } from '@nativescript/core'
+
+export function onHtmlLoaded(args) {
+  const myHtmlView = args.object as HtmlView
+  myHtmlView.html = `<span>
+        <h1><font color=\"blue\">NativeScript HtmlView</font></h1></br>
+        <h3>This component accept simple HTML strings</h3></span>`
+}
+----
+=====
+
+React::
++
+[,html]
+----
+<htmlView html="<div><h1>HtmlView</h1></div>" />
+----
+
+Svelte::
++
+[,html]
+----
+<htmlView html="<div><h1>HtmlView</h1></div>" />
+----
+Vue::
++
+[,html]
+----
+<HtmlView html="<div><h1>HtmlView</h1></div>" />
+----
+====
+
+=== Props
+
+|===
+| Name | Type | Description
+
+| `html`
+| `String`
+| The HTML content to be shown.
+
+| `+...Inherited+`
+| `Inherited`
+| Additional inherited properties not shown.
+Refer to the https://docs.nativescript.org/api-reference/classes/htmlview[API Reference]
+|===
+
+=== Native component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/widget/TextView.html[`android.widget.TextView`]
+| https://developer.apple.com/documentation/uikit/uitextview[`UITextView`]
+|===

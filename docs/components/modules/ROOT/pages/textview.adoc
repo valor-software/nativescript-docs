@@ -1,0 +1,284 @@
+= TextView
+
+== TextView
+
+`<TextView>` is a UI component that shows an editable or a read-only multi-line text container.
+You can use it to let users type large text in your app or to show longer, multi-line text on the screen.
+
+`<TextView>` extends https://docs.nativescript.org/api-reference/classes/textbase[`TextBase`] and https://docs.nativescript.org/api-reference/classes/editabletextbase[`EditableTextBase`] which provide additional properties and events.
+
+// TODO: fix links
+
+'''
+
+[tabs]
+====
+Angular::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<TextView hint="Enter some text..." [text]="tvtext" (textChange)="onTextChange($event)">
+</TextView>
+----
+
+TS::
++
+[,ts]
+----
+import { Component } from '@angular/core'
+import { EventData, TextView } from '@nativescript/core'
+
+@Component({
+  moduleId: module.id,
+  templateUrl: './usage.component.html'
+})
+export class UsageComponent {
+  tvtext = ''
+
+  onTextChange(args: EventData) {
+    const tv = args.object as TextView
+    console.log(tv.text)
+  }
+}
+----
+=====
++
+[tabs]
+======
+Plain::
++
+[tabs]
+=====
+XML::
++
+[,xml]
+----
+<TextView
+  loaded="onTextViewLoaded"
+  hint="Enter Date"
+  text="{{ viewDate }}"
+  secure="false"
+  keyboardType="datetime"
+  returnKeyType="done"
+  autocorrect="false"
+  maxLength="10"
+/>
+----
+
+TS::
++
+[,ts]
+----
+import { Observable, Page, TextView } from '@nativescript/core'
+
+export function onNavigatingTo(args) {
+  const page = args.object as Page
+  const vm = new Observable()
+  vm.set('viewDate', '')
+  page.bindingContext = vm
+}
+export function onTextViewLoaded(argsloaded) {
+  const textView = argsloaded.object as TextView
+  textView.on('focus', args => {
+    const view = args.object as TextView
+    console.log('On TextView focus')
+  })
+  textView.on('blur', args => {
+    const view = args.object as TextView
+    console.log('On TextView blur')
+  })
+}
+----
+=====
+
+Vue::
++
+[,html]
+----
+<TextView text="Multi\nLine\nText" />
+----
++
+`<TextView>` provides two-way data binding using `v-model`.
++
+[,html]
+----
+<TextView v-model="textViewValue" />
+----
+
+Svelte::
++
+[,html]
+----
+<textView text="Multi\nLine\nText" />
+----
++
+`<textView>` provides two-way data binding using `bind`.
++
+[,html]
+----
+<textView bind:text="{textViewValue}" />
+----
+
+React::
++
+[,tsx]
+----
+<textView text={'Multi\nLine\nText'} />
+----
+====
+
+=== Displaying multi-style text
+
+To apply multiple styles to the text in your `<TextView>`, you can use `<FormattedString>`
+
+[tabs]
+====
+Vue::
++
+[,html]
+----
+<TextView editable="false">
+  <FormattedString>
+    <span text="You can use text attributes such as " />
+    <span text="bold, " fontWeight="Bold" />
+    <span text="italic " fontStyle="Italic" />
+    <span text="and " />
+    <span text="underline." textDecoration="Underline" />
+  </FormattedString>
+</TextView>
+----
+
+Svelte::
++
+[,tsx]
+----
+<textView editable="{false}">
+  <formattedString>
+    <span text="You can use text attributes such as " />
+    <span text="bold, " fontWeight="Bold" />
+    <span text="italic " fontStyle="Italic" />
+    <span text="and " />
+    <span text="underline." textDecoration="Underline" />
+  </formattedString>
+</textView>
+----
+
+Plain::
++
+[,html]
+----
+<TextView editable="false">
+  <FormattedString>
+    <span text="You can use text attributes such as " />
+    <span text="bold, " fontWeight="Bold" />
+    <span text="italic " fontStyle="Italic" />
+    <span text="and " />
+    <span text="underline." textDecoration="Underline" />
+  </FormattedString>
+</TextView>
+----
+
+Angular::
++
+[,html]
+----
+<TextView editable="false">
+  <FormattedString>
+    <span text="You can use text attributes such as "></span>
+    <span text="bold, " fontWeight="Bold"></span>
+    <span text="italic " fontStyle="Italic"></span>
+    <span text="and "></span>
+    <span text="underline." textDecoration="Underline"></span>
+  </FormattedString>
+</TextView>
+----
+
+React::
++
+[,tsx]
+----
+<textView editable={false}>
+  <formattedString>
+    <span text="You can use text attributes such as " />
+    <span text="bold, " fontWeight="bold" />
+    <span text="italic " fontStyle="italic" />
+    <span text="and " />
+    <span text="underline." textDecoration="underline" />
+    <!-- To set text on the <span> element, please do use the `text` prop; it can't safely take text nodes as children! -->
+  </formattedString>
+</textView>
+----
+====
+
+=== Props
+
+|===
+| Name | Type | Description
+
+| `text`
+| `String`
+| Gets or sets the value of the component.
+
+| `hint`
+| `String`
+| Gets or sets the placeholder text when the component is editable.
+
+| `editable`
+| `Boolean`
+| When `true`, indicates that the user can edit the contents of the container.
+
+| `maxLength`
+| `Number`
+| Sets the maximum number of characters that can be entered in the container.
+
+| `keyboardType`
+| `KeyboardType`
+| Shows a custom keyboard for easier text input.
++ Valid values: `datetime`, `phone`, `number`, `url`, or `email`.
+
+| `returnKeyType`
+| Gets or sets the label of the return key.
+Currently supported only on iOS.
++ Valid values: `done`, `next`, `go`, `search`, or `send`.
+|
+
+| `autocorrect`
+| `Boolean`
+| Enables or disables autocorrect.
+
+| `+...Inherited+`
+| `Inherited`
+| Additional inherited properties not shown.
+Refer to the https://docs.nativescript.org/api-reference/classes/textview[API Reference]
+|===
+
+=== Events
+
+|===
+| Name | Description
+
+| `textChange`
+| Emitted when the text changes.
+
+| `returnPress`
+| Emitted when the return key is pressed.
+
+| `focus`
+| Emitted when the container is in focus.
+
+| `blur`
+| Emitted when the container loses focus.
+|===
+
+=== Native component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/widget/EditText.html[`android.widget.EditText`]
+| https://developer.apple.com/documentation/uikit/uitextview[`UITextView`]
+|===

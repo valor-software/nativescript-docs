@@ -1,0 +1,168 @@
+= ActivityIndicator
+
+== ActivityIndicator
+
+=== Activity-Indicator
+
+`<ActivityIndicator>` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
+
+'''
+
+[tabs]
+====
+Angular::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<ActivityIndicator [busy]="isBusy" (busyChange)="onBusyChanged($event)">
+</ActivityIndicator>
+----
+
+TypeScript::
++
+[,ts]
+----
+import { ActivityIndicator } from '@nativescript/core'
+
+onBusyChanged(args: EventData) {
+  const indicator: ActivityIndicator = args.object
+  console.log(`indicator.busy changed to: ${indicator.busy}`)
+}
+----
+=====
+
+Plain::
++
+[tabs]
+=====
+XML::
++
+[,xml]
+----
+<ActivityIndicator
+  busy="{{ isBusy }}"
+  busyChange="{{ onBusyChanged }}"
+  loaded="indicatorLoaded"
+/>
+----
+
+TS::
++
+[,ts]
+----
+import { ActivityIndicator } from '@nativescript/core'
+
+onBusyChanged(args: EventData) {
+  const indicator: ActivityIndicator = args.object
+  console.log(`indicator.busy changed to: ${indicator.busy}`)
+}
+----
+=====
+
+React::
++
+[,html]
+----
+<activityIndicator busy={true} />
+----
+
+Svelte::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<activityIndicator busy="{true}" on:busyChange="{onBusyChanged}" />
+----
+JS::
++
+[,js]
+----
+export default {
+  methods: {
+    onBusyChanged(args) {
+      const indicator = args.object // ActivityIndicator
+      console.log(`indicator.busy changed to: ${indicator.busy}`)
+    }
+  }
+}
+----
+=====
+Vue::
++
+[tabs]
+=====
+HTML::
++
+[,html]
+----
+<ActivityIndicator busy="true" @busyChange="onBusyChanged" />
+----
+JS::
++
+[,js]
+----
+export default {
+  methods: {
+    onBusyChanged(args) {
+      const indicator = args.object // ActivityIndicator
+      console.log(`indicator.busy changed to: ${indicator.busy}`)
+    }
+  }
+}
+----
+=====
+====
+
+=== Properties
+
+|===
+| Name | Type | Description
+
+| `busy`
+| `Boolean`
+| Gets or sets whether the indicator is active.
+When `true`, the indicator is active.
+
+| `android`
+| `android.widget.ProgressBar`
+| Gets the native http://developer.android.com/reference/android/widget/ProgressBar.html[android widget] that represents the user interface for this component.
+Valid only when running on Android OS.
+
+| `ios`
+| `UIActivityIndicatorView`
+| Gets the native iOS https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityIndicatorView_Class/index.html[UIActivityIndicatorView] that represents the user interface for this component.
+Valid only when running on iOS.
+|===
+
+[cols=3*]
+|===
+| `+...Inherited+`
+| `Inherited`
+| Additional inherited properties not shown.
+Refer to the https://docs.nativescript.org/api-reference/classes/activityindicator[API Reference]
+|===
+
+==== Events
+
+|===
+| Name | Description
+
+| `busyChange`
+| Emitted when the `busy` property is changed.
+|===
+
+=== Native component
+
+|===
+| Android | iOS
+
+| https://developer.android.com/reference/android/widget/ProgressBar.html[`android.widget.ProgressBar` (indeterminate = true)]
+| https://developer.apple.com/documentation/uikit/uiactivityindicatorview[`UIActivityIndicatorView`]
+|===

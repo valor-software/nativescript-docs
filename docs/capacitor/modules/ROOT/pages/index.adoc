@@ -1,0 +1,11 @@
+== Capacitor for NativeScript
+
+If you'd like to use Capacitor within your NativeScript project:
+
+* [@nativescript/ionic-portals](https://github.com/NativeScript/plugins/tree/main/packages/ionic-portals#nativescriptionic-portals)
+
+== NativeScript for Capacitor
+
+If you'd like to use NativeScript within your Capacitor project:
+
+* [@nativescript/capacitor](https://capacitor.nativescript.org/)

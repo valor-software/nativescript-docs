@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <div class="top-logo">
-        <a href="{{{or siteRootPath site.url}}}" class="lisk-logo"></a>
+<!--        <a href="{{{or siteRootPath site.url}}}" class="lisk-logo"></a>-->
         <a href="{{{or siteRootPath site.url}}}" class="docs-logo"></a>
       </div>
       <!--<a class="navbar-item" href="{{{or site.url siteRootPath}}}">{{site.title}}</a>-->
@@ -21,7 +21,6 @@
                 </div>
             </div>
         {{/if}}
-
         <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -31,10 +30,12 @@
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
               <a class="navbar-item" href="/xxx/api-ref.html">API</a>
-              <a class="navbar-item" href="/plugins">Plugins</a>
+              <a class="navbar-item" href="{{{or siteRootPath site.url}}}/plugins">Plugins</a>
+              <a class="navbar-item" href="{{{or siteRootPath site.url}}}/best-practices/index.html">Best Practices</a>
+              <a class="navbar-item" href="{{{or siteRootPath site.url}}}/capacitor/index.html">Capacitor</a>
               <a class="navbar-item" href="https://play.nativescript.org/">Playground</a>
               <a class="navbar-item" href="https://blog.nativescript.org/">Blog</a>
-            </div>
+      </div>
 <!--
         <div class="navbar-item <!--has-dropdown is-hoverable">
           <a class="navbar-link" href="{{{or siteRootPath site.url}}}/xxx/api-ref.html">API</a>
