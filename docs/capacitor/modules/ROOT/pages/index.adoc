@@ -1,3 +1,5 @@
+= Capacitor Usage
+
 == Capacitor for NativeScript
 
 If you'd like to use Capacitor within your NativeScript project:

@@ -1,0 +1,6 @@
+name: guides
+title: NativeScript Documentation Guides
+version: ~
+start_page: ROOT:index.adoc
+nav:
+  - ROOT:nav.adoc
