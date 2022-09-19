@@ -1,7 +1,7 @@
 = ObservableArray
 
 
-The `ObservableArray` class expands the Javascript `Array` class by providng a capability of detecting and responding to changes of a collection of objects.
+The `ObservableArray` class expands the Javascript `Array` class by providing a capability of detecting and responding to changes of a collection of objects.
 The ObservableArray supports the known methods like concat, push, reduce, slice, splice, reverse and many more (full list here).
 
 == Creating an ObservableArray
@@ -48,7 +48,7 @@ console.log(firstItem, secondItem, thirdItem)
 
 | `changeEvent`
 | `string`
-| This a static property used when hooking to change event.
+| This is a static property used when hooking to change event.
 |===
 
 == Methods
@@ -87,7 +87,7 @@ If omitted, the array elements are separated with a comma.
 
 | `+push(...args: any)+`
 | `number`
-| Appends new elements to an array, and returns the new length of the array.
+| Appends new elements to an array and returns the new length of the array.
 + `item`: New element(s) of the Array.
 
 | `reverse()`
@@ -108,7 +108,7 @@ If omitted, the array elements are separated with a comma.
 | `T[]`
 | Sorts an array.
 + `start`: The name of the function used to determine the order of the elements.
-If omitted, the elements are sorted in ascending, ASCII character order.
+If omitted, the elements are sorted into ascending, ASCII character order.
 
 | `+splice(start: number, deleteCount?: number, ...items: any)+`
 | `T[]`
@@ -166,7 +166,7 @@ If thisArg is omitted, undefined is used as the this value.
 
 | `+map<U>(callbackfn: (value: T, index: number, array: T[]) => U, thisArg?: any)+`
 | `U[]`
-| Calls the defined callback function on each element of an array, and returns an array that contains the results.
+| Calls the defined callback function on each element of an array and returns an array that contains the results.
 +  + *Parameters:* + `callbackfn`: The `map()` method calls the callbackfn function one time for each element in the array.
 + `thisArg`: An object to which the `this` keyword can refer in the callbackfn function.
 If thisArg is omitted, undefined is used as the this value.
@@ -188,14 +188,14 @@ If thisArg is omitted, undefined is used as the this value.
 | `+reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue?: T)+`
 | `T`
 | Calls the specified callback function for all the elements in an array, in descending order.
-The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+The return value of the callback function is the accumulated result and is provided as an argument in the next call to the callback function.
 +  + *Parameters:* + `initialValue`: If `initialValue` is specified, it is used as the initial value to start the accumulation.
 The first call to the `callbackfn` function provides this value as an argument instead of an array value.
 
 | `+reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: T[]) => T, initialValue?: T)+`
 | `T`
 | Calls the specified callback function for all the elements in an array starting from the end of the array, in descending order.
-The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+The return value of the callback function is the accumulated result and is provided as an argument in the next call to the callback function.
 +  + *Parameters:* + `initialValue`: If `initialValue` is specified, it is used as the initial value to start the accumulation.
 The first call to the `callbackfn` function provides this value as an argument instead of an array value.
 |===

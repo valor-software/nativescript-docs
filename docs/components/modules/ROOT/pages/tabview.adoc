@@ -1,12 +1,10 @@
 = TabView
 
-== TabView
-
 `<TabView>` is a navigation component that shows content grouped into tabs and lets users switch between tabs.
 
 '''
 
-=== Example: Simple TabView
+== Example: Simple TabView
 
 [tabs]
 ====
@@ -14,7 +12,7 @@ Angular::
 +
 Using a `<TabView>` inside an `Angular` app requires some special attention about how to provide title, iconSource and content (view) of the `TabViewItem`.
 In a pure NativeScript application TabView has an items property which could be set via XML to an array of ``<TabViewItem>``s (basically, an array of objects with title, view and iconSource properties).
-However, NativeScript-Angular does not support nested properties in its HTML template, so adding `<TabViewItem>` to `<TabView`> is a little bit different.
+However, NativeScript-Angular does not support nested properties in its HTML template, so adding `<TabViewItem>` to `<TabView`> is a little different.
 NativeScript-Angular provides a custom Angular directive that simplifies the way native `<TabView>` should be used.
 The following example shows how to add a `<TabView>` to your page (with some clarifications later):
 +
@@ -171,7 +169,6 @@ import { SelectedIndexChangedEventData } from '@nativescript/core'
   </tabViewItem>
 </tabView>
 ----
-======
 
 Svelte::
 +
@@ -240,7 +237,7 @@ Currently, `TabViewItem` expects a single child element.
 In most cases, you might want to wrap your content in a layout.
 ====
 
-=== Example: Adding icons to tabs
+== Example: Adding icons to tabs
 
 [tabs]
 ====
@@ -321,11 +318,11 @@ Default is `0`.
 
 | `tabTextColor`
 | `Color`
-| (Style property) Gets or sets the text color of the tabs titles.
+| (Style property) Gets or sets the text color of the tab titles.
 
 | `tabTextFontSize`
 | `Color`
-| Gets or sets the font size of the tabs titles.
+| Gets or sets the font size of the tab titles.
 
 | `tabBackgroundColor`
 | `Color`

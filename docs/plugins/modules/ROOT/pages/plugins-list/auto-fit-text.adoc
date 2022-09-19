@@ -7,7 +7,7 @@
 ns plugin add @nativescript/auto-fit-text
 ----
 
-This plugin is based on the Nativescript Label implementation but with changes to adjust the font size according of the label's width
+This plugin is based on the Nativescript Label implementation but with changes to adjust the font size according to the label's width
 
 == Usage
 

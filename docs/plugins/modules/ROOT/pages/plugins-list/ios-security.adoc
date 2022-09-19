@@ -9,7 +9,7 @@ ____
 If you are developing for iOS and you want to protect your app according to the OWASP https://github.com/OWASP/owasp-masvs[MASVS] standard, chapter v8, then this library could save you a lot of time.
 🚀 What ISS detects:
 
-* Jailbreak (even the iOS 11+ with brand new indicators!
+* Jailbreak (even the iOS 11+ with brand-new indicators!
 🔥)
 * Attached debugger 👨🏻‍🚀
 * If an app was run in an emulator 👽

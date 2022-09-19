@@ -3,7 +3,7 @@
 
 == TouchManager 8.2+
 
-The `TouchManager` provides several conveniences for your apps interaction.
+The `TouchManager` provides several conveniences for your app interaction.
 
 === Auto animate touch down/up for all tap bindings
 

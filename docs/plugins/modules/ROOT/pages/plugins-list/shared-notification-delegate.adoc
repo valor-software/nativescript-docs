@@ -41,15 +41,14 @@ SharedNotificationDelegate.addObserver({
 
 == API
 
-[discrete]
-==== SharedNotificationDelegate Methods
+=== SharedNotificationDelegate Methods
 
 |===
 | Method | Description
 
 | addObserver(observer: `DelegateObserver`, priority?: `number`): `void`
 | Adds a delegate observer of a certain priority (lower means first).
-Default priority is 100.
+The default priority is 100.
 
 | removeObserver(observer: `DelegateObserver`)
 | removes a DelegateObserver
@@ -58,8 +57,7 @@ Default priority is 100.
 | removes a DelegateObserver by its unique key
 |===
 
-[discrete]
-==== DelegateObserver Interface
+=== DelegateObserver Interface
 
 A DelegateObserver can implement 3 methods from `UNUserNotificationCenterDelegate` with the addition of some details:
 
@@ -98,7 +96,7 @@ Calling a `completionHandler` immediately stops the observer chain.
 
 Calling `stop()` on `userNotificationCenterOpenSettingsForNotification` prevents the event bubbling to the rest.
 
-Only one method will be processed at a time, this means you can take as long as you want (including making http calls, for example), as long as you just call `completionHandler`, `stop` and `next` when you're finished.
+Only one method will be processed at a time; this means you can take as long as you want (including making http calls, for example), as long as you just call `completionHandler`, `stop` and `next` when you're finished.
 
 If a DelegateObserver has a `delegateUniqueKey`, the `SharedNotificationDelegate` will ensure only the latest copy of the observer is present.
 This is especially useful if debugging with HMR, which may add multiple observers on application reload.

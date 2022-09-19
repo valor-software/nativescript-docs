@@ -1,4 +1,4 @@
-== Button
+= Button
 
 `<Button>` is a UI component that displays a button which reacts to a user gesture.
 
@@ -84,7 +84,7 @@ Vue::
 ----
 ====
 
-==== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -113,8 +113,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/button[API Refe
 
 // TODO: fix API links
 
-[discrete]
-==== Events
+== Events
 
 |===
 | Name | Description
@@ -123,7 +122,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/button[API Refe
 | Emitted when the button is tapped.
 |===
 
-==== Styling the button
+=== Styling the button
 
 If you need to style parts of the text, you can use a combination of a `FormattedString` and `Span` elements.
 
@@ -140,7 +139,7 @@ If you need to style parts of the text, you can use a combination of a `Formatte
 </button>
 ----
 
-==== Native component
+== Native component
 
 |===
 | Android | iOS

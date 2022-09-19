@@ -14,7 +14,7 @@ ns plugin add @nativescript/iqkeyboardmanager
 == Usage
 
 That's it!
-IQKeyboardManager takes care of all initialization when your app starts up by default.
+IQKeyboardManager takes care of all initializations when your app starts up by default.
 
 == Advanced usage
 
@@ -23,7 +23,8 @@ IQKeyboardManager takes care of all initialization when your app starts up by de
 If your UI layout has sibling text fields, then IQKeyboardManager is able to automatically add previous / next buttons to the accessory bar which the user can use to jump back and forth.
 See those < and > buttons in the video above.
 
-In case those fields were not direct siblings, until version 1.3.0 of this plugin, you had no way to force the previous / next buttons to appear.
+In case those fields were not direct siblings; until version 1.3.0 of this plugin, you had no way to force the previous / next buttons to appear.
+
 However, now you can:
 
 ==== NativeScript /w XML usage
@@ -89,7 +90,7 @@ Then in the view, use that element like this (again, we went nuts with the ``<St
 
 ==== NativeScript /w Vue usage
 
-Vue usage is very similar to Angular usage, the only difference is in how the element is registered.
+Vue usage is very similar to Angular usage. The only difference is in how the element is registered.
 Open your app's entry file, and add this:
 
 [,javascript]
@@ -181,7 +182,7 @@ const iqKeyboard = IQKeyboardManager.sharedManager()
 ----
 
 You now have the full IQKeyboardManager APIs available for you to use.
-For example you could use the following code to switch to a dark keyboard.
+For example, you could use the following code to switch to a dark keyboard.
 
 [,typescript]
 ----
@@ -198,9 +199,9 @@ image::https://github.com/tjvantoll/nativescript-IQKeyboardManager/raw/master/de
 
 While the following is not a feature specific to IQKeyboardManager, you are here because you want the best keyboard experience for your NativeScript app and this may be helpful to know about.
 
-iOS has a feature where a text field's QuickType search suggestion bar can suggest one-time code values for multi-factor authentication that were texted to your device.
+iOS has a feature where a text field's QuickType search suggestion bar can suggest one-time code values for multifactor authentication that were texted to your device.
 
-If the field is specially-identified as a one-time code field, the suggestion will appear for about 3 minutes after being received, and the user simply has to tap the suggestion to fill in the value--no short term memorization or copy/paste gestures required.
+If the field is specially-identified as a one-time code field, the suggestion will appear for about 3 minutes after being received, and the user simply has to tap the suggestion to fill in the value--no short-term memorization or copy/paste gestures required.
 Examples of message formats are:
 
 * 123456 is your App Name code.
@@ -234,7 +235,7 @@ For more details on how IQKeyboardManager works, including more detailed API doc
 
 == Maintainers
 
-For maintainer's of this plugin's source code: when the https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager/platforms/ios/Podfile[IQKeyboardManager Podfile] updates, you should generate new typings for for this plugin to reflect those changes.
+For maintainer's of this plugin's source code: when the https://github.com/NativeScript/plugins/blob/main/packages/iqkeyboardmanager/platforms/ios/Podfile[IQKeyboardManager Podfile] updates, you should generate new typings for this plugin to reflect those changes.
 
 To do so, execute these commands.
 

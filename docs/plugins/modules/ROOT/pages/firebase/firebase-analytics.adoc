@@ -25,7 +25,7 @@ How you can do this will be explained below.
 == Usage
 
 Analytics offers a wealth of Predefined Events to track user behavior.
-Analytics also offers folks the ability to log Custom Events . If you're already familiar with Google Analytics, this method is equivalent to using the event command in https://developers.google.com/gtagjs/[gtag.js].
+Analytics also offers folks the ability to log Custom Events. If you're already familiar with Google Analytics, this method is equivalent to using the event command in https://developers.google.com/gtagjs/[gtag.js].
 
 === Custom Events
 
@@ -70,8 +70,8 @@ firebase().analytics().logEvent('select_content', {
 
 === Reserved Events
 
-The Analytics package works out of the box, however a number of events are automatically reported to Firebase.
-These event names are called as 'Reserved Events'.
+The Analytics package works out of the box; however, a number of events are automatically reported to Firebase. These event names are called 'Reserved Events'.
+
 Attempting to send any custom event using the logEvent method with any of the following event names will throw an error.
 
 [cols="^,^,^"]
@@ -128,7 +128,7 @@ const appInstanceId = firebase().analytics().getAppInstanceId()
 Apple has a strict ban on the usage of Ad Ids ("IDFA") in Kids Category apps.
 They will not accept any app in the Kids category if the app accesses the IDFA iOS symbols.
 
-Additionally, apps must implement Apples "App Tracking Transparency" (or "ATT") requirements if they access IDFA symbols.
+Additionally, apps must implement Apple "App Tracking Transparency" (or "ATT") requirements if they access IDFA symbols.
 However, if an app does not use IDFA and otherwise handles data in an ATT-compatible way, it eliminates this ATT requirement.
 
 If you need to avoid IDFA usage while still using analytics, then you need to define the following variable in your Podfile:
@@ -138,7 +138,7 @@ If you need to avoid IDFA usage while still using analytics, then you need to de
 $NSFirebaseAnalyticsWithoutAdIdSupport = true
 ----
 
-During pod install, using that variable installs a new "Analytics With No Ad Ids" pod the firebase-ios-sdk team has created, and allows both the use of Firebase Analytics in Kids Category apps, and use of Firebase Analytics without needing the App Tracking Transparency handling (assuming no other parts of your app handle data in a way that requires ATT)
+During pod install, using that variable installs new "Analytics With No Ad Ids" pod the firebase-ios-sdk team has created, and allows both the use of Firebase Analytics in Kids Category apps, and use of Firebase Analytics without needing the App Tracking Transparency handling (assuming no other parts of your app handle data in a way that requires ATT)
 
 Note that for obvious reasons, configuring Firebase Analytics for use without IDFA is incompatible with AdMob
 

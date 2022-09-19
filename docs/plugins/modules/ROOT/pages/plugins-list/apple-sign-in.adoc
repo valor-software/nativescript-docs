@@ -1,4 +1,4 @@
-= Apple Signin
+= Apple Sign-in
 
 == @nativescript/apple-sign-in
 
@@ -34,7 +34,7 @@ Open your app's App_Resources/iOS folder and add the following (or append) to a 
 
 === `isSupported`
 
-Sign In with Apple was added in iOS 13, so make sure to call this function before showing a "Sign In with Apple" button in your app.
+Sign In with Apple was added in iOS 13, so make sure to call this function before showing a "Sign In with the Apple" button in your app.
 On iOS < 13 and Android this will return `false`.
 
 [,typescript]
@@ -46,7 +46,7 @@ const supported: boolean = SignIn.isSupported()
 
 === `signInWithApple`
 
-Now that you know "Sign In with Apple" is supported on this device, you can have the user sign themself in (after they pressed a nice button for instance).
+Now that you know "Sign In with Apple" is supported on this device, you can have the user sign themselves in (after they press a nice button, for instance).
 
 [,typescript]
 ----

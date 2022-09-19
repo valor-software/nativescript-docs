@@ -9,7 +9,7 @@ ns plugin add @nativescript/background-http
 
 == Usage
 
-The below attached code snippets demonstrate how to use `@nativescript/background-http` to upload single or multiple files.
+The below-attached code snippets demonstrate how to use `@nativescript/background-http` to upload single or multiple files.
 
 
 [NOTE]
@@ -70,13 +70,9 @@ var task = session.multipartUpload(params, request);
 
 In order to have a successful upload, the following must be taken into account:
 
-* the file must be accessible from your app.
-This may require additional permissions (e.g.
-access documents and files on the device).
-Usually this is not a problem - e.g.
-if you use another plugin to select the file, which already adds the required permissions.
-* the URL must not be blocked by the OS.
-Android Pie or later devices require TLS (HTTPS) connection by default and will not upload to an insecure (HTTP) URL.
+* The file must be accessible from your app. This may require additional permissions (e.g.
+access documents and files on the device). Usually, this is not a problem — e.g. if you use another plugin to select the file, which already adds the required permissions.
+* The OS must not block the URL. Android Pie or later devices require TLS (HTTPS) connection by default and will not upload to an insecure (HTTP) URL.
 
 === Upload request and task API
 
@@ -100,7 +96,7 @@ The request object parameter has the following properties:
 
 | description
 | `string`
-| Used to help identify the upload task locally - not sent to the remote server.
+| Used to help identify the upload task locally — not sent to the remote server.
 
 | utf8
 | `boolean`
@@ -168,7 +164,7 @@ Please note that this flag has no effect when `androidAutoClearNotification` is 
 
 [NOTE]
 ====
-Android Notification titles/messages can be constructed with one of the following placeholder which will be replaced by the system .
+Android Notification titles/messages can be constructed with one of the following placeholders which will be replaced by the system.
 
 Replaced with the current upload rate/speed `[upload_rate]`
 

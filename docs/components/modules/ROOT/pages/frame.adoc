@@ -1,13 +1,11 @@
 = Frame
 
-== Frame
-
 `<Frame>` is a UI component used to display xref:components::page.adoc[`<Page>`] elements.
 Every app needs at least a single `<Frame>` element, usually set as the root element.
 
 '''
 
-=== A single root Frame
+== A single root Frame
 
 
 [,js]
@@ -18,9 +16,9 @@ new Vue({
 ----
 
 
-=== Multiple Frames
+== Multiple Frames
 
-If you need to create multiple frames, you can do so by wrapping them in a Layout, for example if you want to have 2 frames side-by-side
+If you need to create multiple frames, you can do so by wrapping them in a Layout, for example, if you want to have 2 frames side-by-side
 
 [tabs]
 ====
@@ -53,7 +51,7 @@ Vue::
 ----
 ====
 
-==== Example: A frame with a default page
+=== Example: A frame with a default page
 
 [tabs]
 ====
@@ -98,7 +96,7 @@ Vue::
 ----
 ====
 
-==== Example: A frame with a default page from an external component
+=== Example: A frame with a default page from an external component
 
 [tabs]
 ====
@@ -163,7 +161,7 @@ export default {
 ----
 ====
 
-=== Static Props
+== Static Props
 
 |===
 | Name | Type | Description
@@ -177,7 +175,7 @@ export default {
 | Gets or sets the default NavigationTransition for all frames across the app.
 |===
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -204,10 +202,10 @@ export default {
 
 | `actionBarVisibility`
 | `'auto' \\| 'never' \\| 'always'`
-| Used to control the visibility the Navigation Bar in iOS and the Action Bar in Android.
+| Used to control the visibility of the Navigation Bar in iOS and the Action Bar in Android.
 |===
 
-=== Static Methods
+== Static Methods
 
 |===
 | Name | Return Type | Description
@@ -219,7 +217,7 @@ export default {
 | `topmost()`
 | `Frame`
 | Gets the topmost frame in the frames stack.
-An application will typically has one frame instance.
+An application will typically have one frame instance.
 Multiple frames handle nested (hierarchical) navigation scenarios.
 
 | `goBack()`
@@ -229,7 +227,7 @@ Updates the Frame stack as needed.
 This method will start from the topmost Frame and will recursively search for an instance that has the canGoBack operation available.
 |===
 
-=== Instance Methods
+== Instance Methods
 
 |===
 | Name | Type | Description
@@ -247,7 +245,7 @@ This method will start from the topmost Frame and will recursively search for an
 | Navigates to a Page instance as described by the module name.
 This method will require the module and will check for a Page property in the exports of the module.
 + `pageModuleName:` The name of the module to require starting from the application root.
-For example if you want to navigate to page called "myPage.js" in a folder called "subFolder" and your root folder is "app" you can call navigate method like this: + `import { Frame }"@nativescript/core";
+For example, if you want to navigate to page called "myPage.js" in a folder called "subFolder" and your root folder is "app" you can call navigate method like this: + `import { Frame }"@nativescript/core";
 Frame.topmost().navigate("app/subFolder/myPage");`
 
 | `+navigate(create: () => Page)+`
@@ -261,7 +259,7 @@ Frame.topmost().navigate("app/subFolder/myPage");`
 + Since there are a couple of ways to specify a Page instance through an entry, there is a resolution priority: + `1.` entry.moduleName + `2.` entry.create() + `entry`: The NavigationEntry instance.
 |===
 
-=== Other function(s)
+== Other function(s)
 
 |===
 | Name | Return Type | Description
@@ -276,7 +274,7 @@ This method is available only for the Android platform.
 |===
 |===
 
-=== NavigationEntry interface
+== NavigationEntry interface
 
 |===
 | Name | Return Type | Description
@@ -292,7 +290,7 @@ This method is available only for the Android platform.
 | `context`
 | `any`
 | An object passed to the onNavigatedTo callback of the Page.
-Typically this is used to pass some data among pages.
+Typically, this is used to pass some data among pages.
 
 | `bindingContext`
 | `any`
@@ -332,7 +330,7 @@ Very useful when navigating away from login pages.
 |===
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

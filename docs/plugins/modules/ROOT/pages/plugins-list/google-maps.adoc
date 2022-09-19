@@ -46,8 +46,7 @@ Modify the `Info.plist` to include the new meta tag along with your API key, the
 
 == Usage
 
-[discrete]
-==== Core
+=== Core
 
 [IMPORTANT]
 ====
@@ -64,7 +63,7 @@ Ensure you've included xmlns:map="@nativescript/google-maps" on the Page element
 />
 ----
 
-==== Angular
+=== Angular
 
 [tabs]
 ====
@@ -99,7 +98,7 @@ HTML::
 ----
 ====
 
-==== Vue
+=== Vue
 
 [tabs]
 ====

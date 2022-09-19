@@ -13,7 +13,7 @@ The following is a thorough but not exhaustive list of rules and exceptions Nati
 The most common data type in Objective-C by far is the class.
 Classes can have instance or static methods, and properties which are always instance.
 NativeScript exposes an Objective-C class and its members as a JavaScript constructor function with an associated prototype according to the https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain[prototypal inheritance model].
-This means that each static method on an Objective-C class becomes a function on its JavaScript constructor function, each instance method becomes a function on the JavaScript prototype, and each property becomes a property descriptor on the same prototype.
+This means that each static method in an Objective-C class becomes a function on its JavaScript constructor function, each instance method becomes a function on the JavaScript prototype, and each property becomes a property descriptor on the same prototype.
 Every JavaScript constructor function created to expose an Objective-C class is arranged in a prototype chain that mirrors the class hierarchy in Objective-C: if `NSMutableArray` extends `NSArray`, which in turn extends `NSObject` in Objective-C, then in JavaScript the prototype of the `NSObject` constructor function is the prototype of `NSArray`, which in turn is the prototype of `NSMutableArray`.
 
 To illustrate:
@@ -64,7 +64,7 @@ NSArray.prototype = {
 ====
 
 Instances of Objective-C classes exist in JavaScript as special "wrapper" exotic objects - they keep track of and reference native objects, as well as manage their memory.
-When a native API returns an Objective-C object, NativeScript constructs such a wrapper for it in case one doesn't already exist.
+When a native API returns an Objective-C object, NativeScript constructs such a wrapper for it in case one doesn't yet exist.
 Wrappers have a prototype just like regular JavaScript objects.
 This prototype is the same as the prototype of the JavaScript constructor function that exposes the class the native object is an instance of.
 In essence:
@@ -83,7 +83,7 @@ This means that Objective-C wrappers maintain JavaScript identity equality:
 tableViewController.tableView === tableViewController.tableView
 ----
 
-Calling native APIs that expect Objective-C classes or objects is easy - just pass the JavaScript constructor function for the class, or the wrapper for the object.
+Calling native APIs that expect Objective-C classes or objects is easy — just pass the JavaScript constructor function for the class, or the wrapper for the object.
 
 If an API is declared as accepting a `Class` in Objective-C, the argument in JavaScript is the constructor function:
 
@@ -195,7 +195,7 @@ ObjC::
 Keep in mind that `CGFloat` is architecture dependent.
 On 32-bit devices, we need to use `Float32Array` and `Float64Array` -- on 64-bit ones.
 A straightforward way to verify the device/emulator architecture is to check the pointer size via `interop.sizeof(interop.types.id)`.
-The return value for the pointer size will be 4 bytes for 32-bit architectures and 8 bytes - for 64-bit ones.
+The return value for the pointer size will be 4 bytes for 32-bit architectures and 8 bytes — for 64-bit ones.
 For further info, check out https://developer.apple.com/documentation/coregraphics/cgfloat[CGFloat's documentation].
 ====
 
@@ -203,7 +203,7 @@ For further info, check out https://developer.apple.com/documentation/coregraphi
 
 NativeScript considers instances of `NSNull`, `NSNumber`, `NSString` and `NSDate` to be "primitives".
 This means that instances of these classes won't be exposed in JavaScript via a wrapper exotic object, instead they will be converted to the equivalent JavaScript data type: `NSNull` becomes `null`, `NSNumber` becomes `number` or `boolean`, `NSString` becomes `string` and `NSDate` becomes `Date`.
-The exception to this are the methods on those classes declared as returning `instancetype` - init methods and factory methods.
+The exception to this is the methods on those classes declared as returning `instancetype` - init methods and factory methods.
 This means that a call to `NSString.stringWithString` whose return type in Objective-C is `instancetype` will return a wrapper around an `NSString` instance, rather than a JavaScript string.
 This applies for all methods on `NSNull`, `NSNumber`, `NSString` and `NSDate` returning `instancetype`.
 
@@ -214,11 +214,11 @@ More information on how NativeScript deals with Objective-C classes is available
 
 ==== Objective-C Protocols
 
-Protocols in Objective-C are like interfaces in other languages - they are blueprints of what members a class should contain, a sort of an API contract.
+Protocols in Objective-C are like interfaces in other languages — they are blueprints of what members a class should contain, a sort of API contract.
 Protocols are exposed as empty objects in JavaScript.
 Protocols are usually only referenced when <<ObjC-Subclassing,subclassing>> an Objective-C class or when checking whether an object or class conforms to a protocol.
 
-// TODO: fix links
+// TODO: where should subclassing link lead to?.
 
 [tabs]
 ====
@@ -241,7 +241,7 @@ const isCopying = NSArray.conformsToProtocol(NSCopying)
 
 In Objective-C `SEL` is a data type that represents the name of a method of an Objective-C class.
 NativeScript exposes this data type as a JavaScript string.
-Whenever an API expects a selector value in Objective-C, it's JavaScript projection will expect a string with the method name.
+Whenever an API expects a selector value in Objective-C, its JavaScript projection will expect a string with the method name.
 
 [tabs]
 ====
@@ -264,7 +264,7 @@ const hasAppend = aString.respondsToSelector('appendString:')
 
 ==== Objective-C Blocks
 
-https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html[Objective-C blocks] are anonymous functions in Objective-C.
+https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html[Objective-C's blocks] are anonymous functions in Objective-C.
 They can be closures, just like JavaScript functions, and are often used as callbacks.
 NativeScript implicitly exposes an Objective-C block as a JavaScript function.
 Any API that accepts a block in Objective-C accepts a JavaScript function when called in JavaScript:
@@ -299,26 +299,27 @@ NSURLConnection.sendAsynchronousRequestQueueCompletionHandler(
 ====
 
 Blocks in Objective-C, especially blocks that are closures, need to be properly retained and released in order to not leak memory.
-NativeScript does this automatically - a block exposed as a JavaScript function is released as soon as the function is garbage collected.
-A JavaScript function implicitly converted to a block will not be garbage collected as long the block is not released.
+NativeScript does this automatically — a block exposed as a JavaScript function is released as soon as the function is garbage collected.
+A JavaScript function implicitly converted to a block will not be garbage collected as long as the block is not released.
 
 ==== CoreFoundation Objects
 
 iOS contains both an Objective-C standard library (the Foundation framework) and a pure C standard library (Core Foundation).
-Core Foundation is modeled after Foundation to a great extent and implements a limited object model.
+The Core Foundation is modeled after Foundation to a great extent and implements a limited object model.
 Data types such as CFDictionaryRef and CFBundleRef are Core Foundation objects.
-Core Foundation objects are retained and released just like Objective-C objects, using the CFRetain and CFRelease functions.
+Core Foundation objects are retained and released just like Objective-C objects, using CFRetain and CFRelease functions.
 NativeScript implements automatic memory management for functions that are annotated as returning a retained Core Foundation object.
 For those that are not annotated, NativeScript returns an Unmanaged type that wraps the Core Foundation instance.
 This makes you partially responsible for keeping the instance allive.
-You could either
+
+You could either:
 
 * Call takeRetainedValue() which would return managed reference to the wrapped instance, decrementing the reference count while doing so
 * Call takeUnretainedValue() which would return managed reference to the wrapped instance _without_ decrementing the reference count
 
 ==== Toll-free Bridging
 
-Core Foundation has the concept of https://developer.apple.com/library/ios/documentation/CoreFoundation/Conceptual/CFDesignConcepts/Articles/tollFreeBridgedTypes.html[Toll-free bridged types] - data types which can be used interchangeably with their Objective-C counterparts.
+The Core Foundation has the concept of https://developer.apple.com/library/ios/documentation/CoreFoundation/Conceptual/CFDesignConcepts/Articles/tollFreeBridgedTypes.html[Toll-free bridged types] — data types which can be used interchangeably with their Objective-C counterparts.
 When dealing with a toll-free bridged type NativeScript always treats it as its Objective-C counterpart.
 Core Foundation objects on the https://developer.apple.com/library/ios/documentation/CoreFoundation/Conceptual/CFDesignConcepts/Articles/tollFreeBridgedTypes.html#//apple_ref/doc/uid/TP40010677-SW4[toll-free bridged types list] are exposed as if they were instances of the equivalent Objective-C class.
 This means that a `CFDictionaryRef` value in JavaScript has the same methods on its prototype as if it were a `NSDictionary` object.
@@ -421,7 +422,7 @@ fileManager.contentsOfDirectoryAtPathError('/not-existing-path', errorRef)
 console.log(errorRef.value) // NSError: "The folder '/not-existing-path' doesn't exist."
 ----
 
-Or we can skip passing the *last NSError *** out parameter and a JavaScript error will be thrown if the `+NSError **+` is set from native:
+Or we can skip passing the *last NSError*** out parameter, and a JavaScript error will be thrown if the `+NSError **+` is set from native:
 
 [,js]
 ----
@@ -435,13 +436,13 @@ try {
 
 ==== JavaScript to Native
 
-When overriding a method having *NSError ** out parameter in the end* any thrown JavaScript error will be wrapped and set to the `+NSError **+` argument (if given).
+When overriding a method having `*NSError **` out parameter in the end, any thrown JavaScript error will be wrapped and set to the `NSError **` argument (if given).
 
 
 ==== Pointer Types
 
 Languages in the C family have the notion of a pointer data type.
-A pointer is a value that points to another value, or, more accurately, to the location of that value in memory.
+A pointer is a value that points to another value or, more accurate to the location of that value in memory.
 JavaScript has no notion of pointers, but the pointer data type is used throughout the iOS SDK.
 To overcome this, NativeScript introduces the `Reference` object.
 References are special objects which allow JavaScript to reason about and access pointer values.
@@ -459,7 +460,7 @@ if (isDirectory) {
 
 This snippet calls the `fileExistsAtPath:isDirectory` method of the `NSFileManager` class.
 This method accepts a `NSString` as its first argument and a pointer to a boolean value as its second argument.
-During its execution the method will use the pointer to update the boolean value.
+During its execution, the method will use the pointer to update the boolean value.
 This means it will directly change the value of `isDirectory`.
 The same code can be written as follows:
 
@@ -480,14 +481,14 @@ if (isDirectory.value) {
 ==== Data Conversion
 
 Being two different worlds, Java/Kotlin and JavaScript use different data types.
-For example java.lang.String is not the same as the JavaScript's String.
+For example, java.lang.String is not the same as the JavaScript's String.
 The NativeScript Runtime provides implicit type conversion that projects types and values from JavaScript to Java and vice-versa.
 The Kotlin support in the runtime is similar and data conversion is described in the articles JavaScript to Kotlin and Kotlin to JavaScript There are several corner cases - namely with different method overloads, where an explicit input is required to call the desired method but these cases are not common and a typical application will seldom (if ever) need such explicit conversion.
 
 
 ==== JavaScript to Java Conversion
 
-The article lists the available types in JavaScript and how they are projected to Java.
+The article lists the available types of JavaScript and how they are projected to Java.
 
 
 ===== String
@@ -571,9 +572,11 @@ var myObject = new MyObject()
 myObject.myMethod(10) // myMethod(int) will be called.
 ----
 
-::: warning Note If there is no myMethod(int) implementation, the Runtime will try to choose the best possible overload with least conversion loss.
-If no such method is found an exception will be raised.
-:::
+[WARNING]
+====
+If there is no myMethod(int) implementation, the Runtime will try to choose the best possible overload with the least conversion loss.
+If no such method is found, an exception will be raised.
+====
 
 * Implicit *floating-point* conversion:
 
@@ -582,13 +585,17 @@ If no such method is found an exception will be raised.
 myObject.myMethod(10.5) // myMethod(double) will be called.
 ----
 
-::: warning Note If there is no myMethod(double) implementation, the Runtime will try to choose the best possible overload with least conversion loss.
-If no such method is found an exception will be raised.
-:::
+[WARNING]
+====
+If there is no myMethod(double) implementation, the Runtime will try to choose the best possible overload with the least conversion loss.
+If no such method is found, an exception will be raised.
+====
 
-* Explicitly call an overload: + To enable developers call a specific method overload, the Runtime exposes the following functions directly in the global context:
-+
-....
+* Explicitly, call an overload:
+
+To enable developers to call a specific method overload, the Runtime exposes the following functions directly in the global context:
+
+----
    * byte(number) → Java primitive byte
 
    > The number value will be truncated and only its first byte of the whole part will be used.
@@ -606,7 +613,8 @@ If no such method is found an exception will be raised.
    > The number value's whole part will be taken only.
 
    * long("number") → Java primitive long (in case the number literal doesn't fit JavaScript 2^53 limit)
-....
+----
+
 [,js]
 ----
 myObject.myMethod(byte(10)) // will call myMethod(byte)
@@ -616,13 +624,15 @@ myObject.myMethod(long(10)) // will call myMethod(long)
 myObject.myMethod(long('123456')) // will convert "123456" to Java long and will call myMethod(long)
 ----
 
-::: warning Note When an explicit cast function is called and there is no such implementation found, the Runtime will directly fail, without trying to find a matching overload.
-:::
+[WARNING]
+====
+When an explicit cast function is called and there is no such implementation found, the Runtime will directly fail, without trying to find a matching overload.
+====
 
 
 ===== Array
 
-A JavaScript http://www.w3schools.com/jsref/jsref_obj_array.asp[Array] is implicitly converted to a http://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html[Java Array], using the above described rules for type conversion of the array's elements.
+A JavaScript http://www.w3schools.com/jsref/jsref_obj_array.asp[Array] is implicitly converted to a http://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html[Java Array], using the above-described rules for type conversion of the array's elements.
 For example:
 
 [tabs]
@@ -688,7 +698,7 @@ var kotlinClass = new com.example.KotlinClassWithNullableParameter(undefined) //
 
 ===== Number
 
-Kotlin has several numeric types while JavaScript has the http://www.w3schools.com/jsref/jsref_obj_number.asp[Number] type only.
+Kotlin has several numeric types, while JavaScript has the http://www.w3schools.com/jsref/jsref_obj_number.asp[Number] type only.
 Additionally, unlike JavaScript, Kotlin is a language that supports http://en.wikipedia.org/wiki/Function_overloading[Method Overloading], which makes the numeric conversion more complex.
 Consider the following Java class:
 
@@ -723,9 +733,11 @@ var myObject = new MyObject()
 myObject.myMethod(10) // myMethod(Int) will be called.
 ----
 
-::: warning Note If there is no myMethod(Int) implementation, the Runtime will try to choose the best possible overload with least conversion loss.
-If no such method is found an exception will be raised.
-:::
+[WARNING]
+====
+If there is no myMethod(Int) implementation, the Runtime will try to choose the best possible overload with the least conversion loss.
+If no such method is found, an exception will be raised.
+====
 
 * Implicit *floating-point* conversion:
 
@@ -734,13 +746,17 @@ If no such method is found an exception will be raised.
 myObject.myMethod(10.5) // myMethod(Double) will be called.
 ----
 
-::: warning Note If there is no myMethod(Double) implementation, the Runtime will try to choose the best possible overload with least conversion loss.
-If no such method is found an exception will be raised.
-:::
+[WARNING]
+====
+If there is no myMethod(Double) implementation, the Runtime will try to choose the best possible overload with the least conversion loss.
+If no such method is found, an exception will be raised.
+====
 
-* Explicitly call an overload: + To enable developers call a specific method overload, the Runtime exposes the following functions directly in the global context:
-+
-....
+* Explicitly, call an overload:
+
+To enable developers to call a specific method overload, the Runtime exposes the following functions directly in the global context:
+
+----
    * byte(number) → Kotlin Byte
 
    >The number value will be truncated and only its first byte of the whole part will be used.
@@ -758,7 +774,8 @@ If no such method is found an exception will be raised.
    >The number value's whole part will be taken only.
 
    * long("number") → Kotlin Long (in case the number literal doesn't fit JavaScript 2^53 limit)
-....
+----
+
 [,js]
 ----
 myObject.myMethod(byte(10)) // will call myMethod(Byte)
@@ -775,7 +792,7 @@ When an explicit cast function is called and there is no such implementation fou
 
 ===== Array
 
-A JavaScript http://www.w3schools.com/jsref/jsref_obj_array.asp[Array] is implicitly converted to a https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html[Kotlin Array], using the above described rules for type conversion of the array's elements.
+A JavaScript http://www.w3schools.com/jsref/jsref_obj_array.asp[Array] is implicitly converted to a https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html[Kotlin Array], using the above-described rules for type conversion of the array's elements.
 For example:
 
 [tabs]
@@ -806,7 +823,7 @@ The article lists the available types in Java and how they are projected to Java
 
 ===== String & Character
 
-Both http://developer.android.com/reference/java/lang/String.html[java.lang.String] and http://docs.oracle.com/javase/7/docs/api/java/lang/Character.html[java.lang.Character] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String]:
+Both http://developer.android.com/reference/java/lang/String.html[java.lang.String] and http://docs.oracle.com/javase/7/docs/api/java/lang/Character.html[java.lang.Character] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String]:
 
 [,js]
 ----
@@ -829,7 +846,7 @@ var enabled = button.isEnabled(); // returns primitive boolean, converted to JS 
 
 ===== Byte & Primitive byte
 
-Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[byte] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Byte.html[java.lang.Byte] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[byte] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Byte.html[java.lang.Byte] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [,js]
 ----
@@ -840,7 +857,7 @@ var jsByteValue = byte.byteValue() // returns primitive byte, converted to Numbe
 
 ===== Short & Primitive short
 
-Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[short] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Short.html[java.lang.Short] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[short] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Short.html[java.lang.Short] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [,js]
 ----
@@ -851,7 +868,7 @@ var jsShortValue = short.shortValue() // returns primitive short, converted to N
 
 ===== Integer & Primitive int
 
-Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[int] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html[java.lang.Integer] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[int] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html[java.lang.Integer] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [,js]
 ----
@@ -862,7 +879,7 @@ var jsIntValue = int.intValue() // returns primitive int, converted to Number
 
 ===== Float & Primitive float
 
-Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[float] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Float.html[java.lang.Float] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[float] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Float.html[java.lang.Float] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [,js]
 ----
@@ -873,7 +890,7 @@ var jsFloatValue = float.floatValue() // returns primitive float, converted to N
 
 ===== Double & Primitive double
 
-Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[double] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html[java.lang.Double] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Both the primitive http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html[double] and reference http://docs.oracle.com/javase/7/docs/api/java/lang/Double.html[java.lang.Double] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [,js]
 ----
@@ -889,7 +906,7 @@ http://docs.oracle.com/javase/7/docs/api/java/lang/Long.html[java.lang.Long] and
 * If the value is in the interval (-2{caret}53, 2{caret}53) then it is converted to http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]
 * Else a special object with the following characteristics is created:
  ** Has Number.NaN set as a prototype
- ** Has value property set to the string representation of the Java long value
+ ** Has a value property set to the string representation of the Java long value
  ** Its valueOf() method returns NaN
  ** Its toString() method returns the string representation of the Java long value
 
@@ -921,13 +938,13 @@ var specialObject = testClass.getLongNumber54Bits() // result is the special obj
 
 ===== Array
 
-The Array in Java is a special http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html[java.lang.Object] that have an implicit Class associated.
+The Array in Java is a special http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html[java.lang.Object] that has an implicit Class associated.
 A Java Array is projected to JavaScript as a special JavaScript proxy object with the following characteristics:
 
 * Has length property
 * Has registered indexed getter and setter callbacks, which:
- ** If the array contains elements of type convertible to a JavaScript type, then accessing the i-th element will return a converted type
- ** If the array contains elements of type non-convertible to JavaScript, then accessing the i-th element will return a proxy object over the Java/Android type (see <<accessing-apis,Accessing APIs>>)
+ ** If the array contains elements of a type convertible to a JavaScript type, then accessing the i-th element will return a converted type
+ ** If the array contains elements of a type that is non-convertible to JavaScript, then accessing the i-th element will return a proxy object over the Java/Android type (see <<accessing-apis,Accessing APIs>>)
 
 [,js]
 ----
@@ -944,7 +961,7 @@ A Java Array is intentionally not converted to a JavaScript http://www.w3schools
 
 ===== Array of Objects
 
-Occasionally you have to create Java arrays from JavaScript.
+Occasionally, you have to create Java arrays from JavaScript.
 For this scenario we added method `create` to built-in JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array[`Array` object].
 Here are some examples how to use `Array.create` method:
 
@@ -979,7 +996,7 @@ Array.create(javaClassCtorFunction, length)
 //TODO: Fix js + js? maybe different
 
 The first signature accepts `string` for `elementClassName`.
-This option is useful when you have to create Java array of primitive types (e.g.
+This option is useful when you have to create a Java array of primitive types (e.g.
 `char`, `boolean`, `byte`, `short`, `int`, `long`, `float` and `double`).
 It is also useful when you have to create Java jagged arrays.
 For this scenario `elementClassName` must be the standard JNI class notation.
@@ -1020,7 +1037,7 @@ In cases where you have a method that takes an array of primitive types, you nee
 public static void myMethod(int[] someParam)
 ----
 
-Then yoy need to invoke it as follows:
+Then you need to invoke it as follows:
 
 [,js]
 ----
@@ -1032,7 +1049,7 @@ arr[2] = 3
 SomeObject.myMethod(arr) // assuming the method is accepting an array of primitive types
 ----
 
-However there are some other helpful classes we can use to create a few other arrays of primitive types
+However, there are some other helpful classes we can use to create a few other arrays of primitive types
 
 [,js]
 ----
@@ -1148,7 +1165,7 @@ Although the conversion of Kotlin types in NativeScript is quite the same as the
 
 ===== String & Character
 
-Both https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html[kotlin.String] and https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html[kotlin.Char] types are projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String]:
+Both https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html[kotlin.String] and https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html[kotlin.Char] types are projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_string.asp[String]:
 
 [tabs]
 ====
@@ -1202,7 +1219,7 @@ class KotlinClassWithBooleanProperty {
 
 ===== Byte
 
-Kotlin's byte type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html[kotlin.Byte] is projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Kotlin's byte type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html[kotlin.Byte] is projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [tabs]
 ====
@@ -1228,7 +1245,7 @@ class KotlinClassWithByteProperty {
 
 ===== Short
 
-Kotlin's short type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html[kotlin.Short] is projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Kotlin's short type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html[kotlin.Short] is projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [tabs]
 ====
@@ -1254,7 +1271,7 @@ class KotlinClassWithShortProperty {
 
 ===== Integer
 
-Kotlin's integer type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html[kotlin.Int] is projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Kotlin's integer type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html[kotlin.Int] is projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [tabs]
 ====
@@ -1280,7 +1297,7 @@ class KotlinClassWithIntProperty {
 
 ===== Float
 
-Kotlin's float type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html[kotlin.Float] is projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Kotlin's float type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html[kotlin.Float] is projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [tabs]
 ====
@@ -1306,7 +1323,7 @@ class KotlinClassWithFloatProperty {
 
 ===== Double
 
-Kotlin's double type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html[kotlin.Double] is projected as JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
+Kotlin's double type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html[kotlin.Double] is projected as a JavaScript http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]:
 
 [tabs]
 ====
@@ -1337,7 +1354,7 @@ Kotlin's long type https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/ind
 * If the value is in the interval (-2{caret}53, 2{caret}53) then it is converted to http://www.w3schools.com/jsref/jsref_obj_number.asp[Number]
 * Else a special object with the following characteristics is created:
  ** Has Number.NaN set as a prototype
- ** Has value property set to the string representation of the Kotlin long value
+ ** Has a value property set to the string representation of the Kotlin long value
  ** Its valueOf() method returns NaN
  ** Its toString() method returns the string representation of the Kotlin long value
 
@@ -1369,12 +1386,12 @@ var specialObject = kotlinClass.getLongNumber54Bits() // result is the special o
 
 ===== Array
 
-Array in Kotlin is a special object that has an implicit Class associated.
+The array in Kotlin is a special object that has an implicit Class associated.
 A Kotlin Array is projected to JavaScript as a special JavaScript proxy object with the following characteristics:
 
 * Has length property
 * Has registered indexed getter and setter callbacks, which:
- ** If the array contains elements of type convertible to a JavaScript type, then accessing the n-th element will return a converted type
+ ** If the array contains elements of a type convertible to a JavaScript type, then accessing the n-th element will return a converted type
  ** If the array contains elements of type non-convertible to JavaScript, then accessing the n-th element will return a proxy object over the Kotlin type (see <<accessing-apis,Accessing APIs>>)
 
 [tabs]
@@ -1403,8 +1420,8 @@ class KotlinClassWithStringArrayProperty {
 
 ===== Creating arrays
 
-Occasionally you have to create Kotlin arrays from JavaScript.
-Because of the translation of the fundamental Kotlin types to Java types in Android, creating Kotlin array could be done the same way Java arrays are created.
+Occasionally, you have to create Kotlin arrays from JavaScript.
+Because of the translation of the fundamental Kotlin types to Java types in Android, creating a Kotlin array could be done the same way Java arrays are created.
 This is described in <<java-to-javascript-conversion,Java to JavaScript>>
 
 ===== Null
@@ -1524,7 +1541,7 @@ class KotlinClassWithStringProperty(var stringProperty: kotlin.String)
 
 ===== Accessing Kotlin package-level functions
 
-Currently using Kotlin https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html#package-level-functions[package-level functions] could not be achieved easily.
+Currently, using Kotlin https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html#package-level-functions[package-level functions] could not be achieved easily.
 In order to use a package-level function, the class where it's defined should be known.
 Let's take a look at an example:
 
@@ -1572,7 +1589,7 @@ fun getRandomNumber() = 42
 
 ===== Accessing Kotlin extension functions
 
-Currently using Kotlin extension functions could not be achieved easily.
+Currently, using Kotlin extension functions could not be achieved easily.
 In order to use an extension function, the class where it's defined should be known.
 Also, when invoking it, the first parameter should be an instance of the type for which the function is defined.
 Let's take a look at an example:

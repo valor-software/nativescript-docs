@@ -249,13 +249,13 @@ Apart from the API references, the below list is providing most of the non-commo
 | `tabTextColor`
 | Both
 | `TabView`
-| Sets the text color of the tabs titles.
+| Sets the text color of the tab titles.
 
 | `selected-tab-text-color`
 | `selectedTabTextColor`
 | Both
 | `TabView`
-| Sets the color of the text, while selecting some of the tabs.
+| Sets the color of the text, while selecting some tabs.
 
 | `tab-background-color`
 | `tabBackgroundColor`

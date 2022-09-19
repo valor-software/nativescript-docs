@@ -1,6 +1,6 @@
 = Platform
 
-Use this module to access information about the current device such as screen resolution,operating system, model, manufacturer,etc.
+Use this module to access information about the current device such as screen resolution, operating system, model, manufacturer,etc.
 
 == Usage
 

@@ -85,7 +85,7 @@ Creating your own `strings.xml` will require population of the `app_name` and `t
 </resources>
 ----
 
-By default (or if the project lacks the values above) your application name is generated with the `create` command (e.g.
+By default, (or if the project lacks the values above) your application name is generated with the `create` command (e.g.
 `ns create testApp` will have app name *testApp*)
 
 You can check out more information about http://developer.android.com/guide/topics/manifest/application-element.html[the elements you can define in the `AndroidManifest.xml` here].
@@ -136,7 +136,7 @@ The actual .PNG icons stay at the Android resources in `app/App_Resource/Android
 
 
 NativeScript supports adaptive icons on Android 8 and above (API 26+).
-No code changes are required - follow the https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive[Android guidelines for creating adaptive icons] for your application.
+No code changes are required — follow the https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive[Android guidelines for creating adaptive icons] for your application.
 ====
 
 === Launch screen
@@ -144,7 +144,7 @@ No code changes are required - follow the https://developer.android.com/guide/pr
 ==== Creating Launch Screens for Android
 
 Launch screens are essential as they provide a user's first experience with your mobile application.
-Based on https://material.io/design/communication/launch-screen.html[Google's Material Design launch screens guidelines], there are two main types of launch screens:
+Based on https://material.io/design/communication/launch-screen.html[Google's Material Design launch screen guidelines], there are two main types of launch screens:
 
 * Placeholder UI: A simple seamless transaction type screen
 * Branded Launch Screens: A screen providing the user with momentary brand exposure and focus on the content
@@ -191,14 +191,13 @@ Use this for the launcher icon only.
 * *values* folder: XML files that contain simple values such as strings, integers, and colors.
 Here is the full list of the files that ship with the basic NativeScript template.
 +
-....
+----
 * **colors.xml**: XML file in which the app colors are declared.
 * **strings.xml**: XML file in which the app string are declared.
 * **styles.xml**: XML file in which the app styles are declared.
-This file holds your `LaunchScreenTheme` style,
-which you can customize to change the `splash_screen.xml` mentioned above.
+This file holds your `LaunchScreenTheme` style,which you can customize to change the `splash_screen.xml` mentioned above.
 Once your application is loaded, the `LaunchScreenTheme` is changed with the `AppTheme` style.
-....
+----
 
 * *values-v21* folder: XML files that contain simple values, such as strings, integers, and colors.
 Used when you need to provide themes supported only on API Level 21+ (e.g., Theme.Material)
@@ -206,15 +205,15 @@ Used when you need to provide themes supported only on API Level 21+ (e.g., Them
 The manifest file presents essential information about your app to the Android system &ndash;
 information the system must have before it can run any of the app's code.
 In order to change your application icon file, you must modify the `android:icon` key in the `applcation` tag.
-<Comment: Please review to enure I did not create a technical error.
-The original text was sort of hard to understand.> The default app icon set up:
+//TODO:Comment: Please review to ensure I did not create a technical error. The original text was sort of hard to understand.>
+The default app icon set up:
 +
 `android:icon="@drawable/icon"`
 +
 The code above will look for the file named *icon.png* in the drawable folder and will load the properly scaled image for the current device.
 <Comment: Please review my rewrite of the sentence above to ensure I did not create an error.
 You had "drawables folders" but the command referred to a single folder (not plural).>
-
++
 [NOTE]
 ====
 In `AndroidManifest` you will find the following key:
@@ -229,7 +228,7 @@ This key is used by NativeScript to change your `LaunchScreenTheme` with `AppThe
 In order to change the default NativeScript launch screen (defined in `drawable-nodpi/splash_screen.xml`) and create your own, follow these steps:
 
 . Put your properly scaled images into the corresponding *drawable* folders.
-This folder can be used not only for your launch screen images, but also for your app icons and for your in-app images (you can refer to this resource from your application logic with `"res://image-name"`).
+This folder can be used not only for your launch screen images, but also for your app icons, and for your in-app images, (you can refer to this resource from your application logic with `"res://image-name"`).
 The default template app ships with three images: *icon.png* (used for app icon), *logo.png* (centered sample image) and *background.png* (image used to fill the background).
 +
 The default *splash_screen.xml* with centered `logo.png` and filled `background.png`.
@@ -277,9 +276,8 @@ Or you can use https://github.com/NativeScript/nativescript-marketplace-demo/tre
 ====
 
 Notice that you can *NOT* have custom folders inside your App_Resources.
-Only folders that are required by the Android convention <Comment: convention seems like the wrong word.
-Do you mean operating system?> are allowed and they must be created with the exact names provided (e.g., *values*, *values-v21*, *drawable*).
-When adding new folders in your App_Resources you should reset your platform folder.
+Only folders that are required by the Android convention are allowed, and they must be created with the exact names provided, (e.g., *values*, *values-v21*, *drawable*).
+When adding new folders in your `App_Resources`, you should reset your platform folder.
 
 [,cli]
 ----
@@ -334,7 +332,7 @@ keystore and alias passwords.
 
 === Google Play Developer Console
 
-You will need a developer account and you will need to log into the https://play.google.com/apps/publish/[Google Play Developer Console].
+You will need a developer account, and you will need to log into the https://play.google.com/apps/publish/[Google Play Developer Console].
 
 Go to the *All applications* section and click the *+ Add new application* button.
 
@@ -353,14 +351,14 @@ We have already explained how the _Application Id_ is set in your project, how i
 Before the build, you need to set two important things: the _versionCode_ and the _android:versionName_.
 
 When a build is uploaded, its _versionCode_ should be larger than previous builds.
-A new build with a higher _versionCode_ is considered an upgrade to builds that have a lower _versionCode_.
-The _versionCode_ is an integer so you should carefully consider a strategy for versioning.
+A new build with a higher _versionCode_ is considered an upgrade to build that has a lower _versionCode_.
+The _versionCode_ is an integer, so you should carefully consider a strategy for versioning.
 
 Both values are stored in `app/App_Resources/Android/AndroidManifest.xml`.
 
 [NOTE]
 ====
-`android:versionName` is a string value, which is used to represent the application version to the user whereas `android:versionCode`, which is integer value showing version of the application code relative to the other versions.
+`android:versionName` is a string value, which is used to represent the application version to the user whereas `android:versionCode`, which is integer value showing a version of the application code relative to the other versions.
 You can read more about http://developer.android.com/tools/publishing/versioning.html["Versioning Your Applications"].
 ====
 
@@ -396,7 +394,7 @@ You can then use the produced `<apk-location>.apk` for upload to _Google Play_.
 ====
 
 
-The recommended approach for reducing the app size by splitting it per architecture is the <<android-app-bundle,Android App Bundle>> which is supported out of the box through the `--aab` NativeScript CLI flag.
+The recommended approach for reducing the app size by splitting it per architecture is the link:#produce-android-app-bundle[Android App Bundle] which is supported out of the box through the `--aab` NativeScript CLI flag.
 
 ====
 
@@ -404,7 +402,7 @@ The recommended approach for reducing the app size by splitting it per architect
 
 If the recommended Android App Bundle approach is not applicable for you, an ABI split could be manually configured as an alternative.
 The ABI split approach will produce different apk files for the different architectures.
-To achieve this you need to enable ABI splits at *app/App_Resources/Android/app.gradle*
+To achieve this, you need to enable ABI splits at *app/App_Resources/Android/app.gradle*
 
 ==== Enable ABI split
 
@@ -431,8 +429,8 @@ android {
 ==== Publishing ABI split apk
 
 Now you will need to upload all built apk files in Google Play Developer Console.
-To achieve this the different apks need to have different Version Codes otherwise Google Play won't allow adding them in the same version.
-To use different Version Codes you can add the following code in your `App_Resources/Android/app.gradle` which will prefix the different architecture apk Version Codes with different prefixes:
+To achieve this, the different apks need to have different Version Codes; otherwise Google Play won't allow adding them in the same version.
+To use different Version Codes, you can add the following code in your `App_Resources/Android/app.gradle` which will prefix the different architecture apk Version Codes with different prefixes:
 
 ----
 project.ext.abiCodes = ['armeabi-v7a': 1, 'arm64-v8a': 2, 'x86': 3]
@@ -464,11 +462,11 @@ When approved, you can move it to production to make it available on _Google Pla
 
 === Android App Bundle
 
-Android App Bundle is a new publishing format that contains all the compiled code and resources of your app, but leaves the actual APK generation and signing to Google Play.
+The Android App Bundle is a new publishing format that contains all the compiled code and resources of your app but leaves the actual APK generation and signing to Google Play.
 The store then uses the app bundle to generate and serve optimized APKs based on the device configuration of the specific user.
 In general, the benefit of using Android App Bundles is that you no longer have to build, sign, and manage multiple APKs to support different devices, and users get smaller, more optimized downloads.
 For more information about the Android App Bundle, see the About Android App Bundles article in the official https://developer.android.com/guide/app-bundle/[Android Developer documentation].
-
+[#produce-android-app-bundle]
 ==== Produce Android App Bundle
 
 You can perform a full build and produce a signed AAB using the NativeScript CLI:
@@ -491,7 +489,7 @@ ns build android --release \
 Filtering the target architectures does not reduce the app size, it just drops the support for the devices and emulators using the missing architecture.
 ====
 
-By default, the generated `aab` file supports all of the available device architectures - `armeabi-v7a`, `arm64-v8a`, `x86` and `x86_64`.
+By default, the generated `aab` file supports all the available device architectures - `armeabi-v7a`, `arm64-v8a`, `x86` and `x86_64`.
 This behavior can be overridden from your ``App_Resources/Android/app.gradle``'s `apiFilters` property:
 
 ----
@@ -544,7 +542,7 @@ Then you can install the application on a connected device by executing:
 ====
 Devices running Android 4.4 (API level 19) and lower don't support downloading and installing split APKs.
 On such devices `bundletool` will not be able to deploy the application.
-When the bundle is released Google Play will serve a single multi-APK to such devices.
+When the bundle is released, Google Play will serve a single multi-APK to such devices.
 ====
 
 [,cli]
@@ -573,7 +571,7 @@ Then you can use the produced file to upload it to Google Play Developer Console
 
 ==== Submission automation
 
-Some tools allow the submission process to be automated - https://github.com/fastlane/fastlane[MIT Licensed one: fastlane].
+Some tools allow the submission process to be automated — https://github.com/fastlane/fastlane[MIT Licensed one: fastlane].
 You can also hack your own scripts around the https://developers.google.com/android-publisher/api-ref/edits/apks/upload[Google Play Developer API].
 
 === Publish
@@ -598,7 +596,7 @@ Your native project is located at: `+{app-name}/platforms/ios/{app-name}.xcworks
 . https://help.apple.com/app-store-connect/#/dev301cb2b3e[Submit it to the _App Store_].
 
 === Creating iOS NativeScript app
-
+[#bundle-id]
 ==== Bundle ID
 
 The _Bundle ID_ is a unique identifier, provided by you for your app.
@@ -613,9 +611,9 @@ In iOS apps, the _Bundle ID_ is stored in the `CFBundleIdentifier` in the `Info.
 To edit the _Bundle ID_, edit the `package.json` of your app and set the `nativescript.id` key.
 ====
 
-The _Bundle ID_ is used to precisely identify your app at various situations and plays an important role, when it is built and launched by the CLI, as well as when _Provisioning Profiles_ and certificates are created in the _Apple Member Center_.
+The _Bundle ID_ is used to precisely identify your app in various situations and plays an important role, when it is built and launched by the CLI, as well as when _Provisioning Profiles_ and certificates are created in the _Apple Member Center_.
 
-For more information consider https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html[the 'About Bundle IDs' section in the following article].
+For more information, consider https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html[the 'About Bundle IDs' section in the following article].
 
 === App name
 
@@ -630,7 +628,7 @@ The NativeScript framework will use icons from `app/App_Resources/iOS/`.
 All files from that folder are added as resources in the generated Xcode project in `platforms/ios`.
 
 _App Store_ submissions will be rejected if certain icon files are not present.
-To ensure you have the required icons, you can consider the following Apple article: https://developer.apple.com/library/ios/qa/qa1686/_index.html['App Icons on iPad and iPhone'].
+To ensure you have the required icons, you can consider the following Apple article: https://developer.apple.com/library/ios/qa/qa1686/_index.html['App Icons on the iPad and iPhone'].
 
 If you want to extend the default icon set, and you don't want to use the default naming, or you need finer control, you can use the `app/App_Resources/iOS/Info.plist`.
 List the icons using https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/TP40009249-SW10[`CFBundleIconFiles`] or https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/TP40009249-SW13[`CFBundleIcon`].
@@ -672,7 +670,7 @@ In order to provide a pleasing experience, it's best to avoid a default that's e
 The launch files are not a splash screen;
 instead, they are a way for the OS to quickly grab a preview image of your app and use it during the first ~300ms while your app is booting.
 
-https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html[For design guidelines you can consider the following article provided by Apple].
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html[For design guidelines, you can consider the following article provided by Apple].
 
 [NOTE]
 ====
@@ -684,9 +682,9 @@ It's solely intended to enhance the user's perception of your app as quick to la
 _App Store_ submissions will be rejected if certain launch files are not present.
 Make sure that when new iOS versions and devices are released that you update your _launch files_ and accommodate the upcoming form factors.
 
-If a customer runs your app on a device with a high resolution screen and your app is missing the launch screen file for that device, then iOS will render your app using a smaller resolution, degrading its quality:
+If a customer runs your app on a device with a high-resolution screen and your app is missing the launch screen file for that device, then iOS will render your app using a smaller resolution, degrading its quality:
 
-* Your app may be upscaled, and blurred
+* Your app may be upscaled and blurred
 * Your app may have black areas
 
 Earlier iOS versions had to support a small range of form factors.
@@ -715,7 +713,7 @@ Similar to the icons, you can use the https://developer.apple.com/library/ios/do
 ==== Launch screen Storyboard
 
 The NativeScript framework will provide a _Launch Screen Storyboard_ in `platforms/ios/<YourAppName>/en.lproj/LaunchScreen.xib`, but does *not* yet provide a means to store it at `app/App_Resources/iOS`.
-If you want to edit it you can use the `.xcodeproj` generated in `platforms/ios`.
+If you want to edit it, you can use the `.xcodeproj` generated in `platforms/ios`.
 You will have to add it in source control.
 CLI rebuilds may overwrite it, so you will have to watch out for automatic changes in it when you commit.
 
@@ -732,7 +730,7 @@ This will force all supported launch screens to use the _launch image_.
 ==== Creating App Icons and Launch Screens for iOS
 
 Publishing your iOS app is an essential step in the development process and in order for your iOS application to be published successfully in the App Store, there are some requirements that need to be fulfilled.
-As described in https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html[iOS Human Interface Guidelines] setting the following is mandatory:
+As described in https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html[iOS Human Interface Guidelines,] setting the following is mandatory:
 
 * App name
 * App icon
@@ -752,11 +750,11 @@ If on a real device: remove `platforms` folder from your project, delete app, re
 
 Setting up launch screens depends on the version of iOS you are targeting.
 In iOS 7 and lower, the approach for creating the launch screen is to use static image resources.
-The drawback of this method is that the app developer will have to provide many different images, each with different resolution for each iOS device.
+The drawback of this method is that the app developer will have to provide many images, each with different resolutions for each iOS device.
 In iOS 8 and above, the approach is to create a LaunchScreen.storyboard, which is much more powerful in terms of customization and is easier to maintain.
 
-The default Hello-World project in NativeScript is provided with default settings that supports both approaches.
-When you build your app for devices with iOS lower then version 8, NativeScript will use the static images and when you use NativeScript to build your app for devices with iOS 8 and above, it will use the provided LaunchScreen.storyboard.
+The default Hello-World project in NativeScript is provided with default settings that support both approaches.
+When you build your app for devices with iOS lower than version 8, NativeScript will use the static images and when you use NativeScript to build your app for devices with iOS 8 and above, it will use the provided LaunchScreen.storyboard.
 
 ==== How to set your launch screen
 
@@ -769,7 +767,7 @@ To modify that template and create your own launch screen using your own assets 
 * Xcode 7.1 or newer version (optional: needed only if you prefer WYSIWYG workflow for changing your images).
 
 The workflow for creating your own launch screen can be handled from Xcode or manually in the NativeScript environment.
-In this article we are going to cover both the manual and the Xcode WYSIWYG approach.
+In this article, we are going to cover both the manual and the Xcode WYSIWYG approach.
 
 In your *app/App_Resources/iOS/Assets.xcassets* you will find the following sub-folders:
 
@@ -791,7 +789,7 @@ image::distribution/launch-screen-howto-002.png[App icons config.json]
 * Changing AppIcons: Xcode WYSIWYG approach
 
 Drag and drop your *Assets.xcassets* into Xcode (7.1 or newer version).
-In the opened window choose *AppIcon* and add a proper image for each iOS version and device.
+In the opened window, choose *AppIcon* and add a proper image for each iOS version and device.
 Close Xcode and rebuild your NativeScript app to use the new AppIcons.
 
 image::distribution/launch-screen-howto-003.png[AppIcon setup in Xcode]
@@ -861,7 +859,7 @@ For a better understanding of the supported image resolutions for the different 
 * Xcode WYSIWYG approach
 
 Drag and drop your *Assets.xcassets* into Xcode (7.1 or newer version).
-In the opened window add the proper image for each iOS version and device.
+In the opened window, add the proper image for each iOS version and device.
 Close Xcode and rebuild your NativeScript app to use the new launch images.
 
 [IMPORTANT]
@@ -891,7 +889,7 @@ If your images have different file names then open Contents.json and change the 
 
 [IMPORTANT]
 ====
-After each file change in the *Assets.xcassets* folder you should rebuild your project and restart your emulator to avoid visualizing cached images.
+After each file change in the *Assets.xcassets* folder, you should rebuild your project and restart your emulator to avoid visualizing cached images.
 ====
 
 * Xcode WYSIWYG approach
@@ -913,7 +911,7 @@ If your images have different file names then open Contents.json and change the 
 
 [IMPORTANT]
 ====
-After each file change in the *Assets.xcassets* folder you should rebuild your project and restart your emulator to avoid visualizing cached images.
+After each file change in the *Assets.xcassets* folder, you should rebuild your project and restart your emulator to avoid visualizing cached images.
 ====
 
 * Xcode WYSIWYG approach
@@ -933,14 +931,14 @@ This article will cover only the basics.
 
 === Account with Apple ID
 
-You will need a developer account with an _Apple ID_ so you can access the https://developer.apple.com/membercenter[Apple Developer Member Center].
+You will need a developer account with an _Apple ID,_ so you can access the https://developer.apple.com/membercenter[Apple Developer Member Center].
 
 You will need to be added as an iOS developer in your organization.
 
 === Development certificates
 
 Development certificates are used to sign iOS apps proving the origin of the app.
-If you plan to use the Xcode tooling it would be best to create a _development certificate_.
+If you plan to use the Xcode tooling, it would be best to create a _development certificate_.
 
 A few pitfalls are:
 
@@ -965,11 +963,11 @@ Go to https://developer.apple.com/account/ios/certificate/certificateList.action
 
 _Production certificates_ work similarly to development certificates.
 They consist of public and private keys.
-The private key stays at your side and is never sent to Apple.
+The private key stays on your side and is never sent to Apple.
 Your app is signed with the distribution certificate using your private key, so Apple can verify the origin of submissions in _iTunes Connect_ using the public key you sent them.
 
-This _production certificates_ is used to sign the application binary when it is prepared for submission.
-Usually when an app is built for a device, its IPA file is signed with the development certificate.
+These __production certificates__ are used to sign the application binary when it is prepared for submission.
+Usually, when an app is built for a device, its IPA file is signed with the development certificate.
 
 [NOTE]
 ====
@@ -979,7 +977,7 @@ You can read more about IPA (file extension) https://en.wikipedia.org/wiki/.ipa_
 A few pitfalls are:
 
 * Creating _production certificates_ are more restricted than creating development certificates.
-Apple limit the number of _production certificates_ per team.
+Apple limits the number of _production certificates_ per team.
 * Because production certificates are limited in quantity per team, and frequently shared between multiple team members, you must be extremely careful when you revoke an existing distribution certificate.
 If you ultimately lost your private key of a distribution certificate and revoke it, consult with anyone that may have backed it up or is in need of the new certificate.
 Hopefully this will avoid your new copy being revoked in the future or losing your admin rights.
@@ -989,10 +987,11 @@ You can export it as a .p12 file, easily backing it up and sharing it with senio
 
 If you need a new distribution certificate, go to https://developer.apple.com/account/ios/certificate/certificateList.action?type=distribution click the '+' (add) button and follow the instructions for making a new 'App Store Distribution' certificate.
 Chances are you are part of a larger organization and your role does not have sufficient rights to create a new distribution certificate.
-Admins or other team member may provide you the certificates in that case.
+Admins or other team members may provide you the certificates in that case.
 In such cases, you will probably be given a .p12 file and a password.
 You should import the file in your keychain using the `Keychain Access` application.
 
+[#identifiers-app-id]
 === Identifiers - App IDs
 
 To test your app on a device or submit in the _App Store_, you will need to create an _App ID_.
@@ -1004,10 +1003,10 @@ These identifiers are later used to bind apps with _provisioning profiles_.
 
 === Devices
 
-At the _Member Center_ you can register the devices you and your team use for testing.
+At the _Member Center,_ you can register the devices you and your team use for testing.
 Go to https://developer.apple.com/account/ios/device/deviceList.action.
 
-To register a phone you will need its UDID.
+To register a phone, you will need its UDID.
 Connect it to the Mac and run in a terminal:
 
 [,cli]
@@ -1039,12 +1038,12 @@ When you run an app on a device, Xcode will sign the app with your development c
 While the _development provisioning profiles_ are easily created and updated, they frequently invalidate, especially when multiple _developer certificates_ are involved.
 Every time one of them is revoked or expires, you need to update the provisioning certificate.
 
-These are not of a particular interest for _App Store_ submissions but you may need one to test on a real device.
+These are not of a particular interest for _App Store_ submissions, but you may need one to test on a real device.
 
 === Distribution provisioning profiles
 
 There are several _distribution provisioning profile_ types.
-The one you will need for _App Store_ submission is 'App Store Distribution Provisioning Profile'.
+The one you will need for _App Store_ submission is an `App Store Distribution Provisioning Profile`.
 These are similar to the _development provisioning profiles_ because they bind:
 
 * Your _distribution certificate_
@@ -1052,10 +1051,10 @@ These are similar to the _development provisioning profiles_ because they bind:
 * An _App ID_
 * Various settings, enabled services, etc.
 
-_Distribution provisioning profiles_ are created at https://developer.apple.com/account/ios/profile/profileList.action?type=production.
+_Distribution provisioning profiles_ are created at https://developer.apple.com/account/ios/profile/profileList.action?type=production[Apple Developer Account].
 
 For _App Store_ submissions, you must create an _App Store Distribution Provisioning Profile_.
-Once you create it, download it and double-click it on your Mac so it gets registered with Xcode.
+Once you create it, download it and double-click it on your macOS, so it gets registered with Xcode.
 
 _Distribution provisioning profiles_ invalidate rarely since they refer a single _Distribution Certificate_.
 
@@ -1070,23 +1069,23 @@ You will need your _Apple ID_ added to your organization with sufficient rights 
 
 === Creating an app
 
-To publish your app in the iOS _App Store_ you will have to register your app.
+To publish your app in the iOS _App Store,_ you will have to register your app.
 Log into https://appstoreconnect.apple.com and go to 'My Apps'.
 There you can check the status and edit existing apps or create a new app.
 
-Click the '+' button at the top left corner.
+Click the '+' button in the top left corner.
 The 'New App' dialog should appear.
 There you have to fill the public _App Store_ name of your app and primary language.
 
-Also, you have to set _Bundle ID_, which must match the _Bundle ID_ referred in <<bundle-id,'1.1.
-Bundle ID'>>.
-If the drop-down does not contain a suitable match, you are probably missing an _App ID_ referred at <<identifiers-app-ids,'2.4.
-Identifiers - App IDs'>>.
+Also, you have to set _Bundle ID_, which must match the _Bundle ID_ referred in link:#bundle-id['1.1.
+Bundle ID']
+If the drop-down does not contain a suitable match, you are probably missing an _App ID_ referred at link:#identifiers-app-id['2.4.
+Identifiers - App IDs']
 If there is a wildcard _App ID_, that is a potential match so select it.
 You will be able to type the suffix, replacing the wildcard in a text box.
 
-At that point you have to fill in the App Information.
-There are various assets that you must provide such as screenshots, icons, description, etc.
+At that point, you have to fill in the App Information.
+There are various assets that you must provide, such as screenshots, icons, description, etc.
 Failing to provide all necessary assets may prevent you from submitting your app, or result in app rejection.
 
 [NOTE]
@@ -1107,7 +1106,7 @@ Before the build, you need to set two important things: the _Bundle Short Versio
 _Bundle Short Version String_ is the public version of your app.
 It is incremented between releases.
 For example: `2.1`.
-_Bundle Version String_ is the internal build number.
+The _Bundle Version String_ is the internal build number.
 One public release usually has multiple release candidates.
 For example `2.1.1`, `2.1.2`, etc.
 
@@ -1174,11 +1173,11 @@ You can execute the following command using the CLI:
 ns prepare ios
 ----
 
-This will create an Xcode project in `platforms/ios/`.
+This will create a Xcode project in `platforms/ios/`.
 Then you may consider the following Apple article about how to https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/ConfiguringYourApp/ConfiguringYourApp.html[configure the project for distribution].
 
-The `platform` folder is not meant to stay in source control and you should be careful when you do modifications there.
-Rebuilds may erase your changes and you should add changed files to source control.
+The `platform` folder is not meant to stay in source control, and you should be careful when you do modifications there.
+Rebuilds may erase your changes, and you should add changed files to source control.
 
 A common pitfall, if you are using CocoaPods, is to open the Xcode project instead of the workspace, so be sure to open the workspace.
 
@@ -1189,11 +1188,11 @@ From the top drop-down, select your target, and from the devices and emulators, 
 
 Then you should be able to select from the top menu `Product > Archive`.
 
-This makes an xcodearchive and opens it in the Xcode Organizer.
+This makes a xcodearchive and opens it in the Xcode Organizer.
 The Xcode Organizer displays a list with builds of your app.
 Pick the last build and click `+Upload to App Store...+`.
 You should select a team again and whether to include app symbols for your app.
-Next, you can see a list with the binary information, entitlements, etc.
+Next, you can see a list with binary information, entitlements, etc.
 Click `Upload`.
 
 If you upload successfully, you should be able to log in at https://appstoreconnect.apple.com and see your build in 'Activities'.
@@ -1201,8 +1200,8 @@ From there you can enable Test Flight beta testing or send it for approval.
 
 === Submission automation
 
-Automation can be achieved using the NativeScript CLI only.
-All of the parameters needed for publishing can be passed to the `publish` command directly:
+Automation can be achieved by using the NativeScript CLI only.
+All the parameters needed for publishing can be passed to the `publish` command directly:
 
 [,cli]
 ----
@@ -1225,11 +1224,11 @@ You can also automate the uploads of already built packages:
 ns publish ios my-apple-id my-password --ipa /tmp/build/myIpa.ipa
 ----
 
-Some tools that allow the submission process to be automated - https://github.com/fastlane/fastlane[MIT Licensed one: fastlane].
+Some tools that allow the submission process to be automated — https://github.com/fastlane/fastlane[MIT Licensed one: fastlane].
 
 === Send for approval and publish
 
-Once you successfully submit a build at _App Store Connect_, you can enable testing through _Test Flight_.
+Once you successfully submit a build to the _App Store Connect_, you can enable testing through _Test Flight_.
 When you are ready, go to the 'Build' section of your iOS app, pick the build, and click 'Submit for Review' for that version.
 The app will pass through several https://help.apple.com/app-store-connect/#/dev18557d60e[App Statuses].
 If your app passes Apple review, it can go live at the _App Store_.

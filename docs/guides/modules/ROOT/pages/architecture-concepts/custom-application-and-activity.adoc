@@ -6,7 +6,7 @@ NativeScript provides a way to create custom `android.app.Application` and `andr
 
 === Extending the Android Application
 
-. Create a new TypeScript file in the root of your project folder - name it `application.android.ts` or `application.android.js` if you are using plain JS.
+. Create a new TypeScript file in the root of your project folder — name it `application.android.ts` or `application.android.js` if you are using plain JS.
 +
 [NOTE]
 ====
@@ -115,7 +115,7 @@ This approach will not work if application.android.ts requires external modules.
 === Extending Android Activity
 
 NativeScript Core ships with a default `androidx.appcompat.app.AppCompatActivity` implementation, that bootstraps the NativeScript application, without forcing users to declare their custom Activity in every project.
-In some cases you may need to implement a custom Android Activity.
+In some cases, you may need to implement a custom Android Activity.
 In this section we'll look at how to do that!
 
 Create a new `activity.android.ts` or `activity.android.js` when using plain JS.
@@ -298,7 +298,7 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
 ====
 The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method.
 It implements the https://v7.docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events[AndroidActivityCallbacks interface] and allows the core modules to get notified for important Activity events.
-It is *important* to use these callbacks, as many parts of NativeScript rely on them!
+It is *important* to use these callbacks, as many parts of the NativeScript rely on them!
 ====
 
 // TODO: fix v7 links

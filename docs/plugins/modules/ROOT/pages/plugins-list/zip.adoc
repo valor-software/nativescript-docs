@@ -11,7 +11,7 @@ npm install @nativescript/zip
 
 === Zip
 
-see https://github.com/NativeScript/plugins/blob/master/packages/zip/index.d.ts#L1[ZipOptions]
+See https://github.com/NativeScript/plugins/blob/master/packages/zip/index.d.ts#L1[ZipOptions]
 
 [,typescript]
 ----

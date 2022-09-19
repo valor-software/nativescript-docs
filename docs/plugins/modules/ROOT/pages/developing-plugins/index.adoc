@@ -7,11 +7,11 @@ For example, everything from https://docs.nativescript.org/plugins/biometrics.ht
 
 == Developing your own plugins
 
-If you are interested in building your own plugins, we recommend following our https://docs.nativescript.org/plugins/plugin-workspace-guide.html[Getting Started with Plugin Workspaces] guide which uses our https://github.com/NativeScript/plugin-seed[plugin workspace seed] (_the exact same setup the TSC uses to develop it's own plugins_) as a starting point because it provides the following:
+If you are interested in building your own plugins, we recommend following our https://docs.nativescript.org/plugins/plugin-workspace-guide.html[Getting Started with Plugin Workspaces] guide which uses our https://github.com/NativeScript/plugin-seed[plugin workspace seed] (_the exact same set-up the TSC uses to develop its own plugins_) as a starting point because it provides the following:
 
 * consistent plugin source structure
 * ability to scale and add additional plugins through automated tooling
-* reduces configuration files to provide easy maintainence
+* reduces configuration files to provide easy maintenance
 * provides shareable structure for ease of demoing your plugins
 * ability to focus your workspace down to a single plugin in an instant if you ever need to isolate development when working within a multi-plugin workspace
 * provides automated migrations managed by the TSC to keep your plugin workspaces up-to-date without manual hassles
@@ -19,7 +19,7 @@ If you are interested in building your own plugins, we recommend following our h
 You may also find these resources helpful:
 
 * https://blog.nativescript.org/announcing-plugin-workspaces[Introducing plugin workspaces to simplify and streamline maintenance]
-* https://blog.nativescript.org/plugin-workspace-migrate-to-v2[Migrate your plugin workspace in 2 seconds - NativeScript 8 + webpack5 + configuration updates]
+* https://blog.nativescript.org/plugin-workspace-migrate-to-v2[Migrate your plugin workspace in 2 seconds — NativeScript 8 + webpack5 + configuration updates]
 
 === Creating NativeScript Plugins and Enhancing Behavior
 

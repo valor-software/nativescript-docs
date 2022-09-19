@@ -9,7 +9,7 @@ This page serves as a quick reference to understanding how most settings in App_
 
 == Android
 
-On Android, many aspects of the default styling is controlled through various settings within the `App_Resources` folder.
+On Android, many aspects of the default styling are controlled through various settings within the `App_Resources` folder.
 
 Here we are showing the default look of a few elements (no custom styling applied) using the default values provided in `App_Resources`:
 
@@ -212,10 +212,10 @@ image::app-resources/time_picker_clock_mode.png[]
 
 === Enabling force Dark Mode
 
-On API29+ apps can opt-in to a default Dark Mode when the system is set to use Dark Mode.
+On API29+ apps can opt in to a default Dark Mode when the system is set to use Dark Mode.
 This is disabled by default as it can lead to visual issues, since the automatic conversion may not display correctly in all cases.
 
-To opt-in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
+To opt in, change the `android:forceDarkAllowed` value to `true` in `App_Resources/Android/src/main/res/values-v29/styles.xml`:
 
 [,xml]
 ----

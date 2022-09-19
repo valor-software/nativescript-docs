@@ -505,7 +505,7 @@ To access the tapped item, use `event.item`.
 | Scrolls the specified item with index into view with animation.
 
 | `isItemAtIndexVisible(index: number): boolean`
-| Checks if specified item with index is visible.
+| Checks if specified items with index are visible.
 |===
 
 === Native component

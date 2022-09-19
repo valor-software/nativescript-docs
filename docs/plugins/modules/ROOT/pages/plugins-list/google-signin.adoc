@@ -24,7 +24,7 @@ This plugin requires iOS 9.0 or higher.
 First register your application.
 Make sure the file you download in step 1 is named GoogleService-Info.plist.
 Move or copy GoogleService-Info.plist into the App_Resources/iOS/.
-Open Xcode, then right-click on Runner directory and select Add Files to "Runner".
+Open Xcode, then right-click on the Runner directory and select Add Files to the "Runner".
 Select GoogleService-Info.plist from the file manager.
 A dialog will show up and ask you to select the targets, select the Runner target.
 Then add the CFBundleURLTypes attributes below into the App_Resources/iOS/Info.plist file.
@@ -126,7 +126,7 @@ All parameters are optional.
 == signIn()
 
 Prompts a modal to let the user sign in into your application.
-Resolved promise returns an user object.
+Resolved promise returns a user object.
 Rejects with error otherwise.
 
 == signInSilently()
@@ -139,7 +139,7 @@ This method may be used to find out whether some user is currently signed in.
 
 == playServicesAvailable()
 
-Checks if device has Google Play Services installed.
+Checks if a device has Google Play Services installed.
 Always resolves to true on iOS.
 
 Presence of up-to-date Google Play Services is required to show the sign in modal, but it is not required to perform calls to configure and signInSilently.
@@ -167,7 +167,7 @@ Note that using accessToken for identity assertion on your backend server is htt
 
 == getCurrentUser()
 
-This method resolves with null or user object.
+This method resolves with a null or user object.
 
 == License
 

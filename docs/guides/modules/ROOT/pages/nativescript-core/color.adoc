@@ -1,7 +1,7 @@
 = Color
 
 The Color class allows you to create custom colors that you can use to style the UI.
-You can create a color object from different types of inputs types, as shown below, that stores all color components (alpha (opacity), red, green, blue) in a [0..255] range:
+You can create a color object from different types of input types, as shown below, that stores all color components (alpha (opacity), red, green, blue) in a [0..255] range:
 
 * `Color(knownColor: string)`
 * `Color(hex: string)`
@@ -15,7 +15,7 @@ You can create a color object from different types of inputs types, as shown bel
 
 | `a`
 | `string`
-| Gets the Alpha component (in the [0, 255] range) of thecolor.
+| Gets the Alpha component (in the [0, 255] range) of the color.
 This is a read-only property.
 
 | `r`
@@ -46,8 +46,7 @@ This is a read-only property
 | `name`
 | `string`
 | Gets the known name of this instance.
-Defined only if it has been constructed from a known color name - e.g.
-"red".
+Defined only if it has been constructed from a known color name - e.g."red".
 This is a read-only property.
 
 | `android`

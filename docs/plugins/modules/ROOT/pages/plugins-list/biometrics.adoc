@@ -54,7 +54,7 @@ class MyClass {
 === `verifyBiometric`
 
 Note that on the iOS simulator use Features\->Face ID menu items to enroll a face and signal successs/failure to recognize a face.
-verifyBiometric will fail on IOS simulator unless pinfallBack is used.
+verifyBiometric will fail on IOS simulator unless `pinfallBack` is used.
 
 [,typescript]
 ----
@@ -86,7 +86,7 @@ You can provide this value (the reason for using Face ID) by adding something li
 
 == Security{pp} (iOS)
 
-Since iOS9 it's possible to check whether or not the list of enrolled fingerprints changed since the last time you checked it.
+Since iOS 9, it's possible to check whether or not the list of enrolled fingerprints changed since the last time you checked it.
 It's recommended you add this check so you can counter hacker attacks to your app.
 See https://www.linkedin.com/pulse/fingerprint-trojan-per-thorsheim/[this article] for more details.
 
@@ -114,13 +114,13 @@ biometricAuth.available().then(avail => {
 === Normal operation
 
 If you do not pass any of the options (pinFallback / keyName) to the verify method then the plugin will create a secure key, call the authorization methods to trigger face/fingerprint and then attempt to use the key to encrypt some text.
-The idea being that the key will not be accessable unless the user has successfully authenticated.
+The idea being that the key will not be accessible unless the user has successfully authenticated.
 
-This however is not foolproof and the most secure method is to pass the `secret` and ``Keyname``options to encrypt/decrypt text.
+This however is not foolproof, and the most secure method is to pass the `secret` and ``Keyname``options to encrypt/decrypt text.
 
 === Encrypting/Decrypting with Authentication
 
-The best practice is to use the options to encrypt some secret that is validated independently, this is more secure because the key used for decryption cannot be accessed without proper authentication, therefor your secret cannot be decrypted properly.
+The best practice is to use the options to encrypt some secret that is validated independently. This is more secure because the key used for decryption cannot be accessed without proper authentication, therefor your secret cannot be decrypted properly.
 
 . Encrypt your secret
 +
@@ -175,12 +175,11 @@ biometricAuth
 
 === Fallback to Pin
 
-Allowing the user to fallback on lock screen credentials ( pin etc.
-) disables cryptography.
+Allowing the user to fallback on lock screen credentials (pin etc.) disables cryptography.
 
-Also on android for phones running API < 30 only fingerprint is used, because the old fingerprint api is called.
+Also, on Android for phones running API < 30 only fingerprint is used, because the old fingerprint API is called.
 
-e.g.
+Example:
 
 [,ts]
 ----

@@ -1,8 +1,6 @@
 = ActivityIndicator
 
-== ActivityIndicator
-
-=== Activity-Indicator
+== Activity-Indicator
 
 `<ActivityIndicator>` is a UI component that shows a progress indicator signaling to the user of an operation running in the background.
 
@@ -120,7 +118,7 @@ export default {
 =====
 ====
 
-=== Properties
+== Properties
 
 |===
 | Name | Type | Description
@@ -145,11 +143,11 @@ Valid only when running on iOS.
 |===
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/activityindicator[API Reference]
 |===
 
-==== Events
+== Events
 
 |===
 | Name | Description
@@ -158,7 +156,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/activityindicat
 | Emitted when the `busy` property is changed.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

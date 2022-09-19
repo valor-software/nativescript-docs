@@ -70,7 +70,7 @@ SocialShare.shareText('I love NativeScript!', 'How would you like to share this 
 
 === shareUrl(String url, String text, [optional] String subject)
 
-The `shareUrl()` method excepts a url and a string.
+The `shareUrl()` method excepts an url and a string.
 
 [,js]
 ----
@@ -109,7 +109,7 @@ SocialShare.shareViaFacebook('Home of NativeScript', 'https://www.nativescript.o
 
 * *Android Only NOTE*:
 
-If you are already using the Facebook Share SDK in your project you likely do _not_ have to add the following.
+If you are already using Facebook Share SDK in your project, you likely do _not_ have to add the following.
 
 If you are not using the sdk explicitly in your project yet, add to your `app.gradle`:
 

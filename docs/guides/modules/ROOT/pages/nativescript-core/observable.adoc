@@ -2,7 +2,7 @@
 
 The `Observable` class is at the foundation of data binding in Nativescript.
 Data binding is the process of connecting application user interface (UI) to a data object (code).
-It enables constant changes propagation by reflecting UI modifications in the code and vice versa.
+It enables constant change propagation by reflecting UI modifications in the code and vice versa.
 In order for the changes propagation to occur, the property in the code has to raise a `propertyChange` event to notify the UI component about the changes.
 The `Observable` class is what raises the `propertyChange` events.
 Read more on data binding xref:architecture-concepts/data-binding.adoc[in this article].
@@ -49,7 +49,7 @@ const newViewModel: Observable = fromObject({ myColor: 'Lightgray' })
 === Creating Observable with fromObjectRecursive() Method
 
 The `fromObjectRecursive()` method creates an Observable instance and sets its properties according to the supplied JavaScript object.
-This function will create new Observable for each nested object (except arrays and functions) from supplied JavaScript object.
+This function will create new Observables for each nested object (except arrays and functions) from a supplied JavaScript object.
 
 [tabs]
 ====
@@ -270,7 +270,7 @@ All the static methods above have their `Observable` instance counterparts.
 | `fromObjectRecursive(obj: any)`
 | `Observable`
 | Creates an Observable instance and sets its properties according to the supplied JavaScript object.
-This function will create new Observable for each nested object (except arrays and functions) from supplied JavaScript object.
+This function will create new Observable for each nested object (except arrays and functions) from a supplied JavaScript object.
 + `obj`: A JavaScript object used to initialize Nativescript `Observable` instance.
 |===
 

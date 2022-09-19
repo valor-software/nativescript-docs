@@ -24,7 +24,7 @@ To get started, you need to define some parameters over on the https://console.f
 Before fetching the parameters from Firebase, it is first important to set some default values.
 Default values help ensure that your application code runs as expected in scenarios where the device has not yet retrieved the values.
 
-An example of this is having no network or you have not yet fetched them within your own code.
+An example of this is having no network, or you have not yet fetched them within your own code.
 
 Setting default values helps to ensure that both the local device & Firebase servers are both in sync.
 Call the setDefaults method early on in your application:
@@ -116,7 +116,7 @@ Object.entries(parameters).forEach(item => {
 === Value source
 
 When a value is read, it contains source data about the parameter.
-As explained above, if a value is read before it has been fetched & activated then the value will fallback to the default value set.
+As explained above, if a value is read before it has been fetched & activated then the value will fall back to the default value set.
 If you need to validate whether the value returned from the module was local or remote, the getSource() method can be conditionally checked:
 
 [,ts]
@@ -139,7 +139,7 @@ if (awesomeNewFeature.getSource() === 'remote') {
 Although Remote Config is a data-store, it is not designed for frequent reads - Firebase heavily caches the parameters (default is 12 hours).
 By design, this prevents the values being able to change frequently and potentially cause users confusion.
 
-You can however specify your own cache length by specifically calling the fetch method with the number of seconds to cache the values for:
+You can, however, specify your own cache length by specifically calling the fetch method with the number of seconds to cache the values for:
 
 [,ts]
 ----

@@ -4,19 +4,18 @@
 
 For the Objective-C/Swift symbols to be accessible by the Nativescript runtimes the following criteria should be met:
 
-*1)* They need to be compiled and linked
-
-*2)* Metadata needs to be generated for them
+. They need to be compiled and linked
+. Metadata need to be generated for them
 
 The first task is done by the NativeScript CLI by adding the source files to the generated _.xcodeproj_.
-For the second one the Metadata Generator needs to find a https://clang.llvm.org/docs/Modules.html[module.modulemap] of the compiled modules.
+For the second one, the Metadata Generator needs to find a https://clang.llvm.org/docs/Modules.html[module.modulemap] of the compiled modules.
 
 [WARNING]
 ====
 For _.swift_ files _module.modulemap_ is not required.
 ====
 
-In order to satisfy the above constraints the developer has to:
+In order to satisfy the above constraints, the developer has to:
 
 *1)* Place the source files in _App_Resources/iOS/src/_
 
@@ -28,7 +27,7 @@ Note Swift classes need to be accessible from the Objective-C runtime in order t
 This can be done by using the _@objc_ attribute or by inheriting _NSObject_.
 ====
 
-For a detailed walkthrough on how to use native iOS source code in NativeScript https://blog.nativescript.org/adding-objective-c-code-to-a-nativescript-app/[here].
+For a detailed walkthrough on how to use a native iOS source code in NativeScript https://blog.nativescript.org/adding-objective-c-code-to-a-nativescript-app/[here].
 
 === Objective C Example
 
@@ -108,7 +107,7 @@ function generateNativeIOSHMAC() {
 }
 ----
 
-. Build your NativeScript application by running the following and you should see the base64encryptedKey print in your terminal.
+. Build your NativeScript application by running the following, and you should see the base64encryptedKey print in your terminal.
 +
 [,cli]
 ----

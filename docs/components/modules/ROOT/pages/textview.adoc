@@ -1,7 +1,5 @@
 = TextView
 
-== TextView
-
 `<TextView>` is a UI component that shows an editable or a read-only multi-line text container.
 You can use it to let users type large text in your app or to show longer, multi-line text on the screen.
 
@@ -94,6 +92,7 @@ export function onTextViewLoaded(argsloaded) {
 }
 ----
 =====
+======
 
 Vue::
 +
@@ -108,7 +107,7 @@ Vue::
 ----
 <TextView v-model="textViewValue" />
 ----
-
++
 Svelte::
 +
 [,html]
@@ -131,7 +130,7 @@ React::
 ----
 ====
 
-=== Displaying multi-style text
+== Displaying multi-style text
 
 To apply multiple styles to the text in your `<TextView>`, you can use `<FormattedString>`
 
@@ -252,7 +251,7 @@ Currently supported only on iOS.
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/textview[API Reference]
 |===
 

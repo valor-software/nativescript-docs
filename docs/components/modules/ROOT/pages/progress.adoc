@@ -1,7 +1,5 @@
 = Progress
 
-== Progress
-
 `<Progress>` is a UI component that shows a bar to indicate the progress of a task.
 
 See also: <<activity-indicator,ActivityIndicator>>.

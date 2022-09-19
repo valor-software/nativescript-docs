@@ -4,7 +4,7 @@
 
 The `XmlParser` class presents a simple way to parse data from an XML content.
 One scenario where you could use this class is when a service returns an XML response.
-With this class you can go through the XML code and search for specific attribute and its value or to take the data(e.g.
+With this class you can go through the XML code and search for a specific attribute and its value or to take the data(e.g.
 text value) locked between the XML elements.
 
 The `XmlParser` constructor function has the following shape: `+XmlParser(onEvent: (event: ParserEvent) => void, onError?: (error: Error, position: Position) => void, processNamespaces?: boolean, angularSyntax?: boolean)+`
@@ -84,7 +84,7 @@ The first character is at index 1.
 
 === ParserEvent data
 
-The `ParserEvent` object provides information about a parser event and it has the following properties:
+The `ParserEvent` object provides information about a parser event, and it has the following properties:
 
 |===
 | Name | Type | Description
@@ -96,7 +96,7 @@ This is one of the ParserEventType static members.
 
 | `position`
 | `Position`
-| Get the position in the xml string where the event was generated.
+| Get the position in the XML string where the event was generated.
 
 | `prefix`
 | `string`

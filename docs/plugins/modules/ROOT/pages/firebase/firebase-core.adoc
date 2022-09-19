@@ -12,11 +12,11 @@ npm install @nativescript/firebase-core
 
 === Android
 
-Ensure `google-services.json` file located in `App_Resources/Android/src`.
+Ensure `google-services.json` file is located in `App_Resources/Android/src`.
 
 === iOS
 
-Ensure `GoogleService-Info.plist` file located in `App_Resources/iOS`.
+Ensure `GoogleService-Info.plist` file is located in `App_Resources/iOS`.
 
 === Initialize Default App
 

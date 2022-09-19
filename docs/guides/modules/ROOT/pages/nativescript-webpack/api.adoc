@@ -13,7 +13,7 @@ This is generally handled by webpack.
 
 _Optional_: specify base config - defaults to auto-discovery.
 
-Passing `false` will opt-out from using a base config, however this is generally never recommended.
+Passing `false` will opt out from using a base config; however, this is generally never recommended.
 
 === webpack.chainWebpack(chainFn, options?)
 

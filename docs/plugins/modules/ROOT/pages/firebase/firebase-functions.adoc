@@ -22,14 +22,15 @@ For more information on use cases, view the https://firebase.google.com/docs/fun
 
 == Usage
 
-The Cloud Functions module provides the functionality to directly trigger deployed HTTPS callable functions, without worrying about security or implementing a HTTP request library.
+The Cloud Functions module provides the functionality to directly trigger deployed HTTPS callable functions, without worrying about security or implementing an HTTP request library.
 
 Functions deployed to Firebase have unique names, allowing you to easily identify which endpoint you wish to send a request to.
 To learn more about deploying Functions to Firebase, view the Writing & Deploying Functions documentation.
 
 == Calling an endpoint
 
-Assuming we have a deployed a callable endpoint named listProducts, to call the endpoint the library exposes a httpsCallable method.
+Assuming we have a deployed a callable endpoint named listProducts, to call the endpoint, the library exposes a `httpsCallable` method.
+
 For example:
 
 [,ts]
@@ -101,7 +102,7 @@ firebase()
 
 == Using an emulator
 
-Whilst developing your application with Cloud Functions, it is possible to run the functions inside of a local emulator.
+Whilst developing your application with Cloud Functions, it is possible to run the functions inside a local emulator.
 
 To call the emulated functions, call the useEmulator method exposed by the library:
 

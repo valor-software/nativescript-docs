@@ -23,7 +23,7 @@ Refer to `demo-angular/app/app.component.ts`.
 
 In addition to the plugin usage, both apps are webpack configured.
 
-In short here are the steps:
+In short, here are the steps:
 
 === Import the plugin
 
@@ -97,9 +97,9 @@ To be sure to have permissions add the following lines in AndroidManifest.xml
 
 [NOTE]
 ====
-Using the plugin on iOS requres photo library permission.
-Your app might be rejected from the Apple App Store if you do not provide a description about why you need this permission.
-The default message "Requires access to photo library." might not be enough for the App Store reviewers.
+Using the plugin on iOS requires photo library permission.
+Your app might be rejected from the Apple App Store if you do not provide a description of why you need this permission.
+The default message "Requires access to a photo library." might not be enough for the App Store reviewers.
 You can customize it by editing the `app/App_Resources/iOS/Info.plist` file in your app and adding the following key:
 ====
 
@@ -113,7 +113,7 @@ You can customize it by editing the `app/App_Resources/iOS/Info.plist` file in y
 
 === Methods
 
-* create(options) - creates instance of the imagepicker.
+* create(options) — creates an instance of the image-picker.
 Possible options are:
 
 |===
@@ -169,8 +169,8 @@ Possible values are `single` for single selection and `multiple` for multiple se
 The *hostView* parameter can be set to the view that hosts the image picker.
 Applicable in iOS only, intended to be used when open picker from a modal page.
 
-* authorize() - request the required permissions.
-* present() - show the albums to present the user the ability to select images.
+* authorize() — request the required permissions.
+* present() — show the albums to present the user the ability to select images.
 Returns an array of the selected images.
 
 == License

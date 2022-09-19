@@ -19,7 +19,7 @@ Performance Monitoring helps you to understand where and when the performance of
 
 Performance Monitoring package automatically traces events and metrics which are sent to Firebase.
 For more information on the automatic traces, please see the Firebase Performance Monitoring https://firebase.google.com/docs/perf-mon/auto_duration-traces-metrics_ios-android[documentation].
-The package also allows you to performance monitor custom aspects to your application like network requests & task specific app code.
+The package also allows you to performance monitor custom aspects to your application like network requests & task-specific app code.
 All performance metrics are available on your Firebase https://console.firebase.google.com/u/0/[console] performance tab.
 
 == Usage

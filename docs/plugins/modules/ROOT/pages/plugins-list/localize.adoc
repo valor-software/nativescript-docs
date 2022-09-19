@@ -3,13 +3,13 @@
 == @nativescript/localize
 
 This is a plugin for NativeScript that implements internationalization (i18n) using the native capabilities of each platform.
-It is inspired from https://github.com/rborn/nativescript-i18n[nativescript-i18n]
+It is inspired by https://github.com/rborn/nativescript-i18n[nativescript-i18n]
 
 == Credits
 
 A lot of thanks goes out to https://github.com/lfabreges[Ludovic Fabrèges (@lfabreges)] for developing and maintaining this plugin in the past.
 When he had to abandon it due to shifted priorities, he was kind enough to https://github.com/EddyVerbruggen/nativescript-localize/issues/73[move the repo to me].
-Eddy then joined NativeScript's Technical Steering Committe and to vastly improve plugin maintenance https://github.com/EddyVerbruggen/nativescript-localize/issues/99[it was scoped and moved here]!
+Eddy then joined NativeScript's Technical Steering Committee and to vastly improve plugin maintenance, https://github.com/EddyVerbruggen/nativescript-localize/issues/99[it was scoped and moved here]!
 
 == Installation
 
@@ -30,7 +30,7 @@ src
       | es.js
 ----
 
-You need to <<how-to-set-the-default-language,set the default langage>> and make sure it contains the <<how-to-localize-the-application-name,application name>> to avoid any error.
+You need to <<How to set the default language?,set the default language>> and make sure it contains the <<How to localize the application name?,application name>> to avoid any error.
 
 === Angular
 
@@ -161,7 +161,7 @@ export const i18n = {
 ----
 
 == Frequently asked questions
-
+[#default-language]
 === How to set the default language?
 
 Add the `.default` extension to the default language file to set it as the fallback language:
@@ -194,9 +194,9 @@ Keys starting with `ios.info.plist.` are used to localize iOS properties:
 
 === How to change the language dynamically at runtime?
 
-This plugin uses the native capabilities of each platform, language selection is therefore made by the OS.
+This plugin uses the native capabilities of each platform, the OS therefore makes language selection.
 
-==== On iOS you can programmatically override this language since plugin version 4.2.0 by doing this:
+==== On iOS, you can programmatically override this language since plugin version 4.2.0 by doing this:
 
 [,typescript]
 ----
@@ -204,7 +204,7 @@ import { overrideLocale } from '@nativescript/localize'
 const localeOverriddenSuccessfully = overrideLocale('en-GB') // or "nl-NL", etc (or even just the part before the hyphen)
 ----
 
-==== On Android you can programatically override this language since plugin version 4.2.1 by doing this:
+==== On Android you can programmatically override this language since plugin version 4.2.1 by doing this:
 
 In your `app.ts` / `main.ts` / `app.js`
 
@@ -258,7 +258,7 @@ alert({
 
 [IMPORTANT]
 ====
-In case you are using https://docs.nativescript.org/tooling/publishing/android-app-bundle[Android app bundle] to release your android app, add this to `App_Resources/Android/app.gradle` to make sure all lanugages are bundled in the split apks
+In case you are using https://docs.nativescript.org/tooling/publishing/android-app-bundle[an Android app bundle] to release your android app, add this to `App_Resources/Android/app.gradle` to make sure all languages are bundled in the split apks
 ====
 
 [,groovy]
@@ -277,7 +277,7 @@ android {
 
 [TIP]
 ====
-You can get the default language on user's phone by using this
+You can get the default language on the user's phone by using this
 ====
 
 [,ts]
@@ -289,7 +289,7 @@ console.log("user's language is", Device.language.split('-')[0])
 
 [TIP]
 ====
-overrideLocale method stores the language in a special key in app-settings, you can access it like this
+the `overrideLocale` method stores the language in a special key in app-settings, you can access it like this
 ====
 
 [,ts]
@@ -319,7 +319,7 @@ constructor(
 
 For unknown reasons, the very first creation of it resets the application locale to the device default.
 Therefore, you have to set the desired locale back.
-This is native bug and the workaround is
+This is a native bug and the workaround is
 
 [,xml]
 ----

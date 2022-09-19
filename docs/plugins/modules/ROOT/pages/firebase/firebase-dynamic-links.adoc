@@ -9,7 +9,7 @@ npm install @nativescript/firebase-dynamic-links
 
 == What does it do
 
-Dynamic Links are links that work the way you want, on either iOS or Android and whether or not your app is already installed.
+Dynamic Links are links that work the way you want, on either iOS or Android and whether your app is already installed.
 
 video::LvY1JMcrPF8[youtube, poster=https://img.youtube.com/vi/LvY1JMcrPF8/hqdefault.jpg]
 

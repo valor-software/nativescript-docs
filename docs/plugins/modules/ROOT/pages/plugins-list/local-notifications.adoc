@@ -48,7 +48,7 @@ LocalNotifications.hasPermission()
 
 === Since plugin version 6.0.0
 
-Both iOS and Android have to register their delegates and lifecycle callbacks respectively.
+Both iOS and Android have to register their delegates and lifecycle callbacks, respectively.
 Hence, if your app does not load this plugin at startup you will have to add the following to your app's `app.ts`/`main.ts` file:
 
 [,typescript]
@@ -63,9 +63,9 @@ import '@nativescript/local-notifications'
 === schedule
 
 On iOS you need to ask permission to schedule a notification.
-You can have the `schedule` funtion do that for you automatically (the notification will be scheduled in case the user granted permission), or you can manually invoke `requestPermission` if that's your thing.
+You can have the `schedule` function do that for you automatically (the notification will be scheduled in case the user granted permission), or you can manually invoke `requestPermission` if that's your thing.
 
-You can pass several options to this function, everything is optional:
+You can pass several options for this function. Everything is optional:
 
 |===
 | option | description
@@ -81,12 +81,12 @@ Default not set.
 | `subtitle`
 | Shown below the title on iOS, and next to the App name on Android.
 Default not set.
-All android and iOS >= 10 only.
+All Android and iOS >= 10 only.
 
 | `body`
 | The text below the title.
 If not provided, the subtitle or title (in this order or priority) will be swapped for it on iOS, as iOS won't display notifications without a body.
-Default not set on Android, `' '` on iOS, as otherwise the notification won't show up at all.
+Default not set on Android, `' '` on iOS, as otherwise, the notification won't show up at all.
 
 | `color`
 | Custom color for the notification icon and title that will be applied when the notification center is expanded.
@@ -112,7 +112,7 @@ Default empty
 Default not set, so `body` is used.
 
 | `at`
-| A JavaScript Date object indicating when the notification should be shown.
+| A JavaScript Date object indicates when the notification should be shown.
 Default not set (the notification will be shown immediately).
 
 | `badge`
@@ -133,7 +133,7 @@ Set this to `null` to suppress sound.
 | On Android you can set a custom icon in the system tray.
 Pass in `res://filename` (without the extension) which lives in `App_Resouces/Android/drawable` folders.
 If not passed, we'll look there for a file named `ic_stat_notify.png`.
-By default the app icon is used.
+By default, the app icon is used.
 Android < Lollipop (21) only (see `silhouetteIcon` below).
 
 | `silhouetteIcon`
@@ -153,7 +153,7 @@ Default not set.
 | `ongoing`
 | Default is (`false`).
 Set whether this is an `ongoing` notification.
-Ongoing notifications cannot be dismissed by the user, so your application must take care of canceling them.
+The user cannot dismiss ongoing notifications, so your application must take care of canceling them.
 (*Android Only*)
 
 | `channel`
@@ -164,7 +164,7 @@ Set the channel name for Android API >= 26, which is shown when the user longpre
 | `forceShowWhenInForeground`
 | Default is `false`.
 Set to `true` to always show the notification.
-Note that on iOS < 10 this is ignored (the notification is not shown), and on newer Androids it's currently ignored as well (the notification always shows, per platform default).
+Note that on iOS < 10 this is ignored, (the notification is not shown), and on newer Androids it's currently ignored as well (the notification always shows, per platform default).
 
 | `priority`
 | Default is `0`.
@@ -336,7 +336,7 @@ Android will simply return true.
 
 If the `requestPermission` or `schedule` function previously ran the user has already been prompted to grant permission.
 If the user granted permission this function returns `true`, but if he denied permission this function will return `false`, since an iOS can only request permission once.
-In which case the user needs to go to the iOS settings app and manually enable permissions for your app.
+In which case, the user needs to go to the iOS settings app and manually enable permissions for your app.
 
 [,js]
 ----
@@ -350,7 +350,7 @@ LocalNotifications.requestPermission().then(granted => {
 On Android you don't need permission, but on iOS you do.
 Android will simply return true.
 
-If the `requestPermission` or `schedule` functions previously ran you may want to check whether or not the user granted permission:
+If the `requestPermission` or `schedule` functions previously ran you may want to check whether the user granted permission:
 
 [,js]
 ----

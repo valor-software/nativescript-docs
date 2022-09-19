@@ -15,12 +15,12 @@ Easily add https://github.com/wix/Detox[Detox] end-to-end testing to your Native
 
 == Table of Contents
 
-. <<installation,Installation>>
-. <<global-setup,Global Setup>>
-. <<project-setup,Project Setup>>
-. <<usage,Usage>>
-. <<running-tests,Running Tests>>
-. <<troubleshooting,Troubleshooting>>
+. <<Installation,Installation>>
+. <<Global Setup,Global Setup>>
+. <<Project Setup,Project Setup>>
+. <<Usage,Usage>>
+. <<Running Tests,Running Tests>>
+. <<Troubleshooting,Troubleshooting>>
 
 == Installation
 
@@ -31,7 +31,7 @@ ns plugin add @nativescript/detox
 
 == Global Setup
 
-The full setup requirements can be found https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md[here] but the minimal setup steps are as follows:
+The full setup requirements can be found https://github.com/wix/Detox/blob/master/docs/Introduction.GettingStarted.md[here,] but the minimal setup steps are as follows:
 
 === Install Detox command line tools (`detox-cli`)
 
@@ -71,7 +71,7 @@ npm install jest jest-cli jest-circus --save-dev --no-package-lock
 detox init -r jest
 ----
 
-If things go well, you should to have this set up:
+If things go well, you should have this setup:
 
 * An `e2e/` folder in your project root
 * An `e2e/config.json` file;
@@ -145,16 +145,15 @@ Here is a full example of a Detox configuration:
 }
 ----
 
-:::tip Note
-
+[NOTE]
+====
 A default NativeScript Android project uses 17 as the minimum SDK, but Detox requires >=21.
 Remove or modify the `minSdkVersion` in your `App_Resources/Android/app.gradle`.
-
-:::
+====
 
 === Allow Local Networking (*iOS Only*)
 
-Dependending on your setup iOS may not be able to communicate with Detox off the bat.
+Depending on your setup, iOS may not be able to communicate with Detox off the bat.
 In that case, you need to add the following to your `Info.plist` file to allow for local networking requests.
 
 [,xml]
@@ -169,7 +168,7 @@ In that case, you need to add the following to your `Info.plist` file to allow f
 == Usage
 
 Read through https://github.com/wix/Detox/blob/master/docs/Introduction.WritingFirstTest.md[this tutorial] written by Detox about writing your first test.
-Nearly all of the things specified towards React Native apps also apply to NativeScript apps.
+Nearly all the things specified towards React Native apps also apply to NativeScript apps.
 
 Get started by opening the default test scenario in `e2e/firstTest.e2e.js`.
 
@@ -186,7 +185,7 @@ describe('Example', () => {
 })
 ----
 
-This example creates a testing scenario called `Example` and has a single test inside of it called `should have welcome screen`.
+This example creates a testing scenario called `Example` and has a single test inside it called `should have welcome screen`.
 
 === Matchers
 
@@ -225,19 +224,22 @@ detox build -c ios|android
 
 === Testing
 
-Run your tests with the folling command:
+Run your tests with the following command:
 
 [,bash]
 ----
 detox test -c ios|android
 ----
 
-*NOTE:* If using an Android emulator, Detox will disable animations when the tests are ran.
+[NOTE]
+====
+If using an Android emulator, Detox will disable animations when the tests are run.
 Animations will remain disabled after they are finished.
 This can be very annoying when you are actively developing.
 You can re-enable animations by running this helper script from your project's directory `./node_modules/.bin/enable-animations`.
+====
 
-To make this even easier I would suggest adding these scripts to your `package.json`.
+To make this even easier, I would suggest adding these scripts to your `package.json`.
 
 [,json]
 ----
@@ -251,7 +253,7 @@ To make this even easier I would suggest adding these scripts to your `package.j
 }
 ----
 
-Now to build and run tests you would run:
+Now, to build and run tests, you would run:
 
 Android:
 

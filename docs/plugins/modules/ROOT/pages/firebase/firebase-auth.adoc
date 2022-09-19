@@ -20,7 +20,7 @@ video::8sGY55yxicA[youtube, poster=https://img.youtube.com/vi/8sGY55yxicA/hqdefa
 
 Before using Firebase Auth, you must first have ensured you have initialized Firebase.
 
-To create a new Firebase Auth instance, call the auth method on the firebase instance as follow:
+To create a new Firebase Auth instance, call the auth method on the firebase instance as follows:
 
 [,ts]
 ----
@@ -31,7 +31,7 @@ const auth = firebase().auth()
 ----
 
 By default, this allows you to interact with Firebase Auth using the default Firebase App used whilst installing Firebase on your platform.
-If however you'd like to use a secondary Firebase App, pass the secondary app instance when calling the auth method:
+If, however, you'd like to use a secondary Firebase App, pass the secondary app instance when calling the auth method:
 
 [,ts]
 ----
@@ -142,16 +142,16 @@ firebase().auth().signOut()
 * <<Facebook,Facebook Sign-In.>>
 * <<Twitter,Twitter Sign-In.>>
 * <<Google,Google Sign-In.>>
-* <<Phone,Phone Number Sign-In.>>
+* <<Phone Authentication,Phone Number Sign-In.>>
 
 ==== Apple
 
 Apple announced that any applications using 3rd party login services (such as Facebook, Twitter, Google etc) must also have an Apple Sign-In method.
 Apple Sign-In is not required for Android devices.
 
-Before you begin https://firebase.google.com/docs/auth/ios/apple#configure-sign-in-with-apple[configure Sign In with Apple] and https://firebase.google.com/docs/auth/ios/apple#enable-apple-as-a-sign-in-provider[enable Apple as a sign-in provider].
+Before you begin, https://firebase.google.com/docs/auth/ios/apple#configure-sign-in-with-apple[configure Sign In with Apple] and https://firebase.google.com/docs/auth/ios/apple#enable-apple-as-a-sign-in-provider[enable Apple as a sign-in provider].
 
-Next, ensure that your app have the "Sign in with Apple" capability.
+Next, ensure that your app has the "Sign in with Apple" capability.
 
 [,ts]
 ----
@@ -175,7 +175,7 @@ signIn({
 
 ==== Facebook
 
-Before getting started setup your https://developers.facebook.com/apps/[Facebook Developer App] and follow the setup process to enable Facebook Login.
+Before getting started, set up your https://developers.facebook.com/apps/[Facebook Developer App] and follow the setup process to enable Facebook Login.
 
 Ensure the "Facebook" sign-in provider is enabled on the https://console.firebase.google.com/u/0/project/_/authentication/providers[Firebase Console].
 with the Facebook App ID and Secret set.
@@ -234,7 +234,7 @@ TwitterSignIn.logIn().then(data => {
 
 ==== GitHub
 
-Ensure that you have setup an OAuth App from your GitHub Developer Settings and that the "GitHub" sign-in provider is enabled on the Firebase Console with the Client ID and Secret are set, with the callback URL set in the GitHub app.
+Ensure that you have set up an OAuth App from your GitHub Developer Settings and that the "GitHub" sign-in provider is enabled on the Firebase Console with the Client ID and Secret are set, with the callback URL set in the GitHub app.
 
 A 3rd party library is required to both install the GitHub SDK and trigger the authentication flow.
 
@@ -249,7 +249,7 @@ firebase().auth().signInWithCredential(githubAuthCredential)
 
 ==== Google
 
-Most configuration is already setup when using Google Sign-In with Firebase, however you need to ensure your machine's SHA1 key has been configured for use with Android.
+Most configuration is already setup when using Google Sign-In with Firebase; however, you need to ensure your machine's SHA1 key has been configured for use with Android.
 You can see how to generate the key on the https://developers.google.com/android/guides/client-auth[Authenticating Your Client documentation].
 
 [,ts]
@@ -271,7 +271,7 @@ GoogleSignin.signIn().then(user => {
 
 Phone authentication allows users to sign in to Firebase using their phone as the authenticator.
 An SMS message is sent to the user (using the provided phone number) containing a unique code.
-Once the code has been authorized, the user is able to sign into Firebase.
+Once the code has been authorized, the user is able to sign in to Firebase.
 
 [NOTE]
 ====
@@ -301,7 +301,7 @@ Phone number sign-in is only available for use on real devices and the web. To t
 
 ==== verifyPhoneNumber
 
-The user's phone number must be first verified and then the user can either sign-in or link their account with a PhoneAuthCredential.
+The user's phone number must be first verified, and then the user can either sign in or link their account with a PhoneAuthCredential.
 
 [,ts]
 ----

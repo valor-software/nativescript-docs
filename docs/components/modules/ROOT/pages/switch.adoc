@@ -1,14 +1,12 @@
 = Switch
 
-== Switch
-
 `<Switch>` is a UI component that lets users toggle between two states.
 
 The default state is `false` or OFF.
 
 '''
 
-=== Example: Simple Switch
+== Example: Simple Switch
 
 [tabs]
 ====
@@ -106,7 +104,7 @@ Svelte::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -118,13 +116,13 @@ Svelte::
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/switch[API Reference]
 |===
 
 // TODO: fix API links
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -133,7 +131,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/switch[API Refe
 | Emitted when the switch selection changes.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

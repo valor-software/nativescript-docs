@@ -58,7 +58,7 @@ brightness.set({
 | Method | Description
 
 | set(options: BrightnessOptions)
-| set screen's brightness to the desired intensity
+| set the screen brightness to the desired intensity
 
 | get
 | returns current screen brightness value as a number between 0 and 100

@@ -9,7 +9,7 @@ npm install @nativescript/firebase-app-check
 
 [NOTE]
 ====
-(iOS) App Check requires you set the minimum iOS Deployment version in ios/Podfile to 11.0 or greater.
+(iOS) App Check requires you to set the minimum iOS Deployment version in ios/Podfile to 11.0 or greater.
 ====
 
 === What does it do
@@ -25,7 +25,7 @@ This App Check module has built-in support for using the following services as a
 
 DeviceCheck on iOS SafetyNet on Android App Check currently works with the following Firebase products:
 
-Realtime Database Cloud Storage Cloud Functions (callable functions) The https://firebase.google.com/docs/app-check[official Firebase App Check documentation] has more information, including about the iOS AppAttest provider, and testing/ CI integration, it is worth a read.
+Realtime Database Cloud Storage Cloud Functions (callable functions.) The https://firebase.google.com/docs/app-check[official Firebase App Check documentation] has more information, including about the iOS AppAttest provider, and testing/ CI integration, it is worth reading.
 
 == Usage
 
@@ -42,7 +42,7 @@ firebase.initializeApp().then(app => {
 })
 ----
 
-The only configuration possible is the token auto refresh.
+The only configuration possible, is the token auto refresh.
 When you call activate, the provider stays the same but the token auto refresh setting will be changed based on the argument provided.
 
 You must call activate prior to calling any firebase back-end services for App Check to function.
@@ -84,7 +84,7 @@ firebase.initializeApp().then(app => {
 
 === Automatic Data Collection
 
-App Check has an "tokenAutoRefreshEnabled" setting.
+App Check has a "tokenAutoRefreshEnabled" setting.
 This may cause App Check to attempt a remote App Check token fetch prior to user consent.
 In certain scenarios, like those that exist in GDPR-compliant apps running for the first time, this may be unwanted.
 

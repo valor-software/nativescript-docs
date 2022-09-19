@@ -485,7 +485,7 @@ folder
 
 === Getting Folder Contents
 
-Getting all folder entities in an array may be slow with large number of files.
+Getting all folder entities in an array may be slow with a large number of files.
 Enumerating the folder entities would iterate the files one by one without blocking the UI.
 
 [tabs]
@@ -770,7 +770,7 @@ This is a read-only property.
 
 | `write(newName: string)`
 | `Promise<void>`
-| Writes the provided binary content,asynchronously, to the file.
+| Writes the provided binary content, asynchronously, to the file.
 
 | `writeText(encoding?: string)`
 | `Promise<string>`

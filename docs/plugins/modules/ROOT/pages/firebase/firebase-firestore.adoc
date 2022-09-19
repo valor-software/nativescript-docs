@@ -10,7 +10,7 @@ npm install @nativescript/firebase-firestore
 == What does it do?
 
 Firestore is a flexible, scalable NoSQL cloud database to store and sync data.
-It keeps your data in sync across client apps through realtime listeners and offers offline support so you can build responsive apps that work regardless of network latency or Internet connectivity.
+It keeps your data in sync across client apps through realtime listeners and offers offline support, so you can build responsive apps that work regardless of network latency or Internet connectivity.
 
 video::QcsAb2RR52c[youtube, poster=https://img.youtube.com/vi/QcsAb2RR52c/hqdefault.jpg]
 
@@ -28,7 +28,7 @@ const firestore = firebase().firestore()
 ----
 
 By default, this allows you to interact with Firestore using the default Firebase App used whilst installing Firebase on your platform.
-If however you'd like to use Firestore with a secondary Firebase App, pass the secondary app instance when calling the firestore method:
+If, however, you'd like to use Firestore with a secondary Firebase App, pass the secondary app instance when calling the firestore method:
 
 [,js]
 ----
@@ -49,7 +49,7 @@ Documents can also contain nested collections.
 For example, our users would each have their own "document" stored inside the "Users" collection.
 The collection method allows us to reference a collection within our code.
 
-In the below example, we can reference the collection users, and create a new user document:
+In the below example, we can reference the collection users and create a new user document:
 
 [,js]
 ----
@@ -74,7 +74,7 @@ This can be a one-time read, or provided by realtime updates when the data withi
 ==== One-time Read
 
 To read a collection or document once, call the Query.get or DocumentReference.get methods.
-In the below example a FutureBuilder is used to help manage the state of the request:
+In the below example, a FutureBuilder is used to help manage the state of the request:
 
 [,js]
 ----
@@ -98,7 +98,7 @@ users
 
 === Realtime changes
 
-To setup an active listener to react to any changes to the query, call the onSnapshot method with an event handler callback.
+To set up an active listener to react to any changes to the query, call the onSnapshot method with an event handler callback.
 For example, to watch the entire "Users" collection for when any documents are changed (removed, added, modified):
 
 [,js]
@@ -140,7 +140,7 @@ Realtime changes via the onSnapshot method can be applied to both collections an
 === Snapshots
 
 Once a query has returned a result, Firestore returns either a QuerySnapshot (for collection queries) or a DocumentSnapshot (for document queries).
-These snapshots provide the ability to view the data, view query metadata (such as whether the data was from local cache), whether the document exists or not and more.
+These snapshots provide the ability to view the data, view query metadata (such as whether the data were from local cache), whether the document exists or not and more.
 
 === QuerySnapshot
 
@@ -169,9 +169,9 @@ Each child document of a QuerySnapshot is a QueryDocumentSnapshot, which allows 
 === DocumentSnapshot
 
 A DocumentSnapshot is returned from a query to a specific document, or as part of the documents returned via a QuerySnapshot.
-The snapshot provides the ability to view a documents data, metadata and whether a document actually exists.
+The snapshot provides the ability to view a documents' data, metadata and whether a document actually exists.
 
-To view a documents data, call the data method on the snapshot:
+To view document data, call the data method on the snapshot:
 
 [,js]
 ----
@@ -247,7 +247,7 @@ firebase().firestore()
   .then(...);
 ----
 
-To learn more about all of the querying capabilities Cloud Firestore has to offer, view the https://firebase.google.com/docs/firestore/query-data/queries[Firebase documentation].
+To learn more about all the querying capabilities, Cloud Firestore has to offer, view the https://firebase.google.com/docs/firestore/query-data/queries[Firebase documentation].
 
 === Limiting
 
@@ -336,18 +336,18 @@ Cloud Firestore does not support the following types of queries:
 In this case, you should create a separate query for each OR condition and merge the query results in your app.
 * Queries with a != clause.
 In this case, you should split the query into a greater-than query and a less-than query.
-For example, the query clause where("age", '!=', 30) is not supported, however you can get the same result set by combining two queries, one with the clause where("age", '<', 30) and one with the clause where("age", '>', 30)
+For example, the query clause where("age", '!=', 30) is not supported, however, you can get the same result set by combining two queries, one with the clause where("age", '<', 30) and one with the clause where("age", '>', 30)
 
 === Writing Data
 
-The https://firebase.google.com/docs/firestore/manage-data/structure-data[Firebase Documentation] provides some great examples on the best practices to structuring your data.
+The https://firebase.google.com/docs/firestore/manage-data/structure-data[Firebase Documentation] provides some great examples of the best practices to structuring your data.
 It is recommended that you read the guide before building your database.
 
 For more information on what is possible when writing data to Firestore, please refer to this https://firebase.google.com/docs/firestore/manage-data/add-data[documentation]
 
 === Adding Documents
 
-To add a new document to a collection, use the add method on a CollectionReference:
+To add a new document to a collection, use the `add` method on a CollectionReference:
 
 [,js]
 ----
@@ -365,7 +365,7 @@ firebase()
   })
 ----
 
-The add method adds the new document to your collection with a random unique ID.
+The `add` method adds the new document to your collection with a random unique ID.
 If you'd like to specify your own ID, call the set method on a DocumentReference instead:
 
 [,js]
@@ -443,7 +443,7 @@ firebase()
   })
 ----
 
-To store a Blob (Bytes) (for example of a Base64 image string), provide the string to the static fromBase64String method on the class:
+To store a Blob (Bytes) (for example of a Base64 image string), provide the string to the static `fromBase64String` method on the class:
 
 [,js]
 ----
@@ -505,7 +505,7 @@ firebase()
 
 === Removing data
 
-You can delete documents within Cloud Firestore using the delete method on a DocumentReference:
+You can delete documents within Cloud Firestore using the `delete` method on a DocumentReference:
 
 [,js]
 ----
@@ -521,7 +521,7 @@ firebase()
   })
 ----
 
-If you need to remove a specific property with a document, rather than the document itself, you can use the delete method on the FieldValue class:
+If you need to remove a specific property with a document, rather than the document itself, you can use the `delete` method on the FieldValue class:
 
 [,js]
 ----
@@ -535,11 +535,11 @@ firebase().firestore().collection('users').doc('ABC').update({
 
 === Transactions
 
-Transactions are a way to always ensure a write occurs with the latest information available on the server.
+Transactions are a way to always ensure a writing occurs with the latest information available on the server.
 Transactions never partially apply writes & all writes execute at the end of a successful transaction.
 
 Transactions are useful when you want to update a field's value based on its current value, or the value of some other field.
-If you simply want to write multiple documents without using the document's current state, a batch write would be more appropriate.
+If you simply want to write multiple documents without using the document's current state, a batch writing would be more appropriate.
 
 When using transactions, note that:
 
@@ -628,7 +628,7 @@ Firestore provides out of the box support for offline capabilities.
 When reading and writing data, Firestore uses a local database which synchronizes automatically with the server.
 Firestore functionality continues when users are offline, and automatically handles data migration to the server when they regain connectivity.
 
-This functionality is enabled by default, however it can be disabled if you need it to be disabled (e.g.
+This functionality is enabled by default, however, it can be turned off if you need it to be turned off (e.g.
 on apps containing sensitive information).
 The settings() method must be called before any Firestore interaction is performed, otherwise it will only take effect on the next app launch:
 

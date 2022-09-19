@@ -7,7 +7,7 @@
 '''
 
 
-==== Example: Simple List Picker
+=== Example: Simple List Picker
 
 [tabs]
 ====

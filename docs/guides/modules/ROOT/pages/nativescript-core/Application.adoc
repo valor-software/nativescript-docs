@@ -3,7 +3,7 @@
 The Application class provides abstraction over the platform-specific application implementations.
 It lets you manage things such as handling lifecycle events of your application (cross-platform and/or native), sending Broadcasts on Android or adding a Notification observer on IOS.
 
-=== Import
+== Import
 
 [tabs]
 ====
@@ -246,7 +246,7 @@ For more information, please http://developer.android.com/reference/android/cont
 |===
 
 Since this code is Android specific, first check if `isAndroid` is true.
-You the same for any Android-specific code to avoid code for Android to run on iOS and results in the app crashing.
+Use the same for any Android-specific code to avoid code for Android to run on iOS and results in the app crashing.
 
 [tabs]
 ====
@@ -453,7 +453,7 @@ const rootController: UIViewController = iOSApp.rootController
 
 === window
 
-This property gives the key window, the container for your app views and one of its roles is to deliver touch events to the views.
+This property gives the key window, the container for your app views, and one of its roles is to deliver touch events to the views.
 Views are the user interface items such as button, label or scrollview.
 
 |===================================

@@ -501,7 +501,7 @@ Combined with a `row` property, specifies the cell coordinates of the element.
 ====
 Important Try not to nest too many `<StackLayout/>` in your markup.
 If you find yourself nesting a lot of `<StackLayout>` you will likely get better performance by switching to a `<GridLayout>` or `<FlexboxLayout>`.
-See xref:guides:: link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more information.
+See link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more information.
 ====
 
 //TODO: There is no common-pitfalls page.^^^

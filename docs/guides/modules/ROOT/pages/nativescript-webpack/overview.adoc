@@ -1,12 +1,10 @@
 = Webpack
 
-== Webpack
-
 [NOTE]
 ====
-This section is only aplicable to `@nativescript/webpack` version `5.0.0` and above.
+This section is only applicable to `@nativescript/webpack` version `5.0.0` and above.
 If you are using an older version, consider upgrading.
-This is compatible with webpack version 5.x.
+This is compatible with a Webpack version 5.x.
 ====
 
 All NativeScript applications are bundled using webpack.
@@ -29,7 +27,7 @@ module.exports = env => {
 ----
 
 The above config configures most things required to bundle a NativeScript application.
-Internally it's using https://github.com/neutrinojs/webpack-chain[webpack-chain] to generate the final config that is passed to webpack.
+Internally, it's using a https://github.com/neutrinojs/webpack-chain[webpack-chain] to generate the final config that is passed to webpack.
 
-In some cases you may wish to extend the configuration, which is possible using the <<api,API>> for applications, and the <<plugin-api,Plugin API>> for plugins.
-This page contains many examples of common things you might want to change in the <<examples-of-configurations,Examples of configurations section>> - for anything else not mentioned here, refer to the https://github.com/neutrinojs/webpack-chain[webpack-chain documentation].
+In some cases, you may wish to extend the configuration, which is possible using the xref:guides::nativescript-webpack/api.adoc[API] for applications, and the xref:guides::nativescript-webpack/plugin-api.adoc[Plugin API] for plugins.
+This page contains many examples of common things you might want to change in the xref:guides::nativescript-webpack/examples-of-configurations.adoc[Examples of Configurations Section] — for anything else not mentioned here, refer to the https://github.com/neutrinojs/webpack-chain[webpack-chain documentation].

@@ -1,7 +1,5 @@
 = Image
 
-== Image
-
 `<Image>` is a UI component that shows an image from an https://docs.nativescript.org/api-reference/classes/imagesource[ImageSource] or from a URL.
 
 // TODO: fix API links
@@ -13,7 +11,7 @@ Tip When working with images following xref:best-practices::performance.adoc#ima
 
 '''
 
-==== Example: Displaying an image from `App_Resources`
+=== Example: Displaying an image from `App_Resources`
 
 [tabs]
 ====
@@ -49,8 +47,7 @@ React::
 ----
 ====
 
-
-==== Example: Displaying an image relative to the `app` directory
+=== Example: Displaying an image relative to the `app` directory
 
 [tabs]
 ====
@@ -86,7 +83,7 @@ React::
 ----
 ====
 
-==== Example: Displaying an image from a URL
+=== Example: Displaying an image from a URL
 
 [NOTE]
 ====
@@ -144,7 +141,7 @@ React::
 ----
 ====
 
-==== Example: Displaying a `base64`-encoded image
+=== Example: Displaying a `base64`-encoded image
 
 [tabs]
 ====
@@ -180,7 +177,7 @@ React::
 ----
 ====
 
-==== Example: Image with CSS and an icon fonts
+=== Example: Image with CSS and an icon fonts
 
 [tabs]
 ====
@@ -255,7 +252,7 @@ If you use the new font:// icon protocol in \{N} 6.2, make sure you add .decode 
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/image[API Reference]
 |===
 

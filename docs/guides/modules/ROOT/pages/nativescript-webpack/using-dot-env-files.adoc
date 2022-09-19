@@ -11,7 +11,7 @@ The following logic is used when loading environment files:
 * `.env` is loaded by default if found
 * `.env.<name>` is loaded when `--env.env=<name>` is passed to the build/run command and `.env.<name>` exists, otherwise it falls back to loading `.env` (if found)
 
-=== Example .env and .env.prod files
+== Example .env and .env.prod files
 
 [,bash]
 ----
@@ -46,6 +46,6 @@ console.log(process.env.MY_API_SECRET) // supersecrettoken
 ====
 Please note that the way DotEnv works is it's using the webpack <<extending-the-defineplugin-options,DefinePlugin>> internally to define the `process.env.<x>` values, meaning they are essentially statically replaced in the bundled code.
 This is important to keep in mind because destructuring, looping etc over `process` or `process.env` is not possible.
-
+//TODO: fix extending-the-defineplugin-options
 See details about the limitations in the https://github.com/mrsteele/dotenv-webpack#limitations[DotEnv documentation]
 ====

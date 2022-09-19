@@ -1,7 +1,7 @@
 = ActionBar
 
 The ActionBar is NativeScript's abstraction over the Android https://developer.android.com/training/appbar/[ActionBar] and iOS https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/[NavigationBar].
-It represents a toolbar at the top of the activity window, and can have a title, application-level navigation, as well as other custom interactive items.
+It represents a toolbar at the top of the activity window and can have a title, application-level navigation, as well as other custom interactive items.
 
 '''
 
@@ -116,9 +116,9 @@ The `<ActionItem>` components are supporting the platform-specific position and 
 
 * Android sets position via `android.position`:
  ** `actionBar`: Puts the item in the ActionBar.
-Action item can be rendered both as text or icon.
+Action item can be rendered both as a text or icon.
  ** `popup`: Puts the item in the options menu.
-Items will be rendered as text.
+Items will be rendered as a text.
  ** `actionBarIfRoom`: Puts the item in the ActionBar if there is room for it.
 Otherwise, puts it in the options menu.
 * iOS sets position via ios.position:
@@ -323,7 +323,7 @@ Platform specific behavior
 
 *iOS Specific:*
 
-On iOS the default text of the navigation button is the title of the previous page and the back button is used explicitly for navigation.
+On iOS the default text of the navigation button is the title of the previous page, and the back button is used explicitly for navigation.
 It navigates to the previous page and does not allow overriding this behavior.
 If you need to place a custom button on the left side of the `<ActionBar>` (e.g., to show a Drawer button), you can use an `<ActionItem>` with `ios.position="left"`.
 
@@ -335,7 +335,7 @@ You can use `android.systemIcon` to set one of the system icons available in And
 In this case, there is no default behaviour for NavigationButton tap event, and we should set the callback function, which will be executed.
 ====
 
-==== Example: Setting an app icon for Android in ActionBar
+== Example: Setting an app icon for Android in ActionBar
 
 [tabs]
 ====
@@ -612,7 +612,7 @@ Supports local images (`~/`), resources (`res://`) and icon fonts (`fonts://`)
 | Gets or sets the icon of the action item.
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description

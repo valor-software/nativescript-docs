@@ -13,7 +13,7 @@ ns plugin add @nativescript/payments
 
 == What does this plugin do?
 
-This allows your app to use in app purchases and subscriptions using Apple AppStore and Google PlayStore purchasing systems.
+This allows your app to use in-app purchases and subscriptions using the Apple App Store and the Google Play Store purchasing systems.
 
 === iOS
 
@@ -42,29 +42,29 @@ Before you get started, review the following prerequisites:
 
 === Apple (iOS)
 
-To offer in app purchases for your iOS app.
+To offer in-app purchases for your iOS app.
 You will need to create items for the app on https://appstoreconnect.apple.com[AppStoreConnect.Apple.Com].
 
 image::https://raw.githubusercontent.com/NativeScript/payments/main/assets/payments/images/ios-payments1.png[In App Purchase Step One]
 
-On the form to create the in app purchase item, the `Product ID` is the value you will use to fetch your items for the user to purchase in your app.
+On the form to create the in-app purchase item, the `Product ID` is the value you will use to fetch your items for the user to purchase in your app.
 
 image:https://raw.githubusercontent.com/NativeScript/payments/main/assets/payments/images/ios-payments2.png[Product ID Form Apple]
 
-Once you complete an item you will see a list of all items for the app listed on the AppStore Connect.
+Once you complete an item, you will see a list of all items for the app listed on the App Store Connect.
 
 image:https://raw.githubusercontent.com/NativeScript/payments/main/assets/payments/images/ios-payments3.png[List of IAP Items]
 
 To test iOS purchases fully, you will need a real iOS device.
-You will also need a https://appstoreconnect.apple.com/access/testers[test user in the sandbox environment] on your appstore account.
+You will also need a https://appstoreconnect.apple.com/access/testers[test user in the sandbox environment] on your App Store account.
 
 image::https://raw.githubusercontent.com/NativeScript/payments/main/assets/payments/images/sandbox-testers.png[Sandbox Testers]
 
 === Google (Android)
 
-To offer in app purchases for your Android app you will need to upload at least ONE apk/aab to the https://play.google.com[Google Play Console].
+To offer in-app purchases for your Android app, you will need to upload at least ONE apk/aab to the https://play.google.com[Google Play Console].
 
-Once you have uploaded one aab to the console for your app you can create in app products on the console.
+Once you have uploaded one aab to the console for your app, you can create in app products on the console.
 image:https://raw.githubusercontent.com/NativeScript/payments/main/assets/payments/images/android-payments1.png[Create new in app products]
 
 On the form to create your product, the `Product ID` is the value you will use to fetch your products for the user to purchase.
@@ -120,7 +120,7 @@ You should handle these subscriptions inside the `PaymentEvent.Context.RETRIEVIN
 
 | `startSubscription(item: Item, userData?: string)`
 | `Android only`.
-Lanches the billing flow by presenting the Google Store subscription UI interface.
+Launches the billing flow by presenting the Google Store subscription UI interface.
 
 | `restoreOrders(skuType?: string)`
 | Returns the purchase made by the user for each product.
@@ -135,7 +135,7 @@ You call this method to install purchases on additional devices or restore purch
 
 == Usage
 
-The standard flow of method calls:
+The standard flow-of-method calls:
 
 [,typescript]
 ----

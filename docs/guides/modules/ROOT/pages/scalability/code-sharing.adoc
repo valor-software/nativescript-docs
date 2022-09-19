@@ -9,12 +9,12 @@ Over the years, several lessons have emerged around scalability with JavaScript 
 *The NativeScript TSC's 5 fundamental lessons about good code sharing*
 
 . If you can share your code easily with other paradigms, other disciplines, other runtimes even, then you have a good code sharing approach that will continue to provide you and your team joy.
-No developer or team willingly gets into code sharing hoping to find themselves in a corner later.
+No developer or team willingly gets into code-sharing, hoping to find themselves in a corner later.
 You always want to share now to more easily maintain and scale the code later.
-. A good code sharing approach should fit naturally in with well supported community standards and not require any extra build tooling just for the sharability to support itself.
-It should, in other words, stand firmly on it's own in scope of the language it is written in.
+. A good code sharing approach should fit naturally in with well-supported community standards and not require any extra build tooling just for sharability to support itself.
+It should, in other words, stand firmly on its own in the scope of the language it is written in.
 . A good code sharing approach should not have to introduce new file extensions purely for sake of sharability (outside of those naturally supported by the framework) to deal with.
-All team's organize code by folders naturally and the same should be matched with good code sharing approaches avoiding new file extensions and concepts that go beyond general code organization.
+All team's organize code by folders naturally, and the same should be matched with good code sharing approaches avoiding new file extensions and concepts that go beyond general code organization.
 . A good code sharing approach should clearly identify deployment/distribution lines as well as distinct platform separation allowing various shared code segments to have clear designated deployment targets allowing teams to control their own sophisticated build pipelines as they desire.
 Further the shared code should live within a thoughtful organizational structure that supports the ability to scale and adapt to future needs aside from the deployment targets that use the shared code.
 . Within the specific scope of NativeScript's viewpoint, JavaScript is the universal language which provides the opportunity to share code effectively and responsibly.
@@ -52,14 +52,14 @@ This breaks the first rule of a good code sharing approach.
 * Uses standard build tooling like typescript or webpack to build code (lesson 2 above)
 * No custom file extensions to deal with (lesson 3 above)
 * Nx splits up "apps" and "libs" clearly identifying deployment/distribution targets "apps" that consume shared code "libs" (lesson 4 above)
-* It builds upon @nativescript/nx to further scale it across more paradigms so it's a natural extension when needed if already working in Nx with @nativescript/nx
-* Opinionated architecture is provided via xplat which helps to avoid common pitfalls from hard lessons learned in real world developments with cross platform mixtures
+* It builds upon @nativescript/nx to further scale it across more paradigms, so it's a natural extension when needed if already working in Nx with @nativescript/nx
+* Opinionated architecture is provided via xplat which helps to avoid common pitfalls from hard lessons learned in real world developments with cross-platform mixtures
 
 *Cons:*
 
-* Learning curve if not used to Nx practices in general
+* Learning curve if did not use to Nx practices in general
 * Learning curve if you have not developed applications in large codebases before
-* Understanding the https://nstudio.io/xplat/fundamentals/architecture[basic fundamentals] of the provided architecture
+* Understanding the https://nstudio.io/xplat/fundamentals/architecture[fundamentals] of the provided architecture
 
 === https://classic.yarnpkg.com/en/docs/workspaces/[Yarn workspaces]
 
@@ -72,7 +72,7 @@ This breaks the first rule of a good code sharing approach.
 
 *Cons:*
 
-* You are on your own with organizational structure which can lead to common pitfalls with cross platform mixtures
+* You are on your own with organizational structure which can lead to common pitfalls with cross-platform mixtures
 * No out of the box deployment/distribution target setup to identify app targets vs.
 shared code
 

@@ -11,7 +11,7 @@ As opposed to <<tabview,`<TabView>`>>:
 
 '''
 
-=== Example: SegmentedBar with `SegmentedBarItem`
+== Example: SegmentedBar with `SegmentedBarItem`
 
 [tabs]
 ====
@@ -228,7 +228,7 @@ Vue::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -250,20 +250,20 @@ To set the background color of the entire bar, use `backgroundColor`.
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/segmentedbar[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
 
 | `selectedIndexChanged`
-| Emitted when the an item on the segmented bar is tapped.
+| Emitted when an item on the segmented bar is tapped.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

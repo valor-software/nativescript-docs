@@ -9,15 +9,16 @@ You can access the https://github.com/NativeScript/docs/tree/master/docs/ui/comp
 == Overview
 
 The *NativeScript UI ListView* plugin is a virtualizing list component that provides the most popular features associated with scenarios where a list of items is used.
-All these features are embedded in one control with the idea to save developer time and provide better experience.
+All these features are embedded in one control with the idea of saving developer time and provide better experience.
 The main features include:
 
 * Item animations
 * Different layouts and orientations
 * Smart defaults for many gestures - select on long press, execution of special action on swipe, reorder of items on long press and drag, refreshing the list on swipe or loading more items only when needed.
 
-image::../../../assets/images/nativescript-ui/list-view-overview_1.png[1]
-image::../../../assets/images/nativescript-ui/list-view-overview_2.png[2]
+image::plugins::nativescript-ui/list-view-overview_1.png[1]
+
+image::plugins::nativescript-ui/list-view-overview_2.png[2]
 
 == Installation
 
@@ -32,13 +33,13 @@ ns plugin add nativescript-ui-listview
 
 Different Layouts RadListView supports three different item layout strategies that are commonly used on mobile apps:
 
-list - items are stacked - either horizontally or vertically, depending on the scrolling orientation.
+. list - items are stacked - either horizontally or vertically, depending on the scrolling orientation.
 
-grid - items are arranged in columns or rows - depending on the scrolling orientation.
+. grid - items are arranged in columns or rows - depending on the scrolling orientation.
 
-staggered grid - items are ordered in a staggered grid formation - either in rows or columns, depending on the scrolling orientation.
+. staggered grid - items are ordered in a staggered grid formation - either in rows or columns, depending on the scrolling orientation.
 
-image::list-view-overview_3.png[]
+image::plugins::nativescript-ui/list-view-overview_3.png[]
 
 All layouts are virtualized and optimized for mobile devices.
 
@@ -54,29 +55,29 @@ When using the selection mechanism, two selection modes are available:
 RadListView also exposes convenient API for programmatically selecting or deselecting items and acquiring the currently selected items.
 The following methods are exposed by RadListView to manage selection:
 
-* `selectAll()` - selects all available items in the data source
-* `deselectAll()` - deselects all currently selected items from the data source
-* `selectItemAt(index)` - selects the item at the specified index
-* `deselectItemAt(index)` - deselects the item at the specified index if selected
-* `isItemSelected(item)` - determines whether the provided item is selected
-* `getSelectedItems()` - returns an array of the items currently selected
+* `selectAll()` —  selects all available items in the data source
+* `deselectAll()` — deselects all currently selected items from the data source
+* `selectItemAt(index)` — selects the item at the specified index
+* `deselectItemAt(index)` — deselects the item at the specified index if selected
+* `isItemSelected(item)` — determines whether the provided item is selected
+* `getSelectedItems()` — returns an array of the items currently selected
 
 ==== Enabling Selection in RadListView
 
 The value of the `selectionBehavior` property determines how the item selection works.
 It accepts the values from the `ListViewSelectionBehavior` enumeration:
 
-* ListViewSelectionBehavior.None - items cannot be selected
-* ListViewSelectionBehavior.Press - items are selected by tapping on them
-* ListViewSelectionBehavior.LongPress - items are selected by holding them
+* ListViewSelectionBehavior.None — items cannot be selected
+* ListViewSelectionBehavior.Press — items are selected by tapping on them
+* ListViewSelectionBehavior.LongPress — items are selected by holding them
 
 Additionally, the value of the `multipleSelection` property determines which selection mode will be used.
 The available options are:
 
-* _multiple selection mode_ - allows for selecting multiple items.
+* _multiple selection mode_ — allows for selecting multiple items.
 `RadListView` keeps track of which items are selected and exposes them through a `getSelectedItems()` method.
 Multiple selection is enabled by setting the `multipleSelection` property to `true`.
-* _single selection mode_ - only one item can be selected at a time.
+* _single selection mode_ — only one item can be selected at a time.
 This mode is enabled by setting the `multipleSelection` property to `false`.
 
 ==== Enabling multiple selection on RadListView in XML
@@ -85,15 +86,15 @@ This mode is enabled by setting the `multipleSelection` property to `false`.
 
 ==== Handling Selection Events
 
-To notify you when the selection state of an item is changed, RadListView exposes the following events:
+To notify you, when the selection state of an item is changed, RadListView exposes the following events:
 
-* `itemSelecting` - fired before an item is selected.
+* `itemSelecting` — fired before an item is selected.
 Can be used to cancel the operation.
-* `itemSelected` - fired after an item is successfully selected.
+* `itemSelected` — fired after an item is successfully selected.
 At this point the item is already in the selected items array returned by the `getSelectedItems()` method.
-* `itemDeselecting` - fired before an item is deselected.
+* `itemDeselecting` — fired before an item is deselected.
 Can be used to cancel the operation.
-* `itemDeselected` - fired after an item has been successfully deselected.
+* `itemDeselected` — fired after an item has been successfully deselected.
 At this point the item is not part of the selected items array returned by the `getSelectedItems()` method.
 
 ==== Examples

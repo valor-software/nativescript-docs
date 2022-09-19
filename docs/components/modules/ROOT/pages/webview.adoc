@@ -1,7 +1,5 @@
 = WebView
 
-== WebView
-
 `<WebView>` is a UI component that lets you show web content in your app.
 You can pull and show content from a URL or a local HTML file, or you can render static HTML content.
 
@@ -70,7 +68,7 @@ To be able to use gestures in WebView component on Android, we should first disa
 To do that we could access the android property and with the help of setDisplayZoomControls to set this control to false.
 =====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -86,7 +84,7 @@ To do that we could access the android property and with the help of setDisplayZ
 Refer to the https://docs.nativescript.org/api-reference/classes/webview[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -98,7 +96,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/webview[API Ref
 | Emitted when the page has finished loading in the `<WebView>`.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

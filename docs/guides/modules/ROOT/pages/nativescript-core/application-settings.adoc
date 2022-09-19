@@ -1,7 +1,7 @@
 = ApplicationSettings
 
 The ApplicationSettings class allows you to store key/value pairs of data on the device.
-For example, an app could store a user's auth state so that, the user does not have to re-login when she resumes the app,if she didn't log out when she left the app.
+For example, an app could store a user's auth state so that the user does not have to re-login when she resumes the app,if she didn't log out when she left the app.
 
 
 == Import

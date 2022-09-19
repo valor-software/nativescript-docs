@@ -4,7 +4,7 @@ MVVM (https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel[Model-V
 It facilitates the separation of development of the graphical user interface( XML code) from development of the business logic( Javascript or Typescript code).
 
 * *Model:* The model defines and represents the data.
-Separating the model from the various views that might use it allows for code reuse, better code maintainance and better testing.
+Separating the model from the various views that might use it allows for code reuse, better code maintenance and better testing.
 * *View:* The view represents the UI( xref:components::button.adoc[Button], xref:components::page.adoc[Page], xref:components::label.adoc[Label], etc), which in NativeScript is written in XML.
 The view is often data-bound to the view model so that changes made to the properties in the view model instantly trigger visual changes to UI components.
 * *View Model:* The view model contains the application business logic (often including the model, and exposes the data to the view.

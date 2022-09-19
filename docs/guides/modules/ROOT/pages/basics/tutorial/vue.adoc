@@ -13,12 +13,12 @@ This tutorial will teach you the following:
 
 == Prerequisites
 
-To get the most out of this tutorial you should already have a basic understanding of the Vue framework.
+To get the most out of this tutorial, you should already have a basic understanding of the Vue framework.
 If you're completely new to Vue, you might want to check out their https://vuejs.org/v2/guide/[official guide] first.
 
 == Overview of the example application
 
-Components form the basic building blocks of an Vue application.
+Components form the basic building blocks of a Vue application.
 Components represent the pages and views that the user interacts with.
 NativeScript Vue follows the same concept with the difference being primarily within the templates and their styling.
 
@@ -289,7 +289,7 @@ export default Vue.extend({})
 </script>
 ----
 
-Since we have an array of flicks to display we can use NativeScript's https://docs.nativescript.org/ui-and-styling.html#listview[`ListView`] component.
+Since we have an array of flicks to display, we can use the NativeScript's https://docs.nativescript.org/ui-and-styling.html#listview[`ListView`] component.
 `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list.
 Let's first create a variable called flick in our home component that we are going to use as our ``ListView``'s data source.
 Open `Home.vue` and add the following:

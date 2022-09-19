@@ -31,7 +31,7 @@ const storage = firebase().storage()
 ----
 
 By default, this allows you to interact with Firebase Storage using the default Firebase App used whilst installing Firebase on your platform.
-If however you'd like to use a secondary Firebase App, pass the secondary app instance when calling the auth method:
+If, however, you'd like to use a secondary Firebase App, pass the secondary app instance when calling the auth method:
 
 [,ts]
 ----
@@ -79,7 +79,7 @@ const reference = firebase().storage().ref('/images/t-shirts/black-t-shirt-sm.pn
 
 === Upload a file
 
-To upload a file directly from the users device, the putFile method on a reference accepts a string path to the file on the users device.
+To upload a file directly from the user device, the putFile method on a reference accepts a string path to the file on the user device.
 For example, you may be creating an app which uploads users photos.
 
 [,ts]
@@ -95,7 +95,7 @@ await reference.putFile(pathToFile.path)
 
 === Tasks
 
-The putFile method returns a Task, which if required, allows you to hook into information such as the current upload progress:
+The `putFile` method returns a Task, which, if required, allows you to hook into information such as the current upload progress:
 
 [,ts]
 ----
@@ -112,7 +112,7 @@ task.then(() => {
 })
 ----
 
-A task also provides the ability to pause & resume on-going operations:
+A task also provides the ability to pause & resume ongoing operations:
 
 [,ts]
 ----
@@ -127,7 +127,7 @@ task.resume()
 === Download URLs
 
 A common use-case for Cloud Storage is to use it as a global Content Delivery Network (CDN) for your images.
-When uploading files to a bucket, they are not automatically available for consumption via a HTTP URL.
+When uploading files to a bucket, they are not automatically available for consumption via an HTTP URL.
 To generate a new Download URL, you need to call the getDownloadURL method on a reference:
 
 [,ts]
@@ -140,7 +140,7 @@ const url = firebase().storage().ref('images/profile-1.png').getDownloadURL()
 === Listing files & directories
 
 If you wish to view a full list of the current files & directories within a particular bucket reference, you can use the list method.
-The results are however paginated, and if more results are available you can pass a page token into the request:
+The results are, however paginated, and if more results are available you can pass a page token into the request:
 
 [,ts]
 ----
@@ -170,8 +170,8 @@ listFilesAndDirectories(reference).then(() => {
 
 === Security
 
-By default your bucket will come with rules which allows only authenticated users on your project to access it.
-You can however fully customize the security rules to your own applications requirements.
+By default, your bucket will come with rules which allow only authenticated users on your project to access it.
+You can, however, fully customize the security rules to your own applications requirements.
 
 To learn more, view the https://firebase.google.com/docs/storage/security/start[Storage Security] documentation on the Firebase website.
 

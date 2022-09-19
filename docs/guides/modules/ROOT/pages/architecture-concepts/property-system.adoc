@@ -2,16 +2,17 @@
 
 == Property System
 
-NativeScript provides own property system based on a wrapper around the well known JavaScript's `Object.defineProperty`.
+NativeScript provides an own property system based on a wrapper around the well known JavaScript's `Object.defineProperty`.
 To deliver good developer experience in the context of mobile development with UI and CSS elements, we provided extended classes of the Property class.
 
 This article will cover the provided property classes and the base techniques when working with views and properties including initialization, registering, views lifecycles and recycling and handling changed events.
 Some commonly used methods of View are demonstrated as well.
 
+[#property-class]
 == Property class
 
 Property is a simple wrapper around https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty[Object.defineProperty] with some additional callbacks like `valueChange`, `valueConverter` and `equalityComparer`.
-When you define a property you specify the owning type and the type of the property:
+When you define a property, you specify the owning type and the type of the property:
 
 [,ts]
 ----
@@ -29,31 +30,34 @@ The type of the property is `string` so it will accept any text.
 
 The *valueChange* event is executed when the value of a property has changed.
 If the type of the property isn't `string`, we will need to specify *valueConverter* and *equalityComparer*.
-The *valueConverter* is called if a string value is set to this property (for example from XML or CSS) and there you will have to convert that string to meaningful value if possible or throw exception if you can't.
+The *valueConverter* is called if a string value is set to this property, (for example, from XML or CSS) and there you will have to convert that string to meaningful value if possible or throw exception if you can't.
 If *equalityComparer* is specified it will be called everytime a value is set to a property.
-There you can compare current and new value for equality.
+There you can compare current and new values for equality.
 For example, if your property is of type xref:nativescript-core/color.adoc[Color] you can use `Color.equals()` as `equalityComparer` function so even if new instance of Color is set, the comparer will return false if current color and new color have the same argb value.
 
 There is one more option in the Property constructor: `affectsLayout: boolean`.
-When set to true setting new value to this property will trigger a new layout pass.
+When set to true setting new values to this property will trigger a new layout pass.
 This is done as performance optimization.
-Android has an integrated layout system so most of the time it will invalidate itself when needed.
-Thus we skip one native call by defining affectsLayout as true only for iOS for example using 'isIOS' boolean property.
-Because iOS doesn't have integrated layout system if you know that this property could affect the layout you should specify it in the Property constructor.
+Android has an integrated layout system, so most of the time it will invalidate itself when needed.
+Thus, we skip one native call by defining affectsLayout as true only for iOS, for example, using 'isIOS' boolean property.
+Because iOS doesn't have an integrated layout system, if you know that this property could affect the layout, you should specify it in the Property constructor.
 
-The flag *affectsLayout* should be *true* (mainly for iOS) if that property will change the element size and/or position.
-For example in our case setting button text to something different will either widen or shorten the width of the button so this will affect the element dimension hence we specify it as `affectsLayout: isIOS`.
-If this property won't change element position/size then you don't have to specify *affectsLayout* at all.
+The flag *affectsLayout* should be *true* (mainly for iOS) if that property changes the element size and/or position.
+For example, in our case setting button text to something different will either widen or shorten the width of the button so this will affect the element dimension hence we specify it as `affectsLayout: isIOS`.
+If this property doesn't change element position/size, then you don't have to specify *affectsLayout* at all.
 For example `background-color` property doesn't change element position/size.
 
-:::tip Note: In the platform specific implementation use *getDefault* and *setNative* symbols from the property object (example: textProperty), to define how this property is applied to native views.
+[NOTE]
+====
+In the platform specific implementation use *getDefault* and *setNative* symbols from the property object (example: textProperty), to define how this property is applied to native views.
 The *getDefault* method is called just once before the first call to *setNative* so that we know what is the default native value for this property.
 The value that you return will be passed to *setNative* method when we decide to recycle the native view.
-Recycling the native view of a UI control is done only if *recycleNativeView* field is set to true.
+Recycling the native view of a UI control is done only if a *recycleNativeView* field is set to true.
+====
 
 == CssProperty Class
 
-The *CssProperty* class is very similar to <<property-class,Property>> type with two small differences:
+The *CssProperty* class is very similar to link:#property-class[a Property] type with two small differences:
 
 * you have to additionally specify *cssName* which will be used to set this property through CSS
 * its value can be set from inline styles, page CSS or application CSS
@@ -77,8 +81,10 @@ export const myOpacityProperty = new CssProperty<Style, number>({
 myOpacityProperty.register(Style);
 ----
 
-:::tip Note: For CSS properties that could be animated via keyframe animations, you can use the extended *CssAnimationProperty* class which comes with the optional keyframe parameter.
-:::
+[NOTE]
+====
+For CSS properties that could be animated via keyframe animations, you can use the extended *CssAnimationProperty* class, which comes with the optional keyframe parameter.
+====
 
 === Properties
 
@@ -158,7 +164,7 @@ The user would want to use the shorthand syntax for _margin_ as follows:
 margin: 0 10 0 10;
 ----
 
-Creating the shorthand _margin_ property would require to have all CSS properties defined.
+Creating the shorthand _margin_ property would require us to have all CSS properties defined.
 This way, you could use them to set the syntax rule in our shorthand property getter.
 
 [,ts]
@@ -232,7 +238,7 @@ marginBottomProperty.register(Style)
 == CoercibleProperty Class
 
 The *CoercibleProperty* is a property that extends the base Property class by providing the capability to be coercible.
-For better illustration when a property might need to be coercible let's assume that we are working on *selectedIndex* property of some UI element that can hold different number of items.
+For better illustration when a property might need to be coercible, let's assume that we are working on the *selectedIndex* property of some UI element that can hold different numbers of items.
 The base case would suggest that the *selectedIndex* would vary within the number of items, but what would cover the case where the items are changed dynamically (and the *selectedIndex* is not within the length range)?
 This is the case that can be handled by a property that can coerce the value.
 
@@ -276,7 +282,7 @@ const selectedIndexProperty = new CoercibleProperty<SegmentedBar, number>({
 selectedIndexProperty.register(SegmentedBar)
 ----
 
-When setting the *items* property we will coerce the *selectedIndex*
+When setting the *items* property, we will coerce the *selectedIndex*
 
 ----
 [itemsProperty.setNative](value: SegmentedBarItem[]) {
@@ -293,13 +299,13 @@ When setting the *items* property we will coerce the *selectedIndex*
 
 == Registering the Property
 
-After a property is defined it needs to be registered on a type like this:
+After a property is defined, it needs to be registered on a type like this:
 
 ----
 textProperty.register(MyButtonBase);
 ----
 
-The _CssProperties_ should be registered on the _Style_ class like this:
+The _CssProperties_ should be registered in the _Style_ class like this:
 
 [,ts]
 ----

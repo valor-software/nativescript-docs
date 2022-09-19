@@ -201,7 +201,7 @@ console.log(numberValue) // logs 23
 
 | `queueGC(delay?: number, useThrottle?: boolean)`
 | `any`
-| An utility function that queues a garbage collection, multiple calls in quick succession are debounced by default and only one gc will be executed after 900ms.
+| A utility function that queues a garbage collection, multiple calls in quick succession are debounced by default, and only one gc will be executed after 900ms.
 + `delay`: Customize the delay.
 + `useThrottle`: Instead of default debounce strategy, use throttling.
 
@@ -267,7 +267,7 @@ Default is: 'Open File...'
 
 | `isRealDevice()`
 | `boolean`
-| Checks whether the application is running on real device and not on simulator/emulator.
+| Checks whether the application is running on a real device and not on simulator/emulator.
 
 | `getClass()`
 | `string`
@@ -284,7 +284,7 @@ Examples: + `console.log(Utils.getClass({}))` logs `"Object"` + `console.log(Uti
 
 | `isBoolean(value: any)`
 | `boolean`
-| A function that checks if something is a valid boolean.
+| A function that checks if something is valid boolean.
 
 | `isDefined(value: any)`
 | `boolean`
@@ -329,7 +329,7 @@ Throws exception if passed value is not a valid function.
 
 === Setting & clearing interval
 
-`Utils.setInterval()` can be used to apply recurring action on given interval in miliseconds.
+`Utils.setInterval()` can be used to apply recurring action on a given interval in milliseconds.
 To stop `Utils.setInterval()`, use `Utils.clearInterval()`.
 
 [tabs]
@@ -435,7 +435,7 @@ Utility module dealing with some android collections.
 
 | `stringSetToStringArray(stringSet: any)`
 | `string[]`
-| Converts a string hash set into array of strings.
+| Converts a string hash set into an array of strings.
 |===
 
 === Utils.android.resources functions

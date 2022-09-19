@@ -15,7 +15,7 @@ Once the integration is complete, you can choose an ad format to get detailed im
 The Google Mobile Ads SDK for NativeScript currently supports loading and displaying banner, interstitial (full-screen), native ads, and rewarded ads.
 
 NOTE: This plugin also contains support for Google Ad Manager.
-If you are interested in creating and loading an Ad with Ad Manager, you may follow the same prerequisites, platform setup, mobile ads SDK initialization steps outlined in this doc, and then see creating and loading an ad with Ad Manager for further instructions.
+If you are interested in creating and loading an Ad with an Ad Manager, you may follow the same prerequisites, platform setup, mobile ads SDK initialization steps outlined in this doc, and then see creating and loading an ad with Ad Manager for further instructions.
 
 == Setup
 

@@ -11,7 +11,9 @@ npm install @nativescript/picker
 
 == Screenshots
 
-image:https://raw.githubusercontent.com/NativeScript/nativescript-picker/master/docs/picker-ios.gif[PickerField on iOS]image:https://raw.githubusercontent.com/NativeScript/nativescript-picker/master/docs/picker-android.gif[PickerField on Android]
+image:https://raw.githubusercontent.com/NativeScript/nativescript-picker/master/docs/picker-ios.gif[PickerField on iOS]
+
+image:https://raw.githubusercontent.com/NativeScript/nativescript-picker/master/docs/picker-android.gif[PickerField on Android]
 
 == Configuration
 
@@ -32,7 +34,7 @@ To use the `PickerField` in markup you need to:
 ...
 ----
 
-* If you are developing a NativeScript Angular app, you need to import the plugin module in the module of your component:
+* If you are developing a NativeScript Angular app, you need to import the plugin module into the module of your component:
 
 [,ts]
 ----
@@ -98,7 +100,7 @@ for (let i = 0; i < 20; i++) {
 }
 ----
 
-* If you are developing a NativeScript Vue app, you need to install the plugin in you app.js file:
+* If you are developing a NativeScript Vue app, you need to install the plugin in you `app.js` file:
 
 [,js]
 ----
@@ -170,4 +172,4 @@ Changing the text of the `PickerField` is done by its main functionality which i
 The `PickerField` can be targeted in CSS through its element selector and additionally by setting a class.
 The `PickerField` also opens a modal window containing a Page element that contains an ActionBar and a ListView.
 This Page element can be targeted with the `PickerPage` selector and through it style all picker modals with selectors like `PickerPage ActionBar` and `PickerPage ListView`.
-In addition to that, if you set a class on the PickerField, it will be transferred on the `PickerPage` and with it you can style individual modals.
+In addition to that, if you set a class on the PickerField, it will be transferred on the `PickerPage` and with it, you can style individual modals.

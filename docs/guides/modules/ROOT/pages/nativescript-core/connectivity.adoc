@@ -77,7 +77,7 @@ export function onNavigatedTo(args) {
 | `number`
 | Gets the type of connection.
 Returns a value from the `connectivityModule.connectionType` enumeration.
-To use this method on Android you need to have the *android.permission.ACCESS_NETWORK_STATE* permission added to the *AndroidManifest.xml* file.
+To use this method on Android, you need to have the *android.permission.ACCESS_NETWORK_STATE* permission added to the *AndroidManifest.xml* file.
 
 | `startMonitoring(connectionTypeChangedCallback: function)`
 | `void`

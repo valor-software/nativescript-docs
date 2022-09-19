@@ -22,7 +22,7 @@ Add following key to Info.plist often found in `App_Resources/iOS/Info.plist`
 <string>Kindly provide permission to access contacts on your device.</string>
 ----
 
-User will be asked for permissions when contacts are accessed by the app.
+User will be asked for permission when the app accesses contacts.
 
 Since iOS 13, you will also https://developer.apple.com/documentation/contacts/requesting_authorization_to_access_contacts[need entitlements].
 If you do not have `App_Resources/iOS/app.entitlements` yet, you can add the file with at least these contents:
@@ -40,7 +40,7 @@ If you do not have `App_Resources/iOS/app.entitlements` yet, you can add the fil
 
 === Android Settings
 
-From API level 23 on you need to check for the appropriate permissions to access the contacts.
+From API level 23, you need to check for the appropriate permissions to access the contacts.
 So not only do you need these permissions in your `AndroidManifest.xml`:
 
 ----
@@ -50,8 +50,7 @@ So not only do you need these permissions in your `AndroidManifest.xml`:
 <uses-permission android:name="android.permission.GLOBAL_SEARCH" />
 ----
 
-You also need to make sure to request the permissions everytime you perform the operation itself (e.g.
-using the nativescript-permissions plugin):
+You also need to make sure to request the permissions every time you perform the operation itself, (e.g. using the nativescript-permissions plugin):
 
 ----
 import { Contact } from '@nativescript/contacts';
@@ -311,7 +310,7 @@ Contacts.getGroups('Test Group').then(
 )
 ----
 
-==== Add Member To Group
+==== Add Member To a Group
 
 [,ts]
 ----
@@ -338,7 +337,7 @@ Contacts.getContact().then(function (args) {
 })
 ----
 
-==== Remove Member From Group
+==== Remove Member From a Group
 
 [,ts]
 ----
@@ -515,7 +514,7 @@ See details bellow for what types and on what platform they are supported
 * *PROFILE* Android - _url_
 * *BLOG* Android - _url_
 
-Those are the system labels but you can also use any custom label you want.
+Those are the system labels, but you can also use any custom label you want.
 
 === Single Group Data Structure
 
@@ -529,7 +528,7 @@ Those are the system labels but you can also use any custom label you want.
 
 === `GetFetchResult` Data Structure
 
-The object returned by contact fetch requests.
+The object is returned by contact fetch requests.
 
 [,ts]
 ----
@@ -541,9 +540,12 @@ The object returned by contact fetch requests.
 
 === iOS
 
-See apples docs on properties available: https://developer.apple.com/library/mac/documentation/Contacts/Reference/CNContact_Class/index.html#//apple_ref/occ/cl/CNContact
+See https://developer.apple.com/library/mac/documentation/Contacts/Reference/CNContact_Class/index.html#//apple_ref/occ/cl/CNContact[apples docs] on properties available:
 
-NOTE: Since the plugin uses the Contact framework it is supported only on iOS 9.0 and above!
+[NOTE]
+====
+Since the plugin uses the Contact framework, it is supported only on iOS 9.0 and above!
+====
 
 == Credit
 

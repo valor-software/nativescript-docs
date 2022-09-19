@@ -8,12 +8,9 @@ If you are looking for NS7 & NS6 docs, you can still find them here:
 * https://v6.docs.nativescript.org/
 ====
 
-
-xref:nativescript-docs:ROOT:index.adoc[test]
-
 == Prerequisites
 
-The docs have been written with no assumptions of the readers experience, however it does assume knowledge of JavaScript fundamentals.
+The docs have been written with no assumptions of the reader's experience; however, it does assume knowledge of JavaScript fundamentals.
 If you are new to JavaScript, we recommend these resources from +++<abbr title="Mozilla Developer Network">+++MDN+++</abbr>+++:
 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript[Introduction to JavaScript]
@@ -21,20 +18,20 @@ If you are new to JavaScript, we recommend these resources from +++<abbr title="
 
 == Environment Setup :warning:
 
-You will want to setup your development machine using the xref:guides::basics/environment-setup.adoc[Environment Setup guide here] which involves preparing your machine for iOS and Android development as well as installing the https://www.npmjs.com/package/nativescript[NativeScript CLI] via `npm install -g nativescript`
+You will want to set up your development machine using the xref:guides::basics/environment-setup.adoc[Environment Setup guide here] which involves preparing your machine for iOS and Android development as well as installing the https://www.npmjs.com/package/nativescript[NativeScript CLI] via `npm install -g nativescript`
 
 == Overview of NativeScript development
 
 [WARNING]
 ====
 The following is a general overview of NativeScript development.
-To try any of the commands mentioned be sure you have a proper environment setup first.
+To try any of the commands mentioned, be sure you have a proper environment setup first.
 ====
 
 NativeScript allows scaffolding projects with various templates to kickstart your app development.
 Official templates can be found in the https://github.com/NativeScript/nativescript-app-templates/tree/master/packages[Templates GitHub repository] and on https://www.npmjs.com/search?q=%40nativescript%20template[NPM].
 
-Some of the templates are listed in the NativeScript CLI when creating a new project with `ns create`, others may be used by passing the `--template` flag with the template name (NPM package name).
+Some templates are listed in the NativeScript CLI when creating a new project with `ns create`, others may be used by passing the `--template` flag with the template name (NPM package name).
 
 To create a new project, run:
 
@@ -126,7 +123,7 @@ ns create myCoolApp --template @nativescript/template-tab-navigation
 
 === List and Details
 
-A simple template with a ListView and a details screen.
+A simple template with a ListView and a "Details" screen.
 
 [options="header"]
 |===
@@ -148,7 +145,7 @@ You may create a custom template for your projects.
 The best place to start is to use one of the Official templates as a base and applying your changes on top.
 
 The easiest and straight-forward way to create your customized template is to clone one of the blank templates.
-NativeScript templates come in different flavors (Plain JavaScript, TypeScript, Angular and Vue.js) so you could select the blank template for the desired application flavor.
+NativeScript templates come in different flavors (Plain JavaScript, TypeScript, Angular and Vue.js,) so you could select the blank template for the desired application flavor.
 
 Here is the list of the six main blank templates depending on the coding language preferences.
 
@@ -166,7 +163,7 @@ Creating your template is as simple as cloning the wanted template repository an
 git clone https://github.com/NativeScript/template-blank-ts.git
 ----
 
-As of NativeScript 4.x.x the application templates have a mobile application structure so you could develop your template by following the standard developer workflow.
+As of NativeScript 4.x.x the application templates have a mobile application structure, so you could develop your template by following the standard developer workflow.
 
 [source%linenums,cli]
 ----
@@ -187,7 +184,7 @@ Apply the single responsibility principle (SRP) to all pages, view models, servi
 This helps make the app cleaner, easier to read and maintain, and more testable.
 * Consider creating a folder for a page when it has multiple accompanying files (.ts, .xml, .scss/css, etc.).
 * Avoid putting all of your app template's code in a root folder named _app_.
-When the actual app is created from the template, all of the template's code will indeed go inside a root *app* folder, but you MUST NOT define this folder in the hierarchy of your template;
+When the actual app is created from the template, all the template's code will indeed go inside a root *app* folder, but you MUST NOT define this folder in the hierarchy of your template;
 otherwise, the `ns create` CLI command will not function properly.
 
 === Package.json Guidelines
@@ -196,8 +193,8 @@ otherwise, the `ns create` CLI command will not function properly.
 + Note this is not the actual root package.json of the generated mobile app -- it is only used by the `ns create` CLI command upon app creation.
 Do not expect that everything you place in your package.json will be transferred to the actual package.json file.
 Notably `scripts` property content is removed.
-However, if you provide preinstall / postinstall scripts, they will be executed before getting removed.
-You can use this mechanism to generate/move settings files to the root folder of the generated app and generate actual "scripts" content for the resulting app package.json -- see https://github.com/NativeScript/nativescript-app-templates/blob/master/shared/hooks/after-createProject/after-createProject.js[generating `scripts` commands on-the-fly] for concrete examples.
+However, if you provide preinstall/post-install scripts, they will be executed before getting removed.
+You can use this mechanism to generate/move settings files to the root folder of the generated app and generate actual "script" content for the resulting app package.json -- see https://github.com/NativeScript/nativescript-app-templates/blob/master/shared/hooks/after-createProject/after-createProject.js[generating `scripts` commands on-the-fly] for concrete examples.
 * Provide a value for the `name` property using the format: *ns-template-[custom-template-name-goes-here]-ts*.
 + Note this property value is NOT transferred to the root package.json file generated by the `ns create` CLI command but can be found in the app/package.json file of the generated app.
 * Provide a value for the `version` property following semver rules (e.g., 1.0.0).
@@ -244,14 +241,14 @@ For example, https://github.com/NativeScript/nativescript-app-templates/blob/mas
 
 * Provide a value for the `keywords`.
 Keywords can be very helpful for the discoverability of the template.
-Also, there are special keywords that could be used to make the template appear in the https://market.nativescript.org/[NativeScript marketplace] especially and under certain conditions.
+Also, there are special keywords that could be used to make the template appear in the https://market.nativescript.org/[NativeScript marketplace,] especially and under certain conditions.
 The following keywords are supported:
- ** `ux-preview` - will add an "`Preview & Vote`" label on the "preview box" in the search list.
+ ** `ux-preview` — will add a "`Preview & Vote`" label on the "preview box" in the search list.
 It will also enable email registration and voting.
 This keyword should be used when adding a "preview" of a template that is not implemented but is rather an idea.
- ** `category-general` - will show the template under the "General" tab in the https://market.nativescript.org/?tab=templates["Templates" page].
+ ** `category-general` — will show the template under the "General" tab in the https://market.nativescript.org/?tab=templates["Templates" page].
 This is the general or basic category, used to describe "generic" functionality.
- ** `category-healthcare` - will show the template under the "Healthcare" tab in the https://market.nativescript.org/?tab=templates["Templates" page].
+ ** `category-healthcare` — will show the template under the "Healthcare" tab in the https://market.nativescript.org/?tab=templates["Templates" page].
 This is a special category, used to describe a template with functionality related to the healthcare industry.
 
 === Marketplace Guidelines
@@ -260,7 +257,7 @@ This is a special category, used to describe a template with functionality relat
 * Provide a screenshot preview to be used in a future NativeScript Marketplace integration under *tools/assets/marketplace.png* in your app template folder structure.
 + Check https://github.com/NativeScript/template-master-detail-ts/blob/master/tools/postinstall.js[tools/postinstall.js] that implements a mechanism for removing the "tools" infrastructure folder from the generated app.
 * Provide correct `repository` property value in the root package.json file of your app template (see the "Package.json guidelines" section above for additional package.json requirements).
-* https://github.com/NativeScript/marketplace-feedback/blob/master/docs/template-submission.md[Read more] how to submit your app template to https://market.nativescript.org[NativeScript Marketplace].
+* https://github.com/NativeScript/marketplace-feedback/blob/master/docs/template-submission.md[Read more] how to submit your app template to https://market.nativescript.org[the NativeScript Marketplace].
 
 === Styling Guidelines
 

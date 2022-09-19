@@ -366,8 +366,8 @@ The `quality` parameter defaults to the maximum available quality and varies on 
 | `ImageSource`
 | Returns a new `ImageSource` that is a resized version of this image with the same aspect ratio, but the max dimension set to the provided maxSize.
 + `maxSize`: The maximum pixel dimension of the resulting image.
-+ `options` : Optional parameter, Only used for `Android`, `options.filter` is a boolean which determines whether or not bilinear filtering should be used when scaling the bitmap.
-If this is true then bilinear filtering will be used when scaling which has better image quality at the cost of worse performance.
++ `options` : Optional parameter, Only used for `Android`, `options.filter` is a boolean which determines whether bilinear filtering should be used when scaling the bitmap.
+If this is true, then bilinear filtering will be used when scaling which has better image quality at the cost of worse performance.
 If this is `false` then nearest-neighbor scaling is used instead which will have worse image quality but is faster.
 Recommended default is to set filter to `true` as the cost of bilinear filtering is typically minimal and the improved image quality is significant.
 

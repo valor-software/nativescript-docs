@@ -1,7 +1,5 @@
 = TimePicker
 
-== TimePicker
-
 `<TimePicker>` is a UI component that lets users select time.
 
 See also: xref:components::datepicker.adoc[DatePicker].
@@ -101,8 +99,8 @@ export function onPickerLoaded(args) {
   })
 }
 ----
+======
 =====
-
 React::
 +
 [,js]
@@ -181,7 +179,7 @@ For example: 5 or 15 minutes.
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/timepicker[API Reference]
 |===
 

@@ -14,7 +14,7 @@ You need to download the app from Google Play or App Store.
 Once you've downloaded the app, use your phone Camera to scan the QR shown in the `Preview` tab.
 
 The following are the 3 basic steps to take in order to use the Trace module.
-The first two step should be executed earlier in your applicaton, usually in the `app.ts` file.
+The first two steps should be executed earlier in your application, usually in the `app.ts` file.
 
 . If you have specific categor(ies)y you want to trace, set them by calling:
 +
@@ -34,7 +34,7 @@ Setting categor(ies)y makes the message for the category you pass as the second 
 Trace.enable()
 ----
 +
-. Call the `Trace.write()` where you would call `console.log()` passing it a message,a category name and optionally, a message type.
+. Call the `Trace.write()` where you would call `console.log()` passing it a message, a category name and optionally, a message type.
 The category should be one of those you set with `Trace.setCategories()`
 +
 [,ts]
@@ -46,7 +46,7 @@ Trace.write('some message', 'category')
 
 The default Nativescript TraceWriter instance only allows you to handle the message of type `log`.
 The other message types you could handle are `info`, `warn` and `error`.
-With a custom TraceWriter you can capture those message types and handle them accordingly.
+With a custom TraceWriter, you can capture those message types and handle them accordingly.
 
 See `app/trace/trace-writer.ts` for an example of how to create a custom Trace Writer.
 
@@ -105,9 +105,9 @@ Trace.addWriter(new TimestampConsoleWriter())
 A big difference between web and NativeScript applications is the way the Errors are handled.
 Currently, when an unhandled exception is thrown in NativeScript, the app will crash, and an Error with the corresponding stack trace will be shown.
 In some cases, this seems to be the expected behaviour when the app is in *development* mode.
-You would want to have the stack trace of the exact location the unexpected error has occurred so that you can more easily understand what happened and fix the issue.
-However, when the app is in *production* similar application crashes can seriously hurt your application credibility and drive away customers.
-In many cases, you might prefer something else (e.g.
+You would want to have the stack trace of the exact location. the unexpected error has occurred so that you can more easily understand what happened and fix the issue.
+However, when the app is in *production,* similar application crashes can seriously hurt your application credibility and drive away customers.
+In many cases, you might prefer something else, (e.g.
 app freeze, blank screen, failed navigation) to an actual crash with an error log.
 
 Through the `Trace` module, Nativescript provides you with the ability to handle errors differently depending on whether the app is in *development* or *production* mode.
@@ -152,7 +152,7 @@ This option is disabled by default and to enable it you have to set the `discard
 
 Switching it on will cause JS exceptions to be caught without being propagated to the native world, effectively protecting the app from crashing.
 All discarded exceptions can be processed in the app by either subscribing to the `Application.discardedErrorEvent` and using the received `DiscardedErrorEventData` instance, or by assigning a one-argument function to `global.__onDiscardedError` which will receive the exception as a `NativeScriptError` instance.
-Usually you would want to log and/or report the exception to analytics.
+Usually you want to log and/or report the exception to analytics.
 
 [tabs]
 ====

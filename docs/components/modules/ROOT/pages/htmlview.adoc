@@ -101,7 +101,7 @@ Vue::
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/htmlview[API Reference]
 |===
 

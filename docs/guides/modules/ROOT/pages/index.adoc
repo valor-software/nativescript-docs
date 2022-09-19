@@ -1,4 +1,4 @@
-= Overview - NativeScript Documentation
+= Overview — NativeScript Documentation
 :toclevels: 4
 :page-no-previous: true
 
@@ -42,7 +42,7 @@ How to develop a NativeScript application using Flutter UI SDK, explained in dif
 .xref:{url_react}[Using React Native with NativeScript]
 *****
 Guides for React Native NativeScript developers.
-Develop stunning NativeScript application using React Native framework using this how-tos, guides and documentation.
+Develop stunning NativeScript application using React Native framework using these how-tos, guides and documentation.
 *****
 ****
 |

@@ -107,7 +107,7 @@ imports: [NativeScriptAnimatedCircleModule]
 
 | text
 | ""
-| The text inside of the circle.
+| The text inside the circle.
 
 | textSize
 | 0

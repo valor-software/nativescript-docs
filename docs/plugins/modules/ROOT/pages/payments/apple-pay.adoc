@@ -20,7 +20,7 @@ Follow the instructions in Configure Apple Pay (iOS, watchOS), which guide you t
 
 * Merchant ID.
 An identifier you register with Apple that uniquely identifies your business as a merchant able to accept payments.
-This ID never expires, and can be used in multiple websites and iOS apps.
+This ID never expires and can be used in multiple websites and iOS apps.
 See https://help.apple.com/developer-account/#/devb2e62b839?sub=dev103e030bb[Create a merchant identifier] for the setup steps.
 * Payment Processing Certificate.
 A certificate associated with your merchant ID, used to secure transaction data.

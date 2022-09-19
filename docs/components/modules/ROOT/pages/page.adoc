@@ -1,7 +1,7 @@
 = Page
 
 `<Page>` is a UI component that represents an application screen.
-NativeScript apps typically consist of one or more `<Page>` that wrap content such as an <<actionbar,`<ActionBar>`>> and other UI widgets.
+NativeScript apps typically consist of one or more `<Page>` that wrap content such as an xref:components::actionbar.adoc[`<ActionBar>`] and other UI widgets.
 
 '''
 
@@ -181,21 +181,20 @@ export default {
   }
 }
 ----
+=====
 +
 [WARNING]
 ======
 Developers coming from a web background would usually reach for the `mounted` lifecycle hook Vue provides, however in NativeScript the application, and certain elements might not yet be loaded when the `mounted` hook is executed, thus certain actions such as alerts, dialogs, navigation etc.
 are not possible inside the `mounted` hook.
 To work around this limitation, the `loaded` event may be used, which only fires after the application is ready.
-In this case, we are using the `loaded` event of the <<page,`<Page>`>> element, but this event is available for all NativeScript elements.
+In this case, we are using the `loaded` event of the xref:components::page.adoc[`<Page>`] element, but this event is available for all NativeScript elements.
 ======
 ====
 
-
-
 // TODO: examples in all flavors
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -226,7 +225,7 @@ In this case, we are using the `loaded` event of the <<page,`<Page>`>> element, 
 
 | `+...Inherited+`
 | `Inherited`
-| Additional inherited properties not shown.
+| Additional inherited properties are not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/page[API Reference]
 |===
 
@@ -253,8 +252,8 @@ Refer to the https://docs.nativescript.org/api-reference/classes/page[API Refere
 
 [WARNING]
 ====
-The events loaded, unloaded and layoutChanged are UI component lifecycles events and are universal for all classes that extend the View class (including Page).
-They can be used with all NativeScript elements (e.g.
+The events `loaded`, `unloaded` and `layoutChanged` are UI component lifecycle events and are universal for all classes that extend the View class (including Page).
+They can be used with all NativeScript elements, (e.g.
 layouts, buttons, UI plugins, etc.).
 ====
 

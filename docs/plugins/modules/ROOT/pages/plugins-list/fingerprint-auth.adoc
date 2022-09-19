@@ -88,7 +88,7 @@ fingerprintAuth
 
 NOTE: (OS only, falls back to `verifyFingerprint` on Android
 
-Instead of falling back to the default Passcode UI of iOS you can roll your own.
+Instead of falling back to the default Passcode UI of iOS, you can roll your own.
 Just show that when the error callback is invoked.
 
 [,typescript]
@@ -130,8 +130,8 @@ You can provide this value (the reason for using Face ID) by adding something li
 
 == Security{pp} (iOS)
 
-Since iOS9 it's possible to check whether or not the list of enrolled fingerprints changed since the last time you checked it.
-It's recommended you add this check so you can counter hacker attacks to your app.
+Since iOS 9, it's possible to check whether the list of enrolled fingerprints has changed since the last time you checked it.
+It's recommended you add this check, so you can counter hacker attacks to your app.
 See https://www.linkedin.com/pulse/fingerprint-trojan-per-thorsheim/[this article] for more details.
 
 So instead of checking the fingerprint after `available` add another check.

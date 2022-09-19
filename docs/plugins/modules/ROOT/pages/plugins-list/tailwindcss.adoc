@@ -4,10 +4,10 @@
 
 [WARNING]
 ====
-`@nativescript/core@8.2.0` is required for colors to work properly You may see wrong colors on older core versions, because Tailwind CSS v3 uses the RGB/A color notation, which has been implemented for 8.2.0 and prior versions don't support it.
+`@nativescript/core@8.2.0` is required for colors to work properly. You may see wrong colors on older core versions, because Tailwind CSS v3 uses the RGB/A color notation, which has been implemented for 8.2.0 and prior versions don't support it.
 ====
 
-Makes using https://tailwindcss.com/[Tailwind CSS] in NativeScript a whole lot easier!
+It Makes using https://tailwindcss.com/[Tailwind CSS] in NativeScript a lot easier!
 
 [,html]
 ----
@@ -127,7 +127,7 @@ Generate a `tailwind.config.js` with
 npx tailwindcss init
 ----
 
-Adjust content, darkMode, corePlugins plus any other settings you need, here are the values we recommend:
+Adjust content, `darkMode`, `corePlugins` plus any other settings you need; here are the values we recommend:
 
 [,js]
 ----

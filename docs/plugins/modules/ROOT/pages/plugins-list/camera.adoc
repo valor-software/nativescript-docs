@@ -5,7 +5,7 @@
 === Overview
 
 Almost every mobile application needs the option to capture, save and share images.
-The NativeScript camera plugin was designed for the first two parts of the job (taking a picture and optionally saving to device storage).
+The NativeScript camera plugin was designed for the first two parts of the job, (taking a picture and optionally saving to device storage).
 
 === Installation
 
@@ -37,7 +37,7 @@ Returns a Promise.
 Returns a Promise.
 
 | isAvailable()
-| Is the device camera available to use.
+| Is the device camera available to use?
 |===
 
 === CameraOptions
@@ -64,7 +64,7 @@ The actual image height will be greater than requested if the display density of
 | keepAspectRatio
 | true
 | Both
-| Defines if camera picture aspect ratio should be kept during picture resizing.
+| Defines if a camera picture aspect ratio should be kept during picture resizing.
 This property could affect width or height return values.
 
 | saveToGallery
@@ -94,7 +94,7 @@ Use `'front'` for selfies.
 The `saveToGallery` option might have unexpected behavior on Android!
 Some vendor camera apps (e.g.
 LG) will save all captured images to the gallery regardless of what the value of `saveToGallery` is.
-This behavior cannot be controlled by the camera plugin and if you must exclude the captured image from the photo gallery, you will need to get a local storage read/write permission and write custom code to find the gallery location and delete the new image from there.
+This behavior cannot be controlled by the camera plugin, and if you must exclude the captured image from the photo gallery, you will need to get a local storage read/write permission and write custom code to find the gallery location and delete the new image from there.
 ====
 
 == Usage
@@ -102,7 +102,7 @@ This behavior cannot be controlled by the camera plugin and if you must exclude 
 === Requesting permissions
 
 Both Android and iOS require explicit permissions in order for the application to have access to the camera and save photos to the device.
-Once the user has granted permissions the camera module can be used.
+Once the user has granted permissions, the camera module can be used.
 
 [,TypeScript]
 ----
@@ -122,7 +122,7 @@ requestPermissions().then(
 
 [NOTE]
 ====
-(*for Android*) Older versions of Android that don't use a request permissions popup won't be affected by the usage of the requestPermissions method.
+(*for Android*) Older versions of Android that don't use a request permission popup won't be affected by the usage of the `requestPermissions` method.
 ====
 
 [NOTE]
@@ -143,7 +143,7 @@ To do so, edit your `app/App_Resources/iOS/Info.plist` and add the following cla
 === Using the camera module to take a picture
 
 Using the camera module is relatively simple.
-However, there are some points that need a little bit more explanation.
+However, there are some points that need a little more explanation.
 
 In order to use the camera module, just require it, as shown in Example 1:
 
@@ -198,18 +198,18 @@ camera.takePicture()
 The code in *Example 2* will start the native platform camera application.
 After taking the picture and tapping the button `Save` (Android) or `use image` (iOS), the promise will resolve the `then` part and image asset will be set as `src` of the `ui/image` control.
 
-=== Using the options to take memory efficient picture
+=== Using the options for taking memory-efficient picture
 
 *Example 2* shows how to take a picture using the NativeScript camera module.
-However, it takes a huge image (even mid-level devices has a 5MP camera, which results in a image 2580x2048, which in bitmap means approximately 15 MB).
-In many cases you don't need such a huge picture to show an image with 100x100 size, so taking a big picture is just a waste of memory.
+However, it takes a huge image (even mid-level devices have a 5MP camera, which results in an image 2580x2048, which in bitmap means approximately 15 MB).
+In many cases, you don't need such a huge picture to show an image with 100x100 size, so taking a big picture is just a waste of memory.
 The camera takePicture() method accepts an optional parameter that could help in that case.
 With that optional parameter, you could set some properties like:
 
 * *width*: The desired width of the picture (in device independent pixels).
 * *height*: The desired height of the picture (in device independent pixels).
 * *keepAspectRatio*: A boolean parameter that indicates if the aspect ratio should be kept.
-* *saveToGallery*: A boolean parameter that indicates if the original taken photo will be saved in "Photos" for Android and in "Camera Roll" in iOS
+* *saveToGallery*: A boolean parameter that indicates if the original taken photo is saved in "Photos" for Android and in "Camera Roll" in iOS
 * *allowsEditing*: (iOS Only) A boolean parameter that indicates if the camera "Retake" or "Use Photo" screen forces the user to crop camera picture to a square and optionally lets them zoom in.
 * *cameraFacing*: Start with either the "front" or "rear" (default) camera of the device.
 The current implementation doesn't work on all Android devices, in which case it falls back to the default behavior.
@@ -217,15 +217,15 @@ The current implementation doesn't work on all Android devices, in which case it
 What does `device independent pixels` mean?
 The NativeScript layout mechanism uses device-independent pixels when measuring UI controls.
 This allows you to declare one layout and this layout will look similar to all devices (no matter the device's display resolution).
-In order to get a proper image quality for high resolution devices (like iPhone retina and Android Full HD), camera will return an image with bigger dimensions.
+In order to get a proper image quality for high resolution devices (like the iPhone Retina and Android Full HD), camera will return an image with bigger dimensions.
 For example, if we request an image that is 100x100, on iPhone 6 the actual image will be 200x200 (since its display density factor is 2 \-> 100__2x100__2).
-Setting the `keepAspectRatio` property could result in a different than requested width or height.
-The camera will return an image with the correct aspect ratio but generally only one (from width and height) will be the same as requested;
+Setting the `keepAspectRatio` property could result in a different from requested width or height.
+The camera will return an image with the correct aspect ratio, but generally only one (from width and height) will be the same as requested;
 the other value will be calculated in order to preserve the aspect of the original image.
 
-*Example 3* shows how to use the options parameter:
+*Example 3* shows how to use the `options` parameter:
 
-==== Example 3: How to setup `width`, `height`, `keepAspectRatio` and `saveToGallery` properties for the camera module
+==== Example 3: How to set up `width`, `height`, `keepAspectRatio` and `saveToGallery` properties for the camera module
 
 [,JavaScript]
 ----
@@ -297,7 +297,7 @@ source.fromAsset(imageAsset)
 
 This could be used to create thumbnails for quick display within your application.
 
-=== Check if the device has available camera
+=== Check if the device has an available camera
 
 The first thing that the developers should check if the device has an available camera.
 The method isAvaiable will return true if the camera hardware is ready to use or false if otherwise.

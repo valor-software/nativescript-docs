@@ -62,7 +62,7 @@ Below is an example of a basic secondary `package.json` file.
 
 See xref:guides::app-resources/app-resources.adoc[Understanding App_Resources].
 
-=== The platforms Directory
+=== The `platforms` Directory
 
 The `platforms` directory is created when you start a build by running the `ns run`,`ns build`, or `ns debug` or add a target platform(by running `ns platform add ios` or `ns platform add android`) to your project.
 The NativeScript tooling creates a new subdirectory with the respective platform name.
@@ -86,9 +86,9 @@ To be able to build for both Android and iOS, your App ID must be unique and con
 Each string must start with a letter and should contain only letters and numbers.
 The app identifier must not start with an uppercase letter.
 For more information about the App ID and how to specify different identifiers for iOS and Android, see What is App identifier.
-* `ns-android.version` - Specifies the version of the Android runtime.
+* `ns-android.version` — Specifies the version of the Android runtime.
 If the property is missing, the latest version of the runtime will be added on the first run or build for Android.
-* `ns-ios.version` - Specifies the version of the iOS runtime.
+* `ns-ios.version` — Specifies the version of the iOS runtime.
 If the property is missing, the latest version of the runtime will be added on the first run or build for iOS.
 Here is an example of a basic main `package.json` file:
 
@@ -109,7 +109,7 @@ Here is an example of a basic main `package.json` file:
 }
 ----
 
-=== The hooks Directory
+=== The `hooks` Directory
 
 The `hooks` folder exists only when the project depends on plugins that require a hook to function properly.
 Hooks are executable pieces of code or Node.js scripts that are used to alter or augment the behavior of an extendable NativeScript CLI command.
@@ -125,7 +125,7 @@ The available configurations are `appPath`, `appResourcesPath`, `overridePods` a
 
 The paths (`appPath`, `appResourcesPath`, `webpackConfigPath`) must be relative to the project root (where the `package.json` file and <<the-platforms-directory,platforms>> directory are located) in order for everything to work as expected.
 If `appPath` is omitted, the CLI will assume the application files are located inside a folder called app inside the project folder.
-If `appResourcesPath` is omitted, the CLI will assume that they are at their default location - a folder called `App_Resources` inside the folder containing the rest of the app files.
+If `appResourcesPath` is omitted, the CLI will assume that they are at their default location — a folder called `App_Resources` inside the folder containing the rest of the app files.
 The `webpackConfigPath` option allows you to specify the location of your webpack configuration file.
 If the value is not set, the CLI will use `webpack.config.js` file located at the root of the application.
 More information for `webpackConfigPath` option is available in custom webpack configuration article.
@@ -141,7 +141,7 @@ Let's assume the project is located at `/d/work/myApplication`.
 
 The first and default option is to not have an `nsconfig.json` file inside your project.
 In this case, the app will be located at `/d/work/myApplication/app` and the resources at `/d/work/myApplication/app/App_Resources`.
-CLI will look for `webpack.config.js` file as the `webpackConfigPath` is not set and it will not override any pods versions as `overridePods` is false by default.
+CLI will look for `webpack.config.js` file as the `webpackConfigPath` is not set, and it will not override any pods versions as `overridePods` is false by default.
 
 The second option is to specify only the app directory.
 The example given below will result in an app located at `/d/work/myApplication/code/src` and resources at `/d/work/myApplication/code/src/App_Resources`.

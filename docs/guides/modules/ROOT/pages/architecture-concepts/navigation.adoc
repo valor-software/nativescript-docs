@@ -20,7 +20,7 @@ This article demonstrates how you can implement these in NativeScript and combin
 
 image::../../assets/images/navigation/navigation-schema-forward.png[Forward navigation schema]
 
-Forward navigation can be also called *downward* navigation since you are going down in your navigation hierarchy.
+Forward navigation can also be called *downward* navigation since you are going down in your navigation hierarchy.
 There are two navigation components in NativeScript that enable implementing forward navigation - xref:components::frame.adoc[Frame] and xref:components::page.adoc[Page].
 A Frame represents a navigation controller that navigates through Page instances.
 
@@ -80,23 +80,25 @@ It also provides a navigation API which includes history manipulation and settin
 
 For the most basic forward navigation scenario, you need only these two features:
 
-* `defaultPage` attribute - use this attribute to declare the initial page module that is displayed.
-* `navigate()` method - use this method to force a navigation to another page module.
+* `defaultPage` attribute — use this attribute to declare the initial page module that is displayed.
+* `navigate()` method — use this method to force a navigation to another page module.
 
 The following example demonstrates the implementation of the rest of the forward navigation diagram above.
-There is a Frame declared as root component in the app-root module.
+There is a Frame declared as a root component in the app-root module.
 Upon load, the `Frame` will automatically navigate to the `featured-page` module.
 The `featured-page` module in turn has a button that navigates to the `item-page` module.
 
-// tab: app-root.xml
-
+[tabs]
+====
+app-root.xml::
++
 [,xml]
 ----
 <Frame id="featured" defaultPage="featured-page" />
 ----
 
-// tab: featured-page.xml
-
+featured-page.xml::
++
 [,xml]
 ----
 <Page>
@@ -108,8 +110,8 @@ The `featured-page` module in turn has a button that navigates to the `item-page
 </Page>
 ----
 
-// tab: featured-page.js
-
+featured-page.js::
++
 [,js]
 ----
 export function onTap(args) {
@@ -119,8 +121,8 @@ export function onTap(args) {
 }
 ----
 
-// tab: featured-page.ts
-
+featured-page.ts::
++
 [,ts]
 ----
 import { EventData, Button, Page } from '@nativescript/core'
@@ -131,6 +133,7 @@ export function onTap(args: EventData) {
   page.frame.navigate('item-page')
 }
 ----
+====
 
 == Backward Navigation
 
@@ -140,8 +143,10 @@ It can also be called upward navigation since you are going up in your navigatio
 This type of navigation represents the opposite direction of the forward navigation and is supported by the Frame API.
 To force a navigation back to the previous page module loaded in a Frame simply call its `goBack()` method.
 
-// tab:  item-page.xml
-
+[tabs]
+====
+item-page.xml::
++
 [,xml]
 ----
 <Page loaded="onPageLoaded">
@@ -154,8 +159,8 @@ To force a navigation back to the previous page module loaded in a Frame simply 
 </Page>
 ----
 
-// tab:  item-page.js
-
+item-page.js::
++
 [,js]
 ----
 export function onPageLoaded(args) {
@@ -169,8 +174,8 @@ export function onTap(args) {
 }
 ----
 
-// tab:  item-page.ts
-
+item-page.ts::
++
 [,ts]
 ----
 import { EventData, Button, Page } from '@nativescript/core'
@@ -185,6 +190,7 @@ export function onTap(args: EventData) {
   page.frame.goBack()
 }
 ----
+====
 
 [NOTE]
 ====
@@ -286,7 +292,7 @@ Here is a diagram that demonstrates how the navigation schema can be implemented
 === Modal View Navigation
 
 Opening a new *Frame* as a full screen modal view is a very common mobile navigation pattern.
-In this context opening the modal view represents lateral navigation to a new feature.
+In this context, opening the modal view represents lateral navigation to a new feature.
 You can then leverage the embedded *Frame* to navigate forward and backward in this feature.
 Closing the modal will navigate laterally back to where the modal view was opened from.
 Below is a diagram that displays how the navigation schema can be implemented using modal views.
@@ -295,9 +301,9 @@ image::../../assets/images/navigation/navigation-diagram-modal.png[Modal View Na
 
 Each UI component in NativeScript provides two methods for managing modal views:
 
-* `showModal()` - opens a modal view on top of the Page the UI component is part of.
-* `closeModal()` - closes the modal view that the UI component is part of.
-To open a modal view you should simply call the `showModal()` method of any UI component instance with a path to the modal root module as parameter.
+* `showModal()` — opens a modal view on top of the Page the UI component is part of.
+* `closeModal()` — closes the modal view that the UI component is part of.
+To open a modal view, you should simply call the `showModal()` method of any UI component instance with a path to the modal root module as parameter.
 
 The following code sample demonstrates how you can implement the Search modal view and page from the diagram above.
 
@@ -399,8 +405,8 @@ export function closeModal(args: EventData) {
 
 [NOTE]
 ====
-In the current scenario the Search feature has only one page and it's possible to implement it directly in the modal view without embedding a Frame in `search-root`.
-However, in this case there won't be a navigation controller in the modal view and therefore, no ActionBar.
+In the current scenario the Search feature has only one page, and it's possible to implement it directly in the modal view without embedding a Frame in `search-root`.
+However, in this case there won't be a navigation controller in the modal view and, therefore, no ActionBar.
 ====
 
 === SideDrawer Navigation
@@ -411,8 +417,8 @@ There are a lot of navigation patterns that can be implemented using a SideDrawe
 You can use the RadSidedrawer or https://github.com/nativescript-community/ui-drawer[@nativescript-community/ui-drawer] plugin for sidedrawer navigation.
 A typical usage would be to add UI controls and have them do one of two things:
 
-* *Forward navigation* - get a reference to a navigation Frame and navigate in it.-
-* *Lateral navigation* - open a modal view.
+* *Forward navigation* — get a reference to a navigation Frame and navigate in it.-
+* *Lateral navigation* — open a modal view.
 The simplest navigation pattern that you can implement is again the hub navigation pattern, but this time with the `SideDrawer` serving as the hub.
 
 image::../../assets/images/navigation/navigation-diagram-drawer-hub.png[Sidedrawr]
@@ -431,9 +437,9 @@ image:../../assets/images/navigation/navigation-diagram-drawer.png[Sidedrawer wi
 
 == Nested Navigation
 
-The main goal of this section is to demonstrate some good practices for creating nested navigation structure.
-It does not aim to be a strict guide, but will help you to understand how you could create complex navigation structures while using forward (e.g., frames or outlets) & lateral navigation (e.g., drawers, tabs, bottom navigation, etc.).
-In each of the sub sections, you can find visual guides.
+The main goal of this section is to demonstrate some good practices for creating a nested navigation structure.
+It does not aim to be a strict guide but will help you to understand how you could create complex navigation structures while using forward (e.g., frames or outlets) & lateral navigation (e.g., drawers, tabs, bottom navigation, etc.).
+In each of the subsections, you can find visual guides.
 
 === Simple Rule
 
@@ -455,7 +461,7 @@ You can check out how this is done in the examples below.
 image::../../assets/images/navigation/navigation-examples-page-1.png[Nesting Simple Forward Navigation]
 
 Nesting simple forward navigation: a `Frame` in a layout, for example, to show an advertisement banner on the top/bottom (static content).
-The root page is using a layout (e.g., a xref:components::index.adoc#gridlayout[GridLayout]) as a wrapper for the nested forward navigation (Frame) and for the static content (layout).
+The root page is using a layout, (e.g., a xref:components::index.adoc#gridlayout[GridLayout]) as a wrapper for the nested forward navigation (Frame) and for the static content (layout).
 
 ----
 GridLayout
@@ -472,7 +478,7 @@ image:../../assets/images/navigation/navigation-examples-page-3.png[navigation-e
 ====
 Each Frame comes with its own xref:components::actionbar.adoc[ActionBar] by default.
 It's typical that you want to keep one ActionBar on top of the screen when nesting navigations.
-Set the `actionBarVisibility` property of the Frame to never to hide the ActionBar where needed.
+Set the `actionBarVisibility` property of the Frame to never hide the ActionBar where needed.
 ====
 
 ----

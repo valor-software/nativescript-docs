@@ -7,7 +7,7 @@ You can use this plugin to compose an e-mail, have the user edit the draft manua
 [NOTE]
 ====
 This plugin depends on the default mail app.
-If you want a fallback to a third party client app like Gmail or Outlook, then check for availability, and if not available use a solution like https://github.com/tjvantoll/nativescript-social-share[the Social Share plugin].
+If you want a fallback to a third party client app like Gmail or Outlook, then check for availability, and if not available, use a solution like https://github.com/tjvantoll/nativescript-social-share[the Social Share plugin].
 ====
 
 [,cli]
@@ -19,7 +19,7 @@ ns plugin add @nativescript/email
 
 === API
 
-To use this plugin you must first require/import it:
+To use this plugin, you must first require/import it:
 
 
 ==== TypeScript
@@ -112,7 +112,7 @@ Check out https://www.youtube.com/watch?v=fSnQb9-Gtdk[this tutorial (YouTube)] t
 
 == Known issues
 
-On iOS you can't use the simulator to test the plugin because of an iOS limitation.
+On iOS, you can't use the simulator to test the plugin because of an iOS limitation.
 To prevent a crash this plugin returns `false` when `available` is invoked on the iOS sim.
 
 == License

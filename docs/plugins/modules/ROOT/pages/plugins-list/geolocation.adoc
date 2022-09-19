@@ -54,7 +54,7 @@ The best way to explore the usage of the plugin is to inspect the demo app in th
 In `demo` folder you can find the usage of the plugin for TypeScript non-Angular application.
 Refer to `demo/app/main-page.ts`.
 
-In short here are the steps:
+In short, here are the steps:
 
 === Import the plugin
 
@@ -135,7 +135,7 @@ Using a coarse accuracy such as this often consumes less power.
 | No filter
 | Update distance filter in meters.
 Specifies how often to update the location.
-Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1423500-distancefilter?language=objc[Apple document] and/or https://developers.google.com/android/reference/com/google/android/gms/location/LocationRequest.html#setSmallestDisplacement(float)[Google documents]
+Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1423500-distancefilter?language=objc[an Apple document] and/or https://developers.google.com/android/reference/com/google/android/gms/location/LocationRequest.html#setSmallestDisplacement(float)[Google documents]
 
 | updateTime
 | 1 minute
@@ -158,13 +158,13 @@ Read more in https://developers.google.com/android/reference/com/google/android/
 | iosAllowsBackgroundLocationUpdates
 | false
 | If enabled, UIBackgroundModes key in info.plist is required (check the hint below).
-Allow the application to receive location updates in background (ignored on Android).
-Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1620568-allowsbackgroundlocationupdates?language=objc[Apple document]
+Allow the application to receive location updates in a background (ignored on Android).
+Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1620568-allowsbackgroundlocationupdates?language=objc[an Apple documentation]
 
 | iosPausesLocationUpdatesAutomatically
 | true
 | Allow deactivation of the automatic pause of location updates (ignored on Android).
-Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1620553-pauseslocationupdatesautomatical?language=objc[Apple document]
+Read more in https://developer.apple.com/documentation/corelocation/cllocationmanager/1620553-pauseslocationupdatesautomatical?language=objc[an Apple documentation]
 |===
 
 === Methods
@@ -194,11 +194,11 @@ Parameter expected is the watchId returned from `watchLocation`.
 
 | enableLocationRequest(always?: boolean, openSettingsIfLocationHasBeenDenied?: boolean)
 | Promise<void>
-| Ask for permissions to use location services.
+| Ask for permission to use location services.
 On iOS when `always` is true, it opens a custom prompt message and the following keys are required: https://developer.apple.com/documentation/bundleresources/information_property_list/nslocationalwaysandwheninuseusagedescription[NSLocationAlwaysAndWhenInUseUsageDescription] (iOS 11.0+) OR https://developer.apple.com/documentation/bundleresources/information_property_list/nslocationalwaysusagedescription?language=objc[NSLocationAlwaysUsageDescription] (iOS 8.0-10.0) and https://developer.apple.com/documentation/bundleresources/information_property_list/nslocationwheninuseusagedescription[NSLocationWhenInUseUsageDescription].
-Read more about https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization[request always usage] On Android always (ACCESS_BACKGROUND_LOCATION) permission needs to be requeseted for SDK >= 29.
+Read more about https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization[request usage] on Android ACCESS_BACKGROUND_LOCATION permission always needs to be requested for SDK >= 29.
 Read about Android location permissions https://developer.android.com/training/location/permissions[here].
-On Android SDK >= 29 the user gets prompted a system dialog with the option 'allow all the time' when the always option is selected https://developer.android.com/training/location/permissions#request-background-location[read more] When `openSettingsIfLocationHasBeenDenied` is true and the permission has previously been denied then the settings app will open so the user can change the location services permission.
+On Android SDK >= 29 the user gets prompted a system dialog with the option 'allow all the time' when the `always` option is selected https://developer.android.com/training/location/permissions#request-background-location[read more] When `openSettingsIfLocationHasBeenDenied` is true and the permission has previously been denied then the settings app will open so the user can change the location services permission.
 
 | isEnabled
 | Promise<boolean>
@@ -214,14 +214,14 @@ Returns the distance in meters.
 
 === Version Conflicts -- Google Play Services
 
-If you have installed multiple plugins that use the Google Play Services you might run into version conflicts.
+If you have installed multiple plugins that use the Google Play Services, you might run into version conflicts.
 For example, you may encounter the error below when using the https://github.com/dapriett/nativescript-google-maps-sdk[nativescript-google-maps-sdk] plugin:
 
 ----
 Cannot enable the location service. Error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/android/gms/internal/zzbck;
 ----
 
-In order to fix this you might pin the version number in your `app/App_Resources/Android/before-plugins.gradle` file (if the file does not exist, just create it):
+To fix this, you might pin the version number in your `app/App_Resources/Android/before-plugins.gradle` file (if the file does not exist, just create it):
 
 [,gradle]
 ----
@@ -236,7 +236,7 @@ android {
 
 === Android API level 30 - openSettingsIfLocationHasBeenDenied
 
-If the user has declined the permission twice during the installation lifetime of the app on Android API level 30 , the user won't be taken to the settings even if the `openSettingsIfLocationHasBeenDenied` option is true for `enableLocationRequest()`.
+If the user has declined the permission twice during the installation lifetime of the app on Android API level 30, the user won't be taken to the settings even if the `openSettingsIfLocationHasBeenDenied` option is true for `enableLocationRequest()`.
 
 == License
 

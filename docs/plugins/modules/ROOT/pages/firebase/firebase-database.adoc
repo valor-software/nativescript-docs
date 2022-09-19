@@ -9,9 +9,9 @@ npm install @nativescript/firebase-database
 
 == What does it do
 
-Before using Firebase Database, you must first have ensured you have initialized Firebase.
+Before using the Firebase Database, you must first have ensured you have initialized Firebase.
 
-To create a new Firebase Database instance, call the database method on the firebase instance as follow:
+To create a new Firebase Database instance, call the database method on the firebase instance as follows:
 
 [,ts]
 ----
@@ -22,7 +22,7 @@ const database = firebase().database()
 ----
 
 By default, this allows you to interact with Firebase Database using the default Firebase App used whilst installing Firebase on your platform.
-If however you'd like to use a secondary Firebase App, pass the secondary app instance when calling the database method:
+If, however, you'd like to use a secondary Firebase App, pass the secondary app instance when calling the database method:
 
 [,ts]
 ----
@@ -48,7 +48,7 @@ To learn more, view the https://firebase.google.com/docs/database?utm_source=nat
 
 === References
 
-A core concept to understanding Realtime Database are references - a reference to a specific node within your database.
+A core concept to understand Realtime Database is references — a reference to a specific node within your database.
 A node can be a specific property or sub-nodes.
 
 To create a Reference, call the ref method:
@@ -62,10 +62,10 @@ const reference = firebase().database().ref('/users/123')
 
 === Reading data
 
-The Realtime Data provides the ability to read the value of a reference as a one-time read, or realtime changes to the node.
+The Realtime Data provide the ability to read the value of a reference as a one-time read, or realtime changes to the node.
 When a value is read from the database, the API returns a DataSnapshot.
 
-The snapshot includes information such as whether the reference node exists, it's value or any children the node has and more.
+The snapshot includes information such as whether the reference node exists; it's value or any children the node has and more.
 
 === One-time read
 
@@ -86,7 +86,7 @@ firebase()
 
 === Realtime changes
 
-To setup an active listener to react to any changes to the node and it's children, call the on method with an event handler:
+To set up an active listener to react to any changes to the node and it's children, call the on method with an event handler:
 
 [,ts]
 ----
@@ -154,9 +154,9 @@ If your application requires more advanced query capabilities, it is recommended
 === Ordering
 
 By default, results are ordered based on the node keys.
-If however you are using custom keys you can use one of the orderByX methods to order your data.
+If, however, you are using custom keys, you can use one of the orderByX methods to order your data.
 
-For example, if all of the nodes children are scalar values (string, number or boolean) you can use the orderByValue method, and Firebase will automatically order the results.
+For example, if all the nodes children are scalar values (string, number or boolean,) you can use the orderByValue method, and Firebase will automatically order the results.
 The example below would return the def node before the abc node:
 
 [,ts]
@@ -202,12 +202,12 @@ await firebase().database().ref('users').orderByChild('age').startAt(21).once('v
 
 === Writing data
 
-The https://firebase.google.com/docs/database/web/structure-data[Firebase documentation] provides great examples on best practices on how to structure your data.
+The https://firebase.google.com/docs/database/web/structure-data[Firebase documentation] provides great examples of the best practices on how to structure your data.
 We highly recommend reading the guide before building out your database.
 
 ==== Setting data
 
-The set method on a Reference overwrites all of the existing data at that reference node.
+The set method on a Reference overwrites all the existing data at that reference node.
 The value can be anything;
 a string, number, object etc:
 
@@ -247,10 +247,10 @@ firebase()
 
 === Pushing data
 
-Currently the examples have only demonstrated working with known reference node keys (e.g.
+Currently, the examples have only demonstrated working with known reference node keys (e.g.
 /users/123).
 In some cases, you may not have a suitable id or may want Firebase to automatically create a node with a generated key.
-The push method returns a ThenableReference, allowing you to observe a node before it is sent to remote Firebase database.
+The push method returns a ThenableReference, allowing you to observe a node before it is sent to a remote Firebase database.
 
 The push method will automatically generate a new key if one is not provided:
 
@@ -293,7 +293,7 @@ await firebase().database().ref('/users/123').set(null)
 
 === Transactions
 
-Transactions are a way to always ensure a write occurs with the latest information available on the server.
+Transactions are a way to always ensure a writing occurs with the latest information available on the server.
 Transactions never partially apply writes & all writes execute at the end of a successful transaction.
 
 Imagine a scenario whereby an app has the ability to "Like" user posts.

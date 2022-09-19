@@ -57,7 +57,7 @@ Http.getFile('https://d1lfyz5kwt8vu9.cloudfront.net/nativescript-logo-2021.png')
 
 [WARNING]
 ====
-By default the file will be saved in Documents folder.
+By default, the file will be saved in Documents folder.
 ====
 
 In the `getFile` method we could also specify the path, where the file to be saved.
@@ -83,7 +83,7 @@ Http.getFile(
 == getImage
 
 The `getImage` method allows us to get an image from a specific URL.
-The returned object will be ImageSource and it could be used for direct displaying the source into Image view in your UI.
+The returned object will be ImageSource, and it could be used for direct displaying the source into Image view in your UI.
 
 [,typescript]
 ----

@@ -8,11 +8,14 @@ There is also a `DateTimePicker` class which provides static methods `pickDate` 
 
 == Screenshots
 
-//TODO: download images
+|===
+| image:https://raw.githubusercontent.com/NativeScript/nativescript-datetimepicker/master/docs/date_picker_field.png[DatePickerField on iOS (left) and Android (right),500px]
+| image:https://raw.githubusercontent.com/NativeScript/nativescript-datetimepicker/master/docs/time_picker_field.png[TimePickerField on iOS (left) and Android (right),500px]
+|===
 
-image::https://raw.githubusercontent.com/NativeScript/nativescript-datetimepicker/master/docs/date_picker_field.png[DatePickerField on iOS (left) and Android (right),500px]
 
-image::https://raw.githubusercontent.com/NativeScript/nativescript-datetimepicker/master/docs/time_picker_field.png[TimePickerField on iOS (left) and Android (right),500px]
+
+
 
 [,cli]
 ----
@@ -40,7 +43,7 @@ To use one of the UI elements `DatePickerField`, `TimePickerField` or `DateTimeP
 ...
 ----
 
-* If you are developing a NativeScript Angular app, you need to import the plugin module in the module of your component:
+* If you are developing a NativeScript Angular app, you need to import the plugin module into the module of your component:
 
 [,ts]
 ----
@@ -67,7 +70,7 @@ Then you will be able to declare the fields in the html of your component:
 ></DateTimePickerFields>
 ----
 
-* If you are developing a NativeScript Vue app, you need to install the plugin in you app.js file:
+* If you are developing a NativeScript Vue app, you need to install the plugin in your `app.js` file:
 
 [,js]
 ----
@@ -117,7 +120,7 @@ Changing these values is demonstrated in the https://github.com/NativeScript/nat
 
 * Localization
 
-By default the `DatePickerField` and the `TimePickerField` will use the current language and region settings of the device to determine their locale.
+By default, the `DatePickerField` and the `TimePickerField` will use the current language and region settings of the device to determine their locale.
 The locale is used for the names of the months, for the date picking spinners order (the month selector can be either the first or the second spinner) and whether the time is in 12h or 24h format.
 Both fields have a `locale` property that accepts values in the format specified https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html[here] as Locale ID.
 For example, using `en_GB` will result in month names spinner in the middle and values between 0 and 23 for the hours, while using `en_US` will result in month names spinner on the left and values between 1 and 12 for the hours.
@@ -136,7 +139,7 @@ This is demonstrated in the https://github.com/NativeScript/nativescript-datetim
 
 * Using 12 h and 24 h Time Formats
 
-The `TimePickerField` will determine whether to use 12 or 24 hour format (for formatting of the selected time in the field and for the values of the hour spinner) based on the selected region in the settings of the iOS device and based on the Use 24-Hour Format settings of the Android device.
+The `TimePickerField` will determine whether to use 12- or 24-hour format (for formatting of the selected time in the field and for the values of the hour spinner) based on the selected region in the settings of the iOS device and based on the Use 24-Hour Format settings of the Android device.
 To change the default setting on Android, you need to use the `timeFormat` property and to change the setting on iOS, you need to use the `locale` property.
 Here's an example in the https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo/app/home/home-page.xml#L66[demo], https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-angular/src/app/home/home.component.html#L61[demo-angular] and https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-vue/app/components/Home.vue#L63[demo-vue] applications.
 
@@ -144,15 +147,15 @@ Here's an example in the https://github.com/NativeScript/nativescript-datetimepi
 
 You can use css to style the `DatePickerField` and the `TimePickerField`.
 The field itself can be styled just as every other `TextField`, additionally the picker supports changing of its colors through predefined css classes: `date-time-picker` (picker background and title text color), `date-time-picker-spinners` (background and text color of the date/time selecting spinners), `date-time-picker-buttons` (background and text color of the OK/Cancel buttons), `date-time-picker-button-ok` and `date-time-picker-button-cancel` (to provide a separate style for each button).
-Please note that the iOS native implementation has limited capabilities for the buttons background colors.
+Please note that the iOS native implementation has limited capabilities for the button background colors.
 When a button is marked as a Cancel button, its background is always white and can't be changed.
-If you really need a cancel button with another color, you can pass a background color through the designated cancel button class, however this will change the picker layout and place the cancel button along with the OK button and they will both have the same background color.
+If you really need a cancel button with another color, you can pass a background color through the designated cancel button class. However, this will change the picker layout and place the cancel button along with the OK button, and they will both have the same background color.
 
 image::https://raw.githubusercontent.com/NativeScript/nativescript-datetimepicker/master/docs/date_picker_field_css.png[DatePickerField with CSS applied on iOS (left) and Android (right),500px]
-
+//TODO: download images
 Here's the css used to achieve the above result, as used in the https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo/app/home/home-page.css#L22[demo], https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-angular/src/app/home/home.component.css#L22[demo-angular] and https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-vue/app/components/Home.vue#L350[demo-vue] applications.
 
-To apply styles at runtime when opening the DateTimePicker you can do the following:
+To apply styles at runtime, when opening the DateTimePicker you can do the following:
 
 [,ts]
 ----
@@ -235,7 +238,7 @@ Changing these values is demonstrated in the https://github.com/NativeScript/nat
 
 * Localization
 
-By default the `DateTimePickerFields` will use the current language and region settings of the device to determine their locale.
+By default, the `DateTimePickerFields` will use the current language and region settings of the device to determine their locale.
 The locale is used for the names of the months, for the date picking spinners order (the month selector can be either the first or the second spinner) and whether the time is in 12h or 24h format.
 Both fields have a `locale` property that accepts values in the format specified https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LanguageandLocaleIDs/LanguageandLocaleIDs.html[here] as Locale ID.
 For example, using `en_GB` will result in month names spinner in the middle and values between 0 and 23 for the hours, while using `en_US` will result in month names spinner on the left and values between 1 and 12 for the hours.
@@ -250,12 +253,12 @@ Changing the default formats is demonstrated in the https://github.com/NativeScr
 * Minimum and Maximum Dates
 
 The `DateTimePickerFields` has a `minDate` and `maxDate` properties that allow limiting the values that can be selected.
-Note that the values of these properties have effect only on the date component, while the time component can not be limited - it will always allow any hour for any given date.
+Note that the values of these properties have effect only on the date component, while the time component can not be limited — it will always allow any hour for any given date.
 This is demonstrated in the https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo/app/home/home-page.xml#L113[demo], https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-angular/src/app/home/home.component.html#L108[demo-angular] and https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-vue/app/components/Home.vue#L110[demo-vue] applications.
 
 * Using 12 h and 24 h Time Formats
 
-The time component will determine whether to use 12 or 24 hour format (for formatting of the selected time in the field and for the values of the hour spinner) based on the selected region in the settings of the iOS device and based on the Use 24-Hour Format settings of the Android device.
+The time component will determine whether to use 12- or 24-hour format (for formatting of the selected time in the field and for the values of the hour spinner) based on the selected region in the settings of the iOS device and based on the use of 24-Hour Format settings of the Android device.
 To change the default setting on Android, you need to use the `timeFormat` property and to change the setting on iOS, you need to use the `locale` property.
 Here's an example in the https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo/app/home/home-page.xml#L118[demo], https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-angular/src/app/home/home.component.html#L113[demo-angular] and https://github.com/NativeScript/nativescript-datetimepicker/blob/master/demo-vue/app/components/Home.vue#L115[demo-vue] applications.
 
@@ -302,13 +305,13 @@ Parsing of dates is handled similarly as with `date` property.
 Parsing of dates is handled similarly as with `date` property.
 
 | `pickerTitle`
-| Text that will be displayed as title of the picker, default is undefined.
+| Text that will be displayed as the title of the picker, default is undefined.
 
 | `pickerOkText`
-| Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on android (based on the devices locale settings)).
+| Text for the confirmation button of the picker (default is OK on iOS, a localized version of OK on android (based on the devices locale settings)).
 
 | `pickerCancelText`
-| Text for the cancel button of the picker (default is Cancel on iOS, localized version of Cancel on android (based on the devices locale settings)).
+| Text for the cancel button of the picker (default is Cancel on iOS, a localized version of Cancel on android (based on the devices locale settings)).
 |===
 
 === TimePickerField API
@@ -323,10 +326,10 @@ When used in markup, the provided string will be parsed to a new `Date` object i
 
 | `locale`
 | Identifier of a locale that will be used to create locale-specific time formatter of the time (if the format is 12-Hour, with de_DE locale "`vorm.`"/`"nachm.`" will be used to show whether time is before/after noon, with en_US locale "`am`"/`"pm`" will be used) (default is based on the device's locale settings).
-The locale will also be used on iOS to determine whether the picker will be in 12 or 24 hour format.
+The locale will also be used on iOS to determine whether the picker will be in 12- or 24-hour format.
 
 | `timeFormat`
-| Format used for the text in the picker field (on android used as a pattern for a https://developer.android.com/reference/java/text/SimpleDateFormat[SimpleDateFormat], on iOS used as a dateFormat for https://developer.apple.com/documentation/foundation/nsdateformatter[NSDateFormatter], default is generated by the current value of the locale property), the format will also be used on Android to determine whether the picker will be in 12 or 24 hour format.
+| Format used for the text in the picker field (on android used as a pattern for a https://developer.android.com/reference/java/text/SimpleDateFormat[SimpleDateFormat], on iOS used as a dateFormat for https://developer.apple.com/documentation/foundation/nsdateformatter[NSDateFormatter], default is generated by the current value of the locale property), the format will also be used on Android to determine whether the picker will be in 12- or 24-hour format.
 
 | `pickerDefaultTime`
 | The time that will be displayed in the picker, if it is opened while time is undefined (if defaultTime is undefined, the picker will display now).
@@ -336,10 +339,10 @@ Parsing is handled similarly as with `time` property.
 | Text that will be displayed as title of the picker, default is undefined.
 
 | `pickerOkText`
-| Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on android (based on the devices locale settings)).
+| Text for the confirmation button of the picker (default is OK on iOS, a localized version of OK on android (based on the devices locale settings)).
 
 | `pickerCancelText`
-| Text for the cancel button of the picker (default is Cancel on iOS, localized version of Cancel on android (based on the devices locale settings)).
+| Text for the cancel button of the picker (default is Cancel on iOS, a localized version of Cancel on android (based on the devices locale settings)).
 |===
 
 === DateTimePickerFields API
@@ -362,13 +365,13 @@ Parsing of dates is handled similarly as with `date` property.
 
 | `locale`
 | Identifier of a locale that will be used to localize the names of the month names, the order of the date spinners (with `en_GB` first spinner is day, with `en_US` first spinner is month), and to create locale-specific time formatter of the time (if the format is 12-Hour, with de_DE locale "`vorm.`"/`"nachm.`" will be used to show whether time is before/after noon, with en_US locale "`am`"/`"pm`" will be used) (default is based on the device's locale settings).
-The locale will also be used on iOS to determine whether the picker will be in 12 or 24 hour format.
+The locale will also be used on iOS to determine whether the picker will be in 12- or 24-hour format.
 
 | `dateFormat`
 | Format used for the text in the picker field (on android used as a pattern for a https://developer.android.com/reference/java/text/SimpleDateFormat[SimpleDateFormat], on iOS used as a dateFormat for https://developer.apple.com/documentation/foundation/nsdateformatter[NSDateFormatter], default is generated by the current value of the `locale` property).
 
 | `timeFormat`
-| Format used for the text in the picker field (on android used as a pattern for a https://developer.android.com/reference/java/text/SimpleDateFormat[SimpleDateFormat], on iOS used as a dateFormat for https://developer.apple.com/documentation/foundation/nsdateformatter[NSDateFormatter], default is generated by the current value of the locale property), the format will also be used on Android to determine whether the picker will be in 12 or 24 hour format.
+| Format used for the text in the picker field (on android used as a pattern for a https://developer.android.com/reference/java/text/SimpleDateFormat[SimpleDateFormat], on iOS used as a dateFormat for https://developer.apple.com/documentation/foundation/nsdateformatter[NSDateFormatter], default is generated by the current value of the locale property), the format will also be used on Android to determine whether the picker will be in 12- or 24-hour format.
 
 | `pickerDefaultDate`
 | The date and time that will be displayed in the pickers, if opened while `date` is `undefined` (if `pickerDefaultDate` is undefined, the picker will display now).
@@ -381,10 +384,10 @@ Parsing of dates is handled similarly as with `date` property.
 | Text that will be displayed as title of the picker, when the time component is tapped, default is undefined.
 
 | `pickerOkText`
-| Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on android (based on the devices locale settings)).
+| Text for the confirmation button of the picker (default is OK on iOS, a localized version of OK on android (based on the devices locale settings)).
 
 | `pickerCancelText`
-| Text for the cancel button of the picker (default is Cancel on iOS, localized version of Cancel on android (based on the devices locale settings)).
+| Text for the cancel button of the picker (default is Cancel on iOS, a localized version of Cancel on android (based on the devices locale settings)).
 
 | `autoPickTime`
 | Value that indicates whether the time component should be assigned a value as soon as a date is picked by the date component, default is false.
@@ -437,7 +440,7 @@ Parsing of dates is handled similarly as with `date` property.
 | Identifier of a locale that will be used to localize the names of the month names and also the order of the spinners (with `en_GB` first spinner is day, with `en_US` first spinner is month, default is based on the device's locale settings).
 
 | `title`
-| Text that will be displayed as title of the picker, default is undefined.
+| Text to be displayed as the title of the picker; default is undefined.
 
 | `okButtonText`
 | Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on android (based on the devices locale settings)).
@@ -455,23 +458,23 @@ Parsing of dates is handled similarly as with `date` property.
 | View's context.
 
 | `time`
-| The time that will be displayed in the picker, (if not provided, the picker will display now).
+| The time that will be displayed in the picker (if not provided, the picker will display now).
 
 | `is24Hours`
-| This value will be used only on Android to determine whether the picker will be in 12 or 24 hour format.
+| This value will be used only on Android to determine whether the picker will be in 12- or 24-hour format.
 
 | `locale`
 | Identifier of a locale that will be used to create locale-specific time formatter of the time (with `de_DE` locale "`vorm.`"/`"nachm.`" will be used to show whether time is before/after noon, with `en_US` locale "`am`"/`"pm`" will be used, default is based on the device's locale settings).
-The locale will also be used on iOS to determine whether the picker will be in 12 or 24 hour format.
+The locale will also be used on iOS to determine whether the picker will be in 12- or 24-hour format.
 
 | `title`
-| Text that will be displayed as title of the picker, default is undefined.
+| Text that will be displayed as the title of the picker, default is undefined.
 
 | `okButtonText`
-| Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on android (based on the devices locale settings)).
+| The Text for the confirmation button of the picker (default is OK on iOS, localized version of OK on Android (based on the devices locale settings)).
 
 | `cancelButtonText`
-| Text for the cancel button of the picker (default is Cancel on iOS, localized version of Cancel on android (based on the devices locale settings)).
+| The Text for the cancel button of the picker (default is Cancel on iOS, a localized version of Cancel on Android (based on the devices locale settings)).
 |===
 
 *DateTimePickerStyle*:
@@ -511,7 +514,7 @@ The locale will also be used on iOS to determine whether the picker will be in 1
 
 | `create(view: View)`
 | Creates a style based on any css provided.
-The parameter is a View with the properly setup css class name.
+The parameter is a View with the properly setup CSS class name.
 |===
 
 == License

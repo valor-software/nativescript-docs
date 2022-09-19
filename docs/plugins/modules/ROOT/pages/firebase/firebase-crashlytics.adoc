@@ -52,7 +52,7 @@ crashlytics().setAttributes({
 
 === Error Reports
 
-Even if you catch unexpected errors, in order for your app to recover and behave smoothly you can still report them through Crashlytics using the recordError method.
+Even if you catch unexpected errors, in order for your app to recover and behave smoothly, you can still report them through Crashlytics using the recordError method.
 This will also provide you with the associated stack trace.
 
 [,ts]
