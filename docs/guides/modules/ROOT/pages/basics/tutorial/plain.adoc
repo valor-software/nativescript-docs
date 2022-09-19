@@ -25,14 +25,14 @@ You can find the complete source code of the application on https://github.com/N
 
 == Set up your environment
 
-To set up your development environment, follow the instructions in the link:/environment-setup[Environment Setup] section of the docs.
+To set up your development environment, follow the instructions in the xref:guides::basics/environment-setup.adoc[Environment Setup] section of the docs.
 
 == Create a new NativeScript application
 
 We will be using Typescript for this tutorial.
 To create a new NativeScript Typescript application, run the CLI command `ns create` with the name of the application followed by `--ts`.
 
-[,cli]
+[source%linenums,cli]
 ----
 ns create example-app --ts
 ----
@@ -44,7 +44,7 @@ This can take a few minutes and should be ready to run once it's done installing
 
 Go to the project's directory and run the following command to run it on the respective platforms.
 
-[,cli]
+[source%linenums,cli]
 ----
 cd example-app
 
@@ -93,7 +93,7 @@ Let's start with creating the file for our home feature with the following conte
 ====
 home-page.ts::
 +
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/home/home-page.ts
 
@@ -112,7 +112,7 @@ export function navigatingTo(args: NavigatedData): void {
 
 home-view-model.ts::
 +
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/home/home-view-model.ts
 
@@ -123,7 +123,7 @@ export class HomeViewModel extends Observable {}
 
 home-page.xml::
 +
-[,xml]
+[source%linenums,xml]
 ----
 <!-- app/home/home-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" />
@@ -136,7 +136,7 @@ We will be setting up the home page as our default route when the app starts.
 We can set the default route by passing the path in our home page file to the `defaultPage` property of the root's `Frame` component.
 Open `app-root.xml` and add the following code:
 
-[,xml]
+[source%linenums,xml]
 ----
 <!-- app/app-root.xml -->
 <Frame defaultPage="home/home-page" />
@@ -151,7 +151,7 @@ This will allow us to use the data directly in our template.
 Create a `models` directory inside `app` and create a new file called `flick.model.ts`.
 Open the new `flick.model.ts` and add the following `interface`:
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/models/flick.model.ts
 
@@ -173,7 +173,7 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 Create a `services` directory inside `app` and create a new file called `flick.service.ts`.
 Open the new `flick.service.ts` and add the following:
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/services/flick.service.ts
 
@@ -295,7 +295,7 @@ The home page can be divided into two main parts, the action bar with the title 
 Let's start with creating the action bar with the title.
 Open `home-page.xml` and add the following code:
 
-[,xml]
+[source%linenums,xml]
 ----
 <!-- app/home/home-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
@@ -308,10 +308,7 @@ Since we have an array of flicks to display, we can use the NativeScript's https
 Let's first create a variable called flick in our home component that we are going to use as our ``ListView``'s data source.
 Open `home-view-model.ts` and add the following:
 
-
-//TODO: Fix line highlight
-
-[,typescript{9-23}]
+[source%linenums,typescript{9-23}]
 ----
 // app/home/home-view-model.ts
 
@@ -341,7 +338,7 @@ export class HomeViewModel extends Observable {
 
 Next, add the `ListView` component:
 
-[,xml{6-12}]
+[source%linenums,xml{6-12}]
 ----
 <!-- app/home-page/home-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
@@ -369,7 +366,7 @@ Before we dive into creating the card below, let's create some classes for our b
 As this will be shared throughout the application, let's add this to the `app.css`.
 Open `app.css` and add the following:
 
-[,css]
+[source%linenums,css]
 ----
 /* app/app.scss */
 
@@ -408,7 +405,7 @@ As you can see in the image above, each card is made up of 3 components, the pre
 We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts.
 Open your `home-page.xml` and add the following:
 
-[,xml{13-39}]
+[source%linenums,xml{13-39}]
 ----
 <!-- app/home/home-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
@@ -469,7 +466,7 @@ Let's start with creating the file for our details feature with the following co
 ====
 details-page.ts::
 +
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/details/details-page.ts
 
@@ -484,7 +481,7 @@ export function navigatingTo(args: NavigatedData): void {
 
 details-view-model.ts::
 +
-[,typescript]
+[source%linenums,typescript]
 ----
 // app/details/details-view-model.ts
 
@@ -495,7 +492,7 @@ export class DetailsViewModel extends Observable {}
 
 details-page.xml::
 +
-[,xml]
+[source%linenums,xml]
 ----
 <!-- app/details/details-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" />
@@ -509,7 +506,7 @@ In addition to the route name, we will also pass in the flick's `id` as part of 
 We will use this `id` in our details component to access more information about the flick.
 Open `home-view-model.ts` and add the following:
 
-[,typescript{4,25-30}]
+[source%linenums,typescript{4,25-30}]
 ----
 // app/home/home-view-model.ts
 
@@ -547,7 +544,7 @@ export class HomeViewModel extends Observable {
 Next, let's add the tap event to the listview items.
 Open `home-page.xml` and add the following:
 
-[,xml{10}]
+[source%linenums,xml{10}]
 ----
 <!-- app/home/home-page.xml -->
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">

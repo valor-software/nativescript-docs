@@ -1,7 +1,5 @@
 = Page
 
-== Page
-
 `<Page>` is a UI component that represents an application screen.
 NativeScript apps typically consist of one or more `<Page>` that wrap content such as an <<actionbar,`<ActionBar>`>> and other UI widgets.
 

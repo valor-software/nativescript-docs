@@ -1,6 +1,6 @@
 name: components
 title: Components
 version: ~
-start_page: ROOT/pages/developing-plugins/index.adoc
+start_page: ROOT:index.adoc
 nav:
   - modules/ROOT/nav.adoc

@@ -32,7 +32,7 @@ If the type of the property isn't `string`, we will need to specify *valueConver
 The *valueConverter* is called if a string value is set to this property (for example from XML or CSS) and there you will have to convert that string to meaningful value if possible or throw exception if you can't.
 If *equalityComparer* is specified it will be called everytime a value is set to a property.
 There you can compare current and new value for equality.
-For example, if your property is of type link:/nativescript-core/color.md´[Color] you can use `Color.equals()` as `equalityComparer` function so even if new instance of Color is set, the comparer will return false if current color and new color have the same argb value.
+For example, if your property is of type xref:nativescript-core/color.adoc[Color] you can use `Color.equals()` as `equalityComparer` function so even if new instance of Color is set, the comparer will return false if current color and new color have the same argb value.
 
 There is one more option in the Property constructor: `affectsLayout: boolean`.
 When set to true setting new value to this property will trigger a new layout pass.

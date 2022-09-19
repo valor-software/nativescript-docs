@@ -48,9 +48,9 @@ The default Nativescript TraceWriter instance only allows you to handle the mess
 The other message types you could handle are `info`, `warn` and `error`.
 With a custom TraceWriter you can capture those message types and handle them accordingly.
 
-See `app/trace/trace-writer.ts` for an example of how to create a custom Trace Writer.+++<iframe width="100%" height="600px" src="https://stackblitz.com/edit/nativescript-stackblitz-templates-gdglmn?file=app/trace/trace-writer.tsl">++++++</iframe>+++
+See `app/trace/trace-writer.ts` for an example of how to create a custom Trace Writer.
 
-//TODO: Fix Stackblitz
+include::partial$ns-core-observable-array.adoc[]
 
 === Registering a custom Trace Writer
 

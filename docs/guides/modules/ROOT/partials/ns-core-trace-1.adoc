@@ -1,0 +1,16 @@
+++++
+<script type="module">
+import sdk from '@stackblitz/sdk'
+
+sdk.embedProjectId(
+  'elementOrId',
+  'nativescript-stackblitz-templates-gdglmn',
+  {
+    forceEmbedLayout: true,
+    openFile: 'app/trace/trace-writer.tsl',
+  }
+);
+</script>
+
+<div id="elementOrId"></div>
+++++

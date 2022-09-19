@@ -135,7 +135,7 @@ Vue::
 Refer to the https://docs.nativescript.org/api-reference/classes/slider[API Reference]
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 === Events
 

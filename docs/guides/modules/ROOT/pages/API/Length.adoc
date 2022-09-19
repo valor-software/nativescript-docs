@@ -7,10 +7,10 @@
 .Functions
 [#functions]
 ****
-* image:icon1.png[] link:Length.adoc#converttostring[convertToString]
-* image:icon1.png[] link:Length.adoc#equals[equals]
-* image:icon1.png[] link:Length.adoc#parse[parse]
-* image:icon1.png[] link:Length.adoc#todevicepixels[toDevicePixels]
+* image:icon1.png[] Length.adoc#converttostring[convertToString]
+* image:icon1.png[] Length.adoc#equals[equals]
+* image:icon1.png[] Length.adoc#parse[parse]
+* image:icon1.png[] Length.adoc#todevicepixels[toDevicePixels]
 ****
 
 == Functions
@@ -25,7 +25,7 @@ kbd:[Const] image:icon1.png[] *convertToString*(`length`): `string`
 | Name | Type
 
 | `length`
-| link:CoreTypes.adoc#lengthtype[`LengthType`]
+| CoreTypes.adoc#lengthtype[`LengthType`]
 |===  
 
 ==== Returns: `string`
@@ -44,10 +44,10 @@ kbd:[Const] image:icon1.png[] *equals*(`a`, `b`): `boolean`
 | Name | Type
 
 | `a`
-| link:CoreTypes.adoc#lengthtype[`LengthType`]
+| CoreTypes.adoc#lengthtype[`LengthType`]
 
 | `b`
-| link:CoreTypes.adoc#lengthtype[`LengthType`]
+| CoreTypes.adoc#lengthtype[`LengthType`]
 |===
 
 ==== Returns: `boolean`
@@ -58,7 +58,7 @@ kbd:[Const] image:icon1.png[] *equals*(`a`, `b`): `boolean`
 
 === parse
 
-image:icon1.png[] *parse*(`fromValue`): link:CoreTypes.adoc#lengthtype[`LengthType`]
+image:icon1.png[] *parse*(`fromValue`): CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Parameters
 
@@ -66,10 +66,10 @@ image:icon1.png[] *parse*(`fromValue`): link:CoreTypes.adoc#lengthtype[`LengthTy
 | Name | Type
 
 | `fromValue`
-| `string` \| `number` \| link:CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] \| link:CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
+| `string` \| `number` \| CoreTypes.adoc#lengthdipunit[`LengthDipUnit`] \| CoreTypes.adoc#lengthpxunit[`LengthPxUnit`]
 |===
 
-==== Returns: link:CoreTypes.adoc#lengthtype[`LengthType`]
+==== Returns: CoreTypes.adoc#lengthtype[`LengthType`]
 
 ==== Defined in: https://github.com/NativeScript/NativeScript/blob/4b0c81270/packages/core/ui/styling/style-properties.ts#L151[ui/styling/style-properties.ts:151]
 
@@ -85,7 +85,7 @@ kbd:[Const] image:icon1.png[] *toDevicePixels*(`length`, `auto?`): `number`
 | Name | Type
 
 | `length`
-| link:CoreTypes.adoc#lengthtype[`LengthType`]
+| CoreTypes.adoc#lengthtype[`LengthType`]
 
 | kbd:[Optional] `auto?`
 | `number`

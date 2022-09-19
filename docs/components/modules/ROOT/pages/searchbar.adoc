@@ -183,7 +183,7 @@ Svelte::
 Refer to the https://docs.nativescript.org/api-reference/classes/searchbar[API Reference]
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 
 === Events

@@ -7,6 +7,7 @@ However, the rules that govern this conversion need to take into account the dif
 NativeScript tries to translate idioms between languages, but there are quirks and features in both that are hard to reconcile.
 The following is a thorough but not exhaustive list of rules and exceptions NativeScript abides by when exposing Objective-C APIs in JavaScript.
 
+[#objective-c-classes-and-objects]
 === Objective-C Classes and Objects
 
 The most common data type in Objective-C by far is the class.
@@ -209,9 +210,7 @@ This applies for all methods on `NSNull`, `NSNumber`, `NSString` and `NSDate` re
 On the other hand, any API that expects a `NSNull`, `NSNumber`, `NSString` or `NSDate` instance in Objective-C can be called either with a wrapper object or a JavaScript value - `null`, `number` or `boolean`, `string` or `Date`, in JavaScript.
 The conversion is automatically handled by NativeScript.
 
-More information on how NativeScript deals with Objective-C classes is available link:/advanced-concepts.html#objective-c-classes-and-objects[here].
-
-//TODO: fix links
+More information on how NativeScript deals with Objective-C classes is available link:#objective-c-classes-and-objects[here].
 
 ==== Objective-C Protocols
 

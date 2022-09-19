@@ -17,7 +17,7 @@ a popular package manager for Windows.
 
 To install *Node* and *JDK* (using the prebuilt OpenJDK binaries from https://adoptium.net/[Adoptium]) open an Administrator Command Prompt (right click and select "Run as Administrator") and run the following command:
 
-[,cli]
+[source%linenums,cli]
 ----
 choco install -y nodejs.install temurin11
 ----
@@ -68,14 +68,14 @@ The default location is inside the Android SDK's `platform-tools` folder:
 
 Install the NativeScript CLI globally:
 
-[,cli]
+[source%linenums,cli]
 ----
 npm install -g nativescript
 ----
 
 To verify if the installation was successful, open a new Command Prompt window to ensure the new environment variables are loaded and run
 
-[,cli]
+[source%linenums,cli]
 ----
 ns doctor android
 ----
@@ -87,7 +87,7 @@ If you see *No issues were detected* you have successfully set up your system.
 To run a NativeScript app, you will need an Android device &mdash;
 either a physical or a virtual device.
 
-* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref:/development-workflow.adoc[Running on a physical device]
+* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref::basics/development-workflow.adoc[Running on a physical device]
 * *Using a virtual device*: Open Android Studio, and open "AVD Manager" &mdash;
 If you are on the welcome screen, it's under the *Configure › AVD Manager* dropdown, otherwise under the *Tools › AVD Manager* menu.
 +
@@ -120,7 +120,7 @@ a popular package manager for macOS.
 
 Once you have Homebrew installed, to install *Node* open a Terminal and run the following command:
 
-[,cli]
+[source%linenums,cli]
 ----
 brew install node
 ----
@@ -131,7 +131,7 @@ If you need to work with multiple versions of node, you may skip installing node
 
 To install a *JDK* (using the prebuilt OpenJDK binaries from https://adoptium.net/[Adoptium]) run the following command:
 
-[,cli]
+[source%linenums,cli]
 ----
 brew tap homebrew/cask-versions
 brew install --cask temurin11
@@ -159,7 +159,7 @@ Configure the `ANDROID_HOME` environment variable for NativeScript to be able to
 
 Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zprofile` or `~/.zshrc` config file:
 
-[,shell]
+[source%linenums,shell]
 ----
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -167,14 +167,14 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 Install the *NativeScript CLI* globally:
 
-[,cli]
+[source%linenums,cli]
 ----
 npm install -g nativescript
 ----
 
 To verify if the installation was successful, open a new Command Prompt window to ensure the new environment variables are loaded and run
 
-[,cli]
+[source%linenums,cli]
 ----
 ns doctor android
 ----
@@ -210,7 +210,7 @@ a popular package manager for macOS.
 
 Once you have Homebrew installed, to install *Node* open a Terminal and run the following command:
 
-[,cli]
+[source%linenums,cli]
 ----
 brew install node
 ----
@@ -233,7 +233,7 @@ image::/assets/environment-setup/xcode_command_line_tools.png[XCode Preferences,
 
 Install *ruby 2.7* and link it so it's available in your shell environment:
 
-[,cli]
+[source%linenums,cli]
 ----
 brew install ruby@2.7
 brew link ruby@2.7
@@ -241,7 +241,7 @@ brew link ruby@2.7
 
 Add the following lines to your shell profile, usually `~/.bash_profile` or `~/.bashrc`, or if you are using `zsh` then `~/.zshrc` config file:
 
-[,shell]
+[source%linenums,shell]
 ----
 # Add rubygems to the path
 export PATH=/opt/homebrew/lib/ruby/gems/2.7.0/bin:$PATH
@@ -260,7 +260,7 @@ In a new terminal window, install the *+++<abbr title="A package manager for man
 
 // gem install ... # requires root privileges on macOS. sudo works.
 
-[,cli]
+[source%linenums,cli]
 ----
 sudo gem install cocoapods
 sudo gem install xcodeproj
@@ -279,7 +279,7 @@ If you are on macOS 12.3 or newer, please follow these instructions.
 :warning: *Note*: Python 3 is fully supported by the NativeScript components that rely on it, however changing our scripts to use the `python3` executable name by default is a minor breaking change we're aiming to introduce in NativeScript 8.3.
 Until then, this workaround is required to get running.
 
-[,cli]
+[source%linenums,cli]
 ----
 # link and alias the installed python3
 # version to be available to XCode as python
@@ -288,7 +288,7 @@ sudo ln -s $(which python3) /usr/local/bin/python
 
 Next, update *+++<abbr title="Python package manager">+++pip+++</abbr>+++* and install *+++<abbr title="Python 2 & 3 compatibility package used by NativeScript">+++six+++</abbr>+++* by running the following:
 
-[,cli]
+[source%linenums,cli]
 ----
 python3 -m pip install --upgrade pip
 python3 -m pip install six
@@ -464,9 +464,15 @@ The newly created AVD should show up in the list, and you should be able to clic
 
 === Linux + iOS
 
-:::warning Unsupported A Mac is required to build projects that use native iOS code.
+[WARNING]
+====
+Unsupported
+
+A Mac is required to build projects that use native iOS code.
 Simpler apps can be tested using the NativeScript Playground.
-:::
+====
+
+//TODO: Uncomment or not?
 
 ////
 1. Node

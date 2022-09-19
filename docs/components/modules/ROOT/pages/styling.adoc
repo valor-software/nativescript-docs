@@ -12,8 +12,6 @@ When the view is displayed, all its style properties are applied to the underlyi
 
 This list of properties can be set in CSS or through the style property of each view:
 
-// TODO: fix links
-
 |===
 | CSS Property | JavaScript Property | Description
 
@@ -23,8 +21,8 @@ This list of properties can be set in CSS or through the style property of each 
 
 | `background`
 | `background`
-| Sets a solid-color value or https://docs.nativescript.org/cookbook/ui/styling[a linear gradient] to the matched view's background.
-
+| Sets a solid-color value or https://v7.docs.nativescript.org/ui/components/styling[a linear gradient] to the matched view's background.
+//TODO: Fix old v7 link
 | `background-color`
 | `backgroundColor`
 | Sets a solid-color value to the matched view's background.
@@ -894,9 +892,9 @@ In native modals in Angular, the classes are applied to the first layout view in
 If you are targeting a class that is applied to the root layout in your modal, you would target it with `.ns-dark.your-class`.
 ====
 
-For additional information on the Dark Mode support, refer to https://docs.nativescript.org/ui/dark-mode[this] documentation article.
+For additional information on the Dark Mode support, refer to https://v7.docs.nativescript.org/ui/dark-mode[this] documentation article.
 
-// TODO: fix links
+// TODO: fix old v7 link and >this< in url macro
 
 ==== Supported Measurement Units
 
@@ -1208,6 +1206,5 @@ ns migrate
 
 == App_Resources
 
-//TODO: Fix Links
+For native styling, see xref:guides::app-resources/app-resources.adoc[App_Resources]
 
-For native styling see link:/app-resources.html[App_Resources].

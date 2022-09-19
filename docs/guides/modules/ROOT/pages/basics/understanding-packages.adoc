@@ -28,11 +28,11 @@ This provides loaders, helpers and base configs for all fundamental NativeScript
 === https://www.npmjs.com/package/nativescript[nativescript]
 
 CLI (Command Line Interface) used for creating/running/building/deploying NativeScript apps.
-Often installed globally along with a proper link:environment-setup[Environment Setup] via `npm install -g nativescript`.
+Often installed globally along with a proper xref:guides::basics/environment-setup.adoc[Environment Setup] via `npm install -g nativescript`.
 
 == Plugins
 
-There are also quite a number of plugins maintained and developed by the NativeScript TSC which you can find link:plugins/index[documented here]
+There are also quite a number of plugins maintained and developed by the NativeScript TSC which you can find xref:plugins::plugins-list/biometrics.adoc[documented here]
 
 == NPM Versioning
 

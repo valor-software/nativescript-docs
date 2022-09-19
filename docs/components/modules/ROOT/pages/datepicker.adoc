@@ -4,7 +4,7 @@
 
 `<DatePicker>` is a UI component that lets users select a date from a pre-configured range.
 
-See also: link:/ui-and-styling.html#timepicker[TimePicker].
+See also: xref:components::timepicker.adoc[TimePicker].
 
 '''
 

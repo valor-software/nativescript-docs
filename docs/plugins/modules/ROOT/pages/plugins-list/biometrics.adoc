@@ -9,9 +9,7 @@ npm install @nativescript/biometrics
 
 == Replaces @nativescript/fingerprint-auth
 
-This plugin replaces link:../fingerprint-auth[@nativescript/fingerprint-auth]
-
-//TODO: Fix Links
+This plugin replaces xref:plugins::plugins-list/fingerprint-auth.adoc[@nativescript/fingerprint-auth]
 
 == API
 

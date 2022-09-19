@@ -292,10 +292,10 @@ React::
 [TIP]
 ====
 You can use images for tab icons instead of icon fonts.
-For more information about how to control the size of icons, see https://docs.nativescript.org/ui/image-resources[Working with image from resource folders].
+For more information about how to control the size of icons, see https://v7.docs.nativescript.org/ui/image-resources[Working with image from resource folders].
 ====
 
-// TODO: fix links
+// TODO: fix v7 links
 
 === Styling
 
@@ -381,7 +381,7 @@ Supports local image paths (`~`), resource images (`res://`) and icon fonts (`fo
 | Emits https://docs.nativescript.org/api-reference/classes/tabview#selectedindexchangedevent[an event object] containing an `newIndex` property with the index of the tapped `<TabViewItem>` (and an `oldIndex` property with the index of the previous tab).
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 === Native component
 

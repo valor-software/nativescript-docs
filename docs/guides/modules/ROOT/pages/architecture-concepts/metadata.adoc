@@ -1,10 +1,10 @@
-== Metadata
+= Metadata
 
 To allow JavaScript code to call into native iOS or Android code both NativeScript runtimes need the so called *_metadata_*.
 It contains all the necessary information about each of the supported native classes, interfaces, protocols, structures, enumerations, functions, variables, etc.
 and is generated at build time by examining the native libraries from the iOS/Android operating systems' SDKs and any third-party libraries and frameworks that are used by the \{N} application.
 
-=== Metadata Filtering
+== Metadata Filtering
 
 By default NativeScript includes all supported entities in the metadata.
 This allows app and plugin authors to freely call any native API from JavaScript.
@@ -15,7 +15,7 @@ or app size could increase due to unnecessary metadata which is never used.
 
 To give developers control over what to be included or not in the generated metadata there's support for black and whitelisting symbols by their native name.
 
-=== Metadata filtering rules in plugins
+== Metadata filtering rules in plugins
 
 Plugins can declare their list of APIs that are called from JavaScript using a file named `native-api-usage.json`, located in each of the platform directories (`platforms/android` or `platforms/ios`).
 Its format is similar to:
@@ -27,7 +27,7 @@ Its format is similar to:
 }
 ----
 
-=== Metadata filtering rules in apps
+== Metadata filtering rules in apps
 
 Applications have the final word of what filtering will be applied to metadata.
 They provide similar `native-api-usage.json` files, located in `App_Resources/Android` and `App_Resources/iOS`, having the following format:
@@ -41,7 +41,7 @@ They provide similar `native-api-usage.json` files, located in `App_Resources/An
 }
 ----
 
-=== Rules syntax
+== Rules syntax
 
 Each list comprises of pattern entries with the following characteristics:
 
@@ -51,7 +51,7 @@ Each list comprises of pattern entries with the following characteristics:
 * Patterns support wildcards (*"*"* - any number of characters and *"?"* - any single character).
 * An unspecified or empty pattern is equivalent to being set to *"*"* (matching everything)
 
-=== Rules semantics
+== Rules semantics
 
 After analyzing the filtering rules for a platform, \{N} CLI builds final whitelist and blacklist files and outputs them in the native project to be used by the corresponding metadata generator.
 The blacklist is always equal to the one specified by the app.
@@ -163,7 +163,7 @@ if (android.os.Build.VERSION.SDK_INT >= 21) {
 === Accessing APIs
 
 One of NativeScript's strongest capabilities is the access to Android (also referred to as *'Java/Kotlin'* or *'native'*) APIs inside JavaScript/TypeScript.
-That's possible thanks to build-time generated <<metadata,Metadata>> chunks which hold the information about the public classes from the Android SDK, Android support libraries, and any other Android libraries which may be imported into your Android NativeScript project.
+That's possible thanks to build-time generated metadata chunks which hold the information about the public classes from the Android SDK, Android support libraries, and any other Android libraries which may be imported into your Android NativeScript project.
 
 [WARNING]
 ====
@@ -207,8 +207,10 @@ For example, if you need to work with the Google API for Google Maps, after foll
 [WARNING]
 ====
 To have access and Intellisense for the native APIs with *NativeScript + TypeScript* or *NativeScript + Angular* projects, you have to add a dev dependency to `@nativescript/types`.
-More details about accessing native APIs with TypeScript can be found link:{% slug access-native-apis %}#intellisense-and-access-to-native-apis-via-typescript[here].
+More details about accessing native APIs with TypeScript can be found xref:guides::native-api-access/native-api-access.adoc[here].
 ====
+
+//TODO: Is this the right link?^ (api access), i guessed it. Its broken on the old site also
 
 [WARNING]
 ====

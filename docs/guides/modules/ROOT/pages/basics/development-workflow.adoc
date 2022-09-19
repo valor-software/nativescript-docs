@@ -417,7 +417,7 @@ Alternatively, once you have the NativeScript project built, you can open open t
 Be sure you have prepare/built/run the app at least once before starting the unit test runner.
 ====
 
-For more information about end-to-end testing, see link:/plugins/detox.html[`@nativescript/detox` plugin].
+For more information about end-to-end testing, see xref:plugins::plugins-list/detox.adoc[`@nativescript/detox` plugin].
 
 When you develop new features inside your app, you can ensure that they are working properly and that past functionality has not regressed by writing and executing unit tests on a regular basis.
 With the NativeScript CLI, you can write and execute unit tests using http://jasmine.github.io/[Jasmine], https://mochajs.org/[Mocha] with http://chaijs.com/[Chai] or https://qunitjs.com/[QUnit].
@@ -428,7 +428,7 @@ To run your unit tests, the NativeScript CLI uses http://karma-runner.github.io/
 
 Before writing and running unit tests, verify that you have completed the following steps.
 
-. link:environment-setup[Install and configure the NativeScript CLI on your system.]
+. xref:guides::basics/environment-setup.adoc[Install and configure the NativeScript CLI on your system.]
 . If you don't have any projects, create a new project and navigate to the directory of the newly created directory.
 +
 [,cli]
@@ -790,9 +790,9 @@ For example, a search of "`nativescript accelerometer`" would point you right at
 If you can't find a plugin, try asking for help on https://stackoverflow.com/questions/tagged/nativescript[Stack Overflow].
 The NativeScript team and community may be able to help find what you're looking for.
 
-// TODO: fix links
+// TODO: fix v7 links
 
-Also, make sure to look through the https://docs.nativescript.org/core-concepts/modules[NativeScript core modules], which ship as a dependency of every NativeScript app.
+Also, make sure to look through the https://docs.nativescript.org/core-concepts/modules.html[NativeScript core modules], which ship as a dependency of every NativeScript app.
 There's a chance that the functionality you need is built in.
 If you're still not finding what you need, you can request the plugin as an idea on the https://discourse.nativescript.org/c/plugins[NativeScript community forum], or you can take a stab at https://v7.docs.nativescript.org/plugins/building-plugins[building the plugin yourself].
 
@@ -805,7 +805,7 @@ Once you've found the plugin you need, install the plugin into your app using th
 ns plugin add <plugin-name>
 ----
 
-For example, the following command installs the link:plugins/camera[NativeScript camera plugin].
+For example, the following command installs the xref:plugins::plugins-list/camera.adoc[NativeScript camera plugin].
 
 [,cli]
 ----
@@ -1100,8 +1100,6 @@ You are now ready to use the latest development version of NativeScript.
 
 ==== Reasoning
 
-// TODO: fix links
-
 Building the source code is essential when one wants to contribute to an open source project.
 The statement is applicable for NativeScript as well.
 According to the https://github.com/NativeScript/NativeScript/blob/master/tools/notes/CONTRIBUTING.md[Contribution Guidelines], suggesting a fix involves testing the latest code.
@@ -1200,7 +1198,7 @@ The build @nativescript/ios-x.x.x.tgx package will get created in the `dist` fol
 You can develop NativeScript apps in any text editor or IDE you prefer.
 
 
-==== VS Code
+=== VS Code
 
 Most of the NativeScript team prefers to use https://code.visualstudio.com/[VS Code from Microsoft] as their editor for NativeScript apps.
 Some reasons we use VS Code:
@@ -1232,15 +1230,12 @@ cd MyNewApp
 code .
 ----
 
-
-==== WebStorm
+=== WebStorm
 
 If you're a WebStorm user, check out this https://plugins.jetbrains.com/webstorm/plugin/8588-nativescript[popular community-written plugin] that adds many NativeScript-related features.
 
 
-==== Next steps
-
-// TODO: fix links
+=== Next steps
 
 * https://market.nativescript.org/?tab=samples&framework=all_frameworks&category=all_samples[Code Samples]
  ** The NativeScript team provides a collection of high-quality code samples you can add to your applications.

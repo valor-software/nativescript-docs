@@ -7,7 +7,7 @@ You can use it to let users type large text in your app or to show longer, multi
 
 `<TextView>` extends https://docs.nativescript.org/api-reference/classes/textbase[`TextBase`] and https://docs.nativescript.org/api-reference/classes/editabletextbase[`EditableTextBase`] which provide additional properties and events.
 
-// TODO: fix links
+// TODO: fix API links
 
 '''
 

@@ -117,6 +117,7 @@ Set it to `false` to explicitly prevent this behavior.
 The default value for container components is `true`.
 All other components are considered content that should be constrained to the safe area and default to `false`.
 
+[#layoutcontainers]
 == Layout Containers
 
 === AbsoluteLayout
@@ -131,10 +132,8 @@ The `<AbsoluteLayout>` container is the simplest layout container in NativeScrip
 
 ==== Example: a grid-like layout
 
-//TODO: Fix Links
-
 The following example creates a simple grid.
-For more information about creating grid layouts, see link:/ui-and-styling.html#gridlayout[GridLayout].
+For more information about creating grid layouts, see xref:components::index.adoc#gridlayout[GridLayout].
 
 [,html]
 ----
@@ -328,7 +327,7 @@ image:https://art.nativescript.org/layouts/dock_layout_multiple_on_same_side.svg
 Refer to the https://docs.nativescript.org/api-reference/classes/docklayout[API Reference]
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 ==== Additional children props
 
@@ -343,6 +342,7 @@ When an element is a direct child of `<DockLayout>`, you can set the following a
 + Valid values: `top`, `right`, `bottom`, or `left`.
 |===
 
+[#gridlayout]
 === GridLayout
 
 `<GridLayout>` is a layout container that lets you arrange its child elements in a table-like manner.
@@ -492,6 +492,7 @@ Combined with a `row` property, specifies the cell coordinates of the element.
 | Specifies the number of columns which this element spans across.
 |===
 
+[#stacklayout]
 === StackLayout
 
 `<StackLayout>` is a layout container that lets you stack the child elements vertically (default) or horizontally.
@@ -500,8 +501,10 @@ Combined with a `row` property, specifies the cell coordinates of the element.
 ====
 Important Try not to nest too many `<StackLayout/>` in your markup.
 If you find yourself nesting a lot of `<StackLayout>` you will likely get better performance by switching to a `<GridLayout>` or `<FlexboxLayout>`.
-See link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more information.
+See xref:guides:: link:/common-pitfalls.html#layout-nesting[Layout Nesting] for more information.
 ====
+
+//TODO: There is no common-pitfalls page.^^^
 
 ==== Example: Default stacking
 

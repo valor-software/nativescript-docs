@@ -1,0 +1,16 @@
+++++
+<script type="module">
+import sdk from '@stackblitz/sdk'
+
+sdk.embedProjectId(
+  'elementOrId',
+  'nativescript-stackblitz-templates-fkau2c',
+  {
+    forceEmbedLayout: true,
+    openFile: 'app/main-page.xml',
+  }
+);
+</script>
+
+<div id="elementOrId"></div>
+++++

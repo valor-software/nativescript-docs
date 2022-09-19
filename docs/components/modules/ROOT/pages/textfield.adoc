@@ -6,8 +6,7 @@
 
 `<TextField>` extends https://docs.nativescript.org/api-reference/classes/textbase[`TextBase`] and https://docs.nativescript.org/api-reference/classes/editabletextbase[`EditableTextBase`] which provide additional properties and events.
 
-// TODO: fix links
-
+// TODO: fix API links
 '''
 
 [tabs]
@@ -220,7 +219,7 @@ Use this property to create password input fields.
 | Additional inherited properties not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/textfield[API Reference]
 |===
-
+// TODO: fix API links
 === Events
 
 |===

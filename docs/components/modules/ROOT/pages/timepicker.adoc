@@ -4,11 +4,9 @@
 
 `<TimePicker>` is a UI component that lets users select time.
 
-See also: link:ui-and-styling.html#date-picker[DatePicker].
+See also: xref:components::datepicker.adoc[DatePicker].
 
 '''
-
-//TODO: Fix Links
 
 [tabs]
 ====
@@ -186,6 +184,8 @@ For example: 5 or 15 minutes.
 | Additional inherited properties not shown.
 Refer to the https://docs.nativescript.org/api-reference/classes/timepicker[API Reference]
 |===
+
+//TODO: Fix API Links
 
 === Events
 

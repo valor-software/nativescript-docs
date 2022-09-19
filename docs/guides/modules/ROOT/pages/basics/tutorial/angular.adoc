@@ -36,7 +36,7 @@ To set up your development environment, follow the instructions in the https://d
 
 To create a new NativeScript Angular application, run the CLI command `ns create` with the name of the application followed by `--ng`.
 
-[,cli]
+[source%linenums,cli]
 ----
 ns create example-app --ng
 ----
@@ -48,7 +48,7 @@ This can take a few minutes and should be ready to run once it's done installing
 
 Go to the project's directory and run the following command to run it on the respective platforms.
 
-[,cli]
+[source%linenums,cli]
 ----
 cd example-app
 
@@ -95,14 +95,14 @@ Let's start with creating the files for our home feature with the following cont
 
 // tab:home.component.html
 
-[,html]
+[source%linenums,html]
 ----
 <!-- src/app/features/home/home.component.html -->
 ----
 
 // tab:home.component.ts
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // src/app/features/home/home.component.ts
 
@@ -118,7 +118,7 @@ export class HomeComponent {}
 
 // tab:home-routing.module.ts
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // src/app/features/home/home-routing.module.ts
 
@@ -142,7 +142,7 @@ export class HomeRoutingModule {}
 
 // tab:home.module.ts
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // src/app/features/home/home.module.ts
 
@@ -164,7 +164,7 @@ export class HomeModule {}
 We will be setting up our `HomeModule` as a lazy-loaded module and as the default route.
 Open `app-routing.module.ts` and add the following code:
 
-[,typescript{9,12-15}]
+[source%linenums,typescript{9,12-15}]
 ----
 // src/app/app-routing.module.ts
 
@@ -207,7 +207,7 @@ This will allow us to use the data directly in our template.
 Create a `models` directory inside `core` and create a new file called `flick.model.ts`.
 Open the new `flick.model.ts` and add the following `interface`:
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // src/app/core/models/flick.model.ts
 
@@ -229,7 +229,7 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 Create a `services` directory inside `core` and create a new file called `flick.service.ts`.
 Open the new `flick.service.ts` and add the following:
 
-[,typescript]
+[source%linenums,typescript]
 ----
 // src/app/core/services/flick.service.ts
 
@@ -356,19 +356,19 @@ The home page can be divided into two main parts, the action bar with the title 
 Let's start with creating the action bar with the title.
 Open `home.component.html` and add the following code:
 
-[,html]
+[source%linenums,html]
 ----
 <!-- src/app/features/home/home.component.html -->
 
 <ActionBar title="NativeFlix"></ActionBar>
 ----
 
-Since we have an array of flicks to display we can use NativeScript's link:/ui-and-styling.html#listview[`ListView`] component.
+Since we have an array of flicks to display we can use NativeScript's xref:components::listview.adoc[`ListView`] component.
 `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list.
 Let's first create a variable in our `HomeComponent` that we are going to use as our ``ListView``'s data source.
 Open `home.component.ts` and add the following:
 
-[,typescript{6,15,19}]
+[source%linenums,typescript{6,15,19}]
 ----
 // src/app/features/home/home.component.ts
 
@@ -395,7 +395,7 @@ export class HomeComponent {
 
 Next, open your `home.component.html` and add the `ListView` component:
 
-[,html{6-12}]
+[source%linenums,html{6-12}]
 ----
 <!-- src/app/features/home/home.component.html -->
 
@@ -421,7 +421,7 @@ Before we dive into creating the card below, let's create some classes for our b
 As this will be shared throughout the application, let's add this to the `app.scss`.
 Open `app.scss` and add the following:
 
-[,scss]
+[source%linenums,scss]
 ----
 // src/app.scss
 
@@ -464,9 +464,7 @@ As you can see in the image above, each card is made up of 3 components, the pre
 We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts.
 Open your `home.component.html` and add the following:
 
-//TODO: add highlight if not working, [source%linenums,html,highlight=2..5]
-
-[,html{8-35}]
+[source%linenums,html,highlight=2..5]
 ----
 <!-- src/app/features/home/home.component.html -->
 

@@ -1,7 +1,5 @@
 = Application Architecture
 
-== Application Architecture
-
 In this article we are going to review the architecture of a NativeScript application built with the Core Framework.
 It will cover the entry point of the app, the decomposition into modules, styling the application and data binding.
 
@@ -40,7 +38,7 @@ Application.run({ moduleName: 'app-root' })
 ====
 Prior to NativeScript 4.0.0 the start() method automatically created an underlying root Frame instance that wrapped your pages.
 The new run() method will set up the root element of the provided module as the application root element.
-This effectively means that apart from link:/ui/components.md#page[Page] you can now have other roots of your app like link:/ui/components.md#page[TabView] and link:/introduction.md#drawer[SideDrawer].
+This effectively means that apart from xref:components::page.adoc[Page] you can now have other roots of your app like xref:components::tabview.adoc[TabView] and xref:guides::basics/introduction.adoc#sidedrawer[SideDrawer].
 The start() method is now marked as deprecated.
 ====
 
@@ -57,7 +55,7 @@ For example, the following files make a module:
 * `home-page.css`
 
 All functions that are exported by the business logic file are available for binding to the template.
-The business logic file is a good place to handle events or bind context to the UI, for example below the `loaded` event is bound to a link:/ui/components.md#page[Page] component:
+The business logic file is a good place to handle events or bind context to the UI, for example below the `loaded` event is bound to a xref:components::page.adoc[Page] component:
 
 [tabs]
 ====
@@ -125,7 +123,7 @@ You set its root module by passing it to the `Application.run()` method.
 You set a modal view's root module by passing it to the `showModal()` method of any UI component.
 
 A root module can have only one component at the root of its content.
-You can put virtually any UI component as a root, but the most commonly used components are the one that can have children - the link:/ui/components.md#layout-containers[layouts], link:/ui/components.md#tabview[TabView], SideDrawer or link:/ui/components.md#frame[Frame].
+You can put virtually any UI component as a root, but the most commonly used components are the one that can have children - the xref:components::index.adoc#layoutcontainers[Layouts], xref:components::tabview.adoc[TabView], SideDrawer or xref:components::frame.adoc[Frame].
 The `Frame` component can't have children, but it can display and navigate between page modules.
 
 Note that the root module will be loaded regardless of navigations until its UI container disappears.
@@ -175,7 +173,8 @@ You can pass these modules to the `Frame` in one of the two ways:
 * The `defaultPage` attribute - the page module set in this attribute will be initially shown by the Frame.
 * The `navigate()` method - this method forces the `Frame` to hide the currently navigated page module and to show the page module passed as parameter.
 
-Navigation is covered in detail in the xref:/architecture-concepts/navigation.adoc[navigation] article.
+Navigation is covered in detail in the
+xref:guides::architecture-concepts/navigation.adoc[navigation] documentation section
 
 Page modules must always have the `Page` component at the root of their content.
 Below is a code sample of a page module:
@@ -297,7 +296,7 @@ The `bindingContext` property is inheritable across the visual tree.
 This means that you can set `bindingContext` to the root component of your module and it will be available to all child components.
 The binding is then described in the XML using the mustache syntax.
 
-In the following example we set the *bindingContext* of the link:/ui/components.md#page[Page] in its `loaded` event handler and then bind the property to the link:/ui/components.md#label[Label] text.
+In the following example we set the *bindingContext* of the xref:components::page.adoc[Page] in its `loaded` event handler and then bind the property to the xref:components::label.adoc[Label] text.
 
 [tabs]
 ====

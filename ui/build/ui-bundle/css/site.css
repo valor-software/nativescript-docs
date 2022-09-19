@@ -12875,7 +12875,7 @@ code.hljs {
 .nav-list > .nav-item[data-depth="1"] > a,
 .nav-list > .nav-item[data-depth="1"] > span,
 .nav-list > .parent[data-depth="1"] > span > a {
-  text-transform: none;
+  text-transform: uppercase;
   /* LEFT SIDEBAR STYLES*/
   border-radius: 25px;
 }

@@ -15,8 +15,6 @@ Here we are showing the default look of a few elements (no custom styling applie
 
 image::app-resources/default_app_resources_android.png[Default App_Resources on Android]
 
-//TODO: Fix image
-
 [,bash]
 ----
 App_Resources/

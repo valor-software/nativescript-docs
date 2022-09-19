@@ -2,7 +2,7 @@
 
 == Replacement notice
 
-This plugin is replaced by link:../biometrics[@nativescript/biometrics]
+This plugin is replaced by xref:plugins::plugins-list/biometrics.adoc[@nativescript/biometrics]
 
 == @nativescript/fingerprint-auth
 

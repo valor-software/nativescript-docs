@@ -1,0 +1,16 @@
+++++
+<script type="module">
+import sdk from '@stackblitz/sdk'
+
+sdk.embedProjectId(
+  'elementOrId',
+  'nativescript-stackblitz-templates-kps7hp',
+  {
+    forceEmbedLayout: true,
+    openFile: 'app/main-view-model.ts',
+  }
+);
+</script>
+
+<div id="elementOrId"></div>
+++++

@@ -880,10 +880,8 @@ NativeScript exposes a simple and easy, but powerful enough API to allow animati
 
 For your convenience, we expose two ways of creating animations:
 
-* link:[Declarative] - you will use the easy and familiar CSS3 animations API
-* link:[Imperative] - take full control of any animation by calling animation methods directly with code
-
-// TODO: fix links
+* Declarative - you will use the easy and familiar CSS3 animations API
+* Imperative - take full control of any animation by calling animation methods directly with code
 
 Here you will find a detailed set of examples demonstrating the different animations that can be achieved with NativeScript.
 
@@ -2291,6 +2289,7 @@ Otherwise returns `true`
 | https://developer.apple.com/documentation/uikit/uialertcontroller[UIAlertController]
 |===
 
+[#gestures]
 == Gestures
 
 Gestures, such as tap, slide and pinch, allow users to interact with your app by manipulating UI elements on the screen.

@@ -2,7 +2,7 @@
 
 == Frame
 
-`<Frame>` is a UI component used to display link:/ui-and-styling.html#page[`<Page>`] elements.
+`<Frame>` is a UI component used to display xref:components::page.adoc[`<Page>`] elements.
 Every app needs at least a single `<Frame>` element, usually set as the root element.
 
 '''

@@ -4,11 +4,11 @@
 
 `<Image>` is a UI component that shows an image from an https://docs.nativescript.org/api-reference/classes/imagesource[ImageSource] or from a URL.
 
-// TODO: fix links
+// TODO: fix API links
 
 [TIP]
 ====
-Tip When working with images following link:/performance.html#image-optimizations[the best practices] is a must.
+Tip When working with images following xref:best-practices::performance.adoc#image-optimizations[the best practices] is a must.
 ====
 
 '''
@@ -259,7 +259,7 @@ If you use the new font:// icon protocol in \{N} 6.2, make sure you add .decode 
 Refer to the https://docs.nativescript.org/api-reference/classes/image[API Reference]
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 === Native component
 

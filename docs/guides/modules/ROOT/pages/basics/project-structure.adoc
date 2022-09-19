@@ -4,7 +4,7 @@
 
 The default structure of a blank NativeScript Core project consists of a root folder that contains the *app*, *platforms* and *node_modules* directories, and a *package.json* configuration file.
 
-[,json]
+[source%linenums,json]
 ----
 myApplication/
 └── app
@@ -60,9 +60,7 @@ Below is an example of a basic secondary `package.json` file.
 
 === app/App_Resources
 
-See xref:/app-resources.adoc[Understanding App_Resources].
-
-//TODO: Fix links
+See xref:guides::app-resources/app-resources.adoc[Understanding App_Resources].
 
 === The platforms Directory
 
@@ -116,6 +114,8 @@ Here is an example of a basic main `package.json` file:
 The `hooks` folder exists only when the project depends on plugins that require a hook to function properly.
 Hooks are executable pieces of code or Node.js scripts that are used to alter or augment the behavior of an extendable NativeScript CLI command.
 For more information about hooks and how to use them in NativeScript, see https://github.com/NativeScript/nativescript-cli/blob/master/extending-cli.md[Extending the CLI].
+
+//TODO: Extract md file to this repo?
 
 === The nsconfig.json File
 

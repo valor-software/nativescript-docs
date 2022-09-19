@@ -171,7 +171,7 @@ import { Color } from '@nativescript/core'
 Refer to the https://docs.nativescript.org/api-reference/classes/label[API Reference]
 |===
 
-// TODO: fix links
+// TODO: fix API links
 
 === Events
 

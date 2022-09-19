@@ -297,11 +297,11 @@ androidx.appcompat.app.AppCompatActivity.extend('org.myApp.MainActivity', {
 [WARNING]
 ====
 The `this._callbacks` property is automatically assigned to your extended class by the `frame.setActivityCallbacks` method.
-It implements the https://docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events[AndroidActivityCallbacks interface] and allows the core modules to get notified for important Activity events.
+It implements the https://v7.docs.nativescript.org/core-concepts/application-lifecycle#android-activity-events[AndroidActivityCallbacks interface] and allows the core modules to get notified for important Activity events.
 It is *important* to use these callbacks, as many parts of NativeScript rely on them!
 ====
 
-// TODO: fix links
+// TODO: fix v7 links
 
 Next, modify the activity in `App_Resources/Android/src/main/AndroidManifest.xml`
 
