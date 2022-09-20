@@ -28,7 +28,7 @@ With NativeScript 6 and above, Webpack is the primary developer workflow and can
 
 Webpack works by traversing your source tree starting from some "entry" modules and navigating through module imports.
 This makes it possible to collect just modules that are used in your program.
-Webpack is very extensible - you can customize every step of the bundling process and add support for all sorts of asset generation and manipulation procedures.
+Webpack is very extensible — you can customize every step of the bundling process and add support for all sorts of asset generation and manipulation procedures.
 
 === Installation and Configuration
 

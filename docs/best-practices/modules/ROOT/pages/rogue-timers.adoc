@@ -8,7 +8,7 @@ Using `setTimeout` and `setInterval` can sometimes be the most dreaded unchecked
 
 One single timeout left unprotected or otherwise kept in check can lead to devastating app crashes.
 For example, imagine a timeout around starting an animation on a view instance when a user navigates to a view...but the user navigates out of that view early.
-With a timeout not stopped, an invalid access to a view instance already cleaned up and destroyed can and will crash your app.
+With a timeout not stopped, invalid access to a view instance already cleaned up and destroyed can and will crash your app.
 
 It's always recommended to track your timeouts and intervals and clean them up properly when no longer needed:
 

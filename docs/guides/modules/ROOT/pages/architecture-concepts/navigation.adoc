@@ -6,7 +6,7 @@ Navigation refers to the act of moving around the screens of your application.
 Each mobile app has its own unique navigation schema based on the information it tries to present.
 The schema below is an example of a common mobile navigation scenario.
 
-image::../../assets/images/navigation/navigation-schema1.png[schema]
+image::guides::navigation/navigation-schema1.png[schema]
 
 Based on the schema, there are three distinct navigational directions a user can move in:
 
@@ -18,13 +18,13 @@ This article demonstrates how you can implement these in NativeScript and combin
 
 == Forward Navigation
 
-image::../../assets/images/navigation/navigation-schema-forward.png[Forward navigation schema]
+image::guides::navigation/navigation-schema-forward.png[Forward navigation schema]
 
 Forward navigation can also be called *downward* navigation since you are going down in your navigation hierarchy.
 There are two navigation components in NativeScript that enable implementing forward navigation - xref:components::frame.adoc[Frame] and xref:components::page.adoc[Page].
 A Frame represents a navigation controller that navigates through Page instances.
 
-image::../../assets/images/navigation/navigation-diagram-forward.png[Forward navigation schema]
+image::guides::navigation/navigation-diagram-forward.png[Forward navigation schema]
 
 === Page
 
@@ -137,7 +137,7 @@ export function onTap(args: EventData) {
 
 == Backward Navigation
 
-image::../../assets/images/navigation/navigation-schema-backward.png[Backward Navigation]
+image::guides::navigation/navigation-schema-backward.png[Backward Navigation]
 
 It can also be called upward navigation since you are going up in your navigation hierarchy.
 This type of navigation represents the opposite direction of the forward navigation and is supported by the Frame API.
@@ -200,7 +200,7 @@ These platform specific navigation controls come out of the box and there is no 
 
 == Lateral Navigation
 
-image::../../assets/images/navigation/navigation-schema-lateral.png[navigation-schema-lateral]
+image::guides::navigation/navigation-schema-lateral.png[navigation-schema-lateral]
 
 Implementing lateral navigation in NativeScript usually means to incorporate several instances of the Frame component in your navigation and provide means to the user to switch between them.
 This is usually enabled through specific navigation components.
@@ -297,7 +297,7 @@ You can then leverage the embedded *Frame* to navigate forward and backward in t
 Closing the modal will navigate laterally back to where the modal view was opened from.
 Below is a diagram that displays how the navigation schema can be implemented using modal views.
 
-image::../../assets/images/navigation/navigation-diagram-modal.png[Modal View Navigation]
+image::guides::navigation/navigation-diagram-modal.png[Modal View Navigation]
 
 Each UI component in NativeScript provides two methods for managing modal views:
 
@@ -421,7 +421,7 @@ A typical usage would be to add UI controls and have them do one of two things:
 * *Lateral navigation* — open a modal view.
 The simplest navigation pattern that you can implement is again the hub navigation pattern, but this time with the `SideDrawer` serving as the hub.
 
-image::../../assets/images/navigation/navigation-diagram-drawer-hub.png[Sidedrawr]
+image::guides::navigation/navigation-diagram-drawer-hub.png[Sidedrawr]
 
 The component itself doesn't provide navigation logic automatically like the TabView.
 Instead, it is built with more freedom in mind and lets you customize its content.
@@ -458,7 +458,7 @@ You can check out how this is done in the examples below.
 
 === Nesting Simple Forward Navigation
 
-image::../../assets/images/navigation/navigation-examples-page-1.png[Nesting Simple Forward Navigation]
+image::guides::navigation/navigation-examples-page-1.png[Nesting Simple Forward Navigation]
 
 Nesting simple forward navigation: a `Frame` in a layout, for example, to show an advertisement banner on the top/bottom (static content).
 The root page is using a layout, (e.g., a xref:components::index.adoc#gridlayout[GridLayout]) as a wrapper for the nested forward navigation (Frame) and for the static content (layout).
@@ -491,15 +491,15 @@ Frame (root forward navigation)
 
 === Nesting Simple Lateral Navigation
 
-image::../../assets/images/navigation/navigation-examples-page-2.png[Nesting Simple Lateral Navigation]
+image::guides::navigation/navigation-examples-page-2.png[Nesting Simple Lateral Navigation]
 
 === Nesting Lateral in Forward Navigation
 
-image::../../assets/images/navigation/navigation-examples-page-4.png[Nesting Lateral in Forward Navigation]
+image::guides::navigation/navigation-examples-page-4.png[Nesting Lateral in Forward Navigation]
 
 === Nesting Forward in Lateral Navigation
 
-image::../../assets/images/navigation/navigation-examples-page-5.png[navigation-examples-page-5]
+image::guides::navigation/navigation-examples-page-5.png[navigation-examples-page-5]
 
 Root TabView with multiple nested Frames.
 

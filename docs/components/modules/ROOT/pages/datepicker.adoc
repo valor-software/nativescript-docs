@@ -1,7 +1,5 @@
 = DatePicker
 
-== Date Picker
-
 `<DatePicker>` is a UI component that lets users select a date from a pre-configured range.
 
 See also: xref:components::timepicker.adoc[TimePicker].
@@ -138,7 +136,7 @@ Vue::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -179,7 +177,7 @@ Defaults to 0.
 Refer to the https://docs.nativescript.org/api-reference/classes/datepicker[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -188,7 +186,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/datepicker[API 
 | Emitted when the selected date changes.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

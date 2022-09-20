@@ -3,12 +3,12 @@
 
 == Delegates, delegates, DELEGATES!!
 
-*Always* retain custom delegate implementations that you use in a your own custom iOS classes.
-Not doing so can cause your delegate to get garbage collected early and functionality not working as expected.
+*Always* retain custom delegate implementations that you use in your own custom iOS classes.
+Not doing so can cause your delegate to get garbage collected early and functionality does not work as expected.
 
 For example:
 
-* *BAD*
+*BAD:*
 
 [,ts]
 ----
@@ -20,7 +20,7 @@ applePayController.delegate =
   PKPaymentAuthorizationViewControllerDelegateImpl.initWithOwner(this)
 ----
 
-* *GOOD*
+*GOOD:*
 
 [,ts]
 ----

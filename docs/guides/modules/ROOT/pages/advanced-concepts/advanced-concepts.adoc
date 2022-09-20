@@ -94,7 +94,7 @@ Workers API in NativeScript are loosely based on the https://developer.mozilla.o
 
 === Sample Usage
 
-image::/assets/images/multithreading/Workers.png[NativeScript Workers API]
+image::guides::advanced-concepts/Workers.png[NativeScript Workers API]
 
 [WARNING]
 ====

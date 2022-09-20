@@ -19,7 +19,7 @@ To get the most out of this tutorial, you should already have a basic understand
 
 You'll build a master-details app that displays a list of musicals and allows you to navigate to a details page to view more information about each musical.
 
-image::basics/tutorial-example-app-preview.png[Example app preview]
+image::guides::basics/tutorial-example-app-preview.png[Example app preview]
 
 You can find the complete source code of the application on https://github.com/NativeScript/tutorials/tree/main/plain-tutorial[GitHub]
 
@@ -289,7 +289,7 @@ Add a `/app/assets/` directory to your project, and copy the 3 static images ove
 
 Next, let's break down the layout and UI elements of the home page.
 
-image::basics/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
+image::guides::basics/tutorial-example-app-master-breakdown.png[Home page layout breakdown]
 
 The home page can be divided into two main parts, the action bar with the title and the scrollable main content area with the cards (we will talk about the cards in the next section).
 Let's start with creating the action bar with the title.
@@ -399,7 +399,7 @@ Open `app.css` and add the following:
 }
 ----
 
-image::/assets/images/tutorial/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
+image::guides::basics/tutorial-example-app-master-card-breakdown.png[Home page cards breakdown]
 
 As you can see in the image above, each card is made up of 3 components, the preview image, a title, and a description.
 We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts.
@@ -456,7 +456,7 @@ Open your `home-page.xml` and add the following:
 
 If you've followed along this far, running the app on either platform should result in an app that resembles the one in this screenshot, with the list being scrollable vertically.
 
-image::basics/tutorial-example-app-master.png[Home page]
+image::guides::basics/tutorial-example-app-master.png[Home page]
 
 == Create the details page
 
@@ -645,7 +645,7 @@ export class DetailsViewModel extends Observable {
 
 Let's break down the layout and UI elements of the details page.
 
-image::basics/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
+image::guides::basics/tutorial-example-app-details-breakdown.png[Details page layout breakdown]
 
 The details page can be divided into three main parts, the action bar with the flick title, the hero image, and the main content with the flick details.
 We will use the `details` array from our `flicks` object to populate the flick details section.
@@ -695,7 +695,7 @@ Open `details-page.xml` and add the following code:
 
 Running the app on either platform should now result in an app that resembles the one in this screenshot with the ability to navigate between the home and details pages.
 
-image::basics/tutorial-example-app-details.png[Details page]
+image::guides::basics/tutorial-example-app-details.png[Details page]
 
 == What's next
 
