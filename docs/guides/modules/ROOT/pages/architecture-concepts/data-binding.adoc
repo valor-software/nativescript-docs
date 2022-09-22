@@ -108,7 +108,7 @@ While the first one denotes the binding context of the direct parent visual elem
 This gives you the option to choose either N levels of UI nesting or get a parent UI element with a given type.
 Let's see how this works with an example.
 
-include::partial$data-binding-2.adoc[]
+include::partial$data-binding-1.adoc[]
 
 [NOTE]
 ====
@@ -444,7 +444,7 @@ However, this is not the case when xref:components::listview.adoc[ListView] item
 The problem comes from the fact that the bindingContext of a ListView is the individual data items in the array, and to apply a converter, the converter and its parameters should be added to each data item, which will result in multiple converter instances.
 Tackling this problem with NativeScript is fairly simple.
 the binding infrastructure searches for the application level resources to find a proper converter and parameters.
-So you could add the converters to the resources in the xref:/nativescript-core/application.adoc[Application] class.
+So you could add the converters to the resources in the xref:/nativescript-core/Application.adoc[Application] class.
 To be more clear, examine the following example (both XML and JavaScript):
 
 [tabs]

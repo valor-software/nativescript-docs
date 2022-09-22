@@ -5,6 +5,7 @@
 The default state is `false` or OFF.
 
 '''
+== Examples
 
 == Example: Simple Switch
 

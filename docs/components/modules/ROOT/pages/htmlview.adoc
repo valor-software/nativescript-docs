@@ -1,7 +1,5 @@
 = HtmlView
 
-== HtmlView
-
 `<HtmlView>` is a UI component that lets you show static HTML content.
 
 See also: <<webview,WebView>>.
@@ -90,7 +88,7 @@ Vue::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -105,7 +103,7 @@ Vue::
 Refer to the https://docs.nativescript.org/api-reference/classes/htmlview[API Reference]
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

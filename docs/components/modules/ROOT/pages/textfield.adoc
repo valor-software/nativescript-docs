@@ -133,8 +133,7 @@ React::
 ----
 ====
 
-
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -218,7 +217,8 @@ Use this property to create password input fields.
 Refer to the https://docs.nativescript.org/api-reference/classes/textfield[API Reference]
 |===
 // TODO: fix API links
-=== Events
+
+== Events
 
 |===
 | Name | Description
@@ -236,7 +236,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/textfield[API R
 | Emitted when the field loses focus.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

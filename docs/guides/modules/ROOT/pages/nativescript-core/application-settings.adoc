@@ -257,7 +257,7 @@ ApplicationSettings.getAllKeys()
 |===
 
 
-==== Native Component
+== Native Component
 
 |===
 | Android | iOS

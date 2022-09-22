@@ -59,7 +59,6 @@ From this object you can get methods such as `getFilesDir()`, `onLowMemory()`,et
 | Type:  | `android.app.Application`
 |===================================
 
-
 [tabs]
 ====
 JS::
@@ -337,7 +336,6 @@ Unregisters previously registered BroadcastReceiver.
 | Parameters      | Definition
 | `intentFilter`  | A string containing the intent filter for which the BroadcastReceiver.
 |=========================================================================================
-
 
 [tabs]
 ====
@@ -732,7 +730,7 @@ Other cross-platform events:
 * `fontScaleChanged`
 
 
-==== API References
+== API References
 
 |===
 | Name | Type
@@ -742,7 +740,7 @@ Other cross-platform events:
 |===
 
 
-==== Native Component
+== Native Component
 
 |===
 | Android | iOS

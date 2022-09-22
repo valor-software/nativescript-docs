@@ -38,7 +38,7 @@ If you have a few "tappable" views that need to be ignored:
 <Button text="Global tap animations simply ignored" ignoreTouchAnimation="true" />
 ----
 
-In addition to expressing NativeScript https://docs.nativescript.org/interaction.html#animations[Animation APIs] which are convenient, simple and easy you can also define purely native animations like https://developer.apple.com/documentation/uikit/uiview/1622418-animate[iOS UIView Animations] or even https://developer.android.com/guide/topics/graphics/spring-animation[Android Dynamic Spring Physics Animations], for example:
+In addition to expressing NativeScript https://docs.nativescript.org/interaction.html#animations[Animation APIs] which are convenient, simple and easy, you can also define purely native animations like https://developer.apple.com/documentation/uikit/uiview/1622418-animate[iOS UIView Animations] or even https://developer.android.com/guide/topics/graphics/spring-animation[Android Dynamic Spring Physics Animations], for example:
 
 [,ts]
 ----
@@ -1120,7 +1120,7 @@ CSS::
 
 image::components::bezier.gif[bezier]
 
-More detailed examples are available on the <<animation-examples,Animation Examples>> page.
+More detailed examples are available on the <<Animation Examples,Animation Examples>> page.
 
 === Rotation using originX and originY
 
@@ -1168,10 +1168,10 @@ We can still use them along with CSS animations, but the values for `originX` an
 `Span` and `FormattedString` elements are not extending the https://docs.nativescript.org/api-reference/classes/view.html[`View`] class, but only https://docs.nativescript.org/api-reference/classes/viewbase.html[`ViewBase`].
 Because of this, neither `Span` nor `FormattedString` are ui elements, making it impossible to animate them and causing a crash on iOS.
 
-=== Animation examples
+=== Animation Examples
 
 This article contains examples demonstrating how to animate the animatable view properties.
-A full list of all animatable properties and a detailed explanation of the animations API is presented <<animations,here>>.
+Full list of all animatable properties and a detailed explanation of the animation API are presented <<Animations,here>>.
 
 The full source code for all samples is located https://github.com/NativeScript/animation-demo[here].
 
@@ -1977,7 +1977,7 @@ export function showActionDialog() {
 }
 ----
 
-==== Action Dialog Properties
+    ==== Action Dialog Properties
 
 |===
 | Name | Type | Description
@@ -2293,7 +2293,7 @@ Otherwise returns `true`
 
 Gestures, such as tap, slide and pinch, allow users to interact with your app by manipulating UI elements on the screen.
 
-In NativeScript, `View`&mdash;the base class for all NativeScript UI elements&mdash;has `on` and `off` methods that let you subscribe or unsubscribe to all events and gestures recognized by the UI element.
+In NativeScript, `View` &mdash; the base class for all NativeScript UI elements &mdash; has `on` and `off` methods that let you subscribe or unsubscribe to all events and gestures recognized by the UI element.
 
 As the first parameter, you pass an `on` or `off` method and the type of gesture you want to track.
 The second parameter is a function that is called each time the specified gesture is recognized.
@@ -2351,6 +2351,7 @@ label.on(GestureTypes.tap, (args: GestureEventData) => {
   console.log('Tap')
 })
 ----
+=====
 ====
 
 === Double Tap
@@ -2396,6 +2397,7 @@ label.on(GestureTypes.doubleTap, (args: GestureEventData) => {
   console.log('Double Tap')
 })
 ----
+=====
 ====
 
 Possible implementation:
@@ -2449,6 +2451,7 @@ label.on(GestureTypes.longPress, (args: GestureEventData) => {
   console.log('Long Press')
 })
 ----
+=====
 ====
 
 Possible implementation: Select one or more items in a view and act upon the data using a contextual action bar.
@@ -2500,6 +2503,7 @@ label.on(GestureTypes.swipe, (args: SwipeGestureEventData) => {
   console.log('Swipe Direction: ' + args.direction)
 })
 ----
+=====
 ====
 
 Possible implementation: Navigate between views in the same hierarchy.
@@ -2549,6 +2553,7 @@ label.on(GestureTypes.pan, (args: PanGestureEventData) => {
   console.log('Pan deltaX:' + args.deltaX + '; deltaY:' + args.deltaY + ';')
 })
 ----
+=====
 ====
 
 === Pinch
@@ -2595,6 +2600,7 @@ label.on(GestureTypes.pinch, (args: PinchGestureEventData) => {
   console.log('Pinch Scale: ' + args.scale)
 })
 ----
+=====
 ====
 
 Possible implementation: Zoom into content or out of content.
@@ -2643,6 +2649,7 @@ label.on(GestureTypes.rotation, (args: RotationGestureEventData) => {
   console.log('Rotation: ' + args.rotation)
 })
 ----
+=====
 ====
 
 === Touch
@@ -2694,6 +2701,7 @@ label.on(GestureTypes.touch, (args: TouchGestureEventData) => {
   console.log('Touch: x: ' + args.getX() + ' y: ' + args.getY())
 })
 ----
+=====
 ====
 
 === Subscribing to Multiple Gestures and Events

@@ -186,7 +186,7 @@ If you see *No issues were detected,* you have successfully set up your system.
 To run a NativeScript app, you will need an Android device &mdash;
 either a physical or a virtual device.
 
-* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref:/development-workflow.adoc[Running on a physical device]
+* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref:basics/development-workflow.adoc[Running on a physical device]
 * *Using a virtual device*: Open Android Studio, and open "AVD Manager" &mdash;
 If you are on the welcome screen, it's under the *Configure › AVD Manager* dropdown, otherwise under the *Tools › AVD Manager* menu.
 +
@@ -466,7 +466,7 @@ If you see *No issues were detected,* you have successfully set up your system.
 To run a NativeScript app, you will need an Android device &mdash;
 either a physical or a virtual device.
 
-* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref:/development-workflow.adoc[Running on a physical device]
+* *Using a physical device*: Connect the device using a USB cable, and follow the instructions from xref:guides::basics/development-workflow.adoc[Running on a physical device]
 * *Using a virtual device*: Open Android Studio, and open "AVD Manager" &mdash;
 If you are on the welcome screen, it's under the *Configure › AVD Manager* dropdown, otherwise under the *Tools › AVD Manager* menu.
 +

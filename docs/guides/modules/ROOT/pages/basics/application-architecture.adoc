@@ -3,7 +3,7 @@
 In this article, we are going to review the architecture of a NativeScript application built with the Core Framework.
 It will cover the entry point of the app, the decomposition into modules, styling the application and data binding.
 
-=== Entry Point
+== Entry Point
 
 The entry point for a core NativeScript application is declared in the app root folder's package.json file under the property main.
 This is usually declared as app.js or app.ts in case you have created a TypeScript project.
@@ -42,7 +42,7 @@ This effectively means that, apart from the xref:components::page.adoc[Page,] yo
 The start() method is now marked as deprecated.
 ====
 
-=== Application Modules
+== Application Modules
 
 The core NativeScript framework is separated into modules.
 As a minimum a module is represented by a markup `.xml` file holding the UI markup.
@@ -112,7 +112,7 @@ The naming convention isn't mandatory.
 It is put in place for easier and effortless webpack bundling.
 ====
 
-=== Root Modules
+== Root Modules
 
 These modules are used as the root for UI containers.
 Currently, there are only two types of UI containers in a NativeScript app:
@@ -165,7 +165,7 @@ export function onFrameLoaded(args: EventData): void {
 ----
 ====
 
-=== Page Modules
+== Page Modules
 
 These modules represent pages and are used by the Frame component to implement forward and backward navigation.
 You can pass these modules to the `Frame` in one of the two ways:
@@ -216,7 +216,7 @@ export function onPageLoaded(args: EventData): void {
 ----
 ====
 
-=== Global App Styling
+== Global App Styling
 
 The NativeScript Core framework also provides a way to set application-wide styling.
 The default place to do that is in the `app.css` file in the app root folder.
@@ -233,21 +233,22 @@ Application.setCssFileName('style.css')
 Application.run({ moduleName: 'main-page' })
 ----
 
-Styling is covered in detail in the xref:/ui/styling.adoc[styling] article.
+Styling is covered in detail in the xref:components::styling.adoc[styling] article.
 
-=== Supporting Multiple Screens
+== Supporting Multiple Screens
 
 Mobile applications are running on different devices with different screen sizes and form factors.
 NativeScript provides a way to define different files (`.js`, `.css`, `.xml`, etc.) to be loaded based on the *screen's size*, *platform*, and *orientation* of the current device.
 The approach is somewhat similar to http://developer.android.com/guide/practices/screens_support.html[multiscreen support in Android].
 There is a set of _qualifiers_ that can be added inside the file that will be respected when the file is loaded.
+
 Here is how the file should look:
 
 _<file-name>[.<qualifier>]*.<extension>_
 
 In the next section, we will go through the list of supported qualifiers.
 
-=== Screen Size Qualifiers
+== Screen Size Qualifiers
 
 All the values in screen size qualifiers are in `density independent pixels (DP)` -- meaning it corresponds to the physical dimensions of the screen.
 The assumptions are that there are ~160 DP per inch.
@@ -262,7 +263,7 @@ Example (separate XML file for tablet and phone):
 * `main-page.minWH600.xml` — XML file to be used for tablet devices.
 * `main-page.xml` — XML to be used for phones.
 
-=== Platform Qualifiers
+== Platform Qualifiers
 
 * `android` -- Android platform
 * `ios` -- iOS platform
@@ -275,7 +276,7 @@ The platform qualifiers are executed *during build time*, while the others are e
 For example, the `app.ios.css` file will not be taken into consideration when building for the Android platform.
 On the contrary, the *screen size* qualifiers will be considered just after the application runs on a device with specific screen size.
 
-=== Orientation Qualifiers
+== Orientation Qualifiers
 
 * `land` — orientation is in landscape mode.
 * `port` — orientation is in portrait mode.
@@ -286,7 +287,7 @@ qualifiers are taken into account when the page is loading.
 However, changing the device's orientation will not trigger a page reload and will not change the current page.
 ====
 
-=== Data Binding
+== Data Binding
 
 Data binding is the process of connecting application user interface (UI) to a data object (code).
 In NativeScript each UI component can be bound to what is called a binding source.
@@ -341,4 +342,4 @@ export function onPageLoaded(args: EventData): void {
 ----
 ====
 
-Binding is covered in detail in the xref:/architecture-concepts/data-binding.adoc[Data Binding] article.
+Binding is covered in detail in the xref:architecture-concepts/data-binding.adoc[Data Binding] article.

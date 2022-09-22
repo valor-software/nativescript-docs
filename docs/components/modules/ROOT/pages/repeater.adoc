@@ -8,6 +8,7 @@ The Repeater widget allows you to display a collection of data, which is present
 ====
 
 '''
+
 [tabs]
 ====
 Plain::
@@ -58,7 +59,6 @@ export function onNavigatingTo(args) {
 =====
 ====
 
-
 [NOTE]
 ====
 Changing the array after the repeater is shown will not update the UI.
@@ -67,7 +67,7 @@ You can force-update the UI using the `refresh()` method.
 When using `ObservableArray` the repeater will be automatically updated when items are added or removed form the array.
 ====
 
-=== API References
+== API References
 
 |===
 | Name | Type

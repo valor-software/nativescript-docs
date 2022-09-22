@@ -32,7 +32,7 @@ To set up your development environment, follow the instructions in the https://d
 We will be using Typescript for this tutorial.
 To create a new NativeScript Typescript application, run the CLI command `ns create` with the name of the application followed by `--svelte`.
 
-[source%linenums,cli]
+[,cli]
 ----
 ns create example-app --svelte
 ----
@@ -44,7 +44,7 @@ This can take a few minutes and should be ready to run once it's done installing
 
 Go to the project's directory and run the following command to run it on the respective platforms.
 
-[source%linenums,cli]
+[,cli]
 ----
 cd example-app
 
@@ -84,9 +84,8 @@ app
 
 Let's start with creating the file for our home page with the following contents:
 
-[source%linenums,html]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
 <page> </page>
 
 <script></script>
@@ -98,10 +97,8 @@ We will be setting up the home page as our default route when the app starts.
 We can set the default route by importing the home component in our `App.svelte` file and setting it as the `defaultPage` of the root's `frame` component.
 Open `App.svelte` and add the following code:
 
-[source%linenums,html]
+[,html]
 ----
-<!-- app/App.svelte -->
-
 <page>
   <frame id="rootFrame" defaultPage="{Home}"></frame>
 </page>
@@ -120,10 +117,8 @@ This will allow us to use the data directly in our template.
 Create a `models` directory inside `app` and create a new file called `flick.ts`.
 Open the new `flick.ts` and add the following `interface`:
 
-[source%linenums,typescript]
+[,typescript]
 ----
-// app/models/flick.ts
-
 export interface FlickModel {
   id: number
   genre: string
@@ -142,10 +137,8 @@ We will then use the `FlickModel` in our `FlickService` to return our flick data
 Create a `services` directory inside `app` and create a new file called `flickService.ts`.
 Open the new `flickService.ts` and add the following:
 
-[source%linenums,typescript]
+[,typescript]
 ----
-// app/services/flickService.ts
-
 import { FlickModel } from '../models/flick'
 
 export class FlickService {
@@ -264,21 +257,20 @@ The home page can be divided into two main parts, the action bar with the title 
 Let's start with creating the action bar with the title.
 Open `Home.svelte` and add the following code:
 
-[source%linenums,html]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
 <page>
   <actionBar title="NativeFlix" />
 </page>
 <script></script>
 ----
 
-Since we have an array of flicks to display we can use NativeScript's https://docs.nativescript.org/ui-and-styling.html#listview[`ListView`] component.
+Since we have an array of flicks to display, we can use NativeScript's https://docs.nativescript.org/ui-and-styling.html#listview[`ListView`] component.
 `ListView` is a NativeScript UI component that efficiently renders items in a vertical or horizontal scrolling list.
 Let's first create a variable called flick in our home component that we are going to use as our ``ListView``'s data source.
 Open `Home.svelte` and add the following:
 
-[source%linenums,html{9}]
+[,html]
 ----
 <!-- app/pages/Home.svelte -->
 
@@ -296,10 +288,8 @@ Open `Home.svelte` and add the following:
 
 Next, add the `ListView` component:
 
-[source%linenums,html{6-12,17}]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
-
 <page>
   <actionBar title="NativeFlix" />
   <!-- Add this 👇 -->
@@ -332,10 +322,8 @@ Before we dive into creating the card below, let's create some classes for our b
 As this will be shared throughout the application, let's add this to the `app.css`.
 Open `app.css` and add the following:
 
-[source%linenums,css]
+[,css]
 ----
-/* app/app.scss */
-
 /* applied when device is in light mode */
 .ns-light .bg-primary {
   background-color: #fdfdfd;
@@ -371,10 +359,8 @@ As you can see in the image above, each card is made up of 3 components, the pre
 We will be using a `GridLayout` as our container and use the `Image` and `Label` components for the preview image and texts.
 Open your `Home.svelte` and add the following:
 
-[source%linenums,html]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
-
 <page>
   <actionBar title="NativeFlix" />
   <stackLayout height="100%">
@@ -433,8 +419,6 @@ Let's start with creating the file for our details page with the following conte
 
 [,html]
 ----
-<!-- app/pages/Details.svelte -->
-
 <page> </page>
 
 <script></script>
@@ -447,10 +431,8 @@ In addition to the page name, we will also pass in the flick's `id` as part of t
 We will use this `id` in our details component to access more information about the flick.
 Open `Home.svelte` and add the following:
 
-[,html{42,46,51-56}]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
-
 <page>
   <actionBar title="NativeFlix" />
   <stackLayout height="100%">
@@ -511,10 +493,8 @@ Open `Home.svelte` and add the following:
 Next, let's add the tap event to the listview items.
 Open `Home.svelte` and add the following:
 
-[,html{11}]
+[,html]
 ----
-<!-- app/pages/Home.svelte -->
-
 <page>
   <actionBar title="NativeFlix" />
   <stackLayout height="100%">
@@ -582,10 +562,8 @@ We can access the passed in `flickId` by declaring and exporting a variable with
 We can then use the `id` to get the selected flick information to be displayed in our details component's template.
 Open `Details.svelte` and add the following:
 
-[,html{7}]
+[,html]
 ----
-<!-- app/pages/Details.svelte -->
-
 <page> </page>
 
 <script>
@@ -597,10 +575,8 @@ Open `Details.svelte` and add the following:
 Next, let's use the `flickId` to get the flick information from our `FlickService`.
 Open `Details.svelte` and add the following:
 
-[,html{7,11}]
+[,html]
 ----
-<!-- app/pages/Details.svelte -->
-
 <page> </page>
 
 <script>
@@ -625,10 +601,8 @@ The `details` array contains objects with a `title` and `body` which are rendere
 We can use Svelte's `#each` block to loop through the array and create a UI element or set of elements for each entry in the array.
 Open `Details.svelte` and add the following code:
 
-[,html{5,8-32}]
+[,html]
 ----
-<!-- app/pages/Details.svelte -->
-
 <page>
   <!-- Add this 👇 -->
   <actionBar title="{flick.title}" />

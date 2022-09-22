@@ -144,7 +144,7 @@ Svelte::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | name | type | description
@@ -165,7 +165,7 @@ Svelte::
 Refer to the https://docs.nativescript.org/api-reference/classes/scrollview[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -174,7 +174,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/scrollview[API 
 | Emitted when a scroll event occurs.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

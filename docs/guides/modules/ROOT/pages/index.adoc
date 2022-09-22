@@ -1,6 +1,10 @@
 = Overview — NativeScript Documentation
 :toclevels: 4
 :page-no-previous: true
+:url_understand: https://
+:url_flutter: https://
+:url_react: https://
+:url_ionic: https://
 
 Welcome to the official NativeScript documentation!
 
@@ -53,7 +57,7 @@ Develop stunning NativeScript application using React Native framework using the
 .xref:{url_ionic}[Using Ionic and Capacitor with NativeScript]
 *****
 Guides for Ionic and Capacitor developers.
-How to develop NativeScript application using Ionic and Capacitor framework.
+How to develop NativeScript application using an Ionic and Capacitor frameworks.
 *****
 ****
 |

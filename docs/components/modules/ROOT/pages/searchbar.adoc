@@ -156,7 +156,7 @@ Svelte::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -186,7 +186,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/searchbar[API R
 // TODO: fix API links
 
 
-=== Events
+== Events
 
 |===
 | name | description
@@ -201,7 +201,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/searchbar[API R
 | Emitted when the current search input is cleared through the *X* button in the input area.
 |===
 
-=== Native Component
+== Native Component
 
 |===
 | Android | iOS

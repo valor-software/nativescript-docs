@@ -10,6 +10,7 @@ As opposed to <<tabview,`<TabView>`>>:
 * You need to handle the content shown after selection separately.
 
 '''
+== Examples
 
 == Example: SegmentedBar with `SegmentedBarItem`
 

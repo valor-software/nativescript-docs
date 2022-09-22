@@ -213,7 +213,7 @@ React::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -255,7 +255,7 @@ Currently supported only on iOS.
 Refer to the https://docs.nativescript.org/api-reference/classes/textview[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -273,7 +273,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/textview[API Re
 | Emitted when the container loses focus.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

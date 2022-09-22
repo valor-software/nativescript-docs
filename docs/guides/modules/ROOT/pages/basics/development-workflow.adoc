@@ -34,7 +34,7 @@ The `create` command will take a minute to complete, as the NativeScript CLI nee
 
 This command will clean your NativeScript project.
 It will delete the `node_modules`, `hooks`, and `platforms` directories from your project.
-These directories sometime need a clean slate during development of native applications.
+These directories sometimes need a clean slate during development of native applications.
 It is similar to running "Clean Build Folder" in XCode or other IDE environments.
 
 [,cli]
@@ -42,13 +42,13 @@ It is similar to running "Clean Build Folder" in XCode or other IDE environments
 ns clean
 ----
 
-If you're having trouble running your application or you have added new dependencies, it's usually a good practice to start with `ns clean` before running to be sure you avoid any type of dependency issues or native project build issues.
+If you're having trouble running your application, or you have added new dependencies, it's usually a good practice to start with `ns clean` before running to be sure you avoid any type of dependency issues or native project build issues.
 
 === `run`
 
 Runs your project on all connected devices or in native emulators for the selected platform.
 The command will prepare, build and deploy the app when necessary.
-By default listens for changes in your code, synchronizes those changes and refreshes all selected devices.
+By default, listens for changes in your code, synchronizes those changes and refreshes all selected devices.
 
 [,cli]
 ----
@@ -65,7 +65,7 @@ You must have at least one AVD (Android Virtual Device) configured on your devel
 Or a connected Android device with debugging enabled.
 
 Check the `devDependencies` of your `package.json` file.
-`@nativescript/android` must be installed to avoid the "https://github.com/NativeScript/nativescript-cli/issues/4451[Unable to apply changes on device: emulator-5554.
+`@nativescript/android` must be installed to avoid the "https://github.com/NativeScript/nativescript-cli/issues/4451[Unable to apply changes on a device: emulator-5554.
 Error is: Invalid Version: null.]" error.
 ====
 
@@ -88,11 +88,11 @@ When the command finishes the native emulator will open, and launch your app on 
 
 You can customize the `ns run` command using any of the following options:
 
-* `--no-hmr` - Disables the webpack HMR option, so changes made during a session will restart the application.
-* `--emulator` - Specifies that you want to debug the app in an emulator.
-* `--timeout` - Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot.
+* `--no-hmr` — Disables the webpack HMR option, so changes made during a session will restart the application.
+* `--emulator` — Specifies that you want to debug the app in an emulator.
+* `--timeout` — Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot.
 If not set, the default timeout is 90 seconds.
-* `--clean` - If set forces rebuilding the native application.
+* `--clean` — If set forces rebuilding the native application.
 
 [NOTE]
 ====
@@ -150,17 +150,17 @@ ns debug ios
 
 You can customize the `ns debug` command using any of the following options:
 
-* `--debug-brk` - Prepares, builds and deploys the application package on a device or in an emulator, and stops at the first JavaScript line until either the debugger frontend connects or a 30 seconds timeout elapses.
-* `--start` - Attaches the debug tools to a deployed and running app.
-* `--emulator` - Specifies that you want to debug the app in an emulator.
-* `--timeout` - Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot.
+* `--debug-brk` — Prepares, builds and deploys the application package on a device or in an emulator, and stops at the first JavaScript line until either the debugger frontend connects or a 30-seconds timeout elapses.
+* `--start` — Attaches the debug tools to a deployed and running app.
+* `--emulator` — Specifies that you want to debug the app in an emulator.
+* `--timeout` — Sets the number of seconds that the NativeScript CLI will wait for the debugger to boot.
 If not set, the default timeout is 90 seconds.
-* `--no-watch` - If set, changes in your code will not be livesynced.
-* `--clean` - If set forces rebuilding the native application.
+* `--no-watch` — If set, changes in your code will not be livesynced.
+* `--clean` — If set forces rebuilding the native application.
 
 ==== iOS specific options
 
-* `--inspector` - Flag to use the embedded Webkit Web Inspector debugger (default is Chrome DevTools).
+* `--inspector` — Flag to use the embedded Webkit Web Inspector debugger (default is Chrome DevTools).
 
 For more information about Android debugging, run any of the following commands:
 
@@ -329,11 +329,11 @@ For more information, see https://developer.apple.com/library/archive/documentat
 
 ==== Running on iOS Simualators
 
-On a mac if you have XCode installed with the proper tools, executing `ns run ios` from your terminal will launch the Simulator program with a default device.
-Alternatively, you can open the Simulator program on your mac, select which device(s) you want to open by navigating to `+File -> Open Simulator+` and choosing the device to launch.
+On a Mac if you have XCode installed with the proper tools, executing `ns run ios` from your terminal will launch the Simulator program with a default device.
+Alternatively, you can open the Simulator program on your Mac, select which device(s) you want to open by navigating to `+File -> Open Simulator+` and choosing the device to launch.
 Then execute `ns run ios` and the NativeScript app will launch on the open simulator(s).
 
-== Running on Physical Device
+== Running on a Physical Device
 
 === Android Devices
 
@@ -396,7 +396,7 @@ Do the same for the tests target (it ends with Tests, and is below your main tar
 
 ==== Run your app
 
-If the device is now registered with your developer account you should be able to run your NativeScript app on the device.
+If the device is now registered with your developer account, you should be able to run your NativeScript app on the device.
 Execute the following from your terminal to run the app from the CLI:
 
 [,cli]
@@ -406,7 +406,7 @@ ns run ios
 
 The app should install and launch on the connected iOS device.
 
-Alternatively, once you have the NativeScript project built, you can open open the native project inside XCode by opening the `.xcworkspace` or `.xcproject` file from XCode's menu and then running on a connected device or simulator.
+Alternatively, once you have the NativeScript project built, you can open the native project inside XCode by opening the `.xcworkspace` or `.xcproject` file from XCode's menu and then running on a connected device or simulator.
 
 == HMR
 
@@ -414,7 +414,7 @@ Alternatively, once you have the NativeScript project built, you can open open t
 
 [WARNING]
 ====
-Be sure you have prepare/built/run the app at least once before starting the unit test runner.
+Be sure you have prepared/built/run the app at least once before starting the unit test runner.
 ====
 
 For more information about end-to-end testing, see xref:plugins::plugins-list/detox.adoc[`@nativescript/detox` plugin].
@@ -506,7 +506,7 @@ npm i @types/qunit --save-dev
 === Write Your Tests
 
 With the NativeScript CLI, you can extensively test *all JavaScript-related functionality*.
-You cannot test styling and UI which are not applied or created via JavaScript.
+You can not test styling and UI which are not applied or created via JavaScript.
 
 When creating tests for a new or existing functionality, keep in mind the following specifics.
 
@@ -588,7 +588,7 @@ QUnit.test('Hello World Sample Test:', function (assert) {
 
 === Angular TestBed Integration
 
-To use TestBed you have to alter your `karma.conf.js` to:
+To use TestBed, you have to alter your `karma.conf.js` to:
 
 [,js]
 ----
@@ -826,7 +826,7 @@ During this process, the NativeScript CLI adds the plugin to your project's root
 ==== Installing Plugins as Developer Dependencies
 
 As shown above the command `ns plugin add @nativescript/camera` is actually doing `npm i @nativescript/camera --save` behind the scenes.
-If you need to install a *developer dependency* in your project (e.g., like *@nativescript/types* or *@nativescript/webpack*) then you will need to explicitly save it as a *devDependency*.
+If you need to install a *developer dependency* to your project (e.g., like *@nativescript/types* or *@nativescript/webpack*) then you will need to explicitly save it as a *devDependency*.
 To achieve that, use the `npm install` command with `--save-dev` flag.
 For example:
 
@@ -896,10 +896,10 @@ When you change the defaultly used `npm` package manager, CLI will use the newly
 
 NativeScript CLI supports three package managers:
 
-* `npm` - this is the default option
-* `yarn` - you can set it by calling `ns package-manager set yarn`.
+* `npm` — this is the default option
+* `yarn` — you can set it by calling `ns package-manager set yarn`.
 More information about `yarn` is available https://yarnpkg.com/[here]
-* `pnpm` - from version 6.4, you can use `pnpm` to manage the dependencies of your application.
+* `pnpm` — from version 6.4, you can use `pnpm` to manage the dependencies of your application.
 You can use `pnpm` by calling `ns package-manager set pnpm`.
 NOTE: You will have to use `--shamefully-hoist` flag if you call `pnpm` on your own.
 CLI passes this flag when installing dependencies with `pnpm` and probably your application will not work if you omit it.
@@ -915,7 +915,7 @@ ns package-manager get
 == Updating
 
 To upgrade a NativeScript application you need to upgrade several things: NativeScript CLI Tooling, the iOS and Android runtimes and the `@nativescript/core` module.
-In the steps below you will see how to do this.
+In the steps below, you will see how to do this.
 
 [,cli]
 ----
@@ -967,7 +967,7 @@ Consider saving any custom code that you have introduced in your `webpack.config
 === Upgrading platforms
 
 Follow those steps in order to get the latest versions of Android and/or iOS runtimes.
-Navigate to the root level folder where your project is, and then if you are working on a Android project, type:
+Navigate to the root level folder where your project is, and then if you are working on an Android project, type:
 
 [,cli]
 ----
@@ -999,7 +999,7 @@ This installs the *@nativescript/core* package to the node_modules folder and ad
 [IMPORTANT]
 ====
 The `ns create` command will create a new project, add the *@nativescript/core* package as a dependency to its package.json and install it.
-So each new project you create will have the *@nativescript/core* package installed and you do not have to install it explicitly.
+So each new project you create will have the *@nativescript/core* package installed, and you do not have to install it explicitly.
 ====
 
 Another place to find *@nativescript/core* package is https://github.com/NativeScript/NativeScript/releases/[NativeScript Releases], where you can find a collection of the available @nativescript/core-*.tgz packages for every release.
@@ -1040,7 +1040,7 @@ There are two ways to get the latest development code for NativeScript:
 
 === Getting the latest development version via npm
 
-As an open-source project NativeScript keeps not only its source code but its build infrastructure open.
+As an open-source project NativeScript keeps not only its source code open, but its build infrastructure too.
 That is why we choose https://travis-ci.org/[Travis CI] for our nightly builds.
 Every commit in the master branch of all major NativeScript repos triggers a https://travis-ci.org/[Travis CI] build which publishes an npm package that can be used directly.
 Follow those simple steps to get the latest development version of NativeScript:
@@ -1107,12 +1107,12 @@ According to the https://github.com/NativeScript/NativeScript/blob/master/tools/
 
 === Behind the curtains of running a NativeScript application
 
-. `npm install nativescript -g` : Node Package Manager (npm) downloads and installs the https://www.npmjs.com/package/nativescript[NativeScript CLI].
-. `ns create [AppName]` : The NativeScript CLI downloads the https://www.npmjs.com/package/@nativescript/template-hello-world[Hello-World template] and unpacks it to a folder named after the app name you choose.
+. `npm install nativescript -g`: Node Package Manager (npm) downloads and installs the https://www.npmjs.com/package/nativescript[NativeScript CLI].
+. `ns create [AppName]`: The NativeScript CLI downloads the https://www.npmjs.com/package/@nativescript/template-hello-world[Hello-World template] and unpacks it to a folder named after the app name you choose.
 At the same time, the CLI installs the https://www.npmjs.com/package/@nativescript/core[NativeScript cross-platform modules].
 As a result, your application folder now contains an `app` folder, holding the files of your application (https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-hello-world[source code]) and a `node_modules` folder, having the cross-platform modules (https://github.com/NativeScript/NativeScript[source code]).
-. `ns platform add android/ios` : The NativeScript CLI downloads the latest SemVer-compatible version of the specified runtime, unpacks it and applies transformations to the native (Android Studio or xCode) project (e.g., changes the project name).
-. `ns run android/ios` : The NativeScript CLI copies the files under the `app` folder to the `+platforms/[android/ios]/.../app+` folder following a specific logic so that these get used later by a native build tool (_gradle_/_xcode-build_).
+. `ns platform add android/ios`: The NativeScript CLI downloads the latest SemVer-compatible version of the specified runtime, unpacks it and applies transformations to the native (Android Studio or xCode) project (e.g., changes the project name).
+. `ns run android/ios`: The NativeScript CLI copies the files under the `app` folder to the `+platforms/[android/ios]/.../app+` folder following a specific logic so that these get used later by a native build tool (_gradle_/_xcode-build_).
 As a next step, the NativeScript CLI executes compilation, deployment and run commands of _gradle_ or _xcode-build_.
 . Any JavaScript code gets executed in a V8 or JavaScriptCore engine and embedded in the NativeScript runtimes.
 Each call to an actual native object gets marshalled via the runtimes to the underlying platform and vice-versa.
@@ -1122,7 +1122,7 @@ The runtimes provide JavaScript handles to the native objects.
 ==== Contents of the NativeScript repo
 
 The https://github.com/NativeScript/NativeScript[NativeScript framework] is built using TypeScript.
-For that, one of the build steps is TypeScript compilation, which uses TypeScript declarations of the underlying native objects.
+For that, one of the build steps is a TypeScript compilation, which uses TypeScript declarations of the underlying native objects.
 These are really large files (https://github.com/NativeScript/NativeScript/blob/master/packages/types-android/src/lib/android-17.d.ts[android17.d.ts] and https://github.com/NativeScript/NativeScript/blob/master/packages/types-ios/src/lib/ios/ios.d.ts[ios.d.ts]).
 The TypeScript compilation with these two files loaded in memory takes a lot of time.
 To save development time and have as quick and stable feature output, the NativeScript team decided to keep several important applications inside the same repository so that all of them get compiled in a single pass.
@@ -1200,7 +1200,7 @@ You can develop NativeScript apps in any text editor or IDE you prefer.
 
 === VS Code
 
-Most of the NativeScript team prefers to use https://code.visualstudio.com/[VS Code from Microsoft] as their editor for NativeScript apps.
+Most of the NativeScript team members prefer to use https://code.visualstudio.com/[VS Code from Microsoft] as their editor for NativeScript apps.
 Some reasons we use VS Code:
 
 * Visual Studio Code has excellent support for https://www.typescriptlang.org/[TypeScript].

@@ -5,7 +5,9 @@ It represents a toolbar at the top of the activity window and can have a title, 
 
 '''
 
-== Example: Simple ActionBar with title
+== Examples
+
+=== Example: Simple ActionBar with title
 
 [tabs]
 ====
@@ -45,7 +47,7 @@ React::
 ----
 ====
 
-== Example: ActionBar with custom title view
+=== Example: ActionBar with custom title view
 
 [tabs]
 ====
@@ -110,7 +112,7 @@ React::
 ----
 ====
 
-== Example: ActionBar with ActionItem
+=== Example: ActionBar with ActionItem
 
 The `<ActionItem>` components are supporting the platform-specific position and systemIcon for iOS and Android.
 
@@ -252,8 +254,7 @@ React::
 ----
 ====
 
-
-== Example: ActionBar with NavigationButton
+=== Example: ActionBar with NavigationButton
 
 `<NavigationButton>` is a UI component that provides an abstraction for the Android navigation button and the iOS back button.
 
@@ -335,7 +336,7 @@ You can use `android.systemIcon` to set one of the system icons available in And
 In this case, there is no default behaviour for NavigationButton tap event, and we should set the callback function, which will be executed.
 ====
 
-== Example: Setting an app icon for Android in ActionBar
+=== Example: Setting an app icon for Android in ActionBar
 
 [tabs]
 ====
@@ -395,7 +396,7 @@ React::
 ----
 ====
 
-== Example: Removing the border from ActionBar
+=== Example: Removing the border from ActionBar
 
 By default, a border is drawn at the bottom of the `<ActionBar>`.
 In addition to the border, on iOS devices a translucency filter is also applied over the `<ActionBar>`.
@@ -440,7 +441,7 @@ React::
 ----
 ====
 
-== Example: Styling ActionBar
+=== Example: Styling ActionBar
 
 To style the `<ActionBar>`, you can use only `background-color` and `color` properties.
 Alternatively, you can use `@nativescript/theme` and use the default styles for each different theme.
@@ -627,7 +628,7 @@ Supports local images (`~/`), resources (`res://`) and icon fonts (`fonts://`)
 | Emitted when the layout bounds of a view changes due to layout processing.
 |===
 
-=== API References
+== API References
 
 |===
 | Name | Type
@@ -645,7 +646,7 @@ Supports local images (`~/`), resources (`res://`) and icon fonts (`fonts://`)
 | `Class`
 |===
 
-=== Native Component
+== Native Component
 
 |===
 | Android | iOS

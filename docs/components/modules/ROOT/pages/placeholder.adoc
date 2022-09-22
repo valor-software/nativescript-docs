@@ -5,6 +5,7 @@ To do that, you need to put a Placeholder somewhere in the UI hierarchy and then
 Finally, pass your native widget to the event arguments of the creatingView event.
 
 '''
+== Examples
 
 === Example: Simple Placeholder
 
@@ -144,7 +145,7 @@ methods: {
 =====
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description

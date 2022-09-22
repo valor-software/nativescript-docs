@@ -11,6 +11,8 @@ Tip When working with images following xref:best-practices::performance.adoc#ima
 
 '''
 
+== Examples
+
 === Example: Displaying an image from `App_Resources`
 
 [tabs]
@@ -218,7 +220,7 @@ React::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -258,7 +260,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/image[API Refer
 
 // TODO: fix API links
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

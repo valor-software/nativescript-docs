@@ -455,10 +455,6 @@ Refer to the link:[API Reference]
 |===
 ====
 
-
-
-
-
 [TIP]
 ====
 Instead of manually triggering the UI update with the help of ListView's refresh method, NativeScript provides the ObservableArray.
@@ -480,7 +476,7 @@ To avoid this issue, we should specify the height explicitly for the ListView in
 ----
 ======
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -490,7 +486,7 @@ To avoid this issue, we should specify the height explicitly for the ListView in
 To access the tapped item, use `event.item`.
 |===
 
-=== Methods
+== Methods
 
 |===
 | Name | Description
@@ -508,7 +504,7 @@ To access the tapped item, use `event.item`.
 | Checks if specified items with index are visible.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

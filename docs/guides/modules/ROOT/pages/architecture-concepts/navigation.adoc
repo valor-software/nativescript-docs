@@ -37,8 +37,10 @@ By design, a Page can't be declared as a child of another component.
 It is used as a root component of a module, in which case the module becomes a page module.
 Here is an example of how you can implement the item-page module from the diagram above:
 
-// tab: item-page.xml
-
+[tabs]
+====
+item-page.xml::
++
 [,xml]
 ----
 <Page loaded="onPageLoaded">
@@ -50,8 +52,8 @@ Here is an example of how you can implement the item-page module from the diagra
 </Page>
 ----
 
-// tab: item-page.js
-
+item-page.js::
++
 [,js]
 ----
 export function onPageLoaded(args) {
@@ -59,8 +61,8 @@ export function onPageLoaded(args) {
 }
 ----
 
-// tab: item-page.ts
-
+item-page.ts::
++
 [,ts]
 ----
 import { EventData } from '@nativescript/core'
@@ -69,6 +71,7 @@ export function onPageLoaded(args: EventData): void {
   console.log('Page Loaded')
 }
 ----
+====
 
 === Frame
 
@@ -213,8 +216,7 @@ It consists of a screen, called a hub, that holds navigation buttons leading to 
 In essence, this pattern uses the same mechanism of forward navigation for lateral navigation.
 In NativeScript you can implement this with a *Frame* and have one *Page* serve as the hub screen.
 
-link:../../assets/images/navigation/navigation-diagram-hub.png[Hub Navigation]
-
+image::guides::navigation/navigation-diagram-hub.png[Hub Navigation]
 
 [tabs]
 ====
@@ -287,7 +289,9 @@ export function navigateToSearch(args: EventData) {
 The xref:components::tabview.adoc[TabView] component enables the user to arbitrarily navigate between several UI containers at the same level.
 A key feature of these components is that they keep the state of the containers that are not visible.
 This means that when the user comes back to a previous tab, the data, scroll position and navigation state should be like they left them.
-Here is a diagram that demonstrates how the navigation schema can be implemented with a TabView: image:../../assets/images/navigation/navigation-diagram-tab.png[TabView diagram]
+Here is a diagram that demonstrates how the navigation schema can be implemented with a TabView:
+
+image::guides::navigation/navigation-diagram-tab.png[TabView diagram]
 
 === Modal View Navigation
 
@@ -411,7 +415,7 @@ However, in this case there won't be a navigation controller in the modal view a
 
 === SideDrawer Navigation
 
-Sidedrawer navigation enables the user to open a hidden view, i.e.
+SideDrawer navigation enables the user to open a hidden view, i.e.
 drawer, containing navigation controls, or settings from the sides of the screen.
 There are a lot of navigation patterns that can be implemented using a SideDrawer.
 You can use the RadSidedrawer or https://github.com/nativescript-community/ui-drawer[@nativescript-community/ui-drawer] plugin for sidedrawer navigation.
@@ -433,7 +437,10 @@ In the hidden drawer content you can have three buttons.
 Each of them will navigate to one of the three features.
 
 An alternative navigation pattern for the SideDrawer would be to have the main content hold only one feature and navigate to the other two laterally using modal views.
-image:../../assets/images/navigation/navigation-diagram-drawer.png[Sidedrawer with Modal View] image:../../assets/images/navigation/demo-ios.gif[ios @nativescript-community/ui-drawer]
+
+image::guides::navigation/navigation-diagram-drawer.png[Sidedrawer with Modal View]
+
+image::guides::navigation/demo-ios.gif[ios @nativescript-community/ui-drawer]
 
 == Nested Navigation
 
@@ -472,7 +479,9 @@ GridLayout
 
 === Nesting Forward in Forward Navigation
 
-image:../../assets/images/navigation/navigation-examples-page-3.png[navigation-examples-page-3] Nesting a Frame inside a Page/Frame, for example, a secondary navigation level.
+image::guides::navigation/navigation-examples-page-3.png[navigation-examples-page-3]
+
+Nesting a Frame inside a Page/Frame, for example, a secondary navigation level.
 
 [NOTE]
 ====
@@ -503,28 +512,35 @@ image::guides::navigation/navigation-examples-page-5.png[navigation-examples-pag
 
 Root TabView with multiple nested Frames.
 
-```TabView (lateral navigation)     > Frame (id="featured" defaultPage="featured-page")     > Frame (id="browse" defaultPage="browse-page")     > Frame (id="search" defaultPage="search-page")
-
+----
+TabView (lateral navigation)     > Frame (id="featured" defaultPage="featured-page")     > Frame (id="browse" defaultPage="browse-page")     > Frame (id="search" defaultPage="search-page")
 ----
 
-### Nesting Lateral in Lateral
+== Nesting Lateral in Lateral
 
-![Nesting Lateral in Lateral](../../assets/images/navigation/navigation-examples-page-6.png)
+image::guides::navigation/navigation-examples-page-6.png[Nesting Lateral in Lateral]
 
-### Combining Nested Navigation Scenarios
+=== Combining Nested Navigation Scenarios
 
 The following example demonstrates a scenario where we have combined several nested navigations (both lateral and forward navigations on different nested levels). For example, a RadSidedrawer + Login page leading to a page with a TabView and in one TabView there are inner forward navigations in each TabViewItem. There is also a modal page with its own forward navigation.
+
 ----
+RadSideDrawer (lateral navigation)
+    drawer content
+        > Frame id="root-frame" (forward navigation)
+            >> Page (e.g. login-page)
+            >> Page (e.g. main-page) with BottomNavigation (lateral navigation)
+                 TabViewItem >>> Frame (featured)
+                            >>>> Page (featured-page)
+                 TabViewItem >>> Frame (browse)
+                            >>>> Page (browse-page)
+                 TabViewItem >>> Frame (search)
+                            >>>> Page (search-page)
 
-RadSideDrawer (lateral navigation)     drawer content         > Frame id="root-frame" (forward navigation)             >> Page (e.g.
-login-page)             >> Page (e.g.
-main-page) with BottomNavigation (lateral navigation)                  TabViewItem >>> Frame (featured)                             >>>> Page (featured-page)                  TabViewItem >>> Frame (browse)                             >>>> Page (browse-page)                  TabViewItem >>> Frame (search)                             >>>> Page (search-page)
+    drawer link
+        > Modal page root (Frame - forward navigation)
+            >> Modal Page
 
-....
-drawer link
-    > Modal page root (Frame - forward navigation)
-        >> Modal Page
-
-drawer link
-    >> Page (e.g. info-page loaded via "root-frame") ```
-....
+    drawer link
+        >> Page (e.g. info-page loaded via "root-frame")
+----

@@ -5,6 +5,8 @@ NativeScript apps typically consist of one or more `<Page>` that wrap content su
 
 '''
 
+== Examples
+
 === Example: Simple Page
 
 [tabs]
@@ -229,7 +231,7 @@ In this case, we are using the `loaded` event of the xref:components::page.adoc[
 Refer to the https://docs.nativescript.org/api-reference/classes/page[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -257,7 +259,7 @@ They can be used with all NativeScript elements, (e.g.
 layouts, buttons, UI plugins, etc.).
 ====
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

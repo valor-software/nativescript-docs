@@ -1,8 +1,8 @@
 = Components
 
-=== Layout Properties
+== Layout Properties
 
-==== Margins
+=== Margins
 
 The four margin properties (`marginTop`, `marginRight`, `marginBottom` and `marginLeft`) describe the distance between a view and its parent.
 
@@ -15,7 +15,7 @@ Next, the first value is applied to the bottom and the second value to the left 
 * *Set four values*: Provide four values for each margin.
 The first value is applied to the top, the second value is applied to the right, the third value is applied to the bottom and the fourth value is applied to the left side (in that order).
 
-==== Paddings
+=== Paddings
 
 The four padding properties (`paddingTop`, `paddingRight`, `paddingBottom` and `paddingLeft`) describe the distance between the layout container and its children.
 
@@ -28,7 +28,7 @@ Next, the first value is applied to the bottom and the second value to the left 
 * *Set four values*: Provide four values for each padding.
 The first value is applied to the top, the second value is applied to the right, the third value is applied to the bottom and the fourth value is applied to the left side (in that order).
 
-==== Alignments
+=== Alignments
 
 Layout applies horizontal and vertical alignment only when an element is allocated more size than it needs.
 
@@ -70,7 +70,7 @@ The following table shows the valid values of `verticalAlignment`.
 `height` takes precedence, if set.
 |===
 
-=== Percentage Support
+== Percentage Support
 
 NativeScript supports percentage values for `width`, `height` and `margin`.
 When a layout pass begins, first the percent values are calculated based on parent available size.
@@ -78,7 +78,7 @@ This means that on vertical `StackLayout` if you place two `Buttons` with `heigh
 The same applies for margin properties.
 For example, if you set `marginLeft='5%'`, the element will have a margin that corresponds to 5% of the parent's available width.
 
-=== iOS Safe Area Support
+== iOS Safe Area Support
 
 The iOS `Safe Area` is a term that Apple introduced in iOS 11.
 It is the area of the screen that is free to use and won't be obstructed by hardware and software parts of the system.
@@ -108,7 +108,7 @@ The above workflow can lead to containers being laid out with a bigger size than
 You can prevent this behavior by setting the `iosOverflowSafeArea` property below to `false`.
 ====
 
-==== iosOverflowSafeArea Property
+=== iosOverflowSafeArea Property
 
 The above default behavior should provide good UX out of the box.
 Additionally, NativeScript 5.0 exposes a property `iosOverflowSafeArea` that can control how components handle the iOS `Safe Area`.

@@ -3,8 +3,9 @@
 `<TabView>` is a navigation component that shows content grouped into tabs and lets users switch between tabs.
 
 '''
+== Examples
 
-== Example: Simple TabView
+=== Example: Simple TabView
 
 [tabs]
 ====
@@ -237,7 +238,7 @@ Currently, `TabViewItem` expects a single child element.
 In most cases, you might want to wrap your content in a layout.
 ====
 
-== Example: Adding icons to tabs
+=== Example: Adding icons to tabs
 
 [tabs]
 ====
@@ -294,7 +295,7 @@ For more information about how to control the size of icons, see https://v7.docs
 
 // TODO: fix v7 links
 
-=== Styling
+== Styling
 
 The `TabView` component has the following unique styling properties:
 
@@ -306,7 +307,7 @@ The `TabView` component has the following unique styling properties:
 Value options: `capitalize`, `lowercase`, `none`, and `uppercase`.
 * `androidSelectedTabHighlightColor`^android specific property^ (corresponding CSS property `android-selected-tab-highlight-color`) - Sets the underline color of the tabs in Android.
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -369,7 +370,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/tabview[API Ref
 Supports local image paths (`~`), resource images (`res://`) and icon fonts (`font://`)
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -380,7 +381,7 @@ Supports local image paths (`~`), resource images (`res://`) and icon fonts (`fo
 
 // TODO: fix API links
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS

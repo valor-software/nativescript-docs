@@ -1,11 +1,10 @@
 = ListPicker
 
-== ListPicker
-
 `<ListPicker>` is a UI component that lets the user select a value from a pre-configured list.
 
 '''
 
+== Examples
 
 === Example: Simple List Picker
 
@@ -130,7 +129,7 @@ Vue::
 ----
 ====
 
-=== Props
+== Props
 
 |===
 | Name | Type | Description
@@ -149,7 +148,7 @@ Vue::
 Refer to the https://docs.nativescript.org/api-reference/classes/listpicker[API Reference]
 |===
 
-=== Events
+== Events
 
 |===
 | Name | Description
@@ -159,7 +158,7 @@ Refer to the https://docs.nativescript.org/api-reference/classes/listpicker[API 
 The new index can be retrieved via `$event.value`.
 |===
 
-=== Native component
+== Native component
 
 |===
 | Android | iOS
