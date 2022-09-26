@@ -3,7 +3,7 @@
 `<SegmentedBar>` is a UI bar component that displays a set of buttons for discrete selection.
 Can show text or images.
 
-As opposed to <<tabview,`<TabView>`>>:
+As opposed to xref:components::tabview.adoc[TabView].
 
 * The position of `<SegmentedBar>` is not fixed.
 * You can place and style it as needed on the page or inside additional app elements such as hamburger menus.

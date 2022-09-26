@@ -2,7 +2,7 @@
 
 `<HtmlView>` is a UI component that lets you show static HTML content.
 
-See also: <<webview,WebView>>.
+See also: xref:components::webview.adoc[WebView].
 
 '''
 

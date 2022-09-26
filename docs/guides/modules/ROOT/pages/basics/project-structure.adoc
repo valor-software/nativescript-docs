@@ -67,11 +67,11 @@ See xref:guides::app-resources/app-resources.adoc[Understanding App_Resources].
 The `platforms` directory is created when you start a build by running the `ns run`,`ns build`, or `ns debug` or add a target platform(by running `ns platform add ios` or `ns platform add android`) to your project.
 The NativeScript tooling creates a new subdirectory with the respective platform name.
 These subdirectories have the platform-specific project structure required for native development with the native SDKs of the platform.
-When the project is prepared for build, the NativeScript tooling copies relevant content from the <<app-directory,app>> directory to the platform-specific subdirectory for each target platform.
+When the project is prepared for build, the NativeScript tooling copies relevant content from the <<app directory,app>> directory to the platform-specific subdirectory for each target platform.
 
-[TIP]
+[IMPORTANT]
 ====
-IMPORTANT: Avoid editing files located in the platforms subdirectories because the NativeScript CLI overrides them with the content of the app directory during the prepare process.
+Avoid editing files located in the platforms subdirectories because the NativeScript CLI overrides them with the content of the app directory during the prepare process.
 ====
 
 === The root package.json
@@ -123,7 +123,7 @@ The `nsconfig.json` is an optional configuration file, located at the root proje
 This file makes it possible for users to modify the structure of their application.
 The available configurations are `appPath`, `appResourcesPath`, `overridePods` and `webpackConfigPath`.
 
-The paths (`appPath`, `appResourcesPath`, `webpackConfigPath`) must be relative to the project root (where the `package.json` file and <<the-platforms-directory,platforms>> directory are located) in order for everything to work as expected.
+The paths (`appPath`, `appResourcesPath`, `webpackConfigPath`) must be relative to the project root (where the `package.json` file and <<The `platforms` Directory,platforms>> directory are located) in order for everything to work as expected.
 If `appPath` is omitted, the CLI will assume the application files are located inside a folder called app inside the project folder.
 If `appResourcesPath` is omitted, the CLI will assume that they are at their default location — a folder called `App_Resources` inside the folder containing the rest of the app files.
 The `webpackConfigPath` option allows you to specify the location of your webpack configuration file.

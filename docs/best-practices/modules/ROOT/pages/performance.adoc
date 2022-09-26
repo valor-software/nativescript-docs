@@ -424,7 +424,7 @@ Each component may have its route, services, and multiple featured components.
 Using lazy loading modules improves the startup time dramatically (in the case of SDK Examples app with up-to 5x better startup timings).
 Instead of having to load the hundreds of components at the application bootstrap, you can load just the landing module and load all other submodules lazily.
 
-= How to Build NativeScript Apps That Start Up Fast
+== How to Build NativeScript Apps That Start Up Fast
 
 NativeScript allows you to write native iOS and Android applications using JavaScript.
 Although there are many advantages to taking this approach--using one language to write multiple apps, faster development times from using an interpreted language, and so forth--there is one fact NativeScript developers can't avoid: NativeScript apps can take longer to start up than applications written with native development languages such as Objective-C and Java.
@@ -432,9 +432,11 @@ Although there are many advantages to taking this approach--using one language t
 Don't worry though--with a few optimizations, NativeScript apps can startup fast enough for the overwhelming majority of app use cases.
 This article is a straight-to-the-point list of steps you can take to make sure your NativeScript apps start up as fast as possible.
 
-____
-*NOTE*: Jump to the <<summary,summary>> if you want an explanation-free list of commands to run.
-____
+
+[NOTE]
+====
+Jump to the <<summary,summary>> if you want an explanation-free list of commands to run.
+====
 
 * <<step-1,Step 1: Add uglification>>
 * <<step-2,Step 2: Perform heap snapshots>>

@@ -165,6 +165,7 @@ if (android.os.Build.VERSION.SDK_INT >= 21) {
 }
 ----
 
+[#accessing-apis]
 === Accessing APIs
 
 One of NativeScript's strongest capabilities is the access to Android (also referred to as *'Java/Kotlin'* or *'native'*) APIs inside JavaScript/TypeScript.

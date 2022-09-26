@@ -341,7 +341,7 @@ Integer and floating point data types in Objective-C are converted to JavaScript
 This includes types such as `char`, `int`, `long`, `float`, `double`, `NSInteger` and their unsigned variants.
 However, integer values larger than ±2^53^ will lose their precision because the JavaScript number type is limited in size to 53-bit integers.
 
-
+[#structure-types]
 ==== Struct Types
 
 NativeScript exposes Objective-C structures as JavaScript objects.
@@ -385,9 +385,9 @@ const view = UIView.alloc().initWithFrame(rect)
 ----
 ====
 
-More information on how NativeScript deals with structures is available <<C-Structures,here>>.
+More information on how NativeScript deals with structures is available link:https://v7.docs.nativescript.org/angular/core-concepts/ios-runtime/types/c-structures[here].
 
-// TODO: fix links
+// TODO: Update the link. It should point to current website version, but where?
 
 
 ==== `+NSError **+` marshalling
@@ -944,7 +944,7 @@ A Java Array is projected to JavaScript as a special JavaScript proxy object wit
 * Has length property
 * Has registered indexed getter and setter callbacks, which:
  ** If the array contains elements of a type convertible to a JavaScript type, then accessing the i-th element will return a converted type
- ** If the array contains elements of a type that is non-convertible to JavaScript, then accessing the i-th element will return a proxy object over the Java/Android type (see <<accessing-apis,Accessing APIs>>)
+ ** If the array contains elements of a type that is non-convertible to JavaScript, then accessing the i-th element will return a proxy object over the Java/Android type (see xref:guides::architecture-concepts/metadata.adoc#acessing-apis[Accessing APIs])
 
 [,js]
 ----
@@ -1101,7 +1101,7 @@ var background = button.getBackground(); // if there is no background drawable m
 
 ===== Android Types
 
-All Android-declared types are projected to JavaScript using the Package and Class proxies as described in <<accessing-apis,Accessing APIs>>
+All Android-declared types are projected to JavaScript using the Package and Class proxies as described in xref:guides::architecture-concepts/metadata.adoc#acessing-apis[Accessing APIs]
 
 
 ==== Kotlin to Javascript Conversion
@@ -1160,7 +1160,7 @@ Those types are the following:
 | java.lang.Float
 |===
 
-Although the conversion of Kotlin types in NativeScript is quite the same as the <<java-to-javascript-conversion,Java conversion>>, let's take a look at some examples.
+Although the conversion of Kotlin types in NativeScript is quite the same as the <<Java to Javascript Conversion,Java conversion>>, let's take a look at some examples.
 
 
 ===== String & Character
@@ -1392,7 +1392,7 @@ A Kotlin Array is projected to JavaScript as a special JavaScript proxy object w
 * Has length property
 * Has registered indexed getter and setter callbacks, which:
  ** If the array contains elements of a type convertible to a JavaScript type, then accessing the n-th element will return a converted type
- ** If the array contains elements of type non-convertible to JavaScript, then accessing the n-th element will return a proxy object over the Kotlin type (see <<accessing-apis,Accessing APIs>>)
+ ** If the array contains elements of type non-convertible to JavaScript, then accessing the n-th element will return a proxy object over the Kotlin type (see xref:guides::architecture-concepts/metadata.adoc#acessing-apis[Accessing APIs])
 
 [tabs]
 ======
@@ -1422,7 +1422,7 @@ class KotlinClassWithStringArrayProperty {
 
 Occasionally, you have to create Kotlin arrays from JavaScript.
 Because of the translation of the fundamental Kotlin types to Java types in Android, creating a Kotlin array could be done the same way Java arrays are created.
-This is described in <<java-to-javascript-conversion,Java to JavaScript>>
+This is described in <<Java to Javascript Conversion,Java to JavaScript>>
 
 ===== Null
 
@@ -1452,7 +1452,7 @@ class KotlinClassWithNullableProperty() {
 
 ===== Kotlin Types
 
-All Kotlin types are projected to JavaScript using the Package and Class proxies as described in <<accessing-apis,Accessing APIs>>
+All Kotlin types are projected to JavaScript using the Package and Class proxies as described in xref:guides::architecture-concepts/metadata.adoc#acessing-apis[Accessing APIs]
 
 
 ===== Kotlin Companion objects

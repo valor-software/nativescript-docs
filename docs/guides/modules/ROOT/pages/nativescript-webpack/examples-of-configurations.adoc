@@ -155,7 +155,7 @@ module.exports = env => {
   return webpack.resolveConfig()
 }
 ----
-
+[#extending-the-defineplugin-options]
 == Extending the DefinePlugin options
 
 [,js]

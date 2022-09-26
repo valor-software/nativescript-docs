@@ -44,7 +44,7 @@ console.log(process.env.MY_API_SECRET) // supersecrettoken
 
 [WARNING]
 ====
-Please note that the way DotEnv works is it's using the webpack <<extending-the-defineplugin-options,DefinePlugin>> internally to define the `process.env.<x>` values, meaning they are essentially statically replaced in the bundled code.
+Please note that the way DotEnv works is it's using the webpack xref:guides::nativescript-webpack/examples-of-configurations.adoc#extending-the-defineplugin-options[DefinePlugin] internally to define the `process.env.<x>` values, meaning they are essentially statically replaced in the bundled code.
 This is important to keep in mind because destructuring, looping etc over `process` or `process.env` is not possible.
 //TODO: fix extending-the-defineplugin-options
 See details about the limitations in the https://github.com/mrsteele/dotenv-webpack#limitations[DotEnv documentation]
