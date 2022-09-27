@@ -1,6 +1,6 @@
 ++++
 <script type="module">
-import sdk from '@stackblitz/sdk'
+import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
 
 sdk.embedProjectId(
   'elementOrId',
