@@ -1,8 +1,7 @@
 ++++
 <script type="module">
-import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
-
-sdk.embedProjectId(
+  import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
+  sdk.embedProject(
   'elementOrId',
   'nativescript-stackblitz-templates-kps7hp',
   {

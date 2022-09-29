@@ -1,8 +1,8 @@
-* Styling & Interaction
+* xref:styling.adoc[Styling & Interaction]
 ** xref:styling.adoc[Styling]
 ** xref:interaction.adoc[Interaction]
 
-* Components
+* xref:actionbar.adoc[Components]
 ** xref:actionbar.adoc[ActionBar]
 ** xref:activityindicator.adoc[ActivityIndicator]
 ** xref:button.adoc[Button]

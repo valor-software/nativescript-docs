@@ -1,4 +1,4 @@
-* Best Practices
+* xref:index.adoc[Best Practices]
 ** xref:index.adoc[Introduction]
 ** xref:view-bindings.adoc[View Bindings]
 ** xref:listviews.adoc[ListViews]

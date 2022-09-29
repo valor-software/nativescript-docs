@@ -2,7 +2,7 @@
 <script type="module">
 import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
 
-sdk.embedProjectId(
+sdk.embedProjectId1(
   'elementOrId',
   'nativescript-stackblitz-templates-itpjy3?embed',
   {
@@ -12,5 +12,5 @@ sdk.embedProjectId(
 );
 </script>
 
-<div id="elementOrId"></div>
+<div id="elementOrId1"></div>
 ++++

@@ -1,2 +1,2 @@
-* Capacitor
-** xref:index.adoc[]
+* xref:index.adoc[Capacitor]
+** xref:index.adoc[Capacitor Usage]

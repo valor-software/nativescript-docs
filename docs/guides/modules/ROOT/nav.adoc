@@ -1,4 +1,4 @@
-* Basics
+* xref:basics/introduction.adoc[Basics]
 ** xref:basics/introduction.adoc[Introduction]
 ** xref:basics/application-architecture.adoc[Application Architecture]
 ** xref:basics/project-structure.adoc[Project Structure]
@@ -12,10 +12,10 @@
 *** xref:basics/tutorial/svelte.adoc[Svelte]
 *** xref:basics/tutorial/vue.adoc[Vue]
 
-* App_Resources
+* xref:app-resources/app-resources.adoc[App_Resources]
 ** xref:app-resources/app-resources.adoc[Understanding App_Resources]
 
-* @nativescript/core
+* xref:nativescript-core/Application.adoc[@nativescript/core]
 ** xref:nativescript-core/Application.adoc[Application]
 ** xref:nativescript-core/application-settings.adoc[ApplicationSettings]
 ** xref:nativescript-core/color.adoc[Color]
@@ -30,7 +30,7 @@
 ** xref:nativescript-core/utils.adoc[Utils]
 ** xref:nativescript-core/xml-parser.adoc[XmlParser]
 
-* @nativescript/webpack
+* xref:nativescript-webpack/overview.adoc[@nativescript/webpack]
 ** xref:nativescript-webpack/overview.adoc[Overview]
 ** xref:nativescript-webpack/flags-and-their-usage.adoc[Flags & their usage]
 ** xref:nativescript-webpack/using-dot-env-files.adoc[Using .env files]
@@ -39,13 +39,13 @@
 ** xref:nativescript-webpack/[Plugin API]
 ** xref:nativescript-webpack/api.adoc[Webpack API]
 
-* Scalability
+* xref:scalability/code-sharing.adoc[Scalability]
 ** xref:scalability/code-sharing.adoc[Code Sharing]
 
-* Native API Access
+* xref:native-api-access/native-api-access.adoc[Native API Access]
 ** xref:native-api-access/native-api-access.adoc[How to access and use]
 
-* Architecture Concepts
+* xref:architecture-concepts/data-binding.adoc[Architecture Concepts]
 
 ** xref:architecture-concepts/data-binding.adoc[Data Binding]
 ** xref:architecture-concepts/adding-objectivec-swift-code.adoc[]
@@ -56,13 +56,13 @@
 ** xref:architecture-concepts/custom-application-and-activity.adoc[]
 ** xref:architecture-concepts/property-system.adoc[]
 
-* Advanced Concepts
-** xref:advanced-concepts/advanced-concepts.adoc
+* xref:advanced-concepts/advanced-concepts.adoc[Advanced Concepts]
+** xref:advanced-concepts/advanced-concepts.adoc[Advanced Concepts]
 
-* Distribution
+* xref:distribution/releasing.adoc[Distribution]
 ** xref:distribution/releasing.adoc[Releasing your app]
 
-* Troubleshooting
+* xref:troubleshooting/troubleshooting.adoc[Troubleshooting]
 ** xref:troubleshooting/troubleshooting.adoc[Common Issues]
 
 * API
