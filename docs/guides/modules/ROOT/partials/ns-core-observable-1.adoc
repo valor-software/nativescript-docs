@@ -1,8 +1,9 @@
 ++++
 <script type="module">
-  import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
-  sdk.embedProject(
-  'elementOrId1',
+import sdk from 'https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.m.js';
+
+sdk.embedProjectId(
+  'elementOrId_1',
   'nativescript-stackblitz-templates-fkau2c',
   {
     forceEmbedLayout: true,
@@ -11,5 +12,5 @@
 );
 </script>
 
-<div id="elementOrId1"></div>
+<div id="elementOrId_1"></div>
 ++++
