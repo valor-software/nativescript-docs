@@ -1,0 +1,23 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-barcode-scanning[Barcode Scanning]
+
+== @nativescript/mlkit-barcode-scanning
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-barcode-scanning
+----
+
+=== Usage
+
+[,ts]
+----
+import { DetectionType, DetectionEvent } from '@nativescript/mlkit-core';
+import { BarcodeResult } from '@nativescript/mlkit-barcode-scanning';
+onDetection(event: DetectionEvent){
+    if(event.type === DetectionType.Barcode){
+        const barcode: BarcodeResult[] = event.data;
+    }
+}
+----

@@ -1,0 +1,18 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-digital-ink-recognition[Digital Ink Recognition]
+
+== @nativescript/mlkit-digital-ink-recognition
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-digital-ink-recognition
+----
+
+=== Usage
+
+See xref:/packages/mlkit-core/README.adoc[@nativescript/mlkit-core] Usage
+
+== License
+
+Apache License Version 2.0

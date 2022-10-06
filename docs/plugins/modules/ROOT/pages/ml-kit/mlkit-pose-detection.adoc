@@ -1,0 +1,23 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-pose-detection[Pose Detection]
+
+== @nativescript/mlkit-pose-detection
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-pose-detection
+----
+
+=== Usage
+
+[,ts]
+----
+import { DetectionType, DetectionEvent } from '@nativescript/mlkit-core';
+import { PoseResult } from '@nativescript/mlkit-pose-detection';
+onDetection(event: DetectionEvent){
+    if(event.type === DetectionType.Pose){
+        const poses: PoseResult = event.data;
+    }
+}
+----

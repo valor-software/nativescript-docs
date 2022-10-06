@@ -1,0 +1,14 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-selfie-segmentation[Selfie Segmentation]
+
+== @nativescript/mlkit-selfie-segmentation
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-selfie-segmentation
+----
+
+== Usage
+
+See xref:/packages/mlkit-core/README.adoc[@nativescript/mlkit-core] Usage

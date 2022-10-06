@@ -1,0 +1,23 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-text-recognition[Text Recognition]
+
+== @nativescript/mlkit-text-recognition
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-text-recognition
+----
+
+=== Usage
+
+[,ts]
+----
+import { DetectionType, DetectionEvent } from '@nativescript/mlkit-core';
+import { TextResult } from '@nativescript/mlkit-text-recognition';
+onDetection(event: DetectionEvent){
+    if(event.type === DetectionType.Text){
+        const text: TextResult = event.data;
+    }
+}
+----

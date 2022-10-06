@@ -4,7 +4,7 @@
 
 [,javascript]
 ----
-ns plugin add @nativescript/google-maps
+npm install @nativescript/google-maps
 ----
 
 == Config

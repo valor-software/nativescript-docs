@@ -12,7 +12,7 @@ If you want a fallback to a third party client app like Gmail or Outlook, then c
 
 [,cli]
 ----
-ns plugin add @nativescript/email
+npm install @nativescript/email
 ----
 
 == Usage

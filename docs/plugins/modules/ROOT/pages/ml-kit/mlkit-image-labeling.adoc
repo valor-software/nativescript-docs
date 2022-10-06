@@ -1,0 +1,23 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-image-labeling[Image Labeling]
+
+== @nativescript/mlkit-image-labeling
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-image-labeling
+----
+
+=== Usage
+
+[,ts]
+----
+import { DetectionType, DetectionEvent } from '@nativescript/mlkit-core';
+import { ImageLabelingResult } from '@nativescript/mlkit-image-labeling';
+onDetection(event: DetectionEvent){
+    if(event.type === DetectionType.Image){
+        const labels: ImageLabelingResult[] = event.data;
+    }
+}
+----

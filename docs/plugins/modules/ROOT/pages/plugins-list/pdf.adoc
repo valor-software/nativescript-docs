@@ -1,0 +1,69 @@
+= https://github.com/NativeScript/plugins/tree/main/packages/pdf[PDF]
+
+== @nativescript/pdf
+
+A simple PDF viewer.
+
+____
+_Remark:_
+
+https://github.com/NativeScript/plugins/blob/main/packages/pdf[This repository] is the replacement for https://github.com/madmas/nativescript-pdf-view[madmas/nativescript-pdf-view] which was a fork of https://github.com/Merott/nativescript-pdf-view[the original by Merott] and will be used with his consent to provide further maintenance of this NativeScript plugin.
+____
+
+It serves minimal PDF view implementation that does only one thing, and that is to display PDF files in the simplest way possible.
+It conveniently uses the iOS `WKWebView`, and for Android it uses https://github.com/barteksc/AndroidPdfViewer[`AndroidPdfViewer`].
+
+== Installation
+
+----
+npm install @nativescript/pdf
+----
+
+== Usage
+
+=== Vanilla NativeScript
+
+[,xml]
+----
+<Page
+  xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:pdf="@nativescript/pdf"
+  loaded="pageLoaded"
+>
+  <pdf:PDFView src="{{ pdfUrl }}" load="{{ onLoad }}" />
+</Page>
+----
+
+=== Angular
+
+[tabs]
+====
+TypeScript::
++
+[,ts]
+----
+import { NativeScriptPdfModule } from '@nativescript/pdf/angular'
+
+@NgModule({
+	imports: [
+    NativeScriptCommonModule,
+    ...
+    NativeScriptPdfModule
+  ],
+----
+
+HTML::
++
+[,html]
+----
+<PDFView [src]="src" (load)="onLoad()"></PDFView>
+----
+====
+
+== Samples
+
+There are sample applications avalable:
+
+* Plain TypeScript: see https://github.com/NativeScript/plugins/tree/main/apps/demo/src/plugin-demos/pdf.ts[pdf.ts] and https://github.com/NativeScript/plugins/tree/main/apps/demo/src/plugin-demos/pdf.xml[pdf.xml] files in this repository
+* NativeScript+Angular: https://github.com/madmas/nativescript-pdf-view-angular-sample[nativescript-pdf-view-angular-sample] repository
+* NativeScript+VueJs: https://github.com/madmas/nativescript-pdf-view-vue-sample[nativescript-pdf-view-vue-sample] repository

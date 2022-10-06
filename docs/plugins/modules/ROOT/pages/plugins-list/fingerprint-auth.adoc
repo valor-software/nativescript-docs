@@ -8,7 +8,7 @@ This plugin is replaced by xref:plugins::plugins-list/biometrics.adoc[@nativescr
 
 [,cli]
 ----
-ns plugin add @nativescript/fingerprint-auth
+npm install @nativescript/fingerprint-auth
 ----
 
 Then open `App_Resources/Android/app.gradle` and look for `minSdkVersion`.

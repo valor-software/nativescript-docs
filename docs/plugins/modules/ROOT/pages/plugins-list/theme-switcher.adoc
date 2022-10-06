@@ -4,7 +4,7 @@
 
 [,cli]
 ----
-ns plugin add @nativescript/theme-switcher
+npm install @nativescript/theme-switcher
 ----
 
 [cols=2*]

@@ -1,0 +1,66 @@
+= Core
+
+== @nativescript/mlkit-core
+
+[,javascript]
+----
+npm install @nativescript/mlkit-core
+----
+
+== Usage
+
+=== Core
+
+[IMPORTANT]
+====
+Ensure you've included xmlns:ui="@nativescript/mlkit-core" on the Page element
+====
+
+[,xml]
+----
+<ui:MLKitView cameraPosition="back" detectionType="all" detection="onDetection" />
+----
+
+=== Angular
+
+[,ts]
+----
+import { MLKitModule } from '@nativescript/mlkit-core/angular';
+
+@NgModule({
+    imports: [
+    MLKitModule
+    ],
+    declarations: [
+        AppComponent
+    ],
+    bootstrap: [AppComponent]
+})
+----
+
+[,html]
+----
+<MLKitView
+  cameraPosition="back"
+  detectionType="all"
+  (detection)="onDetection($event)"
+></MLKitView>
+----
+
+=== Vue
+
+[,ts]
+----
+import Vue from 'nativescript-vue'
+import MLKit from '@nativescript/mlkit-core/vue'
+
+Vue.use(MLKit)
+----
+
+[,html]
+----
+<MLKitView cameraPosition="back" detectionType="all" @detection="onDetection" />
+----
+
+
+

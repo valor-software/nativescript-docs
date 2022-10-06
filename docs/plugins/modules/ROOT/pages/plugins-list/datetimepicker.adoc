@@ -19,7 +19,7 @@ There is also a `DateTimePicker` class which provides static methods `pickDate` 
 
 [,cli]
 ----
-ns plugin add @nativescript/datetimepicker
+npm install @nativescript/datetimepicker
 ----
 
 == Configuration

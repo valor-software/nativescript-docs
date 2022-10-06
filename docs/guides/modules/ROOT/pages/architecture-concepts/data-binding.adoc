@@ -246,13 +246,13 @@ NativeScript supports different kinds of expressions, including:
 [NOTE]
 ====
 Special characters need to be escaped as follows:
-====
 
-* " \=> \&quot;
-* ' \=> \&apos;
-* < \=> \<
-* > \=> \>
-* & \=> \& :::
+- `"` => `&quot`;
+- `'` => `&apos`;
+- `<` => `&lt`;
+- `>` => `&gt`;
+- `&` => `&amp`;
+====
 
 === Using converters in bindings
 

@@ -1,0 +1,23 @@
+= https://github.com/NativeScript/mlkit/tree/main/packages/mlkit-face-detection[Face Detection]
+
+== @nativescript/mlkit-face-detection
+
+=== Installation
+
+[,javascript]
+----
+npm install @nativescript/mlkit-face-detection
+----
+
+=== Usage
+
+[,ts]
+----
+import { DetectionType, DetectionEvent } from '@nativescript/mlkit-core';
+import { FaceResult } from '@nativescript/mlkit-face-detection';
+onDetection(event: DetectionEvent){
+    if(event.type === DetectionType.Face){
+        const faces: FaceResult[] = event.data;
+    }
+}
+----

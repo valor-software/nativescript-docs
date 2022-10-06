@@ -15,7 +15,7 @@ Eddy then joined NativeScript's Technical Steering Committee and to vastly impro
 
 [,cli]
 ----
-ns plugin add @nativescript/localize
+npm install @nativescript/localize
 ----
 
 == Usage
