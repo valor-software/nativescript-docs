@@ -321,8 +321,19 @@ Examples: + `console.log(Utils.isObject(""))` logs `false` + `console.log(Utils.
 
 | `verifyCallback(value: any)`
 | `void`
-| A function that checks if something is a valid function.
-Throws exception if passed value is not a valid function.
+| A function that checks if something is a valid function. Throws exception if passed value is not a valid function.
+
+| `dataSerialize(data?: any, wrapPrimitives?: boolean)`
+| `any`
+| Data serialization from JS > Native. 
+
+`wrapPrimitives`: Optionally wrap primitive types (Some APIs may require this)
+
+| `dataDeserialize(nativeData?: any)`                   
+| `any`                      
+| Data deserialization from Native > JS.
+
+`nativeData`: Native platform data    
 |===
 
 == Timer utilities
