@@ -608,12 +608,11 @@ The following example indicates that you want your content treated as child-dire
 
 [,js]
 ----
-import { firebase } from '@nativescript/firebase-core'
-import '@nativescript/firebase-admob'
+import { Admob, RequestConfiguration } from '@nativescript/firebase-admob'
 const requestConfiguration: RequestConfiguration = {
   tagForChildDirectedTreatment: true
 }
-firebase().admob().setRequestConfiguration(requestConfiguration)
+Admob.getInstance().requestConfiguration = requestConfiguration
 ----
 
 === Users under the age of consent
@@ -638,12 +637,11 @@ The following example indicates that you want TFUA included in your ad request:
 
 [,js]
 ----
-import { firebase } from '@nativescript/firebase-core'
-import '@nativescript/firebase-admob'
+import { Admob, RequestConfiguration } from '@nativescript/firebase-admob'
 const requestConfiguration: RequestConfiguration = {
   tagForUnderAgeOfConsent: true
 }
-firebase().admob().setRequestConfiguration(requestConfiguration)
+Admob.getInstance().requestConfiguration = requestConfiguration
 ----
 
 The tags to enable the Child-directed setting and `tagForUnderAgeOfConsent` should not both simultaneously be set to true.
@@ -665,14 +663,13 @@ The following code configures a `RequestConfiguration` object to specify that ad
 
 [,js]
 ----
-import { firebase } from '@nativescript/firebase-core'
-import { MaxAdContentRating } from '@nativescript/firebase-admob'
+import {
+  Admob,
+  MaxAdContentRating,
+  RequestConfiguration
+} from '@nativescript/firebase-admob'
 const requestConfiguration: RequestConfiguration = {
   maxAdContentRating: MaxAdContentRating.G
 }
-firebase().admob().setRequestConfiguration(requestConfiguration)
+Admob.getInstance().requestConfiguration = requestConfiguration
 ----
-
-== License
-
-Apache License Version 2.0

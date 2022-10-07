@@ -318,7 +318,7 @@ export class HomeViewModel extends Observable {
   }
 
   populateFlicks(): void {
-    this._flicks = FlickService().getInstance().getFlicks()
+    this._flicks = FlickService.getInstance().getFlicks()
   }
 }
 ----
@@ -355,7 +355,7 @@ Open `app.css` and add the following:
 
 [,css]
 ----
-/* app/app.scss */
+/* app/app.css */
 
 /* applied when device is in light mode */
 .ns-light .bg-primary {

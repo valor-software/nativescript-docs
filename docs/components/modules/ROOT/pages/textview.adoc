@@ -234,6 +234,10 @@ React::
 | `Number`
 | Sets the maximum number of characters that can be entered in the container.
 
+| `maxLines`
+| `Number`
+| Sets the maximum number of lines that the component can grow. |
+
 | `keyboardType`
 | `KeyboardType`
 | Shows a custom keyboard for easier text input.

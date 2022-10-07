@@ -12,7 +12,3 @@ npm install @nativescript/mlkit-digital-ink-recognition
 === Usage
 
 See xref:/packages/mlkit-core/README.adoc[@nativescript/mlkit-core] Usage
-
-== License
-
-Apache License Version 2.0
