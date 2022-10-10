@@ -74,9 +74,15 @@ To do that we could access the android property and with the help of setDisplayZ
 | Name | Type | Description
 
 | `src`
-| `String`
+| `string`
 | Gets or sets the displayed web content.
 + Valid values: an absolute URL, the path to a local HTML file, or static HTML.
+
+| `iosAllowInlineMediaPlayback`
+| `boolean`
+| `iOS only`: Enables inline media playback on iOS.
+By default, webview forces iPhone into fullscreen media playback.
+
 
 | `+...Inherited+`
 | `Inherited`
