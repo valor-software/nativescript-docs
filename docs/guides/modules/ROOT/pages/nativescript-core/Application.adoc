@@ -7,14 +7,14 @@ It lets you manage things such as handling lifecycle events of your application 
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 import { Application } from '@nativescript/core'
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -34,14 +34,14 @@ The property gives you the Nativescript wrapper, the AndroidApplication object, 
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const androidApp = Application.android
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -61,14 +61,14 @@ From this object you can get methods such as `getFilesDir()`, `onLowMemory()`,et
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const nativeApp = androidApp.nativeApp
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -87,13 +87,13 @@ This property is automatically updated upon Activity events.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const foregroundActivity = androidApp.foregroundActivity
 ----
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -111,14 +111,14 @@ The main (start) Activity for the application.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const startActivity = androidApp.startActivity
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -136,14 +136,14 @@ Gets or sets the orientation of the application.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const orientation = androidApp.orientaion
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -161,14 +161,14 @@ Returns whether the system appearance is dark or light.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const systemAppearance = androidApp.systemAppearance
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -186,14 +186,14 @@ Returns `true` if the main application activity is not running (suspended), othe
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const isSuspended = androidApp.paused
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -211,14 +211,14 @@ Returns true if the main application activity is in background, otherwise false 
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const isInBackground = androidApp.backgrounded
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -249,7 +249,7 @@ Use the same for any Android-specific code to avoid code for Android to run on i
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -270,7 +270,7 @@ if (isAndroid) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -307,7 +307,7 @@ Gets a registered BroadcastReceiver for the specified intent filter.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -316,7 +316,7 @@ if (isAndroid) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -339,7 +339,7 @@ Unregisters previously registered BroadcastReceiver.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -348,7 +348,7 @@ if (isAndroid) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -363,7 +363,7 @@ if (isAndroid) {
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -372,7 +372,7 @@ applicationModule.AndroidApplication.on('activityResumed', args => {
 })
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -409,14 +409,14 @@ The property gives you the Nativescript wrapper, the iOSApplication object, arou
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const iOSApp = Application.ios
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -434,14 +434,14 @@ The root view controller for the iOS application.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const rootController = iOSApp.rootController
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -460,14 +460,14 @@ Views are the user interface items such as button, label or scrollview.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const rootController = iOSApp.window
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -488,7 +488,7 @@ You then overwrite the methods from UIApplicationDelegate to handle the events.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -514,7 +514,7 @@ const MyDelegate = (function (_super) {
 Application.ios.delegate = MyDelegate
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -551,14 +551,14 @@ Gets or sets the orientation of the application.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const orientation = iOSApp.orientaion
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -576,14 +576,14 @@ Returns whether the system appearance is dark or light.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const systemAppearance = iOSApp.systemAppearance
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -601,14 +601,14 @@ Returns the reference to the native iOS app.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 const nativeApp = iOSApp.nativeApp
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -636,7 +636,7 @@ Find the possible values https://developer.apple.com/documentation/foundation/ns
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -646,7 +646,7 @@ const observer = iOSApp.addNotificationObserver(
 )
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -673,14 +673,14 @@ Removes the observer for the specified notification from the default notificatio
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 iOSApp.removeNotificationObserver(observer, UIDeviceBatteryStateDidChangeNotification)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -694,7 +694,7 @@ These are Nativescript events for both platforms.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -703,7 +703,7 @@ applicationModule.on('orientationChanged', args => {
 })
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----

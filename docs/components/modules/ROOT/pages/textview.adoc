@@ -23,7 +23,7 @@ HTML::
 </TextView>
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -67,7 +67,7 @@ XML::
 />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

@@ -19,7 +19,7 @@ The `fromObject()` method creates an `Observable` instance and sets its properti
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -33,7 +33,7 @@ const newViewModel = fromObject({ myColor: 'Lightgray' })
 */
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -53,7 +53,7 @@ This function will create new Observables for each nested object (except arrays 
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -70,7 +70,7 @@ const nestedViewModel = fromObjectRecursive({
 */
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -94,7 +94,7 @@ Using propertyChangeEvent and responding to property changes with arguments of t
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -107,7 +107,7 @@ const myListener = viewModel.addEventListener(Observable.propertyChangeEvent, ar
 })
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -127,14 +127,14 @@ The event listeners can be explicitly removed when no longer needed.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
 viewModel.removeEventListener(Observable.propertyChangeEvent, myListener)
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

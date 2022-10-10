@@ -126,7 +126,7 @@ HTML::
   <Home />
 </frame>
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -147,7 +147,7 @@ HTML::
   </Page>
 </frame>
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----

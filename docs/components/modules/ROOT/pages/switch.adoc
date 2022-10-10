@@ -53,7 +53,7 @@ XML::
 <Switch checked="true" loaded="onSwitchLoaded" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

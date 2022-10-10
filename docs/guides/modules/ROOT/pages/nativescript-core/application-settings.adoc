@@ -8,14 +8,14 @@ For example, an app could store a user's auth state so that the user does not ha
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 import { ApplicationSettings } from '@nativescript/core'
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -31,7 +31,7 @@ Sets a Boolean Object for a key.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -51,7 +51,7 @@ You can use this method with the `JSON.stringify()` to store an object or an arr
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -80,14 +80,14 @@ Sets a Number Object for a key.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.setNumber(key, value)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -103,14 +103,14 @@ Checks whether such a key exists.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.hasKey(key)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -125,14 +125,14 @@ A default value can be provided in case there is no existing value.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.getBoolean(key, defaultValue)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -147,14 +147,14 @@ A default value can be provided in case there is no existing value.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.getString(key, defaultValue)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -169,14 +169,14 @@ A default value to be returned can be provided in case there is no existing valu
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.getNumber(key, defaultValue)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -190,14 +190,14 @@ ApplicationSettings.getNumber(key, defaultValue)
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.remove(key)
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -211,14 +211,14 @@ Removes all values from the local storage.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.clear()
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----
@@ -232,14 +232,14 @@ Returns an array of all stored keys or an empty array if no keys exist in the st
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
 ApplicationSettings.getAllKeys()
 ----
 
-TS::
+TypeScript::
 +
 [,typescript]
 ----

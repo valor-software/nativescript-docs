@@ -35,7 +35,7 @@ ObjC::
 @end
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -96,7 +96,7 @@ ObjC::
 NSString *className = NSStringFromClass([NSArray class]);
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -117,7 +117,7 @@ NSDate *date = [NSDate date];
 NSString *formattedDate = [formatter stringFromDate:date];
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -142,7 +142,7 @@ UIButton *button = [[buttonClass alloc] init];
 [array setObject:button atIndex:1];
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -161,7 +161,7 @@ In the tabs, you will find the Objective-C code for a function accepting a `CGFl
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -229,7 +229,7 @@ ObjC::
 BOOL isCopying = [NSArray conformsToProtocol:@protocol(NSCopying)];
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -253,7 +253,7 @@ NSMutableString *aString = [[NSMutableString alloc] init];
 BOOL hasAppend = [aString respondsToSelector:@selector(appendString:)];
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -282,7 +282,7 @@ NSURLRequest *request = [NSURLRequest requestWithURL:url];
 }];
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----

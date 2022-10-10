@@ -133,7 +133,7 @@ HTML::
   </ng-template>
 </ListView>
 ----
-TS::
+TypeScript::
 +
 [,js]
 ----
@@ -228,7 +228,7 @@ XML::
 </ListView>
 ----
 
-TS::
+TypeScript::
 +
 [,js]
 ----

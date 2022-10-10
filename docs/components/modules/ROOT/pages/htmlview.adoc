@@ -52,7 +52,7 @@ XML::
 <HtmlView loaded="onHtmlLoaded" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

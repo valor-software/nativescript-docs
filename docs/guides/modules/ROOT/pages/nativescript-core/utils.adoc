@@ -10,7 +10,7 @@
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -31,7 +31,7 @@ Verifies if the specified `path` is a valid resource or local file path.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -68,7 +68,7 @@ Returns true if the specified URI is data URI (http://en.wikipedia.org/wiki/Data
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -93,7 +93,7 @@ False otherwise.
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -114,7 +114,7 @@ Escapes special regex symbols (., *, {caret}, $, etc.) in string in order to cre
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -133,7 +133,7 @@ Utils.openUrl('https://thiscatdoesnotexist.com/')
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -158,7 +158,7 @@ Converts a string value to a number or boolean;
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----

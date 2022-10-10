@@ -73,7 +73,7 @@ See link:#parent-binding[Parent Binding] In the example from link:#binding-in-co
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -82,7 +82,7 @@ page.bindingContext = source
 stackLayout.bindingContext = source
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -135,7 +135,7 @@ HTML::
 </StackLayout>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -145,7 +145,7 @@ source.set('onTap', function (eventData) {
 page.bindingContext = source
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -278,7 +278,7 @@ HTML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -464,7 +464,7 @@ XML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----

@@ -8,7 +8,7 @@ The FileSystem module provides high-level abstractions for file system entities 
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -38,7 +38,7 @@ export function createViewModel() {
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -87,7 +87,7 @@ file
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -122,7 +122,7 @@ file
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -157,7 +157,7 @@ folder
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -192,7 +192,7 @@ folder
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -247,7 +247,7 @@ file
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -280,7 +280,7 @@ file
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -335,7 +335,7 @@ const image = ImageSource.fromResource('icon')
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -360,7 +360,7 @@ console.log(`Does Text.txt exists: ${exists}`)
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -419,7 +419,7 @@ file
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -440,7 +440,7 @@ const folder: Folder = Folder.fromPath(folderPath)
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----

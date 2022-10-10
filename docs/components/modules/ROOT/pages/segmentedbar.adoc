@@ -201,7 +201,7 @@ HTML::
 </segmentedBar>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----

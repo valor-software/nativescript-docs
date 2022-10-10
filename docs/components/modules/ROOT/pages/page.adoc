@@ -169,7 +169,7 @@ HTML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,ts]
 ----

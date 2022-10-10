@@ -217,7 +217,7 @@ class Activity extends androidx.appcompat.app.AppCompatActivity {
 }
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----

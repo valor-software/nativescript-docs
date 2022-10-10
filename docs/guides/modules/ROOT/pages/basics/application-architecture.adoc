@@ -12,7 +12,7 @@ To do this, you need to call the `Application.run()` method and pass a `Navigati
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -20,7 +20,7 @@ import { Application } from '@nativescript/core'
 Application.run({ moduleName: 'app-root' })
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -71,7 +71,7 @@ XML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -81,7 +81,7 @@ export function onPageLoaded(args) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -142,7 +142,7 @@ XML::
 <Frame loaded="onFrameLoaded" defaultPage="home-page" />
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -152,7 +152,7 @@ export function onFrameLoaded(args) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -193,7 +193,7 @@ XML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -203,7 +203,7 @@ export function onPageLoaded(args) {
 }
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -313,7 +313,7 @@ XML::
 </Page>
 ----
 
-JS::
+JavaScript::
 +
 [,js]
 ----

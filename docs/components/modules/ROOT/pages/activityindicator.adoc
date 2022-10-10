@@ -46,7 +46,7 @@ XML::
 />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -76,7 +76,7 @@ HTML::
 ----
 <activityIndicator busy="{true}" on:busyChange="{onBusyChanged}" />
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----
@@ -100,7 +100,7 @@ HTML::
 ----
 <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----

@@ -23,6 +23,10 @@ Ensure you've included xmlns:ui="@nativescript/mlkit-core" on the Page element
 
 === Angular
 
+[tabs]
+====
+TypeScript::
++
 [,ts]
 ----
 import { MLKitModule } from '@nativescript/mlkit-core/angular';
@@ -38,6 +42,8 @@ import { MLKitModule } from '@nativescript/mlkit-core/angular';
 })
 ----
 
+HTML::
++
 [,html]
 ----
 <MLKitView
@@ -46,9 +52,14 @@ import { MLKitModule } from '@nativescript/mlkit-core/angular';
   (detection)="onDetection($event)"
 ></MLKitView>
 ----
+====
 
 === Vue
 
+[tabs]
+====
+TypeScript::
++
 [,ts]
 ----
 import Vue from 'nativescript-vue'
@@ -57,10 +68,11 @@ import MLKit from '@nativescript/mlkit-core/vue'
 Vue.use(MLKit)
 ----
 
+HTML::
++
 [,html]
 ----
 <MLKitView cameraPosition="back" detectionType="all" @detection="onDetection" />
 ----
-
-
+====
 

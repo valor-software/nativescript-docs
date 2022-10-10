@@ -58,7 +58,7 @@ XML::
 <Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

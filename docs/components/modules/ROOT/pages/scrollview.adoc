@@ -83,7 +83,7 @@ XML::
 </ScrollView>
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

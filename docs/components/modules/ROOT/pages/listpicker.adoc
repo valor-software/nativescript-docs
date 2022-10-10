@@ -31,7 +31,7 @@ XML::
 <ListPicker items="{{ years }}" selectedIndex="0" loaded="onListPickerLoaded" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -94,7 +94,7 @@ TSX::
 ----
 <listPicker items="{listOfItems}" bind:selectedIndex="{selectedItem}" />
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----

@@ -185,7 +185,7 @@ Calling with `0`, `360`, or `-360` will do nothing (since it sets the hue back t
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----

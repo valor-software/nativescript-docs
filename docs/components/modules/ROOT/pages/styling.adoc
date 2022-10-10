@@ -463,7 +463,7 @@ CSS::
 }
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -496,7 +496,7 @@ CSS::
 }
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

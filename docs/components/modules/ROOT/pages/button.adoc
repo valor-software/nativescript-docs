@@ -43,7 +43,7 @@ XML::
 <Button text="Tap me!" tap="onTap" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

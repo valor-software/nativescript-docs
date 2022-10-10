@@ -58,7 +58,7 @@ In order to use the custom TraceWriter instance, you have to register it with th
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,js]
 ----

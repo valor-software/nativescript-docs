@@ -58,7 +58,7 @@ XML::
 <Placeholder creatingView="creatingView" />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -119,7 +119,7 @@ HTML::
 ----
 <Placeholder @creatingView="creatingView" />
 ----
-JS::
+JavaScript::
 +
 [,js]
 ----

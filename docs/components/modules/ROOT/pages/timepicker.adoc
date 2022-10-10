@@ -27,7 +27,7 @@ HTML::
 </TimePicker>
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----
@@ -72,7 +72,7 @@ XML::
 />
 ----
 
-TS::
+TypeScript::
 +
 [,js]
 ----

@@ -52,7 +52,7 @@ XML::
 />
 ----
 
-TS::
+TypeScript::
 +
 [,ts]
 ----

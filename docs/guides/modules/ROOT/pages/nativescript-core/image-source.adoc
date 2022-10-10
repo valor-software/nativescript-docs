@@ -8,7 +8,7 @@ This class encapsulates the common abstraction behind a platform specific object
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -40,7 +40,7 @@ The method `fromResource('name')` creates an ImageSource instance and loads it a
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -83,7 +83,7 @@ Use the `ImageSource.fromFile(path)` method to load an ImageSource instance from
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -138,7 +138,7 @@ async function createImageSourceFromFile() {
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
@@ -195,7 +195,7 @@ Use `ImageSource.fromBase64(source)` method to asynchronously load an image inst
 
 [tabs]
 ====
-JS::
+JavaScript::
 +
 [,javascript]
 ----
