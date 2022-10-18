@@ -12,7 +12,7 @@ From the command prompt go to your app's root folder and execute:
 [discrete]
 ==== NativeScript 7+:
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/local-notifications
 ----
@@ -20,7 +20,7 @@ npm install @nativescript/local-notifications
 [discrete]
 ==== NativeScript prior to 7:
 
-[,cli]
+[,bash]
 ----
 tnpm install nativescript-local-notifications@4.2.1
 ----

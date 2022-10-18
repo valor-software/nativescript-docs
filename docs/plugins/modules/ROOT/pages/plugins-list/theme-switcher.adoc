@@ -2,7 +2,7 @@
 
 == @nativescript/theme-switcher
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/theme-switcher
 ----

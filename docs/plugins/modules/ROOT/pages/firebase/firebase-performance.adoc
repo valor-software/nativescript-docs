@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-performance
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-performance
 ----

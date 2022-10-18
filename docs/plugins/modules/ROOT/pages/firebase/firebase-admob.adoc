@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-admob
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-admob
 ----

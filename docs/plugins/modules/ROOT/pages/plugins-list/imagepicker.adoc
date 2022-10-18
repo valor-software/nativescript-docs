@@ -8,7 +8,7 @@ Imagepicker plugin supporting both single and multiple selection.
 For Android 6 (API 23) and above the permissions to read file storage should be explicitly required.
 See demo for implementation details.
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/imagepicker
 ----

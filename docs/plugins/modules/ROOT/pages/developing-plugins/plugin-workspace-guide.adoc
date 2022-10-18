@@ -25,7 +25,7 @@ With our new workspace now in GitHub we can now clone it to begin developing plu
 
 image::https://nativescript.org/images/create-view-component-images/create-workspace3.png[create-workspace3,600]
 
-[,cli]
+[,bash]
 ----
 git clone https://github.com/nstudio/nativescript-ui-kit.git
 Cloning into 'nativescript-ui-kit'...
@@ -38,7 +38,7 @@ cd nativescript-ui-kit
 . This first step will ensure all the dependencies are installed properly and only really needs to be run once after cloning the workspace.
 You can also use it anytime you simply want to clean/reset the workspace dependencies.
 
-[,cli]
+[,bash]
 ----
 npm run setup
 ----
@@ -70,7 +70,7 @@ npm run config
 
 Let's add a package to develop a plugin, for example: `@nstudio/nativescript-label-marquee`
 
-[,cli]
+[,bash]
 ----
 npm run add
 
@@ -94,7 +94,7 @@ This created a `packages/nativescript-label-marquee` folder containing a plugin 
 
 == How to focus on just 1 package to develop in isolation
 
-[,cli]
+[,bash]
 ----
 npm start
 ----
@@ -110,7 +110,7 @@ You can reset anytime with `npm start` > `focus.reset` ENTER
 
 == How to publish packages?
 
-[,cli]
+[,bash]
 ----
 npm run publish-packages
 ----
@@ -129,7 +129,7 @@ Only if you want to provide Angular-specific behavior, for example, custom direc
 
 You can https://github.com/NativeScript/plugins/blob/main/packages/datetimepicker/angular/nativescript-datetimepicker.accessors.ts[see an example of Angular-specific behavior in a plugin here].
 
-[,cli]
+[,bash]
 ----
 npm run add-angular
 ----
@@ -141,7 +141,7 @@ At the prompt, enter the name of the package to add an `angular` folder to it wi
 One of the nice benefits of using our plugin workspaces is updating them is made simple and efficient through Nx tooling.
 The TSC maintains plugin workspace migrations, so whenever one is available you can update your plugin workspace with just a few simple commands (which will often provide dependency version bumps of supporting packages to latest NativeScript versions, configuration improvements, as well as other welcome additions to help you create and maintain NativeScript plugins):
 
-[,cli]
+[,bash]
 ----
 yarn nx migrate @nativescript/plugin-tools
 ----
@@ -150,7 +150,7 @@ That will fetch `latest` version of `plugin-tools`, analyze the package to see i
 
 Sometimes `@nativescript/plugin-tools` updates won't need any migrations, so you won't always see migrations available, but if it states they are available, you can run them as the message states:
 
-[,cli]
+[,bash]
 ----
 // install latest updates
 yarn
@@ -209,7 +209,7 @@ After migrating:
 
 * If using Angular integrations, you may run into issues like the following:
 
-[,cli]
+[,bash]
 ----
 ✖ Compiling with Angular sources in Ivy partial compilation mode.
 Error: packages/picker/angular/picker.accessors.ts:30:14 - error NG3001: Unsupported private class PickerValueAccessor. This class is visible to consumers via NativeScriptPickerModule -> PickerValueAccessor, but is not exported from the top-level library entrypoint.

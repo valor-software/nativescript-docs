@@ -4,7 +4,7 @@
 
 Geolocation plugin to use for getting current location, monitor movement, etc.
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/geolocation
 ----

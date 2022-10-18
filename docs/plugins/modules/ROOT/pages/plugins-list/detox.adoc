@@ -24,7 +24,7 @@ Easily add https://github.com/wix/Detox[Detox] end-to-end testing to your Native
 
 == Installation
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/detox
 ----

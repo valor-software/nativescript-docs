@@ -2,7 +2,7 @@
 
 == @nativescript/social-share
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/social-share
 ----

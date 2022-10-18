@@ -2,7 +2,7 @@
 
 == @nativescript/biometrics
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/biometrics
 ----

@@ -3,7 +3,7 @@
 
 A plugin to check for availability of other apps on the device.
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/appavailability
 ----

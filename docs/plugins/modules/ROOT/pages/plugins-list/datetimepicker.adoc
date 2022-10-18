@@ -17,7 +17,7 @@ There is also a `DateTimePicker` class which provides static methods `pickDate` 
 
 
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/datetimepicker
 ----

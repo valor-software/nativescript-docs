@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-analytics
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-analytics
 ----

@@ -6,7 +6,7 @@ This plugin is replaced by xref:plugins::plugins-list/biometrics.adoc[@nativescr
 
 == @nativescript/fingerprint-auth
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/fingerprint-auth
 ----

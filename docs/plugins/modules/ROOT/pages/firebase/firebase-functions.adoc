@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-functions
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-functions
 ----

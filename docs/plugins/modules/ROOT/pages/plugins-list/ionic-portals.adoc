@@ -8,7 +8,7 @@ ____
 Ionic Portals are supercharged native WebView components for iOS and Android that let you add web-based experiences to native mobile apps.
 ____
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/ionic-portals
 ----

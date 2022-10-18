@@ -2,7 +2,7 @@
 
 == @nativescript/brightness
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/brightness
 ----

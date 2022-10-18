@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-crashlytics
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-crashlytics
 ----

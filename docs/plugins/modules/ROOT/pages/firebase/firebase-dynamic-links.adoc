@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-dynamic-links
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-dynamic-links
 ----

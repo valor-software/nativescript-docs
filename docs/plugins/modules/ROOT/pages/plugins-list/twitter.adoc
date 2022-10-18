@@ -2,7 +2,7 @@
 
 == @nativescript/twitter
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/twitter
 ----

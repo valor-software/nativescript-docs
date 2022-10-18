@@ -2,7 +2,7 @@
 
 == @nativescript/zip
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/zip
 ----

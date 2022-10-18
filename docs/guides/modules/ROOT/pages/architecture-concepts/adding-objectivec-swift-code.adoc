@@ -109,7 +109,7 @@ function generateNativeIOSHMAC() {
 
 . Build your NativeScript application by running the following, and you should see the base64encryptedKey print in your terminal.
 +
-[,cli]
+[,bash]
 ----
 ns clean
 ns run ios --no-hmr

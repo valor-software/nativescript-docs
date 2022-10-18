@@ -2,7 +2,7 @@
 
 == @nativescript/google-signin
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/google-signin
 ----

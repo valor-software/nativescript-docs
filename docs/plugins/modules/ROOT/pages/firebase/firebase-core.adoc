@@ -3,7 +3,7 @@
 
 == @nativescript/firebase-core
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-core
 ----

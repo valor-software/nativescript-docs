@@ -185,7 +185,7 @@ module.exports = env => {
 
 To change an existing rule, it's useful to know how it has been set up first:
 
-[,cli]
+[,bash]
 ----
 ns prepare android|ios --env.verbose
 # Note: we plan to add a separate command to just print the internal config

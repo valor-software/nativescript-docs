@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-remote-config
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-remote-config
 ----

@@ -50,7 +50,7 @@ Installing the plugin adds a `webpack.config.js` file which contains sensible de
 In case you need to update your project dependencies or regenerate the configuration file, you can do that by running the `update-ns-webpack` script that comes with the plugin:
 
 
-[,cli]
+[,bash]
 ----
 ./node_modules/.bin/update-ns-webpack --configs --deps
 ----
@@ -77,14 +77,14 @@ A full introduction to webpack and related technologies is beyond the scope of t
 The Webpack bundling and Hot Module Replacement is enabled by default.
 That means that the known CLI commands like `run` and `build` won't need any additional flags.
 
-[,cli]
+[,bash]
 ----
 ns run <platform>
 ----
 
 or
 
-[,cli]
+[,bash]
 ----
 ns build <platform>
 ----
@@ -101,7 +101,7 @@ With NativeScript 6.0.0 and above, Webpack is the primary developer workflow and
 
 You can also provide environmental variables to the Webpack build:
 
-[,cli]
+[,bash]
 ----
 ns build android --env.development --env.property=value
 ----
@@ -120,7 +120,7 @@ module.exports = env => {
 
 Create a bundled version of the application for Android in release with the known release command — no additional flags are needed:
 
-[,cli]
+[,bash]
 ----
 ns build android --release \
     --keyStorePath ~/path/to/keystore \
@@ -133,7 +133,7 @@ Once this is finished, proceed with uploading the output .apk file in the `<proj
 
 You can build a bundled version of the application for iOS in release with this script:
 
-[,cli]
+[,bash]
 ----
 ns build ios --release --forDevice --teamId TEAM_ID
 ----
@@ -146,7 +146,7 @@ Once the release build is ready, you have two options:
 This is the recommended option.
 * Specify your development team in `<project>/app/App_Resources/iOS/build.xcconfig` from the command line and execute
 
-[,cli]
+[,bash]
 ----
 ns publish ios --ipa ipa-file-path-here
 ----
@@ -167,7 +167,7 @@ The plugin performs code minification and improves the size of the bundle.
 It is disabled by default because it slows down the building process during development.
 You can enable it by providing the `--env.uglify` flag:
 
-[,cli]
+[,bash]
 ----
 ns build android|ios --env.uglify
 ----
@@ -212,7 +212,7 @@ You could change the destination directory by editing your configuration.
 The default webpack configuration includes the https://www.npmjs.com/package/webpack-bundle-analyzer[webpack-bundle-analyzer] plugin.
 To generate a report provide the `--env.report` flag:
 
-[,cli]
+[,bash]
 ----
 ns build android|ios --env.report
 ----
@@ -305,7 +305,7 @@ Then, we will add the featured lazy-loaded *HomeModule*.
 
 * Create the Hello World Angular template
 +
-[,cli]
+[,bash]
 ----
 ns create my-app --ng
 cd my-app
@@ -467,14 +467,14 @@ To use UglifyJS as part of your NativeScript builds, all you need to do is add a
 
 That is, run one of the following commands.
 
-[,cli]
+[,bash]
 ----
 ns run android --env.uglify
 ----
 
 or
 
-[,cli]
+[,bash]
 ----
 ns run ios --env.uglify
 ----
@@ -509,7 +509,7 @@ In other words, instead of NativeScript fetching, parsing, and executing scripts
 In NativeScript we're integrated this process directly within our webpack build process;
 therefore, running a build with V8 heap snapshots enabled is as simple as adding a `--env.snapshot` flag to the previous step.
 
-[,cli]
+[,bash]
 ----
 ns run android --env.uglify --env.snapshot
 ----
@@ -539,14 +539,14 @@ As a reference, here is a brief summary of the commands you need to run to enabl
 
 . Run on iOS with, UglifyJS, and Angular Ahead-of-Time enabled.
 +
-[,cli]
+[,bash]
 ----
 ns run ios --env.uglify --env.aot
 ----
 +
 . Run on Android with, UglifyJS, Angular Ahead-of-Time (if using Angular), and V8 heap snapshot builds enabled.
 +
-[,cli]
+[,bash]
 ----
 ns run android --env.uglify --env.aot --env.snapshot
 ----

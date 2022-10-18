@@ -24,7 +24,7 @@ image::plugins::nativescript-ui/list-view-overview_2.png[2]
 
 In Command prompt / Terminal navigate to your application root folder and run:
 
-[,cli]
+[,bash]
 ----
 ns plugin add nativescript-ui-listview
 ----

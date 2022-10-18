@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-firestore
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-firestore
 ----

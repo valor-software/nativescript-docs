@@ -1250,7 +1250,7 @@ SASS files with the same name as a NativeScript page will still be automatically
 
 You can use SASS with either enabling it manually:
 
-[,cli]
+[,bash]
 ----
 npm i sass --save-dev
 ----
@@ -1258,7 +1258,7 @@ npm i sass --save-dev
 Or by using a template that has SASS already enabled.
 For example:
 
-[,cli]
+[,bash]
 ----
 ns create  mySassApp --template @nativescript/template-drawer-navigation-ts
 ----
@@ -1266,7 +1266,7 @@ ns create  mySassApp --template @nativescript/template-drawer-navigation-ts
 For projects created with NativeScript 5.x and below (which are using the legacy `nativescript-dev-webpack`), you can run the `migrate` command to update the SASS compiler (and remove the legacy plugin).
 Note that the `migrate` command is available in NativeScript CLI 6 and above.
 
-[,cli]
+[,bash]
 ----
 ns migrate
 ----

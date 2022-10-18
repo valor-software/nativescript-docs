@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-messaging
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-messaging
 ----

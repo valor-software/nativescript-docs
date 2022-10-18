@@ -35,14 +35,14 @@ Some templates are listed in the NativeScript CLI when creating a new project wi
 
 To create a new project, run:
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp
 ----
 
 If you'd like to try one of the other templates not listed by `ns create` run:
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp --template <template-package-name>
 ----
@@ -52,7 +52,7 @@ ns create myCoolApp --template <template-package-name>
 If you want to skip the interactive prompts, you can pass:
 
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp --angular // or --ng for short
 ns create myCoolApp --vue
@@ -74,13 +74,13 @@ A basic template with a single page and no custom styles.
 [options="header"]
 |===
 |iOS |Android
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png[]
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png[]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-ios.png[width=640,height=480]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-blank/tools/assets/appTemplate-android.png[width=640,height=480]
 |===
 
 To use, run:
 
-[source%linenums,cli]
+[,bash]
 ----
 ns create myCoolApp --template @nativescript/template-blank
 ----
@@ -92,13 +92,13 @@ A simple template with a side drawer.
 [options="header"]
 |===
 |iOS |Android
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-ios.png[]
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-android.png[]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-ios.png[width=640,height=480]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-drawer-navigation/tools/assets/appTemplate-android.png[width=640,height=480]
 |===
 
 To use, run:
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp --template @nativescript/template-drawer-navigation
 ----
@@ -110,13 +110,13 @@ A simple template with multiple tabs.
 [options="header"]
 |===
 |iOS |Android
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png[]
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png[]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-ios.png[width=640,height=480]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-tab-navigation/tools/assets/appTemplate-android.png[width=640,height=480]
 |===
 
 To use, run:
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp --template @nativescript/template-tab-navigation
 ----
@@ -128,13 +128,13 @@ A simple template with a ListView and a "Details" screen.
 [options="header"]
 |===
 |iOS |Android
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png[]
-|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-android.png[]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-ios.png[width=640,height=480]
+|image:https://raw.githubusercontent.com/NativeScript/nativescript-app-templates/master/packages/template-master-detail/tools/assets/appTemplate-android.png[width=640,height=480]
 |===
 
 To use, run:
 
-[source%linenums,cli]
+[, bash]
 ----
 ns create myCoolApp --template @nativescript/template-master-detail
 ----
@@ -158,14 +158,14 @@ Here is the list of the six main blank templates depending on the coding languag
 
 Creating your template is as simple as cloning the wanted template repository and modifying the source code to satisfy your business logic.
 
-[source%linenums,cli]
+[, bash]
 ----
 git clone https://github.com/NativeScript/template-blank-ts.git
 ----
 
 As of NativeScript 4.x.x the application templates have a mobile application structure, so you could develop your template by following the standard developer workflow.
 
-[source%linenums,cli]
+[, bash]
 ----
 cd template-blank-ts
 npm i
@@ -190,11 +190,16 @@ otherwise, the `ns create` CLI command will not function properly.
 === Package.json Guidelines
 
 * Place a `package.json` file in the root folder of your app template.
-+ Note this is not the actual root package.json of the generated mobile app -- it is only used by the `ns create` CLI command upon app creation.
++
+[NOTE]
+====
+This is not the actual root package.json of the generated mobile app -- it is only used by the `ns create` CLI command upon app creation.
 Do not expect that everything you place in your package.json will be transferred to the actual package.json file.
 Notably `scripts` property content is removed.
 However, if you provide preinstall/post-install scripts, they will be executed before getting removed.
 You can use this mechanism to generate/move settings files to the root folder of the generated app and generate actual "script" content for the resulting app package.json -- see https://github.com/NativeScript/nativescript-app-templates/blob/master/shared/hooks/after-createProject/after-createProject.js[generating `scripts` commands on-the-fly] for concrete examples.
+====
++
 * Provide a value for the `name` property using the format: *ns-template-[custom-template-name-goes-here]-ts*.
 + Note this property value is NOT transferred to the root package.json file generated by the `ns create` CLI command but can be found in the app/package.json file of the generated app.
 * Provide a value for the `version` property following semver rules (e.g., 1.0.0).
@@ -210,10 +215,14 @@ You can use this mechanism to generate/move settings files to the root folder of
  ** Note correct `repository` property value is essential for the future integration with NativeScript Marketplace.
 Check the following section "`Marketplace guidelines`" for other integration requirements as well.
 * Provide a value for the following additional set of package.json properties: `description`, `license`, `readme`, `dependencies`, `devDependencies`.
-+ Note these property values are transferred to the root package.json file generated by the `ns create` CLI command.
++
+[NOTE]
+====
+These property values are transferred to the root package.json file generated by the `ns create` CLI command.
+
 For example, https://github.com/NativeScript/nativescript-app-templates/blob/master/packages/template-master-detail-ts/package.json[package.json] has the following minimal structure:
 
-[source%linenums,JSON]
+[,json]
 ----
 {
   "name": "@nativescript/template-master-detail-ts",
@@ -238,8 +247,9 @@ For example, https://github.com/NativeScript/nativescript-app-templates/blob/mas
   }
 }
 ----
-
-* Provide a value for the `keywords`.
+====
++
+. Provide a value for the `keywords`.
 Keywords can be very helpful for the discoverability of the template.
 Also, there are special keywords that could be used to make the template appear in the https://market.nativescript.org/[NativeScript marketplace,] especially and under certain conditions.
 The following keywords are supported:

@@ -2,7 +2,7 @@
 
 == @nativescript/directions
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/directions
 ----

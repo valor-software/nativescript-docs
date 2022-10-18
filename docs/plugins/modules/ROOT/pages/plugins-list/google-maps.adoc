@@ -10,7 +10,7 @@ To use the Google Maps API, you must register your app in the https://console.cl
 
 == Installation
 
-[,cli]
+[,bash]
 ----
 ns plugin add @nativescript/google-maps
 ----
@@ -248,9 +248,9 @@ The following events are available:
 | Fires when the level of the focused building changes
 |===
 
-= Google Map
+== Google Map
 
-== Instance
+=== Instance
 
 A GoogleMap instance is required from the map view to access many of the mapping features.
 The GoogleMaps instance is available from the ``MapView``s `ready` event:
@@ -262,9 +262,9 @@ function onReady(event: MapReadyEvent) {
 }
 ----
 
-== API
+=== API
 
-=== Properties
+==== Properties
 
 |===
 | Property | Type | Description
@@ -299,7 +299,7 @@ function onReady(event: MapReadyEvent) {
 
 | `uiSettings`
 | IUISettings
-| See <<ui-settings,UI Settings>>
+| See <<UI Settings,UI Settings>>
 
 | `cameraPosition`
 | CameraPosition
@@ -314,7 +314,7 @@ function onReady(event: MapReadyEvent) {
 | See <<Native Map Object,Native Map Object>>
 |===
 
-=== Functions
+==== Functions
 
 |===
 | Func | Description

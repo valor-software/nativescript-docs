@@ -2,7 +2,7 @@
 
 == @nativescript/firebase-auth
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/firebase-auth
 ----

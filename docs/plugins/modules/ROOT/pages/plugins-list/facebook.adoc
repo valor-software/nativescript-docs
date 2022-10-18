@@ -2,7 +2,7 @@
 
 == @nativescript/facebook
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/facebook
 ----

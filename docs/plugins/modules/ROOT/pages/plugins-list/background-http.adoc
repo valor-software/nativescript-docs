@@ -2,7 +2,7 @@
 
 == @nativescript/background-http
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/background-http
 ----

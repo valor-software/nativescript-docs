@@ -2,7 +2,7 @@
 
 == @nativescript/auto-fit-text
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/auto-fit-text
 ----

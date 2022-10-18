@@ -4,7 +4,7 @@
 
 Advanced iOS debugging made possible via https://github.com/FLEXTool/FLEX[Flex].
 
-[,cli]
+[,bash]
 ----
 npm install @nativescript/debug-ios -D
 ----

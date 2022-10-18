@@ -29,14 +29,14 @@ If you have not upgraded yet, please read the docs below for usage with older `@
 
 Install `@nativescript/tailwind` and `tailwindcss`
 
-[,cli]
+[,bash]
 ----
 npm install --save @nativescript/tailwind tailwindcss
 ----
 
 Generate a `tailwind.config.js` with
 
-[,cli]
+[,bash]
 ----
 npx tailwindcss init
 ----
@@ -92,7 +92,7 @@ module.exports = {
 ====
 if you want to apply customizations to `tailwindcss` or `@nativescript/tailwind`, you will need to disable autoloading:
 
-[,cli]
+[,bash]
 ----
 ns config set tailwind.autoload false
 ----

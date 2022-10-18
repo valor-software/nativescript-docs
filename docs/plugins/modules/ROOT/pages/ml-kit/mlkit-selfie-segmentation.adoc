@@ -11,4 +11,4 @@ npm install @nativescript/mlkit-selfie-segmentation
 
 == Usage
 
-See xref:/packages/mlkit-core/README.adoc[@nativescript/mlkit-core] Usage
+//TODO: Add

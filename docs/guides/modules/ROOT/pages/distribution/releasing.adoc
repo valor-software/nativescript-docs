@@ -10,7 +10,7 @@ You can publish a NativeScript app in _Google Play_ the same way http://develope
 For more information, see http://developer.android.com/tools/publishing/app-signing.html#signing-manually[How to create a .keystore file]?
 . Build your project in release mode by running the following command:
 +
-[,cli]
+[,bash]
 ----
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
@@ -30,14 +30,14 @@ Example:
 ====
 Windows::
 +
-[,cli]
+[,bash]
 ----
 ns build android --release --key-store-path C:\keystore\NativeScriptApp.keystore --key-store-password sample_password --key-store-alias NativeScriptApp --key-store-alias-password sample_password
 ----
 
 Mac::
 +
-[,cli]
+[,bash]
 ----
 ns build android --release --key-store-path ~/Desktop/keystore/NativeScriptApp.keystore --key-store-password sample_password --key-store-alias NativeScriptApp --key-store-alias-password sample_password
 ----
@@ -279,7 +279,7 @@ Notice that you can *NOT* have custom folders inside your App_Resources.
 Only folders that are required by the Android convention are allowed, and they must be created with the exact names provided, (e.g., *values*, *values-v21*, *drawable*).
 When adding new folders in your `App_Resources`, you should reset your platform folder.
 
-[,cli]
+[,bash]
 ----
 ns platform remove android
 ns platform add android
@@ -317,7 +317,7 @@ Ensure long validity when creating a new certificate (for 20+ years).
 
 You can generate a private key for a release certificate using the http://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html[keytool].
 
-[,cli]
+[,bash]
 ----
 keytool -genkey -v \
   -keystore <my-release-key>.keystore \
@@ -376,7 +376,7 @@ In the `app/App_Resources/Android/AndroidManifest.xml`, the _versionCode_ and _v
 
 You can perform a full build and produce a signed APK using the NativeScript CLI:
 
-[,cli]
+[,bash]
 ----
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
@@ -471,7 +471,7 @@ For more information about the Android App Bundle, see the About Android App Bun
 
 You can perform a full build and produce a signed AAB using the NativeScript CLI:
 
-[,cli]
+[,bash]
 ----
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
@@ -509,7 +509,7 @@ android {
 
 Starting from NativeScript CLI 6.2.0, the Android App Bundle is supported out of the box by the `ns run` command:
 
-[,cli]
+[,bash]
 ----
 ns run android \
   --key-store-path <path-to-your-keystore> \
@@ -525,7 +525,7 @@ For older NativeScript version, in order to test the `apk` files that Google Pla
 
 If you use the `bundletool` you should first generate an `.apks` file that will later be used to deploy on a device.
 
-[,cli]
+[,bash]
 ----
 java -jar <toolPath>/bundletool.jar build-apks \
   --bundle=<somePath>/app.aab  \
@@ -545,7 +545,7 @@ On such devices `bundletool` will not be able to deploy the application.
 When the bundle is released, Google Play will serve a single multi-APK to such devices.
 ====
 
-[,cli]
+[,bash]
 ----
 java -jar <toolPath>/bundletool.jar install-apks \
   --apks="somePath/my_app.apks" \
@@ -556,7 +556,7 @@ You can find more information about using Android `bundletool` https://developer
 
 You can perform a full build and produce a signed AAB using the NativeScript CLI:
 
-[,cli]
+[,bash]
 ----
 ns build android --release \
   --key-store-path <path-to-your-keystore> \
@@ -584,7 +584,7 @@ You can publish a NativeScript app in the _App Store_ the same way you would htt
 
 . Verify that the iOS native project inside your app contains your latest changes and resources by running the following command.
 +
-[,cli]
+[,bash]
 ----
 ns prepare ios --release
 ----
@@ -1009,7 +1009,7 @@ Go to https://developer.apple.com/account/ios/device/deviceList.action.
 To register a phone, you will need its UDID.
 Connect it to the Mac and run in a terminal:
 
-[,cli]
+[,bash]
 ----
 instruments -s devices
 ----
@@ -1143,7 +1143,7 @@ export CFBundleVersion=`/usr/libexec/PlistBuddy app/App_Resources/iOS/Info.plist
 
 You can execute the following command inside a NativeScript project using the CLI:
 
-[,cli]
+[,bash]
 ----
 ns publish ios
 ----
@@ -1152,14 +1152,14 @@ The command will prompt for your `Apple ID` and `Password` for authentication wi
 
 Alternatively, you can use an existing build by running the following command:
 
-[,cli]
+[,bash]
 ----
 ns publish ios --ipa <path-to-ipa>
 ----
 
 For more information, run the following command:
 
-[,cli]
+[,bash]
 ----
 ns help publish ios
 ----
@@ -1168,7 +1168,7 @@ ns help publish ios
 
 You can execute the following command using the CLI:
 
-[,cli]
+[,bash]
 ----
 ns prepare ios
 ----
@@ -1203,14 +1203,14 @@ From there you can enable Test Flight beta testing or send it for approval.
 Automation can be achieved by using the NativeScript CLI only.
 All the parameters needed for publishing can be passed to the `publish` command directly:
 
-[,cli]
+[,bash]
 ----
 ns publish ios [<Apple ID> [<Password> [<Mobile Provisioning Profile Identifier> [<Code Sign Identity>]]]]]
 ----
 
 For example, assuming that you want to issue a build using a mobile provision with an identifier _d5d40f61-b303-4fc8-aea3-fbb229a8171c_, you could run:
 
-[,cli]
+[,bash]
 ----
 ns publish ios my-apple-id my-password d5d40f61-b303-4fc8-aea3-fbb229a8171c "iPhone Distribution"
 ----
@@ -1219,7 +1219,7 @@ Note that the `Code Sign Identity` can be set to something generic like _iPhone 
 
 You can also automate the uploads of already built packages:
 
-[,cli]
+[,bash]
 ----
 ns publish ios my-apple-id my-password --ipa /tmp/build/myIpa.ipa
 ----
