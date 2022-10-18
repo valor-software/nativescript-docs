@@ -5,8 +5,8 @@ jobs:
   build_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.4
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - run: npm i @antora/lunr-extension && cd build && npx --yes antora local-preview-site.yml && export SITE_SEARCH_PROVIDER="lunr"
